@@ -23,7 +23,16 @@ NR_PTCACHE_PAGES=1100000 # --- 2GB per socket
 XSBENCH_ARGS=" -- -p 25000000 -g 920000 "
 GRAPH500_ARGS=" -- -s 29 -e 21"
 BENCH_ARGS=""
-BTREE_ARGS=" -- -n 350000000"
+
+BENCH_size="small"
+if [ $BENCH_size == "small" ]; then
+        BTREE_ARGS=""
+        HASH_ARGS=""
+else 
+        BTREE_ARGS=" -- -n 350000000"
+        HASH_ARGS=" -- -o 100000000 -i 10000000 -s 10000000"       
+fi
+
 
 #***********************Script-Arguments***********************
 if [ $# -ne 2 ]; then
@@ -176,6 +185,8 @@ test_and_set_configs()
                 BENCH_ARGS=$GRAPH500_ARGS
         elif [ $BENCHMARK == "btree" ]; then
                 BENCH_ARGS=$BTREE_ARGS
+        elif [ $BENCHMARK == "hashjoin" ]; then
+                BENCH_ARGS=$HASH_ARGS
         fi
 
 }
