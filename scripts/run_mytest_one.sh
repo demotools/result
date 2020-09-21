@@ -23,7 +23,7 @@ NR_PTCACHE_PAGES=1100000 # --- 2GB per socket
 XSBENCH_ARGS=" -- -p 25000000 -g 920000 "
 GRAPH500_ARGS=" -- -s 29 -e 21"
 BENCH_ARGS=""
-
+BTREE_ARGS=" -- -n 350000000"
 
 #***********************Script-Arguments***********************
 if [ $# -ne 2 ]; then
@@ -174,6 +174,8 @@ test_and_set_configs()
                 BENCH_ARGS=$XSBENCH_ARGS
         elif [ $BENCHMARK == "graph500" ]; then
                 BENCH_ARGS=$GRAPH500_ARGS
+        elif [ $BENCHMARK == "btree" ]; then
+                BENCH_ARGS=$BTREE_ARGS
         fi
 
 }
