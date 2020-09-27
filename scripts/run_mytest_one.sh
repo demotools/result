@@ -135,8 +135,11 @@ test_and_set_configs()
         fi
         # obtain the number of available nodes
         NODESTR=$(numactl --hardware | grep available)
+        echo $NODESTR
         NODE_MAX=$(echo ${NODESTR##*: } | cut -d " " -f 1)
+        echo $NODE_MAX
         NODE_MAX=`expr $NODE_MAX - 1`
+        echo $NODE_MAX
         CMD_PREFIX=$NUMACTL
 
         # --- check interleaving
