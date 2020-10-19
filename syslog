@@ -1118,3 +1118,1770 @@ Oct 19 16:59:17 ubuntu kernel: [  307.059683] ------PTREPL: free pgd start------
 Oct 19 16:59:17 ubuntu kernel: [  307.059686] [mitosis] pgtable_repl_pgd_free mm->pgd=ffff0003b9b76000.
 Oct 19 16:59:17 ubuntu kernel: [  307.059688] ------PTREPL: free pgd done------
 Oct 19 16:59:37 ubuntu systemd[1]: Started Session 4 of user huawei.
+Oct 19 17:09:17 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 19 17:09:17 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Oct 19 17:17:01 ubuntu CRON[1832]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped target Network is Online.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped target Graphical Interface.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping Authorization Manager...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping Accounts Service...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping LVM2 PV scan on device 8:2...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping Session 1 of user huawei.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped target Multi-User System.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping OpenBSD Secure Shell server...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping Deferred execution scheduler...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping irqbalance daemon...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping LSB: Record successful boot for GRUB...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped Wait until snapd is fully seeded.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping D-Bus System Message Bus...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped target Login Prompts.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping Getty on tty1...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping Serial Getty on ttyAMA0...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping FUSE filesystem for LXC...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopping Regular background program processing daemon...
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped target Timers.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped Message of the Day.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped Discard unused blocks once a week.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped Daily apt upgrade and clean activities.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped Daily apt download activities.
+Oct 19 17:48:16 ubuntu systemd[1]: Stopped target System Time Synchronized.
+Oct 19 17:48:48 ubuntu systemd-modules-load[692]: Inserted module 'iscsi_tcp'
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Booting Linux on physical CPU 0x0000000000 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Linux version 4.15.0-76-generic (buildd@bos02-arm64-060) (gcc version 7.4.0 (Ubuntu/Linaro 7.4.0-1ubuntu1~18.04.1)) #86-Ubuntu SMP Fri Jan 17 17:25:58 UTC 2020 (Ubuntu 4.15.0-76.86-generic 4.15.18)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] efi: Getting EFI parameters from FDT:
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] efi: EFI v2.70 by EDK II
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] efi:  SMBIOS 3.0=0x53f710000  ACPI 2.0=0x53c020000  MEMATTR=0x53cc7ca98 
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: RSDP 0x000000053C020000 000024 (v02 BOCHS )
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: XSDT 0x000000053BED0000 000054 (v01 BOCHS  BXPCFACP 00000001      01000013)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: FACP 0x000000053BE90000 00010C (v05 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: DSDT 0x000000053BEA0000 001523 (v02 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Oct 19 17:48:48 ubuntu lvm[673]:   2 logical volume(s) in volume group "ubuntu-vg" monitored
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: APIC 0x000000053BE80000 0009E8 (v03 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: GTDT 0x000000053BE70000 000060 (v02 BOCHS  BXPCGTDT 00000001 BXPC 00000001)
+Oct 19 17:48:48 ubuntu systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: MCFG 0x000000053BE60000 00003C (v01 BOCHS  BXPCMCFG 00000001 BXPC 00000001)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: SPCR 0x000000053BE50000 000050 (v02 BOCHS  BXPCSPCR 00000001 BXPC 00000001)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: IORT 0x000000053BE40000 00007C (v00 BOCHS  BXPCIORT 00000001 BXPC 00000001)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: SPCR: console: pl011,mmio,0x9000000,9600
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: NUMA: Failed to initialise from firmware
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] NUMA: Faking a node at [mem 0x0000000040000000-0x000000053fffffff]
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] NUMA: NODE_DATA [mem 0x53ffead00-0x53ffedfff]
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Zone ranges:
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   DMA      [mem 0x0000000040000000-0x00000000ffffffff]
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   Normal   [mem 0x0000000100000000-0x000000053fffffff]
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Movable zone start for each node
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Early memory node ranges
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x0000000040000000-0x000000053bedffff]
+Oct 19 17:48:48 ubuntu systemd-modules-load[692]: Inserted module 'ib_iser'
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053bee0000-0x000000053bffffff]
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053c000000-0x000000053c02ffff]
+Oct 19 17:48:48 ubuntu systemd[1]: Started Set the console keyboard layout.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053c030000-0x000000053c0affff]
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053c0b0000-0x000000053f57ffff]
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053f580000-0x000000053f95ffff]
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053f960000-0x000000053fffffff]
+Oct 19 17:48:48 ubuntu systemd[1]: Started Load Kernel Modules.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000040000000-0x000000053fffffff]
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] On node 0 totalpages: 5242880
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   DMA zone: 12288 pages used for memmap
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   DMA zone: 0 pages reserved
+Oct 19 17:48:48 ubuntu systemd[1]: Mounting Kernel Configuration File System...
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   DMA zone: 786432 pages, LIFO batch:31
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   Normal zone: 69632 pages used for memmap
+Oct 19 17:48:48 ubuntu systemd[1]: Mounting FUSE Control File System...
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]   Normal zone: 4456448 pages, LIFO batch:31
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] psci: probing for conduit method from ACPI.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] psci: PSCIv1.0 detected in firmware.
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Apply Kernel Variables...
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] psci: Using standard PSCI v0.2 function IDs
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] psci: Trusted OS migration not required
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] psci: SMC Calling Convention v1.1
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] random: get_random_bytes called from start_kernel+0xa8/0x474 with crng_init=0
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] percpu: Embedded 25 pages/cpu s62104 r8192 d32104 u102400
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] pcpu-alloc: s62104 r8192 d32104 u102400 alloc=25*4096
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Local File Systems (Pre).
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 00 [0] 01 [0] 02 [0] 03 [0] 04 [0] 05 [0] 06 [0] 07 
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 08 [0] 09 [0] 10 [0] 11 [0] 12 [0] 13 [0] 14 [0] 15 
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 16 [0] 17 [0] 18 [0] 19 [0] 20 [0] 21 [0] 22 [0] 23 
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 24 [0] 25 [0] 26 [0] 27 [0] 28 [0] 29 [0] 30 [0] 31 
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Detected VIPT I-cache on CPU0
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ARM_SMCCC_ARCH_WORKAROUND_1 missing from firmware
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 5160960
+Oct 19 17:48:48 ubuntu systemd[1]: Started udev Kernel Device Manager.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Policy zone: Normal
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-76-generic root=/dev/mapper/ubuntu--vg-root ro
+Oct 19 17:48:48 ubuntu systemd[1]: Mounted Kernel Configuration File System.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] software IO TLB: mapped [mem 0xfbfff000-0xfffff000] (64MB)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Memory: 20490720K/20971520K available (11068K kernel code, 1698K rwdata, 4464K rodata, 5952K init, 1183K bss, 480800K reserved, 0K cma-reserved)
+Oct 19 17:48:48 ubuntu systemd[1]: Mounted FUSE Control File System.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Virtual kernel memory layout:
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]     modules : 0xffff000000000000 - 0xffff000008000000   (   128 MB)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]     vmalloc : 0xffff000008000000 - 0xffff7dffbfff0000   (129022 GB)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]       .text : 0x        (ptrval) - 0x        (ptrval)   ( 11072 KB)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]     .rodata : 0x        (ptrval) - 0x        (ptrval)   (  4480 KB)
+Oct 19 17:48:48 ubuntu systemd[1]: Started Apply Kernel Variables.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]       .init : 0x        (ptrval) - 0x        (ptrval)   (  5952 KB)
+Oct 19 17:48:48 ubuntu systemd[1]: Started Flush Journal to Persistent Storage.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]       .data : 0x        (ptrval) - 0x        (ptrval)   (  1699 KB)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]        .bss : 0x        (ptrval) - 0x        (ptrval)   (  1184 KB)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]     fixed   : 0xffff7dfffe7f9000 - 0xffff7dfffec00000   (  4124 KB)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]     PCI I/O : 0xffff7dfffee00000 - 0xffff7dffffe00000   (    16 MB)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]     vmemmap : 0xffff7e0000000000 - 0xffff800000000000   (  2048 GB maximum)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]               0xffff7e0000000000 - 0xffff7e0014000000   (   320 MB actual)
+Oct 19 17:48:48 ubuntu systemd[1]: Started udev Coldplug all Devices.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000]     memory  : 0xffff800000000000 - 0xffff800500000000   ( 20480 MB)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=32, Nodes=1
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ftrace: allocating 39368 entries in 154 pages
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] Hierarchical RCU implementation.
+Oct 19 17:48:48 ubuntu systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=32.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] 	Tasks RCU enabled.
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Local Encrypted Volumes.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=32
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+Oct 19 17:48:48 ubuntu systemd[1]: Found device /dev/ttyAMA0.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] GICv3: Distributor has no Range Selector support
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] GICv3: no VLPI support, no direct LPI support
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ACPI: SRAT not present
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ITS [mem 0x08080000-0x0809ffff]
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ITS@0x0000000008080000: allocated 8192 Devices @529120000 (indirect, esz 8, psz 64K, shr 1)
+Oct 19 17:48:48 ubuntu systemd-udevd[784]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ITS@0x0000000008080000: allocated 8192 Interrupt Collections @529130000 (flat, esz 8, psz 64K, shr 1)
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] GIC: using LPI property table @0x0000000529140000
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] ITS: Allocated 1792 chunks for LPIs
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] GICv3: CPU0: found redistributor 0 region 0:0x00000000080a0000
+Oct 19 17:48:48 ubuntu systemd-udevd[745]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] CPU0: using LPI pending table @0x0000000529150000
+Oct 19 17:48:48 ubuntu systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] arch_timer: cp15 timer(s) running at 100.00MHz (virt).
+Oct 19 17:48:48 ubuntu kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x171024e7e0, max_idle_ns: 440795205315 ns
+Oct 19 17:48:48 ubuntu kernel: [    0.000001] sched_clock: 56 bits at 100MHz, resolution 10ns, wraps every 4398046511100ns
+Oct 19 17:48:48 ubuntu kernel: [    0.000198] Console: colour dummy device 80x25
+Oct 19 17:48:48 ubuntu systemd[1]: Found device /dev/mapper/ubuntu--vg-swap_1.
+Oct 19 17:48:48 ubuntu kernel: [    0.000260] ACPI: Core revision 20170831
+Oct 19 17:48:48 ubuntu kernel: [    0.000976] ACPI: 1 ACPI AML tables successfully acquired and loaded
+Oct 19 17:48:48 ubuntu kernel: [    0.000987] Calibrating delay loop (skipped), value calculated using timer frequency.. 200.00 BogoMIPS (lpj=400000)
+Oct 19 17:48:48 ubuntu kernel: [    0.000991] pid_max: default: 32768 minimum: 301
+Oct 19 17:48:48 ubuntu systemd[1]: Activating swap /dev/mapper/ubuntu--vg-swap_1...
+Oct 19 17:48:48 ubuntu kernel: [    0.001054] Security Framework initialized
+Oct 19 17:48:48 ubuntu kernel: [    0.001063] Yama: becoming mindful.
+Oct 19 17:48:48 ubuntu systemd[1]: Activated swap /dev/mapper/ubuntu--vg-swap_1.
+Oct 19 17:48:48 ubuntu kernel: [    0.001307] AppArmor: AppArmor initialized
+Oct 19 17:48:48 ubuntu kernel: [    0.020333] Dentry cache hash table entries: 4194304 (order: 13, 33554432 bytes)
+Oct 19 17:48:48 ubuntu kernel: [    0.029890] Inode-cache hash table entries: 2097152 (order: 12, 16777216 bytes)
+Oct 19 17:48:48 ubuntu kernel: [    0.030210] Mount-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Oct 19 17:48:48 ubuntu kernel: [    0.030506] Mountpoint-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Swap.
+Oct 19 17:48:48 ubuntu kernel: [    0.031790] ACPI PPTT: No PPTT table found, cpu topology may be inaccurate
+Oct 19 17:48:48 ubuntu kernel: [    0.031986] ASID allocator initialised with 32768 entries
+Oct 19 17:48:48 ubuntu systemd[1]: Created slice system-lvm2\x2dpvscan.slice.
+Oct 19 17:48:48 ubuntu kernel: [    0.032028] Hierarchical SRCU implementation.
+Oct 19 17:48:48 ubuntu kernel: [    0.032599] Platform MSI: ITS@0x8080000 domain created
+Oct 19 17:48:48 ubuntu kernel: [    0.032616] PCI/MSI: ITS@0x8080000 domain created
+Oct 19 17:48:48 ubuntu systemd[1]: Starting LVM2 PV scan on device 8:2...
+Oct 19 17:48:48 ubuntu systemd[1]: Found device QEMU_HARDDISK 1.
+Oct 19 17:48:48 ubuntu systemd[1]: Starting File System Check on /dev/disk/by-uuid/5EA9-3D4C...
+Oct 19 17:48:48 ubuntu kernel: [    0.032694] Remapping and enabling EFI services.
+Oct 19 17:48:48 ubuntu kernel: [    0.032712]   EFI remap 0x0000000004000000 =>         (ptrval)
+Oct 19 17:48:48 ubuntu kernel: [    0.032720]   EFI remap 0x0000000009010000 =>         (ptrval)
+Oct 19 17:48:48 ubuntu kernel: [    0.032738]   EFI remap 0x000000053bee0000 =>         (ptrval)
+Oct 19 17:48:48 ubuntu kernel: [    0.032750]   EFI remap 0x000000053bf60000 =>         (ptrval)
+Oct 19 17:48:48 ubuntu kernel: [    0.032763]   EFI remap 0x000000053bfb0000 =>         (ptrval)
+Oct 19 17:48:48 ubuntu kernel: [    0.032780]   EFI remap 0x000000053c030000 =>         (ptrval)
+Oct 19 17:48:48 ubuntu kernel: [    0.032827]   EFI remap 0x000000053f580000 =>         (ptrval)
+Oct 19 17:48:48 ubuntu kernel: [    0.032895]   EFI remap 0x000000053f710000 =>         (ptrval)
+Oct 19 17:48:48 ubuntu kernel: [    0.033670] smp: Bringing up secondary CPUs ...
+Oct 19 17:48:48 ubuntu kernel: [    0.126026] Detected VIPT I-cache on CPU1
+Oct 19 17:48:48 ubuntu kernel: [    0.126043] GICv3: CPU1: found redistributor 1 region 0:0x00000000080c0000
+Oct 19 17:48:48 ubuntu kernel: [    0.126252] CPU1: using LPI pending table @0x00000005254a0000
+Oct 19 17:48:48 ubuntu kernel: [    0.126288] CPU1: Booted secondary processor 0x0000000001 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    0.238614] Detected VIPT I-cache on CPU2
+Oct 19 17:48:48 ubuntu kernel: [    0.238642] GICv3: CPU2: found redistributor 2 region 0:0x00000000080e0000
+Oct 19 17:48:48 ubuntu kernel: [    0.238920] CPU2: using LPI pending table @0x00000005254e0000
+Oct 19 17:48:48 ubuntu kernel: [    0.238973] CPU2: Booted secondary processor 0x0000000002 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    0.321250] Detected VIPT I-cache on CPU3
+Oct 19 17:48:48 ubuntu kernel: [    0.321273] GICv3: CPU3: found redistributor 3 region 0:0x0000000008100000
+Oct 19 17:48:48 ubuntu kernel: [    0.321530] CPU3: using LPI pending table @0x0000000525520000
+Oct 19 17:48:48 ubuntu kernel: [    0.321572] CPU3: Booted secondary processor 0x0000000003 [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd[1]: Started File System Check Daemon to report status.
+Oct 19 17:48:48 ubuntu kernel: [    0.412030] Detected VIPT I-cache on CPU4
+Oct 19 17:48:48 ubuntu kernel: [    0.412074] GICv3: CPU4: found redistributor 4 region 0:0x0000000008120000
+Oct 19 17:48:48 ubuntu kernel: [    0.412357] CPU4: using LPI pending table @0x0000000525550000
+Oct 19 17:48:48 ubuntu kernel: [    0.412426] CPU4: Booted secondary processor 0x0000000004 [0x481fd010]
+Oct 19 17:48:48 ubuntu lvm[872]:   2 logical volume(s) in volume group "ubuntu-vg" now active
+Oct 19 17:48:48 ubuntu kernel: [    0.500115] Detected VIPT I-cache on CPU5
+Oct 19 17:48:48 ubuntu systemd-fsck[873]: fsck.fat 4.1 (2017-01-24)
+Oct 19 17:48:48 ubuntu systemd-fsck[873]: /dev/sda1: 5 files, 41/65501 clusters
+Oct 19 17:48:48 ubuntu kernel: [    0.500152] GICv3: CPU5: found redistributor 5 region 0:0x0000000008140000
+Oct 19 17:48:48 ubuntu kernel: [    0.500410] CPU5: using LPI pending table @0x0000000525590000
+Oct 19 17:48:48 ubuntu kernel: [    0.500466] CPU5: Booted secondary processor 0x0000000005 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    0.714693] Detected VIPT I-cache on CPU6
+Oct 19 17:48:48 ubuntu kernel: [    0.714724] GICv3: CPU6: found redistributor 6 region 0:0x0000000008160000
+Oct 19 17:48:48 ubuntu systemd[1]: Started File System Check on /dev/disk/by-uuid/5EA9-3D4C.
+Oct 19 17:48:48 ubuntu kernel: [    0.714972] CPU6: using LPI pending table @0x00000005255c0000
+Oct 19 17:48:48 ubuntu kernel: [    0.715015] CPU6: Booted secondary processor 0x0000000006 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    0.927306] Detected VIPT I-cache on CPU7
+Oct 19 17:48:48 ubuntu kernel: [    0.927374] GICv3: CPU7: found redistributor 7 region 0:0x0000000008180000
+Oct 19 17:48:48 ubuntu kernel: [    0.927636] CPU7: using LPI pending table @0x0000000525620000
+Oct 19 17:48:48 ubuntu kernel: [    0.927681] CPU7: Booted secondary processor 0x0000000007 [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd[1]: Started LVM2 PV scan on device 8:2.
+Oct 19 17:48:48 ubuntu kernel: [    1.010153] Detected VIPT I-cache on CPU8
+Oct 19 17:48:48 ubuntu kernel: [    1.010238] GICv3: CPU8: found redistributor 8 region 0:0x00000000081a0000
+Oct 19 17:48:48 ubuntu kernel: [    1.010676] CPU8: using LPI pending table @0x0000000525770000
+Oct 19 17:48:48 ubuntu kernel: [    1.010784] CPU8: Booted secondary processor 0x0000000008 [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd[1]: Mounting /boot/efi...
+Oct 19 17:48:48 ubuntu kernel: [    1.223130] Detected VIPT I-cache on CPU9
+Oct 19 17:48:48 ubuntu systemd[1]: Mounted /boot/efi.
+Oct 19 17:48:48 ubuntu kernel: [    1.223186] GICv3: CPU9: found redistributor 9 region 0:0x00000000081c0000
+Oct 19 17:48:48 ubuntu kernel: [    1.223490] CPU9: using LPI pending table @0x00000005257b0000
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Local File Systems.
+Oct 19 17:48:48 ubuntu kernel: [    1.223551] CPU9: Booted secondary processor 0x0000000009 [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Set console font and keymap...
+Oct 19 17:48:48 ubuntu systemd[1]: Starting ebtables ruleset management...
+Oct 19 17:48:48 ubuntu kernel: [    1.441527] Detected VIPT I-cache on CPU10
+Oct 19 17:48:48 ubuntu systemd[1]: Starting AppArmor initialization...
+Oct 19 17:48:48 ubuntu kernel: [    1.441566] GICv3: CPU10: found redistributor a region 0:0x00000000081e0000
+Oct 19 17:48:48 ubuntu kernel: [    1.441812] CPU10: using LPI pending table @0x00000005257e0000
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct 19 17:48:48 ubuntu kernel: [    1.441866] CPU10: Booted secondary processor 0x000000000a [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Create Volatile Files and Directories...
+Oct 19 17:48:48 ubuntu systemd[1]: Started Set console font and keymap.
+Oct 19 17:48:48 ubuntu kernel: [    1.654987] Detected VIPT I-cache on CPU11
+Oct 19 17:48:48 ubuntu kernel: [    1.655019] GICv3: CPU11: found redistributor b region 0:0x0000000008200000
+Oct 19 17:48:48 ubuntu kernel: [    1.655235] CPU11: using LPI pending table @0x0000000525820000
+Oct 19 17:48:48 ubuntu kernel: [    1.655279] CPU11: Booted secondary processor 0x000000000b [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    1.737722] Detected VIPT I-cache on CPU12
+Oct 19 17:48:48 ubuntu systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Oct 19 17:48:48 ubuntu kernel: [    1.737762] GICv3: CPU12: found redistributor c region 0:0x0000000008220000
+Oct 19 17:48:48 ubuntu kernel: [    1.737979] CPU12: using LPI pending table @0x0000000525860000
+Oct 19 17:48:48 ubuntu kernel: [    1.738021] CPU12: Booted secondary processor 0x000000000c [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    1.820561] Detected VIPT I-cache on CPU13
+Oct 19 17:48:48 ubuntu systemd[1]: Started Create Volatile Files and Directories.
+Oct 19 17:48:48 ubuntu kernel: [    1.820607] GICv3: CPU13: found redistributor d region 0:0x0000000008240000
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct 19 17:48:48 ubuntu kernel: [    1.820933] CPU13: using LPI pending table @0x00000005258a0000
+Oct 19 17:48:48 ubuntu kernel: [    1.820979] CPU13: Booted secondary processor 0x000000000d [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Network Time Synchronization...
+Oct 19 17:48:48 ubuntu kernel: [    1.903680] Detected VIPT I-cache on CPU14
+Oct 19 17:48:48 ubuntu apparmor[883]:  * Starting AppArmor profiles
+Oct 19 17:48:48 ubuntu systemd[1]: Started ebtables ruleset management.
+Oct 19 17:48:48 ubuntu kernel: [    1.903723] GICv3: CPU14: found redistributor e region 0:0x0000000008260000
+Oct 19 17:48:48 ubuntu kernel: [    1.903921] CPU14: using LPI pending table @0x00000005258d0000
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Network (Pre).
+Oct 19 17:48:48 ubuntu kernel: [    1.903962] CPU14: Booted secondary processor 0x000000000e [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Network Service...
+Oct 19 17:48:48 ubuntu systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct 19 17:48:48 ubuntu kernel: [    1.986518] Detected VIPT I-cache on CPU15
+Oct 19 17:48:48 ubuntu systemd-networkd[903]: Enumeration completed
+Oct 19 17:48:48 ubuntu systemd[1]: Started Network Service.
+Oct 19 17:48:48 ubuntu kernel: [    1.986561] GICv3: CPU15: found redistributor f region 0:0x0000000008280000
+Oct 19 17:48:48 ubuntu kernel: [    1.986789] CPU15: using LPI pending table @0x0000000525930000
+Oct 19 17:48:48 ubuntu kernel: [    1.986828] CPU15: Booted secondary processor 0x000000000f [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    2.070004] Detected VIPT I-cache on CPU16
+Oct 19 17:48:48 ubuntu systemd-networkd[903]: lo: Link is not managed by us
+Oct 19 17:48:48 ubuntu kernel: [    2.070072] GICv3: CPU16: found redistributor 100 region 0:0x00000000082a0000
+Oct 19 17:48:48 ubuntu kernel: [    2.070284] CPU16: using LPI pending table @0x0000000525aa0000
+Oct 19 17:48:48 ubuntu kernel: [    2.070321] CPU16: Booted secondary processor 0x0000000100 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    2.288695] Detected VIPT I-cache on CPU17
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Network Name Resolution...
+Oct 19 17:48:48 ubuntu kernel: [    2.288748] GICv3: CPU17: found redistributor 101 region 0:0x00000000082c0000
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Wait for Network to be Configured...
+Oct 19 17:48:48 ubuntu kernel: [    2.289008] CPU17: using LPI pending table @0x0000000525ad0000
+Oct 19 17:48:48 ubuntu systemd-networkd-wait-online[921]: ignoring: lo
+Oct 19 17:48:48 ubuntu systemd-networkd[903]: enp1s0: Gained carrier
+Oct 19 17:48:48 ubuntu kernel: [    2.289066] CPU17: Booted secondary processor 0x0000000101 [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd-networkd-wait-online[921]: ignoring: lo
+Oct 19 17:48:48 ubuntu kernel: [    2.506296] Detected VIPT I-cache on CPU18
+Oct 19 17:48:48 ubuntu kernel: [    2.506352] GICv3: CPU18: found redistributor 102 region 0:0x00000000082e0000
+Oct 19 17:48:48 ubuntu kernel: [    2.506743] CPU18: using LPI pending table @0x0000000525b10000
+Oct 19 17:48:48 ubuntu kernel: [    2.506836] CPU18: Booted secondary processor 0x0000000102 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    2.600655] Detected VIPT I-cache on CPU19
+Oct 19 17:48:48 ubuntu kernel: [    2.600711] GICv3: CPU19: found redistributor 103 region 0:0x0000000008300000
+Oct 19 17:48:48 ubuntu kernel: [    2.600985] CPU19: using LPI pending table @0x0000000525b40000
+Oct 19 17:48:48 ubuntu kernel: [    2.601028] CPU19: Booted secondary processor 0x0000000103 [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd-networkd-wait-online[921]: ignoring: lo
+Oct 19 17:48:48 ubuntu apparmor[883]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct 19 17:48:48 ubuntu systemd[1]: Started Network Time Synchronization.
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target System Time Synchronized.
+Oct 19 17:48:48 ubuntu kernel: [    2.772149] Detected VIPT I-cache on CPU20
+Oct 19 17:48:48 ubuntu systemd-resolved[920]: Positive Trust Anchors:
+Oct 19 17:48:48 ubuntu systemd-resolved[920]: . IN DS 19036 8 2 49aac11d7b6f6446702e54a1607371607a1a41855200fd2ce1cdde32f24e8fb5
+Oct 19 17:48:48 ubuntu kernel: [    2.772208] GICv3: CPU20: found redistributor 104 region 0:0x0000000008320000
+Oct 19 17:48:48 ubuntu systemd-resolved[920]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Oct 19 17:48:48 ubuntu systemd-resolved[920]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct 19 17:48:48 ubuntu kernel: [    2.772442] CPU20: using LPI pending table @0x0000000525b80000
+Oct 19 17:48:48 ubuntu systemd-resolved[920]: Using system hostname 'ubuntu'.
+Oct 19 17:48:48 ubuntu kernel: [    2.772495] CPU20: Booted secondary processor 0x0000000104 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    2.864964] Detected VIPT I-cache on CPU21
+Oct 19 17:48:48 ubuntu systemd[1]: Started Network Name Resolution.
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Network.
+Oct 19 17:48:48 ubuntu kernel: [    2.865084] GICv3: CPU21: found redistributor 105 region 0:0x0000000008340000
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Host and Network Name Lookups.
+Oct 19 17:48:48 ubuntu kernel: [    2.865577] CPU21: using LPI pending table @0x0000000525bc0000
+Oct 19 17:48:48 ubuntu kernel: [    2.865666] CPU21: Booted secondary processor 0x0000000105 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    2.953114] Detected VIPT I-cache on CPU22
+Oct 19 17:48:48 ubuntu kernel: [    2.953173] GICv3: CPU22: found redistributor 106 region 0:0x0000000008360000
+Oct 19 17:48:48 ubuntu apparmor[883]:    ...done.
+Oct 19 17:48:48 ubuntu kernel: [    2.953374] CPU22: using LPI pending table @0x0000000525c10000
+Oct 19 17:48:48 ubuntu kernel: [    2.953424] CPU22: Booted secondary processor 0x0000000106 [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd[1]: Started AppArmor initialization.
+Oct 19 17:48:48 ubuntu kernel: [    3.171584] Detected VIPT I-cache on CPU23
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target System Initialization.
+Oct 19 17:48:48 ubuntu systemd[1]: Started Message of the Day.
+Oct 19 17:48:48 ubuntu kernel: [    3.171643] GICv3: CPU23: found redistributor 107 region 0:0x0000000008380000
+Oct 19 17:48:48 ubuntu systemd[1]: Listening on ACPID Listen Socket.
+Oct 19 17:48:48 ubuntu kernel: [    3.171889] CPU23: using LPI pending table @0x0000000525d60000
+Oct 19 17:48:48 ubuntu kernel: [    3.171934] CPU23: Booted secondary processor 0x0000000107 [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd[1]: Started Discard unused blocks once a week.
+Oct 19 17:48:48 ubuntu kernel: [    3.391738] Detected VIPT I-cache on CPU24
+Oct 19 17:48:48 ubuntu systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct 19 17:48:48 ubuntu kernel: [    3.391792] GICv3: CPU24: found redistributor 108 region 0:0x00000000083a0000
+Oct 19 17:48:48 ubuntu systemd[1]: Started ACPI Events Check.
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Paths.
+Oct 19 17:48:48 ubuntu kernel: [    3.392038] CPU24: using LPI pending table @0x0000000525da0000
+Oct 19 17:48:48 ubuntu systemd[1]: Started Daily apt download activities.
+Oct 19 17:48:48 ubuntu kernel: [    3.392080] CPU24: Booted secondary processor 0x0000000108 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    3.475481] Detected VIPT I-cache on CPU25
+Oct 19 17:48:48 ubuntu kernel: [    3.475575] GICv3: CPU25: found redistributor 109 region 0:0x00000000083c0000
+Oct 19 17:48:48 ubuntu systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct 19 17:48:48 ubuntu kernel: [    3.475763] CPU25: using LPI pending table @0x0000000525de0000
+Oct 19 17:48:48 ubuntu kernel: [    3.475805] CPU25: Booted secondary processor 0x0000000109 [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    3.564508] Detected VIPT I-cache on CPU26
+Oct 19 17:48:48 ubuntu kernel: [    3.564573] GICv3: CPU26: found redistributor 10a region 0:0x00000000083e0000
+Oct 19 17:48:48 ubuntu kernel: [    3.564796] CPU26: using LPI pending table @0x0000000525e10000
+Oct 19 17:48:48 ubuntu kernel: [    3.564846] CPU26: Booted secondary processor 0x000000010a [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    3.782516] Detected VIPT I-cache on CPU27
+Oct 19 17:48:48 ubuntu systemd[1]: Listening on UUID daemon activation socket.
+Oct 19 17:48:48 ubuntu kernel: [    3.782587] GICv3: CPU27: found redistributor 10b region 0:0x0000000008400000
+Oct 19 17:48:48 ubuntu kernel: [    3.782876] CPU27: using LPI pending table @0x0000000525e50000
+Oct 19 17:48:48 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Socket activation for snappy daemon.
+Oct 19 17:48:48 ubuntu kernel: [    3.782916] CPU27: Booted secondary processor 0x000000010b [0x481fd010]
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Timers.
+Oct 19 17:48:48 ubuntu kernel: [    4.004261] Detected VIPT I-cache on CPU28
+Oct 19 17:48:48 ubuntu kernel: [    4.004334] GICv3: CPU28: found redistributor 10c region 0:0x0000000008420000
+Oct 19 17:48:48 ubuntu systemd[1]: Starting LXD - unix socket.
+Oct 19 17:48:48 ubuntu systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Oct 19 17:48:48 ubuntu kernel: [    4.004597] CPU28: using LPI pending table @0x0000000525e90000
+Oct 19 17:48:48 ubuntu systemd[1]: Listening on Socket activation for snappy daemon.
+Oct 19 17:48:48 ubuntu kernel: [    4.004654] CPU28: Booted secondary processor 0x000000010c [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    4.191683] Detected VIPT I-cache on CPU29
+Oct 19 17:48:48 ubuntu kernel: [    4.191759] GICv3: CPU29: found redistributor 10d region 0:0x0000000008440000
+Oct 19 17:48:48 ubuntu kernel: [    4.191995] CPU29: using LPI pending table @0x0000000525fb0000
+Oct 19 17:48:48 ubuntu kernel: [    4.192056] CPU29: Booted secondary processor 0x000000010d [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    4.401200] Detected VIPT I-cache on CPU30
+Oct 19 17:48:48 ubuntu kernel: [    4.401270] GICv3: CPU30: found redistributor 10e region 0:0x0000000008460000
+Oct 19 17:48:48 ubuntu kernel: [    4.401521] CPU30: using LPI pending table @0x0000000525ff0000
+Oct 19 17:48:48 ubuntu kernel: [    4.401561] CPU30: Booted secondary processor 0x000000010e [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    4.625008] Detected VIPT I-cache on CPU31
+Oct 19 17:48:48 ubuntu kernel: [    4.625086] GICv3: CPU31: found redistributor 10f region 0:0x0000000008480000
+Oct 19 17:48:48 ubuntu systemd[1]: Listening on LXD - unix socket.
+Oct 19 17:48:48 ubuntu kernel: [    4.625314] CPU31: using LPI pending table @0x0000000524050000
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Sockets.
+Oct 19 17:48:48 ubuntu systemd[1]: Reached target Basic System.
+Oct 19 17:48:48 ubuntu kernel: [    4.625384] CPU31: Booted secondary processor 0x000000010f [0x481fd010]
+Oct 19 17:48:48 ubuntu kernel: [    4.625583] smp: Brought up 1 node, 32 CPUs
+Oct 19 17:48:48 ubuntu kernel: [    4.625638] SMP: Total of 32 processors activated.
+Oct 19 17:48:48 ubuntu kernel: [    4.625642] CPU features: detected: GIC system register CPU interface
+Oct 19 17:48:48 ubuntu systemd[1]: Started FUSE filesystem for LXC.
+Oct 19 17:48:48 ubuntu kernel: [    4.625644] CPU features: detected: Privileged Access Never
+Oct 19 17:48:48 ubuntu kernel: [    4.625645] CPU features: detected: LSE atomic instructions
+Oct 19 17:48:48 ubuntu kernel: [    4.625646] CPU features: detected: User Access Override
+Oct 19 17:48:48 ubuntu kernel: [    4.625648] CPU features: detected: Data cache clean to Point of Persistence
+Oct 19 17:48:48 ubuntu systemd[1]: Started Deferred execution scheduler.
+Oct 19 17:48:48 ubuntu kernel: [    4.625649] CPU features: detected: RAS Extension Support
+Oct 19 17:48:48 ubuntu systemd[1]: Started Regular background program processing daemon.
+Oct 19 17:48:48 ubuntu kernel: [    4.865692] CPU: All CPU(s) started at EL1
+Oct 19 17:48:48 ubuntu systemd[1]: Starting System Logging Service...
+Oct 19 17:48:48 ubuntu kernel: [    4.865847] alternatives: patching kernel code
+Oct 19 17:48:48 ubuntu kernel: [    4.881286] devtmpfs: initialized
+Oct 19 17:48:48 ubuntu kernel: [    4.881552] evm: security.selinux
+Oct 19 17:48:48 ubuntu cron[970]: (CRON) INFO (pidfile fd = 3)
+Oct 19 17:48:48 ubuntu kernel: [    4.881554] evm: security.SMACK64
+Oct 19 17:48:48 ubuntu systemd[1]: Started irqbalance daemon.
+Oct 19 17:48:48 ubuntu kernel: [    4.881555] evm: security.SMACK64EXEC
+Oct 19 17:48:48 ubuntu kernel: [    4.881556] evm: security.SMACK64TRANSMUTE
+Oct 19 17:48:48 ubuntu kernel: [    4.881557] evm: security.SMACK64MMAP
+Oct 19 17:48:48 ubuntu cron[970]: (CRON) INFO (Running @reboot jobs)
+Oct 19 17:48:48 ubuntu kernel: [    4.881558] evm: security.apparmor
+Oct 19 17:48:48 ubuntu systemd[1]: Starting LSB: Record successful boot for GRUB...
+Oct 19 17:48:48 ubuntu kernel: [    4.881559] evm: security.ima
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Accounts Service...
+Oct 19 17:48:48 ubuntu kernel: [    4.881561] evm: security.capability
+Oct 19 17:48:48 ubuntu kernel: [    4.882031] Registered cp15_barrier emulation handler
+Oct 19 17:48:48 ubuntu kernel: [    4.882181] Registered setend emulation handler
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Snappy daemon...
+Oct 19 17:48:48 ubuntu kernel: [    4.882626] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct 19 17:48:48 ubuntu kernel: [    4.882713] futex hash table entries: 8192 (order: 8, 1048576 bytes)
+Oct 19 17:48:48 ubuntu rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+Oct 19 17:48:48 ubuntu kernel: [    4.883775] pinctrl core: initialized pinctrl subsystem
+Oct 19 17:48:48 ubuntu rsyslogd: rsyslogd's groupid changed to 106
+Oct 19 17:48:48 ubuntu kernel: [    4.884280] SMBIOS 3.0.0 present.
+Oct 19 17:48:48 ubuntu rsyslogd: rsyslogd's userid changed to 102
+Oct 19 17:48:48 ubuntu kernel: [    4.884284] DMI: QEMU KVM Virtual Machine, BIOS 0.0.0 02/06/2015
+Oct 19 17:48:48 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="971" x-info="http://www.rsyslog.com"] start
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ arch_timer(2) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.884586] NET: Registered protocol family 16
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ uart-pl011(4) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.885812] audit: initializing netlink subsys (disabled)
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ arm-pmu(42) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.885987] audit: type=2000 audit(4.760:1): state=initialized audit_enabled=0 res=1
+Oct 19 17:48:48 ubuntu kernel: [    4.886246] cpuidle: using governor ladder
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ ACPI:Event(43) guessed as class 0
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ pciehp(44) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.886255] cpuidle: using governor menu
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ pciehp(45) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.886309] vdso: 2 pages (1 code @         (ptrval), 1 data @         (ptrval))
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ pciehp(46) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.886324] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+Oct 19 17:48:48 ubuntu kernel: [    4.888803] DMA: preallocated 256 KiB pool for atomic allocations
+Oct 19 17:48:48 ubuntu kernel: [    4.888833] ACPI: bus type PCI registered
+Oct 19 17:48:48 ubuntu kernel: [    4.888845] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 19 17:48:48 ubuntu kernel: [    4.888966] Serial: AMBA PL011 UART driver
+Oct 19 17:48:48 ubuntu kernel: [    4.891683] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Oct 19 17:48:48 ubuntu kernel: [    4.893548] ACPI: Added _OSI(Module Device)
+Oct 19 17:48:48 ubuntu kernel: [    4.893550] ACPI: Added _OSI(Processor Device)
+Oct 19 17:48:48 ubuntu kernel: [    4.893551] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 19 17:48:48 ubuntu kernel: [    4.893553] ACPI: Added _OSI(Processor Aggregator Device)
+Oct 19 17:48:48 ubuntu kernel: [    4.893555] ACPI: Added _OSI(Linux-Dell-Video)
+Oct 19 17:48:48 ubuntu kernel: [    4.893556] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ pciehp(47) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.893558] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(48) guessed as class 0
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(49) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.894528] ACPI: Interpreter enabled
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(50) guessed as class 0
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(51) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.894530] ACPI: Using GIC for interrupt routing
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(52) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.894550] ACPI: MCFG table detected, 1 entries
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(53) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    4.898541] ARMH0011:00: ttyAMA0 at MMIO 0x9000000 (irq = 4, base_baud = 0) is a SBSA
+Oct 19 17:48:48 ubuntu kernel: [    5.042653] console [ttyAMA0] enabled
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(54) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.044744] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-0f])
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(55) guessed as class 0
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(56) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.045378] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+Oct 19 17:48:48 ubuntu kernel: [    5.046321] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug PME AER PCIeCapability]
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(57) guessed as class 0
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(58) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.047404] acpi PNP0A08:00: ECAM area [mem 0x3f000000-0x3fffffff] reserved by PNP0C02:00
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(59) guessed as class 0
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(60) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.048196] acpi PNP0A08:00: ECAM at [mem 0x3f000000-0x3fffffff] for [bus 00-0f]
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(61) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.048937] Remapped I/O 0x000000003eff0000 to [io  0x0000-0xffff window]
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(62) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.049734] PCI host bridge to bus 0000:00
+Oct 19 17:48:48 ubuntu kernel: [    5.050121] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff window]
+Oct 19 17:48:48 ubuntu kernel: [    5.050845] pci_bus 0000:00: root bus resource [io  0x0000-0xffff window]
+Oct 19 17:48:48 ubuntu kernel: [    5.051535] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff window]
+Oct 19 17:48:48 ubuntu kernel: [    5.052263] pci_bus 0000:00: root bus resource [bus 00-0f]
+Oct 19 17:48:48 ubuntu kernel: [    5.052819] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000
+Oct 19 17:48:48 ubuntu kernel: [    5.053127] pci 0000:00:01.0: [1b36:000c] type 01 class 0x060400
+Oct 19 17:48:48 ubuntu kernel: [    5.054373] pci 0000:00:01.0: reg 0x10: [mem 0x10303000-0x10303fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.055948] pci 0000:00:01.1: [1b36:000c] type 01 class 0x060400
+Oct 19 17:48:48 ubuntu kernel: [    5.057065] pci 0000:00:01.1: reg 0x10: [mem 0x10302000-0x10302fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.058716] pci 0000:00:01.2: [1b36:000c] type 01 class 0x060400
+Oct 19 17:48:48 ubuntu kernel: [    5.059839] pci 0000:00:01.2: reg 0x10: [mem 0x10301000-0x10301fff]
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(63) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.061399] pci 0000:00:01.3: [1b36:000c] type 01 class 0x060400
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ virtio0-config(64) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.062478] pci 0000:00:01.3: reg 0x10: [mem 0x10300000-0x10300fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.065774] pci 0000:01:00.0: [1af4:1041] type 00 class 0x020000
+Oct 19 17:48:48 ubuntu kernel: [    5.066957] pci 0000:01:00.0: reg 0x14: [mem 0x10200000-0x10200fff]
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ virtio0-input.0(65) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.068686] pci 0000:01:00.0: reg 0x20: [mem 0x8000000000-0x8000003fff 64bit pref]
+Oct 19 17:48:48 ubuntu kernel: [    5.069273] pci 0000:01:00.0: reg 0x30: [mem 0xfff80000-0xffffffff pref]
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ virtio0-output.0(66) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.070186] pci 0000:02:00.0: [1b36:000d] type 00 class 0x0c0330
+Oct 19 17:48:48 ubuntu kernel: [    5.070245] pci 0000:02:00.0: reg 0x10: [mem 0x10100000-0x10103fff 64bit]
+Oct 19 17:48:48 ubuntu kernel: [    5.071269] pci 0000:03:00.0: [1af4:1048] type 00 class 0x010000
+Oct 19 17:48:48 ubuntu kernel: [    5.072641] pci 0000:03:00.0: reg 0x14: [mem 0x10000000-0x10000fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.074639] pci 0000:03:00.0: reg 0x20: [mem 0x8000100000-0x8000103fff 64bit pref]
+Oct 19 17:48:48 ubuntu kernel: [    5.081184] pci 0000:00:01.0: BAR 14: assigned [mem 0x10000000-0x101fffff]
+Oct 19 17:48:48 ubuntu kernel: [    5.081969] pci 0000:00:01.0: BAR 15: assigned [mem 0x8000000000-0x80001fffff 64bit pref]
+Oct 19 17:48:48 ubuntu kernel: [    5.082818] pci 0000:00:01.1: BAR 14: assigned [mem 0x10200000-0x103fffff]
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ virtio1-config(67) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.083538] pci 0000:00:01.1: BAR 15: assigned [mem 0x8000200000-0x80003fffff 64bit pref]
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ virtio1-control(68) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.084371] pci 0000:00:01.2: BAR 14: assigned [mem 0x10400000-0x105fffff]
+Oct 19 17:48:48 ubuntu kernel: [    5.085053] pci 0000:00:01.2: BAR 15: assigned [mem 0x8000400000-0x80005fffff 64bit pref]
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ virtio1-event(69) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.085877] pci 0000:00:01.3: BAR 14: assigned [mem 0x10600000-0x107fffff]
+Oct 19 17:48:48 ubuntu /usr/sbin/irqbalance: IRQ virtio1-request(70) guessed as class 0
+Oct 19 17:48:48 ubuntu kernel: [    5.087175] pci 0000:00:01.3: BAR 15: assigned [mem 0x8000600000-0x80007fffff 64bit pref]
+Oct 19 17:48:48 ubuntu systemd[1]: Started D-Bus System Message Bus.
+Oct 19 17:48:48 ubuntu kernel: [    5.088046] pci 0000:00:01.0: BAR 0: assigned [mem 0x10800000-0x10800fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.089085] pci 0000:00:01.0: BAR 13: assigned [io  0x1000-0x1fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.089721] pci 0000:00:01.1: BAR 0: assigned [mem 0x10801000-0x10801fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.090698] pci 0000:00:01.1: BAR 13: assigned [io  0x2000-0x2fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.091354] pci 0000:00:01.2: BAR 0: assigned [mem 0x10802000-0x10802fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.092356] pci 0000:00:01.2: BAR 13: assigned [io  0x3000-0x3fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.092982] pci 0000:00:01.3: BAR 0: assigned [mem 0x10803000-0x10803fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.093974] pci 0000:00:01.3: BAR 13: assigned [io  0x4000-0x4fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.094606] pci 0000:01:00.0: BAR 6: assigned [mem 0x10000000-0x1007ffff pref]
+Oct 19 17:48:48 ubuntu kernel: [    5.095314] pci 0000:01:00.0: BAR 4: assigned [mem 0x8000000000-0x8000003fff 64bit pref]
+Oct 19 17:48:48 ubuntu kernel: [    5.096707] pci 0000:01:00.0: BAR 1: assigned [mem 0x10080000-0x10080fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.097609] pci 0000:00:01.0: PCI bridge to [bus 01]
+Oct 19 17:48:48 ubuntu kernel: [    5.098081] pci 0000:00:01.0:   bridge window [io  0x1000-0x1fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.099210] pci 0000:00:01.0:   bridge window [mem 0x10000000-0x101fffff]
+Oct 19 17:48:48 ubuntu kernel: [    5.100217] pci 0000:00:01.0:   bridge window [mem 0x8000000000-0x80001fffff 64bit pref]
+Oct 19 17:48:48 ubuntu kernel: [    5.101734] pci 0000:02:00.0: BAR 0: assigned [mem 0x10200000-0x10203fff 64bit]
+Oct 19 17:48:48 ubuntu kernel: [    5.102440] pci 0000:00:01.1: PCI bridge to [bus 02]
+Oct 19 17:48:48 ubuntu kernel: [    5.102959] pci 0000:00:01.1:   bridge window [io  0x2000-0x2fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.104156] pci 0000:00:01.1:   bridge window [mem 0x10200000-0x103fffff]
+Oct 19 17:48:48 ubuntu kernel: [    5.105219] pci 0000:00:01.1:   bridge window [mem 0x8000200000-0x80003fffff 64bit pref]
+Oct 19 17:48:48 ubuntu kernel: [    5.106772] pci 0000:03:00.0: BAR 4: assigned [mem 0x8000400000-0x8000403fff 64bit pref]
+Oct 19 17:48:48 ubuntu kernel: [    5.108769] pci 0000:03:00.0: BAR 1: assigned [mem 0x10400000-0x10400fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.109722] pci 0000:00:01.2: PCI bridge to [bus 03]
+Oct 19 17:48:48 ubuntu kernel: [    5.110193] pci 0000:00:01.2:   bridge window [io  0x3000-0x3fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.111419] pci 0000:00:01.2:   bridge window [mem 0x10400000-0x105fffff]
+Oct 19 17:48:48 ubuntu kernel: [    5.112533] pci 0000:00:01.2:   bridge window [mem 0x8000400000-0x80005fffff 64bit pref]
+Oct 19 17:48:48 ubuntu kernel: [    5.114155] pci 0000:00:01.3: PCI bridge to [bus 04]
+Oct 19 17:48:48 ubuntu kernel: [    5.114665] pci 0000:00:01.3:   bridge window [io  0x4000-0x4fff]
+Oct 19 17:48:48 ubuntu kernel: [    5.115923] pci 0000:00:01.3:   bridge window [mem 0x10600000-0x107fffff]
+Oct 19 17:48:48 ubuntu kernel: [    5.117006] pci 0000:00:01.3:   bridge window [mem 0x8000600000-0x80007fffff 64bit pref]
+Oct 19 17:48:48 ubuntu kernel: [    5.119243] ACPI: PCI Interrupt Link [GSI0] (IRQs *35)
+Oct 19 17:48:48 ubuntu kernel: [    5.119791] ACPI: PCI Interrupt Link [GSI1] (IRQs *36)
+Oct 19 17:48:48 ubuntu kernel: [    5.120305] ACPI: PCI Interrupt Link [GSI2] (IRQs *37)
+Oct 19 17:48:48 ubuntu kernel: [    5.120803] ACPI: PCI Interrupt Link [GSI3] (IRQs *38)
+Oct 19 17:48:48 ubuntu kernel: [    5.122401] SCSI subsystem initialized
+Oct 19 17:48:48 ubuntu kernel: [    5.123216] libata version 3.00 loaded.
+Oct 19 17:48:48 ubuntu kernel: [    5.123309] vgaarb: loaded
+Oct 19 17:48:48 ubuntu kernel: [    5.123645] ACPI: bus type USB registered
+Oct 19 17:48:48 ubuntu kernel: [    5.124109] usbcore: registered new interface driver usbfs
+Oct 19 17:48:48 ubuntu kernel: [    5.124662] usbcore: registered new interface driver hub
+Oct 19 17:48:48 ubuntu kernel: [    5.125574] usbcore: registered new device driver usb
+Oct 19 17:48:48 ubuntu kernel: [    5.126660] EDAC MC: Ver: 3.0.0
+Oct 19 17:48:48 ubuntu kernel: [    5.127304] Registered efivars operations
+Oct 19 17:48:48 ubuntu kernel: [    5.129589] NetLabel: Initializing
+Oct 19 17:48:48 ubuntu kernel: [    5.129923] NetLabel:  domain hash size = 128
+Oct 19 17:48:48 ubuntu kernel: [    5.130336] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Oct 19 17:48:48 ubuntu kernel: [    5.130941] NetLabel:  unlabeled traffic allowed by default
+Oct 19 17:48:48 ubuntu kernel: [    5.132180] clocksource: Switched to clocksource arch_sys_counter
+Oct 19 17:48:48 ubuntu kernel: [    5.146422] VFS: Disk quotas dquot_6.6.0
+Oct 19 17:48:48 ubuntu kernel: [    5.146836] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 19 17:48:48 ubuntu kernel: [    5.147751] AppArmor: AppArmor Filesystem Enabled
+Oct 19 17:48:48 ubuntu kernel: [    5.148261] pnp: PnP ACPI init
+Oct 19 17:48:48 ubuntu kernel: [    5.148770] system 00:00: [mem 0x3f000000-0x3fffffff] could not be reserved
+Oct 19 17:48:48 ubuntu kernel: [    5.149437] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Oct 19 17:48:48 ubuntu kernel: [    5.149443] pnp: PnP ACPI: found 1 devices
+Oct 19 17:48:48 ubuntu kernel: [    5.153560] NET: Registered protocol family 2
+Oct 19 17:48:48 ubuntu kernel: [    5.154567] TCP established hash table entries: 262144 (order: 9, 2097152 bytes)
+Oct 19 17:48:48 ubuntu kernel: [    5.157145] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Oct 19 17:48:48 ubuntu kernel: [    5.158567] TCP: Hash tables configured (established 262144 bind 65536)
+Oct 19 17:48:48 ubuntu kernel: [    5.159466] UDP hash table entries: 16384 (order: 7, 524288 bytes)
+Oct 19 17:48:48 ubuntu kernel: [    5.160485] UDP-Lite hash table entries: 16384 (order: 7, 524288 bytes)
+Oct 19 17:48:48 ubuntu kernel: [    5.161780] NET: Registered protocol family 1
+Oct 19 17:48:48 ubuntu kernel: [    5.162300] pci 0000:02:00.0: enabling device (0000 -> 0002)
+Oct 19 17:48:48 ubuntu kernel: [    5.163163] PCI: CLS 0 bytes, default 128
+Oct 19 17:48:48 ubuntu kernel: [    5.163296] Unpacking initramfs...
+Oct 19 17:48:48 ubuntu kernel: [    5.968403] Freeing initrd memory: 53208K
+Oct 19 17:48:48 ubuntu kernel: [    6.018838] hw perfevents: enabled with armv8_pmuv3_0 PMU driver, 13 counters available
+Oct 19 17:48:48 ubuntu kernel: [    6.019907] kvm [1]: HYP mode not available
+Oct 19 17:48:48 ubuntu kernel: [    6.021646] Initialise system trusted keyrings
+Oct 19 17:48:48 ubuntu kernel: [    6.022148] Key type blacklist registered
+Oct 19 17:48:48 ubuntu kernel: [    6.022707] workingset: timestamp_bits=40 max_order=23 bucket_order=0
+Oct 19 17:48:48 ubuntu kernel: [    6.024675] zbud: loaded
+Oct 19 17:48:48 ubuntu kernel: [    6.025695] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Oct 19 17:48:48 ubuntu kernel: [    6.026937] fuse init (API version 7.26)
+Oct 19 17:48:48 ubuntu kernel: [    6.032416] Key type asymmetric registered
+Oct 19 17:48:48 ubuntu kernel: [    6.032841] Asymmetric key parser 'x509' registered
+Oct 19 17:48:48 ubuntu kernel: [    6.033366] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Oct 19 17:48:48 ubuntu kernel: [    6.034405] io scheduler noop registered
+Oct 19 17:48:48 ubuntu kernel: [    6.034785] io scheduler deadline registered
+Oct 19 17:48:48 ubuntu kernel: [    6.035246] io scheduler cfq registered (default)
+Oct 19 17:48:48 ubuntu kernel: [    6.037633] pl061_gpio ARMH0061:00: PL061 GPIO chip @0x0000000009030000 registered
+Oct 19 17:48:48 ubuntu kernel: [    6.038618] ACPI: PCI Interrupt Link [GSI1] enabled at IRQ 36
+Oct 19 17:48:48 ubuntu kernel: [    6.042330] pcieport 0000:00:01.0: AER enabled with IRQ 44
+Oct 19 17:48:48 ubuntu kernel: [    6.042951] pcieport 0000:00:01.1: AER enabled with IRQ 45
+Oct 19 17:48:48 ubuntu kernel: [    6.043533] pcieport 0000:00:01.2: AER enabled with IRQ 46
+Oct 19 17:48:48 ubuntu kernel: [    6.044112] pcieport 0000:00:01.3: AER enabled with IRQ 47
+Oct 19 17:48:48 ubuntu kernel: [    6.044720] pcieport 0000:00:01.0: Signaling PME with IRQ 44
+Oct 19 17:48:48 ubuntu kernel: [    6.045283] pcieport 0000:00:01.1: Signaling PME with IRQ 45
+Oct 19 17:48:48 ubuntu kernel: [    6.045860] pcieport 0000:00:01.2: Signaling PME with IRQ 46
+Oct 19 17:48:48 ubuntu kernel: [    6.046423] pcieport 0000:00:01.3: Signaling PME with IRQ 47
+Oct 19 17:48:48 ubuntu kernel: [    6.047005] pciehp 0000:00:01.0:pcie004: Slot #0 AttnBtn+ PwrCtrl+ MRL- AttnInd+ PwrInd+ HotPlug+ Surprise+ Interlock+ NoCompl- LLActRep-
+Oct 19 17:48:48 ubuntu kernel: [    6.048288] pciehp 0000:00:01.1:pcie004: Slot #0 AttnBtn+ PwrCtrl+ MRL- AttnInd+ PwrInd+ HotPlug+ Surprise+ Interlock+ NoCompl- LLActRep-
+Oct 19 17:48:48 ubuntu kernel: [    6.049510] pciehp 0000:00:01.2:pcie004: Slot #0 AttnBtn+ PwrCtrl+ MRL- AttnInd+ PwrInd+ HotPlug+ Surprise+ Interlock+ NoCompl- LLActRep-
+Oct 19 17:48:48 ubuntu kernel: [    6.050707] pciehp 0000:00:01.3:pcie004: Slot #0 AttnBtn+ PwrCtrl+ MRL- AttnInd+ PwrInd+ HotPlug+ Surprise+ Interlock+ NoCompl- LLActRep-
+Oct 19 17:48:48 ubuntu kernel: [    6.052282] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+Oct 19 17:48:48 ubuntu kernel: [    6.053082] ACPI: Power Button [PWRB]
+Oct 19 17:48:48 ubuntu kernel: [    6.058415] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Oct 19 17:48:48 ubuntu kernel: [    6.061661] msm_serial: driver initialized
+Oct 19 17:48:48 ubuntu kernel: [    6.062623] ACPI PPTT: No PPTT table found, cache topology may be inaccurate
+Oct 19 17:48:48 ubuntu kernel: [    6.063290] ACPI PPTT: No PPTT table found, cache topology may be inaccurate
+Oct 19 17:48:48 ubuntu kernel: [    6.063929] cacheinfo: Unable to detect cache hierarchy for CPU 0
+Oct 19 17:48:48 ubuntu kernel: [    6.069684] loop: module loaded
+Oct 19 17:48:48 ubuntu kernel: [    6.070477] libphy: Fixed MDIO Bus: probed
+Oct 19 17:48:48 ubuntu kernel: [    6.070953] tun: Universal TUN/TAP device driver, 1.6
+Oct 19 17:48:48 ubuntu kernel: [    6.071712] PPP generic driver version 2.4.2
+Oct 19 17:48:48 ubuntu kernel: [    6.072363] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 19 17:48:48 ubuntu kernel: [    6.073113] ehci-pci: EHCI PCI platform driver
+Oct 19 17:48:48 ubuntu kernel: [    6.073651] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 19 17:48:48 ubuntu kernel: [    6.074349] ohci-pci: OHCI PCI platform driver
+Oct 19 17:48:48 ubuntu kernel: [    6.074878] uhci_hcd: USB Universal Host Controller Interface driver
+Oct 19 17:48:48 ubuntu kernel: [    6.076436] xhci_hcd 0000:02:00.0: xHCI Host Controller
+Oct 19 17:48:48 ubuntu kernel: [    6.077058] xhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 1
+Oct 19 17:48:48 ubuntu kernel: [    6.078192] xhci_hcd 0000:02:00.0: hcc params 0x00087001 hci version 0x100 quirks 0x0000000000000010
+Oct 19 17:48:48 ubuntu kernel: [    6.080053] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Oct 19 17:48:48 ubuntu kernel: [    6.080759] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 19 17:48:48 ubuntu kernel: [    6.081428] usb usb1: Product: xHCI Host Controller
+Oct 19 17:48:48 ubuntu kernel: [    6.081876] usb usb1: Manufacturer: Linux 4.15.0-76-generic xhci-hcd
+Oct 19 17:48:48 ubuntu kernel: [    6.082458] usb usb1: SerialNumber: 0000:02:00.0
+Oct 19 17:48:48 ubuntu kernel: [    6.083201] hub 1-0:1.0: USB hub found
+Oct 19 17:48:48 ubuntu kernel: [    6.083605] hub 1-0:1.0: 8 ports detected
+Oct 19 17:48:48 ubuntu kernel: [    6.084297] xhci_hcd 0000:02:00.0: xHCI Host Controller
+Oct 19 17:48:48 ubuntu kernel: [    6.084795] xhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 2
+Oct 19 17:48:48 ubuntu kernel: [    6.085499] xhci_hcd 0000:02:00.0: Host supports USB 3.0  SuperSpeed
+Oct 19 17:48:48 ubuntu kernel: [    6.086110] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+Oct 19 17:48:48 ubuntu kernel: [    6.086883] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003
+Oct 19 17:48:48 ubuntu kernel: [    6.087511] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 19 17:48:48 ubuntu kernel: [    6.088185] usb usb2: Product: xHCI Host Controller
+Oct 19 17:48:48 ubuntu kernel: [    6.088638] usb usb2: Manufacturer: Linux 4.15.0-76-generic xhci-hcd
+Oct 19 17:48:48 ubuntu kernel: [    6.089221] usb usb2: SerialNumber: 0000:02:00.0
+Oct 19 17:48:48 ubuntu kernel: [    6.089870] hub 2-0:1.0: USB hub found
+Oct 19 17:48:48 ubuntu kernel: [    6.090484] hub 2-0:1.0: 8 ports detected
+Oct 19 17:48:48 ubuntu kernel: [    6.091564] mousedev: PS/2 mouse device common for all mice
+Oct 19 17:48:48 ubuntu kernel: [    6.092536] rtc-efi rtc-efi: rtc core: registered rtc-efi as rtc0
+Oct 19 17:48:48 ubuntu kernel: [    6.093159] i2c /dev entries driver
+Oct 19 17:48:48 ubuntu kernel: [    6.093698] device-mapper: uevent: version 1.0.3
+Oct 19 17:48:48 ubuntu kernel: [    6.094279] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+Oct 19 17:48:48 ubuntu kernel: [    6.096562] ledtrig-cpu: registered to indicate activity on CPUs
+Oct 19 17:48:48 ubuntu kernel: [    6.097175] EFI Variables Facility v0.08 2004-May-17
+Oct 19 17:48:48 ubuntu kernel: [    6.098785] NET: Registered protocol family 10
+Oct 19 17:48:48 ubuntu kernel: [    6.112265] Segment Routing with IPv6
+Oct 19 17:48:48 ubuntu kernel: [    6.113149] NET: Registered protocol family 17
+Oct 19 17:48:48 ubuntu kernel: [    6.114456] Key type dns_resolver registered
+Oct 19 17:48:48 ubuntu kernel: [    6.115981] registered taskstats version 1
+Oct 19 17:48:48 ubuntu kernel: [    6.116985] Loading compiled-in X.509 certificates
+Oct 19 17:48:48 ubuntu kernel: [    6.123049] Loaded X.509 cert 'Build time autogenerated kernel key: bb7877984f0f74d37a1bef33e5ee3d7490819652'
+Oct 19 17:48:48 ubuntu kernel: [    6.124000] Couldn't get size: 0x800000000000000e
+Oct 19 17:48:48 ubuntu kernel: [    6.124467] MODSIGN: Couldn't get UEFI db list
+Oct 19 17:48:48 ubuntu kernel: [    6.124881] Couldn't get size: 0x800000000000000e
+Oct 19 17:48:48 ubuntu kernel: [    6.125309] MODSIGN: Couldn't get UEFI MokListRT
+Oct 19 17:48:48 ubuntu kernel: [    6.125748] Couldn't get size: 0x800000000000000e
+Oct 19 17:48:48 ubuntu kernel: [    6.126178] MODSIGN: Couldn't get UEFI dbx list
+Oct 19 17:48:48 ubuntu kernel: [    6.126736] zswap: loaded using pool lzo/zbud
+Oct 19 17:48:48 ubuntu kernel: [    6.147387] Key type big_key registered
+Oct 19 17:48:48 ubuntu kernel: [    6.147881] Key type trusted registered
+Oct 19 17:48:48 ubuntu kernel: [    6.161882] Key type encrypted registered
+Oct 19 17:48:48 ubuntu kernel: [    6.162839] AppArmor: AppArmor sha1 policy hashing enabled
+Oct 19 17:48:48 ubuntu kernel: [    6.164176] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+Oct 19 17:48:48 ubuntu kernel: [    6.165655] ima: Allocated hash algorithm: sha1
+Oct 19 17:48:48 ubuntu kernel: [    6.166849] evm: HMAC attrs: 0x1
+Oct 19 17:48:48 ubuntu kernel: [    6.168658] rtc-efi rtc-efi: setting system clock to 2020-10-19 09:48:40 UTC (1603100920)
+Oct 19 17:48:48 ubuntu kernel: [    6.172727] Freeing unused kernel memory: 5952K
+Oct 19 17:48:48 ubuntu kernel: [    6.196683] Checked W+X mappings: passed, no W+X pages found
+Oct 19 17:48:48 ubuntu kernel: [    6.319393] scsi host0: Virtio SCSI HBA
+Oct 19 17:48:48 ubuntu kernel: [    6.321570] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Oct 19 17:48:48 ubuntu kernel: [    6.322669] scsi 0:0:0:1: CD-ROM            QEMU     QEMU CD-ROM      2.5+ PQ: 0 ANSI: 5
+Oct 19 17:48:48 ubuntu kernel: [    6.344893] virtio_net virtio0 enp1s0: renamed from eth0
+Oct 19 17:48:48 ubuntu kernel: [   10.336522] random: fast init done
+Oct 19 17:48:48 ubuntu kernel: [   10.480520] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 19 17:48:48 ubuntu kernel: [   10.481044] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Oct 19 17:48:48 ubuntu kernel: [   10.481569] sd 0:0:0:0: Power-on or device reset occurred
+Oct 19 17:48:48 ubuntu kernel: [   10.483011] sd 0:0:0:0: [sda] 31457280 512-byte logical blocks: (16.1 GB/15.0 GiB)
+Oct 19 17:48:48 ubuntu kernel: [   10.483131] sd 0:0:0:0: [sda] Write Protect is off
+Oct 19 17:48:48 ubuntu kernel: [   10.483136] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Oct 19 17:48:48 ubuntu kernel: [   10.483317] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 19 17:48:48 ubuntu kernel: [   10.483650] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 19 17:48:48 ubuntu kernel: [   10.486892] sr 0:0:0:1: Power-on or device reset occurred
+Oct 19 17:48:48 ubuntu kernel: [   10.487552]  sda: sda1 sda2
+Oct 19 17:48:48 ubuntu kernel: [   10.488526] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 19 17:48:48 ubuntu kernel: [   10.489777] sd 0:0:0:0: [sda] Attached SCSI disk
+Oct 19 17:48:48 ubuntu kernel: [   10.490103] sr 0:0:0:1: [sr0] scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+Oct 19 17:48:48 ubuntu kernel: [   10.495068] cdrom: Uniform CD-ROM driver Revision: 3.20
+Oct 19 17:48:48 ubuntu kernel: [   10.496186] sr 0:0:0:1: Attached scsi CD-ROM sr0
+Oct 19 17:48:48 ubuntu kernel: [   10.496362] sr 0:0:0:1: Attached scsi generic sg1 type 5
+Oct 19 17:48:48 ubuntu kernel: [   11.788196] raid6: int64x1  gen()  3270 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   11.836199] raid6: int64x1  xor()  1821 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   11.884197] raid6: int64x2  gen()  5077 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   11.932175] raid6: int64x2  xor()  2587 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   11.980180] raid6: int64x4  gen()  6602 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.028178] raid6: int64x4  xor()  3522 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.076175] raid6: int64x8  gen()  5548 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.124181] raid6: int64x8  xor()  3628 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.172176] raid6: neonx1   gen()  4892 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.220185] raid6: neonx1   xor()  3952 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.268174] raid6: neonx2   gen()  7879 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.316183] raid6: neonx2   xor()  6409 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.364182] raid6: neonx4   gen()  9939 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.412173] raid6: neonx4   xor()  7941 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.460233] raid6: neonx8   gen() 10568 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.508231] raid6: neonx8   xor()  8569 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.508656] raid6: using algorithm neonx8 gen() 10568 MB/s
+Oct 19 17:48:48 ubuntu kernel: [   12.509168] raid6: .... xor() 8569 MB/s, rmw enabled
+Oct 19 17:48:48 ubuntu kernel: [   12.509638] raid6: using neon recovery algorithm
+Oct 19 17:48:48 ubuntu kernel: [   12.511196] xor: measuring software checksum speed
+Oct 19 17:48:48 ubuntu kernel: [   12.548178]    8regs     : 13075.000 MB/sec
+Oct 19 17:48:48 ubuntu kernel: [   12.588165]    8regs_prefetch: 11534.000 MB/sec
+Oct 19 17:48:48 ubuntu kernel: [   12.628160]    32regs    : 15922.000 MB/sec
+Oct 19 17:48:48 ubuntu kernel: [   12.668159]    32regs_prefetch: 13762.000 MB/sec
+Oct 19 17:48:48 ubuntu kernel: [   12.668681] xor: using function: 32regs (15922.000 MB/sec)
+Oct 19 17:48:48 ubuntu kernel: [   12.670233] async_tx: api initialized (async)
+Oct 19 17:48:48 ubuntu kernel: [   12.833806] Btrfs loaded, crc32c=crc32c-arm64-ce
+Oct 19 17:48:48 ubuntu kernel: [   12.913919] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Oct 19 17:48:48 ubuntu kernel: [   13.107028] ip_tables: (C) 2000-2006 Netfilter Core Team
+Oct 19 17:48:48 ubuntu kernel: [   13.114824] systemd[1]: systemd 237 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+Oct 19 17:48:48 ubuntu kernel: [   13.117025] systemd[1]: Detected virtualization kvm.
+Oct 19 17:48:48 ubuntu kernel: [   13.117572] systemd[1]: Detected architecture arm64.
+Oct 19 17:48:48 ubuntu kernel: [   13.128592] systemd[1]: Set hostname to <ubuntu>.
+Oct 19 17:48:48 ubuntu kernel: [   13.212851] systemd[1]: Created slice System Slice.
+Oct 19 17:48:48 ubuntu kernel: [   13.214299] systemd[1]: Listening on Journal Audit Socket.
+Oct 19 17:48:48 ubuntu kernel: [   13.215847] systemd[1]: Created slice system-systemd\x2dfsck.slice.
+Oct 19 17:48:48 ubuntu kernel: [   13.217266] systemd[1]: Listening on Journal Socket (/dev/log).
+Oct 19 17:48:48 ubuntu kernel: [   13.218487] systemd[1]: Listening on LVM2 metadata daemon socket.
+Oct 19 17:48:48 ubuntu kernel: [   13.219710] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Oct 19 17:48:48 ubuntu kernel: [   13.242281] EXT4-fs (dm-0): re-mounted. Opts: errors=remount-ro
+Oct 19 17:48:48 ubuntu kernel: [   13.271463] Loading iSCSI transport class v2.0-870.
+Oct 19 17:48:48 ubuntu kernel: [   13.278589] iscsi: registered transport (tcp)
+Oct 19 17:48:48 ubuntu kernel: [   13.299790] iscsi: registered transport (iser)
+Oct 19 17:48:48 ubuntu kernel: [   13.319876] systemd-journald[689]: Received request to flush runtime journal from PID 1
+Oct 19 17:48:48 ubuntu kernel: [   13.473051] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Oct 19 17:48:48 ubuntu kernel: [   13.656074] Adding 1003516k swap on /dev/mapper/ubuntu--vg-swap_1.  Priority:-2 extents:1 across:1003516k FS
+Oct 19 17:48:48 ubuntu kernel: [   13.961444] audit: type=1400 audit(1603100928.288:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=957 comm="apparmor_parser"
+Oct 19 17:48:48 ubuntu kernel: [   14.029974] audit: type=1400 audit(1603100928.356:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=959 comm="apparmor_parser"
+Oct 19 17:48:48 ubuntu kernel: [   14.030385] audit: type=1400 audit(1603100928.356:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=959 comm="apparmor_parser"
+Oct 19 17:48:48 ubuntu kernel: [   14.030817] audit: type=1400 audit(1603100928.356:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=959 comm="apparmor_parser"
+Oct 19 17:48:48 ubuntu kernel: [   14.050062] audit: type=1400 audit(1603100928.376:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=964 comm="apparmor_parser"
+Oct 19 17:48:48 ubuntu kernel: [   14.124269] audit: type=1400 audit(1603100928.448:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=958 comm="apparmor_parser"
+Oct 19 17:48:48 ubuntu kernel: [   14.124722] audit: type=1400 audit(1603100928.452:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=958 comm="apparmor_parser"
+Oct 19 17:48:48 ubuntu kernel: [   14.125181] audit: type=1400 audit(1603100928.452:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=958 comm="apparmor_parser"
+Oct 19 17:48:48 ubuntu kernel: [   14.125646] audit: type=1400 audit(1603100928.452:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=958 comm="apparmor_parser"
+Oct 19 17:48:48 ubuntu kernel: [   14.167410] audit: type=1400 audit(1603100928.492:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=961 comm="apparmor_parser"
+Oct 19 17:48:48 ubuntu kernel: [   14.257139] new mount options do not match the existing superblock, will be ignored
+Oct 19 17:48:48 ubuntu lxcfs[968]: mount namespace: 5
+Oct 19 17:48:48 ubuntu lxcfs[968]: hierarchies:
+Oct 19 17:48:48 ubuntu lxcfs[968]:   0: fd:   6: freezer
+Oct 19 17:48:48 ubuntu lxcfs[968]:   1: fd:   7: blkio
+Oct 19 17:48:48 ubuntu lxcfs[968]:   2: fd:   8: memory
+Oct 19 17:48:48 ubuntu lxcfs[968]:   3: fd:   9: cpuset
+Oct 19 17:48:48 ubuntu lxcfs[968]:   4: fd:  10: hugetlb
+Oct 19 17:48:48 ubuntu lxcfs[968]:   5: fd:  11: perf_event
+Oct 19 17:48:48 ubuntu lxcfs[968]:   6: fd:  12: net_cls,net_prio
+Oct 19 17:48:48 ubuntu lxcfs[968]:   7: fd:  13: pids
+Oct 19 17:48:48 ubuntu lxcfs[968]:   8: fd:  14: devices
+Oct 19 17:48:48 ubuntu lxcfs[968]:   9: fd:  15: cpu,cpuacct
+Oct 19 17:48:48 ubuntu lxcfs[968]:  10: fd:  16: rdma
+Oct 19 17:48:48 ubuntu lxcfs[968]:  11: fd:  17: name=systemd
+Oct 19 17:48:48 ubuntu lxcfs[968]:  12: fd:  18: unified
+Oct 19 17:48:48 ubuntu dbus-daemon[983]: [system] AppArmor D-Bus mediation is enabled
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Login Service...
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Oct 19 17:48:48 ubuntu systemd[1]: Starting LXD - container startup/shutdown...
+Oct 19 17:48:48 ubuntu dbus-daemon[983]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.3' (uid=0 pid=975 comm="/usr/lib/accountsservice/accounts-daemon " label="unconfined")
+Oct 19 17:48:48 ubuntu systemd[1]: Started System Logging Service.
+Oct 19 17:48:48 ubuntu systemd[1]: Started Login Service.
+Oct 19 17:48:48 ubuntu grub-common[974]:  * Recording successful boot for GRUB
+Oct 19 17:48:48 ubuntu systemd[1]: Started Unattended Upgrades Shutdown.
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Authorization Manager...
+Oct 19 17:48:48 ubuntu grub-common[974]:    ...done.
+Oct 19 17:48:48 ubuntu snapd[979]: AppArmor status: apparmor is enabled and all features are available
+Oct 19 17:48:48 ubuntu systemd[1]: Started LSB: Record successful boot for GRUB.
+Oct 19 17:48:48 ubuntu polkitd[1003]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 19 17:48:48 ubuntu dbus-daemon[983]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 19 17:48:48 ubuntu systemd[1]: Started Authorization Manager.
+Oct 19 17:48:48 ubuntu accounts-daemon[975]: started daemon version 0.6.45
+Oct 19 17:48:48 ubuntu systemd[1]: Started Accounts Service.
+Oct 19 17:48:48 ubuntu snapd[979]: daemon.go:346: started snapd/2.42.1+18.04 (series 16; classic) ubuntu/18.04 (arm64) linux/4.15.0-76-generic.
+Oct 19 17:48:48 ubuntu systemd[1]: Started LXD - container startup/shutdown.
+Oct 19 17:48:48 ubuntu networkd-dispatcher[996]: No valid path found for iwconfig
+Oct 19 17:48:48 ubuntu snapd[979]: daemon.go:439: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+Oct 19 17:48:48 ubuntu systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Oct 19 17:48:48 ubuntu systemd[1]: Started Snappy daemon.
+Oct 19 17:48:48 ubuntu systemd[1]: Starting Wait until snapd is fully seeded...
+Oct 19 17:48:48 ubuntu systemd[1]: Started Wait until snapd is fully seeded.
+Oct 19 17:48:50 ubuntu systemd-networkd[903]: enp1s0: Gained IPv6LL
+Oct 19 17:48:50 ubuntu systemd-networkd[903]: enp1s0: Configured
+Oct 19 17:48:50 ubuntu systemd-timesyncd[897]: Network configuration changed, trying to establish connection.
+Oct 19 17:48:50 ubuntu systemd-networkd-wait-online[921]: ignoring: lo
+Oct 19 17:48:50 ubuntu systemd-networkd-wait-online[921]: managing: enp1s0
+Oct 19 17:48:50 ubuntu systemd[1]: Started Wait for Network to be Configured.
+Oct 19 17:48:50 ubuntu systemd[1]: Reached target Network is Online.
+Oct 19 17:48:50 ubuntu systemd[1]: Starting OpenBSD Secure Shell server...
+Oct 19 17:48:50 ubuntu systemd[1]: Reached target Remote File Systems (Pre).
+Oct 19 17:48:50 ubuntu systemd[1]: Reached target Remote File Systems.
+Oct 19 17:48:50 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+Oct 19 17:48:50 ubuntu systemd[1]: Starting Permit User Sessions...
+Oct 19 17:48:50 ubuntu systemd[1]: Starting Availability of block devices...
+Oct 19 17:48:50 ubuntu systemd[1]: Started Availability of block devices.
+Oct 19 17:48:50 ubuntu systemd[1]: Started Permit User Sessions.
+Oct 19 17:48:50 ubuntu systemd[1]: Starting Hold until boot process finishes up...
+Oct 19 17:48:50 ubuntu systemd[1]: Starting Terminate Plymouth Boot Screen...
+Oct 19 17:48:50 ubuntu systemd[1]: Started Hold until boot process finishes up.
+Oct 19 17:48:50 ubuntu systemd[1]: Starting Set console scheme...
+Oct 19 17:48:50 ubuntu systemd[1]: Started Serial Getty on ttyAMA0.
+Oct 19 17:48:50 ubuntu apport[1068]:  * Starting automatic crash report generation: apport
+Oct 19 17:48:50 ubuntu systemd[1]: Started Terminate Plymouth Boot Screen.
+Oct 19 17:48:50 ubuntu systemd[1]: Started OpenBSD Secure Shell server.
+Oct 19 17:48:50 ubuntu systemd[1]: Started Set console scheme.
+Oct 19 17:48:50 ubuntu apport[1068]:    ...done.
+Oct 19 17:48:50 ubuntu systemd[1]: Created slice system-getty.slice.
+Oct 19 17:48:50 ubuntu systemd[1]: Started Getty on tty1.
+Oct 19 17:48:50 ubuntu systemd[1]: Reached target Login Prompts.
+Oct 19 17:48:50 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+Oct 19 17:48:50 ubuntu systemd[1]: Reached target Multi-User System.
+Oct 19 17:48:50 ubuntu systemd[1]: Reached target Graphical Interface.
+Oct 19 17:48:50 ubuntu systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct 19 17:48:50 ubuntu systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct 19 17:48:50 ubuntu systemd[1]: Startup finished in 12.948s (kernel) + 2.910s (userspace) = 15.858s.
+Oct 19 17:48:55 ubuntu snapd[979]: stateengine.go:150: state ensure error: cannot sections: got unexpected HTTP status code 403 via GET to "https://api.snapcraft.io/api/v1/snaps/sections"
+Oct 19 17:49:03 ubuntu snapd[979]: daemon.go:540: gracefully waiting for running hooks
+Oct 19 17:49:03 ubuntu snapd[979]: daemon.go:542: done waiting for running hooks
+Oct 19 17:49:03 ubuntu snapd[979]: daemon stop requested to wait for socket activation
+Oct 19 17:49:19 ubuntu systemd-timesyncd[897]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Oct 19 17:49:22 ubuntu systemd[1]: Created slice User Slice of huawei.
+Oct 19 17:49:22 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Oct 19 17:49:22 ubuntu systemd[1]: Started Session 1 of user huawei.
+Oct 19 17:49:22 ubuntu systemd[1299]: Listening on GnuPG network certificate management daemon.
+Oct 19 17:49:22 ubuntu systemd[1299]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct 19 17:49:22 ubuntu systemd[1299]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct 19 17:49:22 ubuntu systemd[1299]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct 19 17:49:22 ubuntu systemd[1299]: Listening on REST API socket for snapd user session agent.
+Oct 19 17:49:22 ubuntu systemd[1299]: Reached target Paths.
+Oct 19 17:49:22 ubuntu systemd[1299]: Reached target Timers.
+Oct 19 17:49:22 ubuntu systemd[1299]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct 19 17:49:22 ubuntu systemd[1299]: Reached target Sockets.
+Oct 19 17:49:22 ubuntu systemd[1299]: Reached target Basic System.
+Oct 19 17:49:22 ubuntu systemd[1299]: Reached target Default.
+Oct 19 17:49:22 ubuntu systemd[1299]: Startup finished in 45ms.
+Oct 19 17:49:22 ubuntu systemd[1]: Started User Manager for UID 1000.
+Oct 19 17:49:38 ubuntu kernel: [   64.891216] random: crng init done
+Oct 19 17:49:38 ubuntu kernel: [   64.891220] random: 7 urandom warning(s) missed due to ratelimiting
+Oct 19 17:49:43 ubuntu kernel: [   70.322571] SGI XFS with ACLs, security attributes, realtime, no debug enabled
+Oct 19 17:49:43 ubuntu kernel: [   70.338450] JFS: nTxBlock = 8192, nTxLock = 65536
+Oct 19 17:49:43 ubuntu kernel: [   70.365884] ntfs: driver 2.1.32 [Flags: R/O MODULE].
+Oct 19 17:49:43 ubuntu kernel: [   70.392842] QNX4 filesystem 0.2.3 registered.
+Oct 19 17:49:43 ubuntu os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda1
+Oct 19 17:49:43 ubuntu os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda1
+Oct 19 17:49:43 ubuntu os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Oct 19 17:49:43 ubuntu 50mounted-tests: debug: /dev/sda2 is an LVM member; skipping
+Oct 19 17:49:43 ubuntu os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Oct 19 17:49:43 ubuntu os-prober: debug: /dev/mapper/ubuntu--vg-swap_1: is active swap
+Oct 19 17:49:49 ubuntu os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda1
+Oct 19 17:49:49 ubuntu os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda1
+Oct 19 17:49:49 ubuntu os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Oct 19 17:49:49 ubuntu 50mounted-tests: debug: /dev/sda2 is an LVM member; skipping
+Oct 19 17:49:49 ubuntu os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Oct 19 17:49:49 ubuntu os-prober: debug: /dev/mapper/ubuntu--vg-swap_1: is active swap
+Oct 19 18:03:57 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 19 18:03:57 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Oct 19 18:17:01 ubuntu CRON[3479]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 19 18:23:34 ubuntu os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda1
+Oct 19 18:23:34 ubuntu os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda1
+Oct 19 18:23:34 ubuntu os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Oct 19 18:23:34 ubuntu 50mounted-tests: debug: /dev/sda2 is an LVM member; skipping
+Oct 19 18:23:34 ubuntu os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Oct 19 18:23:34 ubuntu os-prober: debug: /dev/mapper/ubuntu--vg-swap_1: is active swap
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping LVM2 PV scan on device 8:2...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping User Manager for UID 1000...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping Session 1 of user huawei.
+Oct 19 18:24:17 ubuntu systemd[1299]: Stopped target Default.
+Oct 19 18:24:17 ubuntu systemd[1299]: Stopped target Basic System.
+Oct 19 18:24:17 ubuntu systemd[1299]: Stopped target Sockets.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped target Timers.
+Oct 19 18:24:17 ubuntu systemd[1299]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct 19 18:24:17 ubuntu systemd[1299]: Closed GnuPG network certificate management daemon.
+Oct 19 18:24:17 ubuntu systemd[1299]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct 19 18:24:17 ubuntu systemd[1299]: Closed REST API socket for snapd user session agent.
+Oct 19 18:24:17 ubuntu systemd[1299]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct 19 18:24:17 ubuntu systemd[1299]: Stopped target Paths.
+Oct 19 18:24:17 ubuntu systemd[1299]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct 19 18:24:17 ubuntu systemd[1299]: Reached target Shutdown.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped target Network is Online.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped Discard unused blocks once a week.
+Oct 19 18:24:17 ubuntu systemd[1299]: Starting Exit the Session...
+Oct 19 18:24:17 ubuntu systemd[1299]: Stopped target Timers.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped target Graphical Interface.
+Oct 19 18:24:17 ubuntu systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped target Multi-User System.
+Oct 19 18:24:17 ubuntu systemd[1299]: Received SIGRTMIN+24 from PID 15270 (kill).
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped Wait until snapd is fully seeded.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping D-Bus System Message Bus...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping LSB: Record successful boot for GRUB...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping FUSE filesystem for LXC...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping LXD - container startup/shutdown...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped target Login Prompts.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping Serial Getty on ttyAMA0...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping Getty on tty1...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped Daily apt upgrade and clean activities.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped Daily apt download activities.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped target Host and Network Name Lookups.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping Accounts Service...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping Authorization Manager...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped Message of the Day.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped target System Time Synchronized.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+Oct 19 18:24:17 ubuntu systemd[1]: Stopped Wait for Network to be Configured.
+Oct 19 18:24:17 ubuntu systemd[1]: Stopping OpenBSD Secure Shell server...
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Booting Linux on physical CPU 0x0000000000 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Linux version 5.7.1 (root@ubuntu) (gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04), GNU ld (GNU Binutils for Ubuntu) 2.30) #1 SMP Mon Oct 19 17:49:30 CST 2020
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] efi: EFI v2.70 by EDK II
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] efi:  SMBIOS 3.0=0x53f710000  ACPI 2.0=0x53c020000  MEMATTR=0x53cc7ca98  MEMRESERVE=0x53becd018 
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] cma: Reserved 32 MiB at 0x00000000fe000000
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: RSDP 0x000000053C020000 000024 (v02 BOCHS )
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: XSDT 0x000000053BED0000 000054 (v01 BOCHS  BXPCFACP 00000001      01000013)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: FACP 0x000000053BE90000 00010C (v05 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: DSDT 0x000000053BEA0000 001523 (v02 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: APIC 0x000000053BE80000 0009E8 (v03 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: GTDT 0x000000053BE70000 000060 (v02 BOCHS  BXPCGTDT 00000001 BXPC 00000001)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: MCFG 0x000000053BE60000 00003C (v01 BOCHS  BXPCMCFG 00000001 BXPC 00000001)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: SPCR 0x000000053BE50000 000050 (v02 BOCHS  BXPCSPCR 00000001 BXPC 00000001)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: IORT 0x000000053BE40000 00007C (v00 BOCHS  BXPCIORT 00000001 BXPC 00000001)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: SPCR: console: pl011,mmio,0x9000000,9600
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: NUMA: Failed to initialise from firmware
+Oct 19 18:24:45 ubuntu systemd-modules-load[827]: Inserted module 'iscsi_tcp'
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] NUMA: Faking a node at [mem 0x0000000040000000-0x000000053fffffff]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] NUMA: NODE_DATA [mem 0x53d409300-0x53d40cfff]
+Oct 19 18:24:45 ubuntu systemd-modules-load[827]: Inserted module 'ib_iser'
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Zone ranges:
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   DMA      [mem 0x0000000040000000-0x000000007fffffff]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   DMA32    [mem 0x0000000080000000-0x00000000ffffffff]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   Normal   [mem 0x0000000100000000-0x000000053fffffff]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Movable zone start for each node
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Early memory node ranges
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   node   0: [mem 0x0000000040000000-0x000000053bedffff]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053bee0000-0x000000053bffffff]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053c000000-0x000000053c02ffff]
+Oct 19 18:24:45 ubuntu lvm[845]:   2 logical volume(s) in volume group "ubuntu-vg" monitored
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053c030000-0x000000053c0affff]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053c0b0000-0x000000053f57ffff]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053f580000-0x000000053f95ffff]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000053f960000-0x000000053fffffff]
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Zeroed struct page in unavailable ranges: 544 pages
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000040000000-0x000000053fffffff]
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] On node 0 totalpages: 5242880
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   DMA zone: 5120 pages used for memmap
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   DMA zone: 0 pages reserved
+Oct 19 18:24:45 ubuntu systemd[1]: Started udev Kernel Device Manager.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   DMA zone: 262144 pages, LIFO batch:63
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   DMA32 zone: 10240 pages used for memmap
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   DMA32 zone: 524288 pages, LIFO batch:63
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   Normal zone: 87040 pages used for memmap
+Oct 19 18:24:45 ubuntu kernel: [    0.000000]   Normal zone: 4456448 pages, LIFO batch:63
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] psci: probing for conduit method from ACPI.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] psci: PSCIv1.0 detected in firmware.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] psci: Using standard PSCI v0.2 function IDs
+Oct 19 18:24:45 ubuntu systemd[1]: Started Apply Kernel Variables.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] psci: Trusted OS migration not required
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] psci: SMC Calling Convention v1.1
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: SRAT not present
+Oct 19 18:24:45 ubuntu systemd[1]: Started Flush Journal to Persistent Storage.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] percpu: Embedded 33 pages/cpu s94616 r8192 d32360 u135168
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] pcpu-alloc: s94616 r8192 d32360 u135168 alloc=33*4096
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 00 [0] 01 [0] 02 [0] 03 [0] 04 [0] 05 [0] 06 [0] 07 
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 08 [0] 09 [0] 10 [0] 11 [0] 12 [0] 13 [0] 14 [0] 15 
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 16 [0] 17 [0] 18 [0] 19 [0] 20 [0] 21 [0] 22 [0] 23 
+Oct 19 18:24:45 ubuntu systemd[1]: Started udev Coldplug all Devices.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 24 [0] 25 [0] 26 [0] 27 [0] 28 [0] 29 [0] 30 [0] 31 
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Detected VIPT I-cache on CPU0
+Oct 19 18:24:45 ubuntu systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target Local Encrypted Volumes.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] CPU features: detected: GIC system register CPU interface
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] CPU features: detected: Hardware dirty bit management
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 5140480
+Oct 19 18:24:45 ubuntu systemd[1]: Found device /dev/ttyAMA0.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Policy zone: Normal
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.7.1 root=/dev/mapper/ubuntu--vg-root ro
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Dentry cache hash table entries: 4194304 (order: 13, 33554432 bytes, linear)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Inode-cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] mem auto-init: stack:off, heap alloc:on, heap free:off
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] software IO TLB: mapped [mem 0x7bfff000-0x7ffff000] (64MB)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] Memory: 20269608K/20971520K available (14204K kernel code, 2354K rwdata, 6868K rodata, 7040K init, 1132K bss, 669144K reserved, 32768K cma-reserved)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] random: get_random_u64 called from __kmem_cache_create+0x54/0x5d8 with crng_init=0
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=32, Nodes=1
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ftrace: allocating 46104 entries in 181 pages
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ftrace: allocated 181 pages with 5 groups
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] rcu: Hierarchical RCU implementation.
+Oct 19 18:24:45 ubuntu systemd-udevd[1007]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=32.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] 	Tasks RCU enabled.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=32
+Oct 19 18:24:45 ubuntu systemd-udevd[1013]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 19 18:24:45 ubuntu systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] GICv3: 256 SPIs implemented
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] GICv3: 0 Extended SPIs implemented
+Oct 19 18:24:45 ubuntu systemd[1]: Found device /dev/mapper/ubuntu--vg-swap_1.
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] GICv3: Distributor has no Range Selector support
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] GICv3: 16 PPIs implemented
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] GICv3: CPU0: found redistributor 0 region 0:0x00000000080a0000
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ACPI: SRAT not present
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ITS [mem 0x08080000-0x0809ffff]
+Oct 19 18:24:45 ubuntu systemd[1]: Activating swap /dev/mapper/ubuntu--vg-swap_1...
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ITS@0x0000000008080000: allocated 8192 Devices @53ca00000 (indirect, esz 8, psz 64K, shr 1)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] ITS@0x0000000008080000: allocated 8192 Interrupt Collections @53ca10000 (flat, esz 8, psz 64K, shr 1)
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] GICv3: using LPI property table @0x000000053ca20000
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] GICv3: CPU0: using allocated LPI pending table @0x000000053ca30000
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] arch_timer: cp15 timer(s) running at 100.00MHz (virt).
+Oct 19 18:24:45 ubuntu kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x171024e7e0, max_idle_ns: 440795205315 ns
+Oct 19 18:24:45 ubuntu kernel: [    0.000002] sched_clock: 56 bits at 100MHz, resolution 10ns, wraps every 4398046511100ns
+Oct 19 18:24:45 ubuntu kernel: [    0.000270] Console: colour dummy device 80x25
+Oct 19 18:24:45 ubuntu kernel: [    0.000357] ACPI: Core revision 20200326
+Oct 19 18:24:45 ubuntu systemd[1]: Activated swap /dev/mapper/ubuntu--vg-swap_1.
+Oct 19 18:24:45 ubuntu kernel: [    0.000500] Calibrating delay loop (skipped), value calculated using timer frequency.. 200.00 BogoMIPS (lpj=400000)
+Oct 19 18:24:45 ubuntu kernel: [    0.000504] pid_max: default: 32768 minimum: 301
+Oct 19 18:24:45 ubuntu kernel: [    0.000583] LSM: Security Framework initializing
+Oct 19 18:24:45 ubuntu kernel: [    0.000615] Yama: becoming mindful.
+Oct 19 18:24:45 ubuntu kernel: [    0.000784] AppArmor: AppArmor initialized
+Oct 19 18:24:45 ubuntu kernel: [    0.001190] Mount-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Oct 19 18:24:45 ubuntu systemd[1]: Found device QEMU_HARDDISK 1.
+Oct 19 18:24:45 ubuntu kernel: [    0.001509] Mountpoint-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Oct 19 18:24:45 ubuntu kernel: [    0.003391] ACPI PPTT: No PPTT table found, CPU and cache topology may be inaccurate
+Oct 19 18:24:45 ubuntu kernel: [    0.003766] rcu: Hierarchical SRCU implementation.
+Oct 19 18:24:45 ubuntu systemd[1]: Starting File System Check on /dev/disk/by-uuid/5EA9-3D4C...
+Oct 19 18:24:45 ubuntu kernel: [    0.004650] Platform MSI: ITS@0x8080000 domain created
+Oct 19 18:24:45 ubuntu kernel: [    0.004667] PCI/MSI: ITS@0x8080000 domain created
+Oct 19 18:24:45 ubuntu kernel: [    0.004721] Remapping and enabling EFI services.
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target Swap.
+Oct 19 18:24:45 ubuntu kernel: [    0.006076] smp: Bringing up secondary CPUs ...
+Oct 19 18:24:45 ubuntu kernel: [    0.279847] Detected VIPT I-cache on CPU1
+Oct 19 18:24:45 ubuntu kernel: [    0.279883] GICv3: CPU1: found redistributor 1 region 0:0x00000000080c0000
+Oct 19 18:24:45 ubuntu kernel: [    0.280244] GICv3: CPU1: using allocated LPI pending table @0x000000053ca40000
+Oct 19 18:24:45 ubuntu kernel: [    0.280296] CPU1: Booted secondary processor 0x0000000001 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    0.564561] Detected VIPT I-cache on CPU2
+Oct 19 18:24:45 ubuntu kernel: [    0.564585] GICv3: CPU2: found redistributor 2 region 0:0x00000000080e0000
+Oct 19 18:24:45 ubuntu systemd[1]: Created slice system-lvm2\x2dpvscan.slice.
+Oct 19 18:24:45 ubuntu systemd[1]: Starting LVM2 PV scan on device 8:2...
+Oct 19 18:24:45 ubuntu kernel: [    0.564850] GICv3: CPU2: using allocated LPI pending table @0x000000053ca50000
+Oct 19 18:24:45 ubuntu kernel: [    0.564890] CPU2: Booted secondary processor 0x0000000002 [0x481fd010]
+Oct 19 18:24:45 ubuntu systemd[1]: Started File System Check Daemon to report status.
+Oct 19 18:24:45 ubuntu kernel: [    0.670496] Detected VIPT I-cache on CPU3
+Oct 19 18:24:45 ubuntu kernel: [    0.670536] GICv3: CPU3: found redistributor 3 region 0:0x0000000008100000
+Oct 19 18:24:45 ubuntu systemd-fsck[1108]: fsck.fat 4.1 (2017-01-24)
+Oct 19 18:24:45 ubuntu kernel: [    0.670938] GICv3: CPU3: using allocated LPI pending table @0x000000053ca60000
+Oct 19 18:24:45 ubuntu kernel: [    0.670999] CPU3: Booted secondary processor 0x0000000003 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    0.946852] Detected VIPT I-cache on CPU4
+Oct 19 18:24:45 ubuntu kernel: [    0.946877] GICv3: CPU4: found redistributor 4 region 0:0x0000000008120000
+Oct 19 18:24:45 ubuntu kernel: [    0.947145] GICv3: CPU4: using allocated LPI pending table @0x000000053ca70000
+Oct 19 18:24:45 ubuntu systemd-fsck[1108]: /dev/sda1: 5 files, 41/65501 clusters
+Oct 19 18:24:45 ubuntu kernel: [    0.947180] CPU4: Booted secondary processor 0x0000000004 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    1.057306] Detected VIPT I-cache on CPU5
+Oct 19 18:24:45 ubuntu kernel: [    1.057381] GICv3: CPU5: found redistributor 5 region 0:0x0000000008140000
+Oct 19 18:24:45 ubuntu kernel: [    1.057834] GICv3: CPU5: using allocated LPI pending table @0x000000053ca80000
+Oct 19 18:24:45 ubuntu systemd[1]: Started File System Check on /dev/disk/by-uuid/5EA9-3D4C.
+Oct 19 18:24:45 ubuntu kernel: [    1.057924] CPU5: Booted secondary processor 0x0000000005 [0x481fd010]
+Oct 19 18:24:45 ubuntu lvm[1109]:   2 logical volume(s) in volume group "ubuntu-vg" now active
+Oct 19 18:24:45 ubuntu kernel: [    1.335479] Detected VIPT I-cache on CPU6
+Oct 19 18:24:45 ubuntu systemd[1]: Mounting /boot/efi...
+Oct 19 18:24:45 ubuntu kernel: [    1.335508] GICv3: CPU6: found redistributor 6 region 0:0x0000000008160000
+Oct 19 18:24:45 ubuntu kernel: [    1.335773] GICv3: CPU6: using allocated LPI pending table @0x000000053ca90000
+Oct 19 18:24:45 ubuntu kernel: [    1.335808] CPU6: Booted secondary processor 0x0000000006 [0x481fd010]
+Oct 19 18:24:45 ubuntu systemd[1]: Started LVM2 PV scan on device 8:2.
+Oct 19 18:24:45 ubuntu kernel: [    1.446635] Detected VIPT I-cache on CPU7
+Oct 19 18:24:45 ubuntu systemd[1]: Mounted /boot/efi.
+Oct 19 18:24:45 ubuntu kernel: [    1.446663] GICv3: CPU7: found redistributor 7 region 0:0x0000000008180000
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target Local File Systems.
+Oct 19 18:24:45 ubuntu kernel: [    1.446908] GICv3: CPU7: using allocated LPI pending table @0x000000053caa0000
+Oct 19 18:24:45 ubuntu systemd[1]: Starting AppArmor initialization...
+Oct 19 18:24:45 ubuntu kernel: [    1.446941] CPU7: Booted secondary processor 0x0000000007 [0x481fd010]
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct 19 18:24:45 ubuntu kernel: [    1.558021] Detected VIPT I-cache on CPU8
+Oct 19 18:24:45 ubuntu systemd[1]: Starting ebtables ruleset management...
+Oct 19 18:24:45 ubuntu kernel: [    1.558050] GICv3: CPU8: found redistributor 8 region 0:0x00000000081a0000
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Create Volatile Files and Directories...
+Oct 19 18:24:45 ubuntu kernel: [    1.558285] GICv3: CPU8: using allocated LPI pending table @0x000000053cab0000
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Set console font and keymap...
+Oct 19 18:24:45 ubuntu kernel: [    1.558318] CPU8: Booted secondary processor 0x0000000008 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    1.832908] Detected VIPT I-cache on CPU9
+Oct 19 18:24:45 ubuntu kernel: [    1.832944] GICv3: CPU9: found redistributor 9 region 0:0x00000000081c0000
+Oct 19 18:24:45 ubuntu kernel: [    1.833175] GICv3: CPU9: using allocated LPI pending table @0x000000053cac0000
+Oct 19 18:24:45 ubuntu kernel: [    1.833215] CPU9: Booted secondary processor 0x0000000009 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    1.939107] Detected VIPT I-cache on CPU10
+Oct 19 18:24:45 ubuntu kernel: [    1.939143] GICv3: CPU10: found redistributor a region 0:0x00000000081e0000
+Oct 19 18:24:45 ubuntu kernel: [    1.939355] GICv3: CPU10: using allocated LPI pending table @0x000000053cad0000
+Oct 19 18:24:45 ubuntu kernel: [    1.939387] CPU10: Booted secondary processor 0x000000000a [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    2.065438] Detected VIPT I-cache on CPU11
+Oct 19 18:24:45 ubuntu kernel: [    2.065473] GICv3: CPU11: found redistributor b region 0:0x0000000008200000
+Oct 19 18:24:45 ubuntu kernel: [    2.065686] GICv3: CPU11: using allocated LPI pending table @0x000000053cae0000
+Oct 19 18:24:45 ubuntu kernel: [    2.065717] CPU11: Booted secondary processor 0x000000000b [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    2.171702] Detected VIPT I-cache on CPU12
+Oct 19 18:24:45 ubuntu kernel: [    2.171742] GICv3: CPU12: found redistributor c region 0:0x0000000008220000
+Oct 19 18:24:45 ubuntu kernel: [    2.171938] GICv3: CPU12: using allocated LPI pending table @0x000000053caf0000
+Oct 19 18:24:45 ubuntu kernel: [    2.171985] CPU12: Booted secondary processor 0x000000000c [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    2.451947] Detected VIPT I-cache on CPU13
+Oct 19 18:24:45 ubuntu kernel: [    2.451990] GICv3: CPU13: found redistributor d region 0:0x0000000008240000
+Oct 19 18:24:45 ubuntu kernel: [    2.452208] GICv3: CPU13: using allocated LPI pending table @0x000000053cb00000
+Oct 19 18:24:45 ubuntu kernel: [    2.452244] CPU13: Booted secondary processor 0x000000000d [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    2.728563] Detected VIPT I-cache on CPU14
+Oct 19 18:24:45 ubuntu kernel: [    2.728598] GICv3: CPU14: found redistributor e region 0:0x0000000008260000
+Oct 19 18:24:45 ubuntu kernel: [    2.728817] GICv3: CPU14: using allocated LPI pending table @0x000000053cb10000
+Oct 19 18:24:45 ubuntu kernel: [    2.728852] CPU14: Booted secondary processor 0x000000000e [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    3.008762] Detected VIPT I-cache on CPU15
+Oct 19 18:24:45 ubuntu kernel: [    3.008858] GICv3: CPU15: found redistributor f region 0:0x0000000008280000
+Oct 19 18:24:45 ubuntu kernel: [    3.009206] GICv3: CPU15: using allocated LPI pending table @0x000000053cb20000
+Oct 19 18:24:45 ubuntu kernel: [    3.009244] CPU15: Booted secondary processor 0x000000000f [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    3.284938] Detected VIPT I-cache on CPU16
+Oct 19 18:24:45 ubuntu kernel: [    3.284982] GICv3: CPU16: found redistributor 100 region 0:0x00000000082a0000
+Oct 19 18:24:45 ubuntu kernel: [    3.285229] GICv3: CPU16: using allocated LPI pending table @0x000000053cb30000
+Oct 19 18:24:45 ubuntu kernel: [    3.285271] CPU16: Booted secondary processor 0x0000000100 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    3.569377] Detected VIPT I-cache on CPU17
+Oct 19 18:24:45 ubuntu kernel: [    3.569424] GICv3: CPU17: found redistributor 101 region 0:0x00000000082c0000
+Oct 19 18:24:45 ubuntu kernel: [    3.569698] GICv3: CPU17: using allocated LPI pending table @0x000000053cb40000
+Oct 19 18:24:45 ubuntu kernel: [    3.569738] CPU17: Booted secondary processor 0x0000000101 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    3.847336] Detected VIPT I-cache on CPU18
+Oct 19 18:24:45 ubuntu kernel: [    3.847380] GICv3: CPU18: found redistributor 102 region 0:0x00000000082e0000
+Oct 19 18:24:45 ubuntu kernel: [    3.847564] GICv3: CPU18: using allocated LPI pending table @0x000000053cb50000
+Oct 19 18:24:45 ubuntu systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Oct 19 18:24:45 ubuntu systemd[1]: Started Set console font and keymap.
+Oct 19 18:24:45 ubuntu kernel: [    3.847603] CPU18: Booted secondary processor 0x0000000102 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    4.132390] Detected VIPT I-cache on CPU19
+Oct 19 18:24:45 ubuntu kernel: [    4.132442] GICv3: CPU19: found redistributor 103 region 0:0x0000000008300000
+Oct 19 18:24:45 ubuntu systemd[1]: Started Create Volatile Files and Directories.
+Oct 19 18:24:45 ubuntu apparmor[1117]:  * Starting AppArmor profiles
+Oct 19 18:24:45 ubuntu kernel: [    4.132702] GICv3: CPU19: using allocated LPI pending table @0x000000053cb60000
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Network Time Synchronization...
+Oct 19 18:24:45 ubuntu kernel: [    4.132738] CPU19: Booted secondary processor 0x0000000103 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    4.246281] Detected VIPT I-cache on CPU20
+Oct 19 18:24:45 ubuntu kernel: [    4.246411] GICv3: CPU20: found redistributor 104 region 0:0x0000000008320000
+Oct 19 18:24:45 ubuntu kernel: [    4.246823] GICv3: CPU20: using allocated LPI pending table @0x000000053cb70000
+Oct 19 18:24:45 ubuntu kernel: [    4.246894] CPU20: Booted secondary processor 0x0000000104 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    4.470453] Detected VIPT I-cache on CPU21
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct 19 18:24:45 ubuntu kernel: [    4.470504] GICv3: CPU21: found redistributor 105 region 0:0x0000000008340000
+Oct 19 18:24:45 ubuntu kernel: [    4.470738] GICv3: CPU21: using allocated LPI pending table @0x000000053cb80000
+Oct 19 18:24:45 ubuntu kernel: [    4.470775] CPU21: Booted secondary processor 0x0000000105 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    4.755347] Detected VIPT I-cache on CPU22
+Oct 19 18:24:45 ubuntu systemd[1]: Started ebtables ruleset management.
+Oct 19 18:24:45 ubuntu kernel: [    4.755402] GICv3: CPU22: found redistributor 106 region 0:0x0000000008360000
+Oct 19 18:24:45 ubuntu kernel: [    4.755618] GICv3: CPU22: using allocated LPI pending table @0x000000053cb90000
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target Network (Pre).
+Oct 19 18:24:45 ubuntu kernel: [    4.755662] CPU22: Booted secondary processor 0x0000000106 [0x481fd010]
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Network Service...
+Oct 19 18:24:45 ubuntu kernel: [    5.036877] Detected VIPT I-cache on CPU23
+Oct 19 18:24:45 ubuntu systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct 19 18:24:45 ubuntu kernel: [    5.036932] GICv3: CPU23: found redistributor 107 region 0:0x0000000008380000
+Oct 19 18:24:45 ubuntu kernel: [    5.037160] GICv3: CPU23: using allocated LPI pending table @0x000000053cba0000
+Oct 19 18:24:45 ubuntu kernel: [    5.037197] CPU23: Booted secondary processor 0x0000000107 [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    5.146304] Detected VIPT I-cache on CPU24
+Oct 19 18:24:45 ubuntu systemd-networkd[1148]: Enumeration completed
+Oct 19 18:24:45 ubuntu kernel: [    5.146433] GICv3: CPU24: found redistributor 108 region 0:0x00000000083a0000
+Oct 19 18:24:45 ubuntu kernel: [    5.146788] GICv3: CPU24: using allocated LPI pending table @0x000000053cbb0000
+Oct 19 18:24:45 ubuntu kernel: [    5.146867] CPU24: Booted secondary processor 0x0000000108 [0x481fd010]
+Oct 19 18:24:45 ubuntu systemd[1]: Started Network Service.
+Oct 19 18:24:45 ubuntu kernel: [    5.434093] Detected VIPT I-cache on CPU25
+Oct 19 18:24:45 ubuntu systemd-networkd[1148]: lo: Link is not managed by us
+Oct 19 18:24:45 ubuntu kernel: [    5.434155] GICv3: CPU25: found redistributor 109 region 0:0x00000000083c0000
+Oct 19 18:24:45 ubuntu systemd[1]: Started Network Time Synchronization.
+Oct 19 18:24:45 ubuntu kernel: [    5.434395] GICv3: CPU25: using allocated LPI pending table @0x000000053cbc0000
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target System Time Synchronized.
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Network Name Resolution...
+Oct 19 18:24:45 ubuntu kernel: [    5.434436] CPU25: Booted secondary processor 0x0000000109 [0x481fd010]
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Wait for Network to be Configured...
+Oct 19 18:24:45 ubuntu kernel: [    5.548873] Detected VIPT I-cache on CPU26
+Oct 19 18:24:45 ubuntu systemd-networkd-wait-online[1174]: ignoring: lo
+Oct 19 18:24:45 ubuntu kernel: [    5.549006] GICv3: CPU26: found redistributor 10a region 0:0x00000000083e0000
+Oct 19 18:24:45 ubuntu apparmor[1117]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct 19 18:24:45 ubuntu kernel: [    5.549360] GICv3: CPU26: using allocated LPI pending table @0x000000053cbd0000
+Oct 19 18:24:45 ubuntu kernel: [    5.549435] CPU26: Booted secondary processor 0x000000010a [0x481fd010]
+Oct 19 18:24:45 ubuntu systemd-networkd[1148]: enp1s0: Gained carrier
+Oct 19 18:24:45 ubuntu kernel: [    5.838065] Detected VIPT I-cache on CPU27
+Oct 19 18:24:45 ubuntu systemd-resolved[1172]: Positive Trust Anchors:
+Oct 19 18:24:45 ubuntu systemd-resolved[1172]: . IN DS 19036 8 2 49aac11d7b6f6446702e54a1607371607a1a41855200fd2ce1cdde32f24e8fb5
+Oct 19 18:24:45 ubuntu kernel: [    5.838228] GICv3: CPU27: found redistributor 10b region 0:0x0000000008400000
+Oct 19 18:24:45 ubuntu kernel: [    5.838580] GICv3: CPU27: using allocated LPI pending table @0x000000053cbe0000
+Oct 19 18:24:45 ubuntu systemd-resolved[1172]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Oct 19 18:24:45 ubuntu kernel: [    5.838651] CPU27: Booted secondary processor 0x000000010b [0x481fd010]
+Oct 19 18:24:45 ubuntu systemd-resolved[1172]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct 19 18:24:45 ubuntu kernel: [    6.122780] Detected VIPT I-cache on CPU28
+Oct 19 18:24:45 ubuntu systemd-networkd-wait-online[1174]: ignoring: lo
+Oct 19 18:24:45 ubuntu kernel: [    6.122846] GICv3: CPU28: found redistributor 10c region 0:0x0000000008420000
+Oct 19 18:24:45 ubuntu kernel: [    6.123036] GICv3: CPU28: using allocated LPI pending table @0x000000053cbf0000
+Oct 19 18:24:45 ubuntu kernel: [    6.123078] CPU28: Booted secondary processor 0x000000010c [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    6.231343] Detected VIPT I-cache on CPU29
+Oct 19 18:24:45 ubuntu kernel: [    6.231418] GICv3: CPU29: found redistributor 10d region 0:0x0000000008440000
+Oct 19 18:24:45 ubuntu kernel: [    6.231613] GICv3: CPU29: using allocated LPI pending table @0x000000051f800000
+Oct 19 18:24:45 ubuntu systemd-networkd-wait-online[1174]: ignoring: lo
+Oct 19 18:24:45 ubuntu systemd-timesyncd[1137]: Network configuration changed, trying to establish connection.
+Oct 19 18:24:45 ubuntu kernel: [    6.231645] CPU29: Booted secondary processor 0x000000010d [0x481fd010]
+Oct 19 18:24:45 ubuntu systemd-resolved[1172]: Using system hostname 'ubuntu'.
+Oct 19 18:24:45 ubuntu kernel: [    6.339112] Detected VIPT I-cache on CPU30
+Oct 19 18:24:45 ubuntu systemd[1]: Started Network Name Resolution.
+Oct 19 18:24:45 ubuntu kernel: [    6.339186] GICv3: CPU30: found redistributor 10e region 0:0x0000000008460000
+Oct 19 18:24:45 ubuntu kernel: [    6.339380] GICv3: CPU30: using allocated LPI pending table @0x000000051f810000
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target Host and Network Name Lookups.
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target Network.
+Oct 19 18:24:45 ubuntu kernel: [    6.339417] CPU30: Booted secondary processor 0x000000010e [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    6.626825] Detected VIPT I-cache on CPU31
+Oct 19 18:24:45 ubuntu apparmor[1117]:    ...done.
+Oct 19 18:24:45 ubuntu kernel: [    6.626903] GICv3: CPU31: found redistributor 10f region 0:0x0000000008480000
+Oct 19 18:24:45 ubuntu kernel: [    6.627259] GICv3: CPU31: using allocated LPI pending table @0x000000051f820000
+Oct 19 18:24:45 ubuntu systemd[1]: Started AppArmor initialization.
+Oct 19 18:24:45 ubuntu kernel: [    6.627307] CPU31: Booted secondary processor 0x000000010f [0x481fd010]
+Oct 19 18:24:45 ubuntu kernel: [    6.627512] smp: Brought up 1 node, 32 CPUs
+Oct 19 18:24:45 ubuntu kernel: [    6.627643] SMP: Total of 32 processors activated.
+Oct 19 18:24:45 ubuntu kernel: [    6.627649] CPU features: detected: Privileged Access Never
+Oct 19 18:24:45 ubuntu kernel: [    6.627652] CPU features: detected: LSE atomic instructions
+Oct 19 18:24:45 ubuntu kernel: [    6.627654] CPU features: detected: User Access Override
+Oct 19 18:24:45 ubuntu kernel: [    6.627660] CPU features: detected: Common not Private translations
+Oct 19 18:24:45 ubuntu kernel: [    6.627662] CPU features: detected: Data cache clean to Point of Persistence
+Oct 19 18:24:45 ubuntu kernel: [    6.627665] CPU features: detected: RAS Extension Support
+Oct 19 18:24:45 ubuntu kernel: [    6.627669] CPU features: detected: CRC32 instructions
+Oct 19 18:24:45 ubuntu kernel: [    6.747964] CPU: All CPU(s) started at EL1
+Oct 19 18:24:45 ubuntu kernel: [    6.748374] alternatives: patching kernel code
+Oct 19 18:24:45 ubuntu kernel: [    6.754334] devtmpfs: initialized
+Oct 19 18:24:45 ubuntu kernel: [    6.756007] Registered cp15_barrier emulation handler
+Oct 19 18:24:45 ubuntu kernel: [    6.756199] Registered setend emulation handler
+Oct 19 18:24:45 ubuntu kernel: [    6.756204] KASLR disabled due to lack of seed
+Oct 19 18:24:45 ubuntu kernel: [    6.757083] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct 19 18:24:45 ubuntu kernel: [    6.757431] futex hash table entries: 8192 (order: 7, 524288 bytes, linear)
+Oct 19 18:24:45 ubuntu kernel: [    6.758623] pinctrl core: initialized pinctrl subsystem
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target System Initialization.
+Oct 19 18:24:45 ubuntu kernel: [    6.759277] thermal_sys: Registered thermal governor 'fair_share'
+Oct 19 18:24:45 ubuntu kernel: [    6.759278] thermal_sys: Registered thermal governor 'bang_bang'
+Oct 19 18:24:45 ubuntu kernel: [    6.759280] thermal_sys: Registered thermal governor 'step_wise'
+Oct 19 18:24:45 ubuntu kernel: [    6.759281] thermal_sys: Registered thermal governor 'user_space'
+Oct 19 18:24:45 ubuntu kernel: [    6.759388] SMBIOS 3.0.0 present.
+Oct 19 18:24:45 ubuntu systemd[1]: Listening on UUID daemon activation socket.
+Oct 19 18:24:45 ubuntu kernel: [    6.759393] DMI: QEMU KVM Virtual Machine, BIOS 0.0.0 02/06/2015
+Oct 19 18:24:45 ubuntu systemd[1]: Started Discard unused blocks once a week.
+Oct 19 18:24:45 ubuntu kernel: [    6.760103] NET: Registered protocol family 16
+Oct 19 18:24:45 ubuntu systemd[1]: Started Message of the Day.
+Oct 19 18:24:45 ubuntu systemd[1]: Listening on ACPID Listen Socket.
+Oct 19 18:24:45 ubuntu kernel: [    6.762735] DMA: preallocated 256 KiB pool for atomic allocations
+Oct 19 18:24:45 ubuntu kernel: [    6.762743] audit: initializing netlink subsys (disabled)
+Oct 19 18:24:45 ubuntu systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct 19 18:24:45 ubuntu kernel: [    6.763173] audit: type=2000 audit(6.568:1): state=initialized audit_enabled=0 res=1
+Oct 19 18:24:45 ubuntu kernel: [    6.763593] cpuidle: using governor ladder
+Oct 19 18:24:45 ubuntu systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct 19 18:24:45 ubuntu kernel: [    6.763608] cpuidle: using governor menu
+Oct 19 18:24:45 ubuntu systemd[1]: Starting LXD - unix socket.
+Oct 19 18:24:45 ubuntu systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Oct 19 18:24:45 ubuntu kernel: [    6.763688] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+Oct 19 18:24:45 ubuntu kernel: [    6.766535] ASID allocator initialised with 65536 entries
+Oct 19 18:24:45 ubuntu kernel: [    6.766681] ACPI: bus type PCI registered
+Oct 19 18:24:45 ubuntu systemd[1]: Started ACPI Events Check.
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target Paths.
+Oct 19 18:24:45 ubuntu kernel: [    6.766710] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Socket activation for snappy daemon.
+Oct 19 18:24:45 ubuntu kernel: [    6.766933] Serial: AMBA PL011 UART driver
+Oct 19 18:24:45 ubuntu kernel: [    6.770997] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Oct 19 18:24:45 ubuntu systemd[1]: Started Daily apt download activities.
+Oct 19 18:24:45 ubuntu kernel: [    6.771000] HugeTLB registered 32.0 MiB page size, pre-allocated 0 pages
+Oct 19 18:24:45 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 19 18:24:45 ubuntu kernel: [    6.771001] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Oct 19 18:24:45 ubuntu kernel: [    6.771003] HugeTLB registered 64.0 KiB page size, pre-allocated 0 pages
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target Timers.
+Oct 19 18:24:45 ubuntu kernel: [    6.788548] ACPI: Added _OSI(Module Device)
+Oct 19 18:24:45 ubuntu systemd[1]: Listening on LXD - unix socket.
+Oct 19 18:24:45 ubuntu kernel: [    6.788550] ACPI: Added _OSI(Processor Device)
+Oct 19 18:24:45 ubuntu kernel: [    6.788552] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 19 18:24:45 ubuntu kernel: [    6.788553] ACPI: Added _OSI(Processor Aggregator Device)
+Oct 19 18:24:45 ubuntu kernel: [    6.788555] ACPI: Added _OSI(Linux-Dell-Video)
+Oct 19 18:24:45 ubuntu kernel: [    6.788557] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Oct 19 18:24:45 ubuntu systemd[1]: Listening on Socket activation for snappy daemon.
+Oct 19 18:24:45 ubuntu kernel: [    6.788559] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Oct 19 18:24:45 ubuntu kernel: [    6.789465] ACPI: 1 ACPI AML tables successfully acquired and loaded
+Oct 19 18:24:45 ubuntu kernel: [    6.790039] ACPI: Interpreter enabled
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target Sockets.
+Oct 19 18:24:45 ubuntu kernel: [    6.790041] ACPI: Using GIC for interrupt routing
+Oct 19 18:24:45 ubuntu systemd[1]: Reached target Basic System.
+Oct 19 18:24:45 ubuntu kernel: [    6.790056] ACPI: MCFG table detected, 1 entries
+Oct 19 18:24:45 ubuntu kernel: [    6.794685] ARMH0011:00: ttyAMA0 at MMIO 0x9000000 (irq = 4, base_baud = 0) is a SBSA
+Oct 19 18:24:45 ubuntu kernel: [    6.950013] printk: console [ttyAMA0] enabled
+Oct 19 18:24:45 ubuntu systemd[1]: Started D-Bus System Message Bus.
+Oct 19 18:24:45 ubuntu kernel: [    6.952433] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-0f])
+Oct 19 18:24:45 ubuntu kernel: [    6.953125] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Oct 19 18:24:45 ubuntu kernel: [    6.954158] acpi PNP0A08:00: _OSC: platform does not support [SHPCHotplug LTR]
+Oct 19 18:24:45 ubuntu kernel: [    6.954997] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug PME AER PCIeCapability]
+Oct 19 18:24:45 ubuntu systemd[1]: Starting LSB: Record successful boot for GRUB...
+Oct 19 18:24:45 ubuntu kernel: [    6.956041] acpi PNP0A08:00: ECAM area [mem 0x3f000000-0x3fffffff] reserved by PNP0C02:00
+Oct 19 18:24:45 ubuntu systemd[1]: Started irqbalance daemon.
+Oct 19 18:24:45 ubuntu kernel: [    6.956848] acpi PNP0A08:00: ECAM at [mem 0x3f000000-0x3fffffff] for [bus 00-0f]
+Oct 19 18:24:45 ubuntu systemd[1]: Started Regular background program processing daemon.
+Oct 19 18:24:45 ubuntu kernel: [    6.957661] Remapped I/O 0x000000003eff0000 to [io  0x0000-0xffff window]
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Accounts Service...
+Oct 19 18:24:45 ubuntu kernel: [    6.958532] PCI host bridge to bus 0000:00
+Oct 19 18:24:45 ubuntu systemd[1]: Starting LXD - container startup/shutdown...
+Oct 19 18:24:45 ubuntu kernel: [    6.958940] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff window]
+Oct 19 18:24:45 ubuntu systemd[1]: Started FUSE filesystem for LXC.
+Oct 19 18:24:45 ubuntu kernel: [    6.959648] pci_bus 0000:00: root bus resource [io  0x0000-0xffff window]
+Oct 19 18:24:45 ubuntu cron[1213]: (CRON) INFO (pidfile fd = 3)
+Oct 19 18:24:45 ubuntu kernel: [    6.960298] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff window]
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Login Service...
+Oct 19 18:24:45 ubuntu kernel: [    6.961035] pci_bus 0000:00: root bus resource [bus 00-0f]
+Oct 19 18:24:45 ubuntu cron[1213]: (CRON) INFO (Running @reboot jobs)
+Oct 19 18:24:45 ubuntu kernel: [    6.961607] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000
+Oct 19 18:24:45 ubuntu kernel: [    6.962601] pci 0000:00:01.0: [1b36:000c] type 01 class 0x060400
+Oct 19 18:24:45 ubuntu kernel: [    6.964526] pci 0000:00:01.0: reg 0x10: [mem 0x10303000-0x10303fff]
+Oct 19 18:24:45 ubuntu kernel: [    6.967579] pci 0000:00:01.1: [1b36:000c] type 01 class 0x060400
+Oct 19 18:24:45 ubuntu kernel: [    6.969472] pci 0000:00:01.1: reg 0x10: [mem 0x10302000-0x10302fff]
+Oct 19 18:24:45 ubuntu kernel: [    6.972753] pci 0000:00:01.2: [1b36:000c] type 01 class 0x060400
+Oct 19 18:24:45 ubuntu systemd[1]: Started Deferred execution scheduler.
+Oct 19 18:24:45 ubuntu kernel: [    6.976614] pci 0000:00:01.2: reg 0x10: [mem 0x10301000-0x10301fff]
+Oct 19 18:24:45 ubuntu kernel: [    6.980441] pci 0000:00:01.3: [1b36:000c] type 01 class 0x060400
+Oct 19 18:24:45 ubuntu kernel: [    6.982660] pci 0000:00:01.3: reg 0x10: [mem 0x10300000-0x10300fff]
+Oct 19 18:24:45 ubuntu kernel: [    6.987389] pci 0000:01:00.0: [1af4:1041] type 00 class 0x020000
+Oct 19 18:24:45 ubuntu kernel: [    6.989379] pci 0000:01:00.0: reg 0x14: [mem 0x10200000-0x10200fff]
+Oct 19 18:24:45 ubuntu kernel: [    6.992027] pci 0000:01:00.0: reg 0x20: [mem 0x8000000000-0x8000003fff 64bit pref]
+Oct 19 18:24:45 ubuntu kernel: [    6.993703] pci 0000:01:00.0: reg 0x30: [mem 0xfff80000-0xffffffff pref]
+Oct 19 18:24:45 ubuntu kernel: [    6.995691] pci 0000:02:00.0: [1b36:000d] type 00 class 0x0c0330
+Oct 19 18:24:45 ubuntu kernel: [    6.996414] pci 0000:02:00.0: reg 0x10: [mem 0x10100000-0x10103fff 64bit]
+Oct 19 18:24:45 ubuntu kernel: [    6.999965] pci 0000:03:00.0: [1af4:1048] type 00 class 0x010000
+Oct 19 18:24:45 ubuntu kernel: [    7.002339] pci 0000:03:00.0: reg 0x14: [mem 0x10000000-0x10000fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.005517] pci 0000:03:00.0: reg 0x20: [mem 0x8000100000-0x8000103fff 64bit pref]
+Oct 19 18:24:45 ubuntu kernel: [    7.012062] pci 0000:00:01.0: bridge window [io  0x1000-0x0fff] to [bus 01] add_size 1000
+Oct 19 18:24:45 ubuntu kernel: [    7.012899] pci 0000:00:01.0: bridge window [mem 0x00100000-0x001fffff 64bit pref] to [bus 01] add_size 100000 add_align 100000
+Oct 19 18:24:45 ubuntu kernel: [    7.013988] pci 0000:00:01.0: bridge window [mem 0x00100000-0x001fffff] to [bus 01] add_size 100000 add_align 100000
+Oct 19 18:24:45 ubuntu kernel: [    7.015036] pci 0000:00:01.1: bridge window [io  0x1000-0x0fff] to [bus 02] add_size 1000
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ arch_timer(2) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.015828] pci 0000:00:01.1: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 02] add_size 200000 add_align 100000
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ uart-pl011(4) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.017134] pci 0000:00:01.1: bridge window [mem 0x00100000-0x001fffff] to [bus 02] add_size 100000 add_align 100000
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ arm-pmu(42) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.018317] pci 0000:00:01.2: bridge window [io  0x1000-0x0fff] to [bus 03] add_size 1000
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ ACPI:Event(43) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.019233] pci 0000:00:01.2: bridge window [mem 0x00100000-0x001fffff 64bit pref] to [bus 03] add_size 100000 add_align 100000
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ pciehp(44) guessed as class 0
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ pciehp(45) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.020478] pci 0000:00:01.2: bridge window [mem 0x00100000-0x001fffff] to [bus 03] add_size 100000 add_align 100000
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ pciehp(46) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.021627] pci 0000:00:01.3: bridge window [io  0x1000-0x0fff] to [bus 04] add_size 1000
+Oct 19 18:24:45 ubuntu kernel: [    7.022531] pci 0000:00:01.3: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 04] add_size 200000 add_align 100000
+Oct 19 18:24:45 ubuntu kernel: [    7.023790] pci 0000:00:01.3: bridge window [mem 0x00100000-0x000fffff] to [bus 04] add_size 200000 add_align 100000
+Oct 19 18:24:45 ubuntu kernel: [    7.024904] pci 0000:00:01.0: BAR 14: assigned [mem 0x10000000-0x101fffff]
+Oct 19 18:24:45 ubuntu kernel: [    7.025573] pci 0000:00:01.0: BAR 15: assigned [mem 0x8000000000-0x80001fffff 64bit pref]
+Oct 19 18:24:45 ubuntu kernel: [    7.026346] pci 0000:00:01.1: BAR 14: assigned [mem 0x10200000-0x103fffff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ pciehp(47) guessed as class 0
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(48) guessed as class 0
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(49) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.027068] pci 0000:00:01.1: BAR 15: assigned [mem 0x8000200000-0x80003fffff 64bit pref]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(50) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.027856] pci 0000:00:01.2: BAR 14: assigned [mem 0x10400000-0x105fffff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(51) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.028502] pci 0000:00:01.2: BAR 15: assigned [mem 0x8000400000-0x80005fffff 64bit pref]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(52) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.029273] pci 0000:00:01.3: BAR 14: assigned [mem 0x10600000-0x107fffff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(53) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.029915] pci 0000:00:01.3: BAR 15: assigned [mem 0x8000600000-0x80007fffff 64bit pref]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(54) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.030685] pci 0000:00:01.0: BAR 0: assigned [mem 0x10800000-0x10800fff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(55) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.031713] pci 0000:00:01.0: BAR 13: assigned [io  0x1000-0x1fff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(56) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.032315] pci 0000:00:01.1: BAR 0: assigned [mem 0x10801000-0x10801fff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(57) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.033322] pci 0000:00:01.1: BAR 13: assigned [io  0x2000-0x2fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.033917] pci 0000:00:01.2: BAR 0: assigned [mem 0x10802000-0x10802fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.034888] pci 0000:00:01.2: BAR 13: assigned [io  0x3000-0x3fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.035519] pci 0000:00:01.3: BAR 0: assigned [mem 0x10803000-0x10803fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.036493] pci 0000:00:01.3: BAR 13: assigned [io  0x4000-0x4fff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(58) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.037094] pci 0000:01:00.0: BAR 6: assigned [mem 0x10000000-0x1007ffff pref]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(59) guessed as class 0
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(60) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.037809] pci 0000:01:00.0: BAR 4: assigned [mem 0x8000000000-0x8000003fff 64bit pref]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(61) guessed as class 0
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(62) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.039206] pci 0000:01:00.0: BAR 1: assigned [mem 0x10080000-0x10080fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.040801] pci 0000:00:01.0: PCI bridge to [bus 01]
+Oct 19 18:24:45 ubuntu kernel: [    7.041363] pci 0000:00:01.0:   bridge window [io  0x1000-0x1fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.042629] pci 0000:00:01.0:   bridge window [mem 0x10000000-0x101fffff]
+Oct 19 18:24:45 ubuntu kernel: [    7.043824] pci 0000:00:01.0:   bridge window [mem 0x8000000000-0x80001fffff 64bit pref]
+Oct 19 18:24:45 ubuntu kernel: [    7.045553] pci 0000:02:00.0: BAR 0: assigned [mem 0x10200000-0x10203fff 64bit]
+Oct 19 18:24:45 ubuntu kernel: [    7.046350] pci 0000:00:01.1: PCI bridge to [bus 02]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ xhci_hcd(63) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.046885] pci 0000:00:01.1:   bridge window [io  0x2000-0x2fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.048174] pci 0000:00:01.1:   bridge window [mem 0x10200000-0x103fffff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ virtio1-config(64) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.049336] pci 0000:00:01.1:   bridge window [mem 0x8000200000-0x80003fffff 64bit pref]
+Oct 19 18:24:45 ubuntu kernel: [    7.051568] pci 0000:03:00.0: BAR 4: assigned [mem 0x8000400000-0x8000403fff 64bit pref]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ virtio1-control(65) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.052980] pci 0000:03:00.0: BAR 1: assigned [mem 0x10400000-0x10400fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.053943] pci 0000:00:01.2: PCI bridge to [bus 03]
+Oct 19 18:24:45 ubuntu kernel: [    7.054432] pci 0000:00:01.2:   bridge window [io  0x3000-0x3fff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ virtio1-event(66) guessed as class 0
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ virtio1-request(67) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.055619] pci 0000:00:01.2:   bridge window [mem 0x10400000-0x105fffff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ virtio0-config(68) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.056660] pci 0000:00:01.2:   bridge window [mem 0x8000400000-0x80005fffff 64bit pref]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ virtio0-input.0(69) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.058289] pci 0000:00:01.3: PCI bridge to [bus 04]
+Oct 19 18:24:45 ubuntu kernel: [    7.058864] pci 0000:00:01.3:   bridge window [io  0x4000-0x4fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.060143] pci 0000:00:01.3:   bridge window [mem 0x10600000-0x107fffff]
+Oct 19 18:24:45 ubuntu kernel: [    7.061249] pci 0000:00:01.3:   bridge window [mem 0x8000600000-0x80007fffff 64bit pref]
+Oct 19 18:24:45 ubuntu kernel: [    7.064031] pci_bus 0000:00: resource 4 [mem 0x10000000-0x3efeffff window]
+Oct 19 18:24:45 ubuntu kernel: [    7.064713] pci_bus 0000:00: resource 5 [io  0x0000-0xffff window]
+Oct 19 18:24:45 ubuntu kernel: [    7.065335] pci_bus 0000:00: resource 6 [mem 0x8000000000-0xffffffffff window]
+Oct 19 18:24:45 ubuntu kernel: [    7.066038] pci_bus 0000:01: resource 0 [io  0x1000-0x1fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.066580] pci_bus 0000:01: resource 1 [mem 0x10000000-0x101fffff]
+Oct 19 18:24:45 ubuntu kernel: [    7.067309] pci_bus 0000:01: resource 2 [mem 0x8000000000-0x80001fffff 64bit pref]
+Oct 19 18:24:45 ubuntu kernel: [    7.068123] pci_bus 0000:02: resource 0 [io  0x2000-0x2fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.068707] pci_bus 0000:02: resource 1 [mem 0x10200000-0x103fffff]
+Oct 19 18:24:45 ubuntu /usr/sbin/irqbalance: IRQ virtio0-output.0(70) guessed as class 0
+Oct 19 18:24:45 ubuntu kernel: [    7.069366] pci_bus 0000:02: resource 2 [mem 0x8000200000-0x80003fffff 64bit pref]
+Oct 19 18:24:45 ubuntu kernel: [    7.070156] pci_bus 0000:03: resource 0 [io  0x3000-0x3fff]
+Oct 19 18:24:45 ubuntu kernel: [    7.070751] pci_bus 0000:03: resource 1 [mem 0x10400000-0x105fffff]
+Oct 19 18:24:45 ubuntu kernel: [    7.071419] pci_bus 0000:03: resource 2 [mem 0x8000400000-0x80005fffff 64bit pref]
+Oct 19 18:24:45 ubuntu kernel: [    7.072186] pci_bus 0000:04: resource 0 [io  0x4000-0x4fff]
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Oct 19 18:24:45 ubuntu kernel: [    7.072750] pci_bus 0000:04: resource 1 [mem 0x10600000-0x107fffff]
+Oct 19 18:24:45 ubuntu kernel: [    7.073393] pci_bus 0000:04: resource 2 [mem 0x8000600000-0x80007fffff 64bit pref]
+Oct 19 18:24:45 ubuntu kernel: [    7.074403] ACPI: PCI Interrupt Link [GSI0] (IRQs *35)
+Oct 19 18:24:45 ubuntu lxcfs[1218]: mount namespace: 5
+Oct 19 18:24:45 ubuntu kernel: [    7.074984] ACPI: PCI Interrupt Link [GSI1] (IRQs *36)
+Oct 19 18:24:45 ubuntu kernel: [    7.075567] ACPI: PCI Interrupt Link [GSI2] (IRQs *37)
+Oct 19 18:24:45 ubuntu lxcfs[1218]: hierarchies:
+Oct 19 18:24:45 ubuntu kernel: [    7.076150] ACPI: PCI Interrupt Link [GSI3] (IRQs *38)
+Oct 19 18:24:45 ubuntu lxcfs[1218]:   0: fd:   6: perf_event
+Oct 19 18:24:45 ubuntu kernel: [    7.077733] iommu: Default domain type: Translated 
+Oct 19 18:24:45 ubuntu kernel: [    7.078303] vgaarb: loaded
+Oct 19 18:24:45 ubuntu kernel: [    7.079038] SCSI subsystem initialized
+Oct 19 18:24:45 ubuntu kernel: [    7.079841] libata version 3.00 loaded.
+Oct 19 18:24:45 ubuntu kernel: [    7.079915] ACPI: bus type USB registered
+Oct 19 18:24:45 ubuntu lxcfs[1218]:   1: fd:   7: cpuset
+Oct 19 18:24:45 ubuntu lxcfs[1218]:   2: fd:   8: freezer
+Oct 19 18:24:45 ubuntu kernel: [    7.080368] usbcore: registered new interface driver usbfs
+Oct 19 18:24:45 ubuntu kernel: [    7.080919] usbcore: registered new interface driver hub
+Oct 19 18:24:45 ubuntu lxcfs[1218]:   3: fd:   9: hugetlb
+Oct 19 18:24:45 ubuntu kernel: [    7.081914] usbcore: registered new device driver usb
+Oct 19 18:24:45 ubuntu kernel: [    7.082493] pps_core: LinuxPPS API ver. 1 registered
+Oct 19 18:24:45 ubuntu lxcfs[1218]:   4: fd:  10: blkio
+Oct 19 18:24:45 ubuntu lxcfs[1218]:   5: fd:  11: memory
+Oct 19 18:24:45 ubuntu kernel: [    7.082986] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Oct 19 18:24:45 ubuntu lxcfs[1218]:   6: fd:  12: pids
+Oct 19 18:24:45 ubuntu lxcfs[1218]:   7: fd:  13: devices
+Oct 19 18:24:45 ubuntu kernel: [    7.083938] PTP clock support registered
+Oct 19 18:24:45 ubuntu lxcfs[1218]:   8: fd:  14: cpu,cpuacct
+Oct 19 18:24:45 ubuntu kernel: [    7.084963] EDAC MC: Ver: 3.0.0
+Oct 19 18:24:45 ubuntu lxcfs[1218]:   9: fd:  15: net_cls,net_prio
+Oct 19 18:24:45 ubuntu kernel: [    7.085734] Registered efivars operations
+Oct 19 18:24:45 ubuntu lxcfs[1218]:  10: fd:  16: rdma
+Oct 19 18:24:45 ubuntu kernel: [    7.088502] NetLabel: Initializing
+Oct 19 18:24:45 ubuntu lxcfs[1218]:  11: fd:  17: name=systemd
+Oct 19 18:24:45 ubuntu kernel: [    7.088844] NetLabel:  domain hash size = 128
+Oct 19 18:24:45 ubuntu lxcfs[1218]:  12: fd:  18: unified
+Oct 19 18:24:45 ubuntu kernel: [    7.089252] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Oct 19 18:24:45 ubuntu kernel: [    7.089871] NetLabel:  unlabeled traffic allowed by default
+Oct 19 18:24:45 ubuntu kernel: [    7.091199] clocksource: Switched to clocksource arch_sys_counter
+Oct 19 18:24:45 ubuntu systemd[1]: Starting System Logging Service...
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Snappy daemon...
+Oct 19 18:24:45 ubuntu kernel: [    7.114595] VFS: Disk quotas dquot_6.6.0
+Oct 19 18:24:45 ubuntu dbus-daemon[1209]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.3' (uid=0 pid=1216 comm="/usr/lib/accountsservice/accounts-daemon ")
+Oct 19 18:24:45 ubuntu kernel: [    7.115055] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 19 18:24:45 ubuntu kernel: [    7.116135] AppArmor: AppArmor Filesystem Enabled
+Oct 19 18:24:45 ubuntu kernel: [    7.116691] pnp: PnP ACPI init
+Oct 19 18:24:45 ubuntu kernel: [    7.117251] system 00:00: [mem 0x3f000000-0x3fffffff] could not be reserved
+Oct 19 18:24:45 ubuntu kernel: [    7.117917] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Oct 19 18:24:45 ubuntu kernel: [    7.117926] pnp: PnP ACPI: found 1 devices
+Oct 19 18:24:45 ubuntu kernel: [    7.122409] NET: Registered protocol family 2
+Oct 19 18:24:45 ubuntu kernel: [    7.123963] tcp_listen_portaddr_hash hash table entries: 16384 (order: 6, 262144 bytes, linear)
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Authorization Manager...
+Oct 19 18:24:45 ubuntu kernel: [    7.126474] TCP established hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Oct 19 18:24:45 ubuntu kernel: [    7.128390] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+Oct 19 18:24:45 ubuntu kernel: [    7.129254] TCP: Hash tables configured (established 262144 bind 65536)
+Oct 19 18:24:45 ubuntu kernel: [    7.130542] UDP hash table entries: 16384 (order: 7, 524288 bytes, linear)
+Oct 19 18:24:45 ubuntu kernel: [    7.131709] UDP-Lite hash table entries: 16384 (order: 7, 524288 bytes, linear)
+Oct 19 18:24:45 ubuntu kernel: [    7.132674] NET: Registered protocol family 1
+Oct 19 18:24:45 ubuntu kernel: [    7.133119] NET: Registered protocol family 44
+Oct 19 18:24:45 ubuntu kernel: [    7.133655] pci 0000:02:00.0: enabling device (0000 -> 0002)
+Oct 19 18:24:45 ubuntu kernel: [    7.134661] PCI: CLS 0 bytes, default 64
+Oct 19 18:24:45 ubuntu kernel: [    7.135259] Trying to unpack rootfs image as initramfs...
+Oct 19 18:24:45 ubuntu kernel: [    8.169374] Freeing initrd memory: 61288K
+Oct 19 18:24:45 ubuntu kernel: [    8.200675] hw perfevents: enabled with armv8_pmuv3_0 PMU driver, 13 counters available
+Oct 19 18:24:45 ubuntu kernel: [    8.201671] kvm [1]: HYP mode not available
+Oct 19 18:24:45 ubuntu kernel: [    8.203520] Initialise system trusted keyrings
+Oct 19 18:24:45 ubuntu grub-common[1210]:  * Recording successful boot for GRUB
+Oct 19 18:24:45 ubuntu kernel: [    8.204102] Key type blacklist registered
+Oct 19 18:24:45 ubuntu kernel: [    8.204890] workingset: timestamp_bits=40 max_order=23 bucket_order=0
+Oct 19 18:24:45 ubuntu systemd[1]: Started Login Service.
+Oct 19 18:24:45 ubuntu kernel: [    8.208202] zbud: loaded
+Oct 19 18:24:45 ubuntu systemd[1]: Started Unattended Upgrades Shutdown.
+Oct 19 18:24:45 ubuntu kernel: [    8.209835] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Oct 19 18:24:45 ubuntu grub-common[1210]:    ...done.
+Oct 19 18:24:45 ubuntu kernel: [    8.211552] fuse: init (API version 7.31)
+Oct 19 18:24:45 ubuntu rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+Oct 19 18:24:45 ubuntu kernel: [    8.213210] integrity: Platform Keyring initialized
+Oct 19 18:24:45 ubuntu kernel: [    8.226747] Key type asymmetric registered
+Oct 19 18:24:45 ubuntu kernel: [    8.227386] Asymmetric key parser 'x509' registered
+Oct 19 18:24:45 ubuntu kernel: [    8.228011] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
+Oct 19 18:24:45 ubuntu kernel: [    8.229411] io scheduler mq-deadline registered
+Oct 19 18:24:45 ubuntu kernel: [    8.233226] pl061_gpio ARMH0061:00: PL061 GPIO chip registered
+Oct 19 18:24:45 ubuntu kernel: [    8.234230] PCI Interrupt Link [GSI1] enabled at IRQ 36
+Oct 19 18:24:45 ubuntu kernel: [    8.235863] pcieport 0000:00:01.0: PME: Signaling with IRQ 44
+Oct 19 18:24:45 ubuntu kernel: [    8.236993] pcieport 0000:00:01.0: AER: enabled with IRQ 44
+Oct 19 18:24:45 ubuntu kernel: [    8.237880] pcieport 0000:00:01.0: pciehp: Slot #0 AttnBtn+ PwrCtrl+ MRL- AttnInd+ PwrInd+ HotPlug+ Surprise+ Interlock+ NoCompl- IbPresDis- LLActRep-
+Oct 19 18:24:45 ubuntu kernel: [    8.241320] pcieport 0000:00:01.1: PME: Signaling with IRQ 45
+Oct 19 18:24:45 ubuntu systemd[1]: Started System Logging Service.
+Oct 19 18:24:45 ubuntu kernel: [    8.242445] pcieport 0000:00:01.1: AER: enabled with IRQ 45
+Oct 19 18:24:45 ubuntu rsyslogd: rsyslogd's groupid changed to 106
+Oct 19 18:24:45 ubuntu kernel: [    8.243331] pcieport 0000:00:01.1: pciehp: Slot #0 AttnBtn+ PwrCtrl+ MRL- AttnInd+ PwrInd+ HotPlug+ Surprise+ Interlock+ NoCompl- IbPresDis- LLActRep-
+Oct 19 18:24:45 ubuntu rsyslogd: rsyslogd's userid changed to 102
+Oct 19 18:24:45 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="1224" x-info="http://www.rsyslog.com"] start
+Oct 19 18:24:45 ubuntu kernel: [    8.245504] pcieport 0000:00:01.2: PME: Signaling with IRQ 46
+Oct 19 18:24:45 ubuntu systemd[1]: Started LSB: Record successful boot for GRUB.
+Oct 19 18:24:45 ubuntu kernel: [    8.246261] pcieport 0000:00:01.2: AER: enabled with IRQ 46
+Oct 19 18:24:45 ubuntu kernel: [    8.246840] pcieport 0000:00:01.2: pciehp: Slot #0 AttnBtn+ PwrCtrl+ MRL- AttnInd+ PwrInd+ HotPlug+ Surprise+ Interlock+ NoCompl- IbPresDis- LLActRep-
+Oct 19 18:24:45 ubuntu kernel: [    8.249094] pcieport 0000:00:01.3: PME: Signaling with IRQ 47
+Oct 19 18:24:45 ubuntu kernel: [    8.249855] pcieport 0000:00:01.3: AER: enabled with IRQ 47
+Oct 19 18:24:45 ubuntu kernel: [    8.250417] pcieport 0000:00:01.3: pciehp: Slot #0 AttnBtn+ PwrCtrl+ MRL- AttnInd+ PwrInd+ HotPlug+ Surprise+ Interlock+ NoCompl- IbPresDis- LLActRep-
+Oct 19 18:24:45 ubuntu kernel: [    8.252059] pcieport 0000:00:01.3: pciehp: Slot(0-3): Link Up
+Oct 19 18:24:45 ubuntu kernel: [    8.252301] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Oct 19 18:24:45 ubuntu kernel: [    8.254939] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+Oct 19 18:24:45 ubuntu kernel: [    8.255852] ACPI: Power Button [PWRB]
+Oct 19 18:24:45 ubuntu kernel: [    8.261640] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Oct 19 18:24:45 ubuntu kernel: [    8.264426] msm_serial: driver initialized
+Oct 19 18:24:45 ubuntu kernel: [    8.265477] cacheinfo: Unable to detect cache hierarchy for CPU 0
+Oct 19 18:24:45 ubuntu kernel: [    8.287638] loop: module loaded
+Oct 19 18:24:45 ubuntu kernel: [    8.290610] libphy: Fixed MDIO Bus: probed
+Oct 19 18:24:45 ubuntu kernel: [    8.291776] tun: Universal TUN/TAP device driver, 1.6
+Oct 19 18:24:45 ubuntu kernel: [    8.293525] PPP generic driver version 2.4.2
+Oct 19 18:24:45 ubuntu kernel: [    8.295032] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 19 18:24:45 ubuntu kernel: [    8.296794] ehci-pci: EHCI PCI platform driver
+Oct 19 18:24:45 ubuntu kernel: [    8.297615] ehci-orion: EHCI orion driver
+Oct 19 18:24:45 ubuntu kernel: [    8.297986] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 19 18:24:45 ubuntu kernel: [    8.298515] ohci-pci: OHCI PCI platform driver
+Oct 19 18:24:45 ubuntu kernel: [    8.298931] uhci_hcd: USB Universal Host Controller Interface driver
+Oct 19 18:24:45 ubuntu kernel: [    8.300549] xhci_hcd 0000:02:00.0: xHCI Host Controller
+Oct 19 18:24:45 ubuntu kernel: [    8.301053] xhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 1
+Oct 19 18:24:45 ubuntu kernel: [    8.302062] xhci_hcd 0000:02:00.0: hcc params 0x00087001 hci version 0x100 quirks 0x0000000000000010
+Oct 19 18:24:45 ubuntu kernel: [    8.304084] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.07
+Oct 19 18:24:45 ubuntu kernel: [    8.304803] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 19 18:24:45 ubuntu kernel: [    8.305424] usb usb1: Product: xHCI Host Controller
+Oct 19 18:24:45 ubuntu kernel: [    8.305845] usb usb1: Manufacturer: Linux 5.7.1 xhci-hcd
+Oct 19 18:24:45 ubuntu kernel: [    8.306296] usb usb1: SerialNumber: 0000:02:00.0
+Oct 19 18:24:45 ubuntu kernel: [    8.307044] hub 1-0:1.0: USB hub found
+Oct 19 18:24:45 ubuntu kernel: [    8.307494] hub 1-0:1.0: 8 ports detected
+Oct 19 18:24:45 ubuntu kernel: [    8.308229] xhci_hcd 0000:02:00.0: xHCI Host Controller
+Oct 19 18:24:45 ubuntu kernel: [    8.308687] xhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 2
+Oct 19 18:24:45 ubuntu kernel: [    8.309324] xhci_hcd 0000:02:00.0: Host supports USB 3.0 SuperSpeed
+Oct 19 18:24:45 ubuntu kernel: [    8.309887] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+Oct 19 18:24:45 ubuntu kernel: [    8.310620] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.07
+Oct 19 18:24:45 ubuntu kernel: [    8.311378] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 19 18:24:45 ubuntu kernel: [    8.311999] usb usb2: Product: xHCI Host Controller
+Oct 19 18:24:45 ubuntu kernel: [    8.312414] usb usb2: Manufacturer: Linux 5.7.1 xhci-hcd
+Oct 19 18:24:45 ubuntu kernel: [    8.312867] usb usb2: SerialNumber: 0000:02:00.0
+Oct 19 18:24:45 ubuntu kernel: [    8.313485] hub 2-0:1.0: USB hub found
+Oct 19 18:24:45 ubuntu kernel: [    8.313848] hub 2-0:1.0: 8 ports detected
+Oct 19 18:24:45 ubuntu kernel: [    8.314915] mousedev: PS/2 mouse device common for all mice
+Oct 19 18:24:45 ubuntu kernel: [    8.316252] rtc-efi rtc-efi.0: registered as rtc0
+Oct 19 18:24:45 ubuntu kernel: [    8.317013] rtc-efi rtc-efi.0: setting system clock to 2020-10-19T10:24:40 UTC (1603103080)
+Oct 19 18:24:45 ubuntu kernel: [    8.317835] i2c /dev entries driver
+Oct 19 18:24:45 ubuntu kernel: [    8.318485] device-mapper: uevent: version 1.0.3
+Oct 19 18:24:45 ubuntu kernel: [    8.319117] device-mapper: ioctl: 4.42.0-ioctl (2020-02-27) initialised: dm-devel@redhat.com
+Oct 19 18:24:45 ubuntu kernel: [    8.322092] ledtrig-cpu: registered to indicate activity on CPUs
+Oct 19 18:24:45 ubuntu kernel: [    8.322773] EFI Variables Facility v0.08 2004-May-17
+Oct 19 18:24:45 ubuntu kernel: [    8.327233] NET: Registered protocol family 10
+Oct 19 18:24:45 ubuntu kernel: [    8.343251] Segment Routing with IPv6
+Oct 19 18:24:45 ubuntu kernel: [    8.344219] NET: Registered protocol family 17
+Oct 19 18:24:45 ubuntu kernel: [    8.345645] Key type dns_resolver registered
+Oct 19 18:24:45 ubuntu kernel: [    8.347198] registered taskstats version 1
+Oct 19 18:24:45 ubuntu kernel: [    8.348178] Loading compiled-in X.509 certificates
+Oct 19 18:24:45 ubuntu kernel: [    8.353731] Loaded X.509 cert 'Build time autogenerated kernel key: 5fc9bbbf10d23f3f9dda6c889ba5358a20950e89'
+Oct 19 18:24:45 ubuntu kernel: [    8.355245] zswap: loaded using pool lzo/zbud
+Oct 19 18:24:45 ubuntu kernel: [    8.356732] Key type ._fscrypt registered
+Oct 19 18:24:45 ubuntu kernel: [    8.357185] Key type .fscrypt registered
+Oct 19 18:24:45 ubuntu kernel: [    8.357612] Key type fscrypt-provisioning registered
+Oct 19 18:24:45 ubuntu kernel: [    8.375999] cryptd: max_cpu_qlen set to 1000
+Oct 19 18:24:45 ubuntu kernel: [    8.468447] Key type big_key registered
+Oct 19 18:24:45 ubuntu kernel: [    8.486220] Key type encrypted registered
+Oct 19 18:24:45 ubuntu kernel: [    8.487246] AppArmor: AppArmor sha1 policy hashing enabled
+Oct 19 18:24:45 ubuntu kernel: [    8.489102] ima: No TPM chip found, activating TPM-bypass!
+Oct 19 18:24:45 ubuntu kernel: [    8.490353] ima: Allocated hash algorithm: sha1
+Oct 19 18:24:45 ubuntu kernel: [    8.491237] ima: No architecture policies found
+Oct 19 18:24:45 ubuntu kernel: [    8.492076] evm: Initialising EVM extended attributes:
+Oct 19 18:24:45 ubuntu kernel: [    8.492933] evm: security.selinux
+Oct 19 18:24:45 ubuntu kernel: [    8.493476] evm: security.SMACK64
+Oct 19 18:24:45 ubuntu kernel: [    8.494021] evm: security.SMACK64EXEC
+Oct 19 18:24:45 ubuntu kernel: [    8.494616] evm: security.SMACK64TRANSMUTE
+Oct 19 18:24:45 ubuntu kernel: [    8.495354] evm: security.SMACK64MMAP
+Oct 19 18:24:45 ubuntu kernel: [    8.495961] evm: security.apparmor
+Oct 19 18:24:45 ubuntu kernel: [    8.496518] evm: security.ima
+Oct 19 18:24:45 ubuntu kernel: [    8.497003] evm: security.capability
+Oct 19 18:24:45 ubuntu kernel: [    8.497590] evm: HMAC attrs: 0x1
+Oct 19 18:24:45 ubuntu kernel: [    8.502858] Freeing unused kernel memory: 7040K
+Oct 19 18:24:45 ubuntu kernel: [    8.585644] Checked W+X mappings: passed, no W+X pages found
+Oct 19 18:24:45 ubuntu kernel: [    8.586251] Run /init as init process
+Oct 19 18:24:45 ubuntu kernel: [    8.586571]   with arguments:
+Oct 19 18:24:45 ubuntu kernel: [    8.586572]     /init
+Oct 19 18:24:45 ubuntu kernel: [    8.586573]   with environment:
+Oct 19 18:24:45 ubuntu kernel: [    8.586574]     HOME=/
+Oct 19 18:24:45 ubuntu kernel: [    8.586575]     TERM=linux
+Oct 19 18:24:45 ubuntu kernel: [    8.586576]     BOOT_IMAGE=/boot/vmlinuz-5.7.1
+Oct 19 18:24:45 ubuntu kernel: [    8.749426] scsi host0: Virtio SCSI HBA
+Oct 19 18:24:45 ubuntu kernel: [    8.751488] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Oct 19 18:24:45 ubuntu kernel: [    8.754296] scsi 0:0:0:1: CD-ROM            QEMU     QEMU CD-ROM      2.5+ PQ: 0 ANSI: 5
+Oct 19 18:24:45 ubuntu kernel: [    8.775583] virtio_net virtio0 enp1s0: renamed from eth0
+Oct 19 18:24:45 ubuntu kernel: [    8.783644] random: fast init done
+Oct 19 18:24:45 ubuntu kernel: [    8.785269] sd 0:0:0:0: Power-on or device reset occurred
+Oct 19 18:24:45 ubuntu kernel: [    8.785283] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Oct 19 18:24:45 ubuntu kernel: [    8.786231] sd 0:0:0:0: [sda] 31457280 512-byte logical blocks: (16.1 GB/15.0 GiB)
+Oct 19 18:24:45 ubuntu kernel: [    8.786737] sr 0:0:0:1: Power-on or device reset occurred
+Oct 19 18:24:45 ubuntu kernel: [    8.787355] sd 0:0:0:0: [sda] Write Protect is off
+Oct 19 18:24:45 ubuntu kernel: [    8.787966] sr 0:0:0:1: [sr0] scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+Oct 19 18:24:45 ubuntu kernel: [    8.788331] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Oct 19 18:24:45 ubuntu kernel: [    8.788976] cdrom: Uniform CD-ROM driver Revision: 3.20
+Oct 19 18:24:45 ubuntu kernel: [    8.789045] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 19 18:24:45 ubuntu kernel: [    8.824822] sr 0:0:0:1: Attached scsi CD-ROM sr0
+Oct 19 18:24:45 ubuntu kernel: [    8.825198] sr 0:0:0:1: Attached scsi generic sg1 type 5
+Oct 19 18:24:45 ubuntu kernel: [    8.828024]  sda: sda1 sda2
+Oct 19 18:24:45 ubuntu kernel: [    8.831320] sd 0:0:0:0: [sda] Attached SCSI disk
+Oct 19 18:24:45 ubuntu kernel: [    8.870025] random: lvm: uninitialized urandom read (4 bytes read)
+Oct 19 18:24:45 ubuntu kernel: [    8.900898] random: lvm: uninitialized urandom read (2 bytes read)
+Oct 19 18:24:45 ubuntu kernel: [   10.199125] raid6: neonx8   gen() 11731 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.267135] raid6: neonx8   xor()  8478 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.335136] raid6: neonx4   gen() 11103 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.403123] raid6: neonx4   xor()  7785 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.471131] raid6: neonx2   gen()  9042 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.539129] raid6: neonx2   xor()  6586 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.607134] raid6: neonx1   gen()  6745 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.675131] raid6: neonx1   xor()  2890 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.743118] raid6: int64x8  gen()  5817 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.767142] pcieport 0000:00:01.3: pciehp: Failed to check link status
+Oct 19 18:24:45 ubuntu kernel: [   10.811124] raid6: int64x8  xor()  3608 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.879132] raid6: int64x4  gen()  7227 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   10.947129] raid6: int64x4  xor()  3672 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   11.015118] raid6: int64x2  gen()  5932 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   11.083122] raid6: int64x2  xor()  1803 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   11.151152] raid6: int64x1  gen()  4539 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   11.219126] raid6: int64x1  xor()  1244 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   11.219560] raid6: using algorithm neonx8 gen() 11731 MB/s
+Oct 19 18:24:45 ubuntu kernel: [   11.220024] raid6: .... xor() 8478 MB/s, rmw enabled
+Oct 19 18:24:45 ubuntu kernel: [   11.220445] raid6: using neon recovery algorithm
+Oct 19 18:24:45 ubuntu kernel: [   11.223774] xor: measuring software checksum speed
+Oct 19 18:24:45 ubuntu kernel: [   11.263159]    8regs     : 13048.000 MB/sec
+Oct 19 18:24:45 ubuntu kernel: [   11.303141]    32regs    : 16003.000 MB/sec
+Oct 19 18:24:45 ubuntu kernel: [   11.343144]    arm64_neon: 19249.000 MB/sec
+Oct 19 18:24:45 ubuntu kernel: [   11.343589] xor: using function: arm64_neon (19249.000 MB/sec)
+Oct 19 18:24:45 ubuntu kernel: [   11.345548] async_tx: api initialized (async)
+Oct 19 18:24:45 ubuntu kernel: [   11.407977] random: lvm: uninitialized urandom read (4 bytes read)
+Oct 19 18:24:45 ubuntu kernel: [   11.431773] random: lvm: uninitialized urandom read (4 bytes read)
+Oct 19 18:24:45 ubuntu kernel: [   11.529797] Btrfs loaded, crc32c=crc32c-generic
+Oct 19 18:24:45 ubuntu kernel: [   11.604616] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Oct 19 18:24:45 ubuntu kernel: [   11.837161] systemd[1]: systemd 237 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+Oct 19 18:24:45 ubuntu kernel: [   11.839379] systemd[1]: Detected virtualization kvm.
+Oct 19 18:24:45 ubuntu kernel: [   11.839873] systemd[1]: Detected architecture arm64.
+Oct 19 18:24:45 ubuntu kernel: [   11.859268] systemd[1]: Set hostname to <ubuntu>.
+Oct 19 18:24:45 ubuntu kernel: [   11.957246] random: systemd: uninitialized urandom read (16 bytes read)
+Oct 19 18:24:45 ubuntu kernel: [   11.958095] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Oct 19 18:24:45 ubuntu kernel: [   11.960881] systemd[1]: Created slice User and Session Slice.
+Oct 19 18:24:45 ubuntu kernel: [   11.962356] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Oct 19 18:24:45 ubuntu kernel: [   11.964895] systemd[1]: Created slice System Slice.
+Oct 19 18:24:45 ubuntu kernel: [   11.966127] systemd[1]: Listening on Journal Audit Socket.
+Oct 19 18:24:45 ubuntu kernel: [   11.967897] systemd[1]: Created slice system-systemd\x2dfsck.slice.
+Oct 19 18:24:45 ubuntu kernel: [   11.989291] Loading iSCSI transport class v2.0-870.
+Oct 19 18:24:45 ubuntu kernel: [   11.998786] iscsi: registered transport (tcp)
+Oct 19 18:24:45 ubuntu kernel: [   12.002539] EXT4-fs (dm-0): re-mounted. Opts: errors=remount-ro
+Oct 19 18:24:45 ubuntu kernel: [   12.032712] iscsi: registered transport (iser)
+Oct 19 18:24:45 ubuntu kernel: [   12.090137] systemd-journald[844]: Received request to flush runtime journal from PID 1
+Oct 19 18:24:45 ubuntu kernel: [   12.561955] pstore: Using crash dump compression: deflate
+Oct 19 18:24:45 ubuntu kernel: [   12.562804] pstore: Registered efi as persistent store backend
+Oct 19 18:24:45 ubuntu kernel: [   12.687178] Adding 1003516k swap on /dev/mapper/ubuntu--vg-swap_1.  Priority:-2 extents:1 across:1003516k FS
+Oct 19 18:24:45 ubuntu kernel: [   12.914180] audit: type=1400 audit(1603103085.092:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=1200 comm="apparmor_parser"
+Oct 19 18:24:45 ubuntu kernel: [   12.982861] audit: type=1400 audit(1603103085.160:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=1199 comm="apparmor_parser"
+Oct 19 18:24:45 ubuntu kernel: [   12.984044] audit: type=1400 audit(1603103085.164:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=1199 comm="apparmor_parser"
+Oct 19 18:24:45 ubuntu kernel: [   12.985347] audit: type=1400 audit(1603103085.164:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=1199 comm="apparmor_parser"
+Oct 19 18:24:45 ubuntu kernel: [   13.005469] audit: type=1400 audit(1603103085.184:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=1205 comm="apparmor_parser"
+Oct 19 18:24:45 ubuntu kernel: [   13.064516] audit: type=1400 audit(1603103085.244:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=1203 comm="apparmor_parser"
+Oct 19 18:24:45 ubuntu kernel: [   13.066145] audit: type=1400 audit(1603103085.244:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1203 comm="apparmor_parser"
+Oct 19 18:24:45 ubuntu kernel: [   13.067821] audit: type=1400 audit(1603103085.248:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=1203 comm="apparmor_parser"
+Oct 19 18:24:45 ubuntu kernel: [   13.069256] audit: type=1400 audit(1603103085.248:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=1203 comm="apparmor_parser"
+Oct 19 18:24:45 ubuntu kernel: [   13.122640] audit: type=1400 audit(1603103085.300:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=1201 comm="apparmor_parser"
+Oct 19 18:24:45 ubuntu kernel: [   13.266341] new mount options do not match the existing superblock, will be ignored
+Oct 19 18:24:45 ubuntu polkitd[1232]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 19 18:24:45 ubuntu dbus-daemon[1209]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 19 18:24:45 ubuntu systemd[1]: Started Authorization Manager.
+Oct 19 18:24:45 ubuntu accounts-daemon[1216]: started daemon version 0.6.45
+Oct 19 18:24:45 ubuntu systemd[1]: Started Accounts Service.
+Oct 19 18:24:45 ubuntu snapd[1229]: AppArmor status: apparmor is enabled but some kernel features are missing: dbus, network
+Oct 19 18:24:45 ubuntu snapd[1229]: daemon.go:346: started snapd/2.42.1+18.04 (series 16; classic; devmode) ubuntu/18.04 (arm64) linux/5.7.1.
+Oct 19 18:24:45 ubuntu networkd-dispatcher[1222]: No valid path found for iwconfig
+Oct 19 18:24:45 ubuntu snapd[1229]: daemon.go:439: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+Oct 19 18:24:45 ubuntu systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Oct 19 18:24:45 ubuntu systemd[1]: Started Snappy daemon.
+Oct 19 18:24:45 ubuntu systemd[1]: Starting Wait until snapd is fully seeded...
+Oct 19 18:24:45 ubuntu systemd[1]: Started Wait until snapd is fully seeded.
+Oct 19 18:24:46 ubuntu systemd-networkd[1148]: enp1s0: Gained IPv6LL
+Oct 19 18:24:46 ubuntu systemd-networkd[1148]: enp1s0: Configured
+Oct 19 18:24:46 ubuntu systemd-networkd-wait-online[1174]: ignoring: lo
+Oct 19 18:24:46 ubuntu systemd-networkd-wait-online[1174]: managing: enp1s0
+Oct 19 18:24:46 ubuntu systemd[1]: Started Wait for Network to be Configured.
+Oct 19 18:24:46 ubuntu systemd[1]: Reached target Network is Online.
+Oct 19 18:24:46 ubuntu kernel: [   14.657321] random: crng init done
+Oct 19 18:24:46 ubuntu kernel: [   14.657325] random: 5 urandom warning(s) missed due to ratelimiting
+Oct 19 18:24:46 ubuntu systemd[1]: Starting OpenBSD Secure Shell server...
+Oct 19 18:24:46 ubuntu systemd[1]: Reached target Remote File Systems (Pre).
+Oct 19 18:24:46 ubuntu systemd[1]: Reached target Remote File Systems.
+Oct 19 18:24:46 ubuntu systemd[1]: Starting Permit User Sessions...
+Oct 19 18:24:46 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+Oct 19 18:24:46 ubuntu systemd[1]: Starting Availability of block devices...
+Oct 19 18:24:46 ubuntu systemd[1]: Started Permit User Sessions.
+Oct 19 18:24:46 ubuntu systemd[1]: Started LXD - container startup/shutdown.
+Oct 19 18:24:46 ubuntu systemd[1]: Started Availability of block devices.
+Oct 19 18:24:46 ubuntu systemd[1]: Starting Terminate Plymouth Boot Screen...
+Oct 19 18:24:46 ubuntu systemd[1]: Starting Hold until boot process finishes up...
+Oct 19 18:24:46 ubuntu apport[1320]:  * Starting automatic crash report generation: apport
+Oct 19 18:24:46 ubuntu systemd[1]: Started Hold until boot process finishes up.
+Oct 19 18:24:46 ubuntu systemd[1]: Started OpenBSD Secure Shell server.
+Oct 19 18:24:46 ubuntu apport[1320]:    ...done.
+Oct 19 18:24:46 ubuntu systemd[1]: Started Terminate Plymouth Boot Screen.
+Oct 19 18:24:46 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+Oct 19 18:24:46 ubuntu systemd[1]: Starting Set console scheme...
+Oct 19 18:24:46 ubuntu systemd[1]: Started Serial Getty on ttyAMA0.
+Oct 19 18:24:46 ubuntu systemd[1]: Started Set console scheme.
+Oct 19 18:24:46 ubuntu systemd[1]: Created slice system-getty.slice.
+Oct 19 18:24:46 ubuntu systemd[1]: Started Getty on tty1.
+Oct 19 18:24:46 ubuntu systemd[1]: Reached target Login Prompts.
+Oct 19 18:24:46 ubuntu systemd[1]: Reached target Multi-User System.
+Oct 19 18:24:46 ubuntu systemd[1]: Reached target Graphical Interface.
+Oct 19 18:24:46 ubuntu systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct 19 18:24:46 ubuntu systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct 19 18:24:46 ubuntu systemd[1]: Startup finished in 11.587s (kernel) + 2.952s (userspace) = 14.539s.
+Oct 19 18:24:46 ubuntu kernel: [   14.767300] fbcon: Taking over console
+Oct 19 18:24:46 ubuntu systemd-timesyncd[1137]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+Oct 19 18:24:46 ubuntu systemd-resolved[1172]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
+Oct 19 18:24:52 ubuntu systemd-resolved[1172]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
+Oct 19 18:24:57 ubuntu snapd[1229]: stateengine.go:150: state ensure error: cannot sections: got unexpected HTTP status code 403 via GET to "https://api.snapcraft.io/api/v1/snaps/sections"
+Oct 19 18:24:59 ubuntu snapd[1229]: daemon.go:540: gracefully waiting for running hooks
+Oct 19 18:24:59 ubuntu snapd[1229]: daemon.go:542: done waiting for running hooks
+Oct 19 18:24:59 ubuntu snapd[1229]: daemon stop requested to wait for socket activation
+Oct 19 18:31:03 ubuntu systemd[1]: Created slice User Slice of huawei.
+Oct 19 18:31:03 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Oct 19 18:31:03 ubuntu systemd[1]: Started Session 1 of user huawei.
+Oct 19 18:31:03 ubuntu systemd[1592]: Reached target Paths.
+Oct 19 18:31:03 ubuntu systemd[1592]: Reached target Timers.
+Oct 19 18:31:03 ubuntu systemd[1592]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct 19 18:31:03 ubuntu systemd[1592]: Listening on GnuPG network certificate management daemon.
+Oct 19 18:31:03 ubuntu systemd[1592]: Listening on REST API socket for snapd user session agent.
+Oct 19 18:31:03 ubuntu systemd[1592]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct 19 18:31:03 ubuntu systemd[1592]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct 19 18:31:03 ubuntu systemd[1592]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct 19 18:31:03 ubuntu systemd[1592]: Reached target Sockets.
+Oct 19 18:31:03 ubuntu systemd[1592]: Reached target Basic System.
+Oct 19 18:31:03 ubuntu systemd[1592]: Reached target Default.
+Oct 19 18:31:03 ubuntu systemd[1592]: Startup finished in 63ms.
+Oct 19 18:31:03 ubuntu systemd[1]: Started User Manager for UID 1000.
+Oct 19 18:31:08 ubuntu kernel: [  397.285330] Page table allocation set to fixed on node 0
+Oct 19 18:31:08 ubuntu kernel: [  397.287341] [mitosis] pgd_alloc: pid = 1632
+Oct 19 18:31:08 ubuntu kernel: [  397.287348] [mitosis] pgd_alloc for mm=ffff0004d827d400 and mm->pgd =ffff0004d7ad6000.
+Oct 19 18:31:08 ubuntu kernel: [  397.287351] PTREPL: set state to deactivated.
+Oct 19 18:31:08 ubuntu kernel: [  397.297656] PROCFS: Command ot drain the pgtable cache
+Oct 19 18:31:08 ubuntu kernel: [  397.311212] PROCFS: Command ot populate the pgtable cache
+Oct 19 18:31:08 ubuntu kernel: [  397.311217] PGREPL: populating pgtable cache with 1100000 tables per node
+Oct 19 18:31:08 ubuntu kernel: [  397.311221] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Oct 19 18:31:11 ubuntu kernel: [  400.347360] PGREPL: node[0] populated with 1100000  tables
+Oct 19 18:31:11 ubuntu kernel: [  400.392263] [mitosis] kernel_set_pgtlbreplpolicy: pid = 1677
+Oct 19 18:31:11 ubuntu kernel: [  400.392267] [mitosis] pgtable replication disabled for mm=ffff0004d8ec3000.
+Oct 19 18:31:11 ubuntu kernel: [  400.392268] [mitosis] pgtable replication err=0.
+Oct 19 18:31:12 ubuntu kernel: [  400.812736] Page table allocation set to fixed on node 0
+Oct 19 18:31:12 ubuntu kernel: [  400.823129] PROCFS: Command ot drain the pgtable cache
+Oct 19 18:31:12 ubuntu kernel: [  401.023740] PROCFS: Command ot populate the pgtable cache
+Oct 19 18:31:12 ubuntu kernel: [  401.023746] PGREPL: populating pgtable cache with 1100000 tables per node
+Oct 19 18:31:12 ubuntu kernel: [  401.023750] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Oct 19 18:31:13 ubuntu kernel: [  402.320526] PGREPL: node[0] populated with 1100000  tables
+Oct 19 18:31:13 ubuntu kernel: [  402.360721] [mitosis] kernel_set_pgtlbreplpolicy: pid = 1728
+Oct 19 18:31:13 ubuntu kernel: [  402.360725] [mitosis] pgtable replication disabled for mm=ffff0004d7ec8c00.
+Oct 19 18:31:13 ubuntu kernel: [  402.360726] [mitosis] pgtable replication err=0.
+Oct 19 18:31:28 ubuntu systemd[1]: Started Session 3 of user huawei.
