@@ -842,3 +842,279 @@ Oct 19 16:54:40 ubuntu snapd[1129]: daemon.go:542: done waiting for running hook
 Oct 19 16:54:40 ubuntu snapd[1129]: daemon stop requested to wait for socket activation
 Oct 19 16:54:55 ubuntu systemd-timesyncd[1058]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
 Oct 19 16:55:42 ubuntu systemd[1]: Started Session 3 of user huawei.
+Oct 19 16:59:12 ubuntu kernel: [  301.763538] Page table allocation set to fixed on node 0
+Oct 19 16:59:12 ubuntu kernel: [  301.765293] PTREPL: set state to deactivated.
+Oct 19 16:59:12 ubuntu kernel: [  301.774441] PROCFS: Command ot drain the pgtable cache
+Oct 19 16:59:12 ubuntu kernel: [  301.785585] PROCFS: Command ot populate the pgtable cache
+Oct 19 16:59:12 ubuntu kernel: [  301.785590] PGREPL: populating pgtable cache with 1100000 tables per node
+Oct 19 16:59:12 ubuntu kernel: [  301.785594] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Oct 19 16:59:15 ubuntu kernel: [  304.854242] PGREPL: node[0] populated with 1100000  tables
+Oct 19 16:59:15 ubuntu kernel: [  304.894298] [mitosis] kernel_set_pgtlbreplpolicy: pid = 1594
+Oct 19 16:59:15 ubuntu kernel: [  304.894301] PTREP: Called pgtbl_repl_prepare_replication
+Oct 19 16:59:15 ubuntu kernel: [  304.894302] [mitosis] pgtbl_repl_prepare_replication  for mm=ffff0004d6e8a800.
+Oct 19 16:59:15 ubuntu kernel: [  304.894303] ------PTREPL: alloc pgd start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894304] [mitosis] nr_node_ids=1.
+Oct 19 16:59:15 ubuntu kernel: [  304.894305] [mitosis] pgd_alloc origin mm->pgd =ffff0004d646a000.
+Oct 19 16:59:15 ubuntu kernel: [  304.894308] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff0003b9a72000.
+Oct 19 16:59:15 ubuntu kernel: [  304.894308] ------PTREPL: alloc pgd success------
+Oct 19 16:59:15 ubuntu kernel: [  304.894310] pgtbl_repl_prepare_replication:960 pgd=ffff0004d646a000..ffff0004d646afff
+Oct 19 16:59:15 ubuntu kernel: [  304.894311] PTREP: pgd_idx = 341，and pgd=ffff0004d646aaa8  and pgd[341]=51298b003
+Oct 19 16:59:15 ubuntu kernel: [  304.894313] pgtbl_repl_prepare_replication:968 pgd[341]'s pud=ffff0004d298b000..ffff0004d298bfff
+Oct 19 16:59:15 ubuntu kernel: [  304.894313] pgtbl_repl_prepare_replication:972 1 pfn=51298b   2 pfn=51298b
+Oct 19 16:59:15 ubuntu kernel: [  304.894315] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d298b000 and new pagep = ffff0003b9a71000
+Oct 19 16:59:15 ubuntu kernel: [  304.894316] ------PTREPL: set_pgd start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894318] PTREP: set_pgd offset=aa8 and node0 origin pgd=ffff0003b9a72000  and pgd+offset=ffff0003b9a72aa8  and pud=ffff0003b9a71000 and pdgval=3f9a71003
+Oct 19 16:59:15 ubuntu kernel: [  304.894319] ------PTREPL: set_pgd done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894319] [mitosis] start search pud .......
+Oct 19 16:59:15 ubuntu kernel: [  304.894321] PTREP: pud_idx = 171，and pud=ffff0004d298b558  and pud[171]=513857003
+Oct 19 16:59:15 ubuntu kernel: [  304.894322] pgtbl_repl_prepare_replication:991 pud[171]'s pmd=ffff0004d3857000..ffff0004d3857fff
+Oct 19 16:59:15 ubuntu kernel: [  304.894323] pgtbl_repl_prepare_replication:992 1 pfn=513857   2 pfn=513857
+Oct 19 16:59:15 ubuntu kernel: [  304.894325] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d3857000 and new pagep = ffff0003b9a70000
+Oct 19 16:59:15 ubuntu kernel: [  304.894326] ------PTREPL: set_pud start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894328] PTREP: set_pud offset=558 and node0 origin pud=ffff0003b9a71000  and pud+offset=ffff0003b9a71558  and pmd=ffff0003b9a70000 and pudval=3f9a70003
+Oct 19 16:59:15 ubuntu kernel: [  304.894328] ------PTREPL: set_pud done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894330] PTREP: pmd_idx = 308，and pmd=ffff0004d38579a0  and pmd[308]=4d4cbe003
+Oct 19 16:59:15 ubuntu kernel: [  304.894331] pgtbl_repl_prepare_replication:1011 pmd[308]'s pte=ffff000494cbe000..ffff000494cbefff
+Oct 19 16:59:15 ubuntu kernel: [  304.894332] pgtbl_repl_prepare_replication:1012 1 pfn=4d4cbe   2 pfn=4d4cbe
+Oct 19 16:59:15 ubuntu kernel: [  304.894334] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff000494cbe000 and new pagep = ffff0003b9a6f000
+Oct 19 16:59:15 ubuntu kernel: [  304.894335] ------PTREPL: set_pmd start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894336] PTREP: set_pmd offset=9a0 and node0 origin pmd=ffff0003b9a70000  and pmd+offset=ffff0003b9a709a0  and pte=ffff0003b9a6f000 and pmdval=3f9a6f003
+Oct 19 16:59:15 ubuntu kernel: [  304.894337] ------PTREPL: set_pmd done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894338] PTREP: pte_idx = 22，and pte=ffff000494cbe0b0  and pte[22]=2000050a091fd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894338] ------PTREPL: set_pte start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894339] PTREP: set_pte offset=b0 and node0 origin pte=ffff0003b9a6f000  and pte+offset=ffff0003b9a6f0b0  and pteval=2000050a091fd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894340] ------PTREPL: set_pte done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894341] PTREP: pte_idx = 23，and pte=ffff000494cbe0b8  and pte[23]=200004d5d3dfd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894342] ------PTREPL: set_pte start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894343] PTREP: set_pte offset=b8 and node0 origin pte=ffff0003b9a6f000  and pte+offset=ffff0003b9a6f0b8  and pteval=200004d5d3dfd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894343] ------PTREPL: set_pte done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894344] PTREP: pte_idx = 24，and pte=ffff000494cbe0c0  and pte[24]=2000050e260fd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894345] ------PTREPL: set_pte start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894346] PTREP: set_pte offset=c0 and node0 origin pte=ffff0003b9a6f000  and pte+offset=ffff0003b9a6f0c0  and pteval=2000050e260fd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894347] ------PTREPL: set_pte done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894348] PTREP: pte_idx = 25，and pte=ffff000494cbe0c8  and pte[25]=2000050a6bffd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894348] ------PTREPL: set_pte start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894349] PTREP: set_pte offset=c8 and node0 origin pte=ffff0003b9a6f000  and pte+offset=ffff0003b9a6f0c8  and pteval=2000050a6bffd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894350] ------PTREPL: set_pte done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894351] PTREP: pte_idx = 26，and pte=ffff000494cbe0d0  and pte[26]=2000050f79cfd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894352] ------PTREPL: set_pte start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894353] PTREP: set_pte offset=d0 and node0 origin pte=ffff0003b9a6f000  and pte+offset=ffff0003b9a6f0d0  and pteval=2000050f79cfd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894353] ------PTREPL: set_pte done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894354] PTREP: pte_idx = 27，and pte=ffff000494cbe0d8  and pte[27]=2000053c3e0fd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894355] ------PTREPL: set_pte start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894355] PTREP: set_pte offset=d8 and node0 origin pte=ffff0003b9a6f000  and pte+offset=ffff0003b9a6f0d8  and pteval=2000053c3e0fd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894356] ------PTREPL: set_pte done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894357] PTREP: pte_idx = 44，and pte=ffff000494cbe160  and pte[44]=e000050c24efd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894358] ------PTREPL: set_pte start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894359] PTREP: set_pte offset=160 and node0 origin pte=ffff0003b9a6f000  and pte+offset=ffff0003b9a6f160  and pteval=e000050c24efd3
+Oct 19 16:59:15 ubuntu kernel: [  304.894359] ------PTREPL: set_pte done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894360] PTREP: pte_idx = 45，and pte=ffff000494cbe168  and pte[45]=e800053cf79f53
+Oct 19 16:59:15 ubuntu kernel: [  304.894361] ------PTREPL: set_pte start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894362] PTREP: set_pte offset=168 and node0 origin pte=ffff0003b9a6f000  and pte+offset=ffff0003b9a6f168  and pteval=e800053cf79f53
+Oct 19 16:59:15 ubuntu kernel: [  304.894363] ------PTREPL: set_pte done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894365] PTREP: pud_idx = 172，and pud=ffff0004d298b560  and pud[172]=5165a7003
+Oct 19 16:59:15 ubuntu kernel: [  304.894366] pgtbl_repl_prepare_replication:991 pud[172]'s pmd=ffff0004d65a7000..ffff0004d65a7fff
+Oct 19 16:59:15 ubuntu kernel: [  304.894367] pgtbl_repl_prepare_replication:992 1 pfn=5165a7   2 pfn=5165a7
+Oct 19 16:59:15 ubuntu kernel: [  304.894368] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d65a7000 and new pagep = ffff0003b9a6e000
+Oct 19 16:59:15 ubuntu kernel: [  304.894369] ------PTREPL: set_pud start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894370] PTREP: set_pud offset=560 and node0 origin pud=ffff0003b9a71000  and pud+offset=ffff0003b9a71560  and pmd=ffff0003b9a6e000 and pudval=3f9a6e003
+Oct 19 16:59:15 ubuntu kernel: [  304.894371] ------PTREPL: set_pud done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894372] PTREP: pmd_idx = 241，and pmd=ffff0004d65a7788  and pmd[241]=51f443003
+Oct 19 16:59:15 ubuntu kernel: [  304.894373] pgtbl_repl_prepare_replication:1011 pmd[241]'s pte=ffff0004df443000..ffff0004df443fff
+Oct 19 16:59:15 ubuntu kernel: [  304.894374] pgtbl_repl_prepare_replication:1012 1 pfn=51f443   2 pfn=51f443
+Oct 19 16:59:15 ubuntu kernel: [  304.894375] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004df443000 and new pagep = ffff0003b9a6d000
+Oct 19 16:59:15 ubuntu kernel: [  304.894376] ------PTREPL: set_pmd start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894377] PTREP: set_pmd offset=788 and node0 origin pmd=ffff0003b9a6e000  and pmd+offset=ffff0003b9a6e788  and pte=ffff0003b9a6d000 and pmdval=3f9a6d003
+Oct 19 16:59:15 ubuntu kernel: [  304.894378] ------PTREPL: set_pmd done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894379] PTREP: pte_idx = 406，and pte=ffff0004df443cb0  and pte[406]=e80004d229ff53
+Oct 19 16:59:15 ubuntu kernel: [  304.894379] ------PTREPL: set_pte start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894380] PTREP: set_pte offset=cb0 and node0 origin pte=ffff0003b9a6d000  and pte+offset=ffff0003b9a6dcb0  and pteval=e80004d229ff53
+Oct 19 16:59:15 ubuntu kernel: [  304.894381] ------PTREPL: set_pte done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894383] ===================================== end of a page
+Oct 19 16:59:15 ubuntu kernel: [  304.894384] PTREP: pgd_idx = 511，and pgd=ffff0004d646aff8  and pgd[511]=516f8d003
+Oct 19 16:59:15 ubuntu kernel: [  304.894385] pgtbl_repl_prepare_replication:968 pgd[511]'s pud=ffff0004d6f8d000..ffff0004d6f8dfff
+Oct 19 16:59:15 ubuntu kernel: [  304.894386] pgtbl_repl_prepare_replication:972 1 pfn=516f8d   2 pfn=516f8d
+Oct 19 16:59:15 ubuntu kernel: [  304.894388] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d6f8d000 and new pagep = ffff0003b9a6c000
+Oct 19 16:59:15 ubuntu kernel: [  304.894389] ------PTREPL: set_pgd start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894390] PTREP: set_pgd offset=ff8 and node0 origin pgd=ffff0003b9a72000  and pgd+offset=ffff0003b9a72ff8  and pud=ffff0003b9a6c000 and pdgval=3f9a6c003
+Oct 19 16:59:15 ubuntu kernel: [  304.894390] ------PTREPL: set_pgd done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894391] [mitosis] start search pud .......
+Oct 19 16:59:15 ubuntu kernel: [  304.894392] PTREP: pud_idx = 510，and pud=ffff0004d6f8dff0  and pud[510]=4d3d58003
+Oct 19 16:59:15 ubuntu kernel: [  304.894393] pgtbl_repl_prepare_replication:991 pud[510]'s pmd=ffff000493d58000..ffff000493d58fff
+Oct 19 16:59:15 ubuntu kernel: [  304.894394] pgtbl_repl_prepare_replication:992 1 pfn=4d3d58   2 pfn=4d3d58
+Oct 19 16:59:15 ubuntu kernel: [  304.894396] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff000493d58000 and new pagep = ffff0003b9a6b000
+Oct 19 16:59:15 ubuntu kernel: [  304.894396] ------PTREPL: set_pud start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894398] PTREP: set_pud offset=ff0 and node0 origin pud=ffff0003b9a6c000  and pud+offset=ffff0003b9a6cff0  and pmd=ffff0003b9a6b000 and pudval=3f9a6b003
+Oct 19 16:59:15 ubuntu kernel: [  304.894399] ------PTREPL: set_pud done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894400] PTREP: pmd_idx = 344，and pmd=ffff000493d58ac0  and pmd[344]=516f2f003
+Oct 19 16:59:15 ubuntu kernel: [  304.894401] pgtbl_repl_prepare_replication:1011 pmd[344]'s pte=ffff0004d6f2f000..ffff0004d6f2ffff
+Oct 19 16:59:15 ubuntu kernel: [  304.894402] pgtbl_repl_prepare_replication:1012 1 pfn=516f2f   2 pfn=516f2f
+Oct 19 16:59:15 ubuntu kernel: [  304.894403] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d6f2f000 and new pagep = ffff0003b9a6a000
+Oct 19 16:59:15 ubuntu kernel: [  304.894404] ------PTREPL: set_pmd start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894405] PTREP: set_pmd offset=ac0 and node0 origin pmd=ffff0003b9a6b000  and pmd+offset=ffff0003b9a6bac0  and pte=ffff0003b9a6a000 and pmdval=3f9a6a003
+Oct 19 16:59:15 ubuntu kernel: [  304.894406] ------PTREPL: set_pmd done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894409] PTREP: pmd_idx = 345，and pmd=ffff000493d58ac8  and pmd[345]=516f78003
+Oct 19 16:59:15 ubuntu kernel: [  304.894409] pgtbl_repl_prepare_replication:1011 pmd[345]'s pte=ffff0004d6f78000..ffff0004d6f78fff
+Oct 19 16:59:15 ubuntu kernel: [  304.894410] pgtbl_repl_prepare_replication:1012 1 pfn=516f78   2 pfn=516f78
+Oct 19 16:59:15 ubuntu kernel: [  304.894412] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d6f78000 and new pagep = ffff0003b9a69000
+Oct 19 16:59:15 ubuntu kernel: [  304.894412] ------PTREPL: set_pmd start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894413] PTREP: set_pmd offset=ac8 and node0 origin pmd=ffff0003b9a6b000  and pmd+offset=ffff0003b9a6bac8  and pte=ffff0003b9a69000 and pmdval=3f9a69003
+Oct 19 16:59:15 ubuntu kernel: [  304.894414] ------PTREPL: set_pmd done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894418] PTREP: pud_idx = 511，and pud=ffff0004d6f8dff8  and pud[511]=51f00a003
+Oct 19 16:59:15 ubuntu kernel: [  304.894419] pgtbl_repl_prepare_replication:991 pud[511]'s pmd=ffff0004df00a000..ffff0004df00afff
+Oct 19 16:59:15 ubuntu kernel: [  304.894420] pgtbl_repl_prepare_replication:992 1 pfn=51f00a   2 pfn=51f00a
+Oct 19 16:59:15 ubuntu kernel: [  304.894422] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004df00a000 and new pagep = ffff0003b9a68000
+Oct 19 16:59:15 ubuntu kernel: [  304.894422] ------PTREPL: set_pud start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894423] PTREP: set_pud offset=ff8 and node0 origin pud=ffff0003b9a6c000  and pud+offset=ffff0003b9a6cff8  and pmd=ffff0003b9a68000 and pudval=3f9a68003
+Oct 19 16:59:15 ubuntu kernel: [  304.894424] ------PTREPL: set_pud done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894425] PTREP: pmd_idx = 53，and pmd=ffff0004df00a1a8  and pmd[53]=3f9b10003
+Oct 19 16:59:15 ubuntu kernel: [  304.894426] pgtbl_repl_prepare_replication:1011 pmd[53]'s pte=ffff0003b9b10000..ffff0003b9b10fff
+Oct 19 16:59:15 ubuntu kernel: [  304.894426] pgtbl_repl_prepare_replication:1012 1 pfn=3f9b10   2 pfn=3f9b10
+Oct 19 16:59:15 ubuntu kernel: [  304.894428] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b9b10000 and new pagep = ffff0003b9a67000
+Oct 19 16:59:15 ubuntu kernel: [  304.894429] ------PTREPL: set_pmd start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894430] PTREP: set_pmd offset=1a8 and node0 origin pmd=ffff0003b9a68000  and pmd+offset=ffff0003b9a681a8  and pte=ffff0003b9a67000 and pmdval=3f9a67003
+Oct 19 16:59:15 ubuntu kernel: [  304.894430] ------PTREPL: set_pmd done------
+Oct 19 16:59:15 ubuntu kernel: [  304.894432] ===================================== end of a page
+Oct 19 16:59:15 ubuntu kernel: [  304.894433] pgtbl_repl_prepare_replication:1038 all: pud_num=4, pmd_num=5, pte_num=325
+Oct 19 16:59:15 ubuntu kernel: [  304.894436] cpu_do_switch_mm:283 cpu_do_switch_mm mm=ffff0004d6e8a800, pgd=ffff0003b9a72000, pgd_phys=3f9a72000
+Oct 19 16:59:15 ubuntu kernel: [  304.894437] PTREP: Called pgtbl_repl_prepare_replication  done
+Oct 19 16:59:15 ubuntu kernel: [  304.894438] [mitosis] pgtable replication enabled for mm=ffff0004d6e8a800.
+Oct 19 16:59:15 ubuntu kernel: [  304.894439] [mitosis] pgtable replication err=0.
+Oct 19 16:59:15 ubuntu kernel: [  304.894824] cpu_do_switch_mm:283 cpu_do_switch_mm mm=ffff0004d6e8a800, pgd=ffff0003b9a72000, pgd_phys=3f9a72000
+Oct 19 16:59:15 ubuntu kernel: [  304.894956] ------PTREPL: free pgd start------
+Oct 19 16:59:15 ubuntu kernel: [  304.894958] [mitosis] pgtable_repl_pgd_free mm->pgd=ffff0004d646a000.
+Oct 19 16:59:15 ubuntu kernel: [  304.894959] ------PTREPL: free pgd done------
+Oct 19 16:59:16 ubuntu kernel: [  305.302844] Page table allocation set to fixed on node 0
+Oct 19 16:59:16 ubuntu kernel: [  305.312677] PROCFS: Command ot drain the pgtable cache
+Oct 19 16:59:16 ubuntu kernel: [  305.509487] PROCFS: Command ot populate the pgtable cache
+Oct 19 16:59:16 ubuntu kernel: [  305.509494] PGREPL: populating pgtable cache with 1100000 tables per node
+Oct 19 16:59:16 ubuntu kernel: [  305.509498] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Oct 19 16:59:17 ubuntu kernel: [  307.016938] PGREPL: node[0] populated with 1100000  tables
+Oct 19 16:59:17 ubuntu kernel: [  307.059059] [mitosis] kernel_set_pgtlbreplpolicy: pid = 1645
+Oct 19 16:59:17 ubuntu kernel: [  307.059063] PTREP: Called pgtbl_repl_prepare_replication
+Oct 19 16:59:17 ubuntu kernel: [  307.059064] [mitosis] pgtbl_repl_prepare_replication  for mm=ffff0004d400f000.
+Oct 19 16:59:17 ubuntu kernel: [  307.059065] ------PTREPL: alloc pgd start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059066] [mitosis] nr_node_ids=1.
+Oct 19 16:59:17 ubuntu kernel: [  307.059067] [mitosis] pgd_alloc origin mm->pgd =ffff0003b9b76000.
+Oct 19 16:59:17 ubuntu kernel: [  307.059072] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff0003b9c44000.
+Oct 19 16:59:17 ubuntu kernel: [  307.059072] ------PTREPL: alloc pgd success------
+Oct 19 16:59:17 ubuntu kernel: [  307.059074] pgtbl_repl_prepare_replication:960 pgd=ffff0003b9b76000..ffff0003b9b76fff
+Oct 19 16:59:17 ubuntu kernel: [  307.059075] PTREP: pgd_idx = 341，and pgd=ffff0003b9b76aa8  and pgd[341]=5168c0003
+Oct 19 16:59:17 ubuntu kernel: [  307.059077] pgtbl_repl_prepare_replication:968 pgd[341]'s pud=ffff0004d68c0000..ffff0004d68c0fff
+Oct 19 16:59:17 ubuntu kernel: [  307.059078] pgtbl_repl_prepare_replication:972 1 pfn=5168c0   2 pfn=5168c0
+Oct 19 16:59:17 ubuntu kernel: [  307.059082] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d68c0000 and new pagep = ffff0003b9c43000
+Oct 19 16:59:17 ubuntu kernel: [  307.059083] ------PTREPL: set_pgd start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059085] PTREP: set_pgd offset=aa8 and node0 origin pgd=ffff0003b9c44000  and pgd+offset=ffff0003b9c44aa8  and pud=ffff0003b9c43000 and pdgval=3f9c43003
+Oct 19 16:59:17 ubuntu kernel: [  307.059086] ------PTREPL: set_pgd done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059086] [mitosis] start search pud .......
+Oct 19 16:59:17 ubuntu kernel: [  307.059088] PTREP: pud_idx = 171，and pud=ffff0004d68c0558  and pud[171]=51eb77003
+Oct 19 16:59:17 ubuntu kernel: [  307.059089] pgtbl_repl_prepare_replication:991 pud[171]'s pmd=ffff0004deb77000..ffff0004deb77fff
+Oct 19 16:59:17 ubuntu kernel: [  307.059089] pgtbl_repl_prepare_replication:992 1 pfn=51eb77   2 pfn=51eb77
+Oct 19 16:59:17 ubuntu kernel: [  307.059093] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004deb77000 and new pagep = ffff0003b9c42000
+Oct 19 16:59:17 ubuntu kernel: [  307.059094] ------PTREPL: set_pud start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059096] PTREP: set_pud offset=558 and node0 origin pud=ffff0003b9c43000  and pud+offset=ffff0003b9c43558  and pmd=ffff0003b9c42000 and pudval=3f9c42003
+Oct 19 16:59:17 ubuntu kernel: [  307.059096] ------PTREPL: set_pud done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059098] PTREP: pmd_idx = 80，and pmd=ffff0004deb77280  and pmd[80]=516983003
+Oct 19 16:59:17 ubuntu kernel: [  307.059099] pgtbl_repl_prepare_replication:1011 pmd[80]'s pte=ffff0004d6983000..ffff0004d6983fff
+Oct 19 16:59:17 ubuntu kernel: [  307.059100] pgtbl_repl_prepare_replication:1012 1 pfn=516983   2 pfn=516983
+Oct 19 16:59:17 ubuntu kernel: [  307.059103] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d6983000 and new pagep = ffff0003b9c41000
+Oct 19 16:59:17 ubuntu kernel: [  307.059104] ------PTREPL: set_pmd start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059105] PTREP: set_pmd offset=280 and node0 origin pmd=ffff0003b9c42000  and pmd+offset=ffff0003b9c42280  and pte=ffff0003b9c41000 and pmdval=3f9c41003
+Oct 19 16:59:17 ubuntu kernel: [  307.059106] ------PTREPL: set_pmd done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059107] PTREP: pte_idx = 257，and pte=ffff0004d6983808  and pte[257]=2000050a091fd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059108] ------PTREPL: set_pte start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059109] PTREP: set_pte offset=808 and node0 origin pte=ffff0003b9c41000  and pte+offset=ffff0003b9c41808  and pteval=2000050a091fd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059110] ------PTREPL: set_pte done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059111] PTREP: pte_idx = 258，and pte=ffff0004d6983810  and pte[258]=200004d5d3dfd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059111] ------PTREPL: set_pte start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059113] PTREP: set_pte offset=810 and node0 origin pte=ffff0003b9c41000  and pte+offset=ffff0003b9c41810  and pteval=200004d5d3dfd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059113] ------PTREPL: set_pte done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059114] PTREP: pte_idx = 259，and pte=ffff0004d6983818  and pte[259]=2000050e260fd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059115] ------PTREPL: set_pte start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059116] PTREP: set_pte offset=818 and node0 origin pte=ffff0003b9c41000  and pte+offset=ffff0003b9c41818  and pteval=2000050e260fd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059116] ------PTREPL: set_pte done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059117] PTREP: pte_idx = 260，and pte=ffff0004d6983820  and pte[260]=2000050a6bffd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059118] ------PTREPL: set_pte start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059119] PTREP: set_pte offset=820 and node0 origin pte=ffff0003b9c41000  and pte+offset=ffff0003b9c41820  and pteval=2000050a6bffd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059120] ------PTREPL: set_pte done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059121] PTREP: pte_idx = 261，and pte=ffff0004d6983828  and pte[261]=2000050f79cfd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059121] ------PTREPL: set_pte start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059122] PTREP: set_pte offset=828 and node0 origin pte=ffff0003b9c41000  and pte+offset=ffff0003b9c41828  and pteval=2000050f79cfd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059123] ------PTREPL: set_pte done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059124] PTREP: pte_idx = 262，and pte=ffff0004d6983830  and pte[262]=2000053c3e0fd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059124] ------PTREPL: set_pte start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059125] PTREP: set_pte offset=830 and node0 origin pte=ffff0003b9c41000  and pte+offset=ffff0003b9c41830  and pteval=2000053c3e0fd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059126] ------PTREPL: set_pte done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059127] PTREP: pte_idx = 279，and pte=ffff0004d69838b8  and pte[279]=e000050e18ffd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059127] ------PTREPL: set_pte start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059128] PTREP: set_pte offset=8b8 and node0 origin pte=ffff0003b9c41000  and pte+offset=ffff0003b9c418b8  and pteval=e000050e18ffd3
+Oct 19 16:59:17 ubuntu kernel: [  307.059128] ------PTREPL: set_pte done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059129] PTREP: pte_idx = 280，and pte=ffff0004d69838c0  and pte[280]=e800050dc45f53
+Oct 19 16:59:17 ubuntu kernel: [  307.059130] ------PTREPL: set_pte start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059131] PTREP: set_pte offset=8c0 and node0 origin pte=ffff0003b9c41000  and pte+offset=ffff0003b9c418c0  and pteval=e800050dc45f53
+Oct 19 16:59:17 ubuntu kernel: [  307.059131] ------PTREPL: set_pte done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059132] PTREP: pmd_idx = 113，and pmd=ffff0004deb77388  and pmd[113]=5165aa003
+Oct 19 16:59:17 ubuntu kernel: [  307.059133] pgtbl_repl_prepare_replication:1011 pmd[113]'s pte=ffff0004d65aa000..ffff0004d65aafff
+Oct 19 16:59:17 ubuntu kernel: [  307.059134] pgtbl_repl_prepare_replication:1012 1 pfn=5165aa   2 pfn=5165aa
+Oct 19 16:59:17 ubuntu kernel: [  307.059137] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d65aa000 and new pagep = ffff0003b9c40000
+Oct 19 16:59:17 ubuntu kernel: [  307.059138] ------PTREPL: set_pmd start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059139] PTREP: set_pmd offset=388 and node0 origin pmd=ffff0003b9c42000  and pmd+offset=ffff0003b9c42388  and pte=ffff0003b9c40000 and pmdval=3f9c40003
+Oct 19 16:59:17 ubuntu kernel: [  307.059140] ------PTREPL: set_pmd done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059141] PTREP: pte_idx = 464，and pte=ffff0004d65aae80  and pte[464]=e80003f6ca2f53
+Oct 19 16:59:17 ubuntu kernel: [  307.059141] ------PTREPL: set_pte start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059142] PTREP: set_pte offset=e80 and node0 origin pte=ffff0003b9c40000  and pte+offset=ffff0003b9c40e80  and pteval=e80003f6ca2f53
+Oct 19 16:59:17 ubuntu kernel: [  307.059143] ------PTREPL: set_pte done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059145] ===================================== end of a page
+Oct 19 16:59:17 ubuntu kernel: [  307.059146] PTREP: pgd_idx = 511，and pgd=ffff0003b9b76ff8  and pgd[511]=3f9a80003
+Oct 19 16:59:17 ubuntu kernel: [  307.059147] pgtbl_repl_prepare_replication:968 pgd[511]'s pud=ffff0003b9a80000..ffff0003b9a80fff
+Oct 19 16:59:17 ubuntu kernel: [  307.059148] pgtbl_repl_prepare_replication:972 1 pfn=3f9a80   2 pfn=3f9a80
+Oct 19 16:59:17 ubuntu kernel: [  307.059151] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b9a80000 and new pagep = ffff0003b9c3f000
+Oct 19 16:59:17 ubuntu kernel: [  307.059152] ------PTREPL: set_pgd start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059153] PTREP: set_pgd offset=ff8 and node0 origin pgd=ffff0003b9c44000  and pgd+offset=ffff0003b9c44ff8  and pud=ffff0003b9c3f000 and pdgval=3f9c3f003
+Oct 19 16:59:17 ubuntu kernel: [  307.059154] ------PTREPL: set_pgd done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059155] [mitosis] start search pud .......
+Oct 19 16:59:17 ubuntu kernel: [  307.059156] PTREP: pud_idx = 510，and pud=ffff0003b9a80ff0  and pud[510]=3f9ac9003
+Oct 19 16:59:17 ubuntu kernel: [  307.059157] pgtbl_repl_prepare_replication:991 pud[510]'s pmd=ffff0003b9ac9000..ffff0003b9ac9fff
+Oct 19 16:59:17 ubuntu kernel: [  307.059158] pgtbl_repl_prepare_replication:992 1 pfn=3f9ac9   2 pfn=3f9ac9
+Oct 19 16:59:17 ubuntu kernel: [  307.059162] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b9ac9000 and new pagep = ffff0003b9c3e000
+Oct 19 16:59:17 ubuntu kernel: [  307.059162] ------PTREPL: set_pud start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059163] PTREP: set_pud offset=ff0 and node0 origin pud=ffff0003b9c3f000  and pud+offset=ffff0003b9c3fff0  and pmd=ffff0003b9c3e000 and pudval=3f9c3e003
+Oct 19 16:59:17 ubuntu kernel: [  307.059164] ------PTREPL: set_pud done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059165] PTREP: pmd_idx = 311，and pmd=ffff0003b9ac99b8  and pmd[311]=516e2d003
+Oct 19 16:59:17 ubuntu kernel: [  307.059166] pgtbl_repl_prepare_replication:1011 pmd[311]'s pte=ffff0004d6e2d000..ffff0004d6e2dfff
+Oct 19 16:59:17 ubuntu kernel: [  307.059167] pgtbl_repl_prepare_replication:1012 1 pfn=516e2d   2 pfn=516e2d
+Oct 19 16:59:17 ubuntu kernel: [  307.059171] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d6e2d000 and new pagep = ffff0003b9c3d000
+Oct 19 16:59:17 ubuntu kernel: [  307.059171] ------PTREPL: set_pmd start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059172] PTREP: set_pmd offset=9b8 and node0 origin pmd=ffff0003b9c3e000  and pmd+offset=ffff0003b9c3e9b8  and pte=ffff0003b9c3d000 and pmdval=3f9c3d003
+Oct 19 16:59:17 ubuntu kernel: [  307.059173] ------PTREPL: set_pmd done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059176] PTREP: pmd_idx = 312，and pmd=ffff0003b9ac99c0  and pmd[312]=516419003
+Oct 19 16:59:17 ubuntu kernel: [  307.059177] pgtbl_repl_prepare_replication:1011 pmd[312]'s pte=ffff0004d6419000..ffff0004d6419fff
+Oct 19 16:59:17 ubuntu kernel: [  307.059178] pgtbl_repl_prepare_replication:1012 1 pfn=516419   2 pfn=516419
+Oct 19 16:59:17 ubuntu kernel: [  307.059182] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d6419000 and new pagep = ffff0003b9c3c000
+Oct 19 16:59:17 ubuntu kernel: [  307.059182] ------PTREPL: set_pmd start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059184] PTREP: set_pmd offset=9c0 and node0 origin pmd=ffff0003b9c3e000  and pmd+offset=ffff0003b9c3e9c0  and pte=ffff0003b9c3c000 and pmdval=3f9c3c003
+Oct 19 16:59:17 ubuntu kernel: [  307.059184] ------PTREPL: set_pmd done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059187] PTREP: pud_idx = 511，and pud=ffff0003b9a80ff8  and pud[511]=51646a003
+Oct 19 16:59:17 ubuntu kernel: [  307.059188] pgtbl_repl_prepare_replication:991 pud[511]'s pmd=ffff0004d646a000..ffff0004d646afff
+Oct 19 16:59:17 ubuntu kernel: [  307.059189] pgtbl_repl_prepare_replication:992 1 pfn=51646a   2 pfn=51646a
+Oct 19 16:59:17 ubuntu kernel: [  307.059192] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d646a000 and new pagep = ffff0003b9c3b000
+Oct 19 16:59:17 ubuntu kernel: [  307.059193] ------PTREPL: set_pud start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059194] PTREP: set_pud offset=ff8 and node0 origin pud=ffff0003b9c3f000  and pud+offset=ffff0003b9c3fff8  and pmd=ffff0003b9c3b000 and pudval=3f9c3b003
+Oct 19 16:59:17 ubuntu kernel: [  307.059195] ------PTREPL: set_pud done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059196] PTREP: pmd_idx = 408，and pmd=ffff0004d646acc0  and pmd[408]=3f9bc4003
+Oct 19 16:59:17 ubuntu kernel: [  307.059197] pgtbl_repl_prepare_replication:1011 pmd[408]'s pte=ffff0003b9bc4000..ffff0003b9bc4fff
+Oct 19 16:59:17 ubuntu kernel: [  307.059198] pgtbl_repl_prepare_replication:1012 1 pfn=3f9bc4   2 pfn=3f9bc4
+Oct 19 16:59:17 ubuntu kernel: [  307.059201] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b9bc4000 and new pagep = ffff0003b9c3a000
+Oct 19 16:59:17 ubuntu kernel: [  307.059201] ------PTREPL: set_pmd start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059203] PTREP: set_pmd offset=cc0 and node0 origin pmd=ffff0003b9c3b000  and pmd+offset=ffff0003b9c3bcc0  and pte=ffff0003b9c3a000 and pmdval=3f9c3a003
+Oct 19 16:59:17 ubuntu kernel: [  307.059203] ------PTREPL: set_pmd done------
+Oct 19 16:59:17 ubuntu kernel: [  307.059205] ===================================== end of a page
+Oct 19 16:59:17 ubuntu kernel: [  307.059206] pgtbl_repl_prepare_replication:1038 all: pud_num=3, pmd_num=5, pte_num=302
+Oct 19 16:59:17 ubuntu kernel: [  307.059209] cpu_do_switch_mm:283 cpu_do_switch_mm mm=ffff0004d400f000, pgd=ffff0003b9c44000, pgd_phys=3f9c44000
+Oct 19 16:59:17 ubuntu kernel: [  307.059210] PTREP: Called pgtbl_repl_prepare_replication  done
+Oct 19 16:59:17 ubuntu kernel: [  307.059211] [mitosis] pgtable replication enabled for mm=ffff0004d400f000.
+Oct 19 16:59:17 ubuntu kernel: [  307.059212] [mitosis] pgtable replication err=0.
+Oct 19 16:59:17 ubuntu kernel: [  307.059683] ------PTREPL: free pgd start------
+Oct 19 16:59:17 ubuntu kernel: [  307.059686] [mitosis] pgtable_repl_pgd_free mm->pgd=ffff0003b9b76000.
+Oct 19 16:59:17 ubuntu kernel: [  307.059688] ------PTREPL: free pgd done------
+Oct 19 16:59:37 ubuntu systemd[1]: Started Session 4 of user huawei.
