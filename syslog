@@ -7106,3 +7106,1326 @@ Oct 19 19:39:30 ubuntu kernel: [  577.688551] [mitosis] pgd_free start: pid = 21
 Oct 19 19:39:30 ubuntu kernel: [  577.692998] [mitosis] pgd_free start: pid = 2180
 Oct 19 19:39:30 ubuntu kernel: [  577.696848] [mitosis] pgd_free start: pid = 846
 Oct 19 19:39:30 ubuntu kernel: [  577.743502] [mitosis] pgd_free start: pid = 2181
+Oct 19 19:39:30 ubuntu kernel: [  577.745000] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:39:30 ubuntu kernel: [  577.746971] [mitosis] pgd_free start: pid = 2181
+Oct 19 19:39:30 ubuntu kernel: [  577.748336] [mitosis] pgd_free start: pid = 2180
+Oct 19 19:39:30 ubuntu kernel: [  577.761575] [mitosis] pgd_free start: pid = 1218
+Oct 19 19:39:30 ubuntu kernel: [  577.763271] [mitosis] pgd_free start: pid = 1245
+Oct 19 19:39:30 ubuntu kernel: [  577.763609] [mitosis] pgd_free start: pid = 1239
+Oct 19 19:39:30 ubuntu kernel: [  577.764035] [mitosis] pgd_free start: pid = 2098
+Oct 19 19:39:30 ubuntu kernel: [  577.767502] [mitosis] pgd_free start: pid = 1360
+Oct 19 19:39:30 ubuntu kernel: [  577.767821] [mitosis] pgd_free start: pid = 1234
+Oct 19 19:39:30 ubuntu kernel: [  577.768077] [mitosis] pgd_free start: pid = 1217
+Oct 19 19:39:48 ubuntu kernel: [  595.433571] [mitosis] pgd_free start: pid = 1152
+Oct 19 19:40:06 ubuntu kernel: [  613.314619] [mitosis] pgd_free start: pid = 1213
+Oct 19 19:40:48 ubuntu kernel: [  655.433173] [mitosis] pgd_free start: pid = 1136
+Oct 19 19:43:39 ubuntu kernel: [  826.009032] [mitosis] pgd_free start: pid = 2185
+Oct 19 19:43:39 ubuntu kernel: [  826.009867] [mitosis] pgd_free start: pid = 2185
+Oct 19 19:43:51 ubuntu kernel: [  838.769493] [mitosis] pgd_free start: pid = 2186
+Oct 19 19:43:51 ubuntu kernel: [  838.782674] [mitosis] pgd_free start: pid = 2187
+Oct 19 19:43:51 ubuntu kernel: [  838.792722] [mitosis] pgd_free start: pid = 2190
+Oct 19 19:43:51 ubuntu kernel: [  838.795718] [mitosis] pgd_free start: pid = 2188
+Oct 19 19:43:51 ubuntu kernel: [  838.795730] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:43:51 ubuntu kernel: [  838.798880] [mitosis] pgd_free start: pid = 2191
+Oct 19 19:43:51 ubuntu kernel: [  838.799860] [mitosis] pgd_free start: pid = 2191
+Oct 19 19:43:51 ubuntu kernel: [  838.810756] [mitosis] pgd_free start: pid = 2195
+Oct 19 19:43:51 ubuntu kernel: [  838.813346] [mitosis] pgd_free start: pid = 2196
+Oct 19 19:43:51 ubuntu kernel: [  838.813918] [mitosis] pgd_free start: pid = 2196
+Oct 19 19:43:51 ubuntu kernel: [  838.817037] [mitosis] pgd_free start: pid = 2192
+Oct 19 19:43:51 ubuntu kernel: [  838.818330] [mitosis] pgd_free start: pid = 2191
+Oct 19 19:43:51 ubuntu kernel: [  838.819245] [mitosis] pgd_free start: pid = 2197
+Oct 19 19:43:51 ubuntu kernel: [  838.819726] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:43:51 ubuntu kernel: [  838.820269] [mitosis] pgd_free start: pid = 2197
+Oct 19 19:43:51 ubuntu kernel: [  838.821086] [mitosis] pgd_free start: pid = 2191
+Oct 19 19:43:51 ubuntu kernel: [  838.822841] [mitosis] pgd_free start: pid = 2198
+Oct 19 19:43:51 ubuntu kernel: [  838.825240] [mitosis] pgd_free start: pid = 2199
+Oct 19 19:43:51 ubuntu kernel: [  838.826615] [mitosis] pgd_free start: pid = 2191
+Oct 19 19:43:51 ubuntu kernel: [  838.830555] [mitosis] pgd_free start: pid = 2191
+Oct 19 19:43:51 ubuntu kernel: [  838.831509] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:51 ubuntu kernel: [  838.832545] [mitosis] pgd_free start: pid = 2201
+Oct 19 19:43:51 ubuntu kernel: [  838.835517] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:51 ubuntu kernel: [  838.837034] [mitosis] pgd_free start: pid = 2203
+Oct 19 19:43:51 ubuntu kernel: [  838.847654] [mitosis] pgd_free start: pid = 1218
+Oct 19 19:43:51 ubuntu kernel: [  838.850056] [mitosis] pgd_free start: pid = 2204
+Oct 19 19:43:51 ubuntu kernel: [  838.854491] [mitosis] pgd_free start: pid = 2206
+Oct 19 19:43:51 ubuntu kernel: [  838.855635] [mitosis] pgd_free start: pid = 2206
+Oct 19 19:43:51 ubuntu kernel: [  838.863639] [mitosis] pgd_free start: pid = 2207
+Oct 19 19:43:51 ubuntu kernel: [  838.865512] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:51 ubuntu kernel: [  838.865802] [mitosis] pgd_free start: pid = 1218
+Oct 19 19:43:51 ubuntu kernel: [  838.867844] [mitosis] pgd_free start: pid = 2208
+Oct 19 19:43:51 ubuntu kernel: [  838.868252] [mitosis] pgd_free start: pid = 2209
+Oct 19 19:43:51 ubuntu kernel: [  838.868889] [mitosis] pgd_free start: pid = 2209
+Oct 19 19:43:51 ubuntu kernel: [  838.878625] [mitosis] pgd_free start: pid = 2210
+Oct 19 19:43:51 ubuntu kernel: [  838.880840] [mitosis] pgd_free start: pid = 2211
+Oct 19 19:43:51 ubuntu kernel: [  838.881509] [mitosis] pgd_free start: pid = 2213
+Oct 19 19:43:51 ubuntu kernel: [  838.881970] [mitosis] pgd_free start: pid = 2213
+Oct 19 19:43:51 ubuntu kernel: [  838.882557] [mitosis] pgd_free start: pid = 2212
+Oct 19 19:43:51 ubuntu kernel: [  838.884702] [mitosis] pgd_free start: pid = 2213
+Oct 19 19:43:51 ubuntu kernel: [  838.884982] [mitosis] pgd_free start: pid = 2191
+Oct 19 19:43:51 ubuntu kernel: [  838.886728] [mitosis] pgd_free start: pid = 2214
+Oct 19 19:43:51 ubuntu kernel: [  838.889254] [mitosis] pgd_free start: pid = 2216
+Oct 19 19:43:51 ubuntu kernel: [  838.891510] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:51 ubuntu kernel: [  838.892700] [mitosis] pgd_free start: pid = 2217
+Oct 19 19:43:51 ubuntu kernel: [  838.895106] [mitosis] pgd_free start: pid = 2219
+Oct 19 19:43:51 ubuntu kernel: [  838.895445] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:51 ubuntu kernel: [  838.896802] [mitosis] pgd_free start: pid = 2219
+Oct 19 19:43:51 ubuntu kernel: [  838.907171] [mitosis] pgd_free start: pid = 2220
+Oct 19 19:43:51 ubuntu kernel: [  838.908743] [mitosis] pgd_free start: pid = 2220
+Oct 19 19:43:51 ubuntu kernel: [  838.910175] Page table allocation set to fixed on node 0
+Oct 19 19:43:51 ubuntu kernel: [  838.912529] [mitosis] pgd_alloc: pid = 2191
+Oct 19 19:43:51 ubuntu kernel: [  838.912534] [mitosis] pgd_alloc for mm=ffff0004daf5a800 and mm->pgd =ffff0004d8f7b000.
+Oct 19 19:43:51 ubuntu kernel: [  838.912536] PTREPL: set state to deactivated.
+Oct 19 19:43:51 ubuntu kernel: [  838.912538] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:51 ubuntu kernel: [  838.912838] [mitosis] pgd_free start: pid = 2221
+Oct 19 19:43:51 ubuntu kernel: [  838.913013] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:51 ubuntu kernel: [  838.913213] [mitosis] pgd_free start: pid = 2222
+Oct 19 19:43:51 ubuntu kernel: [  838.913936] [mitosis] pgd_alloc start: pid = 2222
+Oct 19 19:43:51 ubuntu kernel: [  838.914399] [mitosis] pgd_free start: pid = 2222
+Oct 19 19:43:52 ubuntu kernel: [  838.923037] [mitosis] pgd_alloc start: pid = 2222
+Oct 19 19:43:52 ubuntu kernel: [  838.923489] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:43:52 ubuntu kernel: [  838.924197] [mitosis] pgd_alloc start: pid = 2223
+Oct 19 19:43:52 ubuntu kernel: [  838.924889] [mitosis] pgd_free start: pid = 2223
+Oct 19 19:43:52 ubuntu kernel: [  838.926306] PROCFS: Command ot drain the pgtable cache
+Oct 19 19:43:52 ubuntu kernel: [  838.928541] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:52 ubuntu kernel: [  838.928695] [mitosis] pgd_free start: pid = 2224
+Oct 19 19:43:52 ubuntu kernel: [  838.928866] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:52 ubuntu kernel: [  838.929044] [mitosis] pgd_free start: pid = 2225
+Oct 19 19:43:52 ubuntu kernel: [  838.930119] [mitosis] pgd_alloc start: pid = 2225
+Oct 19 19:43:52 ubuntu kernel: [  838.930610] [mitosis] pgd_free start: pid = 2225
+Oct 19 19:43:52 ubuntu kernel: [  838.941268] [mitosis] pgd_alloc start: pid = 2225
+Oct 19 19:43:52 ubuntu kernel: [  838.941656] [mitosis] pgd_free start: pid = 2226
+Oct 19 19:43:52 ubuntu kernel: [  838.942278] [mitosis] pgd_alloc start: pid = 2226
+Oct 19 19:43:52 ubuntu kernel: [  838.942890] [mitosis] pgd_free start: pid = 2226
+Oct 19 19:43:52 ubuntu kernel: [  838.944224] PROCFS: Command ot populate the pgtable cache
+Oct 19 19:43:52 ubuntu kernel: [  838.944229] PGREPL: populating pgtable cache with 1100000 tables per node
+Oct 19 19:43:52 ubuntu kernel: [  838.944232] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Oct 19 19:43:55 ubuntu kernel: [  842.142163] PGREPL: node[0] populated with 1100000  tables
+Oct 19 19:43:55 ubuntu kernel: [  842.146339] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.146818] [mitosis] pgd_free start: pid = 2227
+Oct 19 19:43:55 ubuntu kernel: [  842.147815] [mitosis] pgd_alloc start: pid = 2227
+Oct 19 19:43:55 ubuntu kernel: [  842.148831] [mitosis] pgd_alloc start: pid = 2228
+Oct 19 19:43:55 ubuntu kernel: [  842.149949] [mitosis] pgd_alloc start: pid = 2229
+Oct 19 19:43:55 ubuntu kernel: [  842.150530] [mitosis] pgd_alloc start: pid = 2230
+Oct 19 19:43:55 ubuntu kernel: [  842.150949] [mitosis] pgd_free start: pid = 2230
+Oct 19 19:43:55 ubuntu kernel: [  842.153491] [mitosis] pgd_alloc start: pid = 2228
+Oct 19 19:43:55 ubuntu kernel: [  842.153697] [mitosis] pgd_free start: pid = 2231
+Oct 19 19:43:55 ubuntu kernel: [  842.153896] [mitosis] pgd_alloc start: pid = 2231
+Oct 19 19:43:55 ubuntu kernel: [  842.154102] [mitosis] pgd_free start: pid = 2231
+Oct 19 19:43:55 ubuntu kernel: [  842.155031] [mitosis] pgd_free start: pid = 2227
+Oct 19 19:43:55 ubuntu kernel: [  842.155391] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:55 ubuntu kernel: [  842.156201] [mitosis] pgd_alloc start: pid = 2227
+Oct 19 19:43:55 ubuntu kernel: [  842.156766] [mitosis] pgd_free start: pid = 2227
+Oct 19 19:43:55 ubuntu kernel: [  842.158096] [mitosis] pgd_free start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.158630] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.159559] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:55 ubuntu kernel: [  842.159994] [mitosis] pgd_free start: pid = 2232
+Oct 19 19:43:55 ubuntu kernel: [  842.160012] [mitosis] pgd_alloc start: pid = 2232
+Oct 19 19:43:55 ubuntu kernel: [  842.162370] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.163159] [mitosis] pgd_alloc start: pid = 2233
+Oct 19 19:43:55 ubuntu kernel: [  842.163625] [mitosis] pgd_free start: pid = 2233
+Oct 19 19:43:55 ubuntu kernel: [  842.165306] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.165531] [mitosis] pgd_free start: pid = 2234
+Oct 19 19:43:55 ubuntu kernel: [  842.165990] [mitosis] pgd_alloc start: pid = 2234
+Oct 19 19:43:55 ubuntu kernel: [  842.166295] [mitosis] pgd_free start: pid = 2234
+Oct 19 19:43:55 ubuntu kernel: [  842.167929] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.168986] [mitosis] pgd_alloc start: pid = 2235
+Oct 19 19:43:55 ubuntu kernel: [  842.169471] [mitosis] pgd_free start: pid = 2235
+Oct 19 19:43:55 ubuntu kernel: [  842.186227] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.186385] [mitosis] pgd_free start: pid = 2236
+Oct 19 19:43:55 ubuntu kernel: [  842.186724] [mitosis] pgd_alloc start: pid = 2236
+Oct 19 19:43:55 ubuntu kernel: [  842.186896] [mitosis] pgd_free start: pid = 2236
+Oct 19 19:43:55 ubuntu kernel: [  842.187414] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:55 ubuntu kernel: [  842.187511] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.187702] [mitosis] pgd_free start: pid = 2237
+Oct 19 19:43:55 ubuntu kernel: [  842.187769] [mitosis] kernel_set_pgtlbreplpolicy: pid = 2236
+Oct 19 19:43:55 ubuntu kernel: [  842.187771] PTREP: Called pgtbl_repl_prepare_replication
+Oct 19 19:43:55 ubuntu kernel: [  842.187777] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:43:55 ubuntu kernel: [  842.187780] [mitosis] pgtbl_repl_prepare_replication  for mm=ffff0004dae09800.
+Oct 19 19:43:55 ubuntu kernel: [  842.187785] [mitosis] pgd_alloc start: pid = 2236
+Oct 19 19:43:55 ubuntu kernel: [  842.187789] ------PTREPL: alloc pgd start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187790] [mitosis] nr_node_ids=1.
+Oct 19 19:43:55 ubuntu kernel: [  842.187791] [mitosis] pgd_alloc origin mm->pgd =ffff0004d5fbd000.
+Oct 19 19:43:55 ubuntu kernel: [  842.187795] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff0003b67af000.
+Oct 19 19:43:55 ubuntu kernel: [  842.187795] ------PTREPL: alloc pgd success------
+Oct 19 19:43:55 ubuntu kernel: [  842.187798] pgtbl_repl_prepare_replication:962 pgd=ffff0004d5fbd000..ffff0004d5fbdfff
+Oct 19 19:43:55 ubuntu kernel: [  842.187800] PTREP: pgd_idx = 341，and pgd=ffff0004d5fbdaa8  and pgd[341]=51542c003
+Oct 19 19:43:55 ubuntu kernel: [  842.187801] pgtbl_repl_prepare_replication:970 pgd[341]'s pud=ffff0004d542c000..ffff0004d542cfff
+Oct 19 19:43:55 ubuntu kernel: [  842.187802] pgtbl_repl_prepare_replication:974 1 pfn=51542c   2 pfn=51542c
+Oct 19 19:43:55 ubuntu kernel: [  842.187805] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d542c000 and new pagep = ffff0003b67ae000
+Oct 19 19:43:55 ubuntu kernel: [  842.187806] ------PTREPL: set_pgd start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187809] PTREP: set_pgd offset=aa8 and node0 origin pgd=ffff0003b67af000  and pgd+offset=ffff0003b67afaa8  and pud=ffff0003b67ae000 and pdgval=3f67ae003
+Oct 19 19:43:55 ubuntu kernel: [  842.187809] ------PTREPL: set_pgd done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187810] [mitosis] start search pud .......
+Oct 19 19:43:55 ubuntu kernel: [  842.187811] PTREP: pud_idx = 171，and pud=ffff0004d542c558  and pud[171]=518ff8003
+Oct 19 19:43:55 ubuntu kernel: [  842.187812] pgtbl_repl_prepare_replication:993 pud[171]'s pmd=ffff0004d8ff8000..ffff0004d8ff8fff
+Oct 19 19:43:55 ubuntu kernel: [  842.187813] pgtbl_repl_prepare_replication:994 1 pfn=518ff8   2 pfn=518ff8
+Oct 19 19:43:55 ubuntu kernel: [  842.187816] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d8ff8000 and new pagep = ffff0003b67ad000
+Oct 19 19:43:55 ubuntu kernel: [  842.187817] ------PTREPL: set_pud start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187819] PTREP: set_pud offset=558 and node0 origin pud=ffff0003b67ae000  and pud+offset=ffff0003b67ae558  and pmd=ffff0003b67ad000 and pudval=3f67ad003
+Oct 19 19:43:55 ubuntu kernel: [  842.187820] ------PTREPL: set_pud done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187821] PTREP: pmd_idx = 314，and pmd=ffff0004d8ff89d0  and pmd[314]=51cd56003
+Oct 19 19:43:55 ubuntu kernel: [  842.187823] pgtbl_repl_prepare_replication:1013 pmd[314]'s pte=ffff0004dcd56000..ffff0004dcd56fff
+Oct 19 19:43:55 ubuntu kernel: [  842.187824] pgtbl_repl_prepare_replication:1014 1 pfn=51cd56   2 pfn=51cd56
+Oct 19 19:43:55 ubuntu kernel: [  842.187826] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004dcd56000 and new pagep = ffff0003b67ac000
+Oct 19 19:43:55 ubuntu kernel: [  842.187827] ------PTREPL: set_pmd start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187829] PTREP: set_pmd offset=9d0 and node0 origin pmd=ffff0003b67ad000  and pmd+offset=ffff0003b67ad9d0  and pte=ffff0003b67ac000 and pmdval=3f67ac003
+Oct 19 19:43:55 ubuntu kernel: [  842.187830] ------PTREPL: set_pmd done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187831] PTREP: pte_idx = 447，and pte=ffff0004dcd56df8  and pte[447]=2000050eb6efd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187834] ------PTREPL: set_pte start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187836] PTREP: set_pte offset=df8 and node0 origin pte=ffff0003b67ac000  and pte+offset=ffff0003b67acdf8  and pteval=2000050eb6efd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187836] ------PTREPL: set_pte done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187837] PTREP: pte_idx = 448，and pte=ffff0004dcd56e00  and pte[448]=200004d20e0fd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187838] ------PTREPL: set_pte start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187841] PTREP: set_pte offset=e00 and node0 origin pte=ffff0003b67ac000  and pte+offset=ffff0003b67ace00  and pteval=200004d20e0fd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187842] ------PTREPL: set_pte done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187843] PTREP: pte_idx = 449，and pte=ffff0004dcd56e08  and pte[449]=2000050eaddfd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187844] ------PTREPL: set_pte start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187845] PTREP: set_pte offset=e08 and node0 origin pte=ffff0003b67ac000  and pte+offset=ffff0003b67ace08  and pteval=2000050eaddfd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187845] ------PTREPL: set_pte done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187846] PTREP: pte_idx = 450，and pte=ffff0004dcd56e10  and pte[450]=2000050d1a4fd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187847] ------PTREPL: set_pte start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187848] PTREP: set_pte offset=e10 and node0 origin pte=ffff0003b67ac000  and pte+offset=ffff0003b67ace10  and pteval=2000050d1a4fd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187848] ------PTREPL: set_pte done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187849] PTREP: pte_idx = 451，and pte=ffff0004dcd56e18  and pte[451]=200004d62f7fd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187850] ------PTREPL: set_pte start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187851] PTREP: set_pte offset=e18 and node0 origin pte=ffff0003b67ac000  and pte+offset=ffff0003b67ace18  and pteval=200004d62f7fd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187851] ------PTREPL: set_pte done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187852] PTREP: pte_idx = 452，and pte=ffff0004dcd56e20  and pte[452]=2000053c224fd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187853] ------PTREPL: set_pte start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187853] PTREP: set_pte offset=e20 and node0 origin pte=ffff0003b67ac000  and pte+offset=ffff0003b67ace20  and pteval=2000053c224fd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187854] ------PTREPL: set_pte done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187855] PTREP: pte_idx = 469，and pte=ffff0004dcd56ea8  and pte[469]=e0000502056fd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187855] ------PTREPL: set_pte start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187856] PTREP: set_pte offset=ea8 and node0 origin pte=ffff0003b67ac000  and pte+offset=ffff0003b67acea8  and pteval=e0000502056fd3
+Oct 19 19:43:55 ubuntu kernel: [  842.187857] ------PTREPL: set_pte done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187858] PTREP: pte_idx = 470，and pte=ffff0004dcd56eb0  and pte[470]=e8000502066f53
+Oct 19 19:43:55 ubuntu kernel: [  842.187858] ------PTREPL: set_pte start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187859] PTREP: set_pte offset=eb0 and node0 origin pte=ffff0003b67ac000  and pte+offset=ffff0003b67aceb0  and pteval=e8000502066f53
+Oct 19 19:43:55 ubuntu kernel: [  842.187860] ------PTREPL: set_pte done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187861] PTREP: pmd_idx = 475，and pmd=ffff0004d8ff8ed8  and pmd[475]=512ce1003
+Oct 19 19:43:55 ubuntu kernel: [  842.187862] pgtbl_repl_prepare_replication:1013 pmd[475]'s pte=ffff0004d2ce1000..ffff0004d2ce1fff
+Oct 19 19:43:55 ubuntu kernel: [  842.187863] pgtbl_repl_prepare_replication:1014 1 pfn=512ce1   2 pfn=512ce1
+Oct 19 19:43:55 ubuntu kernel: [  842.187866] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d2ce1000 and new pagep = ffff0003b67ab000
+Oct 19 19:43:55 ubuntu kernel: [  842.187866] ------PTREPL: set_pmd start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187868] PTREP: set_pmd offset=ed8 and node0 origin pmd=ffff0003b67ad000  and pmd+offset=ffff0003b67aded8  and pte=ffff0003b67ab000 and pmdval=3f67ab003
+Oct 19 19:43:55 ubuntu kernel: [  842.187868] ------PTREPL: set_pmd done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187870] PTREP: pte_idx = 393，and pte=ffff0004d2ce1c48  and pte[393]=e800050204cf53
+Oct 19 19:43:55 ubuntu kernel: [  842.187870] ------PTREPL: set_pte start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187871] PTREP: set_pte offset=c48 and node0 origin pte=ffff0003b67ab000  and pte+offset=ffff0003b67abc48  and pteval=e800050204cf53
+Oct 19 19:43:55 ubuntu kernel: [  842.187872] ------PTREPL: set_pte done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187874] ===================================== end of a page
+Oct 19 19:43:55 ubuntu kernel: [  842.187875] PTREP: pgd_idx = 511，and pgd=ffff0004d5fbdff8  and pgd[511]=51a946003
+Oct 19 19:43:55 ubuntu kernel: [  842.187876] pgtbl_repl_prepare_replication:970 pgd[511]'s pud=ffff0004da946000..ffff0004da946fff
+Oct 19 19:43:55 ubuntu kernel: [  842.187877] pgtbl_repl_prepare_replication:974 1 pfn=51a946   2 pfn=51a946
+Oct 19 19:43:55 ubuntu kernel: [  842.187879] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004da946000 and new pagep = ffff0003b67aa000
+Oct 19 19:43:55 ubuntu kernel: [  842.187880] ------PTREPL: set_pgd start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187881] PTREP: set_pgd offset=ff8 and node0 origin pgd=ffff0003b67af000  and pgd+offset=ffff0003b67afff8  and pud=ffff0003b67aa000 and pdgval=3f67aa003
+Oct 19 19:43:55 ubuntu kernel: [  842.187882] ------PTREPL: set_pgd done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187882] [mitosis] start search pud .......
+Oct 19 19:43:55 ubuntu kernel: [  842.187884] PTREP: pud_idx = 510，and pud=ffff0004da946ff0  and pud[510]=514c8f003
+Oct 19 19:43:55 ubuntu kernel: [  842.187885] pgtbl_repl_prepare_replication:993 pud[510]'s pmd=ffff0004d4c8f000..ffff0004d4c8ffff
+Oct 19 19:43:55 ubuntu kernel: [  842.187886] pgtbl_repl_prepare_replication:994 1 pfn=514c8f   2 pfn=514c8f
+Oct 19 19:43:55 ubuntu kernel: [  842.187888] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d4c8f000 and new pagep = ffff0003b67a9000
+Oct 19 19:43:55 ubuntu kernel: [  842.187889] ------PTREPL: set_pud start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187890] PTREP: set_pud offset=ff0 and node0 origin pud=ffff0003b67aa000  and pud+offset=ffff0003b67aaff0  and pmd=ffff0003b67a9000 and pudval=3f67a9003
+Oct 19 19:43:55 ubuntu kernel: [  842.187891] ------PTREPL: set_pud done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187892] PTREP: pmd_idx = 367，and pmd=ffff0004d4c8fb78  and pmd[367]=51f163003
+Oct 19 19:43:55 ubuntu kernel: [  842.187893] pgtbl_repl_prepare_replication:1013 pmd[367]'s pte=ffff0004df163000..ffff0004df163fff
+Oct 19 19:43:55 ubuntu kernel: [  842.187894] pgtbl_repl_prepare_replication:1014 1 pfn=51f163   2 pfn=51f163
+Oct 19 19:43:55 ubuntu kernel: [  842.187896] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004df163000 and new pagep = ffff0003b67a8000
+Oct 19 19:43:55 ubuntu kernel: [  842.187896] ------PTREPL: set_pmd start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187897] PTREP: set_pmd offset=b78 and node0 origin pmd=ffff0003b67a9000  and pmd+offset=ffff0003b67a9b78  and pte=ffff0003b67a8000 and pmdval=3f67a8003
+Oct 19 19:43:55 ubuntu kernel: [  842.187898] ------PTREPL: set_pmd done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187901] PTREP: pmd_idx = 368，and pmd=ffff0004d4c8fb80  and pmd[368]=51d6f3003
+Oct 19 19:43:55 ubuntu kernel: [  842.187901] pgtbl_repl_prepare_replication:1013 pmd[368]'s pte=ffff0004dd6f3000..ffff0004dd6f3fff
+Oct 19 19:43:55 ubuntu kernel: [  842.187902] pgtbl_repl_prepare_replication:1014 1 pfn=51d6f3   2 pfn=51d6f3
+Oct 19 19:43:55 ubuntu kernel: [  842.187905] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004dd6f3000 and new pagep = ffff0003b67a7000
+Oct 19 19:43:55 ubuntu kernel: [  842.187906] ------PTREPL: set_pmd start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187907] PTREP: set_pmd offset=b80 and node0 origin pmd=ffff0003b67a9000  and pmd+offset=ffff0003b67a9b80  and pte=ffff0003b67a7000 and pmdval=3f67a7003
+Oct 19 19:43:55 ubuntu kernel: [  842.187907] ------PTREPL: set_pmd done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187912] PTREP: pud_idx = 511，and pud=ffff0004da946ff8  and pud[511]=51799b003
+Oct 19 19:43:55 ubuntu kernel: [  842.187913] pgtbl_repl_prepare_replication:993 pud[511]'s pmd=ffff0004d799b000..ffff0004d799bfff
+Oct 19 19:43:55 ubuntu kernel: [  842.187914] pgtbl_repl_prepare_replication:994 1 pfn=51799b   2 pfn=51799b
+Oct 19 19:43:55 ubuntu kernel: [  842.187916] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d799b000 and new pagep = ffff0003b67a6000
+Oct 19 19:43:55 ubuntu kernel: [  842.187917] ------PTREPL: set_pud start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187918] PTREP: set_pud offset=ff8 and node0 origin pud=ffff0003b67aa000  and pud+offset=ffff0003b67aaff8  and pmd=ffff0003b67a6000 and pudval=3f67a6003
+Oct 19 19:43:55 ubuntu kernel: [  842.187918] ------PTREPL: set_pud done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187920] PTREP: pmd_idx = 352，and pmd=ffff0004d799bb00  and pmd[352]=515674003
+Oct 19 19:43:55 ubuntu kernel: [  842.187921] pgtbl_repl_prepare_replication:1013 pmd[352]'s pte=ffff0004d5674000..ffff0004d5674fff
+Oct 19 19:43:55 ubuntu kernel: [  842.187921] pgtbl_repl_prepare_replication:1014 1 pfn=515674   2 pfn=515674
+Oct 19 19:43:55 ubuntu kernel: [  842.187924] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d5674000 and new pagep = ffff0003b67a5000
+Oct 19 19:43:55 ubuntu kernel: [  842.187924] ------PTREPL: set_pmd start------
+Oct 19 19:43:55 ubuntu kernel: [  842.187926] PTREP: set_pmd offset=b00 and node0 origin pmd=ffff0003b67a6000  and pmd+offset=ffff0003b67a6b00  and pte=ffff0003b67a5000 and pmdval=3f67a5003
+Oct 19 19:43:55 ubuntu kernel: [  842.187926] ------PTREPL: set_pmd done------
+Oct 19 19:43:55 ubuntu kernel: [  842.187928] ===================================== end of a page
+Oct 19 19:43:55 ubuntu kernel: [  842.187929] pgtbl_repl_prepare_replication:1040 all: pud_num=3, pmd_num=5, pte_num=344
+Oct 19 19:43:55 ubuntu kernel: [  842.187932] cpu_do_switch_mm:283 cpu_do_switch_mm mm=ffff0004dae09800, pgd=ffff0003b67af000, pgd_phys=3f67af000
+Oct 19 19:43:55 ubuntu kernel: [  842.187933] PTREP: Called pgtbl_repl_prepare_replication  done
+Oct 19 19:43:55 ubuntu kernel: [  842.187934] [mitosis] pgtable replication enabled for mm=ffff0004dae09800.
+Oct 19 19:43:55 ubuntu kernel: [  842.187935] [mitosis] pgtable replication err=0.
+Oct 19 19:43:55 ubuntu kernel: [  842.187990] [mitosis] pgd_alloc start: pid = 2236
+Oct 19 19:43:55 ubuntu kernel: [  842.188175] [mitosis] pgd_free start: pid = 2236
+Oct 19 19:43:55 ubuntu kernel: [  842.188176] ------PTREPL: free pgd start------
+Oct 19 19:43:55 ubuntu kernel: [  842.188177] [mitosis] pgtable_repl_pgd_free mm->pgd=ffff0004d5fbd000.
+Oct 19 19:43:55 ubuntu kernel: [  842.188178] ------PTREPL: free pgd done------
+Oct 19 19:43:55 ubuntu kernel: [  842.188205] [mitosis] pgd_alloc start: pid = 2237
+Oct 19 19:43:55 ubuntu kernel: [  842.188692] [mitosis] pgd_free start: pid = 2237
+Oct 19 19:43:55 ubuntu kernel: [  842.291492] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.291825] [mitosis] pgd_free start: pid = 2238
+Oct 19 19:43:55 ubuntu kernel: [  842.292249] [mitosis] pgd_alloc start: pid = 2238
+Oct 19 19:43:55 ubuntu kernel: [  842.292605] [mitosis] pgd_free start: pid = 2238
+Oct 19 19:43:55 ubuntu kernel: [  842.395125] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.395554] [mitosis] pgd_free start: pid = 2239
+Oct 19 19:43:55 ubuntu kernel: [  842.395942] [mitosis] pgd_alloc start: pid = 2239
+Oct 19 19:43:55 ubuntu kernel: [  842.396316] [mitosis] pgd_free start: pid = 2239
+Oct 19 19:43:55 ubuntu kernel: [  842.498486] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.498809] [mitosis] pgd_free start: pid = 2240
+Oct 19 19:43:55 ubuntu kernel: [  842.499660] [mitosis] pgd_alloc start: pid = 2240
+Oct 19 19:43:55 ubuntu kernel: [  842.500024] [mitosis] pgd_free start: pid = 2240
+Oct 19 19:43:55 ubuntu kernel: [  842.500669] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.501298] [mitosis] pgd_alloc start: pid = 2241
+Oct 19 19:43:55 ubuntu kernel: [  842.501599] [mitosis] pgd_free start: pid = 2241
+Oct 19 19:43:55 ubuntu kernel: [  842.608540] [mitosis] pgd_alloc start: pid = 2191
+Oct 19 19:43:55 ubuntu kernel: [  842.608919] [mitosis] pgd_free start: pid = 2242
+Oct 19 19:43:55 ubuntu kernel: [  842.609442] [mitosis] pgd_alloc start: pid = 2242
+Oct 19 19:43:55 ubuntu kernel: [  842.609906] [mitosis] pgd_free start: pid = 2242
+Oct 19 19:43:55 ubuntu kernel: [  842.611654] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:43:55 ubuntu kernel: [  842.624104] [mitosis] pgd_free start: pid = 2187
+Oct 19 19:43:55 ubuntu kernel: [  842.624822] [mitosis] pgd_alloc start: pid = 2187
+Oct 19 19:43:55 ubuntu kernel: [  842.625084] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.625237] [mitosis] pgd_free start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.628129] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.628650] [mitosis] pgd_alloc start: pid = 2244
+Oct 19 19:43:55 ubuntu kernel: [  842.629131] [mitosis] pgd_alloc start: pid = 2245
+Oct 19 19:43:55 ubuntu kernel: [  842.629702] [mitosis] pgd_alloc start: pid = 2246
+Oct 19 19:43:55 ubuntu kernel: [  842.630014] [mitosis] pgd_alloc start: pid = 2247
+Oct 19 19:43:55 ubuntu kernel: [  842.630172] [mitosis] pgd_free start: pid = 2247
+Oct 19 19:43:55 ubuntu kernel: [  842.630832] [mitosis] pgd_free start: pid = 2245
+Oct 19 19:43:55 ubuntu kernel: [  842.631667] [mitosis] pgd_alloc start: pid = 2245
+Oct 19 19:43:55 ubuntu kernel: [  842.631714] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:43:55 ubuntu kernel: [  842.631969] [mitosis] pgd_free start: pid = 2248
+Oct 19 19:43:55 ubuntu kernel: [  842.632397] [mitosis] pgd_alloc start: pid = 2248
+Oct 19 19:43:55 ubuntu kernel: [  842.632794] [mitosis] pgd_free start: pid = 2248
+Oct 19 19:43:55 ubuntu kernel: [  842.634101] [mitosis] pgd_free start: pid = 2244
+Oct 19 19:43:55 ubuntu kernel: [  842.635190] [mitosis] pgd_alloc start: pid = 2244
+Oct 19 19:43:55 ubuntu kernel: [  842.635599] [mitosis] pgd_free start: pid = 2244
+Oct 19 19:43:55 ubuntu kernel: [  842.636670] [mitosis] pgd_free start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.637185] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.638493] [mitosis] pgd_alloc start: pid = 2249
+Oct 19 19:43:55 ubuntu kernel: [  842.638953] [mitosis] pgd_free start: pid = 2249
+Oct 19 19:43:55 ubuntu kernel: [  842.639612] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:43:55 ubuntu kernel: [  842.641179] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.642236] [mitosis] pgd_alloc start: pid = 2250
+Oct 19 19:43:55 ubuntu kernel: [  842.642522] [mitosis] pgd_free start: pid = 2250
+Oct 19 19:43:55 ubuntu kernel: [  842.643885] [mitosis] pgd_free start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.644462] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.646031] [mitosis] pgd_alloc start: pid = 2251
+Oct 19 19:43:55 ubuntu kernel: [  842.646470] [mitosis] pgd_free start: pid = 2251
+Oct 19 19:43:55 ubuntu kernel: [  842.647494] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:55 ubuntu kernel: [  842.649146] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.649700] [mitosis] pgd_alloc start: pid = 2252
+Oct 19 19:43:55 ubuntu kernel: [  842.649945] [mitosis] pgd_free start: pid = 2252
+Oct 19 19:43:55 ubuntu kernel: [  842.652752] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.652936] [mitosis] pgd_free start: pid = 2253
+Oct 19 19:43:55 ubuntu kernel: [  842.653444] [mitosis] pgd_alloc start: pid = 2253
+Oct 19 19:43:55 ubuntu kernel: [  842.653659] [mitosis] pgd_free start: pid = 2253
+Oct 19 19:43:55 ubuntu kernel: [  842.654315] [mitosis] pgd_free start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.655158] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.655605] [mitosis] pgd_free start: pid = 2254
+Oct 19 19:43:55 ubuntu kernel: [  842.655840] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.656705] [mitosis] pgd_alloc start: pid = 2255
+Oct 19 19:43:55 ubuntu kernel: [  842.656954] [mitosis] pgd_free start: pid = 2255
+Oct 19 19:43:55 ubuntu kernel: [  842.659439] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:55 ubuntu kernel: [  842.664867] [mitosis] pgd_free start: pid = 1218
+Oct 19 19:43:55 ubuntu kernel: [  842.665072] [mitosis] pgd_alloc start: pid = 2255
+Oct 19 19:43:55 ubuntu kernel: [  842.665392] [mitosis] pgd_free start: pid = 2256
+Oct 19 19:43:55 ubuntu kernel: [  842.665804] [mitosis] pgd_alloc start: pid = 2256
+Oct 19 19:43:55 ubuntu kernel: [  842.666082] [mitosis] pgd_free start: pid = 2256
+Oct 19 19:43:55 ubuntu kernel: [  842.668610] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.668949] [mitosis] pgd_free start: pid = 2257
+Oct 19 19:43:55 ubuntu kernel: [  842.669214] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.669506] [mitosis] pgd_free start: pid = 2258
+Oct 19 19:43:55 ubuntu kernel: [  842.669880] [mitosis] pgd_alloc start: pid = 2258
+Oct 19 19:43:55 ubuntu kernel: [  842.670038] [mitosis] pgd_free start: pid = 2258
+Oct 19 19:43:55 ubuntu kernel: [  842.675422] [mitosis] pgd_alloc start: pid = 2258
+Oct 19 19:43:55 ubuntu kernel: [  842.676474] [mitosis] pgd_alloc start: pid = 2259
+Oct 19 19:43:55 ubuntu kernel: [  842.677134] [mitosis] pgd_free start: pid = 2259
+Oct 19 19:43:55 ubuntu kernel: [  842.679293] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:43:55 ubuntu kernel: [  842.680711] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.681227] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.681444] [mitosis] pgd_free start: pid = 2261
+Oct 19 19:43:55 ubuntu kernel: [  842.681967] [mitosis] pgd_alloc start: pid = 2261
+Oct 19 19:43:55 ubuntu kernel: [  842.682441] [mitosis] pgd_free start: pid = 2261
+Oct 19 19:43:55 ubuntu kernel: [  842.683617] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:43:55 ubuntu kernel: [  842.690454] [mitosis] pgd_alloc start: pid = 2261
+Oct 19 19:43:55 ubuntu kernel: [  842.691188] [mitosis] pgd_alloc start: pid = 2262
+Oct 19 19:43:55 ubuntu kernel: [  842.691519] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:55 ubuntu kernel: [  842.691574] [mitosis] pgd_free start: pid = 2262
+Oct 19 19:43:55 ubuntu kernel: [  842.693440] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.694574] [mitosis] pgd_alloc start: pid = 2263
+Oct 19 19:43:55 ubuntu kernel: [  842.695232] [mitosis] pgd_alloc start: pid = 2263
+Oct 19 19:43:55 ubuntu kernel: [  842.695370] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:55 ubuntu kernel: [  842.695596] [mitosis] pgd_free start: pid = 2265
+Oct 19 19:43:55 ubuntu kernel: [  842.695621] [mitosis] pgd_alloc start: pid = 2264
+Oct 19 19:43:55 ubuntu kernel: [  842.696082] [mitosis] pgd_alloc start: pid = 2265
+Oct 19 19:43:55 ubuntu kernel: [  842.696086] [mitosis] pgd_free start: pid = 2264
+Oct 19 19:43:55 ubuntu kernel: [  842.698352] [mitosis] pgd_free start: pid = 2263
+Oct 19 19:43:55 ubuntu kernel: [  842.700328] [mitosis] pgd_free start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.700600] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.700903] [mitosis] pgd_free start: pid = 2266
+Oct 19 19:43:55 ubuntu kernel: [  842.701687] [mitosis] pgd_alloc start: pid = 2266
+Oct 19 19:43:55 ubuntu kernel: [  842.702199] [mitosis] pgd_alloc start: pid = 2266
+Oct 19 19:43:55 ubuntu kernel: [  842.702856] [mitosis] pgd_alloc start: pid = 2268
+Oct 19 19:43:55 ubuntu kernel: [  842.703081] [mitosis] pgd_free start: pid = 2268
+Oct 19 19:43:55 ubuntu kernel: [  842.703753] [mitosis] pgd_free start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.704961] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.705966] [mitosis] pgd_alloc start: pid = 2269
+Oct 19 19:43:55 ubuntu kernel: [  842.706315] [mitosis] pgd_free start: pid = 2269
+Oct 19 19:43:55 ubuntu kernel: [  842.707426] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:55 ubuntu kernel: [  842.707560] [mitosis] pgd_free start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.708607] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.709018] [mitosis] pgd_free start: pid = 2270
+Oct 19 19:43:55 ubuntu kernel: [  842.709163] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.710301] [mitosis] pgd_alloc start: pid = 2271
+Oct 19 19:43:55 ubuntu kernel: [  842.710807] [mitosis] pgd_free start: pid = 2271
+Oct 19 19:43:55 ubuntu kernel: [  842.721871] [mitosis] pgd_free start: pid = 1218
+Oct 19 19:43:55 ubuntu kernel: [  842.722163] [mitosis] pgd_alloc start: pid = 2271
+Oct 19 19:43:55 ubuntu kernel: [  842.722493] [mitosis] pgd_free start: pid = 2272
+Oct 19 19:43:55 ubuntu kernel: [  842.723228] [mitosis] pgd_alloc start: pid = 2272
+Oct 19 19:43:55 ubuntu kernel: [  842.723980] [mitosis] pgd_free start: pid = 2272
+Oct 19 19:43:55 ubuntu kernel: [  842.725253] Page table allocation set to fixed on node 0
+Oct 19 19:43:55 ubuntu kernel: [  842.727297] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.727623] [mitosis] pgd_free start: pid = 2273
+Oct 19 19:43:55 ubuntu kernel: [  842.727758] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:55 ubuntu kernel: [  842.727907] [mitosis] pgd_free start: pid = 2274
+Oct 19 19:43:55 ubuntu kernel: [  842.728436] [mitosis] pgd_alloc start: pid = 2274
+Oct 19 19:43:55 ubuntu kernel: [  842.728914] [mitosis] pgd_free start: pid = 2274
+Oct 19 19:43:55 ubuntu kernel: [  842.735618] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:55 ubuntu kernel: [  842.735782] [mitosis] pgd_alloc start: pid = 2274
+Oct 19 19:43:55 ubuntu kernel: [  842.736107] [mitosis] pgd_free start: pid = 2275
+Oct 19 19:43:55 ubuntu kernel: [  842.736310] [mitosis] pgd_free start: pid = 1218
+Oct 19 19:43:55 ubuntu kernel: [  842.737006] [mitosis] pgd_alloc start: pid = 2275
+Oct 19 19:43:55 ubuntu kernel: [  842.737810] [mitosis] pgd_free start: pid = 2275
+Oct 19 19:43:55 ubuntu kernel: [  842.739607] PROCFS: Command ot drain the pgtable cache
+Oct 19 19:43:56 ubuntu kernel: [  842.956728] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:56 ubuntu kernel: [  842.957352] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:56 ubuntu kernel: [  842.957612] [mitosis] pgd_free start: pid = 2277
+Oct 19 19:43:56 ubuntu kernel: [  842.958542] [mitosis] pgd_alloc start: pid = 2277
+Oct 19 19:43:56 ubuntu kernel: [  842.959120] [mitosis] pgd_free start: pid = 2277
+Oct 19 19:43:56 ubuntu kernel: [  842.968270] [mitosis] pgd_free start: pid = 1218
+Oct 19 19:43:56 ubuntu kernel: [  842.968406] [mitosis] pgd_alloc start: pid = 2277
+Oct 19 19:43:56 ubuntu kernel: [  842.968721] [mitosis] pgd_free start: pid = 2278
+Oct 19 19:43:56 ubuntu kernel: [  842.969440] [mitosis] pgd_alloc start: pid = 2278
+Oct 19 19:43:56 ubuntu kernel: [  842.970087] [mitosis] pgd_free start: pid = 2278
+Oct 19 19:43:56 ubuntu kernel: [  842.971704] PROCFS: Command ot populate the pgtable cache
+Oct 19 19:43:56 ubuntu kernel: [  842.971709] PGREPL: populating pgtable cache with 1100000 tables per node
+Oct 19 19:43:56 ubuntu kernel: [  842.971712] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Oct 19 19:43:57 ubuntu kernel: [  844.383999] PGREPL: node[0] populated with 1100000  tables
+Oct 19 19:43:57 ubuntu kernel: [  844.388284] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.388602] [mitosis] pgd_free start: pid = 2279
+Oct 19 19:43:57 ubuntu kernel: [  844.389125] [mitosis] pgd_alloc start: pid = 2279
+Oct 19 19:43:57 ubuntu kernel: [  844.390307] [mitosis] pgd_alloc start: pid = 2280
+Oct 19 19:43:57 ubuntu kernel: [  844.391556] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:57 ubuntu kernel: [  844.391872] [mitosis] pgd_alloc start: pid = 2281
+Oct 19 19:43:57 ubuntu kernel: [  844.392601] [mitosis] pgd_alloc start: pid = 2282
+Oct 19 19:43:57 ubuntu kernel: [  844.392955] [mitosis] pgd_free start: pid = 2282
+Oct 19 19:43:57 ubuntu kernel: [  844.395166] [mitosis] pgd_free start: pid = 2280
+Oct 19 19:43:57 ubuntu kernel: [  844.395722] [mitosis] pgd_alloc start: pid = 2280
+Oct 19 19:43:57 ubuntu kernel: [  844.396478] [mitosis] pgd_alloc start: pid = 2283
+Oct 19 19:43:57 ubuntu kernel: [  844.396965] [mitosis] pgd_free start: pid = 2283
+Oct 19 19:43:57 ubuntu kernel: [  844.400185] [mitosis] pgd_alloc start: pid = 2279
+Oct 19 19:43:57 ubuntu kernel: [  844.400751] [mitosis] pgd_free start: pid = 2279
+Oct 19 19:43:57 ubuntu kernel: [  844.402220] [mitosis] pgd_free start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.402824] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.404005] [mitosis] pgd_alloc start: pid = 2284
+Oct 19 19:43:57 ubuntu kernel: [  844.404327] [mitosis] pgd_free start: pid = 2284
+Oct 19 19:43:57 ubuntu kernel: [  844.406313] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.407480] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:57 ubuntu kernel: [  844.407529] [mitosis] pgd_alloc start: pid = 2285
+Oct 19 19:43:57 ubuntu kernel: [  844.409726] [mitosis] pgd_free start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.410010] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.410931] [mitosis] pgd_alloc start: pid = 2286
+Oct 19 19:43:57 ubuntu kernel: [  844.411280] [mitosis] pgd_free start: pid = 2286
+Oct 19 19:43:57 ubuntu kernel: [  844.411412] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:57 ubuntu kernel: [  844.413203] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.413479] [mitosis] pgd_free start: pid = 2287
+Oct 19 19:43:57 ubuntu kernel: [  844.413944] [mitosis] pgd_alloc start: pid = 2287
+Oct 19 19:43:57 ubuntu kernel: [  844.414281] [mitosis] pgd_free start: pid = 2287
+Oct 19 19:43:57 ubuntu kernel: [  844.429631] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.429894] [mitosis] pgd_free start: pid = 2288
+Oct 19 19:43:57 ubuntu kernel: [  844.430276] [mitosis] pgd_alloc start: pid = 2288
+Oct 19 19:43:57 ubuntu kernel: [  844.430484] [mitosis] pgd_free start: pid = 2288
+Oct 19 19:43:57 ubuntu kernel: [  844.431233] [mitosis] kernel_set_pgtlbreplpolicy: pid = 2288
+Oct 19 19:43:57 ubuntu kernel: [  844.431235] PTREP: Called pgtbl_repl_prepare_replication
+Oct 19 19:43:57 ubuntu kernel: [  844.431236] [mitosis] pgtbl_repl_prepare_replication  for mm=ffff0004dcd7fc00.
+Oct 19 19:43:57 ubuntu kernel: [  844.431237] [mitosis] pgd_alloc start: pid = 2288
+Oct 19 19:43:57 ubuntu kernel: [  844.431237] ------PTREPL: alloc pgd start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431238] [mitosis] nr_node_ids=1.
+Oct 19 19:43:57 ubuntu kernel: [  844.431239] [mitosis] pgd_alloc origin mm->pgd =ffff0004d5670000.
+Oct 19 19:43:57 ubuntu kernel: [  844.431242] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff0003b6a0e000.
+Oct 19 19:43:57 ubuntu kernel: [  844.431243] ------PTREPL: alloc pgd success------
+Oct 19 19:43:57 ubuntu kernel: [  844.431244] pgtbl_repl_prepare_replication:962 pgd=ffff0004d5670000..ffff0004d5670fff
+Oct 19 19:43:57 ubuntu kernel: [  844.431246] PTREP: pgd_idx = 341，and pgd=ffff0004d5670aa8  and pgd[341]=3f6a4a003
+Oct 19 19:43:57 ubuntu kernel: [  844.431247] pgtbl_repl_prepare_replication:970 pgd[341]'s pud=ffff0003b6a4a000..ffff0003b6a4afff
+Oct 19 19:43:57 ubuntu kernel: [  844.431248] pgtbl_repl_prepare_replication:974 1 pfn=3f6a4a   2 pfn=3f6a4a
+Oct 19 19:43:57 ubuntu kernel: [  844.431251] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b6a4a000 and new pagep = ffff0003b6a0d000
+Oct 19 19:43:57 ubuntu kernel: [  844.431252] ------PTREPL: set_pgd start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431255] PTREP: set_pgd offset=aa8 and node0 origin pgd=ffff0003b6a0e000  and pgd+offset=ffff0003b6a0eaa8  and pud=ffff0003b6a0d000 and pdgval=3f6a0d003
+Oct 19 19:43:57 ubuntu kernel: [  844.431255] ------PTREPL: set_pgd done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431256] [mitosis] start search pud .......
+Oct 19 19:43:57 ubuntu kernel: [  844.431257] PTREP: pud_idx = 171，and pud=ffff0003b6a4a558  and pud[171]=3f6a4b003
+Oct 19 19:43:57 ubuntu kernel: [  844.431258] pgtbl_repl_prepare_replication:993 pud[171]'s pmd=ffff0003b6a4b000..ffff0003b6a4bfff
+Oct 19 19:43:57 ubuntu kernel: [  844.431259] pgtbl_repl_prepare_replication:994 1 pfn=3f6a4b   2 pfn=3f6a4b
+Oct 19 19:43:57 ubuntu kernel: [  844.431262] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b6a4b000 and new pagep = ffff0003b6a0c000
+Oct 19 19:43:57 ubuntu kernel: [  844.431263] ------PTREPL: set_pud start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431266] PTREP: set_pud offset=558 and node0 origin pud=ffff0003b6a0d000  and pud+offset=ffff0003b6a0d558  and pmd=ffff0003b6a0c000 and pudval=3f6a0c003
+Oct 19 19:43:57 ubuntu kernel: [  844.431266] ------PTREPL: set_pud done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431267] PTREP: pmd_idx = 188，and pmd=ffff0003b6a4b5e0  and pmd[188]=3f6a4c003
+Oct 19 19:43:57 ubuntu kernel: [  844.431268] pgtbl_repl_prepare_replication:1013 pmd[188]'s pte=ffff0003b6a4c000..ffff0003b6a4cfff
+Oct 19 19:43:57 ubuntu kernel: [  844.431269] pgtbl_repl_prepare_replication:1014 1 pfn=3f6a4c   2 pfn=3f6a4c
+Oct 19 19:43:57 ubuntu kernel: [  844.431272] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b6a4c000 and new pagep = ffff0003b6a0b000
+Oct 19 19:43:57 ubuntu kernel: [  844.431273] ------PTREPL: set_pmd start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431276] PTREP: set_pmd offset=5e0 and node0 origin pmd=ffff0003b6a0c000  and pmd+offset=ffff0003b6a0c5e0  and pte=ffff0003b6a0b000 and pmdval=3f6a0b003
+Oct 19 19:43:57 ubuntu kernel: [  844.431276] ------PTREPL: set_pmd done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431278] PTREP: pte_idx = 128，and pte=ffff0003b6a4c400  and pte[128]=2000050eb6efd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431279] ------PTREPL: set_pte start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431280] PTREP: set_pte offset=400 and node0 origin pte=ffff0003b6a0b000  and pte+offset=ffff0003b6a0b400  and pteval=2000050eb6efd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431281] ------PTREPL: set_pte done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431282] PTREP: pte_idx = 129，and pte=ffff0003b6a4c408  and pte[129]=200004d20e0fd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431282] ------PTREPL: set_pte start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431283] PTREP: set_pte offset=408 and node0 origin pte=ffff0003b6a0b000  and pte+offset=ffff0003b6a0b408  and pteval=200004d20e0fd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431283] ------PTREPL: set_pte done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431284] PTREP: pte_idx = 130，and pte=ffff0003b6a4c410  and pte[130]=2000050eaddfd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431285] ------PTREPL: set_pte start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431286] PTREP: set_pte offset=410 and node0 origin pte=ffff0003b6a0b000  and pte+offset=ffff0003b6a0b410  and pteval=2000050eaddfd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431286] ------PTREPL: set_pte done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431287] PTREP: pte_idx = 131，and pte=ffff0003b6a4c418  and pte[131]=2000050d1a4fd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431288] ------PTREPL: set_pte start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431288] PTREP: set_pte offset=418 and node0 origin pte=ffff0003b6a0b000  and pte+offset=ffff0003b6a0b418  and pteval=2000050d1a4fd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431289] ------PTREPL: set_pte done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431290] PTREP: pte_idx = 132，and pte=ffff0003b6a4c420  and pte[132]=200004d62f7fd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431290] ------PTREPL: set_pte start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431291] PTREP: set_pte offset=420 and node0 origin pte=ffff0003b6a0b000  and pte+offset=ffff0003b6a0b420  and pteval=200004d62f7fd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431292] ------PTREPL: set_pte done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431484] PTREP: pte_idx = 133，and pte=ffff0003b6a4c428  and pte[133]=2000053c224fd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431487] ------PTREPL: set_pte start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431488] PTREP: set_pte offset=428 and node0 origin pte=ffff0003b6a0b000  and pte+offset=ffff0003b6a0b428  and pteval=2000053c224fd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431488] ------PTREPL: set_pte done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431489] PTREP: pte_idx = 150，and pte=ffff0003b6a4c4b0  and pte[150]=e00004ff660fd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431490] ------PTREPL: set_pte start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431491] PTREP: set_pte offset=4b0 and node0 origin pte=ffff0003b6a0b000  and pte+offset=ffff0003b6a0b4b0  and pteval=e00004ff660fd3
+Oct 19 19:43:57 ubuntu kernel: [  844.431491] ------PTREPL: set_pte done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431492] PTREP: pte_idx = 151，and pte=ffff0003b6a4c4b8  and pte[151]=e80004fee03f53
+Oct 19 19:43:57 ubuntu kernel: [  844.431492] ------PTREPL: set_pte start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431493] PTREP: set_pte offset=4b8 and node0 origin pte=ffff0003b6a0b000  and pte+offset=ffff0003b6a0b4b8  and pteval=e80004fee03f53
+Oct 19 19:43:57 ubuntu kernel: [  844.431494] ------PTREPL: set_pte done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431496] PTREP: pud_idx = 172，and pud=ffff0003b6a4a560  and pud[172]=3f6a50003
+Oct 19 19:43:57 ubuntu kernel: [  844.431497] pgtbl_repl_prepare_replication:993 pud[172]'s pmd=ffff0003b6a50000..ffff0003b6a50fff
+Oct 19 19:43:57 ubuntu kernel: [  844.431498] pgtbl_repl_prepare_replication:994 1 pfn=3f6a50   2 pfn=3f6a50
+Oct 19 19:43:57 ubuntu kernel: [  844.431506] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b6a50000 and new pagep = ffff0003b6a0a000
+Oct 19 19:43:57 ubuntu kernel: [  844.431507] ------PTREPL: set_pud start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431509] PTREP: set_pud offset=560 and node0 origin pud=ffff0003b6a0d000  and pud+offset=ffff0003b6a0d560  and pmd=ffff0003b6a0a000 and pudval=3f6a0a003
+Oct 19 19:43:57 ubuntu kernel: [  844.431509] ------PTREPL: set_pud done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431510] PTREP: pmd_idx = 55，and pmd=ffff0003b6a501b8  and pmd[55]=3f6a51003
+Oct 19 19:43:57 ubuntu kernel: [  844.431511] pgtbl_repl_prepare_replication:1013 pmd[55]'s pte=ffff0003b6a51000..ffff0003b6a51fff
+Oct 19 19:43:57 ubuntu kernel: [  844.431512] pgtbl_repl_prepare_replication:1014 1 pfn=3f6a51   2 pfn=3f6a51
+Oct 19 19:43:57 ubuntu kernel: [  844.431514] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b6a51000 and new pagep = ffff0003b6a09000
+Oct 19 19:43:57 ubuntu kernel: [  844.431515] ------PTREPL: set_pmd start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431516] PTREP: set_pmd offset=1b8 and node0 origin pmd=ffff0003b6a0a000  and pmd+offset=ffff0003b6a0a1b8  and pte=ffff0003b6a09000 and pmdval=3f6a09003
+Oct 19 19:43:57 ubuntu kernel: [  844.431517] ------PTREPL: set_pmd done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431518] PTREP: pte_idx = 84，and pte=ffff0003b6a512a0  and pte[84]=e8000501f61f53
+Oct 19 19:43:57 ubuntu kernel: [  844.431518] ------PTREPL: set_pte start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431519] PTREP: set_pte offset=2a0 and node0 origin pte=ffff0003b6a09000  and pte+offset=ffff0003b6a092a0  and pteval=e8000501f61f53
+Oct 19 19:43:57 ubuntu kernel: [  844.431519] ------PTREPL: set_pte done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431523] ===================================== end of a page
+Oct 19 19:43:57 ubuntu kernel: [  844.431524] PTREP: pgd_idx = 511，and pgd=ffff0004d5670ff8  and pgd[511]=514e8a003
+Oct 19 19:43:57 ubuntu kernel: [  844.431525] pgtbl_repl_prepare_replication:970 pgd[511]'s pud=ffff0004d4e8a000..ffff0004d4e8afff
+Oct 19 19:43:57 ubuntu kernel: [  844.431526] pgtbl_repl_prepare_replication:974 1 pfn=514e8a   2 pfn=514e8a
+Oct 19 19:43:57 ubuntu kernel: [  844.431528] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d4e8a000 and new pagep = ffff0003b6a08000
+Oct 19 19:43:57 ubuntu kernel: [  844.431529] ------PTREPL: set_pgd start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431530] PTREP: set_pgd offset=ff8 and node0 origin pgd=ffff0003b6a0e000  and pgd+offset=ffff0003b6a0eff8  and pud=ffff0003b6a08000 and pdgval=3f6a08003
+Oct 19 19:43:57 ubuntu kernel: [  844.431531] ------PTREPL: set_pgd done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431531] [mitosis] start search pud .......
+Oct 19 19:43:57 ubuntu kernel: [  844.431533] PTREP: pud_idx = 510，and pud=ffff0004d4e8aff0  and pud[510]=3f6a4d003
+Oct 19 19:43:57 ubuntu kernel: [  844.431533] pgtbl_repl_prepare_replication:993 pud[510]'s pmd=ffff0003b6a4d000..ffff0003b6a4dfff
+Oct 19 19:43:57 ubuntu kernel: [  844.431534] pgtbl_repl_prepare_replication:994 1 pfn=3f6a4d   2 pfn=3f6a4d
+Oct 19 19:43:57 ubuntu kernel: [  844.431537] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b6a4d000 and new pagep = ffff0003b6a07000
+Oct 19 19:43:57 ubuntu kernel: [  844.431537] ------PTREPL: set_pud start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431538] PTREP: set_pud offset=ff0 and node0 origin pud=ffff0003b6a08000  and pud+offset=ffff0003b6a08ff0  and pmd=ffff0003b6a07000 and pudval=3f6a07003
+Oct 19 19:43:57 ubuntu kernel: [  844.431539] ------PTREPL: set_pud done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431540] PTREP: pmd_idx = 64，and pmd=ffff0003b6a4d200  and pmd[64]=3f6a4f003
+Oct 19 19:43:57 ubuntu kernel: [  844.431541] pgtbl_repl_prepare_replication:1013 pmd[64]'s pte=ffff0003b6a4f000..ffff0003b6a4ffff
+Oct 19 19:43:57 ubuntu kernel: [  844.431541] pgtbl_repl_prepare_replication:1014 1 pfn=3f6a4f   2 pfn=3f6a4f
+Oct 19 19:43:57 ubuntu kernel: [  844.431544] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b6a4f000 and new pagep = ffff0003b6a06000
+Oct 19 19:43:57 ubuntu kernel: [  844.431545] ------PTREPL: set_pmd start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431546] PTREP: set_pmd offset=200 and node0 origin pmd=ffff0003b6a07000  and pmd+offset=ffff0003b6a07200  and pte=ffff0003b6a06000 and pmdval=3f6a06003
+Oct 19 19:43:57 ubuntu kernel: [  844.431546] ------PTREPL: set_pmd done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431550] PTREP: pmd_idx = 65，and pmd=ffff0003b6a4d208  and pmd[65]=3f6a4e003
+Oct 19 19:43:57 ubuntu kernel: [  844.431550] pgtbl_repl_prepare_replication:1013 pmd[65]'s pte=ffff0003b6a4e000..ffff0003b6a4efff
+Oct 19 19:43:57 ubuntu kernel: [  844.431551] pgtbl_repl_prepare_replication:1014 1 pfn=3f6a4e   2 pfn=3f6a4e
+Oct 19 19:43:57 ubuntu kernel: [  844.431554] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b6a4e000 and new pagep = ffff0003b6a05000
+Oct 19 19:43:57 ubuntu kernel: [  844.431554] ------PTREPL: set_pmd start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431555] PTREP: set_pmd offset=208 and node0 origin pmd=ffff0003b6a07000  and pmd+offset=ffff0003b6a07208  and pte=ffff0003b6a05000 and pmdval=3f6a05003
+Oct 19 19:43:57 ubuntu kernel: [  844.431556] ------PTREPL: set_pmd done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431559] PTREP: pud_idx = 511，and pud=ffff0004d4e8aff8  and pud[511]=515671003
+Oct 19 19:43:57 ubuntu kernel: [  844.431560] pgtbl_repl_prepare_replication:993 pud[511]'s pmd=ffff0004d5671000..ffff0004d5671fff
+Oct 19 19:43:57 ubuntu kernel: [  844.431561] pgtbl_repl_prepare_replication:994 1 pfn=515671   2 pfn=515671
+Oct 19 19:43:57 ubuntu kernel: [  844.431564] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d5671000 and new pagep = ffff0003b6a04000
+Oct 19 19:43:57 ubuntu kernel: [  844.431565] ------PTREPL: set_pud start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431566] PTREP: set_pud offset=ff8 and node0 origin pud=ffff0003b6a08000  and pud+offset=ffff0003b6a08ff8  and pmd=ffff0003b6a04000 and pudval=3f6a04003
+Oct 19 19:43:57 ubuntu kernel: [  844.431566] ------PTREPL: set_pud done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431567] PTREP: pmd_idx = 61，and pmd=ffff0004d56711e8  and pmd[61]=518f5e003
+Oct 19 19:43:57 ubuntu kernel: [  844.431568] pgtbl_repl_prepare_replication:1013 pmd[61]'s pte=ffff0004d8f5e000..ffff0004d8f5efff
+Oct 19 19:43:57 ubuntu kernel: [  844.431569] pgtbl_repl_prepare_replication:1014 1 pfn=518f5e   2 pfn=518f5e
+Oct 19 19:43:57 ubuntu kernel: [  844.431572] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d8f5e000 and new pagep = ffff0003b6a03000
+Oct 19 19:43:57 ubuntu kernel: [  844.431572] ------PTREPL: set_pmd start------
+Oct 19 19:43:57 ubuntu kernel: [  844.431573] PTREP: set_pmd offset=1e8 and node0 origin pmd=ffff0003b6a04000  and pmd+offset=ffff0003b6a041e8  and pte=ffff0003b6a03000 and pmdval=3f6a03003
+Oct 19 19:43:57 ubuntu kernel: [  844.431574] ------PTREPL: set_pmd done------
+Oct 19 19:43:57 ubuntu kernel: [  844.431576] ===================================== end of a page
+Oct 19 19:43:57 ubuntu kernel: [  844.431577] pgtbl_repl_prepare_replication:1040 all: pud_num=4, pmd_num=5, pte_num=343
+Oct 19 19:43:57 ubuntu kernel: [  844.431582] cpu_do_switch_mm:283 cpu_do_switch_mm mm=ffff0004dcd7fc00, pgd=ffff0003b6a0e000, pgd_phys=3f6a0e000
+Oct 19 19:43:57 ubuntu kernel: [  844.431582] PTREP: Called pgtbl_repl_prepare_replication  done
+Oct 19 19:43:57 ubuntu kernel: [  844.431583] [mitosis] pgtable replication enabled for mm=ffff0004dcd7fc00.
+Oct 19 19:43:57 ubuntu kernel: [  844.431585] [mitosis] pgtable replication err=0.
+Oct 19 19:43:57 ubuntu kernel: [  844.431698] cpu_do_switch_mm:283 cpu_do_switch_mm mm=ffff0004dcd7fc00, pgd=ffff0003b6a0e000, pgd_phys=3f6a0e000
+Oct 19 19:43:57 ubuntu kernel: [  844.431740] [mitosis] pgd_alloc start: pid = 2288
+Oct 19 19:43:57 ubuntu kernel: [  844.431813] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.432447] [mitosis] pgd_alloc start: pid = 2289
+Oct 19 19:43:57 ubuntu kernel: [  844.432705] [mitosis] pgd_free start: pid = 2289
+Oct 19 19:43:57 ubuntu kernel: [  844.534466] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.534740] [mitosis] pgd_free start: pid = 2290
+Oct 19 19:43:57 ubuntu kernel: [  844.535107] [mitosis] pgd_alloc start: pid = 2290
+Oct 19 19:43:57 ubuntu kernel: [  844.535530] [mitosis] pgd_free start: pid = 2290
+Oct 19 19:43:57 ubuntu kernel: [  844.637589] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.637878] [mitosis] pgd_free start: pid = 2291
+Oct 19 19:43:57 ubuntu kernel: [  844.638523] [mitosis] pgd_alloc start: pid = 2291
+Oct 19 19:43:57 ubuntu kernel: [  844.638896] [mitosis] pgd_free start: pid = 2291
+Oct 19 19:43:57 ubuntu kernel: [  844.639623] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.639885] [mitosis] pgd_free start: pid = 2292
+Oct 19 19:43:57 ubuntu kernel: [  844.640191] [mitosis] pgd_alloc start: pid = 2292
+Oct 19 19:43:57 ubuntu kernel: [  844.640501] [mitosis] pgd_free start: pid = 2292
+Oct 19 19:43:57 ubuntu kernel: [  844.742325] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.743259] [mitosis] pgd_alloc start: pid = 2293
+Oct 19 19:43:57 ubuntu kernel: [  844.743695] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:43:57 ubuntu kernel: [  844.743978] [mitosis] pgd_free start: pid = 2293
+Oct 19 19:43:57 ubuntu kernel: [  844.747642] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:43:57 ubuntu kernel: [  844.846581] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:57 ubuntu kernel: [  844.846947] [mitosis] pgd_free start: pid = 2294
+Oct 19 19:43:57 ubuntu kernel: [  844.847638] [mitosis] pgd_alloc start: pid = 2294
+Oct 19 19:43:58 ubuntu kernel: [  844.949676] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:58 ubuntu kernel: [  844.950496] [mitosis] pgd_alloc start: pid = 2295
+Oct 19 19:43:58 ubuntu kernel: [  844.950981] [mitosis] pgd_free start: pid = 2295
+Oct 19 19:43:58 ubuntu kernel: [  844.951461] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:58 ubuntu kernel: [  844.951466] ------PTREPL: free pgd start------
+Oct 19 19:43:58 ubuntu kernel: [  844.951468] [mitosis] pgtable_repl_pgd_free mm->pgd=ffff0004d5670000.
+Oct 19 19:43:58 ubuntu kernel: [  844.951471] ------PTREPL: free pgd done------
+Oct 19 19:43:58 ubuntu kernel: [  845.053526] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:58 ubuntu kernel: [  845.053859] [mitosis] pgd_free start: pid = 2296
+Oct 19 19:43:58 ubuntu kernel: [  845.054262] [mitosis] pgd_alloc start: pid = 2296
+Oct 19 19:43:58 ubuntu kernel: [  845.054686] [mitosis] pgd_free start: pid = 2296
+Oct 19 19:43:58 ubuntu kernel: [  845.156884] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:58 ubuntu kernel: [  845.157191] [mitosis] pgd_free start: pid = 2297
+Oct 19 19:43:58 ubuntu kernel: [  845.157574] [mitosis] pgd_alloc start: pid = 2297
+Oct 19 19:43:58 ubuntu kernel: [  845.157955] [mitosis] pgd_free start: pid = 2297
+Oct 19 19:43:58 ubuntu kernel: [  845.260097] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:58 ubuntu kernel: [  845.260420] [mitosis] pgd_free start: pid = 2298
+Oct 19 19:43:58 ubuntu kernel: [  845.260840] [mitosis] pgd_alloc start: pid = 2298
+Oct 19 19:43:58 ubuntu kernel: [  845.261231] [mitosis] pgd_free start: pid = 2298
+Oct 19 19:43:58 ubuntu kernel: [  845.363243] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:58 ubuntu kernel: [  845.363431] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:58 ubuntu kernel: [  845.364025] [mitosis] pgd_alloc start: pid = 2299
+Oct 19 19:43:58 ubuntu kernel: [  845.364277] [mitosis] pgd_free start: pid = 2299
+Oct 19 19:43:58 ubuntu kernel: [  845.465918] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:58 ubuntu kernel: [  845.466185] [mitosis] pgd_free start: pid = 2300
+Oct 19 19:43:58 ubuntu kernel: [  845.466429] [mitosis] pgd_alloc start: pid = 2300
+Oct 19 19:43:58 ubuntu kernel: [  845.466674] [mitosis] pgd_free start: pid = 2300
+Oct 19 19:43:58 ubuntu kernel: [  845.467425] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:58 ubuntu kernel: [  845.567966] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:58 ubuntu kernel: [  845.568210] [mitosis] pgd_free start: pid = 2301
+Oct 19 19:43:58 ubuntu kernel: [  845.568456] [mitosis] pgd_alloc start: pid = 2301
+Oct 19 19:43:58 ubuntu kernel: [  845.568672] [mitosis] pgd_free start: pid = 2301
+Oct 19 19:43:58 ubuntu kernel: [  845.669981] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:58 ubuntu kernel: [  845.670234] [mitosis] pgd_free start: pid = 2302
+Oct 19 19:43:58 ubuntu kernel: [  845.670467] [mitosis] pgd_alloc start: pid = 2302
+Oct 19 19:43:58 ubuntu kernel: [  845.670701] [mitosis] pgd_free start: pid = 2302
+Oct 19 19:43:58 ubuntu kernel: [  845.771956] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:58 ubuntu kernel: [  845.772190] [mitosis] pgd_free start: pid = 2303
+Oct 19 19:43:58 ubuntu kernel: [  845.772433] [mitosis] pgd_alloc start: pid = 2303
+Oct 19 19:43:58 ubuntu kernel: [  845.772642] [mitosis] pgd_free start: pid = 2303
+Oct 19 19:43:58 ubuntu kernel: [  845.873989] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:58 ubuntu kernel: [  845.874245] [mitosis] pgd_free start: pid = 2304
+Oct 19 19:43:58 ubuntu kernel: [  845.874479] [mitosis] pgd_alloc start: pid = 2304
+Oct 19 19:43:58 ubuntu kernel: [  845.874718] [mitosis] pgd_free start: pid = 2304
+Oct 19 19:43:59 ubuntu kernel: [  845.976066] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:59 ubuntu kernel: [  845.976307] [mitosis] pgd_free start: pid = 2305
+Oct 19 19:43:59 ubuntu kernel: [  845.976559] [mitosis] pgd_alloc start: pid = 2305
+Oct 19 19:43:59 ubuntu kernel: [  845.976782] [mitosis] pgd_free start: pid = 2305
+Oct 19 19:43:59 ubuntu kernel: [  846.078114] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:59 ubuntu kernel: [  846.078369] [mitosis] pgd_free start: pid = 2306
+Oct 19 19:43:59 ubuntu kernel: [  846.078608] [mitosis] pgd_alloc start: pid = 2306
+Oct 19 19:43:59 ubuntu kernel: [  846.078849] [mitosis] pgd_free start: pid = 2306
+Oct 19 19:43:59 ubuntu kernel: [  846.180201] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:59 ubuntu kernel: [  846.180446] [mitosis] pgd_free start: pid = 2307
+Oct 19 19:43:59 ubuntu kernel: [  846.180700] [mitosis] pgd_alloc start: pid = 2307
+Oct 19 19:43:59 ubuntu kernel: [  846.180919] [mitosis] pgd_free start: pid = 2307
+Oct 19 19:43:59 ubuntu kernel: [  846.282248] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:59 ubuntu kernel: [  846.282518] [mitosis] pgd_free start: pid = 2308
+Oct 19 19:43:59 ubuntu kernel: [  846.282778] [mitosis] pgd_alloc start: pid = 2308
+Oct 19 19:43:59 ubuntu kernel: [  846.282991] [mitosis] pgd_free start: pid = 2308
+Oct 19 19:43:59 ubuntu kernel: [  846.385898] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:59 ubuntu kernel: [  846.386185] [mitosis] pgd_free start: pid = 2309
+Oct 19 19:43:59 ubuntu kernel: [  846.386704] [mitosis] pgd_alloc start: pid = 2309
+Oct 19 19:43:59 ubuntu kernel: [  846.387112] [mitosis] pgd_free start: pid = 2309
+Oct 19 19:43:59 ubuntu kernel: [  846.489389] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:59 ubuntu kernel: [  846.489695] [mitosis] pgd_free start: pid = 2310
+Oct 19 19:43:59 ubuntu kernel: [  846.490101] [mitosis] pgd_alloc start: pid = 2310
+Oct 19 19:43:59 ubuntu kernel: [  846.490479] [mitosis] pgd_free start: pid = 2310
+Oct 19 19:43:59 ubuntu kernel: [  846.592642] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:59 ubuntu kernel: [  846.592941] [mitosis] pgd_free start: pid = 2311
+Oct 19 19:43:59 ubuntu kernel: [  846.593298] [mitosis] pgd_alloc start: pid = 2311
+Oct 19 19:43:59 ubuntu kernel: [  846.593655] [mitosis] pgd_free start: pid = 2311
+Oct 19 19:43:59 ubuntu kernel: [  846.695786] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:59 ubuntu kernel: [  846.696523] [mitosis] pgd_alloc start: pid = 2312
+Oct 19 19:43:59 ubuntu kernel: [  846.696859] [mitosis] pgd_free start: pid = 2312
+Oct 19 19:43:59 ubuntu kernel: [  846.798909] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:59 ubuntu kernel: [  846.799140] [mitosis] pgd_free start: pid = 2313
+Oct 19 19:43:59 ubuntu kernel: [  846.799578] [mitosis] pgd_alloc start: pid = 2313
+Oct 19 19:43:59 ubuntu kernel: [  846.799686] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:43:59 ubuntu kernel: [  846.799859] [mitosis] pgd_free start: pid = 2313
+Oct 19 19:43:59 ubuntu kernel: [  846.901648] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:43:59 ubuntu kernel: [  846.901898] [mitosis] pgd_free start: pid = 2314
+Oct 19 19:43:59 ubuntu kernel: [  846.902217] [mitosis] pgd_alloc start: pid = 2314
+Oct 19 19:43:59 ubuntu kernel: [  846.902504] [mitosis] pgd_free start: pid = 2314
+Oct 19 19:43:59 ubuntu kernel: [  846.903489] [mitosis] pgd_free start: pid = 846
+Oct 19 19:43:59 ubuntu kernel: [  846.907635] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:00 ubuntu kernel: [  847.004417] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:00 ubuntu kernel: [  847.004643] [mitosis] pgd_free start: pid = 2315
+Oct 19 19:44:00 ubuntu kernel: [  847.004944] [mitosis] pgd_alloc start: pid = 2315
+Oct 19 19:44:00 ubuntu kernel: [  847.005209] [mitosis] pgd_free start: pid = 2315
+Oct 19 19:44:00 ubuntu kernel: [  847.106965] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:00 ubuntu kernel: [  847.107257] [mitosis] pgd_free start: pid = 2316
+Oct 19 19:44:00 ubuntu kernel: [  847.107692] [mitosis] pgd_alloc start: pid = 2316
+Oct 19 19:44:00 ubuntu kernel: [  847.107979] [mitosis] pgd_free start: pid = 2316
+Oct 19 19:44:00 ubuntu kernel: [  847.209683] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:00 ubuntu kernel: [  847.209944] [mitosis] pgd_free start: pid = 2317
+Oct 19 19:44:00 ubuntu kernel: [  847.210249] [mitosis] pgd_alloc start: pid = 2317
+Oct 19 19:44:00 ubuntu kernel: [  847.210515] [mitosis] pgd_free start: pid = 2317
+Oct 19 19:44:00 ubuntu kernel: [  847.211700] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:00 ubuntu kernel: [  847.312525] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:00 ubuntu kernel: [  847.312835] [mitosis] pgd_free start: pid = 2318
+Oct 19 19:44:00 ubuntu kernel: [  847.313159] [mitosis] pgd_alloc start: pid = 2318
+Oct 19 19:44:00 ubuntu kernel: [  847.313437] [mitosis] pgd_free start: pid = 2318
+Oct 19 19:44:00 ubuntu kernel: [  847.415203] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:00 ubuntu kernel: [  847.415551] [mitosis] pgd_free start: pid = 2319
+Oct 19 19:44:00 ubuntu kernel: [  847.415562] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:44:00 ubuntu kernel: [  847.415887] [mitosis] pgd_alloc start: pid = 2319
+Oct 19 19:44:00 ubuntu kernel: [  847.416155] [mitosis] pgd_free start: pid = 2319
+Oct 19 19:44:00 ubuntu kernel: [  847.419545] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:44:00 ubuntu kernel: [  847.517930] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:00 ubuntu kernel: [  847.518175] [mitosis] pgd_free start: pid = 2320
+Oct 19 19:44:00 ubuntu kernel: [  847.518494] [mitosis] pgd_alloc start: pid = 2320
+Oct 19 19:44:00 ubuntu kernel: [  847.518804] [mitosis] pgd_free start: pid = 2320
+Oct 19 19:44:00 ubuntu kernel: [  847.620609] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:00 ubuntu kernel: [  847.620846] [mitosis] pgd_free start: pid = 2321
+Oct 19 19:44:00 ubuntu kernel: [  847.621144] [mitosis] pgd_alloc start: pid = 2321
+Oct 19 19:44:00 ubuntu kernel: [  847.621413] [mitosis] pgd_free start: pid = 2321
+Oct 19 19:44:00 ubuntu kernel: [  847.723195] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:00 ubuntu kernel: [  847.723606] [mitosis] pgd_free start: pid = 2322
+Oct 19 19:44:00 ubuntu kernel: [  847.723937] [mitosis] pgd_alloc start: pid = 2322
+Oct 19 19:44:00 ubuntu kernel: [  847.724221] [mitosis] pgd_free start: pid = 2322
+Oct 19 19:44:00 ubuntu kernel: [  847.825888] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:00 ubuntu kernel: [  847.826118] [mitosis] pgd_free start: pid = 2323
+Oct 19 19:44:00 ubuntu kernel: [  847.826420] [mitosis] pgd_alloc start: pid = 2323
+Oct 19 19:44:00 ubuntu kernel: [  847.826721] [mitosis] pgd_free start: pid = 2323
+Oct 19 19:44:01 ubuntu kernel: [  847.928644] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:01 ubuntu kernel: [  847.928896] [mitosis] pgd_free start: pid = 2324
+Oct 19 19:44:01 ubuntu kernel: [  847.929204] [mitosis] pgd_alloc start: pid = 2324
+Oct 19 19:44:01 ubuntu kernel: [  847.929482] [mitosis] pgd_free start: pid = 2324
+Oct 19 19:44:01 ubuntu kernel: [  848.031203] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:01 ubuntu kernel: [  848.031553] [mitosis] pgd_free start: pid = 2325
+Oct 19 19:44:01 ubuntu kernel: [  848.031860] [mitosis] pgd_alloc start: pid = 2325
+Oct 19 19:44:01 ubuntu kernel: [  848.032160] [mitosis] pgd_free start: pid = 2325
+Oct 19 19:44:01 ubuntu kernel: [  848.133820] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:01 ubuntu kernel: [  848.134062] [mitosis] pgd_free start: pid = 2326
+Oct 19 19:44:01 ubuntu kernel: [  848.134380] [mitosis] pgd_alloc start: pid = 2326
+Oct 19 19:44:01 ubuntu kernel: [  848.134687] [mitosis] pgd_free start: pid = 2326
+Oct 19 19:44:01 ubuntu kernel: [  848.236486] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:01 ubuntu kernel: [  848.236724] [mitosis] pgd_free start: pid = 2327
+Oct 19 19:44:01 ubuntu kernel: [  848.237039] [mitosis] pgd_alloc start: pid = 2327
+Oct 19 19:44:01 ubuntu kernel: [  848.237333] [mitosis] pgd_free start: pid = 2327
+Oct 19 19:44:01 ubuntu kernel: [  848.339016] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:01 ubuntu kernel: [  848.339262] [mitosis] pgd_free start: pid = 2328
+Oct 19 19:44:01 ubuntu kernel: [  848.339671] [mitosis] pgd_alloc start: pid = 2328
+Oct 19 19:44:01 ubuntu kernel: [  848.339946] [mitosis] pgd_free start: pid = 2328
+Oct 19 19:44:01 ubuntu kernel: [  848.441619] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:01 ubuntu kernel: [  848.441860] [mitosis] pgd_free start: pid = 2329
+Oct 19 19:44:01 ubuntu kernel: [  848.442180] [mitosis] pgd_alloc start: pid = 2329
+Oct 19 19:44:01 ubuntu kernel: [  848.442453] [mitosis] pgd_free start: pid = 2329
+Oct 19 19:44:01 ubuntu kernel: [  848.544256] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:01 ubuntu kernel: [  848.544485] [mitosis] pgd_free start: pid = 2330
+Oct 19 19:44:01 ubuntu kernel: [  848.544794] [mitosis] pgd_alloc start: pid = 2330
+Oct 19 19:44:01 ubuntu kernel: [  848.545065] [mitosis] pgd_free start: pid = 2330
+Oct 19 19:44:01 ubuntu kernel: [  848.646783] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:01 ubuntu kernel: [  848.647063] [mitosis] pgd_free start: pid = 2331
+Oct 19 19:44:01 ubuntu kernel: [  848.647502] [mitosis] pgd_alloc start: pid = 2331
+Oct 19 19:44:01 ubuntu kernel: [  848.647789] [mitosis] pgd_free start: pid = 2331
+Oct 19 19:44:01 ubuntu kernel: [  848.749472] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:01 ubuntu kernel: [  848.749708] [mitosis] pgd_free start: pid = 2332
+Oct 19 19:44:01 ubuntu kernel: [  848.750005] [mitosis] pgd_alloc start: pid = 2332
+Oct 19 19:44:01 ubuntu kernel: [  848.750275] [mitosis] pgd_free start: pid = 2332
+Oct 19 19:44:01 ubuntu kernel: [  848.852066] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:01 ubuntu kernel: [  848.852309] [mitosis] pgd_free start: pid = 2333
+Oct 19 19:44:01 ubuntu kernel: [  848.852626] [mitosis] pgd_alloc start: pid = 2333
+Oct 19 19:44:01 ubuntu kernel: [  848.852909] [mitosis] pgd_free start: pid = 2333
+Oct 19 19:44:02 ubuntu kernel: [  848.954566] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:02 ubuntu kernel: [  848.954827] [mitosis] pgd_free start: pid = 2334
+Oct 19 19:44:02 ubuntu kernel: [  848.955147] [mitosis] pgd_alloc start: pid = 2334
+Oct 19 19:44:02 ubuntu kernel: [  848.955538] [mitosis] pgd_free start: pid = 2334
+Oct 19 19:44:02 ubuntu kernel: [  849.057306] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:02 ubuntu kernel: [  849.057554] [mitosis] pgd_free start: pid = 2335
+Oct 19 19:44:02 ubuntu kernel: [  849.057880] [mitosis] pgd_alloc start: pid = 2335
+Oct 19 19:44:02 ubuntu kernel: [  849.058162] [mitosis] pgd_free start: pid = 2335
+Oct 19 19:44:02 ubuntu kernel: [  849.159939] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:02 ubuntu kernel: [  849.160171] [mitosis] pgd_free start: pid = 2336
+Oct 19 19:44:02 ubuntu kernel: [  849.160476] [mitosis] pgd_alloc start: pid = 2336
+Oct 19 19:44:02 ubuntu kernel: [  849.160767] [mitosis] pgd_free start: pid = 2336
+Oct 19 19:44:02 ubuntu kernel: [  849.262493] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:02 ubuntu kernel: [  849.262789] [mitosis] pgd_free start: pid = 2337
+Oct 19 19:44:02 ubuntu kernel: [  849.263106] [mitosis] pgd_alloc start: pid = 2337
+Oct 19 19:44:02 ubuntu kernel: [  849.263514] [mitosis] pgd_free start: pid = 2337
+Oct 19 19:44:02 ubuntu kernel: [  849.365224] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:02 ubuntu kernel: [  849.365455] [mitosis] pgd_free start: pid = 2338
+Oct 19 19:44:02 ubuntu kernel: [  849.365758] [mitosis] pgd_alloc start: pid = 2338
+Oct 19 19:44:02 ubuntu kernel: [  849.366053] [mitosis] pgd_free start: pid = 2338
+Oct 19 19:44:02 ubuntu kernel: [  849.467887] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:02 ubuntu kernel: [  849.468143] [mitosis] pgd_free start: pid = 2339
+Oct 19 19:44:02 ubuntu kernel: [  849.468460] [mitosis] pgd_alloc start: pid = 2339
+Oct 19 19:44:02 ubuntu kernel: [  849.468740] [mitosis] pgd_free start: pid = 2339
+Oct 19 19:44:02 ubuntu kernel: [  849.570470] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:02 ubuntu kernel: [  849.570732] [mitosis] pgd_free start: pid = 2340
+Oct 19 19:44:02 ubuntu kernel: [  849.571039] [mitosis] pgd_alloc start: pid = 2340
+Oct 19 19:44:02 ubuntu kernel: [  849.571424] [mitosis] pgd_free start: pid = 2340
+Oct 19 19:44:02 ubuntu kernel: [  849.673193] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:02 ubuntu kernel: [  849.673446] [mitosis] pgd_free start: pid = 2341
+Oct 19 19:44:02 ubuntu kernel: [  849.673764] [mitosis] pgd_alloc start: pid = 2341
+Oct 19 19:44:02 ubuntu kernel: [  849.674051] [mitosis] pgd_free start: pid = 2341
+Oct 19 19:44:02 ubuntu kernel: [  849.775794] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:02 ubuntu kernel: [  849.776024] [mitosis] pgd_free start: pid = 2342
+Oct 19 19:44:02 ubuntu kernel: [  849.776324] [mitosis] pgd_alloc start: pid = 2342
+Oct 19 19:44:02 ubuntu kernel: [  849.776596] [mitosis] pgd_free start: pid = 2342
+Oct 19 19:44:02 ubuntu kernel: [  849.878300] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:02 ubuntu kernel: [  849.878560] [mitosis] pgd_free start: pid = 2343
+Oct 19 19:44:02 ubuntu kernel: [  849.878893] [mitosis] pgd_alloc start: pid = 2343
+Oct 19 19:44:02 ubuntu kernel: [  849.879174] [mitosis] pgd_free start: pid = 2343
+Oct 19 19:44:03 ubuntu kernel: [  849.980953] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:03 ubuntu kernel: [  849.981179] [mitosis] pgd_free start: pid = 2344
+Oct 19 19:44:03 ubuntu kernel: [  849.981478] [mitosis] pgd_alloc start: pid = 2344
+Oct 19 19:44:03 ubuntu kernel: [  849.981739] [mitosis] pgd_free start: pid = 2344
+Oct 19 19:44:03 ubuntu kernel: [  850.083621] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:03 ubuntu kernel: [  850.083863] [mitosis] pgd_free start: pid = 2345
+Oct 19 19:44:03 ubuntu kernel: [  850.084183] [mitosis] pgd_alloc start: pid = 2345
+Oct 19 19:44:03 ubuntu kernel: [  850.084480] [mitosis] pgd_free start: pid = 2345
+Oct 19 19:44:03 ubuntu kernel: [  850.186100] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:03 ubuntu kernel: [  850.186331] [mitosis] pgd_free start: pid = 2346
+Oct 19 19:44:03 ubuntu kernel: [  850.186663] [mitosis] pgd_alloc start: pid = 2346
+Oct 19 19:44:03 ubuntu kernel: [  850.186936] [mitosis] pgd_free start: pid = 2346
+Oct 19 19:44:03 ubuntu kernel: [  850.288846] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:03 ubuntu kernel: [  850.289112] [mitosis] pgd_free start: pid = 2347
+Oct 19 19:44:03 ubuntu kernel: [  850.289464] [mitosis] pgd_alloc start: pid = 2347
+Oct 19 19:44:03 ubuntu kernel: [  850.289751] [mitosis] pgd_free start: pid = 2347
+Oct 19 19:44:03 ubuntu kernel: [  850.391555] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:03 ubuntu kernel: [  850.391783] [mitosis] pgd_free start: pid = 2348
+Oct 19 19:44:03 ubuntu kernel: [  850.392085] [mitosis] pgd_alloc start: pid = 2348
+Oct 19 19:44:03 ubuntu kernel: [  850.392357] [mitosis] pgd_free start: pid = 2348
+Oct 19 19:44:03 ubuntu kernel: [  850.494112] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:03 ubuntu kernel: [  850.494361] [mitosis] pgd_free start: pid = 2349
+Oct 19 19:44:03 ubuntu kernel: [  850.494704] [mitosis] pgd_alloc start: pid = 2349
+Oct 19 19:44:03 ubuntu kernel: [  850.494983] [mitosis] pgd_free start: pid = 2349
+Oct 19 19:44:03 ubuntu kernel: [  850.596797] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:03 ubuntu kernel: [  850.597023] [mitosis] pgd_free start: pid = 2350
+Oct 19 19:44:03 ubuntu kernel: [  850.597327] [mitosis] pgd_alloc start: pid = 2350
+Oct 19 19:44:03 ubuntu kernel: [  850.597591] [mitosis] pgd_free start: pid = 2350
+Oct 19 19:44:03 ubuntu kernel: [  850.699493] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:03 ubuntu kernel: [  850.699751] [mitosis] pgd_free start: pid = 2351
+Oct 19 19:44:03 ubuntu kernel: [  850.700067] [mitosis] pgd_alloc start: pid = 2351
+Oct 19 19:44:03 ubuntu kernel: [  850.700348] [mitosis] pgd_free start: pid = 2351
+Oct 19 19:44:03 ubuntu kernel: [  850.802081] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:03 ubuntu kernel: [  850.802323] [mitosis] pgd_free start: pid = 2352
+Oct 19 19:44:03 ubuntu kernel: [  850.802657] [mitosis] pgd_alloc start: pid = 2352
+Oct 19 19:44:03 ubuntu kernel: [  850.802949] [mitosis] pgd_free start: pid = 2352
+Oct 19 19:44:03 ubuntu kernel: [  850.904884] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:03 ubuntu kernel: [  850.905143] [mitosis] pgd_free start: pid = 2353
+Oct 19 19:44:03 ubuntu kernel: [  850.905464] [mitosis] pgd_alloc start: pid = 2353
+Oct 19 19:44:03 ubuntu kernel: [  850.905747] [mitosis] pgd_free start: pid = 2353
+Oct 19 19:44:04 ubuntu kernel: [  851.007671] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:04 ubuntu kernel: [  851.008641] [mitosis] pgd_alloc start: pid = 2354
+Oct 19 19:44:04 ubuntu kernel: [  851.009134] [mitosis] pgd_free start: pid = 2354
+Oct 19 19:44:04 ubuntu kernel: [  851.111744] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:04 ubuntu kernel: [  851.112066] [mitosis] pgd_free start: pid = 2355
+Oct 19 19:44:04 ubuntu kernel: [  851.112464] [mitosis] pgd_alloc start: pid = 2355
+Oct 19 19:44:04 ubuntu kernel: [  851.112840] [mitosis] pgd_free start: pid = 2355
+Oct 19 19:44:04 ubuntu kernel: [  851.214893] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:04 ubuntu kernel: [  851.215207] [mitosis] pgd_free start: pid = 2356
+Oct 19 19:44:04 ubuntu kernel: [  851.215435] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:04 ubuntu kernel: [  851.215734] [mitosis] pgd_alloc start: pid = 2356
+Oct 19 19:44:04 ubuntu kernel: [  851.216116] [mitosis] pgd_free start: pid = 2356
+Oct 19 19:44:04 ubuntu kernel: [  851.318131] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:04 ubuntu kernel: [  851.318440] [mitosis] pgd_free start: pid = 2357
+Oct 19 19:44:04 ubuntu kernel: [  851.318869] [mitosis] pgd_alloc start: pid = 2357
+Oct 19 19:44:04 ubuntu kernel: [  851.319253] [mitosis] pgd_free start: pid = 2357
+Oct 19 19:44:04 ubuntu kernel: [  851.421394] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:04 ubuntu kernel: [  851.421703] [mitosis] pgd_free start: pid = 2358
+Oct 19 19:44:04 ubuntu kernel: [  851.422080] [mitosis] pgd_alloc start: pid = 2358
+Oct 19 19:44:04 ubuntu kernel: [  851.422455] [mitosis] pgd_free start: pid = 2358
+Oct 19 19:44:04 ubuntu kernel: [  851.524675] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:04 ubuntu kernel: [  851.524984] [mitosis] pgd_free start: pid = 2359
+Oct 19 19:44:04 ubuntu kernel: [  851.525374] [mitosis] pgd_alloc start: pid = 2359
+Oct 19 19:44:04 ubuntu kernel: [  851.525748] [mitosis] pgd_free start: pid = 2359
+Oct 19 19:44:04 ubuntu kernel: [  851.627832] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:04 ubuntu kernel: [  851.628138] [mitosis] pgd_free start: pid = 2360
+Oct 19 19:44:04 ubuntu kernel: [  851.628505] [mitosis] pgd_alloc start: pid = 2360
+Oct 19 19:44:04 ubuntu kernel: [  851.628878] [mitosis] pgd_free start: pid = 2360
+Oct 19 19:44:04 ubuntu kernel: [  851.730884] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:04 ubuntu kernel: [  851.731195] [mitosis] pgd_free start: pid = 2361
+Oct 19 19:44:04 ubuntu kernel: [  851.731726] [mitosis] pgd_alloc start: pid = 2361
+Oct 19 19:44:04 ubuntu kernel: [  851.732106] [mitosis] pgd_free start: pid = 2361
+Oct 19 19:44:04 ubuntu kernel: [  851.834094] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:04 ubuntu kernel: [  851.834386] [mitosis] pgd_free start: pid = 2362
+Oct 19 19:44:04 ubuntu kernel: [  851.834784] [mitosis] pgd_alloc start: pid = 2362
+Oct 19 19:44:04 ubuntu kernel: [  851.835161] [mitosis] pgd_free start: pid = 2362
+Oct 19 19:44:05 ubuntu kernel: [  851.937279] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:05 ubuntu kernel: [  851.937577] [mitosis] pgd_free start: pid = 2363
+Oct 19 19:44:05 ubuntu kernel: [  851.937955] [mitosis] pgd_alloc start: pid = 2363
+Oct 19 19:44:05 ubuntu kernel: [  851.938362] [mitosis] pgd_free start: pid = 2363
+Oct 19 19:44:05 ubuntu kernel: [  852.040526] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:05 ubuntu kernel: [  852.040815] [mitosis] pgd_free start: pid = 2364
+Oct 19 19:44:05 ubuntu kernel: [  852.041176] [mitosis] pgd_alloc start: pid = 2364
+Oct 19 19:44:05 ubuntu kernel: [  852.041549] [mitosis] pgd_free start: pid = 2364
+Oct 19 19:44:05 ubuntu kernel: [  852.143621] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:05 ubuntu kernel: [  852.143919] [mitosis] pgd_free start: pid = 2365
+Oct 19 19:44:05 ubuntu kernel: [  852.144289] [mitosis] pgd_alloc start: pid = 2365
+Oct 19 19:44:05 ubuntu kernel: [  852.144698] [mitosis] pgd_free start: pid = 2365
+Oct 19 19:44:05 ubuntu kernel: [  852.246687] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:05 ubuntu kernel: [  852.246989] [mitosis] pgd_free start: pid = 2366
+Oct 19 19:44:05 ubuntu kernel: [  852.247499] [mitosis] pgd_alloc start: pid = 2366
+Oct 19 19:44:05 ubuntu kernel: [  852.247891] [mitosis] pgd_free start: pid = 2366
+Oct 19 19:44:05 ubuntu kernel: [  852.349878] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:05 ubuntu kernel: [  852.350193] [mitosis] pgd_free start: pid = 2367
+Oct 19 19:44:05 ubuntu kernel: [  852.350621] [mitosis] pgd_alloc start: pid = 2367
+Oct 19 19:44:05 ubuntu kernel: [  852.350999] [mitosis] pgd_free start: pid = 2367
+Oct 19 19:44:05 ubuntu kernel: [  852.453093] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:05 ubuntu kernel: [  852.453399] [mitosis] pgd_free start: pid = 2368
+Oct 19 19:44:05 ubuntu kernel: [  852.453771] [mitosis] pgd_alloc start: pid = 2368
+Oct 19 19:44:05 ubuntu kernel: [  852.454150] [mitosis] pgd_free start: pid = 2368
+Oct 19 19:44:05 ubuntu kernel: [  852.556196] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:05 ubuntu kernel: [  852.556500] [mitosis] pgd_free start: pid = 2369
+Oct 19 19:44:05 ubuntu kernel: [  852.556890] [mitosis] pgd_alloc start: pid = 2369
+Oct 19 19:44:05 ubuntu kernel: [  852.557265] [mitosis] pgd_free start: pid = 2369
+Oct 19 19:44:05 ubuntu kernel: [  852.659333] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:05 ubuntu kernel: [  852.659636] [mitosis] pgd_free start: pid = 2370
+Oct 19 19:44:05 ubuntu kernel: [  852.660016] [mitosis] pgd_alloc start: pid = 2370
+Oct 19 19:44:05 ubuntu kernel: [  852.660390] [mitosis] pgd_free start: pid = 2370
+Oct 19 19:44:05 ubuntu kernel: [  852.762379] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:05 ubuntu kernel: [  852.762721] [mitosis] pgd_free start: pid = 2371
+Oct 19 19:44:05 ubuntu kernel: [  852.763105] [mitosis] pgd_alloc start: pid = 2371
+Oct 19 19:44:05 ubuntu kernel: [  852.763619] [mitosis] pgd_free start: pid = 2371
+Oct 19 19:44:05 ubuntu kernel: [  852.865610] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:05 ubuntu kernel: [  852.865919] [mitosis] pgd_free start: pid = 2372
+Oct 19 19:44:05 ubuntu kernel: [  852.866297] [mitosis] pgd_alloc start: pid = 2372
+Oct 19 19:44:05 ubuntu kernel: [  852.866749] [mitosis] pgd_free start: pid = 2372
+Oct 19 19:44:06 ubuntu kernel: [  852.968846] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:06 ubuntu kernel: [  852.969148] [mitosis] pgd_free start: pid = 2373
+Oct 19 19:44:06 ubuntu kernel: [  852.969533] [mitosis] pgd_alloc start: pid = 2373
+Oct 19 19:44:06 ubuntu kernel: [  852.969910] [mitosis] pgd_free start: pid = 2373
+Oct 19 19:44:06 ubuntu kernel: [  853.071977] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:06 ubuntu kernel: [  853.072277] [mitosis] pgd_free start: pid = 2374
+Oct 19 19:44:06 ubuntu kernel: [  853.072663] [mitosis] pgd_alloc start: pid = 2374
+Oct 19 19:44:06 ubuntu kernel: [  853.073074] [mitosis] pgd_free start: pid = 2374
+Oct 19 19:44:06 ubuntu kernel: [  853.138236] [mitosis] pgd_free start: pid = 1210
+Oct 19 19:44:06 ubuntu kernel: [  853.139430] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:06 ubuntu kernel: [  853.175193] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:06 ubuntu kernel: [  853.175637] [mitosis] pgd_free start: pid = 2375
+Oct 19 19:44:06 ubuntu kernel: [  853.176002] [mitosis] pgd_alloc start: pid = 2375
+Oct 19 19:44:06 ubuntu kernel: [  853.176377] [mitosis] pgd_free start: pid = 2375
+Oct 19 19:44:06 ubuntu kernel: [  853.278387] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:06 ubuntu kernel: [  853.278761] [mitosis] pgd_free start: pid = 2376
+Oct 19 19:44:06 ubuntu kernel: [  853.279128] [mitosis] pgd_alloc start: pid = 2376
+Oct 19 19:44:06 ubuntu kernel: [  853.279640] [mitosis] pgd_free start: pid = 2376
+Oct 19 19:44:06 ubuntu kernel: [  853.381610] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:06 ubuntu kernel: [  853.381916] [mitosis] pgd_free start: pid = 2377
+Oct 19 19:44:06 ubuntu kernel: [  853.382284] [mitosis] pgd_alloc start: pid = 2377
+Oct 19 19:44:06 ubuntu kernel: [  853.382699] [mitosis] pgd_free start: pid = 2377
+Oct 19 19:44:06 ubuntu kernel: [  853.484974] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:06 ubuntu kernel: [  853.485288] [mitosis] pgd_free start: pid = 2378
+Oct 19 19:44:06 ubuntu kernel: [  853.485658] [mitosis] pgd_alloc start: pid = 2378
+Oct 19 19:44:06 ubuntu kernel: [  853.486028] [mitosis] pgd_free start: pid = 2378
+Oct 19 19:44:06 ubuntu kernel: [  853.588014] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:06 ubuntu kernel: [  853.588323] [mitosis] pgd_free start: pid = 2379
+Oct 19 19:44:06 ubuntu kernel: [  853.588689] [mitosis] pgd_alloc start: pid = 2379
+Oct 19 19:44:06 ubuntu kernel: [  853.589054] [mitosis] pgd_free start: pid = 2379
+Oct 19 19:44:06 ubuntu kernel: [  853.691227] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:06 ubuntu kernel: [  853.691413] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:06 ubuntu kernel: [  853.692132] [mitosis] pgd_alloc start: pid = 2380
+Oct 19 19:44:06 ubuntu kernel: [  853.692478] [mitosis] pgd_free start: pid = 2380
+Oct 19 19:44:06 ubuntu kernel: [  853.794566] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:06 ubuntu kernel: [  853.795340] [mitosis] pgd_alloc start: pid = 2381
+Oct 19 19:44:06 ubuntu kernel: [  853.795743] [mitosis] pgd_free start: pid = 2381
+Oct 19 19:44:06 ubuntu kernel: [  853.898096] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:06 ubuntu kernel: [  853.898412] [mitosis] pgd_free start: pid = 2382
+Oct 19 19:44:06 ubuntu kernel: [  853.898838] [mitosis] pgd_alloc start: pid = 2382
+Oct 19 19:44:06 ubuntu kernel: [  853.899271] [mitosis] pgd_free start: pid = 2382
+Oct 19 19:44:07 ubuntu kernel: [  854.001412] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:07 ubuntu kernel: [  854.001717] [mitosis] pgd_free start: pid = 2383
+Oct 19 19:44:07 ubuntu kernel: [  854.002092] [mitosis] pgd_alloc start: pid = 2383
+Oct 19 19:44:07 ubuntu kernel: [  854.002459] [mitosis] pgd_free start: pid = 2383
+Oct 19 19:44:07 ubuntu kernel: [  854.104751] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:07 ubuntu kernel: [  854.105069] [mitosis] pgd_free start: pid = 2384
+Oct 19 19:44:07 ubuntu kernel: [  854.105471] [mitosis] pgd_alloc start: pid = 2384
+Oct 19 19:44:07 ubuntu kernel: [  854.105878] [mitosis] pgd_free start: pid = 2384
+Oct 19 19:44:07 ubuntu kernel: [  854.207908] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:07 ubuntu kernel: [  854.208205] [mitosis] pgd_free start: pid = 2385
+Oct 19 19:44:07 ubuntu kernel: [  854.208563] [mitosis] pgd_alloc start: pid = 2385
+Oct 19 19:44:07 ubuntu kernel: [  854.208929] [mitosis] pgd_free start: pid = 2385
+Oct 19 19:44:07 ubuntu kernel: [  854.311011] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:07 ubuntu kernel: [  854.311373] [mitosis] pgd_free start: pid = 2386
+Oct 19 19:44:07 ubuntu kernel: [  854.311430] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:07 ubuntu kernel: [  854.311779] [mitosis] pgd_alloc start: pid = 2386
+Oct 19 19:44:07 ubuntu kernel: [  854.312163] [mitosis] pgd_free start: pid = 2386
+Oct 19 19:44:07 ubuntu kernel: [  854.414074] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:07 ubuntu kernel: [  854.414373] [mitosis] pgd_free start: pid = 2387
+Oct 19 19:44:07 ubuntu kernel: [  854.414758] [mitosis] pgd_alloc start: pid = 2387
+Oct 19 19:44:07 ubuntu kernel: [  854.415123] [mitosis] pgd_free start: pid = 2387
+Oct 19 19:44:07 ubuntu kernel: [  854.517347] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:07 ubuntu kernel: [  854.517675] [mitosis] pgd_free start: pid = 2388
+Oct 19 19:44:07 ubuntu kernel: [  854.518048] [mitosis] pgd_alloc start: pid = 2388
+Oct 19 19:44:07 ubuntu kernel: [  854.518418] [mitosis] pgd_free start: pid = 2388
+Oct 19 19:44:07 ubuntu kernel: [  854.626314] [mitosis] pgd_alloc start: pid = 2243
+Oct 19 19:44:07 ubuntu kernel: [  854.627407] [mitosis] pgd_alloc start: pid = 2389
+Oct 19 19:44:07 ubuntu kernel: [  854.627680] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:07 ubuntu kernel: [  854.627713] [mitosis] pgd_free start: pid = 2389
+Oct 19 19:44:07 ubuntu kernel: [  854.641811] [mitosis] pgd_alloc start: pid = 2187
+Oct 19 19:44:07 ubuntu kernel: [  854.642150] [mitosis] pgd_free start: pid = 2390
+Oct 19 19:44:07 ubuntu kernel: [  854.642351] [mitosis] pgd_alloc start: pid = 2390
+Oct 19 19:44:07 ubuntu kernel: [  854.642546] [mitosis] pgd_free start: pid = 2390
+Oct 19 19:44:07 ubuntu kernel: [  854.678451] [mitosis] pgd_free start: pid = 1629
+Oct 19 19:44:27 ubuntu kernel: [  873.964304] [mitosis] pgd_alloc start: pid = 1360
+Oct 19 19:44:27 ubuntu kernel: [  873.964823] [mitosis] pgd_free start: pid = 2391
+Oct 19 19:44:27 ubuntu kernel: [  873.965435] [mitosis] pgd_alloc start: pid = 2391
+Oct 19 19:44:27 ubuntu kernel: [  873.965806] [mitosis] pgd_free start: pid = 2391
+Oct 19 19:44:27 ubuntu kernel: [  873.976832] [mitosis] pgd_alloc start: pid = 2391
+Oct 19 19:44:28 ubuntu kernel: [  875.251639] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:28 ubuntu kernel: [  875.253646] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:28 ubuntu kernel: [  875.254571] [mitosis] pgd_free start: pid = 1245
+Oct 19 19:44:28 ubuntu kernel: [  875.255057] [mitosis] pgd_free start: pid = 1216
+Oct 19 19:44:28 ubuntu kernel: [  875.255118] [mitosis] pgd_free start: pid = 1239
+Oct 19 19:44:28 ubuntu kernel: [  875.255610] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:28 ubuntu systemd[1]: Started Session 5 of user huawei.
+Oct 19 19:44:28 ubuntu kernel: [  875.259626] [mitosis] pgd_free start: pid = 1234
+Oct 19 19:44:28 ubuntu kernel: [  875.259924] [mitosis] pgd_free start: pid = 1217
+Oct 19 19:44:28 ubuntu kernel: [  875.260589] [mitosis] pgd_alloc start: pid = 2391
+Oct 19 19:44:28 ubuntu kernel: [  875.261145] [mitosis] pgd_free start: pid = 2393
+Oct 19 19:44:28 ubuntu kernel: [  875.261384] [mitosis] pgd_alloc start: pid = 2393
+Oct 19 19:44:28 ubuntu kernel: [  875.262388] [mitosis] pgd_free start: pid = 2393
+Oct 19 19:44:28 ubuntu kernel: [  875.264008] [mitosis] pgd_alloc start: pid = 2393
+Oct 19 19:44:28 ubuntu kernel: [  875.264420] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:28 ubuntu kernel: [  875.264632] [mitosis] pgd_free start: pid = 2394
+Oct 19 19:44:28 ubuntu kernel: [  875.265727] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:28 ubuntu kernel: [  875.265958] [mitosis] pgd_free start: pid = 2394
+Oct 19 19:44:28 ubuntu kernel: [  875.267169] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:28 ubuntu kernel: [  875.267739] [mitosis] pgd_alloc start: pid = 2395
+Oct 19 19:44:28 ubuntu kernel: [  875.267957] [mitosis] pgd_free start: pid = 2395
+Oct 19 19:44:28 ubuntu kernel: [  875.269123] [mitosis] pgd_alloc start: pid = 2395
+Oct 19 19:44:28 ubuntu kernel: [  875.269675] [mitosis] pgd_alloc start: pid = 2396
+Oct 19 19:44:28 ubuntu kernel: [  875.269867] [mitosis] pgd_free start: pid = 2396
+Oct 19 19:44:28 ubuntu kernel: [  875.271123] [mitosis] pgd_alloc start: pid = 2395
+Oct 19 19:44:28 ubuntu kernel: [  875.271313] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:28 ubuntu kernel: [  875.271796] [mitosis] pgd_alloc start: pid = 2397
+Oct 19 19:44:28 ubuntu kernel: [  875.271998] [mitosis] pgd_free start: pid = 2397
+Oct 19 19:44:28 ubuntu kernel: [  875.273512] [mitosis] pgd_alloc start: pid = 2395
+Oct 19 19:44:28 ubuntu kernel: [  875.274037] [mitosis] pgd_alloc start: pid = 2398
+Oct 19 19:44:28 ubuntu kernel: [  875.274219] [mitosis] pgd_free start: pid = 2398
+Oct 19 19:44:28 ubuntu kernel: [  875.276114] [mitosis] pgd_free start: pid = 2394
+Oct 19 19:44:28 ubuntu kernel: [  875.276283] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:28 ubuntu kernel: [  875.276653] [mitosis] pgd_alloc start: pid = 2399
+Oct 19 19:44:28 ubuntu kernel: [  875.276923] [mitosis] pgd_free start: pid = 2399
+Oct 19 19:44:28 ubuntu kernel: [  875.278467] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:28 ubuntu kernel: [  875.278635] [mitosis] pgd_free start: pid = 2400
+Oct 19 19:44:28 ubuntu kernel: [  875.278779] [mitosis] pgd_alloc start: pid = 2400
+Oct 19 19:44:28 ubuntu kernel: [  875.278959] [mitosis] pgd_free start: pid = 2400
+Oct 19 19:44:28 ubuntu kernel: [  875.279858] [mitosis] pgd_alloc start: pid = 2400
+Oct 19 19:44:28 ubuntu kernel: [  875.280245] [mitosis] pgd_alloc start: pid = 2401
+Oct 19 19:44:28 ubuntu kernel: [  875.280401] [mitosis] pgd_free start: pid = 2401
+Oct 19 19:44:28 ubuntu kernel: [  875.282420] [mitosis] pgd_alloc start: pid = 2400
+Oct 19 19:44:28 ubuntu kernel: [  875.282887] [mitosis] pgd_alloc start: pid = 2402
+Oct 19 19:44:28 ubuntu kernel: [  875.283180] [mitosis] pgd_alloc start: pid = 2402
+Oct 19 19:44:28 ubuntu kernel: [  875.283310] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:28 ubuntu kernel: [  875.283509] [mitosis] pgd_alloc start: pid = 2403
+Oct 19 19:44:28 ubuntu kernel: [  875.283630] [mitosis] pgd_alloc start: pid = 2404
+Oct 19 19:44:28 ubuntu kernel: [  875.283827] [mitosis] pgd_free start: pid = 2404
+Oct 19 19:44:28 ubuntu kernel: [  875.284052] [mitosis] pgd_alloc start: pid = 2405
+Oct 19 19:44:28 ubuntu kernel: [  875.284220] [mitosis] pgd_free start: pid = 2405
+Oct 19 19:44:28 ubuntu kernel: [  875.285370] [mitosis] pgd_free start: pid = 2404
+Oct 19 19:44:28 ubuntu kernel: [  875.286415] [mitosis] pgd_alloc start: pid = 2400
+Oct 19 19:44:28 ubuntu kernel: [  875.286574] [mitosis] pgd_free start: pid = 2406
+Oct 19 19:44:28 ubuntu kernel: [  875.286699] [mitosis] pgd_alloc start: pid = 2406
+Oct 19 19:44:28 ubuntu kernel: [  875.286831] [mitosis] pgd_free start: pid = 2406
+Oct 19 19:44:28 ubuntu kernel: [  875.288214] [mitosis] pgd_alloc start: pid = 2400
+Oct 19 19:44:28 ubuntu kernel: [  875.288387] [mitosis] pgd_free start: pid = 2407
+Oct 19 19:44:28 ubuntu kernel: [  875.288539] [mitosis] pgd_alloc start: pid = 2407
+Oct 19 19:44:28 ubuntu kernel: [  875.288737] [mitosis] pgd_free start: pid = 2407
+Oct 19 19:44:28 ubuntu kernel: [  875.474419] [mitosis] pgd_alloc start: pid = 2407
+Oct 19 19:44:28 ubuntu kernel: [  875.475766] [mitosis] pgd_alloc start: pid = 2408
+Oct 19 19:44:28 ubuntu kernel: [  875.478040] [mitosis] pgd_free start: pid = 2408
+Oct 19 19:44:28 ubuntu kernel: [  875.479556] [mitosis] pgd_alloc start: pid = 2408
+Oct 19 19:44:28 ubuntu kernel: [  875.479775] [mitosis] pgd_free start: pid = 2408
+Oct 19 19:44:28 ubuntu kernel: [  875.480458] [mitosis] pgd_free start: pid = 2407
+Oct 19 19:44:28 ubuntu kernel: [  875.540486] [mitosis] pgd_alloc start: pid = 2407
+Oct 19 19:44:28 ubuntu kernel: [  875.542067] [mitosis] pgd_alloc start: pid = 2409
+Oct 19 19:44:28 ubuntu kernel: [  875.546011] [mitosis] pgd_free start: pid = 2409
+Oct 19 19:44:28 ubuntu kernel: [  875.547820] [mitosis] pgd_alloc start: pid = 2409
+Oct 19 19:44:28 ubuntu kernel: [  875.548067] [mitosis] pgd_free start: pid = 2409
+Oct 19 19:44:28 ubuntu kernel: [  875.551254] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:28 ubuntu kernel: [  875.723033] [mitosis] pgd_alloc start: pid = 2407
+Oct 19 19:44:28 ubuntu kernel: [  875.823547] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:28 ubuntu kernel: [  875.846629] [mitosis] pgd_alloc start: pid = 2407
+Oct 19 19:44:28 ubuntu kernel: [  875.849951] [mitosis] pgd_alloc start: pid = 2411
+Oct 19 19:44:28 ubuntu kernel: [  875.851008] [mitosis] pgd_free start: pid = 2411
+Oct 19 19:44:28 ubuntu kernel: [  875.913229] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:28 ubuntu kernel: [  875.913397] [mitosis] pgd_alloc start: pid = 2412
+Oct 19 19:44:28 ubuntu kernel: [  875.913487] [mitosis] pgd_free start: pid = 2412
+Oct 19 19:44:28 ubuntu kernel: [  875.914092] [mitosis] pgd_alloc start: pid = 2412
+Oct 19 19:44:28 ubuntu kernel: [  875.914257] [mitosis] pgd_alloc start: pid = 2412
+Oct 19 19:44:28 ubuntu kernel: [  875.914278] [mitosis] pgd_alloc start: pid = 2413
+Oct 19 19:44:28 ubuntu kernel: [  875.914360] [mitosis] pgd_free start: pid = 2413
+Oct 19 19:44:28 ubuntu kernel: [  875.914409] [mitosis] pgd_alloc start: pid = 2412
+Oct 19 19:44:28 ubuntu kernel: [  875.914464] [mitosis] pgd_alloc start: pid = 2414
+Oct 19 19:44:28 ubuntu kernel: [  875.914487] [mitosis] pgd_free start: pid = 2415
+Oct 19 19:44:28 ubuntu kernel: [  875.914535] [mitosis] pgd_alloc start: pid = 2412
+Oct 19 19:44:28 ubuntu kernel: [  875.914542] [mitosis] pgd_free start: pid = 2414
+Oct 19 19:44:28 ubuntu kernel: [  875.914628] [mitosis] pgd_alloc start: pid = 2415
+Oct 19 19:44:28 ubuntu kernel: [  875.914733] [mitosis] pgd_free start: pid = 2415
+Oct 19 19:44:28 ubuntu kernel: [  875.915110] [mitosis] pgd_alloc start: pid = 2416
+Oct 19 19:44:29 ubuntu kernel: [  875.915564] [mitosis] pgd_free start: pid = 2416
+Oct 19 19:44:29 ubuntu kernel: [  875.917206] [mitosis] pgd_free start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  875.917262] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  875.917332] [mitosis] pgd_free start: pid = 2417
+Oct 19 19:44:29 ubuntu kernel: [  875.917387] [mitosis] pgd_alloc start: pid = 2417
+Oct 19 19:44:29 ubuntu kernel: [  875.917480] [mitosis] pgd_free start: pid = 2417
+Oct 19 19:44:29 ubuntu kernel: [  875.917893] [mitosis] pgd_alloc start: pid = 2417
+Oct 19 19:44:29 ubuntu kernel: [  875.918060] [mitosis] pgd_alloc start: pid = 2418
+Oct 19 19:44:29 ubuntu kernel: [  875.918137] [mitosis] pgd_free start: pid = 2418
+Oct 19 19:44:29 ubuntu kernel: [  875.983174] [mitosis] pgd_free start: pid = 2417
+Oct 19 19:44:29 ubuntu kernel: [  875.990542] [mitosis] pgd_alloc start: pid = 2417
+Oct 19 19:44:29 ubuntu kernel: [  875.990769] [mitosis] pgd_alloc start: pid = 2419
+Oct 19 19:44:29 ubuntu kernel: [  875.990868] [mitosis] pgd_free start: pid = 2419
+Oct 19 19:44:29 ubuntu kernel: [  876.055695] [mitosis] pgd_free start: pid = 2417
+Oct 19 19:44:29 ubuntu kernel: [  876.062956] [mitosis] pgd_free start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  876.063029] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  876.063166] [mitosis] pgd_alloc start: pid = 2420
+Oct 19 19:44:29 ubuntu kernel: [  876.063294] [mitosis] pgd_free start: pid = 2420
+Oct 19 19:44:29 ubuntu kernel: [  876.063811] [mitosis] pgd_alloc start: pid = 2420
+Oct 19 19:44:29 ubuntu kernel: [  876.064365] [mitosis] pgd_alloc start: pid = 2421
+Oct 19 19:44:29 ubuntu kernel: [  876.064616] [mitosis] pgd_free start: pid = 2421
+Oct 19 19:44:29 ubuntu kernel: [  876.066300] [mitosis] pgd_alloc start: pid = 2420
+Oct 19 19:44:29 ubuntu kernel: [  876.066717] [mitosis] pgd_alloc start: pid = 2422
+Oct 19 19:44:29 ubuntu kernel: [  876.066926] [mitosis] pgd_alloc start: pid = 2422
+Oct 19 19:44:29 ubuntu kernel: [  876.067059] [mitosis] pgd_free start: pid = 2424
+Oct 19 19:44:29 ubuntu kernel: [  876.067447] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:29 ubuntu kernel: [  876.067631] [mitosis] pgd_free start: pid = 2424
+Oct 19 19:44:29 ubuntu kernel: [  876.067651] [mitosis] pgd_alloc start: pid = 2424
+Oct 19 19:44:29 ubuntu kernel: [  876.070521] [mitosis] pgd_alloc start: pid = 2420
+Oct 19 19:44:29 ubuntu kernel: [  876.070627] [mitosis] pgd_free start: pid = 2425
+Oct 19 19:44:29 ubuntu kernel: [  876.070753] [mitosis] pgd_alloc start: pid = 2425
+Oct 19 19:44:29 ubuntu kernel: [  876.070924] [mitosis] pgd_alloc start: pid = 2425
+Oct 19 19:44:29 ubuntu kernel: [  876.071048] [mitosis] pgd_free start: pid = 2427
+Oct 19 19:44:29 ubuntu kernel: [  876.071102] [mitosis] pgd_alloc start: pid = 2425
+Oct 19 19:44:29 ubuntu kernel: [  876.071229] [mitosis] pgd_free start: pid = 2428
+Oct 19 19:44:29 ubuntu kernel: [  876.071397] [mitosis] pgd_alloc start: pid = 2428
+Oct 19 19:44:29 ubuntu kernel: [  876.071420] [mitosis] pgd_alloc start: pid = 2427
+Oct 19 19:44:29 ubuntu kernel: [  876.071502] [mitosis] pgd_free start: pid = 2428
+Oct 19 19:44:29 ubuntu kernel: [  876.071727] [mitosis] pgd_free start: pid = 2427
+Oct 19 19:44:29 ubuntu kernel: [  876.075469] [mitosis] pgd_alloc start: pid = 2420
+Oct 19 19:44:29 ubuntu kernel: [  876.076013] [mitosis] pgd_alloc start: pid = 2429
+Oct 19 19:44:29 ubuntu kernel: [  876.076347] [mitosis] pgd_alloc start: pid = 2429
+Oct 19 19:44:29 ubuntu kernel: [  876.076547] [mitosis] pgd_free start: pid = 2431
+Oct 19 19:44:29 ubuntu kernel: [  876.076940] [mitosis] pgd_alloc start: pid = 2431
+Oct 19 19:44:29 ubuntu kernel: [  876.077197] [mitosis] pgd_free start: pid = 2431
+Oct 19 19:44:29 ubuntu kernel: [  876.080231] [mitosis] pgd_free start: pid = 2420
+Oct 19 19:44:29 ubuntu kernel: [  876.080433] [mitosis] pgd_alloc start: pid = 2420
+Oct 19 19:44:29 ubuntu kernel: [  876.080634] [mitosis] pgd_free start: pid = 2432
+Oct 19 19:44:29 ubuntu kernel: [  876.080894] [mitosis] pgd_alloc start: pid = 2432
+Oct 19 19:44:29 ubuntu kernel: [  876.081315] [mitosis] pgd_alloc start: pid = 2432
+Oct 19 19:44:29 ubuntu kernel: [  876.081533] [mitosis] pgd_free start: pid = 2434
+Oct 19 19:44:29 ubuntu kernel: [  876.081892] [mitosis] pgd_alloc start: pid = 2434
+Oct 19 19:44:29 ubuntu kernel: [  876.082129] [mitosis] pgd_free start: pid = 2434
+Oct 19 19:44:29 ubuntu kernel: [  876.083455] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:29 ubuntu kernel: [  876.084585] [mitosis] pgd_free start: pid = 2420
+Oct 19 19:44:29 ubuntu kernel: [  876.085286] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  876.085505] [mitosis] pgd_free start: pid = 2435
+Oct 19 19:44:29 ubuntu kernel: [  876.085709] [mitosis] pgd_alloc start: pid = 2435
+Oct 19 19:44:29 ubuntu kernel: [  876.085963] [mitosis] pgd_free start: pid = 2435
+Oct 19 19:44:29 ubuntu kernel: [  876.087333] [mitosis] pgd_alloc start: pid = 2435
+Oct 19 19:44:29 ubuntu kernel: [  876.087542] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:29 ubuntu kernel: [  876.087854] [mitosis] pgd_alloc start: pid = 2436
+Oct 19 19:44:29 ubuntu kernel: [  876.088119] [mitosis] pgd_free start: pid = 2436
+Oct 19 19:44:29 ubuntu kernel: [  876.090179] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  876.090431] [mitosis] pgd_free start: pid = 2437
+Oct 19 19:44:29 ubuntu kernel: [  876.090604] [mitosis] pgd_alloc start: pid = 2437
+Oct 19 19:44:29 ubuntu kernel: [  876.090842] [mitosis] pgd_free start: pid = 2437
+Oct 19 19:44:29 ubuntu kernel: [  876.091356] [mitosis] pgd_free start: pid = 1219
+Oct 19 19:44:29 ubuntu kernel: [  876.091925] [mitosis] pgd_alloc start: pid = 2437
+Oct 19 19:44:29 ubuntu kernel: [  876.092502] [mitosis] pgd_alloc start: pid = 2438
+Oct 19 19:44:29 ubuntu kernel: [  876.092840] [mitosis] pgd_alloc start: pid = 2438
+Oct 19 19:44:29 ubuntu kernel: [  876.092968] [mitosis] pgd_alloc start: pid = 2439
+Oct 19 19:44:29 ubuntu kernel: [  876.093187] [mitosis] pgd_free start: pid = 2439
+Oct 19 19:44:29 ubuntu kernel: [  876.093195] [mitosis] pgd_alloc start: pid = 2440
+Oct 19 19:44:29 ubuntu kernel: [  876.093367] [mitosis] pgd_free start: pid = 2440
+Oct 19 19:44:29 ubuntu kernel: [  876.173089] [mitosis] pgd_alloc start: pid = 2437
+Oct 19 19:44:29 ubuntu kernel: [  876.173581] [mitosis] pgd_free start: pid = 2437
+Oct 19 19:44:29 ubuntu kernel: [  876.174913] [mitosis] pgd_alloc start: pid = 2437
+Oct 19 19:44:29 ubuntu kernel: [  876.175145] [mitosis] pgd_free start: pid = 2441
+Oct 19 19:44:29 ubuntu kernel: [  876.175599] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:29 ubuntu kernel: [  876.175659] [mitosis] pgd_free start: pid = 2441
+Oct 19 19:44:29 ubuntu kernel: [  876.175673] [mitosis] pgd_alloc start: pid = 2441
+Oct 19 19:44:29 ubuntu kernel: [  876.176940] [mitosis] pgd_alloc start: pid = 2437
+Oct 19 19:44:29 ubuntu kernel: [  876.177179] [mitosis] pgd_free start: pid = 2442
+Oct 19 19:44:29 ubuntu kernel: [  876.177475] [mitosis] pgd_alloc start: pid = 2442
+Oct 19 19:44:29 ubuntu kernel: [  876.177699] [mitosis] pgd_free start: pid = 2442
+Oct 19 19:44:29 ubuntu kernel: [  876.180168] [mitosis] pgd_alloc start: pid = 2437
+Oct 19 19:44:29 ubuntu kernel: [  876.180622] [mitosis] pgd_alloc start: pid = 2443
+Oct 19 19:44:29 ubuntu kernel: [  876.180758] [mitosis] pgd_free start: pid = 2443
+Oct 19 19:44:29 ubuntu kernel: [  876.181821] [mitosis] pgd_alloc start: pid = 2437
+Oct 19 19:44:29 ubuntu kernel: [  876.182166] [mitosis] pgd_alloc start: pid = 2444
+Oct 19 19:44:29 ubuntu kernel: [  876.182361] [mitosis] pgd_free start: pid = 2444
+Oct 19 19:44:29 ubuntu kernel: [  876.183280] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:29 ubuntu kernel: [  876.183744] [mitosis] pgd_free start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  876.183864] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  876.184116] [mitosis] pgd_alloc start: pid = 2445
+Oct 19 19:44:29 ubuntu kernel: [  876.184251] [mitosis] pgd_free start: pid = 2445
+Oct 19 19:44:29 ubuntu kernel: [  876.185049] [mitosis] pgd_alloc start: pid = 2445
+Oct 19 19:44:29 ubuntu kernel: [  876.185207] [mitosis] pgd_free start: pid = 2445
+Oct 19 19:44:29 ubuntu kernel: [  876.186063] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  876.186203] [mitosis] pgd_free start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.186313] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.186432] [mitosis] pgd_free start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.187089] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.187369] [mitosis] pgd_free start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.188079] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.188544] [mitosis] pgd_alloc start: pid = 2447
+Oct 19 19:44:29 ubuntu kernel: [  876.188744] [mitosis] pgd_free start: pid = 2447
+Oct 19 19:44:29 ubuntu kernel: [  876.191588] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:29 ubuntu kernel: [  876.199029] [mitosis] pgd_alloc start: pid = 2447
+Oct 19 19:44:29 ubuntu kernel: [  876.199351] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:29 ubuntu kernel: [  876.199950] [mitosis] pgd_alloc start: pid = 2448
+Oct 19 19:44:29 ubuntu kernel: [  876.200443] [mitosis] pgd_free start: pid = 2448
+Oct 19 19:44:29 ubuntu kernel: [  876.205151] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.205359] [mitosis] pgd_free start: pid = 2449
+Oct 19 19:44:29 ubuntu kernel: [  876.205616] [mitosis] pgd_alloc start: pid = 2449
+Oct 19 19:44:29 ubuntu kernel: [  876.205783] [mitosis] pgd_free start: pid = 2449
+Oct 19 19:44:29 ubuntu kernel: [  876.212120] [mitosis] pgd_alloc start: pid = 2449
+Oct 19 19:44:29 ubuntu kernel: [  876.213091] [mitosis] pgd_alloc start: pid = 2450
+Oct 19 19:44:29 ubuntu kernel: [  876.213683] [mitosis] pgd_free start: pid = 2450
+Oct 19 19:44:29 ubuntu kernel: [  876.215406] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:44:29 ubuntu kernel: [  876.218716] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.218862] [mitosis] pgd_free start: pid = 2451
+Oct 19 19:44:29 ubuntu kernel: [  876.219158] [mitosis] pgd_alloc start: pid = 2451
+Oct 19 19:44:29 ubuntu kernel: [  876.219427] [mitosis] pgd_free start: pid = 2451
+Oct 19 19:44:29 ubuntu kernel: [  876.227241] [mitosis] pgd_alloc start: pid = 2451
+Oct 19 19:44:29 ubuntu kernel: [  876.227797] [mitosis] pgd_alloc start: pid = 2452
+Oct 19 19:44:29 ubuntu kernel: [  876.228036] [mitosis] pgd_free start: pid = 2452
+Oct 19 19:44:29 ubuntu kernel: [  876.230978] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.231175] [mitosis] pgd_free start: pid = 2453
+Oct 19 19:44:29 ubuntu kernel: [  876.231410] [mitosis] pgd_alloc start: pid = 2453
+Oct 19 19:44:29 ubuntu kernel: [  876.231543] [mitosis] pgd_free start: pid = 2453
+Oct 19 19:44:29 ubuntu kernel: [  876.237541] [mitosis] pgd_alloc start: pid = 2453
+Oct 19 19:44:29 ubuntu kernel: [  876.238557] [mitosis] pgd_alloc start: pid = 2454
+Oct 19 19:44:29 ubuntu kernel: [  876.239118] [mitosis] pgd_free start: pid = 2454
+Oct 19 19:44:29 ubuntu kernel: [  876.239417] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:44:29 ubuntu kernel: [  876.244693] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.245159] [mitosis] pgd_alloc start: pid = 2455
+Oct 19 19:44:29 ubuntu kernel: [  876.245338] [mitosis] pgd_free start: pid = 2455
+Oct 19 19:44:29 ubuntu kernel: [  876.247635] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:29 ubuntu kernel: [  876.253774] [mitosis] pgd_alloc start: pid = 2455
+Oct 19 19:44:29 ubuntu kernel: [  876.254892] [mitosis] pgd_alloc start: pid = 2456
+Oct 19 19:44:29 ubuntu kernel: [  876.255328] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:29 ubuntu kernel: [  876.255662] [mitosis] pgd_free start: pid = 2456
+Oct 19 19:44:29 ubuntu kernel: [  876.259629] [mitosis] pgd_free start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.260870] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.261459] [mitosis] pgd_alloc start: pid = 2457
+Oct 19 19:44:29 ubuntu kernel: [  876.261723] [mitosis] pgd_free start: pid = 2457
+Oct 19 19:44:29 ubuntu kernel: [  876.263342] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:29 ubuntu kernel: [  876.265328] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.265539] [mitosis] pgd_free start: pid = 2458
+Oct 19 19:44:29 ubuntu kernel: [  876.265757] [mitosis] pgd_alloc start: pid = 2458
+Oct 19 19:44:29 ubuntu kernel: [  876.266184] [mitosis] pgd_alloc start: pid = 2459
+Oct 19 19:44:29 ubuntu kernel: [  876.266426] [mitosis] pgd_free start: pid = 2459
+Oct 19 19:44:29 ubuntu kernel: [  876.268042] [mitosis] pgd_alloc start: pid = 2458
+Oct 19 19:44:29 ubuntu kernel: [  876.269947] [mitosis] pgd_free start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.270337] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.270803] [mitosis] pgd_alloc start: pid = 2460
+Oct 19 19:44:29 ubuntu kernel: [  876.271055] [mitosis] pgd_free start: pid = 2460
+Oct 19 19:44:29 ubuntu kernel: [  876.271354] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:29 ubuntu kernel: [  876.272605] [mitosis] pgd_alloc start: pid = 2446
+Oct 19 19:44:29 ubuntu kernel: [  876.272835] [mitosis] pgd_free start: pid = 2461
+Oct 19 19:44:29 ubuntu kernel: [  876.273065] [mitosis] pgd_alloc start: pid = 2461
+Oct 19 19:44:29 ubuntu kernel: [  876.273305] [mitosis] pgd_free start: pid = 2461
+Oct 19 19:44:29 ubuntu kernel: [  876.275226] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  876.275413] [mitosis] pgd_free start: pid = 2462
+Oct 19 19:44:29 ubuntu kernel: [  876.275565] [mitosis] pgd_alloc start: pid = 2462
+Oct 19 19:44:29 ubuntu kernel: [  876.275746] [mitosis] pgd_free start: pid = 2462
+Oct 19 19:44:29 ubuntu kernel: [  876.276618] [mitosis] pgd_alloc start: pid = 2462
+Oct 19 19:44:29 ubuntu kernel: [  876.276936] [mitosis] pgd_alloc start: pid = 2463
+Oct 19 19:44:29 ubuntu kernel: [  876.277133] [mitosis] pgd_alloc start: pid = 2463
+Oct 19 19:44:29 ubuntu kernel: [  876.277221] [mitosis] pgd_alloc start: pid = 2464
+Oct 19 19:44:29 ubuntu kernel: [  876.277387] [mitosis] pgd_free start: pid = 2464
+Oct 19 19:44:29 ubuntu kernel: [  876.277449] [mitosis] pgd_alloc start: pid = 2465
+Oct 19 19:44:29 ubuntu kernel: [  876.277619] [mitosis] pgd_free start: pid = 2465
+Oct 19 19:44:29 ubuntu kernel: [  876.278084] [mitosis] pgd_alloc start: pid = 2464
+Oct 19 19:44:29 ubuntu kernel: [  876.278267] [mitosis] pgd_free start: pid = 2464
+Oct 19 19:44:29 ubuntu kernel: [  876.280290] [mitosis] pgd_free start: pid = 2462
+Oct 19 19:44:29 ubuntu kernel: [  876.280690] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  876.280897] [mitosis] pgd_free start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.281028] [mitosis] pgd_alloc start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.281198] [mitosis] pgd_free start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.281863] [mitosis] pgd_alloc start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.282017] [mitosis] pgd_free start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.282739] [mitosis] pgd_alloc start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.283465] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:44:29 ubuntu kernel: [  876.283499] [mitosis] pgd_alloc start: pid = 2467
+Oct 19 19:44:29 ubuntu kernel: [  876.283553] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:29 ubuntu kernel: [  876.284734] [mitosis] pgd_alloc start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.284934] [mitosis] pgd_alloc start: pid = 2468
+Oct 19 19:44:29 ubuntu kernel: [  876.285163] [mitosis] pgd_alloc start: pid = 2469
+Oct 19 19:44:29 ubuntu kernel: [  876.285261] [mitosis] pgd_free start: pid = 2469
+Oct 19 19:44:29 ubuntu kernel: [  876.287289] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:29 ubuntu kernel: [  876.287421] [mitosis] pgd_free start: pid = 2468
+Oct 19 19:44:29 ubuntu kernel: [  876.287978] [mitosis] pgd_alloc start: pid = 2468
+Oct 19 19:44:29 ubuntu kernel: [  876.288310] [mitosis] pgd_free start: pid = 2468
+Oct 19 19:44:29 ubuntu kernel: [  876.289707] [mitosis] pgd_free start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.290038] [mitosis] pgd_alloc start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.290570] [mitosis] pgd_alloc start: pid = 2470
+Oct 19 19:44:29 ubuntu kernel: [  876.290790] [mitosis] pgd_free start: pid = 2470
+Oct 19 19:44:29 ubuntu kernel: [  876.291438] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:29 ubuntu kernel: [  876.292199] [mitosis] pgd_free start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.292796] [mitosis] pgd_alloc start: pid = 2466
+Oct 19 19:44:29 ubuntu kernel: [  876.293210] [mitosis] pgd_alloc start: pid = 2471
+Oct 19 19:44:29 ubuntu kernel: [  876.293400] [mitosis] pgd_free start: pid = 2471
+Oct 19 19:44:29 ubuntu kernel: [  876.295045] [mitosis] pgd_alloc start: pid = 2394
+Oct 19 19:44:29 ubuntu kernel: [  876.295249] [mitosis] pgd_free start: pid = 2472
+Oct 19 19:44:29 ubuntu kernel: [  876.295270] [mitosis] pgd_free start: pid = 846
+Oct 19 19:44:29 ubuntu kernel: [  876.295393] [mitosis] pgd_alloc start: pid = 2472
+Oct 19 19:44:29 ubuntu kernel: [  876.295545] [mitosis] pgd_free start: pid = 2472
+Oct 19 19:44:29 ubuntu kernel: [  876.296441] [mitosis] pgd_alloc start: pid = 2472
+Oct 19 19:44:29 ubuntu kernel: [  876.296618] [mitosis] pgd_free start: pid = 2472
+Oct 19 19:44:29 ubuntu kernel: [  876.297829] [mitosis] pgd_free start: pid = 2393
+Oct 19 19:44:29 ubuntu kernel: [  876.298227] [mitosis] pgd_free start: pid = 2391
+Oct 19 19:44:29 ubuntu kernel: [  876.299394] [mitosis] pgd_free start: pid = 1219
+Oct 19 19:44:29 ubuntu kernel: [  876.299548] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:44:29 ubuntu kernel: [  876.300177] [mitosis] pgd_alloc start: pid = 2391
+Oct 19 19:44:29 ubuntu kernel: [  876.303602] [mitosis] pgd_free start: pid = 1226
+Oct 19 19:44:29 ubuntu kernel: [  876.347220] [mitosis] pgd_alloc start: pid = 2473
+Oct 19 19:44:29 ubuntu kernel: [  876.349791] [mitosis] pgd_alloc start: pid = 2474
+Oct 19 19:44:29 ubuntu kernel: [  876.350947] [mitosis] pgd_free start: pid = 2474
+Oct 19 19:44:29 ubuntu kernel: [  876.351417] [mitosis] pgd_free start: pid = 1220
+Oct 19 19:44:29 ubuntu kernel: [  876.353864] [mitosis] pgd_alloc start: pid = 2474
+Oct 19 19:44:29 ubuntu kernel: [  876.354198] [mitosis] pgd_free start: pid = 2474
