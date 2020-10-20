@@ -21548,3 +21548,800 @@ Oct 20 23:56:58 ubuntu kernel: [   62.882697] ------PTREPL: free pgd start------
 Oct 20 23:56:58 ubuntu kernel: [   62.883150] [mitosis] pgtable_repl_pgd_free mm->pgd=ffff0004d27f4000.
 Oct 20 23:56:58 ubuntu kernel: [   62.883770] ------PTREPL: free pgd done------
 Oct 20 23:57:08 ubuntu systemd[1]: Started Session 3 of user huawei.
+Oct 20 23:58:14 ubuntu kernel: [  139.162993] Page table allocation set to fixed on node 0
+Oct 20 23:58:14 ubuntu kernel: [  139.176144] PROCFS: Command ot drain the pgtable cache
+Oct 20 23:58:14 ubuntu kernel: [  139.394603] PROCFS: Command ot populate the pgtable cache
+Oct 20 23:58:14 ubuntu kernel: [  139.395973] PGREPL: populating pgtable cache with 1100000 tables per node
+Oct 20 23:58:14 ubuntu kernel: [  139.397285] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Oct 20 23:58:15 ubuntu kernel: [  140.248995] PGREPL: node[0] populated with 1100000  tables
+Oct 20 23:58:15 ubuntu kernel: [  140.290516] [mitosis] kernel_set_pgtlbreplpolicy: pid = 1886
+Oct 20 23:58:15 ubuntu kernel: [  140.292153] PTREP: Called pgtbl_repl_prepare_replication
+Oct 20 23:58:15 ubuntu kernel: [  140.293427] [mitosis] pgtbl_repl_prepare_replication  for mm=ffff0003ba6c4000.
+Oct 20 23:58:15 ubuntu kernel: [  140.295061] ------PTREPL: alloc pgd start------
+Oct 20 23:58:15 ubuntu kernel: [  140.295530] [mitosis] nr_node_ids=1.
+Oct 20 23:58:15 ubuntu kernel: [  140.295893] [mitosis] pgd_alloc origin mm->pgd =ffff0004d3c00000.
+Oct 20 23:58:15 ubuntu kernel: [  140.296493] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff0003baf8a000.
+Oct 20 23:58:15 ubuntu kernel: [  140.297094] ------PTREPL: alloc pgd success------
+Oct 20 23:58:15 ubuntu kernel: [  140.297558] pgtbl_repl_prepare_replication:967 pgd=ffff0004d3c00000..ffff0004d3c00fff
+Oct 20 23:58:15 ubuntu kernel: [  140.298334] PTREP: pgd_idx = 341，and pgd=ffff0004d3c00aa8  and pgd[341]=5154d6003
+Oct 20 23:58:15 ubuntu kernel: [  140.299158] pgtbl_repl_prepare_replication:975 pgd[341]'s pud=ffff0004d54d6000..ffff0004d54d6fff
+Oct 20 23:58:15 ubuntu kernel: [  140.300046] pgtbl_repl_prepare_replication:979 1 pfn=5154d6   2 pfn=5154d6
+Oct 20 23:58:15 ubuntu kernel: [  140.300718] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d54d6000 and new pagep = ffff0003baf89000
+Oct 20 23:58:15 ubuntu kernel: [  140.301695] ------PTREPL: set_pgd start------
+Oct 20 23:58:15 ubuntu kernel: [  140.302122] ------ 1 . page_pgd->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.302670] PTREP: set_pgd offset=aa8 and node0 origin pgd=ffff0003baf8a000  and pgd+offset=ffff0003baf8aaa8  and pud=ffff0003baf89000 and pdgval=3faf89003
+Oct 20 23:58:15 ubuntu kernel: [  140.304125] ------PTREPL: set_pgd done------
+Oct 20 23:58:15 ubuntu kernel: [  140.304524] [mitosis] start search pud .......
+Oct 20 23:58:15 ubuntu kernel: [  140.304933] PTREP: pud_idx = 171，and pud=ffff0004d54d6558  and pud[171]=3f781e003
+Oct 20 23:58:15 ubuntu kernel: [  140.305629] pgtbl_repl_prepare_replication:998 pud[171]'s pmd=ffff0003b781e000..ffff0003b781efff
+Oct 20 23:58:15 ubuntu kernel: [  140.306429] pgtbl_repl_prepare_replication:999 1 pfn=3f781e   2 pfn=3f781e
+Oct 20 23:58:15 ubuntu kernel: [  140.307100] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b781e000 and new pagep = ffff0003baf88000
+Oct 20 23:58:15 ubuntu kernel: [  140.308017] ------PTREPL: set_pud start------
+Oct 20 23:58:15 ubuntu kernel: [  140.308415] ------ 1 . page_pud->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.308924] PTREP: set_pud offset=558 and node0 origin pud=ffff0003baf89000  and pud+offset=ffff0003baf89558  and pmd=ffff0003baf88000 and pudval=3faf88003
+Oct 20 23:58:15 ubuntu kernel: [  140.310189] ------PTREPL: set_pud done------
+Oct 20 23:58:15 ubuntu kernel: [  140.310579] PTREP: pmd_idx = 196，and pmd=ffff0003b781e620  and pmd[196]=514140003
+Oct 20 23:58:15 ubuntu kernel: [  140.311346] pgtbl_repl_prepare_replication:1018 pmd[196]'s pte=ffff0004d4140000..ffff0004d4140fff
+Oct 20 23:58:15 ubuntu kernel: [  140.312217] pgtbl_repl_prepare_replication:1019 1 pfn=514140   2 pfn=514140
+Oct 20 23:58:15 ubuntu kernel: [  140.312848] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d4140000 and new pagep = ffff0003baf87000
+Oct 20 23:58:15 ubuntu kernel: [  140.313746] ------PTREPL: set_pmd start------
+Oct 20 23:58:15 ubuntu kernel: [  140.314142] ------ 1 . page_pmd->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.314650] PTREP: set_pmd offset=620 and node0 origin pmd=ffff0003baf88000  and pmd+offset=ffff0003baf88620  and pte=ffff0003baf87000 and pmdval=3faf87003
+Oct 20 23:58:15 ubuntu kernel: [  140.316026] ------PTREPL: set_pmd done------
+Oct 20 23:58:15 ubuntu kernel: [  140.316424] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.316819] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.317323] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.317718] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.318223] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.318619] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.319180] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.319612] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.320116] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.320509] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.321012] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.321407] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.321913] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.322309] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.322854] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.323259] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.323774] PTREP: pud_idx = 172，and pud=ffff0004d54d6560  and pud[172]=512687003
+Oct 20 23:58:15 ubuntu kernel: [  140.324471] pgtbl_repl_prepare_replication:998 pud[172]'s pmd=ffff0004d2687000..ffff0004d2687fff
+Oct 20 23:58:15 ubuntu kernel: [  140.325269] pgtbl_repl_prepare_replication:999 1 pfn=512687   2 pfn=512687
+Oct 20 23:58:15 ubuntu kernel: [  140.325894] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d2687000 and new pagep = ffff0003baf86000
+Oct 20 23:58:15 ubuntu kernel: [  140.326851] ------PTREPL: set_pud start------
+Oct 20 23:58:15 ubuntu kernel: [  140.327260] ------ 1 . page_pud->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.327795] PTREP: set_pud offset=560 and node0 origin pud=ffff0003baf89000  and pud+offset=ffff0003baf89560  and pmd=ffff0003baf86000 and pudval=3faf86003
+Oct 20 23:58:15 ubuntu kernel: [  140.329061] ------PTREPL: set_pud done------
+Oct 20 23:58:15 ubuntu kernel: [  140.329453] PTREP: pmd_idx = 60，and pmd=ffff0004d26871e0  and pmd[60]=3fa9ff003
+Oct 20 23:58:15 ubuntu kernel: [  140.330136] pgtbl_repl_prepare_replication:1018 pmd[60]'s pte=ffff0003ba9ff000..ffff0003ba9fffff
+Oct 20 23:58:15 ubuntu kernel: [  140.330986] pgtbl_repl_prepare_replication:1019 1 pfn=3fa9ff   2 pfn=3fa9ff
+Oct 20 23:58:15 ubuntu kernel: [  140.331642] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003ba9ff000 and new pagep = ffff0003baf85000
+Oct 20 23:58:15 ubuntu kernel: [  140.332546] ------PTREPL: set_pmd start------
+Oct 20 23:58:15 ubuntu kernel: [  140.332945] ------ 1 . page_pmd->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.333456] PTREP: set_pmd offset=1e0 and node0 origin pmd=ffff0003baf86000  and pmd+offset=ffff0003baf861e0  and pte=ffff0003baf85000 and pmdval=3faf85003
+Oct 20 23:58:15 ubuntu kernel: [  140.334722] ------PTREPL: set_pmd done------
+Oct 20 23:58:15 ubuntu kernel: [  140.335164] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.335566] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.336079] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.336474] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.336990] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.337384] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.337886] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.338280] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.338881] ===================================== end of a page
+Oct 20 23:58:15 ubuntu kernel: [  140.339432] PTREP: pgd_idx = 511，and pgd=ffff0004d3c00ff8  and pgd[511]=3f3288003
+Oct 20 23:58:15 ubuntu kernel: [  140.340144] pgtbl_repl_prepare_replication:975 pgd[511]'s pud=ffff0003b3288000..ffff0003b3288fff
+Oct 20 23:58:15 ubuntu kernel: [  140.340951] pgtbl_repl_prepare_replication:979 1 pfn=3f3288   2 pfn=3f3288
+Oct 20 23:58:15 ubuntu kernel: [  140.341583] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003b3288000 and new pagep = ffff0003baf84000
+Oct 20 23:58:15 ubuntu kernel: [  140.342490] ------PTREPL: set_pgd start------
+Oct 20 23:58:15 ubuntu kernel: [  140.342935] ------ 1 . page_pgd->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.343453] PTREP: set_pgd offset=ff8 and node0 origin pgd=ffff0003baf8a000  and pgd+offset=ffff0003baf8aff8  and pud=ffff0003baf84000 and pdgval=3faf84003
+Oct 20 23:58:15 ubuntu kernel: [  140.344726] ------PTREPL: set_pgd done------
+Oct 20 23:58:15 ubuntu kernel: [  140.345120] [mitosis] start search pud .......
+Oct 20 23:58:15 ubuntu kernel: [  140.345526] PTREP: pud_idx = 510，and pud=ffff0003b3288ff0  and pud[510]=515ba0003
+Oct 20 23:58:15 ubuntu kernel: [  140.346220] pgtbl_repl_prepare_replication:998 pud[510]'s pmd=ffff0004d5ba0000..ffff0004d5ba0fff
+Oct 20 23:58:15 ubuntu kernel: [  140.347071] pgtbl_repl_prepare_replication:999 1 pfn=515ba0   2 pfn=515ba0
+Oct 20 23:58:15 ubuntu kernel: [  140.347719] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d5ba0000 and new pagep = ffff0003baf83000
+Oct 20 23:58:15 ubuntu kernel: [  140.348634] ------PTREPL: set_pud start------
+Oct 20 23:58:15 ubuntu kernel: [  140.349032] ------ 1 . page_pud->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.349542] PTREP: set_pud offset=ff0 and node0 origin pud=ffff0003baf84000  and pud+offset=ffff0003baf84ff0  and pmd=ffff0003baf83000 and pudval=3faf83003
+Oct 20 23:58:15 ubuntu kernel: [  140.350849] ------PTREPL: set_pud done------
+Oct 20 23:58:15 ubuntu kernel: [  140.351248] PTREP: pmd_idx = 57，and pmd=ffff0004d5ba01c8  and pmd[57]=5199f7003
+Oct 20 23:58:15 ubuntu kernel: [  140.351935] pgtbl_repl_prepare_replication:1018 pmd[57]'s pte=ffff0004d99f7000..ffff0004d99f7fff
+Oct 20 23:58:15 ubuntu kernel: [  140.352733] pgtbl_repl_prepare_replication:1019 1 pfn=5199f7   2 pfn=5199f7
+Oct 20 23:58:15 ubuntu kernel: [  140.353360] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0004d99f7000 and new pagep = ffff0003baf82000
+Oct 20 23:58:15 ubuntu kernel: [  140.354195] ------PTREPL: set_pmd start------
+Oct 20 23:58:15 ubuntu kernel: [  140.354564] ------ 1 . page_pmd->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.355085] PTREP: set_pmd offset=1c8 and node0 origin pmd=ffff0003baf83000  and pmd+offset=ffff0003baf831c8  and pte=ffff0003baf82000 and pmdval=3faf82003
+Oct 20 23:58:15 ubuntu kernel: [  140.356268] ------PTREPL: set_pmd done------
+Oct 20 23:58:15 ubuntu kernel: [  140.356630] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.357001] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.357471] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.357839] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.358309] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.358676] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.359207] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.359589] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.360061] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.360429] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.360899] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.361265] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.361747] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.362114] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.362581] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.362999] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.363476] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.363849] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.364317] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.364684] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.365153] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.365521] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.365989] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.366358] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.366865] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.367240] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.367717] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.368084] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.368556] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.368924] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.369395] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.369762] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.370248] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.370616] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.371149] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.371522] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.372000] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.372365] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.372833] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.373199] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.373662] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.374025] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.374491] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.374901] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.375376] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.375751] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.376218] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.376584] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.377050] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.377418] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.377886] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.378252] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.378738] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.379172] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.379666] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.380033] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.380501] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.380868] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.381334] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.381700] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.382166] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.382531] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.383058] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.383437] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.383914] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.384279] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.384745] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.385111] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.385578] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.385943] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.386410] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.386921] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.387443] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.387849] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.388358] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.388753] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.389258] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.389656] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.390161] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.390563] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.391124] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.391528] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.392051] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.392449] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.392958] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.393355] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.393861] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.394258] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.394850] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.395262] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.395784] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.396186] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.396698] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.397100] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.397613] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.398014] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.398531] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.398981] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.399458] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.399832] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.400299] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.400666] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.401133] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.401500] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.401969] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.402336] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.402866] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.403276] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.403799] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.404209] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.404718] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.405116] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.405624] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.406023] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.406534] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.406974] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.407495] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.407904] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.408413] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.408811] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.409320] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.409719] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.410228] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.410627] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.411203] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.411623] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.412136] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.412538] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.413047] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.413448] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.413958] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.414359] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.414922] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.415332] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.415847] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.416242] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.416748] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.417141] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.417646] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.418039] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.418542] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.419036] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.419511] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.419892] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.420362] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.420728] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.421196] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.421562] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.422029] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.422395] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.422907] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.423286] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.423762] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.424128] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.424598] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.424964] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.425430] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.425796] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.426262] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.426626] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.427160] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.427538] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.428031] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.428396] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.428865] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.429233] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.429701] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.430067] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.430534] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.430944] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.431453] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.431854] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.432353] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.432746] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.433249] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.433644] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.434146] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.434541] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.435094] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.435495] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.436021] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.436414] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.436916] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.437309] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.437810] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.438204] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.438709] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.439167] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.439691] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.440083] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.440585] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.440976] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.441478] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.441870] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.442372] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.442858] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.443370] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.443789] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.444292] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.444684] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.445185] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.445578] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.446082] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.446476] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.447046] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.447448] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.447962] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.448354] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.448856] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.449250] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.449752] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.450145] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.450649] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.451093] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.451613] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.452043] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.452544] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.452937] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.453438] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.453830] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.454329] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.454722] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.455299] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.455711] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.456216] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.456610] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.457113] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.457506] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.458007] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.458399] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.458947] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.459352] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.459865] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.460275] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.460777] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.461172] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.461672] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.462065] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.462565] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.463062] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.463582] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.463977] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.464480] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.464874] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.465375] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.465768] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.466269] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.466663] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.467221] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.467635] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.468137] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.468528] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.469082] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.469447] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.469913] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.470278] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.470743] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.471167] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.471653] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.472019] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.472486] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.472853] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.473320] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.473685] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.474152] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.474518] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.475035] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.475410] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.475889] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.476257] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.476723] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.477106] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.477573] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.477938] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.478406] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.478841] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.479322] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.479699] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.480169] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.480537] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.481008] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.481376] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.481845] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.482211] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.482679] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.483100] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.483582] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.483950] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.484417] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.484783] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.485249] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.485616] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.486083] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.486453] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.486965] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.487341] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.487816] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.488185] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.488656] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.489025] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.489493] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.489860] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.490332] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.490699] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.491228] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.491612] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.492085] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.492454] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.492932] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.493304] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.493792] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.494161] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.494628] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.495054] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.495532] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.495906] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.496373] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.496739] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.497207] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.497576] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.498043] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.498411] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.498923] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.499297] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.499777] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.500146] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.500614] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.500982] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.501451] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.501820] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.502304] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.502670] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.503199] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.503581] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.504047] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.504413] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.504880] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.505246] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.505715] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.506083] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.506551] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.506968] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.507448] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.507823] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.508288] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.508653] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.509119] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.509485] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.509954] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.510321] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.510846] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.511222] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.511697] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.512064] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.512532] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.512900] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.513370] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.513737] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.514207] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.514574] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.515093] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.515467] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.515940] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.516306] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.516775] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.517140] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.517607] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.517972] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.518441] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.518863] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.519342] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.519714] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.520183] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.520551] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.521020] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.521388] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.521857] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.522225] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.522693] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.523112] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.523688] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.524088] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.524598] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.524998] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.525507] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.525908] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.526419] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.526872] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.527386] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.527790] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.528294] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.528690] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.529194] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.529588] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.530094] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.530490] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.531045] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.531452] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.531964] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.532359] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.532868] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.533263] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.533767] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.534164] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.534668] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.535133] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.535652] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.536048] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.536552] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.536947] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.537448] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.537842] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.538344] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.538739] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.539315] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.539725] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.540230] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.540624] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.541129] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.541524] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.542027] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.542422] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.542989] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.543393] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.543902] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.544297] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.544800] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.545197] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.545700] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.546095] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.546599] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.547048] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.547561] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.547962] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.548465] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.548858] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.549362] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.549755] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.550260] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.550655] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.551229] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.551647] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.552172] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.552568] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.553073] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.553470] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.553976] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.554371] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.554920] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.555324] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.555839] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.556238] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.556744] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.557140] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.557645] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.558040] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.558546] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.559005] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.559481] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.559855] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.560321] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.560688] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.561154] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.561521] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.561988] ------PTREPL: set_pte start------
+Oct 20 23:58:15 ubuntu kernel: [  140.562354] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:15 ubuntu kernel: [  140.562866] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.563239] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.563715] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.564081] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.564547] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.564914] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.565382] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.565751] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.566219] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.566585] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.567109] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.567485] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.567964] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.568331] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.568802] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.569168] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.569637] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.570004] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.570472] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.570885] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.571357] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.571732] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.572198] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.572564] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.573032] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.573398] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.573866] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.574231] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.574698] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.575123] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.575609] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.575974] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.576441] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.576807] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.577275] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.577641] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.578110] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.578476] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.578983] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.579363] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.579838] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.580206] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.580675] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.581043] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.581512] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.581879] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.582348] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.582714] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.583269] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.583655] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.584123] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.584490] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.584956] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.585322] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.585791] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.586158] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.586625] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.587041] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.587521] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.587893] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.588360] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.588726] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.589193] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.589561] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.590029] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.590395] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.590903] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.591278] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.591771] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.592138] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.592605] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.592971] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.593438] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.593811] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.594281] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.594649] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.595172] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.595548] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.596024] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.596392] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.596860] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.597228] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.597695] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.598060] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.598527] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.598933] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.599409] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.599797] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.600266] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.600632] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.601101] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.601467] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.601933] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.602300] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.602850] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.603228] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.603700] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.604068] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.604538] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.604904] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.605373] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.605741] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.606210] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.606576] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.607103] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.607506] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.608018] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.608427] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.608929] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.609324] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.609829] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.610223] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.610726] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.611181] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.611703] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.612109] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.612613] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.613008] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.613510] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.613904] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.614408] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.614849] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.615367] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.615771] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.616276] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.616684] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.617188] PTREP: pmd_idx = 58，and pmd=ffff0004d5ba01d0  and pmd[58]=4d5a65003
+Oct 20 23:58:16 ubuntu kernel: [  140.617863] pgtbl_repl_prepare_replication:1018 pmd[58]'s pte=ffff000495a65000..ffff000495a65fff
+Oct 20 23:58:16 ubuntu kernel: [  140.618659] pgtbl_repl_prepare_replication:1019 1 pfn=4d5a65   2 pfn=4d5a65
+Oct 20 23:58:16 ubuntu kernel: [  140.619370] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff000495a65000 and new pagep = ffff0003baf81000
+Oct 20 23:58:16 ubuntu kernel: [  140.620284] ------PTREPL: set_pmd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.620677] ------ 1 . page_pmd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.621180] PTREP: set_pmd offset=1d0 and node0 origin pmd=ffff0003baf83000  and pmd+offset=ffff0003baf831d0  and pte=ffff0003baf81000 and pmdval=3faf81003
+Oct 20 23:58:16 ubuntu kernel: [  140.622428] ------PTREPL: set_pmd done------
+Oct 20 23:58:16 ubuntu kernel: [  140.622857] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.623263] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.623772] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.624168] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.624671] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.625080] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.625586] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.625980] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.626484] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.626923] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.627440] PTREP: pud_idx = 511，and pud=ffff0003b3288ff8  and pud[511]=3fafb9003
+Oct 20 23:58:16 ubuntu kernel: [  140.628141] pgtbl_repl_prepare_replication:998 pud[511]'s pmd=ffff0003bafb9000..ffff0003bafb9fff
+Oct 20 23:58:16 ubuntu kernel: [  140.628933] pgtbl_repl_prepare_replication:999 1 pfn=3fafb9   2 pfn=3fafb9
+Oct 20 23:58:16 ubuntu kernel: [  140.629553] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003bafb9000 and new pagep = ffff0003baf80000
+Oct 20 23:58:16 ubuntu kernel: [  140.630448] ------PTREPL: set_pud start------
+Oct 20 23:58:16 ubuntu kernel: [  140.630883] ------ 1 . page_pud->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.631400] PTREP: set_pud offset=ff8 and node0 origin pud=ffff0003baf84000  and pud+offset=ffff0003baf84ff8  and pmd=ffff0003baf80000 and pudval=3faf80003
+Oct 20 23:58:16 ubuntu kernel: [  140.632664] ------PTREPL: set_pud done------
+Oct 20 23:58:16 ubuntu kernel: [  140.633050] PTREP: pmd_idx = 113，and pmd=ffff0003bafb9388  and pmd[113]=3fafb3003
+Oct 20 23:58:16 ubuntu kernel: [  140.633757] pgtbl_repl_prepare_replication:1018 pmd[113]'s pte=ffff0003bafb3000..ffff0003bafb3fff
+Oct 20 23:58:16 ubuntu kernel: [  140.634560] pgtbl_repl_prepare_replication:1019 1 pfn=3fafb3   2 pfn=3fafb3
+Oct 20 23:58:16 ubuntu kernel: [  140.635266] [mitosis] __pgtable_repl_alloc_one origin pagep=ffff0003bafb3000 and new pagep = ffff0003baf7f000
+Oct 20 23:58:16 ubuntu kernel: [  140.636181] ------PTREPL: set_pmd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.636578] ------ 1 . page_pmd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.637084] PTREP: set_pmd offset=388 and node0 origin pmd=ffff0003baf80000  and pmd+offset=ffff0003baf80388  and pte=ffff0003baf7f000 and pmdval=3faf7f003
+Oct 20 23:58:16 ubuntu kernel: [  140.638340] ------PTREPL: set_pmd done------
+Oct 20 23:58:16 ubuntu kernel: [  140.638729] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.639189] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.639669] ------PTREPL: set_pte start------
+Oct 20 23:58:16 ubuntu kernel: [  140.640035] ------ 1 . page_pte->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.640503] ===================================== end of a page
+Oct 20 23:58:16 ubuntu kernel: [  140.641001] pgtbl_repl_prepare_replication:1045 all: pud_num=4, pmd_num=5, pte_num=315
+Oct 20 23:58:16 ubuntu kernel: [  140.641676] PTREP: Called pgtbl_repl_prepare_replication  done
+Oct 20 23:58:16 ubuntu kernel: [  140.642163] [mitosis] pgtable replication enabled for mm=ffff0003ba6c4000.
+Oct 20 23:58:16 ubuntu kernel: [  140.642740] [mitosis] pgtable replication err=0.
+Oct 20 23:58:16 ubuntu kernel: [  140.643349] ------PTREPL: set_pmd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.643755] ------ 1 . page_pmd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.644226] PTREP: set_pmd  origin pmd=ffff0003b781e620  and pmdval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.644768] PTREP: Called pgtable_repl_set_pmd  !page_te 
+Oct 20 23:58:16 ubuntu kernel: [  140.645226] ------PTREPL: set_pud start------
+Oct 20 23:58:16 ubuntu kernel: [  140.645594] ------ 1 . page_pud->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.646062] PTREP: set_pud  origin pud=ffff0004d54d6558  and pudval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.646603] PTREP: Called pgtable_repl_set_pud  !page_pmd 
+Oct 20 23:58:16 ubuntu kernel: [  140.647147] ------PTREPL: set_pmd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.647522] ------ 1 . page_pmd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.648006] PTREP: set_pmd  origin pmd=ffff0004d26871e0  and pmdval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.648547] PTREP: Called pgtable_repl_set_pmd  !page_te 
+Oct 20 23:58:16 ubuntu kernel: [  140.649002] ------PTREPL: set_pud start------
+Oct 20 23:58:16 ubuntu kernel: [  140.649371] ------ 1 . page_pud->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.649838] PTREP: set_pud  origin pud=ffff0004d54d6560  and pudval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.650475] PTREP: Called pgtable_repl_set_pud  !page_pmd 
+Oct 20 23:58:16 ubuntu kernel: [  140.651102] ------PTREPL: set_pgd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.651556] ------ 1 . page_pgd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.652143] PTREP: set_pgd  origin pgd=ffff0004d3c00aa8  and pgdval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.652795] PTREP: Called pgtable_repl_set_pgd  !page_pud 
+Oct 20 23:58:16 ubuntu kernel: [  140.653352] ------PTREPL: set_pgd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.653795] ------ 1 . page_pgd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.654361] PTREP: set_pgd  origin pgd=ffff0004d3c00aa8  and pgdval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.655093] PTREP: Called pgtable_repl_set_pgd  !page_pud 
+Oct 20 23:58:16 ubuntu kernel: [  140.655722] ------PTREPL: set_pmd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.656204] ------ 1 . page_pmd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.656812] PTREP: set_pmd  origin pmd=ffff0004d5ba01c8  and pmdval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.657511] PTREP: Called pgtable_repl_set_pmd  !page_te 
+Oct 20 23:58:16 ubuntu kernel: [  140.658099] ------PTREPL: set_pmd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.658595] ------ 1 . page_pmd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.659150] PTREP: set_pmd  origin pmd=ffff0004d5ba01d0  and pmdval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.659750] PTREP: Called pgtable_repl_set_pmd  !page_te 
+Oct 20 23:58:16 ubuntu kernel: [  140.660238] ------PTREPL: set_pud start------
+Oct 20 23:58:16 ubuntu kernel: [  140.660631] ------ 1 . page_pud->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.661135] PTREP: set_pud  origin pud=ffff0003b3288ff0  and pudval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.661714] PTREP: Called pgtable_repl_set_pud  !page_pmd 
+Oct 20 23:58:16 ubuntu kernel: [  140.662211] ------PTREPL: set_pmd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.662605] ------ 1 . page_pmd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.663160] PTREP: set_pmd  origin pmd=ffff0003bafb9388  and pmdval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.663760] PTREP: Called pgtable_repl_set_pmd  !page_te 
+Oct 20 23:58:16 ubuntu kernel: [  140.664253] ------PTREPL: set_pud start------
+Oct 20 23:58:16 ubuntu kernel: [  140.664644] ------ 1 . page_pud->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.665145] PTREP: set_pud  origin pud=ffff0003b3288ff8  and pudval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.665725] PTREP: Called pgtable_repl_set_pud  !page_pmd 
+Oct 20 23:58:16 ubuntu kernel: [  140.666220] ------PTREPL: set_pgd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.666612] ------ 1 . page_pgd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.667185] PTREP: set_pgd  origin pgd=ffff0004d3c00ff8  and pgdval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.667784] PTREP: Called pgtable_repl_set_pgd  !page_pud 
+Oct 20 23:58:16 ubuntu kernel: [  140.668286] ------PTREPL: set_pgd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.668686] ------ 1 . page_pgd->replica_node_id = -1------
+Oct 20 23:58:16 ubuntu kernel: [  140.669193] PTREP: set_pgd  origin pgd=ffff0004d3c00ff8  and pgdval=0
+Oct 20 23:58:16 ubuntu kernel: [  140.669774] PTREP: Called pgtable_repl_set_pgd  !page_pud 
+Oct 20 23:58:16 ubuntu kernel: [  140.904488] ------PTREPL: free pgd start------
+Oct 20 23:58:16 ubuntu kernel: [  140.905005] [mitosis] pgtable_repl_pgd_free mm->pgd=ffff0004d3c00000.
+Oct 20 23:58:16 ubuntu kernel: [  140.905591] ------PTREPL: free pgd done------
+Oct 20 23:58:53 ubuntu systemd[1]: Started Session 4 of user huawei.
