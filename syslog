@@ -5743,3 +5743,4 @@ Oct 24 17:23:29 ubuntu systemd-resolved[939]: Using degraded feature set (TCP) f
 Oct 24 17:24:00 ubuntu systemd-resolved[939]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
 Oct 24 17:24:42 ubuntu systemd-resolved[939]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
 Oct 24 17:34:44 ubuntu systemd[1]: Started Session 4 of user huawei.
+Oct 24 17:36:10 ubuntu systemd[1]: Started Session 5 of user huawei.
