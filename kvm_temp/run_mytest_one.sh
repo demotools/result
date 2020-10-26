@@ -217,6 +217,7 @@ launch_benchmark_config()
 	$LAUNCH_CMD > /dev/null 2>&1 &
 	BENCHMARK_PID=$!
 	echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready"
+        logger "Waiting for benchmark: to be ready"
 	while [ ! -f /tmp/alloctest-bench.ready ]; do
 		sleep 0.1
 	done
@@ -228,6 +229,7 @@ launch_benchmark_config()
 	PERF_PID=$!
 	echo -e "\e[0mStart perf:Pid =  $PERF_PID "
 	echo -e "\e[0mWaiting for benchmark to be done"
+        logger "Waiting for benchmark to be done"
 	while [ ! -f /tmp/alloctest-bench.done ]; do
 		sleep 0.1
 	done
@@ -238,6 +240,7 @@ launch_benchmark_config()
 	echo "Execution Time (seconds): $DURATION" >> $OUTFILE
 	echo "****success****" >> $OUTFILE
 	echo "$BENCHMARK : $CONFIG completed."
+        logger "completed."
         echo ""
 	killall bench_stream &>/dev/null
 }
