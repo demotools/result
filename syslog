@@ -2021,3 +2021,4 @@ Nov 25 15:17:01 ubuntu CRON[1659]: (root) CMD (   cd / && run-parts --report /et
 Nov 25 15:27:40 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
 Nov 25 15:27:41 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
 Nov 25 15:47:46 ubuntu systemd[1]: Started Session 4 of user huawei.
+Nov 25 15:48:11 ubuntu systemd[1]: Started Session 5 of user huawei.
