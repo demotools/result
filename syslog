@@ -2463,3 +2463,7 @@ Nov 25 16:40:44 ubuntu kernel: [  260.145728] Page table allocation set to norma
 Nov 25 16:40:44 ubuntu kernel: [  260.153927] PROCFS: Command ot drain the pgtable cache
 Nov 25 16:40:46 ubuntu kernel: [  262.640873] Page table allocation set to normal behavior
 Nov 25 16:40:46 ubuntu kernel: [  262.650842] PROCFS: Command ot drain the pgtable cache
+Nov 25 16:45:19 ubuntu systemd-resolved[2338]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
+Nov 25 16:45:38 ubuntu systemd-resolved[2338]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
+Nov 25 16:51:49 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Nov 25 16:51:49 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
