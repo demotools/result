@@ -1,8 +1,0 @@
-/home/huawei/result/bin/numactl /home/huawei/result/bin/bench_hashjoin_mt
-# started on Wed Nov 25 16:40:46 2020
-
-21726320561,,cycles,8393688870,100.00,,
-2455114465,,dTLB-loads,8368810510,100.00,,
-150632090,,dTLB-load-misses,8345168640,100.00,6.14,of all dTLB cache hits
-Execution Time (seconds): 1
-****success****

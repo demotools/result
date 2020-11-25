@@ -2470,3 +2470,7 @@ Nov 25 16:51:49 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
 Nov 25 17:01:22 ubuntu systemd[1]: Started Run anacron jobs.
 Nov 25 17:01:22 ubuntu anacron[4438]: Anacron 2.3 started on 2020-11-25
 Nov 25 17:01:22 ubuntu anacron[4438]: Normal exit (0 jobs run)
+Nov 25 17:07:01 ubuntu kernel: [ 1837.557168] Page table allocation set to normal behavior
+Nov 25 17:07:01 ubuntu kernel: [ 1837.565253] PROCFS: Command ot drain the pgtable cache
+Nov 25 17:07:03 ubuntu kernel: [ 1839.780104] Page table allocation set to normal behavior
+Nov 25 17:07:03 ubuntu kernel: [ 1839.788090] PROCFS: Command ot drain the pgtable cache
