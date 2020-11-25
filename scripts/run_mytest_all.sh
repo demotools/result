@@ -21,7 +21,7 @@ ROOT=$(dirname `readlink -f "$0"`)
 BENCHMARKS="btree hashjoin"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
-CONFIGS="F"
+CONFIGS="FM"
 
 for bench in $BENCHMARKS; do
 	for config in $CONFIGS; do

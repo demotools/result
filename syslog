@@ -2490,3 +2490,18 @@ Nov 25 17:09:03 ubuntu kernel: [ 1959.171065] Page table allocation set to norma
 Nov 25 17:09:03 ubuntu kernel: [ 1959.177488] PROCFS: Command ot drain the pgtable cache
 Nov 25 17:09:05 ubuntu kernel: [ 1961.560663] Page table allocation set to normal behavior
 Nov 25 17:09:05 ubuntu kernel: [ 1961.567836] PROCFS: Command ot drain the pgtable cache
+Nov 25 17:11:22 ubuntu kernel: [ 2098.285649] Page table allocation set to fixed on node 0
+Nov 25 17:11:22 ubuntu kernel: [ 2098.286791] [mitosis] pgd_alloc: pid = 6186
+Nov 25 17:11:22 ubuntu kernel: [ 2098.286794] [mitosis] pgd_alloc for mm=ffff0027d0ee3800 and mm->pgd =ffff0027af494000.
+Nov 25 17:11:22 ubuntu kernel: [ 2098.286796] PTREPL: set state to deactivated.
+Nov 25 17:11:22 ubuntu kernel: [ 2098.293435] PROCFS: Command ot drain the pgtable cache
+Nov 25 17:11:22 ubuntu kernel: [ 2098.300444] PROCFS: Command ot populate the pgtable cache
+Nov 25 17:11:22 ubuntu kernel: [ 2098.300446] PGREPL: populating pgtable cache with 1100000 tables per node
+Nov 25 17:11:22 ubuntu kernel: [ 2098.300447] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Nov 25 17:11:23 ubuntu kernel: [ 2098.985164] PGREPL: node[0] populated with 1100000  tables
+Nov 25 17:11:23 ubuntu kernel: [ 2098.985166] PGREPL: populating pgtable cache node[1] with 1100000 tables
+Nov 25 17:11:24 ubuntu kernel: [ 2099.959205] PGREPL: node[1] populated with 1100000  tables
+Nov 25 17:11:24 ubuntu kernel: [ 2099.959207] PGREPL: populating pgtable cache node[2] with 1100000 tables
+Nov 25 17:11:25 ubuntu kernel: [ 2101.224564] PGREPL: node[2] populated with 1100000  tables
+Nov 25 17:11:25 ubuntu kernel: [ 2101.224567] PGREPL: populating pgtable cache node[3] with 1100000 tables
+Nov 25 17:11:26 ubuntu kernel: [ 2102.657250] PGREPL: node[3] populated with 1100000  tables
