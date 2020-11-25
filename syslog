@@ -2505,3 +2505,16 @@ Nov 25 17:11:24 ubuntu kernel: [ 2099.959207] PGREPL: populating pgtable cache n
 Nov 25 17:11:25 ubuntu kernel: [ 2101.224564] PGREPL: node[2] populated with 1100000  tables
 Nov 25 17:11:25 ubuntu kernel: [ 2101.224567] PGREPL: populating pgtable cache node[3] with 1100000 tables
 Nov 25 17:11:26 ubuntu kernel: [ 2102.657250] PGREPL: node[3] populated with 1100000  tables
+Nov 25 17:16:40 ubuntu kernel: [ 2416.781369] Page table allocation set to fixed on node 0
+Nov 25 17:16:40 ubuntu kernel: [ 2416.789567] PROCFS: Command ot drain the pgtable cache
+Nov 25 17:16:41 ubuntu kernel: [ 2417.750257] PROCFS: Command ot populate the pgtable cache
+Nov 25 17:16:41 ubuntu kernel: [ 2417.750259] PGREPL: populating pgtable cache with 1100000 tables per node
+Nov 25 17:16:41 ubuntu kernel: [ 2417.750261] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Nov 25 17:16:42 ubuntu kernel: [ 2418.431195] PGREPL: node[0] populated with 1100000  tables
+Nov 25 17:16:42 ubuntu kernel: [ 2418.431197] PGREPL: populating pgtable cache node[1] with 1100000 tables
+Nov 25 17:16:43 ubuntu kernel: [ 2419.405359] PGREPL: node[1] populated with 1100000  tables
+Nov 25 17:16:43 ubuntu kernel: [ 2419.405361] PGREPL: populating pgtable cache node[2] with 1100000 tables
+Nov 25 17:16:44 ubuntu kernel: [ 2420.671453] PGREPL: node[2] populated with 1100000  tables
+Nov 25 17:16:44 ubuntu kernel: [ 2420.671455] PGREPL: populating pgtable cache node[3] with 1100000 tables
+Nov 25 17:16:46 ubuntu kernel: [ 2422.104847] PGREPL: node[3] populated with 1100000  tables
+Nov 25 17:17:01 ubuntu CRON[6964]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
