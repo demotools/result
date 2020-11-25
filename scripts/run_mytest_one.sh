@@ -167,19 +167,19 @@ test_and_set_configs()
                         echo "ERROR setting pgtable_replication_cache to $NR_PTCACHE_PAGES"
                         exit
                 fi
-  #      else
+        else
                 # --- enable default page table allocation
-#                echo -1 | sudo tee /proc/sys/kernel/pgtable_replication > /dev/null
- #               if [ $? -ne 0 ]; then
-  #                      echo "ERROR setting pgtable_replication to -1"
-   #                     exit
-    #            fi
-     #           # --- drain page table cache
-      #          echo -1 | sudo tee /proc/sys/kernel/pgtable_replication_cache > /dev/null
-       #         if [ $? -ne 0 ]; then
-        #                echo "ERROR setting pgtable_replication to 0"
-         #               exit
-          #      fi
+                echo -1 | sudo tee /proc/sys/kernel/pgtable_replication > /dev/null
+                if [ $? -ne 0 ]; then
+                        echo "ERROR setting pgtable_replication to -1"
+                        exit
+                fi
+                # --- drain page table cache
+                echo -1 | sudo tee /proc/sys/kernel/pgtable_replication_cache > /dev/null
+                if [ $? -ne 0 ]; then
+                        echo "ERROR setting pgtable_replication to 0"
+                        exit
+                fi
         fi
 
         if [ $BENCHMARK == "xsbench" ]; then
