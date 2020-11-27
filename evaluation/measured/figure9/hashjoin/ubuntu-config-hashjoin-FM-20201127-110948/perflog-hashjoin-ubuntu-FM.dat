@@ -1,0 +1,8 @@
+/home/huawei/result/bin/numactl --pgtablerepl=3 /home/huawei/result/bin/bench_hashjoin_mt
+# started on Fri Nov 27 11:09:55 2020
+
+27094318402,,cycles,10472014670,100.00,,
+2363888424,,dTLB-loads,10449341980,100.00,,
+145145641,,dTLB-load-misses,10429129790,100.00,6.14,of all dTLB cache hits
+Execution Time (seconds): 0
+****success****
