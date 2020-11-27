@@ -168,7 +168,7 @@ test_and_set_configs()
                         exit
                 fi
         else
-		CMD_PREFIX+=" --pgtablerepl=$NODE_MAX "
+		#CMD_PREFIX+=" --pgtablerepl=$NODE_MAX "
                 # --- enable default page table allocation
                 echo -1 | sudo tee /proc/sys/kernel/pgtable_replication > /dev/null
                 if [ $? -ne 0 ]; then
