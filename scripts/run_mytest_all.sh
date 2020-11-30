@@ -23,7 +23,7 @@ ROOT=$(dirname `readlink -f "$0"`)
 BENCHMARKS="btree"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
-CONFIGS="F"
+CONFIGS="FM"
 
 for RUNTIMES in $(seq 10) 
 do
