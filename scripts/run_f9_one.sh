@@ -73,7 +73,7 @@ test_and_set_pathnames()
 	ROOT="$(dirname "$SCRIPTS")"
 	BENCHPATH=$ROOT"/bin/$BIN"
 	PERF=$ROOT"/bin/perf"
-	NUMACTL=$ROOT"/bin/numactl"
+	NUMACTL="."$ROOT"/bin/numactl"
         if [ ! -e $BENCHPATH ]; then
                 echo "Benchmark binary is missing"
                 exit
