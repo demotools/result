@@ -215,6 +215,7 @@ launch_benchmark_config()
 	echo $LAUNCH_CMD >> $OUTFILE
 	$LAUNCH_CMD > /dev/null 2>&1 &
 	BENCHMARK_PID=$!
+        echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready"
 	echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready" >> /var/log/syslog
 	while [ ! -f /tmp/alloctest-bench.ready ]; do
 		sleep 0.1
@@ -222,6 +223,7 @@ launch_benchmark_config()
 	SECONDS=0
 	$PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $BENCHMARK_PID &
 	PERF_PID=$!
+        echo -e "\e[0mWaiting for benchmark to be done"
 	echo -e "\e[0mWaiting for benchmark to be done" >> /var/log/syslog
 	while [ ! -f /tmp/alloctest-bench.done ]; do
 		sleep 0.1
@@ -232,6 +234,7 @@ launch_benchmark_config()
 	wait $BENCHMARK_PID 2>/dev/null
 	echo "Execution Time (seconds): $DURATION" >> $OUTFILE 
 	echo "****success****" >> $OUTFILE
+        echo "$BENCHMARK : $CONFIG completed."
 	echo "$BENCHMARK : $CONFIG completed." >> /var/log/syslog
         echo ""
 	killall bench_stream &>/dev/null
