@@ -24,8 +24,8 @@ XSBENCH_ARGS=" -- -p 25000000 -g 920000 "
 GRAPH500_ARGS=" -- -s 29 -e 21"
 BENCH_ARGS=""
 
-#BENCH_size="small"
-BENCH_size="large"
+BENCH_size="small"
+#BENCH_size="large"
 if [ $BENCH_size == "small" ]; then
         BTREE_ARGS=""
         HASH_ARGS=""
@@ -234,7 +234,6 @@ launch_benchmark_config()
 	wait $PERF_PID
 	wait $BENCHMARK_PID 2>/dev/null
 	echo "Execution Time (seconds): $DURATION" >> $OUTFILE 
-        echo "Execution Time (seconds): $DURATION" >> /var/log/syslog
         echo "****success****" >> /var/log/syslog
 	echo "****success****" >> $OUTFILE
         echo "$BENCHMARK : $CONFIG completed."
