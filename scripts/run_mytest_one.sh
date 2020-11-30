@@ -243,7 +243,8 @@ launch_benchmark_config()
         timeStamp=`date -d "$current" +%s`   
         #将current转换为时间戳，精确到毫秒  
         currentTimeStamp=$((timeStamp*1000+`date "+%N"`/1000000)) 
-        echo $currentTimeStamp >> /var/log/syslog
+        echo "current = "$current >> /var/log/syslog
+        echo "timestap = "$currentTimeStamp >> /var/log/syslog
         echo ""
 	killall bench_stream &>/dev/null
 }
