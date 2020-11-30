@@ -233,6 +233,8 @@ launch_benchmark_config()
 	kill -INT $PERF_PID &> /dev/null
 	wait $PERF_PID
 	wait $BENCHMARK_PID 2>/dev/null
+        echo "Execution Time (seconds): $DURATION"
+        echo "Execution Time (seconds): $DURATION" >> /var/log/syslog 
 	echo "Execution Time (seconds): $DURATION" >> $OUTFILE 
         echo "****success****" >> /var/log/syslog
 	echo "****success****" >> $OUTFILE
