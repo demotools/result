@@ -18,12 +18,14 @@ ROOT=$(dirname `readlink -f "$0"`)
 
 # List of all benchmarks to run
 #BENCHMARKS="memcached xsbench graph500 hashjoin btree canneal"
-BENCHMARKS="btree hashjoin"
+#BENCHMARKS="btree hashjoin"
+#BENCHMARKS="hashjoin"
+BENCHMARKS="btree"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
 CONFIGS="F"
 
-for RUNTIMES in $(seq 10) 
+for RUNTIMES in $(seq 20) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
