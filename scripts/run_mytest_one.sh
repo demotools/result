@@ -214,7 +214,7 @@ launch_benchmark_config()
 	killall bench_stream &>/dev/null
 	LAUNCH_CMD="$CMD_PREFIX $BENCHPATH $BENCH_ARGS"
 	echo $LAUNCH_CMD >> $OUTFILE
-	$LAUNCH_CMD #> /dev/null 2>&1 &
+	$LAUNCH_CMD > /dev/null 2>&1 &
 	BENCHMARK_PID=$!
         echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready"
 	echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready" >> /var/log/syslog

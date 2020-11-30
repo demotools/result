@@ -25,7 +25,7 @@ BENCHMARKS="btree"
 #CONFIGS="F FM FA FAM I IM"
 CONFIGS="F"
 
-for RUNTIMES in $(seq 20) 
+for RUNTIMES in $(seq 1) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
