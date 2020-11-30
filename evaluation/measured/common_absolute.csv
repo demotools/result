@@ -1,0 +1,3 @@
+Workload	Configuration	Runtime Cycles	Walk Cycles	Non-Walk Cycles
+BTree	F+M	230742905056	0	230742905056
+HashJoin	F+M	15412137168250	0	15412137168250
