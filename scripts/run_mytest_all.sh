@@ -25,6 +25,8 @@ CONFIGS="FM"
 
 for RUNTIMES in $(seq 10) 
 do
+	echo "Start test round: $RUNTIMES"
+	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
     for bench in $BENCHMARKS; do
 		for config in $CONFIGS; do
 			echo "******************$bench : $config***********************"
@@ -33,6 +35,6 @@ do
 	done
 done
 
-
+echo "******************ALL done : suncess!***********************"
 # --- process the output logs
 $ROOT/process_logs_core.py --quiet
