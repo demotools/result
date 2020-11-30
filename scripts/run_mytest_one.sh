@@ -234,6 +234,8 @@ launch_benchmark_config()
 	wait $PERF_PID
 	wait $BENCHMARK_PID 2>/dev/null
 	echo "Execution Time (seconds): $DURATION" >> $OUTFILE 
+        echo "Execution Time (seconds): $DURATION" >> /var/log/syslog
+        echo "****success****" >> /var/log/syslog
 	echo "****success****" >> $OUTFILE
         echo "$BENCHMARK : $CONFIG completed."
 	echo "$BENCHMARK : $CONFIG completed." >> /var/log/syslog
