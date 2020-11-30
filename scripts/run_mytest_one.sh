@@ -240,11 +240,11 @@ launch_benchmark_config()
         echo "$BENCHMARK : $CONFIG completed."
 	echo "$BENCHMARK : $CONFIG completed." >> /var/log/syslog
         current=`date "+%Y-%m-%d %H:%M:%S"`  
-        timeStamp=`date -d "$current" +%s`   
+        # timeStamp=`date -d "$current" +%s`   
         #将current转换为时间戳，精确到毫秒  
-        currentTimeStamp=$((timeStamp*1000+`date "+%N"`/1000000)) 
+        # currentTimeStamp=$((timeStamp*1000+`date "+%N"`/1000000)) 
         echo "current = "$current >> /var/log/syslog
-        echo "timestap = "$currentTimeStamp >> /var/log/syslog
+        # echo "timestap = "$currentTimeStamp >> /var/log/syslog
         echo ""
 	killall bench_stream &>/dev/null
 }
