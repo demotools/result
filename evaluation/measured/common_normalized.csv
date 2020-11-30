@@ -1,5 +1,0 @@
-Workload	Configuration	Walk Cycles	Non-Walk Cycles	 Norm. Perf.
-BTree	F	0.000000	1.000000	1.000000
-BTree	F+M	0.000000	0.901113	0.901113
-HashJoin	F	0.000000	1.000000	1.000000
-HashJoin	F+M	0.000000	1.070280	1.070280
