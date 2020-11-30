@@ -211,7 +211,7 @@ launch_benchmark_config()
 	rm /tmp/alloctest-bench.ready &>/dev/null
 	rm /tmp/alloctest-bench.done &> /dev/null
 	killall bench_stream &>/dev/null
-	LAUNCH_CMD=".$CMD_PREFIX $BENCHPATH $BENCH_ARGS"
+	LAUNCH_CMD="$CMD_PREFIX $BENCHPATH $BENCH_ARGS"
 	echo $LAUNCH_CMD >> $OUTFILE
 	$LAUNCH_CMD > /dev/null 2>&1 &
 	BENCHMARK_PID=$!
