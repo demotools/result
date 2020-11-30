@@ -1,0 +1,3 @@
+/home/huawei/result/bin/numactl --pgtablerepl=3 /home/huawei/result/bin/bench_btree_mt -- -n 350000000
+Execution Time (seconds): 0
+****success****
