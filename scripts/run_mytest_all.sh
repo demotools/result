@@ -25,14 +25,14 @@ CONFIGS="FM"
 
 for RUNTIMES in $(seq 10) 
 do
-    echo -e "\ehaha to be done"
-done
-
-for bench in $BENCHMARKS; do
-	for config in $CONFIGS; do
-		echo "******************$bench : $config***********************"
-		bash $ROOT/run_mytest_one.sh $bench $config
+    for bench in $BENCHMARKS; do
+		for config in $CONFIGS; do
+			echo "******************$bench : $config***********************"
+			bash $ROOT/run_mytest_one.sh $bench $config
+		done
 	done
 done
+
+
 # --- process the output logs
 $ROOT/process_logs_core.py --quiet
