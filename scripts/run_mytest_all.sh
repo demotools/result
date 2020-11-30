@@ -23,12 +23,11 @@ BENCHMARKS="btree"
 #CONFIGS="F FM FA FAM I IM"
 CONFIGS="FM"
 
-RUNTIMES=10
-
-while [ $RUNTIMES -ne 0 ]; do
-		echo -e "\ehaha to be done"
-		$RUNTIMES=$RUNTIMES-1
+for RUNTIMES in $(seq 10) 
+do
+    echo -e "\ehaha to be done"
 done
+
 for bench in $BENCHMARKS; do
 	for config in $CONFIGS; do
 		echo "******************$bench : $config***********************"
