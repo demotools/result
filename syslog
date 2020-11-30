@@ -27405,3 +27405,4 @@ Execution Time (seconds): 9
 ****success****
 btree : F completed.
 current = 2020-12-01 01:03:11
+Dec  1 01:03:32 ubuntu systemd-resolved[2403]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 8.8.8.8.
