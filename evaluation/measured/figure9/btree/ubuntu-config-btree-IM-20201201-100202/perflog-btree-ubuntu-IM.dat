@@ -1,8 +1,0 @@
-/home/huawei/result/bin/numactl --interleave=3 --pgtablerepl=3 /home/huawei/result/bin/bench_btree_mt -- -n 350000000 -l 50000000
-# started on Tue Dec  1 10:03:40 2020
-
-1386054925862,,cycles,533282376830,100.00,,
-1356163081,,dTLB-loads,533115597220,100.00,,
-7389829,,dTLB-load-misses,532933929200,100.00,0.54,of all dTLB cache hits
-Execution Time (seconds): 9
-****success****
