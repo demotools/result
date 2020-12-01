@@ -224,8 +224,9 @@ launch_benchmark_config()
 	SECONDS=0
 	$PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $BENCHMARK_PID &
 	PERF_PID=$!
-        echo -e "\e[0mWaiting for benchmark to be done"
-	echo -e "\e[0mWaiting for benchmark to be done" >> /var/log/syslog
+        current=`date "+%Y-%m-%d %H:%M:%S"` 
+        echo -e "\e[0mWaiting for benchmark to be done current :$current"
+	echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
 	while [ ! -f /tmp/alloctest-bench.done ]; do
 		sleep 0.1
 	done
