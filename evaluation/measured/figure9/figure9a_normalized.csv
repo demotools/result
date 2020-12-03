@@ -1,5 +1,0 @@
-Workload	Configuration	Walk Cycles	Non-Walk Cycles	 Norm. Perf.
-BTree	F	0.000000	1.000000	1.000000
-BTree	F+M	0.000000	0.814933	0.814933
-BTree	I	0.000000	0.830374	0.830374
-BTree	I+M	0.000000	0.811905	0.811905
