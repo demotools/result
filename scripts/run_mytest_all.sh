@@ -23,10 +23,10 @@ ROOT=$(dirname `readlink -f "$0"`)
 BENCHMARKS="btree"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
-#CONFIGS="IM"
-CONFIGS="F FM I IM"
+CONFIGS="FM"
+#CONFIGS="F FM I IM"
 
-for RUNTIMES in $(seq 10) 
+for RUNTIMES in $(seq 1) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
