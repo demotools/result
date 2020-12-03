@@ -4942,3 +4942,5 @@ Execution Time (seconds): 100
 ****success****
 btree : IM completed.
 current = 2020-12-03 23:37:37
+Dec  3 23:40:24 ubuntu systemd-resolved[2285]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
+Dec  3 23:40:36 ubuntu systemd-resolved[2285]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
