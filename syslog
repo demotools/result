@@ -4178,3 +4178,52 @@ Execution Time (seconds): 29
 ****success****
 btree : IM completed.
 current = 2020-12-03 22:27:05
+Start test round: 1
+Dec  3 22:31:04 ubuntu kernel: [10624.569230] Page table allocation set to normal behavior
+Dec  3 22:31:04 ubuntu kernel: [10624.576468] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 83482 to be ready
+/home/huawei/result/bin/bench_btree_mt -- -n 350000000 -l 200000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+unknown option '?'
+</run>
+Total time: 0.000
+</benchmark>
+Start test round: 1
+Dec  3 22:40:54 ubuntu kernel: [11215.048769] Page table allocation set to normal behavior
+Dec  3 22:40:54 ubuntu kernel: [11215.054889] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 84740 to be ready
+[0mWaiting for benchmark to be done current :2020-12-03 22:41:54
+Dec  3 22:41:55 ubuntu kernel: [11275.775089] [mitosis] PTREPL: free pgd start 
+Dec  3 22:41:55 ubuntu kernel: [11275.775092] [mitosis] pgtable_repl_pgd_free freed pgd=ffff202d58489000 and mm->pgd=ffff202d58489000.
+Dec  3 22:41:55 ubuntu kernel: [11275.775095] [mitosis]------PTREPL: free pgd done------
+/home/huawei/result/bin/bench_btree_mt -- -n 350000000 -l 200000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+BTree Elements: 350000000
+Btree Fanout: 4
+Allocator: 21364 MB
+got 3 matches in 33 seconds
+</run>
+Total time: 93.18446744073709551480
+</benchmark>
+Execution Time (seconds): 33
+****success****
+btree : F completed.
+current = 2020-12-03 22:42:28
+Dec  3 22:42:28 ubuntu kernel: [11309.371785] Page table allocation set to fixed on node 0
+Dec  3 22:42:28 ubuntu kernel: [11309.378086] PROCFS: Command ot drain the pgtable cache
+Dec  3 22:42:28 ubuntu kernel: [11309.385760] PROCFS: Command ot populate the pgtable cache
+Dec  3 22:42:28 ubuntu kernel: [11309.385763] PGREPL: populating pgtable cache with 1100000 tables per node
+Dec  3 22:42:28 ubuntu kernel: [11309.385765] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Dec  3 22:42:30 ubuntu kernel: [11310.637864] PGREPL: node[0] populated with 1100000  tables
+Dec  3 22:42:30 ubuntu kernel: [11310.637869] PGREPL: populating pgtable cache node[1] with 1100000 tables
+Dec  3 22:42:31 ubuntu kernel: [11312.062347] PGREPL: node[1] populated with 1100000  tables
+Dec  3 22:42:31 ubuntu kernel: [11312.062351] PGREPL: populating pgtable cache node[2] with 1100000 tables
+Dec  3 22:42:32 ubuntu kernel: [11312.731721] PGREPL: node[2] populated with 1100000  tables
+Dec  3 22:42:32 ubuntu kernel: [11312.731724] PGREPL: populating pgtable cache node[3] with 1100000 tables
+Dec  3 22:42:33 ubuntu kernel: [11313.684681] PGREPL: node[3] populated with 1100000  tables
