@@ -6140,3 +6140,6 @@ Execution Time (seconds): 119
 ****success****
 hashjoin : IM completed.
 current = 2020-12-04 12:18:22
+Dec  4 13:01:19 ubuntu systemd[1]: Started Run anacron jobs.
+Dec  4 13:01:19 ubuntu anacron[77185]: Anacron 2.3 started on 2020-12-04
+Dec  4 13:01:19 ubuntu anacron[77185]: Normal exit (0 jobs run)
