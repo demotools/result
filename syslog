@@ -3374,3 +3374,31 @@ Execution Time (seconds): 115
 ****success****
 btree : FM completed.
 current = 2020-12-04 10:23:53
+Start test round: 1
+Dec  4 10:30:20 ubuntu kernel: [ 1822.270692] Page table allocation set to normal behavior
+Dec  4 10:30:20 ubuntu kernel: [ 1822.278073] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 11998 to be ready
+[0mWaiting for benchmark to be done current :2020-12-04 10:30:27
+Dec  4 10:31:19 ubuntu systemd[1]: Started Session 4 of user huawei.
+/home/huawei/result/bin/bench_hashjoin_mt -- -o 100000000 -i 10000000 -s 10000000 
+<benchmark exec="/home/huawei/result/bin/bench_hashjoin_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+Hashtable Size: 76MB
+Datatable Size Size: 12207MB
+Element Size: 152 MB
+Total: 13656 MB
+allocating 76 MB memory with alignment 64 
+allocating 152 MB memory with alignment 2097152 
+allocating 12207 MB memory with alignment 2097152 
+got 500000000 matches / 10000000 matches per iteration of 200000000 
+hashtable conflicts = 3678075
+Lookup time: 142.18446744073709551279
+</run>
+Total time: 148.18446744073709551484
+</benchmark>
+Execution Time (seconds): 142
+****success****
+hashjoin : F completed.
+current = 2020-12-04 10:32:50
