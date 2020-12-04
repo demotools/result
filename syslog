@@ -800,3 +800,10 @@ Dec  4 09:49:49 ubuntu systemd[29467]: Reached target Basic System.
 Dec  4 09:49:49 ubuntu systemd[29467]: Reached target Default.
 Dec  4 09:49:49 ubuntu systemd[29467]: Startup finished in 394ms.
 Dec  4 09:49:49 ubuntu systemd[1]: Started User Manager for UID 1000.
+Start test round: 1
+Dec  4 09:54:17 ubuntu kernel: [51617.673117] Page table allocation set to normal behavior
+Dec  4 09:54:17 ubuntu kernel: [51617.681369] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 29685 to be ready
+Dec  4 09:54:59 ubuntu kernel: [51659.823602] [mitosis] PTREPL: free pgd start 
+Dec  4 09:54:59 ubuntu kernel: [51659.823622] [mitosis] pgtable_repl_pgd_free freed pgd=ffff002fc81b6000 and mm->pgd=ffff002fc81b6000.
+Dec  4 09:54:59 ubuntu kernel: [51659.823657] [mitosis]------PTREPL: free pgd done------
