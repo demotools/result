@@ -30,8 +30,8 @@ if [ $BENCH_size == "small" ]; then
         BTREE_ARGS=""
         HASH_ARGS=""
 else 
-        #BTREE_ARGS=" -- -n 350000000 -l 800000000 -o 4"
-        BTREE_ARGS=" -- -n 1400000000 -l 100000000 -o 4"
+        BTREE_ARGS=" -- -n 350000000 -l 800000000 -o 4"
+        #BTREE_ARGS=" -- -n 1400000000 -l 100000000 -o 4"
         HASH_ARGS=" -- -o 100000000 -i 10000000 -s 10000000"       
 fi
 
