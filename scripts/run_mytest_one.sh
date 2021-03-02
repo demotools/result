@@ -249,6 +249,7 @@ launch_benchmark_config()
         echo "current = "$current >> /var/log/syslog
         # echo "timestap = "$currentTimeStamp >> /var/log/syslog
         echo ""
+        kill -INT $BENCHMARK_PID &> /dev/null
 	killall bench_stream &>/dev/null
 }
 
