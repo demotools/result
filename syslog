@@ -12896,3 +12896,6 @@ Execution Time (seconds): 127
 ****success****
 hashjoin : FM completed.
 current = 2021-03-03 23:02:18
+Mar  3 23:02:48 ubuntu systemd[1]: Started Run anacron jobs.
+Mar  3 23:02:48 ubuntu anacron[5065]: Anacron 2.3 started on 2021-03-03
+Mar  3 23:02:48 ubuntu anacron[5065]: Normal exit (0 jobs run)
