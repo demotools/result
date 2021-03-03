@@ -135,3 +135,258 @@ Execution Time (seconds): 218
 btree : F completed.
 current = 2021-03-03 10:14:36
 Mar  3 10:17:01 ubuntu CRON[17992]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  3 11:00:28 ubuntu systemd[1]: Started Run anacron jobs.
+Mar  3 11:00:28 ubuntu anacron[18040]: Anacron 2.3 started on 2021-03-03
+Mar  3 11:00:28 ubuntu anacron[18040]: Normal exit (0 jobs run)
+Mar  3 11:17:01 ubuntu CRON[18069]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  3 12:03:28 ubuntu systemd[1]: Started Run anacron jobs.
+Mar  3 12:03:28 ubuntu anacron[18095]: Anacron 2.3 started on 2021-03-03
+Mar  3 12:03:28 ubuntu anacron[18095]: Normal exit (0 jobs run)
+Mar  3 12:17:01 ubuntu CRON[18124]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  3 12:25:16 ubuntu systemd[1]: Stopping User Manager for UID 1000...
+Mar  3 12:25:16 ubuntu systemd[11513]: Stopped target Default.
+Mar  3 12:25:16 ubuntu systemd[11513]: Stopped target Basic System.
+Mar  3 12:25:16 ubuntu systemd[11513]: Stopped target Paths.
+Mar  3 12:25:16 ubuntu systemd[11513]: Stopped Pending report trigger for Ubuntu Report.
+Mar  3 12:25:16 ubuntu systemd[11513]: Stopped target Sockets.
+Mar  3 12:25:16 ubuntu systemd[11513]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar  3 12:25:16 ubuntu systemd[11513]: Closed D-Bus User Message Bus Socket.
+Mar  3 12:25:16 ubuntu systemd[11513]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar  3 12:25:16 ubuntu systemd[11513]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar  3 12:25:16 ubuntu systemd[11513]: Closed REST API socket for snapd user session agent.
+Mar  3 12:25:16 ubuntu systemd[11513]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar  3 12:25:16 ubuntu systemd[11513]: Stopped target Timers.
+Mar  3 12:25:16 ubuntu systemd[11513]: Closed GnuPG network certificate management daemon.
+Mar  3 12:25:16 ubuntu systemd[11513]: Reached target Shutdown.
+Mar  3 12:25:16 ubuntu systemd[11513]: Starting Exit the Session...
+Mar  3 12:25:16 ubuntu systemd[11513]: Received SIGRTMIN+24 from PID 18137 (kill).
+Mar  3 12:25:16 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Mar  3 12:25:16 ubuntu systemd[1]: Removed slice User Slice of huawei.
+Mar  3 13:01:28 ubuntu systemd[1]: Started Run anacron jobs.
+Mar  3 13:01:28 ubuntu anacron[18152]: Anacron 2.3 started on 2021-03-03
+Mar  3 13:01:28 ubuntu anacron[18152]: Normal exit (0 jobs run)
+Mar  3 13:17:02 ubuntu CRON[18175]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  3 13:35:28 ubuntu systemd[1]: Starting Message of the Day...
+Mar  3 13:35:29 ubuntu 50-motd-news[18182]:  * Introducing self-healing high availability clusters in MicroK8s.
+Mar  3 13:35:29 ubuntu 50-motd-news[18182]:    Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
+Mar  3 13:35:29 ubuntu 50-motd-news[18182]:      https://microk8s.io/high-availability
+Mar  3 13:35:29 ubuntu systemd[1]: Started Message of the Day.
+Mar  3 14:04:28 ubuntu systemd[1]: Started Run anacron jobs.
+Mar  3 14:04:28 ubuntu anacron[18253]: Anacron 2.3 started on 2021-03-03
+Mar  3 14:04:28 ubuntu anacron[18253]: Normal exit (0 jobs run)
+Mar  3 14:12:06 ubuntu systemd[1]: Created slice User Slice of huawei.
+Mar  3 14:12:06 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Mar  3 14:12:06 ubuntu systemd[1]: Started Session 28 of user huawei.
+Mar  3 14:12:06 ubuntu systemd[18275]: Started Pending report trigger for Ubuntu Report.
+Mar  3 14:12:06 ubuntu systemd[18275]: Reached target Timers.
+Mar  3 14:12:06 ubuntu systemd[18275]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar  3 14:12:06 ubuntu systemd[18275]: Listening on GnuPG network certificate management daemon.
+Mar  3 14:12:06 ubuntu systemd[18275]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar  3 14:12:06 ubuntu systemd[18275]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar  3 14:12:06 ubuntu systemd[18275]: Reached target Paths.
+Mar  3 14:12:06 ubuntu systemd[18275]: Listening on REST API socket for snapd user session agent.
+Mar  3 14:12:06 ubuntu systemd[18275]: Starting D-Bus User Message Bus Socket.
+Mar  3 14:12:06 ubuntu systemd[18275]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar  3 14:12:06 ubuntu systemd[18275]: Listening on D-Bus User Message Bus Socket.
+Mar  3 14:12:06 ubuntu systemd[18275]: Reached target Sockets.
+Mar  3 14:12:06 ubuntu systemd[18275]: Reached target Basic System.
+Mar  3 14:12:06 ubuntu systemd[18275]: Reached target Default.
+Mar  3 14:12:06 ubuntu systemd[18275]: Startup finished in 41ms.
+Mar  3 14:12:06 ubuntu systemd[1]: Started User Manager for UID 1000.
+Start test round: 1
+Mar  3 14:12:14 ubuntu kernel: [59055.844724] Page table allocation set to normal behavior
+Mar  3 14:12:14 ubuntu kernel: [59055.852702] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 18450 to be ready
+Mar  3 14:17:01 ubuntu CRON[21262]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[0mWaiting for benchmark to be done current :2021-03-03 14:19:16
+/home/huawei/result/bin/bench_btree_mt -- -n 1700000000 -l 1800000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+BTree Elements: 1700000000
+Btree Fanout: 4
+Allocator: 103761 MB
+got 3 matches in 221 seconds
+</run>
+Total time: 643.18446744073709551215
+</benchmark>
+Execution Time (seconds): 221
+****success****
+btree : F completed.
+current = 2021-03-03 14:23:04
+Start test round: 1
+Mar  3 14:23:29 ubuntu kernel: [59730.077058] Page table allocation set to normal behavior
+Mar  3 14:23:29 ubuntu kernel: [59730.084336] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 24711 to be ready
+[0mWaiting for benchmark to be done current :2021-03-03 14:31:15
+/home/huawei/result/bin/bench_btree_mt -- -n 1700000000 -l 1800000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+BTree Elements: 1700000000
+Btree Fanout: 4
+Allocator: 103761 MB
+got 2 matches in 252 seconds
+</run>
+Total time: 718.035
+</benchmark>
+Execution Time (seconds): 252
+****success****
+btree : F completed.
+current = 2021-03-03 14:35:34
+Start test round: 1
+Mar  3 14:35:52 ubuntu kernel: [60472.928028] Page table allocation set to normal behavior
+Mar  3 14:35:52 ubuntu kernel: [60472.936356] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 31613 to be ready
+[0mWaiting for benchmark to be done current :2021-03-03 14:43:48
+/home/huawei/result/bin/bench_btree_mt -- -n 1700000000 -l 1800000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+BTree Elements: 1700000000
+Btree Fanout: 4
+Allocator: 103761 MB
+got 5 matches in 242 seconds
+</run>
+Total time: 718.645
+</benchmark>
+Execution Time (seconds): 242
+****success****
+btree : F completed.
+current = 2021-03-03 14:47:57
+Start test round: 1
+Mar  3 14:50:19 ubuntu kernel: [61340.499903] Page table allocation set to normal behavior
+Mar  3 14:50:19 ubuntu kernel: [61340.513554] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 38533 to be ready
+[0mWaiting for benchmark to be done current :2021-03-03 14:57:20
+/home/huawei/result/bin/bench_btree_mt -- -n 1700000000 -l 1800000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+BTree Elements: 1700000000
+Btree Fanout: 4
+Allocator: 103761 MB
+got 2 matches in 223 seconds
+</run>
+Total time: 644.18446744073709550978
+</benchmark>
+Execution Time (seconds): 223
+****success****
+btree : F completed.
+current = 2021-03-03 15:01:09
+Mar  3 15:02:43 ubuntu systemd[1]: Started Run anacron jobs.
+Mar  3 15:02:43 ubuntu anacron[44745]: Anacron 2.3 started on 2021-03-03
+Mar  3 15:02:43 ubuntu anacron[44745]: Normal exit (0 jobs run)
+Start test round: 1
+Mar  3 15:06:13 ubuntu kernel: [62294.318471] Page table allocation set to normal behavior
+Mar  3 15:06:13 ubuntu kernel: [62294.327153] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 44815 to be ready
+[0mWaiting for benchmark to be done current :2021-03-03 15:14:04
+Mar  3 15:17:01 ubuntu CRON[51098]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+/home/huawei/result/bin/bench_btree_mt -- -n 1700000000 -l 1800000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+BTree Elements: 1700000000
+Btree Fanout: 4
+Allocator: 103761 MB
+got 0 matches in 214 seconds
+</run>
+Total time: 685.18446744073709551361
+</benchmark>
+Execution Time (seconds): 214
+****success****
+btree : F completed.
+current = 2021-03-03 15:17:45
+Start test round: 1
+Mar  3 15:18:03 ubuntu kernel: [63004.631335] Page table allocation set to normal behavior
+Mar  3 15:18:03 ubuntu kernel: [63004.638480] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 51511 to be ready
+[0mWaiting for benchmark to be done current :2021-03-03 15:25:35
+/home/huawei/result/bin/bench_btree_mt -- -n 1700000000 -l 1800000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+BTree Elements: 1700000000
+Btree Fanout: 4
+Allocator: 103761 MB
+got 2 matches in 256 seconds
+</run>
+Total time: 708.015
+</benchmark>
+Execution Time (seconds): 256
+****success****
+btree : F completed.
+current = 2021-03-03 15:29:58
+Start test round: 1
+Mar  3 15:30:27 ubuntu kernel: [63748.855368] Page table allocation set to normal behavior
+Mar  3 15:30:27 ubuntu kernel: [63748.863794] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 58329 to be ready
+[0mWaiting for benchmark to be done current :2021-03-03 15:37:35
+/home/huawei/result/bin/bench_btree_mt -- -n 1700000000 -l 1800000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+BTree Elements: 1700000000
+Btree Fanout: 4
+Allocator: 103761 MB
+got 0 matches in 248 seconds
+</run>
+Total time: 675.810
+</benchmark>
+Execution Time (seconds): 248
+****success****
+btree : F completed.
+current = 2021-03-03 15:41:50
+Start test round: 1
+Mar  3 15:48:51 ubuntu kernel: [64852.066795] Page table allocation set to normal behavior
+Mar  3 15:48:51 ubuntu kernel: [64852.075272] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 64833 to be ready
+[0mWaiting for benchmark to be done current :2021-03-03 15:55:56
+/home/huawei/result/bin/bench_btree_mt -- -n 1700000000 -l 1800000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+BTree Elements: 1700000000
+Btree Fanout: 4
+Allocator: 103761 MB
+got 3 matches in 216 seconds
+</run>
+Total time: 641.059
+</benchmark>
+Execution Time (seconds): 216
+****success****
+btree : F completed.
+current = 2021-03-03 15:59:39
+Start test round: 1
+Mar  3 16:00:44 ubuntu kernel: [65565.050575] Page table allocation set to normal behavior
+Mar  3 16:00:44 ubuntu kernel: [65565.057045] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 71096 to be ready
+Mar  3 16:04:28 ubuntu systemd[1]: Started Run anacron jobs.
+Mar  3 16:04:28 ubuntu anacron[73301]: Anacron 2.3 started on 2021-03-03
+Mar  3 16:04:28 ubuntu anacron[73301]: Normal exit (0 jobs run)
+[0mWaiting for benchmark to be done current :2021-03-03 16:07:40
+/home/huawei/result/bin/bench_btree_mt -- -n 1700000000 -l 1800000000 -o 4 
+<benchmark exec="/home/huawei/result/bin/bench_btree_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+BTree Elements: 1700000000
+Btree Fanout: 4
+Allocator: 103761 MB
+got 0 matches in 252 seconds
+</run>
+Total time: 668.678
+</benchmark>
+Execution Time (seconds): 252
+****success****
+btree : F completed.
+current = 2021-03-03 16:12:00
