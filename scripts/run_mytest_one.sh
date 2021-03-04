@@ -231,8 +231,9 @@ launch_benchmark_config()
         echo -e "\e[0mWaiting for benchmark to be done current :$current"
 	echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
 	# while [ ! -f /tmp/alloctest-bench.done ]; do
-	# 	sleep 0.1
-	# done
+        while [ -n "$BENCHMARK_PID" ]; do
+		sleep 0.1
+	done
 	DURATION=$SECONDS
 	kill -INT $PERF_PID &> /dev/null
 	wait $PERF_PID
@@ -251,7 +252,7 @@ launch_benchmark_config()
         echo "current = "$current >> /var/log/syslog
         # echo "timestap = "$currentTimeStamp >> /var/log/syslog
         echo ""
-        # kill -INT $BENCHMARK_PID &> /dev/null
+        kill -INT $BENCHMARK_PID &> /dev/null
 	killall bench_stream &>/dev/null
 }
 
