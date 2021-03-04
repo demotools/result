@@ -11940,3 +11940,46 @@ Mar  4 20:25:25 ubuntu systemd[1]: Started Session 10 of user huawei.
 Mar  4 21:01:03 ubuntu systemd[1]: Started Run anacron jobs.
 Mar  4 21:01:04 ubuntu anacron[39863]: Anacron 2.3 started on 2021-03-04
 Mar  4 21:01:04 ubuntu anacron[39863]: Normal exit (0 jobs run)
+Mar  4 21:17:01 ubuntu CRON[40071]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+Mar  4 21:54:24 ubuntu kernel: [21051.778901] Page table allocation set to normal behavior
+Mar  4 21:54:24 ubuntu kernel: [21051.787168] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 41257 to be ready
+[0mWaiting for benchmark to be done current :2021-03-04 21:54:24
+sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 96
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 131072MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 65474441 (6544922.13 per second)
+
+63939.88 MiB transferred (6391.53 MiB/sec)
+
+
+General statistics:
+    total time:                          10.0016s
+    total number of events:              65474441
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.01
+         max:                                   84.01
+         95th percentile:                        0.02
+         sum:                               813756.99
+
+Threads fairness:
+    events (avg/stddev):           682025.4271/177267.30
+    execution time (avg/stddev):   8.4766/0.30
+

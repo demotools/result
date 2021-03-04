@@ -18696,3 +18696,5 @@ Mar  4 16:48:23 ubuntu kernel: [ 2691.166541] Page table allocation set to norma
 Mar  4 16:48:23 ubuntu kernel: [ 2691.174931] PROCFS: Command ot drain the pgtable cache
 Mar  4 16:59:57 ubuntu kernel: [ 3384.620064] Page table allocation set to normal behavior
 Mar  4 16:59:57 ubuntu kernel: [ 3384.628433] PROCFS: Command ot drain the pgtable cache
+Mar  4 21:54:24 ubuntu kernel: [21051.778901] Page table allocation set to normal behavior
+Mar  4 21:54:24 ubuntu kernel: [21051.787168] PROCFS: Command ot drain the pgtable cache
