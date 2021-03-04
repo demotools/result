@@ -11983,3 +11983,169 @@ Threads fairness:
     events (avg/stddev):           682025.4271/177267.30
     execution time (avg/stddev):   8.4766/0.30
 
+Mar  4 22:00:39 ubuntu systemd[1]: Started Run anacron jobs.
+Mar  4 22:00:39 ubuntu anacron[41385]: Anacron 2.3 started on 2021-03-04
+Mar  4 22:00:39 ubuntu anacron[41385]: Normal exit (0 jobs run)
+Mar  4 22:17:01 ubuntu CRON[41413]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  4 22:57:13 ubuntu systemd[1]: Started Session 13 of user huawei.
+Start test round: 1
+Mar  4 22:57:29 ubuntu kernel: [24836.524793] Page table allocation set to normal behavior
+Mar  4 22:57:29 ubuntu kernel: [24836.534385] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 41615 to be ready
+[0mWaiting for benchmark to be done current :2021-03-04 22:57:29
+sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 96
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 131072MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 64997839 (6497845.29 per second)
+
+63474.45 MiB transferred (6345.55 MiB/sec)
+
+
+General statistics:
+    total time:                          10.0014s
+    total number of events:              64997839
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.01
+         max:                                   52.08
+         95th percentile:                        0.02
+         sum:                               805859.64
+
+Threads fairness:
+    events (avg/stddev):           677060.8229/166349.20
+    execution time (avg/stddev):   8.3944/0.33
+
+Start test round: 1
+Mar  4 22:58:59 ubuntu kernel: [24926.718072] Page table allocation set to fixed on node 0
+Mar  4 22:58:59 ubuntu kernel: [24926.719244] [mitosis] pgd_alloc: pid = 42179
+Mar  4 22:58:59 ubuntu kernel: [24926.719247] [mitosis] pgd_alloc for mm=ffff00280aca8000 and mm->pgd =ffff002fd58cd000.
+Mar  4 22:58:59 ubuntu kernel: [24926.719249] PTREPL: set state to deactivated.
+Mar  4 22:58:59 ubuntu kernel: [24926.726943] PROCFS: Command ot drain the pgtable cache
+Mar  4 22:58:59 ubuntu kernel: [24926.734481] PROCFS: Command ot populate the pgtable cache
+Mar  4 22:58:59 ubuntu kernel: [24926.734483] PGREPL: populating pgtable cache with 1100000 tables per node
+Mar  4 22:58:59 ubuntu kernel: [24926.734485] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Mar  4 22:59:00 ubuntu kernel: [24927.705442] PGREPL: node[0] populated with 1100000  tables
+Mar  4 22:59:00 ubuntu kernel: [24927.705446] PGREPL: populating pgtable cache node[1] with 1100000 tables
+Mar  4 22:59:01 ubuntu kernel: [24928.376137] PGREPL: node[1] populated with 1100000  tables
+Mar  4 22:59:01 ubuntu kernel: [24928.376139] PGREPL: populating pgtable cache node[2] with 1100000 tables
+Mar  4 22:59:02 ubuntu kernel: [24929.836980] PGREPL: node[2] populated with 1100000  tables
+Mar  4 22:59:02 ubuntu kernel: [24929.836983] PGREPL: populating pgtable cache node[3] with 1100000 tables
+Mar  4 22:59:04 ubuntu kernel: [24931.436250] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark: 42225 to be ready
+[0mWaiting for benchmark to be done current :2021-03-04 22:59:04
+Mar  4 22:59:04 ubuntu kernel: [24931.475743] [mitosis] NOTE: version = 6
+Mar  4 22:59:04 ubuntu kernel: [24931.475746] [mitosis] kernel_set_pgtlbreplpolicy: pid = 42225
+Mar  4 22:59:04 ubuntu kernel: [24931.475747] PTREP: Called pgtbl_repl_prepare_replication version 2
+Mar  4 22:59:04 ubuntu kernel: [24931.475748] [mitosis] pgtbl_repl_prepare_replication  for mm=ffff00280acbcc00.
+Mar  4 22:59:04 ubuntu kernel: [24931.475748] [mitosis]------PTREPL: alloc pgd start------
+Mar  4 22:59:04 ubuntu kernel: [24931.475749] [mitosis] nr_node_ids=4.
+Mar  4 22:59:04 ubuntu kernel: [24931.475750] [mitosis] pgd_alloc origin mm->pgd =ffff002fbcd70000.
+Mar  4 22:59:04 ubuntu kernel: [24931.475753] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff002197d96000.
+Mar  4 22:59:04 ubuntu kernel: [24931.475754] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff0029036f6000.
+Mar  4 22:59:04 ubuntu kernel: [24931.475758] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff20210b1eb000.
+Mar  4 22:59:04 ubuntu kernel: [24931.475760] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202e74fa5000.
+Mar  4 22:59:04 ubuntu kernel: [24931.475760] ------PTREPL: alloc pgd success------
+Mar  4 22:59:04 ubuntu kernel: [24931.475762] pgtbl_repl_prepare_replication:1156 pgd=ffff002fbcd70000..ffff002fbcd70fff
+Mar  4 22:59:04 ubuntu kernel: [24931.475763] PTREP: pgd_idx = 341，and pgd=ffff002fbcd70aa8  and pgd[341]=2c0ab84003
+Mar  4 22:59:04 ubuntu kernel: [24931.475765] pgtbl_repl_prepare_replication:1164 pgd[341]'s pud=ffff002c0ab84000..ffff002c0ab84fff
+Mar  4 22:59:04 ubuntu kernel: [24931.475766] pgtbl_repl_prepare_replication:1168 another func __va pud=ffff002c0ab84000..ffff002c0ab84fff
+Mar  4 22:59:04 ubuntu kernel: [24931.475767] pgtbl_repl_prepare_replication:1169 1 pfn=2c0ab84   2 pfn=2c0ab84
+Mar  4 22:59:04 ubuntu kernel: [24931.475773] [mitosis] start search pud .......
+Mar  4 22:59:04 ubuntu kernel: [24931.475775] PTREP: pud_idx = 171，and pud=ffff002c0ab84558  and pud[171]=2fbd22d003
+Mar  4 22:59:04 ubuntu kernel: [24931.475776] pgtbl_repl_prepare_replication:1188 pud[171]'s pmd=ffff002fbd22d000..ffff002fbd22dfff
+Mar  4 22:59:04 ubuntu kernel: [24931.475777] pgtbl_repl_prepare_replication:1189 1 pfn=2fbd22d   2 pfn=2fbd22d
+Mar  4 22:59:04 ubuntu kernel: [24931.475783] PTREP: pmd_idx = 7，and pmd=ffff002fbd22d038  and pmd[7]=2803562003
+Mar  4 22:59:04 ubuntu kernel: [24931.475784] pgtbl_repl_prepare_replication:1208 pmd[7]'s pte=ffff002803562000..ffff002803562fff
+Mar  4 22:59:04 ubuntu kernel: [24931.475785] pgtbl_repl_prepare_replication:1209 1 pfn=2803562   2 pfn=2803562
+Mar  4 22:59:04 ubuntu kernel: [24931.475793] PTREP: pmd_idx = 481，and pmd=ffff002fbd22df08  and pmd[481]=2fd2e26003
+Mar  4 22:59:04 ubuntu kernel: [24931.475794] pgtbl_repl_prepare_replication:1208 pmd[481]'s pte=ffff002fd2e26000..ffff002fd2e26fff
+Mar  4 22:59:04 ubuntu kernel: [24931.475795] pgtbl_repl_prepare_replication:1209 1 pfn=2fd2e26   2 pfn=2fd2e26
+Mar  4 22:59:04 ubuntu kernel: [24931.475801] ===================================== end of a page
+Mar  4 22:59:04 ubuntu kernel: [24931.475803] PTREP: pgd_idx = 511，and pgd=ffff002fbcd70ff8  and pgd[511]=2d06a70003
+Mar  4 22:59:04 ubuntu kernel: [24931.475803] pgtbl_repl_prepare_replication:1164 pgd[511]'s pud=ffff002d06a70000..ffff002d06a70fff
+Mar  4 22:59:04 ubuntu kernel: [24931.475804] pgtbl_repl_prepare_replication:1168 another func __va pud=ffff002d06a70000..ffff002d06a70fff
+Mar  4 22:59:04 ubuntu kernel: [24931.475805] pgtbl_repl_prepare_replication:1169 1 pfn=2d06a70   2 pfn=2d06a70
+Mar  4 22:59:04 ubuntu kernel: [24931.475810] [mitosis] start search pud .......
+Mar  4 22:59:04 ubuntu kernel: [24931.475812] PTREP: pud_idx = 510，and pud=ffff002d06a70ff0  and pud[510]=2fbd06a003
+Mar  4 22:59:04 ubuntu kernel: [24931.475812] pgtbl_repl_prepare_replication:1188 pud[510]'s pmd=ffff002fbd06a000..ffff002fbd06afff
+Mar  4 22:59:04 ubuntu kernel: [24931.475813] pgtbl_repl_prepare_replication:1189 1 pfn=2fbd06a   2 pfn=2fbd06a
+Mar  4 22:59:04 ubuntu kernel: [24931.475819] PTREP: pmd_idx = 317，and pmd=ffff002fbd06a9e8  and pmd[317]=2fd30a0003
+Mar  4 22:59:04 ubuntu kernel: [24931.475820] pgtbl_repl_prepare_replication:1208 pmd[317]'s pte=ffff002fd30a0000..ffff002fd30a0fff
+Mar  4 22:59:04 ubuntu kernel: [24931.475821] pgtbl_repl_prepare_replication:1209 1 pfn=2fd30a0   2 pfn=2fd30a0
+Mar  4 22:59:04 ubuntu kernel: [24931.475828] PTREP: pmd_idx = 318，and pmd=ffff002fbd06a9f0  and pmd[318]=2f1b80b003
+Mar  4 22:59:04 ubuntu kernel: [24931.475830] pgtbl_repl_prepare_replication:1208 pmd[318]'s pte=ffff002f1b80b000..ffff002f1b80bfff
+Mar  4 22:59:04 ubuntu kernel: [24931.475831] pgtbl_repl_prepare_replication:1209 1 pfn=2f1b80b   2 pfn=2f1b80b
+Mar  4 22:59:04 ubuntu kernel: [24931.475840] PTREP: pud_idx = 511，and pud=ffff002d06a70ff8  and pud[511]=2b84f45003
+Mar  4 22:59:04 ubuntu kernel: [24931.475841] pgtbl_repl_prepare_replication:1188 pud[511]'s pmd=ffff002b84f45000..ffff002b84f45fff
+Mar  4 22:59:04 ubuntu kernel: [24931.475842] pgtbl_repl_prepare_replication:1189 1 pfn=2b84f45   2 pfn=2b84f45
+Mar  4 22:59:04 ubuntu kernel: [24931.475848] PTREP: pmd_idx = 365，and pmd=ffff002b84f45b68  and pmd[365]=2903730003
+Mar  4 22:59:04 ubuntu kernel: [24931.475849] pgtbl_repl_prepare_replication:1208 pmd[365]'s pte=ffff002903730000..ffff002903730fff
+Mar  4 22:59:04 ubuntu kernel: [24931.475850] pgtbl_repl_prepare_replication:1209 1 pfn=2903730   2 pfn=2903730
+Mar  4 22:59:04 ubuntu kernel: [24931.475857] ===================================== end of a page
+Mar  4 22:59:04 ubuntu kernel: [24931.475858] pgtbl_repl_prepare_replication:1235 all: pud_num=3, pmd_num=5, pte_num=327
+Mar  4 22:59:04 ubuntu kernel: [24931.475860] PTREP: Called pgtbl_repl_prepare_replication  done
+Mar  4 22:59:04 ubuntu kernel: [24931.475861] [mitosis] pgtable replication enabled for mm=ffff00280acbcc00.
+Mar  4 22:59:04 ubuntu kernel: [24931.475861] [mitosis] pgtable replication err=0.
+Mar  4 22:59:04 ubuntu kernel: [24931.475880] [mitosis]------PTREPL: alloc pgd start------
+Mar  4 22:59:04 ubuntu kernel: [24931.475881] [mitosis] nr_node_ids=4.
+Mar  4 22:59:04 ubuntu kernel: [24931.475882] [mitosis] pgd_alloc origin mm->pgd =ffff002a88ff9000.
+Mar  4 22:59:04 ubuntu kernel: [24931.475884] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff002197d8b000.
+Mar  4 22:59:04 ubuntu kernel: [24931.475885] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff0029036eb000.
+Mar  4 22:59:04 ubuntu kernel: [24931.475887] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff20210b1e0000.
+Mar  4 22:59:04 ubuntu kernel: [24931.475888] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202e74f9a000.
+Mar  4 22:59:04 ubuntu kernel: [24931.475889] ------PTREPL: alloc pgd success------
+Mar  4 22:59:04 ubuntu kernel: [24931.476088] [mitosis] PTREPL: free pgd start 
+Mar  4 22:59:04 ubuntu kernel: [24931.476090] [mitosis] pgtable_repl_pgd_free freed pgd=ffff002fbcd70000 and mm->pgd=ffff002fbcd70000.
+Mar  4 22:59:04 ubuntu kernel: [24931.476090] [mitosis]------PTREPL: free pgd done------
+sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 96
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 131072MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 66094268 (6607023.37 per second)
+
+64545.18 MiB transferred (6452.17 MiB/sec)
+
+
+General statistics:
+    total time:                          10.0016s
+    total number of events:              66094268
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.01
+         max:                                   67.98
+         95th percentile:                        0.02
+         sum:                               804953.93
+
+Threads fairness:
+    events (avg/stddev):           688481.9583/169248.32
+    execution time (avg/stddev):   8.3849/0.34
+
