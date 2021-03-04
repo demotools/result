@@ -23,7 +23,7 @@ NR_PTCACHE_PAGES=1100000 # --- 2GB per socket
 XSBENCH_ARGS=" -- -p 25000000 -g 920000 "
 GRAPH500_ARGS=" -- -s 29 -e 21"
 BENCH_ARGS=""
-
+SYSBENCH_ARGS=" --threads=96 --memory-block-size=1k --memory-total-size=128G memory run"
 #BENCH_size="small"
 BENCH_size="large"
 if [ $BENCH_size == "small" ]; then
@@ -51,7 +51,7 @@ validate_benchmark_config()
 	CURR_CONFIG=$2
 
 	if [ $CURR_BENCH == "memcached" ] || [ $CURR_BENCH == "xsbench" ] || [ $CURR_BENCH == "graph500" ] ||
-		[ $CURR_BENCH == "hashjoin" ] || [ $CURR_BENCH == "btree" ] || [ $CURR_BENCH == "canneal" ]; then
+		[ $CURR_BENCH == "hashjoin" ] || [ $CURR_BENCH == "btree" ] || [ $CURR_BENCH == "canneal" ] || [ $CURR_BENCH == "sysbench" ]; then
 		: #echo "Benchmark: $CURR_BENCH"
 	else
 		echo "Invalid benchmark: $CURR_BENCH"
@@ -193,6 +193,8 @@ test_and_set_configs()
                 BENCH_ARGS=$BTREE_ARGS
         elif [ $BENCHMARK == "hashjoin" ]; then
                 BENCH_ARGS=$HASH_ARGS
+        elif [ $BENCHMARK == "sysbench" ]; then
+                BENCH_ARGS=$SYSBENCH_ARGS
         fi
 
 }
@@ -219,18 +221,18 @@ launch_benchmark_config()
 	BENCHMARK_PID=$!
         echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready"
 	echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready" >> /var/log/syslog
-	while [ ! -f /tmp/alloctest-bench.ready ]; do
-		sleep 0.1
-	done
+	# while [ ! -f /tmp/alloctest-bench.ready ]; do
+	# 	sleep 0.1
+	# done
 	SECONDS=0
 	$PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $BENCHMARK_PID &
 	PERF_PID=$!
         current=`date "+%Y-%m-%d %H:%M:%S"` 
         echo -e "\e[0mWaiting for benchmark to be done current :$current"
 	echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
-	while [ ! -f /tmp/alloctest-bench.done ]; do
-		sleep 0.1
-	done
+	# while [ ! -f /tmp/alloctest-bench.done ]; do
+	# 	sleep 0.1
+	# done
 	DURATION=$SECONDS
 	kill -INT $PERF_PID &> /dev/null
 	wait $PERF_PID
@@ -249,7 +251,7 @@ launch_benchmark_config()
         echo "current = "$current >> /var/log/syslog
         # echo "timestap = "$currentTimeStamp >> /var/log/syslog
         echo ""
-        kill -INT $BENCHMARK_PID &> /dev/null
+        # kill -INT $BENCHMARK_PID &> /dev/null
 	killall bench_stream &>/dev/null
 }
 

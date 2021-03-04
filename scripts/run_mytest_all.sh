@@ -20,7 +20,8 @@ ROOT=$(dirname `readlink -f "$0"`)
 #BENCHMARKS="memcached xsbench graph500 hashjoin btree canneal"
 #BENCHMARKS="btree hashjoin"
 #BENCHMARKS="hashjoin"
-BENCHMARKS="btree"
+#BENCHMARKS="btree"
+BENCHMARKS="sysbench"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
 CONFIGS="F"
