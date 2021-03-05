@@ -24,8 +24,8 @@ ROOT=$(dirname `readlink -f "$0"`)
 BENCHMARKS="sysbench"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
-#CONFIGS="F"
-CONFIGS="FM"
+CONFIGS="F"
+#CONFIGS="FM"
 #CONFIGS="I"
 #CONFIGS="IM"
 #CONFIGS="F FM I IM"
