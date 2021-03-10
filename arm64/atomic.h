@@ -23,6 +23,8 @@
 // #include <asm/cmpxchg.h>
 // #include <asm/lse.h>
 
+
+/*
 #define ATOMIC_OP(op)							\
 static inline void arch_##op(int i, atomic_t *v)			\
 {									\
@@ -170,10 +172,14 @@ static inline long arch_atomic64_dec_if_positive(atomic64_t *v)
 	arch_cmpxchg(&((v)->counter), (old), (new))
 
 #define arch_atomic_andnot			arch_atomic_andnot
+*/
+
 
 /*
  * 64-bit arch_atomic operations.
  */
+
+/*
 #define ATOMIC64_INIT				ATOMIC_INIT
 #define arch_atomic64_read			arch_atomic_read
 #define arch_atomic64_set			arch_atomic_set
@@ -232,10 +238,17 @@ static inline long arch_atomic64_dec_if_positive(atomic64_t *v)
 
 #define arch_atomic64_dec_if_positive		arch_atomic64_dec_if_positive
 
+
+
+#include "atomic-instrumented.h"
+*/
+#define arch_atomic_read(v)			READ_ONCE(v)
+#define arch_atomic_set(v, i)			WRITE_ONCE((v), (i))
+
+#define arch_atomic_cmpxchg(v, old, new) \
+	arch_cmpxchg(&(v), (old), (new))
 #define	atomic_cmpset_ptr	arch_atomic_cmpxchg
 #define	atomic_load_acq_ptr	arch_atomic_read
 #define	atomic_store_rel_ptr	arch_atomic_set
-
-#include "atomic-instrumented.h"
 
 #endif /* __ASM_ATOMIC_H */
