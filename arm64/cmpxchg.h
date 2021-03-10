@@ -9,7 +9,7 @@
 
 #include "build_bug.h"
 #include "compiler.h"
-
+#include "types.h"
 #include "barrier.h"
 #include "lse.h"
 
