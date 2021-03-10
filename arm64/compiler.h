@@ -6,7 +6,7 @@
 
 #ifndef __ASSEMBLY__
 
-#ifdef __KERNEL__
+// #ifdef __KERNEL__
 
 /*
  * Note: DISABLE_BRANCH_PROFILING can be used by special lowlevel code
@@ -289,7 +289,7 @@ unsigned long read_word_at_a_time(const void *addr)
 	__u.__val;					\
 })
 
-#endif /* __KERNEL__ */
+// #endif /* __KERNEL__ */
 
 /*
  * Force the compiler to emit 'sym' as a symbol, so that we can reference

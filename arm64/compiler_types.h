@@ -53,7 +53,7 @@ extern void __chk_io_ptr(const volatile void __iomem *);
 #define ___PASTE(a,b) a##b
 #define __PASTE(a,b) ___PASTE(a,b)
 
-#ifdef __KERNEL__
+// #ifdef __KERNEL__
 
 /* Attributes */
 #include "compiler_attributes.h"
@@ -168,7 +168,7 @@ struct ftrace_likely_data {
  */
 #define noinline_for_stack noinline
 
-#endif /* __KERNEL__ */
+// #endif /* __KERNEL__ */
 
 #endif /* __ASSEMBLY__ */
 
