@@ -76,12 +76,13 @@
 #include "types.h"
 #include "compiler.h"
 
-extern bool static_key_initialized;
+// extern bool static_key_initialized;
 
-#define STATIC_KEY_CHECK_USE(key) WARN(!static_key_initialized,		      \
-				    "%s(): static key '%pS' used before call to jump_label_init()", \
-				    __func__, (key))
+// #define STATIC_KEY_CHECK_USE(key) WARN(!static_key_initialized,		      \
+// 				    "%s(): static key '%pS' used before call to jump_label_init()", \
+// 				    __func__, (key))
 
+#define CONFIG_JUMP_LABEL
 #ifdef CONFIG_JUMP_LABEL
 
 struct static_key {
@@ -113,11 +114,12 @@ struct static_key {
 #endif	/* CONFIG_JUMP_LABEL */
 #endif /* __ASSEMBLY__ */
 
-#define CONFIG_JUMP_LABEL
+
 #ifdef CONFIG_JUMP_LABEL
 #include "jump_label_asm.h"
 
 #ifndef __ASSEMBLY__
+#define CONFIG_HAVE_ARCH_JUMP_LABEL_RELATIVE
 #ifdef CONFIG_HAVE_ARCH_JUMP_LABEL_RELATIVE
 
 struct jump_entry {

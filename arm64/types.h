@@ -90,6 +90,9 @@ typedef unsigned char u8;
 typedef unsigned short u16;
 typedef unsigned int u32;
 typedef unsigned long long u64;
+typedef __signed__ char __s8;
+typedef __signed__ short __s16;
+typedef __signed__ int __s32;
 typedef __signed__ long long s64;
 
 #ifndef __BIT_TYPES_DEFINED__
@@ -110,9 +113,9 @@ typedef u32			uint32_t;
 
 
 #if defined(__GNUC__)
-typedef u64			uint64_t;
-typedef u64			u_int64_t;
-typedef s64			int64_t;
+// typedef u64			uint64_t;
+// typedef u64			u_int64_t;
+// typedef s64			int64_t;
 #endif
 
 /* this is a special 64bit data type that is 8-byte aligned */
