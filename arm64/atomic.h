@@ -10,11 +10,11 @@
 #define __ASM_ATOMIC_H
 
 #include "compiler.h"
-#include "types.h"
+// #include "types.h"
 
 #include "barrier.h"
 #include "cmpxchg.h"
-#include "lse.h"
+// #include "lse.h"
 
 // #include <linux/compiler.h>
 // #include <linux/types.h>

@@ -27,236 +27,237 @@ asm_ops "\n"								\
 #define __LL_SC_FALLBACK(asm_ops) asm_ops
 #endif
 
-#ifndef CONFIG_CC_HAS_K_CONSTRAINT
-#define K
-#endif
+// #ifndef CONFIG_CC_HAS_K_CONSTRAINT
+// #define K
+// #endif
 
-/*
- * AArch64 UP and SMP safe atomic ops.  We use load exclusive and
- * store exclusive to ensure that these are atomic.  We may loop
- * to ensure that the update happens.
- */
+// /*
+//  * AArch64 UP and SMP safe atomic ops.  We use load exclusive and
+//  * store exclusive to ensure that these are atomic.  We may loop
+//  * to ensure that the update happens.
+//  */
 
-#define ATOMIC_OP(op, asm_op, constraint)				\
-static inline void							\
-__ll_sc_atomic_##op(int i, atomic_t *v)					\
-{									\
-	unsigned long tmp;						\
-	int result;							\
-									\
-	asm volatile("// atomic_" #op "\n"				\
-	__LL_SC_FALLBACK(						\
-"	prfm	pstl1strm, %2\n"					\
-"1:	ldxr	%w0, %2\n"						\
-"	" #asm_op "	%w0, %w0, %w3\n"				\
-"	stxr	%w1, %w0, %2\n"						\
-"	cbnz	%w1, 1b\n")						\
-	: "=&r" (result), "=&r" (tmp), "+Q" (v->counter)		\
-	: __stringify(constraint) "r" (i));				\
-}
+// #define ATOMIC_OP(op, asm_op, constraint)				\
+// static inline void							\
+// __ll_sc_atomic_##op(int i, atomic_t *v)					\
+// {									\
+// 	unsigned long tmp;						\
+// 	int result;							\
+// 									\
+// 	asm volatile("// atomic_" #op "\n"				\
+// 	__LL_SC_FALLBACK(						\
+// "	prfm	pstl1strm, %2\n"					\
+// "1:	ldxr	%w0, %2\n"						\
+// "	" #asm_op "	%w0, %w0, %w3\n"				\
+// "	stxr	%w1, %w0, %2\n"						\
+// "	cbnz	%w1, 1b\n")						\
+// 	: "=&r" (result), "=&r" (tmp), "+Q" (v->counter)		\
+// 	: __stringify(constraint) "r" (i));				\
+// }
 
-#define ATOMIC_OP_RETURN(name, mb, acq, rel, cl, op, asm_op, constraint)\
-static inline int							\
-__ll_sc_atomic_##op##_return##name(int i, atomic_t *v)			\
-{									\
-	unsigned long tmp;						\
-	int result;							\
-									\
-	asm volatile("// atomic_" #op "_return" #name "\n"		\
-	__LL_SC_FALLBACK(						\
-"	prfm	pstl1strm, %2\n"					\
-"1:	ld" #acq "xr	%w0, %2\n"					\
-"	" #asm_op "	%w0, %w0, %w3\n"				\
-"	st" #rel "xr	%w1, %w0, %2\n"					\
-"	cbnz	%w1, 1b\n"						\
-"	" #mb )								\
-	: "=&r" (result), "=&r" (tmp), "+Q" (v->counter)		\
-	: __stringify(constraint) "r" (i)				\
-	: cl);								\
-									\
-	return result;							\
-}
+// #define ATOMIC_OP_RETURN(name, mb, acq, rel, cl, op, asm_op, constraint)\
+// static inline int							\
+// __ll_sc_atomic_##op##_return##name(int i, atomic_t *v)			\
+// {									\
+// 	unsigned long tmp;						\
+// 	int result;							\
+// 									\
+// 	asm volatile("// atomic_" #op "_return" #name "\n"		\
+// 	__LL_SC_FALLBACK(						\
+// "	prfm	pstl1strm, %2\n"					\
+// "1:	ld" #acq "xr	%w0, %2\n"					\
+// "	" #asm_op "	%w0, %w0, %w3\n"				\
+// "	st" #rel "xr	%w1, %w0, %2\n"					\
+// "	cbnz	%w1, 1b\n"						\
+// "	" #mb )								\
+// 	: "=&r" (result), "=&r" (tmp), "+Q" (v->counter)		\
+// 	: __stringify(constraint) "r" (i)				\
+// 	: cl);								\
+// 									\
+// 	return result;							\
+// }
 
-#define ATOMIC_FETCH_OP(name, mb, acq, rel, cl, op, asm_op, constraint) \
-static inline int							\
-__ll_sc_atomic_fetch_##op##name(int i, atomic_t *v)			\
-{									\
-	unsigned long tmp;						\
-	int val, result;						\
-									\
-	asm volatile("// atomic_fetch_" #op #name "\n"			\
-	__LL_SC_FALLBACK(						\
-"	prfm	pstl1strm, %3\n"					\
-"1:	ld" #acq "xr	%w0, %3\n"					\
-"	" #asm_op "	%w1, %w0, %w4\n"				\
-"	st" #rel "xr	%w2, %w1, %3\n"					\
-"	cbnz	%w2, 1b\n"						\
-"	" #mb )								\
-	: "=&r" (result), "=&r" (val), "=&r" (tmp), "+Q" (v->counter)	\
-	: __stringify(constraint) "r" (i)				\
-	: cl);								\
-									\
-	return result;							\
-}
+// #define ATOMIC_FETCH_OP(name, mb, acq, rel, cl, op, asm_op, constraint) \
+// static inline int							\
+// __ll_sc_atomic_fetch_##op##name(int i, atomic_t *v)			\
+// {									\
+// 	unsigned long tmp;						\
+// 	int val, result;						\
+// 									\
+// 	asm volatile("// atomic_fetch_" #op #name "\n"			\
+// 	__LL_SC_FALLBACK(						\
+// "	prfm	pstl1strm, %3\n"					\
+// "1:	ld" #acq "xr	%w0, %3\n"					\
+// "	" #asm_op "	%w1, %w0, %w4\n"				\
+// "	st" #rel "xr	%w2, %w1, %3\n"					\
+// "	cbnz	%w2, 1b\n"						\
+// "	" #mb )								\
+// 	: "=&r" (result), "=&r" (val), "=&r" (tmp), "+Q" (v->counter)	\
+// 	: __stringify(constraint) "r" (i)				\
+// 	: cl);								\
+// 									\
+// 	return result;							\
+// }
 
-#define ATOMIC_OPS(...)							\
-	ATOMIC_OP(__VA_ARGS__)						\
-	ATOMIC_OP_RETURN(        , dmb ish,  , l, "memory", __VA_ARGS__)\
-	ATOMIC_OP_RETURN(_relaxed,        ,  ,  ,         , __VA_ARGS__)\
-	ATOMIC_OP_RETURN(_acquire,        , a,  , "memory", __VA_ARGS__)\
-	ATOMIC_OP_RETURN(_release,        ,  , l, "memory", __VA_ARGS__)\
-	ATOMIC_FETCH_OP (        , dmb ish,  , l, "memory", __VA_ARGS__)\
-	ATOMIC_FETCH_OP (_relaxed,        ,  ,  ,         , __VA_ARGS__)\
-	ATOMIC_FETCH_OP (_acquire,        , a,  , "memory", __VA_ARGS__)\
-	ATOMIC_FETCH_OP (_release,        ,  , l, "memory", __VA_ARGS__)
+// #define ATOMIC_OPS(...)							\
+// 	ATOMIC_OP(__VA_ARGS__)						\
+// 	ATOMIC_OP_RETURN(        , dmb ish,  , l, "memory", __VA_ARGS__)\
+// 	ATOMIC_OP_RETURN(_relaxed,        ,  ,  ,         , __VA_ARGS__)\
+// 	ATOMIC_OP_RETURN(_acquire,        , a,  , "memory", __VA_ARGS__)\
+// 	ATOMIC_OP_RETURN(_release,        ,  , l, "memory", __VA_ARGS__)\
+// 	ATOMIC_FETCH_OP (        , dmb ish,  , l, "memory", __VA_ARGS__)\
+// 	ATOMIC_FETCH_OP (_relaxed,        ,  ,  ,         , __VA_ARGS__)\
+// 	ATOMIC_FETCH_OP (_acquire,        , a,  , "memory", __VA_ARGS__)\
+// 	ATOMIC_FETCH_OP (_release,        ,  , l, "memory", __VA_ARGS__)
 
-ATOMIC_OPS(add, add, I)
-ATOMIC_OPS(sub, sub, J)
+// ATOMIC_OPS(add, add, I)
+// ATOMIC_OPS(sub, sub, J)
 
-#undef ATOMIC_OPS
-#define ATOMIC_OPS(...)							\
-	ATOMIC_OP(__VA_ARGS__)						\
-	ATOMIC_FETCH_OP (        , dmb ish,  , l, "memory", __VA_ARGS__)\
-	ATOMIC_FETCH_OP (_relaxed,        ,  ,  ,         , __VA_ARGS__)\
-	ATOMIC_FETCH_OP (_acquire,        , a,  , "memory", __VA_ARGS__)\
-	ATOMIC_FETCH_OP (_release,        ,  , l, "memory", __VA_ARGS__)
+// #undef ATOMIC_OPS
+// #define ATOMIC_OPS(...)							\
+// 	ATOMIC_OP(__VA_ARGS__)						\
+// 	ATOMIC_FETCH_OP (        , dmb ish,  , l, "memory", __VA_ARGS__)\
+// 	ATOMIC_FETCH_OP (_relaxed,        ,  ,  ,         , __VA_ARGS__)\
+// 	ATOMIC_FETCH_OP (_acquire,        , a,  , "memory", __VA_ARGS__)\
+// 	ATOMIC_FETCH_OP (_release,        ,  , l, "memory", __VA_ARGS__)
 
-ATOMIC_OPS(and, and, K)
-ATOMIC_OPS(or, orr, K)
-ATOMIC_OPS(xor, eor, K)
-/*
- * GAS converts the mysterious and undocumented BIC (immediate) alias to
- * an AND (immediate) instruction with the immediate inverted. We don't
- * have a constraint for this, so fall back to register.
- */
-ATOMIC_OPS(andnot, bic, )
+// ATOMIC_OPS(and, and, K)
+// ATOMIC_OPS(or, orr, K)
+// ATOMIC_OPS(xor, eor, K)
+// /*
+//  * GAS converts the mysterious and undocumented BIC (immediate) alias to
+//  * an AND (immediate) instruction with the immediate inverted. We don't
+//  * have a constraint for this, so fall back to register.
+//  */
+// ATOMIC_OPS(andnot, bic, )
 
-#undef ATOMIC_OPS
-#undef ATOMIC_FETCH_OP
-#undef ATOMIC_OP_RETURN
-#undef ATOMIC_OP
+// #undef ATOMIC_OPS
+// #undef ATOMIC_FETCH_OP
+// #undef ATOMIC_OP_RETURN
+// #undef ATOMIC_OP
 
-#define ATOMIC64_OP(op, asm_op, constraint)				\
-static inline void							\
-__ll_sc_atomic64_##op(s64 i, atomic64_t *v)				\
-{									\
-	s64 result;							\
-	unsigned long tmp;						\
-									\
-	asm volatile("// atomic64_" #op "\n"				\
-	__LL_SC_FALLBACK(						\
-"	prfm	pstl1strm, %2\n"					\
-"1:	ldxr	%0, %2\n"						\
-"	" #asm_op "	%0, %0, %3\n"					\
-"	stxr	%w1, %0, %2\n"						\
-"	cbnz	%w1, 1b")						\
-	: "=&r" (result), "=&r" (tmp), "+Q" (v->counter)		\
-	: __stringify(constraint) "r" (i));				\
-}
+// #define ATOMIC64_OP(op, asm_op, constraint)				\
+// static inline void							\
+// __ll_sc_atomic64_##op(s64 i, atomic64_t *v)				\
+// {									\
+// 	s64 result;							\
+// 	unsigned long tmp;						\
+// 									\
+// 	asm volatile("// atomic64_" #op "\n"				\
+// 	__LL_SC_FALLBACK(						\
+// "	prfm	pstl1strm, %2\n"					\
+// "1:	ldxr	%0, %2\n"						\
+// "	" #asm_op "	%0, %0, %3\n"					\
+// "	stxr	%w1, %0, %2\n"						\
+// "	cbnz	%w1, 1b")						\
+// 	: "=&r" (result), "=&r" (tmp), "+Q" (v->counter)		\
+// 	: __stringify(constraint) "r" (i));				\
+// }
 
-#define ATOMIC64_OP_RETURN(name, mb, acq, rel, cl, op, asm_op, constraint)\
-static inline long							\
-__ll_sc_atomic64_##op##_return##name(s64 i, atomic64_t *v)		\
-{									\
-	s64 result;							\
-	unsigned long tmp;						\
-									\
-	asm volatile("// atomic64_" #op "_return" #name "\n"		\
-	__LL_SC_FALLBACK(						\
-"	prfm	pstl1strm, %2\n"					\
-"1:	ld" #acq "xr	%0, %2\n"					\
-"	" #asm_op "	%0, %0, %3\n"					\
-"	st" #rel "xr	%w1, %0, %2\n"					\
-"	cbnz	%w1, 1b\n"						\
-"	" #mb )								\
-	: "=&r" (result), "=&r" (tmp), "+Q" (v->counter)		\
-	: __stringify(constraint) "r" (i)				\
-	: cl);								\
-									\
-	return result;							\
-}
+// #define ATOMIC64_OP_RETURN(name, mb, acq, rel, cl, op, asm_op, constraint)\
+// static inline long							\
+// __ll_sc_atomic64_##op##_return##name(s64 i, atomic64_t *v)		\
+// {									\
+// 	s64 result;							\
+// 	unsigned long tmp;						\
+// 									\
+// 	asm volatile("// atomic64_" #op "_return" #name "\n"		\
+// 	__LL_SC_FALLBACK(						\
+// "	prfm	pstl1strm, %2\n"					\
+// "1:	ld" #acq "xr	%0, %2\n"					\
+// "	" #asm_op "	%0, %0, %3\n"					\
+// "	st" #rel "xr	%w1, %0, %2\n"					\
+// "	cbnz	%w1, 1b\n"						\
+// "	" #mb )								\
+// 	: "=&r" (result), "=&r" (tmp), "+Q" (v->counter)		\
+// 	: __stringify(constraint) "r" (i)				\
+// 	: cl);								\
+// 									\
+// 	return result;							\
+// }
 
-#define ATOMIC64_FETCH_OP(name, mb, acq, rel, cl, op, asm_op, constraint)\
-static inline long							\
-__ll_sc_atomic64_fetch_##op##name(s64 i, atomic64_t *v)		\
-{									\
-	s64 result, val;						\
-	unsigned long tmp;						\
-									\
-	asm volatile("// atomic64_fetch_" #op #name "\n"		\
-	__LL_SC_FALLBACK(						\
-"	prfm	pstl1strm, %3\n"					\
-"1:	ld" #acq "xr	%0, %3\n"					\
-"	" #asm_op "	%1, %0, %4\n"					\
-"	st" #rel "xr	%w2, %1, %3\n"					\
-"	cbnz	%w2, 1b\n"						\
-"	" #mb )								\
-	: "=&r" (result), "=&r" (val), "=&r" (tmp), "+Q" (v->counter)	\
-	: __stringify(constraint) "r" (i)				\
-	: cl);								\
-									\
-	return result;							\
-}
+// #define ATOMIC64_FETCH_OP(name, mb, acq, rel, cl, op, asm_op, constraint)\
+// static inline long							\
+// __ll_sc_atomic64_fetch_##op##name(s64 i, atomic64_t *v)		\
+// {									\
+// 	s64 result, val;						\
+// 	unsigned long tmp;						\
+// 									\
+// 	asm volatile("// atomic64_fetch_" #op #name "\n"		\
+// 	__LL_SC_FALLBACK(						\
+// "	prfm	pstl1strm, %3\n"					\
+// "1:	ld" #acq "xr	%0, %3\n"					\
+// "	" #asm_op "	%1, %0, %4\n"					\
+// "	st" #rel "xr	%w2, %1, %3\n"					\
+// "	cbnz	%w2, 1b\n"						\
+// "	" #mb )								\
+// 	: "=&r" (result), "=&r" (val), "=&r" (tmp), "+Q" (v->counter)	\
+// 	: __stringify(constraint) "r" (i)				\
+// 	: cl);								\
+// 									\
+// 	return result;							\
+// }
 
-#define ATOMIC64_OPS(...)						\
-	ATOMIC64_OP(__VA_ARGS__)					\
-	ATOMIC64_OP_RETURN(, dmb ish,  , l, "memory", __VA_ARGS__)	\
-	ATOMIC64_OP_RETURN(_relaxed,,  ,  ,         , __VA_ARGS__)	\
-	ATOMIC64_OP_RETURN(_acquire,, a,  , "memory", __VA_ARGS__)	\
-	ATOMIC64_OP_RETURN(_release,,  , l, "memory", __VA_ARGS__)	\
-	ATOMIC64_FETCH_OP (, dmb ish,  , l, "memory", __VA_ARGS__)	\
-	ATOMIC64_FETCH_OP (_relaxed,,  ,  ,         , __VA_ARGS__)	\
-	ATOMIC64_FETCH_OP (_acquire,, a,  , "memory", __VA_ARGS__)	\
-	ATOMIC64_FETCH_OP (_release,,  , l, "memory", __VA_ARGS__)
+// #define ATOMIC64_OPS(...)						\
+// 	ATOMIC64_OP(__VA_ARGS__)					\
+// 	ATOMIC64_OP_RETURN(, dmb ish,  , l, "memory", __VA_ARGS__)	\
+// 	ATOMIC64_OP_RETURN(_relaxed,,  ,  ,         , __VA_ARGS__)	\
+// 	ATOMIC64_OP_RETURN(_acquire,, a,  , "memory", __VA_ARGS__)	\
+// 	ATOMIC64_OP_RETURN(_release,,  , l, "memory", __VA_ARGS__)	\
+// 	ATOMIC64_FETCH_OP (, dmb ish,  , l, "memory", __VA_ARGS__)	\
+// 	ATOMIC64_FETCH_OP (_relaxed,,  ,  ,         , __VA_ARGS__)	\
+// 	ATOMIC64_FETCH_OP (_acquire,, a,  , "memory", __VA_ARGS__)	\
+// 	ATOMIC64_FETCH_OP (_release,,  , l, "memory", __VA_ARGS__)
 
-ATOMIC64_OPS(add, add, I)
-ATOMIC64_OPS(sub, sub, J)
+// ATOMIC64_OPS(add, add, I)
+// ATOMIC64_OPS(sub, sub, J)
 
-#undef ATOMIC64_OPS
-#define ATOMIC64_OPS(...)						\
-	ATOMIC64_OP(__VA_ARGS__)					\
-	ATOMIC64_FETCH_OP (, dmb ish,  , l, "memory", __VA_ARGS__)	\
-	ATOMIC64_FETCH_OP (_relaxed,,  ,  ,         , __VA_ARGS__)	\
-	ATOMIC64_FETCH_OP (_acquire,, a,  , "memory", __VA_ARGS__)	\
-	ATOMIC64_FETCH_OP (_release,,  , l, "memory", __VA_ARGS__)
+// #undef ATOMIC64_OPS
+// #define ATOMIC64_OPS(...)						\
+// 	ATOMIC64_OP(__VA_ARGS__)					\
+// 	ATOMIC64_FETCH_OP (, dmb ish,  , l, "memory", __VA_ARGS__)	\
+// 	ATOMIC64_FETCH_OP (_relaxed,,  ,  ,         , __VA_ARGS__)	\
+// 	ATOMIC64_FETCH_OP (_acquire,, a,  , "memory", __VA_ARGS__)	\
+// 	ATOMIC64_FETCH_OP (_release,,  , l, "memory", __VA_ARGS__)
 
-ATOMIC64_OPS(and, and, L)
-ATOMIC64_OPS(or, orr, L)
-ATOMIC64_OPS(xor, eor, L)
-/*
- * GAS converts the mysterious and undocumented BIC (immediate) alias to
- * an AND (immediate) instruction with the immediate inverted. We don't
- * have a constraint for this, so fall back to register.
- */
-ATOMIC64_OPS(andnot, bic, )
+// ATOMIC64_OPS(and, and, L)
+// ATOMIC64_OPS(or, orr, L)
+// ATOMIC64_OPS(xor, eor, L)
+// /*
+//  * GAS converts the mysterious and undocumented BIC (immediate) alias to
+//  * an AND (immediate) instruction with the immediate inverted. We don't
+//  * have a constraint for this, so fall back to register.
+//  */
+// ATOMIC64_OPS(andnot, bic, )
 
-#undef ATOMIC64_OPS
-#undef ATOMIC64_FETCH_OP
-#undef ATOMIC64_OP_RETURN
-#undef ATOMIC64_OP
+// #undef ATOMIC64_OPS
+// #undef ATOMIC64_FETCH_OP
+// #undef ATOMIC64_OP_RETURN
+// #undef ATOMIC64_OP
 
-static inline s64
-__ll_sc_atomic64_dec_if_positive(atomic64_t *v)
-{
-	s64 result;
-	unsigned long tmp;
+// static inline s64
+// __ll_sc_atomic64_dec_if_positive(atomic64_t *v)
+// {
+// 	s64 result;
+// 	unsigned long tmp;
 
-	asm volatile("// atomic64_dec_if_positive\n"
-	__LL_SC_FALLBACK(
-"	prfm	pstl1strm, %2\n"
-"1:	ldxr	%0, %2\n"
-"	subs	%0, %0, #1\n"
-"	b.lt	2f\n"
-"	stlxr	%w1, %0, %2\n"
-"	cbnz	%w1, 1b\n"
-"	dmb	ish\n"
-"2:")
-	: "=&r" (result), "=&r" (tmp), "+Q" (v->counter)
-	:
-	: "cc", "memory");
+// 	asm volatile("// atomic64_dec_if_positive\n"
+// 	__LL_SC_FALLBACK(
+// "	prfm	pstl1strm, %2\n"
+// "1:	ldxr	%0, %2\n"
+// "	subs	%0, %0, #1\n"
+// "	b.lt	2f\n"
+// "	stlxr	%w1, %0, %2\n"
+// "	cbnz	%w1, 1b\n"
+// "	dmb	ish\n"
+// "2:")
+// 	: "=&r" (result), "=&r" (tmp), "+Q" (v->counter)
+// 	:
+// 	: "cc", "memory");
 
-	return result;
-}
+// 	return result;
+// }
+
 
 #define __CMPXCHG_CASE(w, sfx, name, sz, mb, acq, rel, cl, constraint)	\
 static inline u##sz							\
@@ -317,6 +318,7 @@ __CMPXCHG_CASE( ,  ,  mb_, 64, dmb ish,  , l, "memory", L)
 
 #undef __CMPXCHG_CASE
 
+/*
 #define __CMPXCHG_DBL(name, mb, rel, cl)				\
 static inline long							\
 __ll_sc__cmpxchg_double##name(unsigned long old1,			\
@@ -350,6 +352,8 @@ __CMPXCHG_DBL(   ,        ,  ,         )
 __CMPXCHG_DBL(_mb, dmb ish, l, "memory")
 
 #undef __CMPXCHG_DBL
+
 #undef K
+*/
 
 #endif	/* __ASM_ATOMIC_LL_SC_H */

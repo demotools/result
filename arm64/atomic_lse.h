@@ -10,6 +10,7 @@
 #ifndef __ASM_ATOMIC_LSE_H
 #define __ASM_ATOMIC_LSE_H
 
+/*
 #define ATOMIC_OP(op, asm_op)						\
 static inline void __lse_atomic_##op(int i, atomic_t *v)			\
 {									\
@@ -316,6 +317,7 @@ ATOMIC64_FETCH_OP_SUB(        , al, "memory")
 
 #undef ATOMIC64_FETCH_OP_SUB
 
+
 static inline s64 __lse_atomic64_dec_if_positive(atomic64_t *v)
 {
 	unsigned long tmp;
@@ -336,6 +338,8 @@ static inline s64 __lse_atomic64_dec_if_positive(atomic64_t *v)
 
 	return (long)v;
 }
+*/
+
 
 #define __CMPXCHG_CASE(w, sfx, name, sz, mb, cl...)			\
 static __always_inline u##sz						\
@@ -380,40 +384,40 @@ __CMPXCHG_CASE(x,  ,  mb_, 64, al, "memory")
 
 #undef __CMPXCHG_CASE
 
-#define __CMPXCHG_DBL(name, mb, cl...)					\
-static __always_inline long						\
-__lse__cmpxchg_double##name(unsigned long old1,				\
-					 unsigned long old2,		\
-					 unsigned long new1,		\
-					 unsigned long new2,		\
-					 volatile void *ptr)		\
-{									\
-	unsigned long oldval1 = old1;					\
-	unsigned long oldval2 = old2;					\
-	register unsigned long x0 asm ("x0") = old1;			\
-	register unsigned long x1 asm ("x1") = old2;			\
-	register unsigned long x2 asm ("x2") = new1;			\
-	register unsigned long x3 asm ("x3") = new2;			\
-	register unsigned long x4 asm ("x4") = (unsigned long)ptr;	\
-									\
-	asm volatile(							\
-	__LSE_PREAMBLE							\
-	"	casp" #mb "\t%[old1], %[old2], %[new1], %[new2], %[v]\n"\
-	"	eor	%[old1], %[old1], %[oldval1]\n"			\
-	"	eor	%[old2], %[old2], %[oldval2]\n"			\
-	"	orr	%[old1], %[old1], %[old2]"			\
-	: [old1] "+&r" (x0), [old2] "+&r" (x1),				\
-	  [v] "+Q" (*(unsigned long *)ptr)				\
-	: [new1] "r" (x2), [new2] "r" (x3), [ptr] "r" (x4),		\
-	  [oldval1] "r" (oldval1), [oldval2] "r" (oldval2)		\
-	: cl);								\
-									\
-	return x0;							\
-}
+// #define __CMPXCHG_DBL(name, mb, cl...)					\
+// static __always_inline long						\
+// __lse__cmpxchg_double##name(unsigned long old1,				\
+// 					 unsigned long old2,		\
+// 					 unsigned long new1,		\
+// 					 unsigned long new2,		\
+// 					 volatile void *ptr)		\
+// {									\
+// 	unsigned long oldval1 = old1;					\
+// 	unsigned long oldval2 = old2;					\
+// 	register unsigned long x0 asm ("x0") = old1;			\
+// 	register unsigned long x1 asm ("x1") = old2;			\
+// 	register unsigned long x2 asm ("x2") = new1;			\
+// 	register unsigned long x3 asm ("x3") = new2;			\
+// 	register unsigned long x4 asm ("x4") = (unsigned long)ptr;	\
+// 									\
+// 	asm volatile(							\
+// 	__LSE_PREAMBLE							\
+// 	"	casp" #mb "\t%[old1], %[old2], %[new1], %[new2], %[v]\n"\
+// 	"	eor	%[old1], %[old1], %[oldval1]\n"			\
+// 	"	eor	%[old2], %[old2], %[oldval2]\n"			\
+// 	"	orr	%[old1], %[old1], %[old2]"			\
+// 	: [old1] "+&r" (x0), [old2] "+&r" (x1),				\
+// 	  [v] "+Q" (*(unsigned long *)ptr)				\
+// 	: [new1] "r" (x2), [new2] "r" (x3), [ptr] "r" (x4),		\
+// 	  [oldval1] "r" (oldval1), [oldval2] "r" (oldval2)		\
+// 	: cl);								\
+// 									\
+// 	return x0;							\
+// }
 
-__CMPXCHG_DBL(   ,   )
-__CMPXCHG_DBL(_mb, al, "memory")
+// __CMPXCHG_DBL(   ,   )
+// __CMPXCHG_DBL(_mb, al, "memory")
 
-#undef __CMPXCHG_DBL
+// #undef __CMPXCHG_DBL
 
 #endif	/* __ASM_ATOMIC_LSE_H */
