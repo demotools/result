@@ -90,9 +90,9 @@ typedef unsigned char u8;
 typedef unsigned short u16;
 typedef unsigned int u32;
 typedef unsigned long long u64;
-typedef __signed__ char __s8;
-typedef __signed__ short __s16;
-typedef __signed__ int __s32;
+typedef __signed__ char s8;
+typedef __signed__ short s16;
+typedef __signed__ int s32;
 typedef __signed__ long long s64;
 
 #ifndef __BIT_TYPES_DEFINED__

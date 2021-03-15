@@ -106,10 +106,10 @@
 #define __CMPXCHG_CASE(name, sz)			\
 static inline u##sz __cmpxchg_case_##name##sz(volatile void *ptr,	\
 					      u##sz old,		\
-					      u##sz new)		\
+					      u##sz newvalue)		\
 {									\
 	return __lse_ll_sc_body(_cmpxchg_case_##name##sz,		\
-				ptr, old, new);				\
+				ptr, old, newvalue);				\
 }
 
 __CMPXCHG_CASE(    ,  8)
@@ -134,12 +134,12 @@ __CMPXCHG_CASE(mb_, 64)
 // #define __CMPXCHG_DBL(name)						\
 // static inline long __cmpxchg_double##name(unsigned long old1,		\
 // 					 unsigned long old2,		\
-// 					 unsigned long new1,		\
-// 					 unsigned long new2,		\
+// 					 unsigned long newvalue1,		\
+// 					 unsigned long newvalue2,		\
 // 					 volatile void *ptr)		\
 // {									\
 // 	return __lse_ll_sc_body(_cmpxchg_double##name, 			\
-// 				old1, old2, new1, new2, ptr);		\
+// 				old1, old2, newvalue1, newvalue2, ptr);		\
 // }
 
 // __CMPXCHG_DBL(   )
@@ -150,18 +150,18 @@ __CMPXCHG_CASE(mb_, 64)
 #define __CMPXCHG_GEN(sfx)						\
 static __always_inline unsigned long __cmpxchg##sfx(volatile void *ptr,	\
 					   unsigned long old,		\
-					   unsigned long new,		\
+					   unsigned long newvalue,		\
 					   int size)			\
 {									\
 	switch (size) {							\
 	case 1:								\
-		return __cmpxchg_case##sfx##_8(ptr, old, new);		\
+		return __cmpxchg_case##sfx##_8(ptr, old, newvalue);		\
 	case 2:								\
-		return __cmpxchg_case##sfx##_16(ptr, old, new);		\
+		return __cmpxchg_case##sfx##_16(ptr, old, newvalue);		\
 	case 4:								\
-		return __cmpxchg_case##sfx##_32(ptr, old, new);		\
+		return __cmpxchg_case##sfx##_32(ptr, old, newvalue);		\
 	case 8:								\
-		return __cmpxchg_case##sfx##_64(ptr, old, new);		\
+		return __cmpxchg_case##sfx##_64(ptr, old, newvalue);		\
 	default:							\
 		BUILD_BUG();						\
 	}								\

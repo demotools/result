@@ -263,7 +263,7 @@ asm_ops "\n"								\
 static inline u##sz							\
 __ll_sc__cmpxchg_case_##name##sz(volatile void *ptr,			\
 					 unsigned long old,		\
-					 u##sz new)			\
+					 u##sz newvalue)			\
 {									\
 	unsigned long tmp;						\
 	u##sz oldval;							\
@@ -282,13 +282,13 @@ __ll_sc__cmpxchg_case_##name##sz(volatile void *ptr,			\
 	"1:	ld" #acq "xr" #sfx "\t%" #w "[oldval], %[v]\n"		\
 	"	eor	%" #w "[tmp], %" #w "[oldval], %" #w "[old]\n"	\
 	"	cbnz	%" #w "[tmp], 2f\n"				\
-	"	st" #rel "xr" #sfx "\t%w[tmp], %" #w "[new], %[v]\n"	\
+	"	st" #rel "xr" #sfx "\t%w[tmp], %" #w "[newvalue], %[v]\n"	\
 	"	cbnz	%w[tmp], 1b\n"					\
 	"	" #mb "\n"						\
 	"2:")								\
 	: [tmp] "=&r" (tmp), [oldval] "=&r" (oldval),			\
 	  [v] "+Q" (*(u##sz *)ptr)					\
-	: [old] __stringify(constraint) "r" (old), [new] "r" (new)	\
+	: [old] __stringify(constraint) "r" (old), [newvalue] "r" (newvalue)	\
 	: cl);								\
 									\
 	return oldval;							\
@@ -323,8 +323,8 @@ __CMPXCHG_CASE( ,  ,  mb_, 64, dmb ish,  , l, "memory", L)
 static inline long							\
 __ll_sc__cmpxchg_double##name(unsigned long old1,			\
 				      unsigned long old2,		\
-				      unsigned long new1,		\
-				      unsigned long new2,		\
+				      unsigned long newvalue1,		\
+				      unsigned long newvalue2,		\
 				      volatile void *ptr)		\
 {									\
 	unsigned long tmp, ret;						\
@@ -342,7 +342,7 @@ __ll_sc__cmpxchg_double##name(unsigned long old1,			\
 	"	" #mb "\n"						\
 	"2:")								\
 	: "=&r" (tmp), "=&r" (ret), "+Q" (*(unsigned long *)ptr)	\
-	: "r" (old1), "r" (old2), "r" (new1), "r" (new2)		\
+	: "r" (old1), "r" (old2), "r" (newvalue1), "r" (newvalue2)		\
 	: cl);								\
 									\
 	return ret;							\

@@ -153,23 +153,23 @@ static inline long arch_atomic64_dec_if_positive(atomic64_t *v)
 #define arch_atomic_fetch_xor_release		arch_atomic_fetch_xor_release
 #define arch_atomic_fetch_xor			arch_atomic_fetch_xor
 
-#define arch_atomic_xchg_relaxed(v, new) \
-	arch_xchg_relaxed(&((v)->counter), (new))
-#define arch_atomic_xchg_acquire(v, new) \
-	arch_xchg_acquire(&((v)->counter), (new))
-#define arch_atomic_xchg_release(v, new) \
-	arch_xchg_release(&((v)->counter), (new))
-#define arch_atomic_xchg(v, new) \
-	arch_xchg(&((v)->counter), (new))
+#define arch_atomic_xchg_relaxed(v, newvalue) \
+	arch_xchg_relaxed(&((v)->counter), (newvalue))
+#define arch_atomic_xchg_acquire(v, newvalue) \
+	arch_xchg_acquire(&((v)->counter), (newvalue))
+#define arch_atomic_xchg_release(v, newvalue) \
+	arch_xchg_release(&((v)->counter), (newvalue))
+#define arch_atomic_xchg(v, newvalue) \
+	arch_xchg(&((v)->counter), (newvalue))
 
-#define arch_atomic_cmpxchg_relaxed(v, old, new) \
-	arch_cmpxchg_relaxed(&((v)->counter), (old), (new))
-#define arch_atomic_cmpxchg_acquire(v, old, new) \
-	arch_cmpxchg_acquire(&((v)->counter), (old), (new))
-#define arch_atomic_cmpxchg_release(v, old, new) \
-	arch_cmpxchg_release(&((v)->counter), (old), (new))
-#define arch_atomic_cmpxchg(v, old, new) \
-	arch_cmpxchg(&((v)->counter), (old), (new))
+#define arch_atomic_cmpxchg_relaxed(v, old, newvalue) \
+	arch_cmpxchg_relaxed(&((v)->counter), (old), (newvalue))
+#define arch_atomic_cmpxchg_acquire(v, old, newvalue) \
+	arch_cmpxchg_acquire(&((v)->counter), (old), (newvalue))
+#define arch_atomic_cmpxchg_release(v, old, newvalue) \
+	arch_cmpxchg_release(&((v)->counter), (old), (newvalue))
+#define arch_atomic_cmpxchg(v, old, newvalue) \
+	arch_cmpxchg(&((v)->counter), (old), (newvalue))
 
 #define arch_atomic_andnot			arch_atomic_andnot
 */
@@ -245,8 +245,8 @@ static inline long arch_atomic64_dec_if_positive(atomic64_t *v)
 #define arch_atomic_read(v)			READ_ONCE(v)
 #define arch_atomic_set(v, i)			WRITE_ONCE((v), (i))
 
-#define arch_atomic_cmpxchg(v, old, new) \
-	arch_cmpxchg(&(v), (old), (new))
+#define arch_atomic_cmpxchg(v, old, newvalue) \
+	arch_cmpxchg(&(v), (old), (newvalue))
 #define	atomic_cmpset_ptr	arch_atomic_cmpxchg
 #define	atomic_load_acq_ptr	arch_atomic_read
 #define	atomic_store_rel_ptr	arch_atomic_set

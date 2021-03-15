@@ -656,84 +656,84 @@ atomic_xchg_relaxed(atomic_t *v, int i)
 
 #if !defined(arch_atomic_cmpxchg_relaxed) || defined(arch_atomic_cmpxchg)
 static inline int
-atomic_cmpxchg(atomic_t *v, int old, int new)
+atomic_cmpxchg(atomic_t *v, int old, int newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
-	return arch_atomic_cmpxchg(v, old, new);
+	return arch_atomic_cmpxchg(v, old, newvalue);
 }
 #define atomic_cmpxchg atomic_cmpxchg
 #endif
 
 #if defined(arch_atomic_cmpxchg_acquire)
 static inline int
-atomic_cmpxchg_acquire(atomic_t *v, int old, int new)
+atomic_cmpxchg_acquire(atomic_t *v, int old, int newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
-	return arch_atomic_cmpxchg_acquire(v, old, new);
+	return arch_atomic_cmpxchg_acquire(v, old, newvalue);
 }
 #define atomic_cmpxchg_acquire atomic_cmpxchg_acquire
 #endif
 
 #if defined(arch_atomic_cmpxchg_release)
 static inline int
-atomic_cmpxchg_release(atomic_t *v, int old, int new)
+atomic_cmpxchg_release(atomic_t *v, int old, int newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
-	return arch_atomic_cmpxchg_release(v, old, new);
+	return arch_atomic_cmpxchg_release(v, old, newvalue);
 }
 #define atomic_cmpxchg_release atomic_cmpxchg_release
 #endif
 
 #if defined(arch_atomic_cmpxchg_relaxed)
 static inline int
-atomic_cmpxchg_relaxed(atomic_t *v, int old, int new)
+atomic_cmpxchg_relaxed(atomic_t *v, int old, int newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
-	return arch_atomic_cmpxchg_relaxed(v, old, new);
+	return arch_atomic_cmpxchg_relaxed(v, old, newvalue);
 }
 #define atomic_cmpxchg_relaxed atomic_cmpxchg_relaxed
 #endif
 
 #if defined(arch_atomic_try_cmpxchg)
 static inline bool
-atomic_try_cmpxchg(atomic_t *v, int *old, int new)
+atomic_try_cmpxchg(atomic_t *v, int *old, int newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
 	kasan_check_write(old, sizeof(*old));
-	return arch_atomic_try_cmpxchg(v, old, new);
+	return arch_atomic_try_cmpxchg(v, old, newvalue);
 }
 #define atomic_try_cmpxchg atomic_try_cmpxchg
 #endif
 
 #if defined(arch_atomic_try_cmpxchg_acquire)
 static inline bool
-atomic_try_cmpxchg_acquire(atomic_t *v, int *old, int new)
+atomic_try_cmpxchg_acquire(atomic_t *v, int *old, int newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
 	kasan_check_write(old, sizeof(*old));
-	return arch_atomic_try_cmpxchg_acquire(v, old, new);
+	return arch_atomic_try_cmpxchg_acquire(v, old, newvalue);
 }
 #define atomic_try_cmpxchg_acquire atomic_try_cmpxchg_acquire
 #endif
 
 #if defined(arch_atomic_try_cmpxchg_release)
 static inline bool
-atomic_try_cmpxchg_release(atomic_t *v, int *old, int new)
+atomic_try_cmpxchg_release(atomic_t *v, int *old, int newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
 	kasan_check_write(old, sizeof(*old));
-	return arch_atomic_try_cmpxchg_release(v, old, new);
+	return arch_atomic_try_cmpxchg_release(v, old, newvalue);
 }
 #define atomic_try_cmpxchg_release atomic_try_cmpxchg_release
 #endif
 
 #if defined(arch_atomic_try_cmpxchg_relaxed)
 static inline bool
-atomic_try_cmpxchg_relaxed(atomic_t *v, int *old, int new)
+atomic_try_cmpxchg_relaxed(atomic_t *v, int *old, int newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
 	kasan_check_write(old, sizeof(*old));
-	return arch_atomic_try_cmpxchg_relaxed(v, old, new);
+	return arch_atomic_try_cmpxchg_relaxed(v, old, newvalue);
 }
 #define atomic_try_cmpxchg_relaxed atomic_try_cmpxchg_relaxed
 #endif
@@ -1466,84 +1466,84 @@ atomic64_xchg_relaxed(atomic64_t *v, s64 i)
 
 #if !defined(arch_atomic64_cmpxchg_relaxed) || defined(arch_atomic64_cmpxchg)
 static inline s64
-atomic64_cmpxchg(atomic64_t *v, s64 old, s64 new)
+atomic64_cmpxchg(atomic64_t *v, s64 old, s64 newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
-	return arch_atomic64_cmpxchg(v, old, new);
+	return arch_atomic64_cmpxchg(v, old, newvalue);
 }
 #define atomic64_cmpxchg atomic64_cmpxchg
 #endif
 
 #if defined(arch_atomic64_cmpxchg_acquire)
 static inline s64
-atomic64_cmpxchg_acquire(atomic64_t *v, s64 old, s64 new)
+atomic64_cmpxchg_acquire(atomic64_t *v, s64 old, s64 newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
-	return arch_atomic64_cmpxchg_acquire(v, old, new);
+	return arch_atomic64_cmpxchg_acquire(v, old, newvalue);
 }
 #define atomic64_cmpxchg_acquire atomic64_cmpxchg_acquire
 #endif
 
 #if defined(arch_atomic64_cmpxchg_release)
 static inline s64
-atomic64_cmpxchg_release(atomic64_t *v, s64 old, s64 new)
+atomic64_cmpxchg_release(atomic64_t *v, s64 old, s64 newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
-	return arch_atomic64_cmpxchg_release(v, old, new);
+	return arch_atomic64_cmpxchg_release(v, old, newvalue);
 }
 #define atomic64_cmpxchg_release atomic64_cmpxchg_release
 #endif
 
 #if defined(arch_atomic64_cmpxchg_relaxed)
 static inline s64
-atomic64_cmpxchg_relaxed(atomic64_t *v, s64 old, s64 new)
+atomic64_cmpxchg_relaxed(atomic64_t *v, s64 old, s64 newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
-	return arch_atomic64_cmpxchg_relaxed(v, old, new);
+	return arch_atomic64_cmpxchg_relaxed(v, old, newvalue);
 }
 #define atomic64_cmpxchg_relaxed atomic64_cmpxchg_relaxed
 #endif
 
 #if defined(arch_atomic64_try_cmpxchg)
 static inline bool
-atomic64_try_cmpxchg(atomic64_t *v, s64 *old, s64 new)
+atomic64_try_cmpxchg(atomic64_t *v, s64 *old, s64 newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
 	kasan_check_write(old, sizeof(*old));
-	return arch_atomic64_try_cmpxchg(v, old, new);
+	return arch_atomic64_try_cmpxchg(v, old, newvalue);
 }
 #define atomic64_try_cmpxchg atomic64_try_cmpxchg
 #endif
 
 #if defined(arch_atomic64_try_cmpxchg_acquire)
 static inline bool
-atomic64_try_cmpxchg_acquire(atomic64_t *v, s64 *old, s64 new)
+atomic64_try_cmpxchg_acquire(atomic64_t *v, s64 *old, s64 newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
 	kasan_check_write(old, sizeof(*old));
-	return arch_atomic64_try_cmpxchg_acquire(v, old, new);
+	return arch_atomic64_try_cmpxchg_acquire(v, old, newvalue);
 }
 #define atomic64_try_cmpxchg_acquire atomic64_try_cmpxchg_acquire
 #endif
 
 #if defined(arch_atomic64_try_cmpxchg_release)
 static inline bool
-atomic64_try_cmpxchg_release(atomic64_t *v, s64 *old, s64 new)
+atomic64_try_cmpxchg_release(atomic64_t *v, s64 *old, s64 newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
 	kasan_check_write(old, sizeof(*old));
-	return arch_atomic64_try_cmpxchg_release(v, old, new);
+	return arch_atomic64_try_cmpxchg_release(v, old, newvalue);
 }
 #define atomic64_try_cmpxchg_release atomic64_try_cmpxchg_release
 #endif
 
 #if defined(arch_atomic64_try_cmpxchg_relaxed)
 static inline bool
-atomic64_try_cmpxchg_relaxed(atomic64_t *v, s64 *old, s64 new)
+atomic64_try_cmpxchg_relaxed(atomic64_t *v, s64 *old, s64 newvalue)
 {
 	kasan_check_write(v, sizeof(*v));
 	kasan_check_write(old, sizeof(*old));
-	return arch_atomic64_try_cmpxchg_relaxed(v, old, new);
+	return arch_atomic64_try_cmpxchg_relaxed(v, old, newvalue);
 }
 #define atomic64_try_cmpxchg_relaxed atomic64_try_cmpxchg_relaxed
 #endif
