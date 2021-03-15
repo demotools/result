@@ -246,7 +246,7 @@ static inline long arch_atomic64_dec_if_positive(atomic64_t *v)
 #define arch_atomic_set(v, i)			WRITE_ONCE(v, i)
 
 #define arch_atomic_cmpxchg(v, old, newvalue) \
-	arch_cmpxchg(&v, old, newvalue)
+	arch_cmpxchg(v, old, newvalue)
 #define	atomic_cmpset_ptr	arch_atomic_cmpxchg
 #define	atomic_load_acq_ptr	arch_atomic_read
 #define	atomic_store_rel_ptr	arch_atomic_set
