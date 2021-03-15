@@ -72,6 +72,7 @@
  */
 
 #ifndef __ASSEMBLY__
+#include <stddef.h>
 
 #include "types.h"
 #include "compiler.h"
