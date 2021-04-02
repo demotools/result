@@ -280,3 +280,53 @@ Execution Time (seconds): 0
 ****success****
 hashjoin : F completed.
 current = 2021-04-02 11:21:00
+Apr  2 12:01:00 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  2 12:01:00 ubuntu anacron[63628]: Anacron 2.3 started on 2021-04-02
+Apr  2 12:01:00 ubuntu anacron[63628]: Normal exit (0 jobs run)
+Apr  2 12:17:01 ubuntu CRON[63654]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 13:01:24 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  2 13:01:24 ubuntu anacron[63670]: Anacron 2.3 started on 2021-04-02
+Apr  2 13:01:24 ubuntu anacron[63670]: Normal exit (0 jobs run)
+Apr  2 13:17:02 ubuntu CRON[63696]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 13:22:28 ubuntu systemd[1]: Stopping User Manager for UID 1000...
+Apr  2 13:22:28 ubuntu systemd[62587]: Stopped target Default.
+Apr  2 13:22:28 ubuntu systemd[62587]: Stopped target Basic System.
+Apr  2 13:22:28 ubuntu systemd[62587]: Stopped target Paths.
+Apr  2 13:22:28 ubuntu systemd[62587]: Stopped target Timers.
+Apr  2 13:22:28 ubuntu systemd[62587]: Stopped Pending report trigger for Ubuntu Report.
+Apr  2 13:22:28 ubuntu systemd[62587]: Stopped target Sockets.
+Apr  2 13:22:28 ubuntu systemd[62587]: Closed D-Bus User Message Bus Socket.
+Apr  2 13:22:28 ubuntu systemd[62587]: Closed REST API socket for snapd user session agent.
+Apr  2 13:22:28 ubuntu systemd[62587]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Apr  2 13:22:28 ubuntu systemd[62587]: Closed GnuPG cryptographic agent and passphrase cache.
+Apr  2 13:22:28 ubuntu systemd[62587]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr  2 13:22:28 ubuntu systemd[62587]: Closed GnuPG network certificate management daemon.
+Apr  2 13:22:28 ubuntu systemd[62587]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Apr  2 13:22:28 ubuntu systemd[62587]: Reached target Shutdown.
+Apr  2 13:22:28 ubuntu systemd[62587]: Starting Exit the Session...
+Apr  2 13:22:28 ubuntu systemd[62587]: Received SIGRTMIN+24 from PID 63700 (kill).
+Apr  2 13:22:28 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Apr  2 13:22:28 ubuntu systemd[1]: Removed slice User Slice of huawei.
+Apr  2 14:02:24 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  2 14:02:24 ubuntu anacron[63719]: Anacron 2.3 started on 2021-04-02
+Apr  2 14:02:24 ubuntu anacron[63719]: Normal exit (0 jobs run)
+Apr  2 14:17:01 ubuntu CRON[63742]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 14:31:22 ubuntu systemd[1]: Created slice User Slice of huawei.
+Apr  2 14:31:22 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Apr  2 14:31:22 ubuntu systemd[1]: Started Session 578 of user huawei.
+Apr  2 14:31:22 ubuntu systemd[63748]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr  2 14:31:22 ubuntu systemd[63748]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr  2 14:31:22 ubuntu systemd[63748]: Starting D-Bus User Message Bus Socket.
+Apr  2 14:31:22 ubuntu systemd[63748]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr  2 14:31:22 ubuntu systemd[63748]: Reached target Timers.
+Apr  2 14:31:22 ubuntu systemd[63748]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr  2 14:31:22 ubuntu systemd[63748]: Listening on REST API socket for snapd user session agent.
+Apr  2 14:31:22 ubuntu systemd[63748]: Started Pending report trigger for Ubuntu Report.
+Apr  2 14:31:22 ubuntu systemd[63748]: Reached target Paths.
+Apr  2 14:31:22 ubuntu systemd[63748]: Listening on GnuPG network certificate management daemon.
+Apr  2 14:31:22 ubuntu systemd[63748]: Listening on D-Bus User Message Bus Socket.
+Apr  2 14:31:22 ubuntu systemd[63748]: Reached target Sockets.
+Apr  2 14:31:22 ubuntu systemd[63748]: Reached target Basic System.
+Apr  2 14:31:22 ubuntu systemd[63748]: Reached target Default.
+Apr  2 14:31:22 ubuntu systemd[63748]: Startup finished in 39ms.
+Apr  2 14:31:22 ubuntu systemd[1]: Started User Manager for UID 1000.
