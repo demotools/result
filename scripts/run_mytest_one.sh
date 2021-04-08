@@ -207,7 +207,7 @@ prepare_datasets()
         ROOT="$(dirname "$SCRIPTS")"
 	# --- only for canneal and liblinear
 	if [ $1 == "canneal" ]; then
-		$ROOT/datasets/prepare_canneal_datasets.sh large
+		# $ROOT/datasets/prepare_canneal_datasets.sh large
 	fi
 }
 
