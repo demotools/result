@@ -207,7 +207,7 @@ prepare_datasets()
         ROOT="$(dirname "$SCRIPTS")"
 	# --- only for canneal and liblinear
 	if [ $1 == "canneal" ]; then
-		# $ROOT/datasets/prepare_canneal_datasets.sh large
+		$ROOT/datasets/prepare_canneal_datasets.sh large
 	fi
 }
 
@@ -263,6 +263,6 @@ validate_benchmark_config $BENCHMARK $CONFIG
 #prepare_benchmark_name $BENCHMARK
 test_and_set_pathnames
 test_and_set_configs $CONFIG
-prepare_datasets $BENCHMARK
+# prepare_datasets $BENCHMARK
 # --- finally, launch the job
 launch_benchmark_config
