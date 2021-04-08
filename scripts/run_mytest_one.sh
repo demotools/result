@@ -24,6 +24,8 @@ XSBENCH_ARGS=" -- -p 25000000 -g 920000 "
 GRAPH500_ARGS=" -- -s 29 -e 21"
 BENCH_ARGS=""
 SYSBENCH_ARGS=" --threads=96 --memory-block-size=1k --memory-total-size=128G memory run"
+# CANNEAL_ARGS=" -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_small 500 "
+CANNEAL_ARGS=" -- 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 "
 BENCH_size="small"
 #BENCH_size="large"
 if [ $BENCH_size == "small" ]; then
@@ -193,8 +195,8 @@ test_and_set_configs()
                 BENCH_ARGS=$BTREE_ARGS
         elif [ $BENCHMARK == "hashjoin" ]; then
                 BENCH_ARGS=$HASH_ARGS
-        elif [ $BENCHMARK == "sysbench" ]; then
-                BENCH_ARGS=$SYSBENCH_ARGS
+        elif [ $BENCHMARK == "canneal" ]; then
+                BENCH_ARGS=$CANNEAL_ARGS
         fi
 
 }
@@ -221,22 +223,22 @@ launch_benchmark_config()
 	BENCHMARK_PID=$!
         echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready"
 	echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready" >> /var/log/syslog
-	while [ ! -f /tmp/alloctest-bench.ready ]; do
-		sleep 0.1
-	done
-	SECONDS=0
-	$PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $BENCHMARK_PID &
-	PERF_PID=$!
-        current=`date "+%Y-%m-%d %H:%M:%S"` 
-        echo -e "\e[0mWaiting for benchmark to be done current :$current"
-	echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
-	while [ ! -f /tmp/alloctest-bench.done ]; do
-        # while [ ps -p $PID >/dev/null ]; do
-		sleep 0.1
-	done
-	DURATION=$SECONDS
-	kill -INT $PERF_PID &> /dev/null
-	wait $PERF_PID
+	# while [ ! -f /tmp/alloctest-bench.ready ]; do
+	# 	sleep 0.1
+	# done
+	# SECONDS=0
+	# $PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $BENCHMARK_PID &
+	# PERF_PID=$!
+        # current=`date "+%Y-%m-%d %H:%M:%S"` 
+        # echo -e "\e[0mWaiting for benchmark to be done current :$current"
+	# echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
+	# while [ ! -f /tmp/alloctest-bench.done ]; do
+        # # while [ ps -p $PID >/dev/null ]; do
+	# 	sleep 0.1
+	# done
+	# DURATION=$SECONDS
+	# kill -INT $PERF_PID &> /dev/null
+	# wait $PERF_PID
 	wait $BENCHMARK_PID 2>/dev/null
         echo "Execution Time (seconds): $DURATION"
         echo "Execution Time (seconds): $DURATION" >> /var/log/syslog 
@@ -252,13 +254,13 @@ launch_benchmark_config()
         echo "current = "$current >> /var/log/syslog
         # echo "timestap = "$currentTimeStamp >> /var/log/syslog
         echo ""
-        kill -INT $BENCHMARK_PID &> /dev/null
+        # kill -INT $BENCHMARK_PID &> /dev/null
 	killall bench_stream &>/dev/null
 }
 
 # --- prepare the setup
 validate_benchmark_config $BENCHMARK $CONFIG
-prepare_benchmark_name $BENCHMARK
+#prepare_benchmark_name $BENCHMARK
 test_and_set_pathnames
 test_and_set_configs $CONFIG
 prepare_datasets $BENCHMARK
