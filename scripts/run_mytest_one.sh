@@ -260,7 +260,7 @@ launch_benchmark_config()
 
 # --- prepare the setup
 validate_benchmark_config $BENCHMARK $CONFIG
-#prepare_benchmark_name $BENCHMARK
+prepare_benchmark_name $BENCHMARK
 test_and_set_pathnames
 test_and_set_configs $CONFIG
 # prepare_datasets $BENCHMARK
