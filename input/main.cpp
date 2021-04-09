@@ -55,10 +55,12 @@
 #endif
 
 // #include "config.h"
+#define CONFIG_SHM_FILE_NAME "/tmp/mitosis-canneal-bench"
 
 FILE *opt_file_out = NULL;  ///< standard outpu
 
-extern int real_main(int argc, char *argv[]);
+// extern int real_main(int argc, char *argv[]);
+int real_main (int argc, char * const argv[]);
 
 void signalhandler(int sig)
 {
