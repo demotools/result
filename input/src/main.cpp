@@ -46,6 +46,8 @@
 #include "netlist.h"
 #include "rng.h"
 
+#define CONFIG_SHM_FILE_NAME "/tmp/mitosis-canneal-bench"
+
 using namespace std;
 
 void* entry_pt(void*);
@@ -184,7 +186,7 @@ void* entry_pt(void* data)
 #endif
 
 // #include "config.h"
-#define CONFIG_SHM_FILE_NAME "/tmp/mitosis-canneal-bench"
+
 
 FILE *opt_file_out = NULL;  ///< standard outpu
 
