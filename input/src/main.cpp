@@ -26,7 +26,7 @@
 // LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 // OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 // SUCH DAMAGE.
-
+#include <stdio.h>
 #include <iostream>
 #include <math.h>
 #include <stdlib.h>
@@ -51,7 +51,7 @@ using namespace std;
 void* entry_pt(void*);
 
 
-// int real_main (int argc, char * const argv[]);
+int real_main (int argc, char * const argv[]);
 int real_main (int argc, char * const argv[]) {
 #ifdef PARSEC_VERSION
 #define __PARSEC_STRING(x) #x
@@ -102,6 +102,14 @@ int real_main (int argc, char * const argv[]) {
 
 	//now that we've read in the commandline, run the program
 	netlist my_netlist(filename);
+
+    fprintf(stderr, "signalling readyness to %s\n", CONFIG_SHM_FILE_NAME ".ready");
+    FILE *fd2 = fopen(CONFIG_SHM_FILE_NAME ".ready", "w");
+
+    if (fd2 == NULL) {
+        fprintf(stderr, "ERROR: could not create the shared memory file descriptor\n");
+        exit(-1);
+    }
 	
 	annealer_thread a_thread(&my_netlist,num_threads,swaps_per_temp,start_temp,number_temp_steps);
 	
@@ -124,6 +132,14 @@ int real_main (int argc, char * const argv[]) {
 	__parsec_roi_end();
 #endif
 	
+    fprintf(stderr, "signalling done to %s\n", CONFIG_SHM_FILE_NAME ".done");
+    FILE *fd1 = fopen(CONFIG_SHM_FILE_NAME ".done", "w");
+
+    if (fd1 == NULL) {
+        fprintf(stderr, "ERROR: could not create the shared memory file descriptor\n");
+        exit(-1);
+    }
+    
 	cout << "Final routing is: " << my_netlist.total_routing_cost() << endl;
 
 #ifdef ENABLE_PARSEC_HOOKS
