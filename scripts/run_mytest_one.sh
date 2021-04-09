@@ -223,22 +223,21 @@ launch_benchmark_config()
 	BENCHMARK_PID=$!
         echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready"
 	echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready" >> /var/log/syslog
-	# while [ ! -f /tmp/alloctest-bench.ready ]; do
-	# 	sleep 0.1
-	# done
-	# SECONDS=0
-	# $PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $BENCHMARK_PID &
-	# PERF_PID=$!
-        # current=`date "+%Y-%m-%d %H:%M:%S"` 
-        # echo -e "\e[0mWaiting for benchmark to be done current :$current"
-	# echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
-	# while [ ! -f /tmp/alloctest-bench.done ]; do
-        # # while [ ps -p $PID >/dev/null ]; do
-	# 	sleep 0.1
-	# done
-	# DURATION=$SECONDS
-	# kill -INT $PERF_PID &> /dev/null
-	# wait $PERF_PID
+	while [ ! -f /tmp/alloctest-bench.ready ]; do
+		sleep 0.1
+	done
+	SECONDS=0
+	$PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $BENCHMARK_PID &
+	PERF_PID=$!
+        current=`date "+%Y-%m-%d %H:%M:%S"` 
+        echo -e "\e[0mWaiting for benchmark to be done current :$current"
+	echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
+	while [ ! -f /tmp/alloctest-bench.done ]; do
+		sleep 0.1
+	done
+	DURATION=$SECONDS
+	kill -INT $PERF_PID &> /dev/null
+	wait $PERF_PID
 	wait $BENCHMARK_PID 2>/dev/null
         echo "Execution Time (seconds): $DURATION"
         echo "Execution Time (seconds): $DURATION" >> /var/log/syslog 
