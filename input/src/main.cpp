@@ -46,7 +46,7 @@
 #include "netlist.h"
 #include "rng.h"
 
-#define CONFIG_SHM_FILE_NAME "/tmp/mitosis-canneal-bench"
+#define CONFIG_SHM_FILE_NAME "/tmp/alloctest-bench"
 
 using namespace std;
 
