@@ -1,6 +1,0 @@
-/home/huawei/result/bin/numactl /home/huawei/result/bin/bench_sysbench_mt --threads=96 --memory-block-size=1k --memory-total-size=128G memory run
-# started on Thu Mar  4 22:57:29 2021
-
-2456076959906,,cycles,944676459230,100.00,,
-34781825440,,dTLB-loads,944484958260,100.00,,
-214998455,,dTLB-load-misses,944286302880,100.00,0.62,of all dTLB cache hits

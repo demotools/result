@@ -1,3 +1,0 @@
-/home/huawei/result/bin/numactl /home/huawei/result/bin/bench_canneal_mt -- 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128
-Execution Time (seconds): 
-****success****

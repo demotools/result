@@ -326,3 +326,212 @@ Execution Time (seconds): 1
 ****success****
 canneal : F completed.
 current = 2021-04-09 14:40:15
+Start test round: 1
+Apr  9 15:02:23 ubuntu kernel: [2354744.462135] Page table allocation set to normal behavior
+Apr  9 15:02:23 ubuntu kernel: [2354744.470991] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 97820 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+[0mWaiting for benchmark to be done current :2021-04-09 15:02:26
+Final routing is: 6.9018e+08
+</run>
+Total time: 4.096
+</benchmark>
+Execution Time (seconds): 0
+****success****
+canneal : F completed.
+current = 2021-04-09 15:02:27
+Apr  9 15:04:34 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 15:04:34 ubuntu anacron[98298]: Anacron 2.3 started on 2021-04-09
+Apr  9 15:04:34 ubuntu anacron[98298]: Normal exit (0 jobs run)
+Start test round: 1
+Apr  9 15:12:29 ubuntu kernel: [2355350.515126] Page table allocation set to normal behavior
+Apr  9 15:12:29 ubuntu kernel: [2355350.523897] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 2095 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+[0mWaiting for benchmark to be done current :2021-04-09 15:12:32
+Final routing is: 6.89996e+08
+</run>
+Total time: 4.092
+</benchmark>
+Execution Time (seconds): 0
+****success****
+canneal : F completed.
+current = 2021-04-09 15:12:33
+Start test round: 1
+Apr  9 15:12:58 ubuntu kernel: [2355379.775801] Page table allocation set to normal behavior
+Apr  9 15:12:58 ubuntu kernel: [2355379.783982] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 2283 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+[0mWaiting for benchmark to be done current :2021-04-09 15:13:02
+Final routing is: 6.90292e+08
+</run>
+Total time: 4.210
+</benchmark>
+Execution Time (seconds): 0
+****success****
+canneal : F completed.
+current = 2021-04-09 15:13:02
+Start test round: 1
+Apr  9 15:15:23 ubuntu kernel: [2355524.920614] Page table allocation set to normal behavior
+Apr  9 15:15:23 ubuntu kernel: [2355524.929031] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 2485 to be ready
+[0mWaiting for benchmark to be done current :2021-04-09 15:15:23
+/home/huawei/result/bin/bench_hashjoin_mt 
+<benchmark exec="/home/huawei/result/bin/bench_hashjoin_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+Hashtable Size: 0MB
+Datatable Size Size: 122MB
+Element Size: 1 MB
+Total: 136 MB
+allocating 0 MB memory with alignment 64 
+allocating 1 MB memory with alignment 2097152 
+allocating 122 MB memory with alignment 2097152 
+got 5000000 matches / 100000 matches per iteration of 2000000 
+hashtable conflicts = 36777
+Lookup time: 1.18446744073709550960
+</run>
+Total time: 1.18446744073709551019
+</benchmark>
+Execution Time (seconds): 1
+****success****
+hashjoin : F completed.
+current = 2021-04-09 15:15:24
+Apr  9 15:17:01 ubuntu CRON[2608]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+Apr  9 15:26:21 ubuntu kernel: [2356182.962173] Page table allocation set to normal behavior
+Apr  9 15:26:21 ubuntu kernel: [2356182.968778] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 2655 to be ready
+[0mWaiting for benchmark to be done current :2021-04-09 15:26:21
+/home/huawei/result/bin/bench_hashjoin_mt 
+<benchmark exec="/home/huawei/result/bin/bench_hashjoin_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+Hashtable Size: 0MB
+Datatable Size Size: 122MB
+Element Size: 1 MB
+Total: 136 MB
+allocating 0 MB memory with alignment 64 
+allocating 1 MB memory with alignment 2097152 
+allocating 122 MB memory with alignment 2097152 
+got 5000000 matches / 100000 matches per iteration of 2000000 
+hashtable conflicts = 36777
+Lookup time: 1.18446744073709551000
+</run>
+Total time: 1.18446744073709551068
+</benchmark>
+Execution Time (seconds): 1
+****success****
+hashjoin : F completed.
+current = 2021-04-09 15:26:22
+Start test round: 1
+Apr  9 15:28:40 ubuntu kernel: [2356321.901035] Page table allocation set to normal behavior
+Apr  9 15:28:40 ubuntu kernel: [2356321.909621] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 2819 to be ready
+[0mWaiting for benchmark to be done current :2021-04-09 15:28:40
+/home/huawei/result/bin/bench_hashjoin_mt 
+<benchmark exec="/home/huawei/result/bin/bench_hashjoin_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+Hashtable Size: 0MB
+Datatable Size Size: 122MB
+Element Size: 1 MB
+Total: 136 MB
+allocating 0 MB memory with alignment 64 
+allocating 1 MB memory with alignment 2097152 
+allocating 122 MB memory with alignment 2097152 
+got 5000000 matches / 100000 matches per iteration of 2000000 
+hashtable conflicts = 36777
+Lookup time: 1.18446744073709550982
+</run>
+Total time: 1.18446744073709551053
+</benchmark>
+Execution Time (seconds): 1
+****success****
+hashjoin : F completed.
+current = 2021-04-09 15:28:41
+Start test round: 1
+Apr  9 15:29:13 ubuntu kernel: [2356354.388882] Page table allocation set to normal behavior
+Apr  9 15:29:13 ubuntu kernel: [2356354.398782] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 2973 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+[0mWaiting for benchmark to be done current :2021-04-09 15:29:16
+Final routing is: 6.90005e+08
+</run>
+Total time: 4.157
+</benchmark>
+Execution Time (seconds): 0
+****success****
+canneal : F completed.
+current = 2021-04-09 15:29:17
