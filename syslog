@@ -1,224 +1,328 @@
-Apr  8 00:07:25 ubuntu anacron[74642]: Job `cron.daily' terminated
-Apr  8 00:07:25 ubuntu anacron[74642]: Normal exit (1 job run)
-Apr  8 00:17:01 ubuntu CRON[74877]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 00:54:01 ubuntu CRON[74890]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
-Apr  8 01:03:24 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 01:03:24 ubuntu anacron[74897]: Anacron 2.3 started on 2021-04-08
-Apr  8 01:03:24 ubuntu anacron[74897]: Normal exit (0 jobs run)
-Apr  8 01:17:01 ubuntu CRON[74924]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 01:49:08 ubuntu systemd[1]: Starting Message of the Day...
-Apr  8 01:49:10 ubuntu 50-motd-news[74933]:  * Introducing self-healing high availability clusters in MicroK8s.
-Apr  8 01:49:10 ubuntu 50-motd-news[74933]:    Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
-Apr  8 01:49:10 ubuntu 50-motd-news[74933]:      https://microk8s.io/high-availability
-Apr  8 01:49:10 ubuntu systemd[1]: Started Message of the Day.
-Apr  8 02:04:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 02:04:08 ubuntu anacron[75001]: Anacron 2.3 started on 2021-04-08
-Apr  8 02:04:08 ubuntu anacron[75001]: Normal exit (0 jobs run)
-Apr  8 02:17:02 ubuntu CRON[75024]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 03:02:24 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 03:02:24 ubuntu anacron[75036]: Anacron 2.3 started on 2021-04-08
-Apr  8 03:02:24 ubuntu anacron[75036]: Normal exit (0 jobs run)
-Apr  8 03:17:01 ubuntu CRON[75062]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 04:01:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 04:01:08 ubuntu anacron[75071]: Anacron 2.3 started on 2021-04-08
-Apr  8 04:01:08 ubuntu anacron[75071]: Normal exit (0 jobs run)
-Apr  8 04:17:01 ubuntu CRON[75098]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 05:00:21 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 05:00:21 ubuntu anacron[75107]: Anacron 2.3 started on 2021-04-08
-Apr  8 05:00:21 ubuntu anacron[75107]: Normal exit (0 jobs run)
-Apr  8 05:17:01 ubuntu CRON[75133]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 06:04:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 06:04:08 ubuntu anacron[75141]: Anacron 2.3 started on 2021-04-08
-Apr  8 06:04:08 ubuntu anacron[75141]: Normal exit (0 jobs run)
-Apr  8 06:17:01 ubuntu CRON[75166]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 06:25:02 ubuntu CRON[75171]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
-Apr  8 06:52:08 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
-Apr  8 06:52:09 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
-Apr  8 07:01:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 07:01:08 ubuntu anacron[75261]: Anacron 2.3 started on 2021-04-08
-Apr  8 07:01:08 ubuntu anacron[75261]: Normal exit (0 jobs run)
-Apr  8 07:17:01 ubuntu CRON[75287]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 07:30:01 ubuntu CRON[75294]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
-Apr  8 08:02:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 08:02:08 ubuntu anacron[75305]: Anacron 2.3 started on 2021-04-08
-Apr  8 08:02:08 ubuntu anacron[75305]: Normal exit (0 jobs run)
-Apr  8 08:17:01 ubuntu CRON[75331]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 09:03:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 09:03:08 ubuntu anacron[75349]: Anacron 2.3 started on 2021-04-08
-Apr  8 09:03:08 ubuntu anacron[75349]: Normal exit (0 jobs run)
-Apr  8 09:17:01 ubuntu CRON[75376]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 09:22:24 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
-Apr  8 09:22:24 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
-Apr  8 10:01:25 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 10:01:26 ubuntu anacron[75413]: Anacron 2.3 started on 2021-04-08
-Apr  8 10:01:26 ubuntu anacron[75413]: Normal exit (0 jobs run)
-Apr  8 10:17:01 ubuntu CRON[75439]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 10:33:19 ubuntu systemd[1]: Created slice User Slice of huawei.
-Apr  8 10:33:19 ubuntu systemd[1]: Starting User Manager for UID 1000...
-Apr  8 10:33:19 ubuntu systemd[1]: Started Session 742 of user huawei.
-Apr  8 10:33:19 ubuntu systemd[75448]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
-Apr  8 10:33:20 ubuntu systemd[75448]: Starting D-Bus User Message Bus Socket.
-Apr  8 10:33:20 ubuntu systemd[75448]: Listening on REST API socket for snapd user session agent.
-Apr  8 10:33:20 ubuntu systemd[75448]: Reached target Timers.
-Apr  8 10:33:20 ubuntu systemd[75448]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
-Apr  8 10:33:20 ubuntu systemd[75448]: Listening on GnuPG network certificate management daemon.
-Apr  8 10:33:20 ubuntu systemd[75448]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
-Apr  8 10:33:20 ubuntu systemd[75448]: Started Pending report trigger for Ubuntu Report.
-Apr  8 10:33:20 ubuntu systemd[75448]: Listening on GnuPG cryptographic agent and passphrase cache.
-Apr  8 10:33:20 ubuntu systemd[75448]: Reached target Paths.
-Apr  8 10:33:20 ubuntu systemd[75448]: Listening on D-Bus User Message Bus Socket.
-Apr  8 10:33:20 ubuntu systemd[75448]: Reached target Sockets.
-Apr  8 10:33:20 ubuntu systemd[75448]: Reached target Basic System.
-Apr  8 10:33:20 ubuntu systemd[75448]: Reached target Default.
-Apr  8 10:33:20 ubuntu systemd[75448]: Startup finished in 332ms.
-Apr  8 10:33:20 ubuntu systemd[1]: Started User Manager for UID 1000.
-Apr  8 11:03:24 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 11:03:24 ubuntu anacron[75593]: Anacron 2.3 started on 2021-04-08
-Apr  8 11:03:24 ubuntu anacron[75593]: Normal exit (0 jobs run)
-Apr  8 11:17:01 ubuntu CRON[75617]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 11:21:08 ubuntu systemd[1]: Starting Daily apt download activities...
-Apr  8 11:21:38 ubuntu systemd-networkd-wait-online[75637]: Event loop failed: Connection timed out
-Apr  8 11:22:08 ubuntu apt-helper[75620]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
-Apr  8 11:22:08 ubuntu apt-helper[75620]: E: Sub-process nm-online returned an error code (1)
-Apr  8 11:22:09 ubuntu systemd-resolved[2763]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
-Apr  8 11:22:10 ubuntu systemd-resolved[2763]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
-Apr  8 11:22:21 ubuntu systemd[1]: Started Daily apt download activities.
-Apr  8 11:26:09 ubuntu systemd[1]: Started Session 745 of user huawei.
-Apr  8 12:03:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 12:03:08 ubuntu anacron[76846]: Anacron 2.3 started on 2021-04-08
-Apr  8 12:03:08 ubuntu anacron[76846]: Normal exit (0 jobs run)
-Apr  8 12:17:01 ubuntu CRON[76873]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 13:01:24 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 13:01:24 ubuntu anacron[76889]: Anacron 2.3 started on 2021-04-08
-Apr  8 13:01:24 ubuntu anacron[76889]: Normal exit (0 jobs run)
-Apr  8 13:17:02 ubuntu CRON[76912]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 13:31:13 ubuntu systemd[1]: Stopping User Manager for UID 1000...
-Apr  8 13:31:13 ubuntu systemd[75448]: Stopped target Default.
-Apr  8 13:31:13 ubuntu systemd[75448]: Stopped target Basic System.
-Apr  8 13:31:13 ubuntu systemd[75448]: Stopped target Paths.
-Apr  8 13:31:13 ubuntu systemd[75448]: Stopped target Timers.
-Apr  8 13:31:13 ubuntu systemd[75448]: Stopped target Sockets.
-Apr  8 13:31:13 ubuntu systemd[75448]: Closed GnuPG network certificate management daemon.
-Apr  8 13:31:13 ubuntu systemd[75448]: Closed D-Bus User Message Bus Socket.
-Apr  8 13:31:13 ubuntu systemd[75448]: Closed GnuPG cryptographic agent (ssh-agent emulation).
-Apr  8 13:31:13 ubuntu systemd[75448]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
-Apr  8 13:31:13 ubuntu systemd[75448]: Closed REST API socket for snapd user session agent.
-Apr  8 13:31:13 ubuntu systemd[75448]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
-Apr  8 13:31:13 ubuntu systemd[75448]: Stopped Pending report trigger for Ubuntu Report.
-Apr  8 13:31:13 ubuntu systemd[75448]: Closed GnuPG cryptographic agent and passphrase cache.
-Apr  8 13:31:13 ubuntu systemd[75448]: Reached target Shutdown.
-Apr  8 13:31:13 ubuntu systemd[75448]: Starting Exit the Session...
-Apr  8 13:31:13 ubuntu systemd[75448]: Received SIGRTMIN+24 from PID 76920 (kill).
-Apr  8 13:31:13 ubuntu systemd[1]: Stopped User Manager for UID 1000.
-Apr  8 13:31:13 ubuntu systemd[1]: Removed slice User Slice of huawei.
-Apr  8 14:00:24 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 14:00:24 ubuntu anacron[76934]: Anacron 2.3 started on 2021-04-08
-Apr  8 14:00:24 ubuntu anacron[76934]: Normal exit (0 jobs run)
-Apr  8 14:17:01 ubuntu CRON[76957]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 15:03:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 15:03:08 ubuntu anacron[76964]: Anacron 2.3 started on 2021-04-08
-Apr  8 15:03:08 ubuntu anacron[76964]: Normal exit (0 jobs run)
-Apr  8 15:10:15 ubuntu systemd[1]: Created slice User Slice of huawei.
-Apr  8 15:10:15 ubuntu systemd[1]: Starting User Manager for UID 1000...
-Apr  8 15:10:15 ubuntu systemd[1]: Started Session 749 of user huawei.
-Apr  8 15:10:15 ubuntu systemd[76988]: Listening on GnuPG cryptographic agent and passphrase cache.
-Apr  8 15:10:15 ubuntu systemd[76988]: Starting D-Bus User Message Bus Socket.
-Apr  8 15:10:15 ubuntu systemd[76988]: Listening on REST API socket for snapd user session agent.
-Apr  8 15:10:15 ubuntu systemd[76988]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
-Apr  8 15:10:15 ubuntu systemd[76988]: Reached target Timers.
-Apr  8 15:10:15 ubuntu systemd[76988]: Started Pending report trigger for Ubuntu Report.
-Apr  8 15:10:15 ubuntu systemd[76988]: Reached target Paths.
-Apr  8 15:10:15 ubuntu systemd[76988]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
-Apr  8 15:10:15 ubuntu systemd[76988]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
-Apr  8 15:10:15 ubuntu systemd[76988]: Listening on GnuPG network certificate management daemon.
-Apr  8 15:10:15 ubuntu systemd[76988]: Listening on D-Bus User Message Bus Socket.
-Apr  8 15:10:15 ubuntu systemd[76988]: Reached target Sockets.
-Apr  8 15:10:15 ubuntu systemd[76988]: Reached target Basic System.
-Apr  8 15:10:15 ubuntu systemd[76988]: Reached target Default.
-Apr  8 15:10:15 ubuntu systemd[76988]: Startup finished in 38ms.
-Apr  8 15:10:15 ubuntu systemd[1]: Started User Manager for UID 1000.
-Apr  8 15:17:01 ubuntu CRON[77271]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 16:04:24 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 16:04:24 ubuntu anacron[77287]: Anacron 2.3 started on 2021-04-08
-Apr  8 16:04:24 ubuntu anacron[77287]: Normal exit (0 jobs run)
-Apr  8 16:05:32 ubuntu systemd[1]: Started Session 752 of user huawei.
-Apr  8 16:17:01 ubuntu CRON[77483]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr  8 16:50:57 ubuntu systemd[1]: Started Session 754 of user huawei.
+Apr  9 00:08:42 ubuntu anacron[78899]: Job `cron.daily' terminated
+Apr  9 00:08:42 ubuntu anacron[78899]: Normal exit (1 job run)
+Apr  9 00:17:01 ubuntu CRON[79130]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 00:54:01 ubuntu CRON[79139]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Apr  9 01:03:41 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 01:03:42 ubuntu anacron[79144]: Anacron 2.3 started on 2021-04-09
+Apr  9 01:03:42 ubuntu anacron[79144]: Normal exit (0 jobs run)
+Apr  9 01:17:02 ubuntu CRON[79165]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 02:04:08 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 02:04:08 ubuntu anacron[79173]: Anacron 2.3 started on 2021-04-09
+Apr  9 02:04:08 ubuntu anacron[79173]: Normal exit (0 jobs run)
+Apr  9 02:17:01 ubuntu CRON[79196]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 03:01:08 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 03:01:08 ubuntu anacron[79211]: Anacron 2.3 started on 2021-04-09
+Apr  9 03:01:08 ubuntu anacron[79211]: Normal exit (0 jobs run)
+Apr  9 03:17:01 ubuntu CRON[79237]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 04:05:08 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 04:05:08 ubuntu anacron[79252]: Anacron 2.3 started on 2021-04-09
+Apr  9 04:05:08 ubuntu anacron[79252]: Normal exit (0 jobs run)
+Apr  9 04:17:01 ubuntu CRON[79276]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 05:02:08 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 05:02:08 ubuntu anacron[79289]: Anacron 2.3 started on 2021-04-09
+Apr  9 05:02:08 ubuntu anacron[79289]: Normal exit (0 jobs run)
+Apr  9 05:17:02 ubuntu CRON[79315]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 06:04:47 ubuntu systemd[1]: Starting Message of the Day...
+Apr  9 06:04:48 ubuntu 50-motd-news[79329]:  * Introducing self-healing high availability clusters in MicroK8s.
+Apr  9 06:04:48 ubuntu 50-motd-news[79329]:    Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
+Apr  9 06:04:48 ubuntu 50-motd-news[79329]:      https://microk8s.io/high-availability
+Apr  9 06:04:48 ubuntu systemd[1]: Started Message of the Day.
+Apr  9 06:05:08 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 06:05:08 ubuntu anacron[79392]: Anacron 2.3 started on 2021-04-09
+Apr  9 06:05:08 ubuntu anacron[79392]: Normal exit (0 jobs run)
+Apr  9 06:12:08 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+Apr  9 06:12:09 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Apr  9 06:17:01 ubuntu CRON[79490]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 06:25:01 ubuntu CRON[79495]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr  9 07:01:48 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 07:01:48 ubuntu anacron[79501]: Anacron 2.3 started on 2021-04-09
+Apr  9 07:01:48 ubuntu anacron[79501]: Normal exit (0 jobs run)
+Apr  9 07:17:01 ubuntu CRON[79522]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 07:30:02 ubuntu CRON[79527]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Apr  9 08:00:49 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 08:00:49 ubuntu anacron[79533]: Anacron 2.3 started on 2021-04-09
+Apr  9 08:00:49 ubuntu anacron[79533]: Normal exit (0 jobs run)
+Apr  9 08:17:01 ubuntu CRON[79555]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 09:00:24 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 09:00:24 ubuntu anacron[79563]: Anacron 2.3 started on 2021-04-09
+Apr  9 09:00:24 ubuntu anacron[79563]: Normal exit (0 jobs run)
+Apr  9 09:13:50 ubuntu systemd[1]: Created slice User Slice of huawei.
+Apr  9 09:13:50 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Apr  9 09:13:50 ubuntu systemd[1]: Started Session 774 of user huawei.
+Apr  9 09:13:50 ubuntu systemd[79588]: Listening on REST API socket for snapd user session agent.
+Apr  9 09:13:50 ubuntu systemd[79588]: Started Pending report trigger for Ubuntu Report.
+Apr  9 09:13:50 ubuntu systemd[79588]: Reached target Timers.
+Apr  9 09:13:50 ubuntu systemd[79588]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr  9 09:13:50 ubuntu systemd[79588]: Listening on GnuPG network certificate management daemon.
+Apr  9 09:13:50 ubuntu systemd[79588]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr  9 09:13:50 ubuntu systemd[79588]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr  9 09:13:50 ubuntu systemd[79588]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr  9 09:13:50 ubuntu systemd[79588]: Reached target Paths.
+Apr  9 09:13:50 ubuntu systemd[79588]: Starting D-Bus User Message Bus Socket.
+Apr  9 09:13:50 ubuntu systemd[79588]: Listening on D-Bus User Message Bus Socket.
+Apr  9 09:13:50 ubuntu systemd[79588]: Reached target Sockets.
+Apr  9 09:13:50 ubuntu systemd[79588]: Reached target Basic System.
+Apr  9 09:13:50 ubuntu systemd[79588]: Reached target Default.
+Apr  9 09:13:50 ubuntu systemd[79588]: Startup finished in 41ms.
+Apr  9 09:13:50 ubuntu systemd[1]: Started User Manager for UID 1000.
+Apr  9 09:17:01 ubuntu CRON[79724]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 09:22:50 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Apr  9 09:22:50 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
 Start test round: 1
-Apr  8 16:55:47 ubuntu kernel: [2275149.765429] Page table allocation set to normal behavior
-Apr  8 16:55:47 ubuntu kernel: [2275149.773489] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark: 77709 to be ready
-
-Execution Time (seconds): 
-****success****
-canneal : F completed.
-current = 2021-04-08 16:55:47
-Start test round: 2
-Apr  8 16:55:47 ubuntu kernel: [2275149.886709] Page table allocation set to normal behavior
-Apr  8 16:55:47 ubuntu kernel: [2275149.896283] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark: 77755 to be ready
-
-Execution Time (seconds): 
-****success****
-canneal : F completed.
-current = 2021-04-08 16:55:47
-Start test round: 3
-Apr  8 16:55:47 ubuntu kernel: [2275150.009170] Page table allocation set to normal behavior
-Apr  8 16:55:47 ubuntu kernel: [2275150.022744] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark: 77802 to be ready
-
-Execution Time (seconds): 
-****success****
-canneal : F completed.
-current = 2021-04-08 16:55:47
-Start test round: 4
-Apr  8 16:55:47 ubuntu kernel: [2275150.135393] Page table allocation set to normal behavior
-Apr  8 16:55:47 ubuntu kernel: [2275150.148660] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark: 77849 to be ready
-
-Execution Time (seconds): 
-****success****
-canneal : F completed.
-current = 2021-04-08 16:55:47
-Start test round: 5
-Apr  8 16:55:48 ubuntu kernel: [2275150.258544] Page table allocation set to normal behavior
-Apr  8 16:55:48 ubuntu kernel: [2275150.266306] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark: 77896 to be ready
-
-Execution Time (seconds): 
-****success****
-canneal : F completed.
-current = 2021-04-08 16:55:48
-Apr  8 17:01:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr  8 17:01:08 ubuntu anacron[77912]: Anacron 2.3 started on 2021-04-08
-Apr  8 17:01:08 ubuntu anacron[77912]: Normal exit (0 jobs run)
-Start test round: 1
-Start test round: 1
-Apr  8 17:06:24 ubuntu kernel: [2275786.835309] Page table allocation set to normal behavior
-Apr  8 17:06:24 ubuntu kernel: [2275786.843714] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark: 78018 to be ready
-
-Execution Time (seconds): 
-****success****
-canneal : F completed.
-current = 2021-04-08 17:06:24
-Start test round: 1
-Apr  8 17:06:45 ubuntu kernel: [2275807.372996] Page table allocation set to normal behavior
-Apr  8 17:06:45 ubuntu kernel: [2275807.379310] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark: 78068 to be ready
-
-Execution Time (seconds): 
-****success****
-canneal : F completed.
-current = 2021-04-08 17:06:45
-Apr  8 17:17:01 ubuntu CRON[78304]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Start test round: 1
-Apr  8 17:28:14 ubuntu kernel: [2277096.227421] Page table allocation set to normal behavior
-Apr  8 17:28:14 ubuntu kernel: [2277096.235253] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark: 78470 to be ready
+Apr  9 09:27:52 ubuntu kernel: [2334674.000623] Page table allocation set to normal behavior
+Apr  9 09:27:52 ubuntu kernel: [2334674.008870] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 79817 to be ready
 PARSEC Benchmark Suite Version 3.0-beta-20150206
-Usage: /home/huawei/result/bin/bench_canneal_mt NTHREADS NSWAPS TEMP NETLIST [NSTEPS]
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90186e+08
 Execution Time (seconds): 
 ****success****
 canneal : F completed.
-current = 2021-04-08 17:28:14
+current = 2021-04-09 09:27:56
+Apr  9 10:04:51 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 10:04:51 ubuntu anacron[85718]: Anacron 2.3 started on 2021-04-09
+Apr  9 10:04:51 ubuntu anacron[85718]: Normal exit (0 jobs run)
+Apr  9 10:17:01 ubuntu CRON[85743]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 10:57:25 ubuntu systemd[1]: Started Session 778 of user huawei.
+Apr  9 11:02:08 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 11:02:08 ubuntu anacron[86913]: Anacron 2.3 started on 2021-04-09
+Apr  9 11:02:08 ubuntu anacron[86913]: Normal exit (0 jobs run)
+Apr  9 11:17:01 ubuntu CRON[87418]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+Apr  9 11:45:07 ubuntu kernel: [2342909.151521] Page table allocation set to normal behavior
+Apr  9 11:45:07 ubuntu kernel: [2342909.159888] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 89753 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90187e+08
+</run>
+Total time: 4.068
+</benchmark>
+Execution Time (seconds): 
+****success****
+canneal : F completed.
+current = 2021-04-09 11:45:11
+Start test round: 1
+Apr  9 11:53:15 ubuntu kernel: [2343397.109429] Page table allocation set to normal behavior
+Apr  9 11:53:15 ubuntu kernel: [2343397.117905] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 89912 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90118e+08
+</run>
+Total time: 5.18446744073709551029
+</benchmark>
+Start test round: 1
+Apr  9 12:00:30 ubuntu kernel: [2343832.222159] Page table allocation set to normal behavior
+Apr  9 12:00:30 ubuntu kernel: [2343832.230691] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 91586 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90173e+08
+</run>
+Total time: 4.024
+</benchmark>
+Start test round: 1
+Apr  9 12:01:27 ubuntu kernel: [2343888.680120] Page table allocation set to normal behavior
+Apr  9 12:01:27 ubuntu kernel: [2343888.688623] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 91926 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90111e+08
+</run>
+Total time: 4.011
+</benchmark>
+Apr  9 12:02:08 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 12:02:08 ubuntu anacron[92153]: Anacron 2.3 started on 2021-04-09
+Apr  9 12:02:08 ubuntu anacron[92153]: Normal exit (0 jobs run)
+Start test round: 1
+Apr  9 12:03:04 ubuntu kernel: [2343985.786001] Page table allocation set to normal behavior
+Apr  9 12:03:04 ubuntu kernel: [2343985.793315] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 92217 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+[0mWaiting for benchmark to be done current :2021-04-09 12:03:08
+Final routing is: 6.90248e+08
+</run>
+Total time: 4.279
+</benchmark>
+Execution Time (seconds): 0
+****success****
+canneal : F completed.
+current = 2021-04-09 12:03:08
+Apr  9 12:17:01 ubuntu CRON[92368]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 12:24:24 ubuntu systemd[1]: Starting Daily apt download activities...
+Apr  9 12:24:54 ubuntu systemd-networkd-wait-online[92388]: Event loop failed: Connection timed out
+Apr  9 12:25:24 ubuntu apt-helper[92372]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Apr  9 12:25:24 ubuntu apt-helper[92372]: E: Sub-process nm-online returned an error code (1)
+Apr  9 12:25:24 ubuntu systemd-resolved[2763]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr  9 12:25:26 ubuntu systemd-resolved[2763]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Apr  9 12:25:36 ubuntu systemd[1]: Started Daily apt download activities.
+Apr  9 13:04:54 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 13:04:54 ubuntu anacron[92962]: Anacron 2.3 started on 2021-04-09
+Apr  9 13:04:54 ubuntu anacron[92962]: Normal exit (0 jobs run)
+Apr  9 13:17:01 ubuntu CRON[92989]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 14:03:11 ubuntu systemd[1]: Stopping User Manager for UID 1000...
+Apr  9 14:03:11 ubuntu systemd[79588]: Stopped target Default.
+Apr  9 14:03:11 ubuntu systemd[79588]: Stopped target Basic System.
+Apr  9 14:03:11 ubuntu systemd[79588]: Stopped target Paths.
+Apr  9 14:03:11 ubuntu systemd[79588]: Stopped Pending report trigger for Ubuntu Report.
+Apr  9 14:03:11 ubuntu systemd[79588]: Stopped target Timers.
+Apr  9 14:03:11 ubuntu systemd[79588]: Stopped target Sockets.
+Apr  9 14:03:11 ubuntu systemd[79588]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Apr  9 14:03:11 ubuntu systemd[79588]: Closed REST API socket for snapd user session agent.
+Apr  9 14:03:11 ubuntu systemd[79588]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Apr  9 14:03:11 ubuntu systemd[79588]: Closed GnuPG network certificate management daemon.
+Apr  9 14:03:11 ubuntu systemd[79588]: Closed D-Bus User Message Bus Socket.
+Apr  9 14:03:11 ubuntu systemd[79588]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr  9 14:03:11 ubuntu systemd[79588]: Closed GnuPG cryptographic agent and passphrase cache.
+Apr  9 14:03:11 ubuntu systemd[79588]: Reached target Shutdown.
+Apr  9 14:03:11 ubuntu systemd[79588]: Starting Exit the Session...
+Apr  9 14:03:11 ubuntu systemd[79588]: Received SIGRTMIN+24 from PID 93005 (kill).
+Apr  9 14:03:11 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Apr  9 14:03:11 ubuntu systemd[1]: Removed slice User Slice of huawei.
+Apr  9 14:03:55 ubuntu systemd[1]: Started Run anacron jobs.
+Apr  9 14:03:55 ubuntu anacron[93009]: Anacron 2.3 started on 2021-04-09
+Apr  9 14:03:55 ubuntu anacron[93009]: Normal exit (0 jobs run)
+Apr  9 14:17:02 ubuntu CRON[93036]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  9 14:24:17 ubuntu systemd[1]: Created slice User Slice of huawei.
+Apr  9 14:24:17 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Apr  9 14:24:17 ubuntu systemd[1]: Started Session 783 of user huawei.
+Apr  9 14:24:17 ubuntu systemd[93041]: Listening on GnuPG network certificate management daemon.
+Apr  9 14:24:17 ubuntu systemd[93041]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr  9 14:24:17 ubuntu systemd[93041]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr  9 14:24:17 ubuntu systemd[93041]: Starting D-Bus User Message Bus Socket.
+Apr  9 14:24:17 ubuntu systemd[93041]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr  9 14:24:17 ubuntu systemd[93041]: Listening on REST API socket for snapd user session agent.
+Apr  9 14:24:17 ubuntu systemd[93041]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr  9 14:24:17 ubuntu systemd[93041]: Started Pending report trigger for Ubuntu Report.
+Apr  9 14:24:17 ubuntu systemd[93041]: Reached target Timers.
+Apr  9 14:24:17 ubuntu systemd[93041]: Reached target Paths.
+Apr  9 14:24:17 ubuntu systemd[93041]: Listening on D-Bus User Message Bus Socket.
+Apr  9 14:24:17 ubuntu systemd[93041]: Reached target Sockets.
+Apr  9 14:24:17 ubuntu systemd[93041]: Reached target Basic System.
+Apr  9 14:24:17 ubuntu systemd[93041]: Reached target Default.
+Apr  9 14:24:17 ubuntu systemd[93041]: Startup finished in 42ms.
+Apr  9 14:24:17 ubuntu systemd[1]: Started User Manager for UID 1000.
+Start test round: 1
+Apr  9 14:40:11 ubuntu kernel: [2353412.881202] Page table allocation set to normal behavior
+Apr  9 14:40:11 ubuntu kernel: [2353412.889457] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 96322 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+[0mWaiting for benchmark to be done current :2021-04-09 14:40:14
+Final routing is: 6.90008e+08
+</run>
+Total time: 4.056
+</benchmark>
+Execution Time (seconds): 1
+****success****
+canneal : F completed.
+current = 2021-04-09 14:40:15
