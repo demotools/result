@@ -112,6 +112,8 @@ int real_main (int argc, char * const argv[]) {
         fprintf(stderr, "ERROR: could not create the shared memory file descriptor\n");
         exit(-1);
     }
+
+    usleep(100);
 	
 	annealer_thread a_thread(&my_netlist,num_threads,swaps_per_temp,start_temp,number_temp_steps);
 	
