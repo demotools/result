@@ -93,3 +93,51 @@ Apr 10 08:49:02 ubuntu systemd[63008]: Reached target Basic System.
 Apr 10 08:49:02 ubuntu systemd[63008]: Reached target Default.
 Apr 10 08:49:02 ubuntu systemd[63008]: Startup finished in 65ms.
 Apr 10 08:49:02 ubuntu systemd[1]: Started User Manager for UID 1000.
+Apr 10 09:03:08 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 10 09:03:08 ubuntu anacron[63180]: Anacron 2.3 started on 2021-04-10
+Apr 10 09:03:08 ubuntu anacron[63180]: Normal exit (0 jobs run)
+Apr 10 09:17:01 ubuntu CRON[63205]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 10 09:23:14 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Apr 10 09:23:14 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Apr 10 10:04:08 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 10 10:04:08 ubuntu anacron[63251]: Anacron 2.3 started on 2021-04-10
+Apr 10 10:04:08 ubuntu anacron[63251]: Normal exit (0 jobs run)
+Apr 10 10:17:01 ubuntu CRON[63275]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 10 10:55:10 ubuntu systemd[1]: Stopping User Manager for UID 1000...
+Apr 10 10:55:10 ubuntu systemd[63008]: Stopped target Default.
+Apr 10 10:55:10 ubuntu systemd[63008]: Stopped target Basic System.
+Apr 10 10:55:10 ubuntu systemd[63008]: Stopped target Paths.
+Apr 10 10:55:10 ubuntu systemd[63008]: Stopped target Sockets.
+Apr 10 10:55:10 ubuntu systemd[63008]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 10 10:55:10 ubuntu systemd[63008]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 10 10:55:10 ubuntu systemd[63008]: Closed GnuPG network certificate management daemon.
+Apr 10 10:55:10 ubuntu systemd[63008]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Apr 10 10:55:10 ubuntu systemd[63008]: Closed D-Bus User Message Bus Socket.
+Apr 10 10:55:10 ubuntu systemd[63008]: Closed REST API socket for snapd user session agent.
+Apr 10 10:55:10 ubuntu systemd[63008]: Closed GnuPG cryptographic agent and passphrase cache.
+Apr 10 10:55:10 ubuntu systemd[63008]: Stopped Pending report trigger for Ubuntu Report.
+Apr 10 10:55:10 ubuntu systemd[63008]: Stopped target Timers.
+Apr 10 10:55:10 ubuntu systemd[63008]: Reached target Shutdown.
+Apr 10 10:55:10 ubuntu systemd[63008]: Starting Exit the Session...
+Apr 10 10:55:10 ubuntu systemd[63008]: Received SIGRTMIN+24 from PID 63294 (kill).
+Apr 10 10:55:10 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Apr 10 10:55:10 ubuntu systemd[1]: Removed slice User Slice of huawei.
+Apr 10 10:59:29 ubuntu systemd[1]: Created slice User Slice of huawei.
+Apr 10 10:59:29 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Apr 10 10:59:29 ubuntu systemd[1]: Started Session 815 of user huawei.
+Apr 10 10:59:29 ubuntu systemd[63302]: Listening on GnuPG network certificate management daemon.
+Apr 10 10:59:29 ubuntu systemd[63302]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 10 10:59:29 ubuntu systemd[63302]: Reached target Timers.
+Apr 10 10:59:29 ubuntu systemd[63302]: Starting D-Bus User Message Bus Socket.
+Apr 10 10:59:29 ubuntu systemd[63302]: Listening on REST API socket for snapd user session agent.
+Apr 10 10:59:29 ubuntu systemd[63302]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 10 10:59:29 ubuntu systemd[63302]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 10 10:59:29 ubuntu systemd[63302]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 10 10:59:29 ubuntu systemd[63302]: Started Pending report trigger for Ubuntu Report.
+Apr 10 10:59:29 ubuntu systemd[63302]: Reached target Paths.
+Apr 10 10:59:29 ubuntu systemd[63302]: Listening on D-Bus User Message Bus Socket.
+Apr 10 10:59:29 ubuntu systemd[63302]: Reached target Sockets.
+Apr 10 10:59:29 ubuntu systemd[63302]: Reached target Basic System.
+Apr 10 10:59:29 ubuntu systemd[63302]: Reached target Default.
+Apr 10 10:59:29 ubuntu systemd[63302]: Startup finished in 45ms.
+Apr 10 10:59:29 ubuntu systemd[1]: Started User Manager for UID 1000.
