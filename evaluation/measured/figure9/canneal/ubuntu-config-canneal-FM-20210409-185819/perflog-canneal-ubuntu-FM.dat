@@ -1,0 +1,17 @@
+/home/huawei/result/bin/numactl --pgtablerepl=3 /home/huawei/result/bin/bench_canneal_mt -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_small 500
+# started on Fri Apr  9 19:34:15 2021
+
+2955683758608,,cycles,1301657826330,100.00,,
+22668884230,,dTLB-loads,1301642078180,100.00,,
+3418771019,,dTLB-load-misses,1301631698200,100.00,15.08,of all dTLB cache hits
+14122075029,,iTLB-loads,1301622364280,100.00,,
+591578,,iTLB-load-misses,1301613014100,100.00,0.00,of all iTLB cache hits
+1561503936,,dtlb_walk,1301603495120,100.00,,
+1749238,,itlb_walk,1301595208090,100.00,,
+55721,,context-switches,1301486362570,100.00,,
+1654,,cpu-migrations,1301486089630,100.00,,
+111,,page-faults,1301485768090,100.00,,
+13420777671,,mem_access,1301592187940,100.00,,
+1232377426,,remote_access,1301591386730,100.00,,
+Execution Time (seconds): 17
+****success****
