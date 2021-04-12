@@ -1,143 +1,95 @@
-Apr 10 00:05:28 ubuntu anacron[47059]: Job `cron.daily' terminated
-Apr 10 00:05:28 ubuntu anacron[47059]: Normal exit (1 job run)
-Apr 10 00:17:01 ubuntu CRON[57090]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-[0mWaiting for benchmark to be done current :2021-04-10 00:24:49
-Execution Time (seconds): 17
-****success****
-canneal : FM completed.
-current = 2021-04-10 00:30:30
-Apr 10 00:30:30 ubuntu systemd[1]: Stopping User Manager for UID 1000...
-Apr 10 00:30:30 ubuntu systemd[27938]: Stopped target Default.
-Apr 10 00:30:30 ubuntu systemd[27938]: Stopped target Basic System.
-Apr 10 00:30:30 ubuntu systemd[27938]: Stopped target Timers.
-Apr 10 00:30:30 ubuntu systemd[27938]: Stopped target Paths.
-Apr 10 00:30:30 ubuntu systemd[27938]: Stopped target Sockets.
-Apr 10 00:30:30 ubuntu systemd[27938]: Closed GnuPG cryptographic agent (ssh-agent emulation).
-Apr 10 00:30:30 ubuntu systemd[27938]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
-Apr 10 00:30:30 ubuntu systemd[27938]: Closed GnuPG cryptographic agent and passphrase cache.
-Apr 10 00:30:30 ubuntu systemd[27938]: Closed D-Bus User Message Bus Socket.
-Apr 10 00:30:30 ubuntu systemd[27938]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
-Apr 10 00:30:30 ubuntu systemd[27938]: Closed REST API socket for snapd user session agent.
-Apr 10 00:30:30 ubuntu systemd[27938]: Closed GnuPG network certificate management daemon.
-Apr 10 00:30:30 ubuntu systemd[27938]: Stopped Pending report trigger for Ubuntu Report.
-Apr 10 00:30:30 ubuntu systemd[27938]: Reached target Shutdown.
-Apr 10 00:30:30 ubuntu systemd[27938]: Starting Exit the Session...
-Apr 10 00:30:30 ubuntu systemd[27938]: Received SIGRTMIN+24 from PID 61955 (kill).
-Apr 10 00:30:30 ubuntu systemd[1]: Stopped User Manager for UID 1000.
-Apr 10 00:30:30 ubuntu systemd[1]: Removed slice User Slice of huawei.
-Apr 10 00:54:01 ubuntu CRON[61967]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
-Apr 10 01:00:24 ubuntu systemd[1]: Started Run anacron jobs.
-Apr 10 01:00:24 ubuntu anacron[61972]: Anacron 2.3 started on 2021-04-10
-Apr 10 01:00:24 ubuntu anacron[61972]: Normal exit (0 jobs run)
-Apr 10 01:17:01 ubuntu CRON[61996]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr 10 02:00:07 ubuntu systemd[1]: Started Run anacron jobs.
-Apr 10 02:00:08 ubuntu anacron[62016]: Anacron 2.3 started on 2021-04-10
-Apr 10 02:00:08 ubuntu anacron[62016]: Normal exit (0 jobs run)
-Apr 10 02:03:07 ubuntu systemd[1]: Starting Daily apt download activities...
-Apr 10 02:03:38 ubuntu systemd-networkd-wait-online[62049]: Event loop failed: Connection timed out
-Apr 10 02:04:08 ubuntu apt-helper[62034]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
-Apr 10 02:04:08 ubuntu apt-helper[62034]: E: Sub-process nm-online returned an error code (1)
-Apr 10 02:04:08 ubuntu systemd-resolved[2763]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
-Apr 10 02:04:09 ubuntu systemd-resolved[2763]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
-Apr 10 02:04:26 ubuntu systemd[1]: Started Daily apt download activities.
-Apr 10 02:17:02 ubuntu CRON[62615]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr 10 03:05:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr 10 03:05:08 ubuntu anacron[62628]: Anacron 2.3 started on 2021-04-10
-Apr 10 03:05:08 ubuntu anacron[62628]: Normal exit (0 jobs run)
-Apr 10 03:17:01 ubuntu CRON[62653]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr 10 03:43:08 ubuntu systemd[1]: Starting Message of the Day...
-Apr 10 03:43:10 ubuntu 50-motd-news[62663]:  * Introducing self-healing high availability clusters in MicroK8s.
-Apr 10 03:43:10 ubuntu 50-motd-news[62663]:    Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
-Apr 10 03:43:10 ubuntu 50-motd-news[62663]:      https://microk8s.io/high-availability
-Apr 10 03:43:10 ubuntu systemd[1]: Started Message of the Day.
-Apr 10 04:03:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr 10 04:03:08 ubuntu anacron[62728]: Anacron 2.3 started on 2021-04-10
-Apr 10 04:03:08 ubuntu anacron[62728]: Normal exit (0 jobs run)
-Apr 10 04:17:01 ubuntu CRON[62753]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr 10 05:00:24 ubuntu systemd[1]: Started Run anacron jobs.
-Apr 10 05:00:24 ubuntu anacron[62770]: Anacron 2.3 started on 2021-04-10
-Apr 10 05:00:24 ubuntu anacron[62770]: Normal exit (0 jobs run)
-Apr 10 05:17:02 ubuntu CRON[62797]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr 10 06:02:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr 10 06:02:08 ubuntu anacron[62813]: Anacron 2.3 started on 2021-04-10
-Apr 10 06:02:08 ubuntu anacron[62813]: Normal exit (0 jobs run)
-Apr 10 06:17:01 ubuntu CRON[62837]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr 10 06:25:01 ubuntu CRON[62844]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
-Apr 10 06:49:08 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
-Apr 10 06:49:09 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
-Apr 10 07:05:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr 10 07:05:08 ubuntu anacron[62934]: Anacron 2.3 started on 2021-04-10
-Apr 10 07:05:08 ubuntu anacron[62934]: Normal exit (0 jobs run)
-Apr 10 07:17:02 ubuntu CRON[62957]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr 10 07:30:01 ubuntu CRON[62963]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
-Apr 10 08:00:24 ubuntu systemd[1]: Started Run anacron jobs.
-Apr 10 08:00:24 ubuntu anacron[62974]: Anacron 2.3 started on 2021-04-10
-Apr 10 08:00:24 ubuntu anacron[62974]: Normal exit (0 jobs run)
-Apr 10 08:17:01 ubuntu CRON[62998]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr 10 08:49:02 ubuntu systemd[1]: Created slice User Slice of huawei.
-Apr 10 08:49:02 ubuntu systemd[1]: Starting User Manager for UID 1000...
-Apr 10 08:49:02 ubuntu systemd[1]: Started Session 811 of user huawei.
-Apr 10 08:49:02 ubuntu systemd[63008]: Started Pending report trigger for Ubuntu Report.
-Apr 10 08:49:02 ubuntu systemd[63008]: Reached target Paths.
-Apr 10 08:49:02 ubuntu systemd[63008]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
-Apr 10 08:49:02 ubuntu systemd[63008]: Reached target Timers.
-Apr 10 08:49:02 ubuntu systemd[63008]: Listening on REST API socket for snapd user session agent.
-Apr 10 08:49:02 ubuntu systemd[63008]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
-Apr 10 08:49:02 ubuntu systemd[63008]: Starting D-Bus User Message Bus Socket.
-Apr 10 08:49:02 ubuntu systemd[63008]: Listening on GnuPG network certificate management daemon.
-Apr 10 08:49:02 ubuntu systemd[63008]: Listening on GnuPG cryptographic agent and passphrase cache.
-Apr 10 08:49:02 ubuntu systemd[63008]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
-Apr 10 08:49:02 ubuntu systemd[63008]: Listening on D-Bus User Message Bus Socket.
-Apr 10 08:49:02 ubuntu systemd[63008]: Reached target Sockets.
-Apr 10 08:49:02 ubuntu systemd[63008]: Reached target Basic System.
-Apr 10 08:49:02 ubuntu systemd[63008]: Reached target Default.
-Apr 10 08:49:02 ubuntu systemd[63008]: Startup finished in 65ms.
-Apr 10 08:49:02 ubuntu systemd[1]: Started User Manager for UID 1000.
-Apr 10 09:03:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr 10 09:03:08 ubuntu anacron[63180]: Anacron 2.3 started on 2021-04-10
-Apr 10 09:03:08 ubuntu anacron[63180]: Normal exit (0 jobs run)
-Apr 10 09:17:01 ubuntu CRON[63205]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr 10 09:23:14 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
-Apr 10 09:23:14 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
-Apr 10 10:04:08 ubuntu systemd[1]: Started Run anacron jobs.
-Apr 10 10:04:08 ubuntu anacron[63251]: Anacron 2.3 started on 2021-04-10
-Apr 10 10:04:08 ubuntu anacron[63251]: Normal exit (0 jobs run)
-Apr 10 10:17:01 ubuntu CRON[63275]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Apr 10 10:55:10 ubuntu systemd[1]: Stopping User Manager for UID 1000...
-Apr 10 10:55:10 ubuntu systemd[63008]: Stopped target Default.
-Apr 10 10:55:10 ubuntu systemd[63008]: Stopped target Basic System.
-Apr 10 10:55:10 ubuntu systemd[63008]: Stopped target Paths.
-Apr 10 10:55:10 ubuntu systemd[63008]: Stopped target Sockets.
-Apr 10 10:55:10 ubuntu systemd[63008]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
-Apr 10 10:55:10 ubuntu systemd[63008]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
-Apr 10 10:55:10 ubuntu systemd[63008]: Closed GnuPG network certificate management daemon.
-Apr 10 10:55:10 ubuntu systemd[63008]: Closed GnuPG cryptographic agent (ssh-agent emulation).
-Apr 10 10:55:10 ubuntu systemd[63008]: Closed D-Bus User Message Bus Socket.
-Apr 10 10:55:10 ubuntu systemd[63008]: Closed REST API socket for snapd user session agent.
-Apr 10 10:55:10 ubuntu systemd[63008]: Closed GnuPG cryptographic agent and passphrase cache.
-Apr 10 10:55:10 ubuntu systemd[63008]: Stopped Pending report trigger for Ubuntu Report.
-Apr 10 10:55:10 ubuntu systemd[63008]: Stopped target Timers.
-Apr 10 10:55:10 ubuntu systemd[63008]: Reached target Shutdown.
-Apr 10 10:55:10 ubuntu systemd[63008]: Starting Exit the Session...
-Apr 10 10:55:10 ubuntu systemd[63008]: Received SIGRTMIN+24 from PID 63294 (kill).
-Apr 10 10:55:10 ubuntu systemd[1]: Stopped User Manager for UID 1000.
-Apr 10 10:55:10 ubuntu systemd[1]: Removed slice User Slice of huawei.
-Apr 10 10:59:29 ubuntu systemd[1]: Created slice User Slice of huawei.
-Apr 10 10:59:29 ubuntu systemd[1]: Starting User Manager for UID 1000...
-Apr 10 10:59:29 ubuntu systemd[1]: Started Session 815 of user huawei.
-Apr 10 10:59:29 ubuntu systemd[63302]: Listening on GnuPG network certificate management daemon.
-Apr 10 10:59:29 ubuntu systemd[63302]: Listening on GnuPG cryptographic agent and passphrase cache.
-Apr 10 10:59:29 ubuntu systemd[63302]: Reached target Timers.
-Apr 10 10:59:29 ubuntu systemd[63302]: Starting D-Bus User Message Bus Socket.
-Apr 10 10:59:29 ubuntu systemd[63302]: Listening on REST API socket for snapd user session agent.
-Apr 10 10:59:29 ubuntu systemd[63302]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
-Apr 10 10:59:29 ubuntu systemd[63302]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
-Apr 10 10:59:29 ubuntu systemd[63302]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
-Apr 10 10:59:29 ubuntu systemd[63302]: Started Pending report trigger for Ubuntu Report.
-Apr 10 10:59:29 ubuntu systemd[63302]: Reached target Paths.
-Apr 10 10:59:29 ubuntu systemd[63302]: Listening on D-Bus User Message Bus Socket.
-Apr 10 10:59:29 ubuntu systemd[63302]: Reached target Sockets.
-Apr 10 10:59:29 ubuntu systemd[63302]: Reached target Basic System.
-Apr 10 10:59:29 ubuntu systemd[63302]: Reached target Default.
-Apr 10 10:59:29 ubuntu systemd[63302]: Startup finished in 45ms.
-Apr 10 10:59:29 ubuntu systemd[1]: Started User Manager for UID 1000.
+Apr 12 00:08:45 ubuntu anacron[80902]: Job `cron.daily' terminated
+Apr 12 00:08:45 ubuntu anacron[80902]: Normal exit (1 job run)
+Apr 12 00:17:01 ubuntu CRON[81141]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 00:54:01 ubuntu CRON[81158]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Apr 12 01:01:01 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 01:01:01 ubuntu anacron[81163]: Anacron 2.3 started on 2021-04-12
+Apr 12 01:01:01 ubuntu anacron[81163]: Normal exit (0 jobs run)
+Apr 12 01:17:01 ubuntu CRON[81189]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 02:04:33 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 02:04:34 ubuntu anacron[81210]: Anacron 2.3 started on 2021-04-12
+Apr 12 02:04:34 ubuntu anacron[81210]: Normal exit (0 jobs run)
+Apr 12 02:17:02 ubuntu CRON[81232]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 03:02:46 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 03:02:47 ubuntu anacron[81249]: Anacron 2.3 started on 2021-04-12
+Apr 12 03:02:47 ubuntu anacron[81249]: Normal exit (0 jobs run)
+Apr 12 03:17:01 ubuntu CRON[81276]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 04:05:01 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 04:05:01 ubuntu anacron[81294]: Anacron 2.3 started on 2021-04-12
+Apr 12 04:05:01 ubuntu anacron[81294]: Normal exit (0 jobs run)
+Apr 12 04:17:01 ubuntu CRON[81318]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 05:00:33 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 05:00:34 ubuntu anacron[81336]: Anacron 2.3 started on 2021-04-12
+Apr 12 05:00:34 ubuntu anacron[81336]: Normal exit (0 jobs run)
+Apr 12 05:17:01 ubuntu CRON[81363]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 06:01:01 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 06:01:01 ubuntu anacron[81378]: Anacron 2.3 started on 2021-04-12
+Apr 12 06:01:01 ubuntu anacron[81378]: Normal exit (0 jobs run)
+Apr 12 06:17:02 ubuntu CRON[81407]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 06:25:01 ubuntu CRON[81414]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 12 06:53:01 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+Apr 12 06:53:01 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Apr 12 07:03:50 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 07:03:51 ubuntu anacron[81505]: Anacron 2.3 started on 2021-04-12
+Apr 12 07:03:51 ubuntu anacron[81505]: Normal exit (0 jobs run)
+Apr 12 07:17:01 ubuntu CRON[81533]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 07:23:33 ubuntu systemd[1]: Starting Message of the Day...
+Apr 12 07:23:34 ubuntu 50-motd-news[81537]:  * Introducing self-healing high availability clusters in MicroK8s.
+Apr 12 07:23:34 ubuntu 50-motd-news[81537]:    Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
+Apr 12 07:23:34 ubuntu 50-motd-news[81537]:      https://microk8s.io/high-availability
+Apr 12 07:23:34 ubuntu systemd[1]: Started Message of the Day.
+Apr 12 07:30:01 ubuntu CRON[81601]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Apr 12 08:03:33 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 08:03:34 ubuntu anacron[81613]: Anacron 2.3 started on 2021-04-12
+Apr 12 08:03:34 ubuntu anacron[81613]: Normal exit (0 jobs run)
+Apr 12 08:17:02 ubuntu CRON[81641]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 09:02:33 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 09:02:34 ubuntu anacron[81656]: Anacron 2.3 started on 2021-04-12
+Apr 12 09:02:34 ubuntu anacron[81656]: Normal exit (0 jobs run)
+Apr 12 09:17:01 ubuntu CRON[81682]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 10:03:53 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 10:03:54 ubuntu anacron[81699]: Anacron 2.3 started on 2021-04-12
+Apr 12 10:03:54 ubuntu anacron[81699]: Normal exit (0 jobs run)
+Apr 12 10:17:01 ubuntu CRON[81724]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 11:04:54 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 11:04:55 ubuntu anacron[81746]: Anacron 2.3 started on 2021-04-12
+Apr 12 11:04:55 ubuntu anacron[81746]: Normal exit (0 jobs run)
+Apr 12 11:17:01 ubuntu CRON[81770]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 12:03:29 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 12:03:30 ubuntu anacron[81789]: Anacron 2.3 started on 2021-04-12
+Apr 12 12:03:30 ubuntu anacron[81789]: Normal exit (0 jobs run)
+Apr 12 12:14:56 ubuntu systemd[1]: Starting Daily apt download activities...
+Apr 12 12:15:26 ubuntu systemd-networkd-wait-online[81833]: Event loop failed: Connection timed out
+Apr 12 12:15:56 ubuntu apt-helper[81814]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Apr 12 12:15:56 ubuntu apt-helper[81814]: E: Sub-process nm-online returned an error code (1)
+Apr 12 12:15:56 ubuntu systemd-resolved[2222]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr 12 12:15:58 ubuntu systemd-resolved[2222]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Apr 12 12:16:08 ubuntu systemd[1]: Started Daily apt download activities.
+Apr 12 12:17:02 ubuntu CRON[82396]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 13:02:56 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 13:02:57 ubuntu anacron[82411]: Anacron 2.3 started on 2021-04-12
+Apr 12 13:02:57 ubuntu anacron[82411]: Normal exit (0 jobs run)
+Apr 12 13:17:01 ubuntu CRON[82438]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 14:03:33 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 12 14:03:34 ubuntu anacron[82456]: Anacron 2.3 started on 2021-04-12
+Apr 12 14:03:34 ubuntu anacron[82456]: Normal exit (0 jobs run)
+Apr 12 14:17:01 ubuntu CRON[82483]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 12 14:39:01 ubuntu systemd[1]: Created slice User Slice of huawei.
+Apr 12 14:39:01 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Apr 12 14:39:01 ubuntu systemd[1]: Started Session 60 of user huawei.
+Apr 12 14:39:01 ubuntu systemd[82491]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 12 14:39:01 ubuntu systemd[82491]: Starting D-Bus User Message Bus Socket.
+Apr 12 14:39:01 ubuntu systemd[82491]: Started Pending report trigger for Ubuntu Report.
+Apr 12 14:39:01 ubuntu systemd[82491]: Listening on GnuPG network certificate management daemon.
+Apr 12 14:39:01 ubuntu systemd[82491]: Listening on REST API socket for snapd user session agent.
+Apr 12 14:39:01 ubuntu systemd[82491]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 12 14:39:01 ubuntu systemd[82491]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 12 14:39:01 ubuntu systemd[82491]: Reached target Paths.
+Apr 12 14:39:01 ubuntu systemd[82491]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 12 14:39:01 ubuntu systemd[82491]: Reached target Timers.
+Apr 12 14:39:01 ubuntu systemd[82491]: Listening on D-Bus User Message Bus Socket.
+Apr 12 14:39:01 ubuntu systemd[82491]: Reached target Sockets.
+Apr 12 14:39:01 ubuntu systemd[82491]: Reached target Basic System.
+Apr 12 14:39:01 ubuntu systemd[82491]: Reached target Default.
+Apr 12 14:39:01 ubuntu systemd[82491]: Startup finished in 51ms.
+Apr 12 14:39:01 ubuntu systemd[1]: Started User Manager for UID 1000.
