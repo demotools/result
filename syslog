@@ -1268,3 +1268,60 @@ Apr 13 15:11:40 ubuntu systemd[67235]: Reached target Basic System.
 Apr 13 15:11:40 ubuntu systemd[67235]: Reached target Default.
 Apr 13 15:11:40 ubuntu systemd[67235]: Startup finished in 40ms.
 Apr 13 15:11:40 ubuntu systemd[1]: Started User Manager for UID 1000.
+Apr 13 15:17:01 ubuntu CRON[67402]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 15:19:23 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Apr 13 15:19:23 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Apr 13 15:29:41 ubuntu systemd[1]: Stopping User Manager for UID 1000...
+Apr 13 15:29:41 ubuntu systemd[67235]: Stopped target Default.
+Apr 13 15:29:41 ubuntu systemd[67235]: Stopped target Basic System.
+Apr 13 15:29:41 ubuntu systemd[67235]: Stopped target Timers.
+Apr 13 15:29:41 ubuntu systemd[67235]: Stopped target Paths.
+Apr 13 15:29:41 ubuntu systemd[67235]: Stopped target Sockets.
+Apr 13 15:29:41 ubuntu systemd[67235]: Closed REST API socket for snapd user session agent.
+Apr 13 15:29:41 ubuntu systemd[67235]: Closed GnuPG network certificate management daemon.
+Apr 13 15:29:41 ubuntu systemd[67235]: Closed GnuPG cryptographic agent and passphrase cache.
+Apr 13 15:29:41 ubuntu systemd[67235]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Apr 13 15:29:41 ubuntu systemd[67235]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 13 15:29:41 ubuntu systemd[67235]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 13 15:29:41 ubuntu systemd[67235]: Stopped Pending report trigger for Ubuntu Report.
+Apr 13 15:29:41 ubuntu systemd[67235]: Closed D-Bus User Message Bus Socket.
+Apr 13 15:29:41 ubuntu systemd[67235]: Reached target Shutdown.
+Apr 13 15:29:41 ubuntu systemd[67235]: Starting Exit the Session...
+Apr 13 15:29:41 ubuntu systemd[67235]: Received SIGRTMIN+24 from PID 67428 (kill).
+Apr 13 15:29:41 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Apr 13 15:29:41 ubuntu systemd[1]: Removed slice User Slice of huawei.
+Apr 13 15:56:25 ubuntu avahi-daemon[2461]: Withdrawing address record for fe80::4ea:96ff:fe95:6e6c on br0.
+Apr 13 15:56:26 ubuntu avahi-daemon[2461]: Withdrawing address record for 192.168.1.1 on br0.
+Apr 13 15:56:26 ubuntu avahi-daemon[2461]: Withdrawing address record for 127.0.0.1 on lo.
+Apr 13 15:56:26 ubuntu avahi-daemon[2461]: Host name conflict, retrying with ubuntu-2
+Apr 13 15:56:26 ubuntu avahi-daemon[2461]: Registering new address record for fe80::4ea:96ff:fe95:6e6c on br0.*.
+Apr 13 15:56:26 ubuntu avahi-daemon[2461]: Registering new address record for 192.168.1.1 on br0.IPv4.
+Apr 13 15:56:26 ubuntu avahi-daemon[2461]: Registering new address record for ::1 on lo.*.
+Apr 13 15:56:26 ubuntu avahi-daemon[2461]: Registering new address record for 127.0.0.1 on lo.IPv4.
+Apr 13 15:56:26 ubuntu avahi-daemon[2461]: Server startup complete. Host name is ubuntu-2.local. Local service cookie is 4177309052.
+Apr 13 16:01:01 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 13 16:01:01 ubuntu anacron[67439]: Anacron 2.3 started on 2021-04-13
+Apr 13 16:01:01 ubuntu anacron[67439]: Normal exit (0 jobs run)
+Apr 13 16:17:01 ubuntu CRON[67465]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 17:02:24 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 13 17:02:24 ubuntu anacron[67476]: Anacron 2.3 started on 2021-04-13
+Apr 13 17:02:24 ubuntu anacron[67476]: Normal exit (0 jobs run)
+Apr 13 17:05:47 ubuntu systemd[1]: Created slice User Slice of huawei.
+Apr 13 17:05:47 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Apr 13 17:05:47 ubuntu systemd[1]: Started Session 98 of user huawei.
+Apr 13 17:05:47 ubuntu systemd[67496]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 13 17:05:47 ubuntu systemd[67496]: Listening on GnuPG network certificate management daemon.
+Apr 13 17:05:47 ubuntu systemd[67496]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 13 17:05:47 ubuntu systemd[67496]: Starting D-Bus User Message Bus Socket.
+Apr 13 17:05:47 ubuntu systemd[67496]: Listening on REST API socket for snapd user session agent.
+Apr 13 17:05:47 ubuntu systemd[67496]: Reached target Timers.
+Apr 13 17:05:47 ubuntu systemd[67496]: Started Pending report trigger for Ubuntu Report.
+Apr 13 17:05:47 ubuntu systemd[67496]: Reached target Paths.
+Apr 13 17:05:47 ubuntu systemd[67496]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 13 17:05:47 ubuntu systemd[67496]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 13 17:05:47 ubuntu systemd[67496]: Listening on D-Bus User Message Bus Socket.
+Apr 13 17:05:47 ubuntu systemd[67496]: Reached target Sockets.
+Apr 13 17:05:47 ubuntu systemd[67496]: Reached target Basic System.
+Apr 13 17:05:47 ubuntu systemd[67496]: Reached target Default.
+Apr 13 17:05:47 ubuntu systemd[67496]: Startup finished in 45ms.
+Apr 13 17:05:47 ubuntu systemd[1]: Started User Manager for UID 1000.
