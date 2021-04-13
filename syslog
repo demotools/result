@@ -1215,3 +1215,56 @@ Apr 13 11:11:19 ubuntu systemd[1]: Started User Manager for UID 1000.
 Apr 13 11:17:01 ubuntu CRON[66835]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
 Apr 13 11:51:44 ubuntu systemd[1]: Started Session 89 of user huawei.
 Apr 13 11:53:41 ubuntu systemd[1]: Started Session 90 of user huawei.
+Apr 13 12:05:01 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 13 12:05:01 ubuntu anacron[67095]: Anacron 2.3 started on 2021-04-13
+Apr 13 12:05:01 ubuntu anacron[67095]: Normal exit (0 jobs run)
+Apr 13 12:17:01 ubuntu CRON[67121]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 13:01:01 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 13 13:01:01 ubuntu anacron[67132]: Anacron 2.3 started on 2021-04-13
+Apr 13 13:01:01 ubuntu anacron[67132]: Normal exit (0 jobs run)
+Apr 13 13:17:01 ubuntu CRON[67156]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 13:59:24 ubuntu systemd[1]: Stopping User Manager for UID 1000...
+Apr 13 13:59:24 ubuntu systemd[66690]: Stopped target Default.
+Apr 13 13:59:24 ubuntu systemd[66690]: Stopped target Basic System.
+Apr 13 13:59:24 ubuntu systemd[66690]: Stopped target Paths.
+Apr 13 13:59:24 ubuntu systemd[66690]: Stopped Pending report trigger for Ubuntu Report.
+Apr 13 13:59:24 ubuntu systemd[66690]: Stopped target Timers.
+Apr 13 13:59:24 ubuntu systemd[66690]: Stopped target Sockets.
+Apr 13 13:59:24 ubuntu systemd[66690]: Closed D-Bus User Message Bus Socket.
+Apr 13 13:59:24 ubuntu systemd[66690]: Closed REST API socket for snapd user session agent.
+Apr 13 13:59:24 ubuntu systemd[66690]: Closed GnuPG cryptographic agent and passphrase cache.
+Apr 13 13:59:24 ubuntu systemd[66690]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 13 13:59:24 ubuntu systemd[66690]: Closed GnuPG network certificate management daemon.
+Apr 13 13:59:24 ubuntu systemd[66690]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Apr 13 13:59:24 ubuntu systemd[66690]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 13 13:59:24 ubuntu systemd[66690]: Reached target Shutdown.
+Apr 13 13:59:24 ubuntu systemd[66690]: Starting Exit the Session...
+Apr 13 13:59:24 ubuntu systemd[66690]: Received SIGRTMIN+24 from PID 67172 (kill).
+Apr 13 13:59:24 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Apr 13 13:59:24 ubuntu systemd[1]: Removed slice User Slice of huawei.
+Apr 13 14:01:01 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 13 14:01:01 ubuntu anacron[67176]: Anacron 2.3 started on 2021-04-13
+Apr 13 14:01:01 ubuntu anacron[67176]: Normal exit (0 jobs run)
+Apr 13 14:17:01 ubuntu CRON[67199]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 15:02:01 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 13 15:02:01 ubuntu anacron[67210]: Anacron 2.3 started on 2021-04-13
+Apr 13 15:02:01 ubuntu anacron[67210]: Normal exit (0 jobs run)
+Apr 13 15:11:40 ubuntu systemd[1]: Created slice User Slice of huawei.
+Apr 13 15:11:40 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Apr 13 15:11:40 ubuntu systemd[1]: Started Session 94 of user huawei.
+Apr 13 15:11:40 ubuntu systemd[67235]: Started Pending report trigger for Ubuntu Report.
+Apr 13 15:11:40 ubuntu systemd[67235]: Starting D-Bus User Message Bus Socket.
+Apr 13 15:11:40 ubuntu systemd[67235]: Listening on GnuPG network certificate management daemon.
+Apr 13 15:11:40 ubuntu systemd[67235]: Reached target Paths.
+Apr 13 15:11:40 ubuntu systemd[67235]: Reached target Timers.
+Apr 13 15:11:40 ubuntu systemd[67235]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 13 15:11:40 ubuntu systemd[67235]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 13 15:11:40 ubuntu systemd[67235]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 13 15:11:40 ubuntu systemd[67235]: Listening on REST API socket for snapd user session agent.
+Apr 13 15:11:40 ubuntu systemd[67235]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 13 15:11:40 ubuntu systemd[67235]: Listening on D-Bus User Message Bus Socket.
+Apr 13 15:11:40 ubuntu systemd[67235]: Reached target Sockets.
+Apr 13 15:11:40 ubuntu systemd[67235]: Reached target Basic System.
+Apr 13 15:11:40 ubuntu systemd[67235]: Reached target Default.
+Apr 13 15:11:40 ubuntu systemd[67235]: Startup finished in 40ms.
+Apr 13 15:11:40 ubuntu systemd[1]: Started User Manager for UID 1000.
