@@ -1212,3 +1212,5 @@ Apr 13 11:11:19 ubuntu systemd[66690]: Reached target Basic System.
 Apr 13 11:11:19 ubuntu systemd[66690]: Reached target Default.
 Apr 13 11:11:19 ubuntu systemd[66690]: Startup finished in 43ms.
 Apr 13 11:11:19 ubuntu systemd[1]: Started User Manager for UID 1000.
+Apr 13 11:17:01 ubuntu CRON[66835]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 11:51:44 ubuntu systemd[1]: Started Session 89 of user huawei.
