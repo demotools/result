@@ -33,7 +33,7 @@ BENCHMARKS="canneal"
 #CONFIGS="F FM"
 CONFIGS="I IM"
 
-for RUNTIMES in $(seq 5) 
+for RUNTIMES in $(seq 1) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 

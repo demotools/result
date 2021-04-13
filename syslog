@@ -1325,3 +1325,197 @@ Apr 13 17:05:47 ubuntu systemd[67496]: Reached target Basic System.
 Apr 13 17:05:47 ubuntu systemd[67496]: Reached target Default.
 Apr 13 17:05:47 ubuntu systemd[67496]: Startup finished in 45ms.
 Apr 13 17:05:47 ubuntu systemd[1]: Started User Manager for UID 1000.
+Apr 13 17:16:24 ubuntu systemd[1]: Starting Message of the Day...
+Apr 13 17:16:26 ubuntu 50-motd-news[67641]:  * Introducing self-healing high availability clusters in MicroK8s.
+Apr 13 17:16:26 ubuntu 50-motd-news[67641]:    Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
+Apr 13 17:16:26 ubuntu 50-motd-news[67641]:      https://microk8s.io/high-availability
+Apr 13 17:16:26 ubuntu systemd[1]: Started Message of the Day.
+Apr 13 17:17:01 ubuntu CRON[67704]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 18:01:25 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 13 18:01:25 ubuntu anacron[67718]: Anacron 2.3 started on 2021-04-13
+Apr 13 18:01:25 ubuntu anacron[67718]: Normal exit (0 jobs run)
+Apr 13 18:17:02 ubuntu CRON[67743]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 19:03:26 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 13 19:03:27 ubuntu anacron[67757]: Anacron 2.3 started on 2021-04-13
+Apr 13 19:03:27 ubuntu anacron[67757]: Normal exit (0 jobs run)
+Apr 13 19:09:00 ubuntu systemd[1]: Stopping User Manager for UID 1000...
+Apr 13 19:09:00 ubuntu systemd[67496]: Stopped target Default.
+Apr 13 19:09:00 ubuntu systemd[67496]: Stopped target Basic System.
+Apr 13 19:09:00 ubuntu systemd[67496]: Stopped target Timers.
+Apr 13 19:09:00 ubuntu systemd[67496]: Stopped target Paths.
+Apr 13 19:09:00 ubuntu systemd[67496]: Stopped target Sockets.
+Apr 13 19:09:00 ubuntu systemd[67496]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 13 19:09:00 ubuntu systemd[67496]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 13 19:09:00 ubuntu systemd[67496]: Closed D-Bus User Message Bus Socket.
+Apr 13 19:09:00 ubuntu systemd[67496]: Closed GnuPG network certificate management daemon.
+Apr 13 19:09:00 ubuntu systemd[67496]: Closed REST API socket for snapd user session agent.
+Apr 13 19:09:00 ubuntu systemd[67496]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Apr 13 19:09:00 ubuntu systemd[67496]: Closed GnuPG cryptographic agent and passphrase cache.
+Apr 13 19:09:00 ubuntu systemd[67496]: Stopped Pending report trigger for Ubuntu Report.
+Apr 13 19:09:00 ubuntu systemd[67496]: Reached target Shutdown.
+Apr 13 19:09:00 ubuntu systemd[67496]: Starting Exit the Session...
+Apr 13 19:09:00 ubuntu systemd[67496]: Received SIGRTMIN+24 from PID 67780 (kill).
+Apr 13 19:09:00 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Apr 13 19:09:00 ubuntu systemd[1]: Removed slice User Slice of huawei.
+Apr 13 19:17:01 ubuntu CRON[67789]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 20:05:01 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 13 20:05:01 ubuntu anacron[67804]: Anacron 2.3 started on 2021-04-13
+Apr 13 20:05:01 ubuntu anacron[67804]: Normal exit (0 jobs run)
+Apr 13 20:17:01 ubuntu CRON[67828]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 21:00:33 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 13 21:00:34 ubuntu anacron[67839]: Anacron 2.3 started on 2021-04-13
+Apr 13 21:00:34 ubuntu anacron[67839]: Normal exit (0 jobs run)
+Apr 13 21:07:43 ubuntu systemd[1]: Created slice User Slice of huawei.
+Apr 13 21:07:43 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Apr 13 21:07:43 ubuntu systemd[1]: Started Session 104 of user huawei.
+Apr 13 21:07:44 ubuntu systemd[67863]: Reached target Timers.
+Apr 13 21:07:44 ubuntu systemd[67863]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 13 21:07:44 ubuntu systemd[67863]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 13 21:07:44 ubuntu systemd[67863]: Listening on REST API socket for snapd user session agent.
+Apr 13 21:07:44 ubuntu systemd[67863]: Starting D-Bus User Message Bus Socket.
+Apr 13 21:07:44 ubuntu systemd[67863]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 13 21:07:44 ubuntu systemd[67863]: Listening on GnuPG network certificate management daemon.
+Apr 13 21:07:44 ubuntu systemd[67863]: Started Pending report trigger for Ubuntu Report.
+Apr 13 21:07:44 ubuntu systemd[67863]: Reached target Paths.
+Apr 13 21:07:44 ubuntu systemd[67863]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 13 21:07:44 ubuntu systemd[67863]: Listening on D-Bus User Message Bus Socket.
+Apr 13 21:07:44 ubuntu systemd[67863]: Reached target Sockets.
+Apr 13 21:07:44 ubuntu systemd[67863]: Reached target Basic System.
+Apr 13 21:07:44 ubuntu systemd[67863]: Reached target Default.
+Apr 13 21:07:44 ubuntu systemd[67863]: Startup finished in 45ms.
+Apr 13 21:07:44 ubuntu systemd[1]: Started User Manager for UID 1000.
+Start test round: 1
+Apr 13 21:11:49 ubuntu kernel: [281296.710179] Page table allocation set to normal behavior
+Apr 13 21:11:49 ubuntu kernel: [281296.716994] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 68076 to be ready
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+[0mWaiting for benchmark to be done current :2021-04-13 21:11:55
+Final routing is: 6.9017e+08
+</run>
+Total time: 6.318
+</benchmark>
+Execution Time (seconds): 0
+****success****
+canneal : I completed.
+current = 2021-04-13 21:11:56
+Apr 13 21:11:56 ubuntu kernel: [281304.115889] Page table allocation set to fixed on node 0
+Apr 13 21:11:56 ubuntu kernel: [281304.123903] PROCFS: Command ot drain the pgtable cache
+Apr 13 21:11:56 ubuntu kernel: [281304.131041] PROCFS: Command ot populate the pgtable cache
+Apr 13 21:11:56 ubuntu kernel: [281304.131043] PGREPL: populating pgtable cache with 1100000 tables per node
+Apr 13 21:11:56 ubuntu kernel: [281304.131044] PGREPL: populating pgtable cache node[0] with 1100000 tables
+Apr 13 21:11:57 ubuntu kernel: [281305.095136] PGREPL: node[0] populated with 1100000  tables
+Apr 13 21:11:57 ubuntu kernel: [281305.095140] PGREPL: populating pgtable cache node[1] with 1100000 tables
+Apr 13 21:11:58 ubuntu kernel: [281305.764064] PGREPL: node[1] populated with 1100000  tables
+Apr 13 21:11:58 ubuntu kernel: [281305.764067] PGREPL: populating pgtable cache node[2] with 1100000 tables
+Apr 13 21:11:59 ubuntu kernel: [281307.075079] PGREPL: node[2] populated with 1100000  tables
+Apr 13 21:11:59 ubuntu kernel: [281307.075081] PGREPL: populating pgtable cache node[3] with 1100000 tables
+Apr 13 21:12:01 ubuntu kernel: [281308.628316] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark: 68270 to be ready
+Apr 13 21:12:01 ubuntu kernel: [281308.659219] [mitosis] NOTE: version = 6
+Apr 13 21:12:01 ubuntu kernel: [281308.659222] [mitosis] kernel_set_pgtlbreplpolicy: pid = 68270
+Apr 13 21:12:01 ubuntu kernel: [281308.659224] PTREP: Called pgtbl_repl_prepare_replication version 2
+Apr 13 21:12:01 ubuntu kernel: [281308.659225] [mitosis] pgtbl_repl_prepare_replication  for mm=ffff002fc2b96400.
+Apr 13 21:12:01 ubuntu kernel: [281308.659226] [mitosis]------PTREPL: alloc pgd start------
+Apr 13 21:12:01 ubuntu kernel: [281308.659227] [mitosis] nr_node_ids=4.
+Apr 13 21:12:01 ubuntu kernel: [281308.659228] [mitosis] pgd_alloc origin mm->pgd =ffff002ea7ba2000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659230] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff002676e03000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659232] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff002e7f27f000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659236] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff2023fa796000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659238] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202e98e61000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659239] ------PTREPL: alloc pgd success------
+Apr 13 21:12:01 ubuntu kernel: [281308.659240] pgtbl_repl_prepare_replication:1156 pgd=ffff002ea7ba2000..ffff002ea7ba2fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659242] PTREP: pgd_idx = 341，and pgd=ffff002ea7ba2aa8  and pgd[341]=2e8345a003
+Apr 13 21:12:01 ubuntu kernel: [281308.659244] pgtbl_repl_prepare_replication:1164 pgd[341]'s pud=ffff002e8345a000..ffff002e8345afff
+Apr 13 21:12:01 ubuntu kernel: [281308.659245] pgtbl_repl_prepare_replication:1168 another func __va pud=ffff002e8345a000..ffff002e8345afff
+Apr 13 21:12:01 ubuntu kernel: [281308.659246] pgtbl_repl_prepare_replication:1169 1 pfn=2e8345a   2 pfn=2e8345a
+Apr 13 21:12:01 ubuntu kernel: [281308.659251] [mitosis] start search pud .......
+Apr 13 21:12:01 ubuntu kernel: [281308.659253] PTREP: pud_idx = 171，and pud=ffff002e8345a558  and pud[171]=2fcfd03003
+Apr 13 21:12:01 ubuntu kernel: [281308.659254] pgtbl_repl_prepare_replication:1188 pud[171]'s pmd=ffff002fcfd03000..ffff002fcfd03fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659255] pgtbl_repl_prepare_replication:1189 1 pfn=2fcfd03   2 pfn=2fcfd03
+Apr 13 21:12:01 ubuntu kernel: [281308.659260] PTREP: pmd_idx = 205，and pmd=ffff002fcfd03668  and pmd[205]=2e830e1003
+Apr 13 21:12:01 ubuntu kernel: [281308.659262] pgtbl_repl_prepare_replication:1208 pmd[205]'s pte=ffff002e830e1000..ffff002e830e1fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659262] pgtbl_repl_prepare_replication:1209 1 pfn=2e830e1   2 pfn=2e830e1
+Apr 13 21:12:01 ubuntu kernel: [281308.659270] PTREP: pmd_idx = 445，and pmd=ffff002fcfd03de8  and pmd[445]=2e83b44003
+Apr 13 21:12:01 ubuntu kernel: [281308.659271] pgtbl_repl_prepare_replication:1208 pmd[445]'s pte=ffff002e83b44000..ffff002e83b44fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659272] pgtbl_repl_prepare_replication:1209 1 pfn=2e83b44   2 pfn=2e83b44
+Apr 13 21:12:01 ubuntu kernel: [281308.659279] ===================================== end of a page
+Apr 13 21:12:01 ubuntu kernel: [281308.659280] PTREP: pgd_idx = 511，and pgd=ffff002ea7ba2ff8  and pgd[511]=2fb3a67003
+Apr 13 21:12:01 ubuntu kernel: [281308.659281] pgtbl_repl_prepare_replication:1164 pgd[511]'s pud=ffff002fb3a67000..ffff002fb3a67fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659282] pgtbl_repl_prepare_replication:1168 another func __va pud=ffff002fb3a67000..ffff002fb3a67fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659283] pgtbl_repl_prepare_replication:1169 1 pfn=2fb3a67   2 pfn=2fb3a67
+Apr 13 21:12:01 ubuntu kernel: [281308.659288] [mitosis] start search pud .......
+Apr 13 21:12:01 ubuntu kernel: [281308.659290] PTREP: pud_idx = 510，and pud=ffff002fb3a67ff0  and pud[510]=2e8d393003
+Apr 13 21:12:01 ubuntu kernel: [281308.659291] pgtbl_repl_prepare_replication:1188 pud[510]'s pmd=ffff002e8d393000..ffff002e8d393fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659292] pgtbl_repl_prepare_replication:1189 1 pfn=2e8d393   2 pfn=2e8d393
+Apr 13 21:12:01 ubuntu kernel: [281308.659298] PTREP: pmd_idx = 117，and pmd=ffff002e8d3933a8  and pmd[117]=2e9f113003
+Apr 13 21:12:01 ubuntu kernel: [281308.659299] pgtbl_repl_prepare_replication:1208 pmd[117]'s pte=ffff002e9f113000..ffff002e9f113fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659300] pgtbl_repl_prepare_replication:1209 1 pfn=2e9f113   2 pfn=2e9f113
+Apr 13 21:12:01 ubuntu kernel: [281308.659309] PTREP: pmd_idx = 118，and pmd=ffff002e8d3933b0  and pmd[118]=2fbdc90003
+Apr 13 21:12:01 ubuntu kernel: [281308.659311] pgtbl_repl_prepare_replication:1208 pmd[118]'s pte=ffff002fbdc90000..ffff002fbdc90fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659312] pgtbl_repl_prepare_replication:1209 1 pfn=2fbdc90   2 pfn=2fbdc90
+Apr 13 21:12:01 ubuntu kernel: [281308.659319] PTREP: pud_idx = 511，and pud=ffff002fb3a67ff8  and pud[511]=2fb3a66003
+Apr 13 21:12:01 ubuntu kernel: [281308.659320] pgtbl_repl_prepare_replication:1188 pud[511]'s pmd=ffff002fb3a66000..ffff002fb3a66fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659321] pgtbl_repl_prepare_replication:1189 1 pfn=2fb3a66   2 pfn=2fb3a66
+Apr 13 21:12:01 ubuntu kernel: [281308.659327] PTREP: pmd_idx = 154，and pmd=ffff002fb3a664d0  and pmd[154]=2e8d391003
+Apr 13 21:12:01 ubuntu kernel: [281308.659328] pgtbl_repl_prepare_replication:1208 pmd[154]'s pte=ffff002e8d391000..ffff002e8d391fff
+Apr 13 21:12:01 ubuntu kernel: [281308.659329] pgtbl_repl_prepare_replication:1209 1 pfn=2e8d391   2 pfn=2e8d391
+Apr 13 21:12:01 ubuntu kernel: [281308.659335] ===================================== end of a page
+Apr 13 21:12:01 ubuntu kernel: [281308.659337] pgtbl_repl_prepare_replication:1235 all: pud_num=3, pmd_num=5, pte_num=326
+Apr 13 21:12:01 ubuntu kernel: [281308.659338] PTREP: Called pgtbl_repl_prepare_replication  done
+Apr 13 21:12:01 ubuntu kernel: [281308.659339] [mitosis] pgtable replication enabled for mm=ffff002fc2b96400.
+Apr 13 21:12:01 ubuntu kernel: [281308.659340] [mitosis] pgtable replication err=0.
+Apr 13 21:12:01 ubuntu kernel: [281308.659359] [mitosis]------PTREPL: alloc pgd start------
+Apr 13 21:12:01 ubuntu kernel: [281308.659360] [mitosis] nr_node_ids=4.
+Apr 13 21:12:01 ubuntu kernel: [281308.659362] [mitosis] pgd_alloc origin mm->pgd =ffff202fc1a90000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659363] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff002676df8000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659364] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff002e7f274000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659366] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff2023fa78b000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659367] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202e98e56000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659368] ------PTREPL: alloc pgd success------
+Apr 13 21:12:01 ubuntu kernel: [281308.659561] [mitosis] PTREPL: free pgd start 
+Apr 13 21:12:01 ubuntu kernel: [281308.659563] [mitosis] pgtable_repl_pgd_free freed pgd=ffff002ea7ba2000 and mm->pgd=ffff002ea7ba2000.
+Apr 13 21:12:01 ubuntu kernel: [281308.659564] [mitosis]------PTREPL: free pgd done------
+/home/huawei/result/bin/bench_canneal_mt 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+[0mWaiting for benchmark to be done current :2021-04-13 21:12:06
+Final routing is: 6.90282e+08
+</run>
+Total time: 7.044
+</benchmark>
+Execution Time (seconds): 1
+****success****
+canneal : IM completed.
+current = 2021-04-13 21:12:08
