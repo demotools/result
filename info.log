@@ -2,118 +2,26 @@
 ASPLOS'20 - Artifact Evaluation - Mitosis - Figure 9A
 ************************************************************************
 Start test round: 1
-******************canneal : I***********************
+******************canneal : F***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 82802 to be ready
+[0mWaiting for benchmark: 68860 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-04-12 15:57:21
+[0mWaiting for benchmark to be done current :2021-04-14 01:31:37
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 23
-canneal : I completed.
+Execution Time (seconds): 13
+canneal : F completed.
 
-******************canneal : IM***********************
+******************canneal : FM***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 30399 to be ready
+[0mWaiting for benchmark: 81561 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-04-12 17:08:08
+[0mWaiting for benchmark to be done current :2021-04-14 05:14:10
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 16
-canneal : IM completed.
-
-Start test round: 2
-******************canneal : I***********************
-available: 4 nodes (0-3)
-4
-3
-[0mWaiting for benchmark: 65565 to be ready
-signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-04-12 18:11:14
-signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 24
-canneal : I completed.
-
-******************canneal : IM***********************
-available: 4 nodes (0-3)
-4
-3
-[0mWaiting for benchmark: 98211 to be ready
-signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-04-12 19:28:38
-signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 16
-canneal : IM completed.
-
-Start test round: 3
-******************canneal : I***********************
-available: 4 nodes (0-3)
-4
-3
-[0mWaiting for benchmark: 39941 to be ready
-signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-04-12 20:32:46
-signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 23
-canneal : I completed.
-
-******************canneal : IM***********************
-available: 4 nodes (0-3)
-4
-3
-[0mWaiting for benchmark: 74913 to be ready
-signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-04-12 21:41:24
-signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 17
-canneal : IM completed.
-
-Start test round: 4
-******************canneal : I***********************
-available: 4 nodes (0-3)
-4
-3
-[0mWaiting for benchmark: 12931 to be ready
-signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-04-12 22:42:47
-signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 23
-canneal : I completed.
-
-******************canneal : IM***********************
-available: 4 nodes (0-3)
-4
-3
-[0mWaiting for benchmark: 44905 to be ready
-signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-04-12 23:55:21
-signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 17
-canneal : IM completed.
-
-Start test round: 5
-******************canneal : I***********************
-available: 4 nodes (0-3)
-4
-3
-[0mWaiting for benchmark: 80158 to be ready
-signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-04-13 01:22:03
-signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 24
-canneal : I completed.
-
-******************canneal : IM***********************
-available: 4 nodes (0-3)
-4
-3
-[0mWaiting for benchmark: 30893 to be ready
-signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-04-13 02:34:41
-signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 17
-canneal : IM completed.
+Execution Time (seconds): 10
+canneal : FM completed.
 
 ******************ALL done : suncess!***********************
