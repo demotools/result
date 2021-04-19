@@ -1,5 +1,0 @@
-/home/huawei/result/bin/numactl --pgtablerepl=3 /home/huawei/result/bin/bench_canneal_mt -- 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128
-# started on Thu Apr 15 11:32:21 2021
-
-Execution Time (seconds): 0
-****success****

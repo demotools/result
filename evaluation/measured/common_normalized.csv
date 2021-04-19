@@ -1,5 +1,3 @@
 Workload	Configuration	Walk Cycles	Non-Walk Cycles	 Norm. Perf.
 Canneal	F	0.000000	1.000000	1.000000
-Canneal	F+M	0.000000	0.832019	0.832019
-Canneal	I	0.000000	3.942523	3.942523
-Canneal	I+M	0.000000	1.248006	1.248006
+Canneal	F+M	0.000000	0.473397	0.473397
