@@ -28,7 +28,7 @@ SYSBENCH_ARGS=" --threads=96 --memory-block-size=1k --memory-total-size=128G mem
 CANNEAL_ARGS=" -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_80G 500 "
 #CANNEAL_ARGS=" -- 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 "
 BENCH_size="small"
-MEMCACHED_ARGS=" -d -m 40960m -p 11212 -u root"
+MEMCACHED_ARGS=" -d -m 40960m -p 11212"
 #BENCH_size="large"
 if [ $BENCH_size == "small" ]; then
         BTREE_ARGS=""
@@ -237,10 +237,14 @@ launch_benchmark_config()
         current=`date "+%Y-%m-%d %H:%M:%S"` 
         echo -e "\e[0mWaiting for benchmark to be done current :$current"
 	echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
-	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 1000 --data-size=24 --ratio=0:10 --out-file=/home/huawei/memcachedTest/resultGet.log >> /var/log/syslog
+	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 1000 --data-size=24 --ratio=0:10 --out-file=/home/huawei/memcachedTest/resultGet.log >> /var/log/syslog &
+        memtierPID=$!
         # while [ ! -f /tmp/alloctest-bench.done ]; do
 	# 	sleep 0.1
 	# done
+        while [ ! -n "$memtierPID" ]; do
+		sleep 0.1
+	done
 	DURATION=$SECONDS
 	# kill -INT $PERF_PID &> /dev/null
 	# wait $PERF_PID
@@ -259,7 +263,7 @@ launch_benchmark_config()
         echo "current = "$current >> /var/log/syslog
         # echo "timestap = "$currentTimeStamp >> /var/log/syslog
         echo ""
-        # kill -INT $BENCHMARK_PID &> /dev/null
+        kill -INT $BENCHMARK_PID &> /dev/null
 	killall bench_stream &>/dev/null
 }
 
