@@ -242,7 +242,7 @@ launch_benchmark_config()
         # while [ ! -f /tmp/alloctest-bench.done ]; do
 	# 	sleep 0.1
 	# done
-        while [ ! -n "$memtierPID" ]; do
+        while [ -n "$memtierPID" ]; do
 		sleep 0.1
 	done
 	DURATION=$SECONDS
