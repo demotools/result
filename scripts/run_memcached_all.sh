@@ -26,12 +26,12 @@ BENCHMARKS="memcached"
 # BENCHMARKS="sysbench"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
-CONFIGS="F"
+#CONFIGS="F"
 #CONFIGS="FM"
 #CONFIGS="I"
 #CONFIGS="IM"
 #CONFIGS="F FM I IM"
-#CONFIGS="F FM"
+CONFIGS="F FM"
 #CONFIGS="I IM"
 
 for RUNTIMES in $(seq 1) 

@@ -28,7 +28,7 @@ SYSBENCH_ARGS=" --threads=96 --memory-block-size=1k --memory-total-size=128G mem
 CANNEAL_ARGS=" -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_80G 500 "
 #CANNEAL_ARGS=" -- 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 "
 BENCH_size="small"
-MEMCACHED_ARGS=" -d -m 40960m -p 11212"
+MEMCACHED_ARGS=" -d -m 40960m -p 11212 -u huawei"
 #BENCH_size="large"
 if [ $BENCH_size == "small" ]; then
         BTREE_ARGS=""
@@ -230,25 +230,27 @@ launch_benchmark_config()
 	# while [ ! -f /tmp/alloctest-bench.ready ]; do
 	# 	sleep 0.1
 	# done
-        memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 1000 --data-size=24 --ratio=10:0 --out-file=/home/huawei/memcachedTest/resultSet.log >> /var/log/syslog
+        memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --data-size=24 --ratio=10:0 --out-file=/home/huawei/memcachedTest/resultSet.log >> /var/log/syslog
         SECONDS=0
 	# $PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $BENCHMARK_PID &
 	# PERF_PID=$!
         current=`date "+%Y-%m-%d %H:%M:%S"` 
         echo -e "\e[0mWaiting for benchmark to be done current :$current"
 	echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
-	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 1000 --data-size=24 --ratio=0:10 --out-file=/home/huawei/memcachedTest/resultGet.log >> /var/log/syslog &
+	rm /tmp/alloctest-bench.ready &>/dev/null
+        rm /tmp/alloctest-bench.done &> /dev/null
+	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --data-size=24 --ratio=0:10 --out-file=/home/huawei/memcachedTest/resultGet.log >> /var/log/syslog &
         memtierPID=$!
-        # while [ ! -f /tmp/alloctest-bench.done ]; do
-	# 	sleep 0.1
-	# done
-        while [ ps -p $memtierPID >/dev/null ]; do
+	$PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $memtierPID &
+        PERF_PID=$!
+         while [ ! -f /tmp/alloctest-bench.done ]; do
+	 	#echo "wait" >> /var/log/syslog
 		sleep 0.1
-	done
+	 done
 	DURATION=$SECONDS
-	# kill -INT $PERF_PID &> /dev/null
-	# wait $PERF_PID
-	# wait $BENCHMARK_PID 2>/dev/null
+	kill -INT $PERF_PID &> /dev/null
+	wait $PERF_PID
+	wait $memtierPID 2>/dev/null
         echo "Execution Time (seconds): $DURATION"
         echo "Execution Time (seconds): $DURATION" >> /var/log/syslog 
 	echo "Execution Time (seconds): $DURATION" >> $OUTFILE 
