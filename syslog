@@ -3251,3 +3251,6 @@ Execution Time (seconds): 2047
 memcached : FM completed.
 current = 2021-04-29 20:17:06
 Apr 29 20:28:45 ubuntu systemd[1]: Started Session 8 of user huawei.
+Apr 29 21:01:19 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 29 21:01:19 ubuntu anacron[45598]: Anacron 2.3 started on 2021-04-29
+Apr 29 21:01:19 ubuntu anacron[45598]: Normal exit (0 jobs run)
