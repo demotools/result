@@ -28,7 +28,7 @@ SYSBENCH_ARGS=" --threads=96 --memory-block-size=1k --memory-total-size=128G mem
 CANNEAL_ARGS=" -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_80G 500 "
 #CANNEAL_ARGS=" -- 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 "
 BENCH_size="small"
-MEMCACHED_ARGS=" -d -m 40960m -p 11212 -u huawei"
+MEMCACHED_ARGS=" -d -m 40960m -p 11212 -u huawei -t 8"
 #BENCH_size="large"
 if [ $BENCH_size == "small" ]; then
         BTREE_ARGS=""
@@ -230,7 +230,7 @@ launch_benchmark_config()
 	# while [ ! -f /tmp/alloctest-bench.ready ]; do
 	# 	sleep 0.1
 	# done
-        memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --data-size=24 --ratio=10:0 --out-file=/home/huawei/memcachedTest/resultSet.log >> /var/log/syslog
+        memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 1000000 --data-size=24 --ratio=10:0 --out-file=/home/huawei/memcachedTest/resultSet.log >> /var/log/syslog
         SECONDS=0
 	# $PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $BENCHMARK_PID &
 	# PERF_PID=$!
@@ -239,7 +239,7 @@ launch_benchmark_config()
 	echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
 	rm /tmp/alloctest-bench.ready &>/dev/null
         rm /tmp/alloctest-bench.done &> /dev/null
-	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --data-size=24 --ratio=0:10 --out-file=/home/huawei/memcachedTest/resultGet.log >> /var/log/syslog &
+	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 1000000 --data-size=24 --ratio=0:10 --out-file=/home/huawei/memcachedTest/resultGet.log >> /var/log/syslog &
         memtierPID=$!
 	$PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $memtierPID &
         PERF_PID=$!
@@ -266,6 +266,7 @@ launch_benchmark_config()
         # echo "timestap = "$currentTimeStamp >> /var/log/syslog
         echo ""
         kill -INT $BENCHMARK_PID &> /dev/null
+	kill $(ps -ef | grep bench_memcached_mt | grep -v grep | awk '{print $2}')
 	killall bench_stream &>/dev/null
 }
 
