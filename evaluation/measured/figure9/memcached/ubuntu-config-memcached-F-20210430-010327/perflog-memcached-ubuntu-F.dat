@@ -1,0 +1,17 @@
+/home/huawei/result/bin/numactl /home/huawei/result/bin/bench_memcached_mt -d -m 40960m -p 11212 -u huawei -t 8
+# started on Fri Apr 30 01:52:55 2021
+
+80112155700,,cycles,30847346900,100.00,,
+31491652209,,dTLB-loads,30847358290,100.00,,
+160793256,,dTLB-load-misses,30847369600,100.00,0.51,of all dTLB cache hits
+21033941435,,iTLB-loads,30847381960,100.00,,
+158363,,iTLB-load-misses,30847393650,100.00,0.00,of all iTLB cache hits
+29826919,,dtlb_walk,30847406050,100.00,,
+257394,,itlb_walk,30847418030,100.00,,
+4812,,context-switches,30833753170,100.00,,
+204,,cpu-migrations,30833764170,100.00,,
+34378,,page-faults,30833774600,100.00,,
+29918019431,,mem_access,30847463550,100.00,,
+201275743,,remote_access,30847475130,100.00,,
+Execution Time (seconds): 2147
+****success****
