@@ -816,3 +816,26 @@ Execution Time (seconds): 1736
 ****success****
 memcached : FM completed.
 current = 2021-05-13 16:41:12
+Start test round: 1
+May 13 16:49:44 ubuntu kernel: [1210145.415974] Page table allocation set to normal behavior
+May 13 16:49:44 ubuntu kernel: [1210145.424701] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 63404 to be ready
+May 13 16:50:07 ubuntu kernel: [1210168.636204] [mitosis] PTREPL: free pgd start 
+May 13 16:50:07 ubuntu kernel: [1210168.636209] [mitosis] pgtable_repl_pgd_free freed pgd=ffff002a48f06000 and mm->pgd=ffff002a48f06000.
+May 13 16:50:07 ubuntu kernel: [1210168.636211] [mitosis]------PTREPL: free pgd done------
+May 13 17:00:19 ubuntu systemd[1]: Started Run anacron jobs.
+May 13 17:00:19 ubuntu anacron[63505]: Anacron 2.3 started on 2021-05-13
+May 13 17:00:19 ubuntu anacron[63505]: Normal exit (0 jobs run)
+May 13 17:01:40 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+May 13 17:01:40 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+May 13 17:03:19 ubuntu systemd[1]: Starting Message of the Day...
+May 13 17:03:21 ubuntu 50-motd-news[63569]:  * Pure upstream Kubernetes 1.21, smallest, simplest cluster ops!
+May 13 17:03:21 ubuntu 50-motd-news[63569]:      https://microk8s.io/
+May 13 17:03:21 ubuntu systemd[1]: Started Message of the Day.
+[0mWaiting for benchmark to be done current :2021-05-13 17:12:48
+Execution Time (seconds): 1594
+****success****
+memcached : F completed.
+current = 2021-05-13 17:16:19
+May 13 17:17:01 ubuntu CRON[65804]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 13 17:23:41 ubuntu systemd[1]: Started Session 400 of user huawei.
