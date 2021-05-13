@@ -712,3 +712,107 @@ May 13 15:04:50 ubuntu anacron[60234]: Anacron 2.3 started on 2021-05-13
 May 13 15:04:50 ubuntu anacron[60234]: Normal exit (0 jobs run)
 May 13 15:17:01 ubuntu CRON[60262]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
 May 13 15:52:20 ubuntu systemd[1]: Started Session 397 of user huawei.
+May 13 16:00:39 ubuntu systemd[1]: Started Run anacron jobs.
+May 13 16:00:39 ubuntu anacron[60459]: Anacron 2.3 started on 2021-05-13
+May 13 16:00:39 ubuntu anacron[60459]: Normal exit (0 jobs run)
+Start test round: 1
+May 13 16:12:11 ubuntu kernel: [1207892.189057] Page table allocation set to fixed on node 0
+May 13 16:12:11 ubuntu kernel: [1207892.197414] PROCFS: Command ot drain the pgtable cache
+May 13 16:12:12 ubuntu kernel: [1207893.142784] PROCFS: Command ot populate the pgtable cache
+May 13 16:12:12 ubuntu kernel: [1207893.142786] PGREPL: populating pgtable cache with 1100000 tables per node
+May 13 16:12:12 ubuntu kernel: [1207893.142787] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 13 16:12:13 ubuntu kernel: [1207893.806469] PGREPL: node[0] populated with 1100000  tables
+May 13 16:12:13 ubuntu kernel: [1207893.806472] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 13 16:12:14 ubuntu kernel: [1207894.741288] PGREPL: node[1] populated with 1100000  tables
+May 13 16:12:14 ubuntu kernel: [1207894.741290] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 13 16:12:15 ubuntu kernel: [1207895.989232] PGREPL: node[2] populated with 1100000  tables
+May 13 16:12:15 ubuntu kernel: [1207895.989234] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 13 16:12:16 ubuntu kernel: [1207897.411359] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark: 60568 to be ready
+May 13 16:12:16 ubuntu kernel: [1207897.444490] [mitosis] NOTE: version = 6
+May 13 16:12:16 ubuntu kernel: [1207897.444494] [mitosis] kernel_set_pgtlbreplpolicy: pid = 60568
+May 13 16:12:16 ubuntu kernel: [1207897.444496] PTREP: Called pgtbl_repl_prepare_replication version 2
+May 13 16:12:16 ubuntu kernel: [1207897.444499] [mitosis] pgtbl_repl_prepare_replication  for mm=ffff002fbe288800.
+May 13 16:12:16 ubuntu kernel: [1207897.444501] [mitosis]------PTREPL: alloc pgd start------
+May 13 16:12:16 ubuntu kernel: [1207897.444502] [mitosis] nr_node_ids=4.
+May 13 16:12:16 ubuntu kernel: [1207897.444504] [mitosis] pgd_alloc origin mm->pgd =ffff002fd467a000.
+May 13 16:12:16 ubuntu kernel: [1207897.444510] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff002453623000.
+May 13 16:12:16 ubuntu kernel: [1207897.444514] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff002be7597000.
+May 13 16:12:16 ubuntu kernel: [1207897.444518] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff2022e808f000.
+May 13 16:12:16 ubuntu kernel: [1207897.444524] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202bc3cac000.
+May 13 16:12:16 ubuntu kernel: [1207897.444525] ------PTREPL: alloc pgd success------
+May 13 16:12:16 ubuntu kernel: [1207897.444529] pgtbl_repl_prepare_replication:1156 pgd=ffff002fd467a000..ffff002fd467afff
+May 13 16:12:16 ubuntu kernel: [1207897.444532] PTREP: pgd_idx = 341，and pgd=ffff002fd467aaa8  and pgd[341]=2d44dd2003
+May 13 16:12:16 ubuntu kernel: [1207897.444535] pgtbl_repl_prepare_replication:1164 pgd[341]'s pud=ffff002d44dd2000..ffff002d44dd2fff
+May 13 16:12:16 ubuntu kernel: [1207897.444537] pgtbl_repl_prepare_replication:1168 another func __va pud=ffff002d44dd2000..ffff002d44dd2fff
+May 13 16:12:16 ubuntu kernel: [1207897.444540] pgtbl_repl_prepare_replication:1169 1 pfn=2d44dd2   2 pfn=2d44dd2
+May 13 16:12:16 ubuntu kernel: [1207897.444550] [mitosis] start search pud .......
+May 13 16:12:16 ubuntu kernel: [1207897.444553] PTREP: pud_idx = 170，and pud=ffff002d44dd2550  and pud[170]=2995089003
+May 13 16:12:16 ubuntu kernel: [1207897.444555] pgtbl_repl_prepare_replication:1188 pud[170]'s pmd=ffff002995089000..ffff002995089fff
+May 13 16:12:16 ubuntu kernel: [1207897.444557] pgtbl_repl_prepare_replication:1189 1 pfn=2995089   2 pfn=2995089
+May 13 16:12:16 ubuntu kernel: [1207897.444571] PTREP: pmd_idx = 506，and pmd=ffff002995089fd0  and pmd[506]=2d44e23003
+May 13 16:12:16 ubuntu kernel: [1207897.444573] pgtbl_repl_prepare_replication:1208 pmd[506]'s pte=ffff002d44e23000..ffff002d44e23fff
+May 13 16:12:16 ubuntu kernel: [1207897.444575] pgtbl_repl_prepare_replication:1209 1 pfn=2d44e23   2 pfn=2d44e23
+May 13 16:12:16 ubuntu kernel: [1207897.444589] PTREP: pud_idx = 171，and pud=ffff002d44dd2558  and pud[171]=2d3bde1003
+May 13 16:12:16 ubuntu kernel: [1207897.444591] pgtbl_repl_prepare_replication:1188 pud[171]'s pmd=ffff002d3bde1000..ffff002d3bde1fff
+May 13 16:12:16 ubuntu kernel: [1207897.444593] pgtbl_repl_prepare_replication:1189 1 pfn=2d3bde1   2 pfn=2d3bde1
+May 13 16:12:16 ubuntu kernel: [1207897.444603] PTREP: pmd_idx = 164，and pmd=ffff002d3bde1520  and pmd[164]=29a90a8003
+May 13 16:12:16 ubuntu kernel: [1207897.444606] pgtbl_repl_prepare_replication:1208 pmd[164]'s pte=ffff0029a90a8000..ffff0029a90a8fff
+May 13 16:12:16 ubuntu kernel: [1207897.444608] pgtbl_repl_prepare_replication:1209 1 pfn=29a90a8   2 pfn=29a90a8
+May 13 16:12:16 ubuntu kernel: [1207897.444624] ===================================== end of a page
+May 13 16:12:16 ubuntu kernel: [1207897.444626] PTREP: pgd_idx = 511，and pgd=ffff002fd467aff8  and pgd[511]=2f2bbc6003
+May 13 16:12:16 ubuntu kernel: [1207897.444629] pgtbl_repl_prepare_replication:1164 pgd[511]'s pud=ffff002f2bbc6000..ffff002f2bbc6fff
+May 13 16:12:16 ubuntu kernel: [1207897.444631] pgtbl_repl_prepare_replication:1168 another func __va pud=ffff002f2bbc6000..ffff002f2bbc6fff
+May 13 16:12:16 ubuntu kernel: [1207897.444633] pgtbl_repl_prepare_replication:1169 1 pfn=2f2bbc6   2 pfn=2f2bbc6
+May 13 16:12:16 ubuntu kernel: [1207897.444642] [mitosis] start search pud .......
+May 13 16:12:16 ubuntu kernel: [1207897.444646] PTREP: pud_idx = 510，and pud=ffff002f2bbc6ff0  and pud[510]=29a90f8003
+May 13 16:12:16 ubuntu kernel: [1207897.444649] pgtbl_repl_prepare_replication:1188 pud[510]'s pmd=ffff0029a90f8000..ffff0029a90f8fff
+May 13 16:12:16 ubuntu kernel: [1207897.444650] pgtbl_repl_prepare_replication:1189 1 pfn=29a90f8   2 pfn=29a90f8
+May 13 16:12:16 ubuntu kernel: [1207897.444663] PTREP: pmd_idx = 303，and pmd=ffff0029a90f8978  and pmd[303]=2fd18a7003
+May 13 16:12:16 ubuntu kernel: [1207897.444665] pgtbl_repl_prepare_replication:1208 pmd[303]'s pte=ffff002fd18a7000..ffff002fd18a7fff
+May 13 16:12:16 ubuntu kernel: [1207897.444667] pgtbl_repl_prepare_replication:1209 1 pfn=2fd18a7   2 pfn=2fd18a7
+May 13 16:12:16 ubuntu kernel: [1207897.444684] PTREP: pmd_idx = 304，and pmd=ffff0029a90f8980  and pmd[304]=29a90ea003
+May 13 16:12:16 ubuntu kernel: [1207897.444686] pgtbl_repl_prepare_replication:1208 pmd[304]'s pte=ffff0029a90ea000..ffff0029a90eafff
+May 13 16:12:16 ubuntu kernel: [1207897.444688] pgtbl_repl_prepare_replication:1209 1 pfn=29a90ea   2 pfn=29a90ea
+May 13 16:12:16 ubuntu kernel: [1207897.444709] PTREP: pud_idx = 511，and pud=ffff002f2bbc6ff8  and pud[511]=2a48fc3003
+May 13 16:12:16 ubuntu kernel: [1207897.444711] pgtbl_repl_prepare_replication:1188 pud[511]'s pmd=ffff002a48fc3000..ffff002a48fc3fff
+May 13 16:12:16 ubuntu kernel: [1207897.444714] pgtbl_repl_prepare_replication:1189 1 pfn=2a48fc3   2 pfn=2a48fc3
+May 13 16:12:16 ubuntu kernel: [1207897.444724] PTREP: pmd_idx = 77，and pmd=ffff002a48fc3268  and pmd[77]=2c9c254003
+May 13 16:12:16 ubuntu kernel: [1207897.444726] pgtbl_repl_prepare_replication:1208 pmd[77]'s pte=ffff002c9c254000..ffff002c9c254fff
+May 13 16:12:16 ubuntu kernel: [1207897.444729] pgtbl_repl_prepare_replication:1209 1 pfn=2c9c254   2 pfn=2c9c254
+May 13 16:12:16 ubuntu kernel: [1207897.444742] ===================================== end of a page
+May 13 16:12:16 ubuntu kernel: [1207897.444744] pgtbl_repl_prepare_replication:1235 all: pud_num=4, pmd_num=5, pte_num=318
+May 13 16:12:16 ubuntu kernel: [1207897.444747] PTREP: Called pgtbl_repl_prepare_replication  done
+May 13 16:12:16 ubuntu kernel: [1207897.444750] [mitosis] pgtable replication enabled for mm=ffff002fbe288800.
+May 13 16:12:16 ubuntu kernel: [1207897.444751] [mitosis] pgtable replication err=0.
+May 13 16:12:16 ubuntu kernel: [1207897.444797] [mitosis]------PTREPL: alloc pgd start------
+May 13 16:12:16 ubuntu kernel: [1207897.444799] [mitosis] nr_node_ids=4.
+May 13 16:12:16 ubuntu kernel: [1207897.444800] [mitosis] pgd_alloc origin mm->pgd =ffff002c9c1c2000.
+May 13 16:12:16 ubuntu kernel: [1207897.444803] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff002453617000.
+May 13 16:12:16 ubuntu kernel: [1207897.444806] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff002be758b000.
+May 13 16:12:16 ubuntu kernel: [1207897.444810] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff2022e8083000.
+May 13 16:12:16 ubuntu kernel: [1207897.444814] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202bc3ca0000.
+May 13 16:12:16 ubuntu kernel: [1207897.444815] ------PTREPL: alloc pgd success------
+May 13 16:12:16 ubuntu kernel: [1207897.445247] [mitosis] PTREPL: free pgd start 
+May 13 16:12:16 ubuntu kernel: [1207897.445251] [mitosis] pgtable_repl_pgd_free freed pgd=ffff002fd467a000 and mm->pgd=ffff002fd467a000.
+May 13 16:12:16 ubuntu kernel: [1207897.445253] [mitosis]------PTREPL: free pgd done------
+May 13 16:12:16 ubuntu kernel: [1207897.447471] [mitosis]------PTREPL: alloc pgd start------
+May 13 16:12:16 ubuntu kernel: [1207897.447474] [mitosis] nr_node_ids=4.
+May 13 16:12:16 ubuntu kernel: [1207897.447476] [mitosis] pgd_alloc origin mm->pgd =ffff002a48f06000.
+May 13 16:12:16 ubuntu kernel: [1207897.447480] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff00245360b000.
+May 13 16:12:16 ubuntu kernel: [1207897.447483] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff002be757f000.
+May 13 16:12:16 ubuntu kernel: [1207897.447487] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff2022e8077000.
+May 13 16:12:16 ubuntu kernel: [1207897.447491] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202bc3c94000.
+May 13 16:12:16 ubuntu kernel: [1207897.447493] ------PTREPL: alloc pgd success------
+May 13 16:12:21 ubuntu kernel: [1207902.086185] [mitosis] PTREPL: free pgd start 
+May 13 16:12:21 ubuntu kernel: [1207902.086190] [mitosis] pgtable_repl_pgd_free freed pgd=ffff002c9c1c2000 and mm->pgd=ffff002c9c1c2000.
+May 13 16:12:21 ubuntu kernel: [1207902.086192] [mitosis]------PTREPL: free pgd done------
+May 13 16:12:38 ubuntu kernel: [1207919.593044] [mitosis] PTREPL: free pgd start 
+May 13 16:12:38 ubuntu kernel: [1207919.593051] [mitosis] pgtable_repl_pgd_free freed pgd=ffff002fd6274000 and mm->pgd=ffff002fd6274000.
+May 13 16:12:38 ubuntu kernel: [1207919.593053] [mitosis]------PTREPL: free pgd done------
+May 13 16:17:01 ubuntu CRON[60631]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[0mWaiting for benchmark to be done current :2021-05-13 16:36:57
+Execution Time (seconds): 1736
+****success****
+memcached : FM completed.
+current = 2021-05-13 16:41:12
