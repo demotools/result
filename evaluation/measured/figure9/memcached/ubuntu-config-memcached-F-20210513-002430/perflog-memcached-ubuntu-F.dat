@@ -1,5 +1,5 @@
 /home/huawei/result/bin/numactl /home/huawei/result/bin/bench_memcached_mt -d -m 81920m -p 11212 -u huawei -t 24
-# started on Fri Apr 30 18:01:33 2021
+# started on Thu May 13 00:24:37 2021
 
-Execution Time (seconds): 5
+Execution Time (seconds): 7
 ****success****
