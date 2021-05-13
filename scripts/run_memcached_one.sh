@@ -231,7 +231,7 @@ launch_benchmark_config()
 	# 	sleep 0.1
 	# done
         SECONDS=0
-	for RUNTIMES in $(seq 5)
+	for RUNTIMES in $(seq 8)
 do
 	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --ratio=10:0 --key-maximum=1000000000 --distinct-client-seed --randomize  --expiry-range=360000-360001 --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog
 done
