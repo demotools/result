@@ -1,0 +1,5 @@
+/home/huawei/result/bin/numactl --interleave=3 /home/huawei/result/bin/bench_memcached_mt -d -m 81920m -p 11212 -u huawei -t 8
+# started on Fri May 14 02:41:37 2021
+
+Execution Time (seconds): 18
+****success****
