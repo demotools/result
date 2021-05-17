@@ -188,3 +188,8 @@ May 17 19:45:08 ubuntu kernel: [245464.317231] ------PTREPL: alloc pgd success--
 May 17 19:45:14 ubuntu kernel: [245470.746158] [mitosis] PTREPL: free pgd start 
 May 17 19:45:14 ubuntu kernel: [245470.746170] [mitosis] pgtable_repl_pgd_free freed pgd=ffff202da3357000 and mm->pgd=ffff202da3357000.
 May 17 19:45:14 ubuntu kernel: [245470.746172] [mitosis]------PTREPL: free pgd done------
+May 17 21:00:01 ubuntu kernel: [249957.239420] Page table allocation set to normal behavior
+May 17 21:00:01 ubuntu kernel: [249957.247670] PROCFS: Command ot drain the pgtable cache
+May 17 21:00:15 ubuntu kernel: [249971.187204] [mitosis] PTREPL: free pgd start 
+May 17 21:00:15 ubuntu kernel: [249971.187211] [mitosis] pgtable_repl_pgd_free freed pgd=ffff202f10121000 and mm->pgd=ffff202f10121000.
+May 17 21:00:15 ubuntu kernel: [249971.187213] [mitosis]------PTREPL: free pgd done------
