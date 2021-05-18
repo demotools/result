@@ -27,15 +27,15 @@ BENCHMARKS="memcached"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
 #CONFIGS="F"
-CONFIGS="FM"
+#CONFIGS="FM"
 #CONFIGS="I"
 #CONFIGS="IM"
-#CONFIGS="F FM I IM"
+CONFIGS="F FM I IM"
 #CONFIGS="F FM"
 #CONFIGS="FM F"
 #CONFIGS="I IM"
 
-for RUNTIMES in $(seq 1) 
+for RUNTIMES in $(seq 2) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
