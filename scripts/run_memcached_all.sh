@@ -27,7 +27,7 @@ BENCHMARKS="memcached"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
 #CONFIGS="F"
-#CONFIGS="FM"
+CONFIGS="FM"
 #CONFIGS="I"
 #CONFIGS="IM"
 CONFIGS="F FM I IM"
