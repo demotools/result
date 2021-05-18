@@ -242,7 +242,8 @@ done
 	echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
 	rm /tmp/alloctest-bench.ready &>/dev/null
         rm /tmp/alloctest-bench.done &> /dev/null
-	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --ratio=0:10 --key-maximum=1000000000 --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
+	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --random-data --ratio=0:10 --key-maximum=1000000000 --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
+	#	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --ratio=0:10 --key-maximum=1000000000 --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
         memtierPID=$!
 	$PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $memtierPID &
         PERF_PID=$!
