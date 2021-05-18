@@ -407,3 +407,5 @@ Execution Time (seconds): 2608
 memcached : FM completed.
 current = 2021-05-18 15:10:38
 May 18 15:13:27 ubuntu systemd[1]: Started Session 116 of user huawei.
+May 18 15:17:01 ubuntu CRON[43350]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 18 15:17:15 ubuntu systemd-resolved[2260]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
