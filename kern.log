@@ -3644,3 +3644,63 @@ May 19 22:21:17 ubuntu kernel: [ 8038.709869] PGREPL: populating pgtable cache n
 May 19 22:21:18 ubuntu kernel: [ 8039.682392] PGREPL: node[2] populated with 1100000  tables
 May 19 22:21:18 ubuntu kernel: [ 8039.682398] PGREPL: populating pgtable cache node[3] with 1100000 tables
 May 19 22:21:19 ubuntu kernel: [ 8040.359567] PGREPL: node[3] populated with 1100000  tables
+May 19 22:49:57 ubuntu kernel: [ 9759.273610] Page table allocation set to fixed on node 0
+May 19 22:49:57 ubuntu kernel: [ 9759.281743] PROCFS: Command ot drain the pgtable cache
+May 19 22:49:58 ubuntu kernel: [ 9760.174023] PROCFS: Command ot populate the pgtable cache
+May 19 22:49:58 ubuntu kernel: [ 9760.174028] PGREPL: populating pgtable cache with 1100000 tables per node
+May 19 22:49:58 ubuntu kernel: [ 9760.174030] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 19 22:50:00 ubuntu kernel: [ 9761.419406] PGREPL: node[0] populated with 1100000  tables
+May 19 22:50:00 ubuntu kernel: [ 9761.419411] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 19 22:50:01 ubuntu kernel: [ 9762.840404] PGREPL: node[1] populated with 1100000  tables
+May 19 22:50:01 ubuntu kernel: [ 9762.840407] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 19 22:50:02 ubuntu kernel: [ 9763.512872] PGREPL: node[2] populated with 1100000  tables
+May 19 22:50:02 ubuntu kernel: [ 9763.512876] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 19 22:50:03 ubuntu kernel: [ 9764.476642] PGREPL: node[3] populated with 1100000  tables
+May 19 22:54:04 ubuntu kernel: [10005.682285] Page table allocation set to fixed on node 0
+May 19 22:54:04 ubuntu kernel: [10005.690536] PROCFS: Command ot drain the pgtable cache
+May 19 22:54:05 ubuntu kernel: [10006.623089] PROCFS: Command ot populate the pgtable cache
+May 19 22:54:05 ubuntu kernel: [10006.623094] PGREPL: populating pgtable cache with 1100000 tables per node
+May 19 22:54:05 ubuntu kernel: [10006.623095] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 19 22:54:06 ubuntu kernel: [10007.870404] PGREPL: node[0] populated with 1100000  tables
+May 19 22:54:06 ubuntu kernel: [10007.870411] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 19 22:54:07 ubuntu kernel: [10009.291174] PGREPL: node[1] populated with 1100000  tables
+May 19 22:54:07 ubuntu kernel: [10009.291179] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 19 22:54:08 ubuntu kernel: [10009.963391] PGREPL: node[2] populated with 1100000  tables
+May 19 22:54:08 ubuntu kernel: [10009.963395] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 19 22:54:09 ubuntu kernel: [10010.927138] PGREPL: node[3] populated with 1100000  tables
+May 19 22:58:06 ubuntu kernel: [10248.126185] Page table allocation set to fixed on node 0
+May 19 22:58:06 ubuntu kernel: [10248.133444] PROCFS: Command ot drain the pgtable cache
+May 19 22:58:07 ubuntu kernel: [10249.024912] PROCFS: Command ot populate the pgtable cache
+May 19 22:58:07 ubuntu kernel: [10249.024918] PGREPL: populating pgtable cache with 1100000 tables per node
+May 19 22:58:07 ubuntu kernel: [10249.024920] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 19 22:58:08 ubuntu kernel: [10250.287151] PGREPL: node[0] populated with 1100000  tables
+May 19 22:58:08 ubuntu kernel: [10250.287158] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 19 22:58:10 ubuntu kernel: [10251.718425] PGREPL: node[1] populated with 1100000  tables
+May 19 22:58:10 ubuntu kernel: [10251.718430] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 19 22:58:11 ubuntu kernel: [10252.394517] PGREPL: node[2] populated with 1100000  tables
+May 19 22:58:11 ubuntu kernel: [10252.394520] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 19 22:58:12 ubuntu kernel: [10253.362029] PGREPL: node[3] populated with 1100000  tables
+May 19 23:02:10 ubuntu kernel: [10491.503482] Page table allocation set to fixed on node 0
+May 19 23:02:10 ubuntu kernel: [10491.511826] PROCFS: Command ot drain the pgtable cache
+May 19 23:02:11 ubuntu kernel: [10492.443439] PROCFS: Command ot populate the pgtable cache
+May 19 23:02:11 ubuntu kernel: [10492.443445] PGREPL: populating pgtable cache with 1100000 tables per node
+May 19 23:02:11 ubuntu kernel: [10492.443446] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 19 23:02:12 ubuntu kernel: [10493.702241] PGREPL: node[0] populated with 1100000  tables
+May 19 23:02:12 ubuntu kernel: [10493.702247] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 19 23:02:13 ubuntu kernel: [10495.000188] PGREPL: node[1] populated with 1100000  tables
+May 19 23:02:13 ubuntu kernel: [10495.000192] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 19 23:02:14 ubuntu kernel: [10495.676645] PGREPL: node[2] populated with 1100000  tables
+May 19 23:02:14 ubuntu kernel: [10495.676649] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 19 23:02:15 ubuntu kernel: [10496.649565] PGREPL: node[3] populated with 1100000  tables
+May 19 23:06:13 ubuntu kernel: [10735.257453] Page table allocation set to fixed on node 0
+May 19 23:06:13 ubuntu kernel: [10735.265288] PROCFS: Command ot drain the pgtable cache
+May 19 23:06:14 ubuntu kernel: [10736.162583] PROCFS: Command ot populate the pgtable cache
+May 19 23:06:14 ubuntu kernel: [10736.162589] PGREPL: populating pgtable cache with 1100000 tables per node
+May 19 23:06:14 ubuntu kernel: [10736.162590] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 19 23:06:16 ubuntu kernel: [10737.410016] PGREPL: node[0] populated with 1100000  tables
+May 19 23:06:16 ubuntu kernel: [10737.410021] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 19 23:06:17 ubuntu kernel: [10738.831078] PGREPL: node[1] populated with 1100000  tables
+May 19 23:06:17 ubuntu kernel: [10738.831081] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 19 23:06:18 ubuntu kernel: [10739.503150] PGREPL: node[2] populated with 1100000  tables
+May 19 23:06:18 ubuntu kernel: [10739.503154] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 19 23:06:19 ubuntu kernel: [10740.467376] PGREPL: node[3] populated with 1100000  tables
