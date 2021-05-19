@@ -42,7 +42,7 @@ do
     for bench in $BENCHMARKS; do
 		for config in $CONFIGS; do
 			echo "******************$bench : $config***********************"
-			bash $ROOT/run_memcached_one.sh $bench $config
+			bash $ROOT/run_test_one.sh $bench $config
 		done
 	done
 done
