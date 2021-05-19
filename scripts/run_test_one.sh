@@ -242,9 +242,9 @@ launch_benchmark_config()
 	echo -e "\e[0mWaiting for benchmark to be done current :$current" >> /var/log/syslog
 	# rm /tmp/alloctest-bench.ready &>/dev/null
         # rm /tmp/alloctest-bench.done &> /dev/null
-	#高斯读#
-        memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --random-data --ratio=0:10 --key-maximum=1000000000 --key-pattern=G:G --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
-	#随机#memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --random-data --ratio=0:10 --key-maximum=1000000000 --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
+	#高斯读#memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --random-data --ratio=0:10 --key-maximum=1000000000 --key-pattern=G:G --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
+	#随机#
+	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --random-data --ratio=0:10 --key-maximum=1000000000 --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
 	#原始#	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --ratio=0:10 --key-maximum=1000000000 --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
         memtierPID=$!
 	$PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $memtierPID &
@@ -271,8 +271,8 @@ launch_benchmark_config()
         echo "current = "$current >> /var/log/syslog
         # echo "timestap = "$currentTimeStamp >> /var/log/syslog
         echo ""
-        resultlog="result-$CONFIG-$current.log"
-	cp /home/huawei/memcachedTest/result.log /home/huawei/result/evaluation/measured/$resultlog
+        resultlog="/home/huawei/result/evaluation/measured/result-$CONFIG-$current.log"
+	cp /home/huawei/memcachedTest/result.log $resultlog
         # kill -INT $BENCHMARK_PID &> /dev/null
 	# kill $(ps -ef | grep bench_memcached_mt | grep -v grep | awk '{print $2}')
 	killall bench_stream &>/dev/null
