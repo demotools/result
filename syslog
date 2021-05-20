@@ -5227,3 +5227,44 @@ Execution Time (seconds): 198
 ****success****
 memcached : F completed.
 current = 2021-05-20 23:10:10
+May 20 23:17:01 ubuntu CRON[35426]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+May 20 23:25:55 ubuntu kernel: [21248.506675] Page table allocation set to normal behavior
+May 20 23:25:55 ubuntu kernel: [21248.513975] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-20 23:25:55
+Execution Time (seconds): 193
+****success****
+memcached : F completed.
+current = 2021-05-20 23:29:08
+Start test round: 1
+May 20 23:30:56 ubuntu kernel: [21548.984306] Page table allocation set to normal behavior
+May 20 23:30:56 ubuntu kernel: [21548.992862] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-20 23:30:56
+Execution Time (seconds): 193
+****success****
+memcached : F completed.
+current = 2021-05-20 23:34:08
+Start test round: 1
+May 20 23:34:51 ubuntu kernel: [21784.693430] Page table allocation set to normal behavior
+May 20 23:34:51 ubuntu kernel: [21784.701625] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-20 23:34:51
+Execution Time (seconds): 192
+****success****
+memcached : F completed.
+current = 2021-05-20 23:38:03
+Start test round: 1
+May 20 23:38:17 ubuntu kernel: [21990.664449] Page table allocation set to normal behavior
+May 20 23:38:17 ubuntu kernel: [21990.672777] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-20 23:38:17
+Execution Time (seconds): 192
+****success****
+memcached : F completed.
+current = 2021-05-20 23:41:29
+Start test round: 1
+May 20 23:42:46 ubuntu kernel: [22259.281895] Page table allocation set to normal behavior
+May 20 23:42:46 ubuntu kernel: [22259.289304] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-20 23:42:46
+Execution Time (seconds): 192
+****success****
+memcached : F completed.
+current = 2021-05-20 23:45:58
