@@ -5140,3 +5140,46 @@ Execution Time (seconds): 197
 ****success****
 memcached : F completed.
 current = 2021-05-20 21:45:13
+Start test round: 1
+May 20 21:51:12 ubuntu kernel: [15565.057705] Page table allocation set to normal behavior
+May 20 21:51:12 ubuntu kernel: [15565.064981] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-20 21:51:12
+Execution Time (seconds): 196
+****success****
+memcached : F completed.
+current = 2021-05-20 21:54:27
+Start test round: 2
+May 20 21:54:28 ubuntu kernel: [15761.067257] Page table allocation set to normal behavior
+May 20 21:54:28 ubuntu kernel: [15761.074306] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-20 21:54:28
+Execution Time (seconds): 194
+****success****
+memcached : F completed.
+current = 2021-05-20 21:57:41
+Start test round: 3
+May 20 21:57:41 ubuntu kernel: [15955.005011] Page table allocation set to normal behavior
+May 20 21:57:41 ubuntu kernel: [15955.012663] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-20 21:57:42
+Execution Time (seconds): 197
+****success****
+memcached : F completed.
+current = 2021-05-20 22:00:58
+Start test round: 4
+May 20 22:00:59 ubuntu kernel: [16152.028567] Page table allocation set to normal behavior
+May 20 22:00:59 ubuntu kernel: [16152.037007] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-20 22:00:59
+May 20 22:04:15 ubuntu systemd[1]: Started Run anacron jobs.
+May 20 22:04:15 ubuntu anacron[23123]: Anacron 2.3 started on 2021-05-20
+May 20 22:04:15 ubuntu anacron[23123]: Normal exit (0 jobs run)
+Execution Time (seconds): 197
+****success****
+memcached : F completed.
+current = 2021-05-20 22:04:15
+Start test round: 5
+May 20 22:04:15 ubuntu kernel: [16348.968580] Page table allocation set to normal behavior
+May 20 22:04:15 ubuntu kernel: [16348.974872] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-20 22:04:15
+Execution Time (seconds): 197
+****success****
+memcached : F completed.
+current = 2021-05-20 22:07:32
