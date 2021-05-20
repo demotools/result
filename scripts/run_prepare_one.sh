@@ -28,7 +28,7 @@ SYSBENCH_ARGS=" --threads=96 --memory-block-size=1k --memory-total-size=128G mem
 CANNEAL_ARGS=" -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_80G 500 "
 #CANNEAL_ARGS=" -- 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 "
 BENCH_size="small"
-MEMCACHED_ARGS=" -d -m 81920m -p 11212 -u huawei -t 8"
+MEMCACHED_ARGS=" -d -m 102400m -p 11212 -u huawei -t 8"
 #BENCH_size="large"
 if [ $BENCH_size == "small" ]; then
         BTREE_ARGS=""
@@ -150,7 +150,8 @@ test_and_set_configs()
 
         # --- check interleaving
         if [ $CURR_CONFIG == "I" ] || [ $CURR_CONFIG == "IM" ] || [ $CURR_CONFIG == "TI" ] || [ $CURR_CONFIG == "TIM" ]; then
-                CMD_PREFIX+=" --interleave=$NODE_MAX"
+                #CMD_PREFIX+=" --interleave=$NODE_MAX"
+		CMD_PREFIX+=" --interleave=all"
         fi
 
         # --- check page table replication
@@ -231,7 +232,7 @@ launch_benchmark_config()
 	# 	sleep 0.1
 	# done
         SECONDS=0
-	for RUNTIMES in $(seq 12)
+	for RUNTIMES in $(seq 15)
 do
 	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --ratio=10:0 --key-maximum=1000000000 --distinct-client-seed --randomize  --expiry-range=360000-360001 --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog
 done

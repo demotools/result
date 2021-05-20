@@ -1,0 +1,1 @@
+/home/huawei/result/bin/numactl --interleave=all /home/huawei/result/bin/bench_memcached_mt -d -m 81920m -p 11212 -u huawei -t 8
