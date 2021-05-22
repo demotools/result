@@ -13084,3 +13084,121 @@ May 21 15:00:31 ubuntu kernel: [17166.509872] PGREPL: populating pgtable cache n
 May 21 15:00:33 ubuntu kernel: [17167.765521] PGREPL: node[2] populated with 1100000  tables
 May 21 15:00:33 ubuntu kernel: [17167.765524] PGREPL: populating pgtable cache node[3] with 1100000 tables
 May 21 15:00:34 ubuntu kernel: [17169.064814] PGREPL: node[3] populated with 1100000  tables
+May 21 15:03:50 ubuntu kernel: [17365.055768] Page table allocation set to fixed on node 0
+May 21 15:03:50 ubuntu kernel: [17365.063352] PROCFS: Command ot drain the pgtable cache
+May 21 15:03:51 ubuntu kernel: [17366.038210] PROCFS: Command ot populate the pgtable cache
+May 21 15:03:51 ubuntu kernel: [17366.038214] PGREPL: populating pgtable cache with 1100000 tables per node
+May 21 15:03:51 ubuntu kernel: [17366.038216] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 21 15:03:52 ubuntu kernel: [17367.018528] PGREPL: node[0] populated with 1100000  tables
+May 21 15:03:52 ubuntu kernel: [17367.018531] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 21 15:03:53 ubuntu kernel: [17367.697706] PGREPL: node[1] populated with 1100000  tables
+May 21 15:03:53 ubuntu kernel: [17367.697708] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 21 15:03:54 ubuntu kernel: [17369.166374] PGREPL: node[2] populated with 1100000  tables
+May 21 15:03:54 ubuntu kernel: [17369.166377] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 21 15:03:56 ubuntu kernel: [17370.663494] PGREPL: node[3] populated with 1100000  tables
+May 21 15:07:16 ubuntu kernel: [17571.511860] Page table allocation set to fixed on node 0
+May 21 15:07:16 ubuntu kernel: [17571.520129] PROCFS: Command ot drain the pgtable cache
+May 21 15:07:17 ubuntu kernel: [17572.452285] PROCFS: Command ot populate the pgtable cache
+May 21 15:07:17 ubuntu kernel: [17572.452289] PGREPL: populating pgtable cache with 1100000 tables per node
+May 21 15:07:17 ubuntu kernel: [17572.452290] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 21 15:07:18 ubuntu kernel: [17573.431632] PGREPL: node[0] populated with 1100000  tables
+May 21 15:07:18 ubuntu kernel: [17573.431635] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 21 15:07:19 ubuntu kernel: [17574.107603] PGREPL: node[1] populated with 1100000  tables
+May 21 15:07:19 ubuntu kernel: [17574.107606] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 21 15:07:20 ubuntu kernel: [17575.575149] PGREPL: node[2] populated with 1100000  tables
+May 21 15:07:20 ubuntu kernel: [17575.575152] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 21 15:07:22 ubuntu kernel: [17577.065973] PGREPL: node[3] populated with 1100000  tables
+May 21 15:10:34 ubuntu kernel: [17768.977470] Page table allocation set to fixed on node 0
+May 21 15:10:34 ubuntu kernel: [17768.985633] PROCFS: Command ot drain the pgtable cache
+May 21 15:10:35 ubuntu kernel: [17769.958487] PROCFS: Command ot populate the pgtable cache
+May 21 15:10:35 ubuntu kernel: [17769.958489] PGREPL: populating pgtable cache with 1100000 tables per node
+May 21 15:10:35 ubuntu kernel: [17769.958491] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 21 15:10:36 ubuntu kernel: [17770.633642] PGREPL: node[0] populated with 1100000  tables
+May 21 15:10:36 ubuntu kernel: [17770.633644] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 21 15:10:36 ubuntu kernel: [17771.600895] PGREPL: node[1] populated with 1100000  tables
+May 21 15:10:36 ubuntu kernel: [17771.600897] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 21 15:10:38 ubuntu kernel: [17772.850893] PGREPL: node[2] populated with 1100000  tables
+May 21 15:10:38 ubuntu kernel: [17772.850895] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 21 15:10:39 ubuntu kernel: [17774.144943] PGREPL: node[3] populated with 1100000  tables
+May 21 15:13:57 ubuntu kernel: [17972.078197] Page table allocation set to fixed on node 0
+May 21 15:13:57 ubuntu kernel: [17972.086256] PROCFS: Command ot drain the pgtable cache
+May 21 15:13:58 ubuntu kernel: [17973.023572] PROCFS: Command ot populate the pgtable cache
+May 21 15:13:58 ubuntu kernel: [17973.023577] PGREPL: populating pgtable cache with 1100000 tables per node
+May 21 15:13:58 ubuntu kernel: [17973.023578] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 21 15:13:59 ubuntu kernel: [17973.998342] PGREPL: node[0] populated with 1100000  tables
+May 21 15:13:59 ubuntu kernel: [17973.998346] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 21 15:14:00 ubuntu kernel: [17974.671685] PGREPL: node[1] populated with 1100000  tables
+May 21 15:14:00 ubuntu kernel: [17974.671688] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 21 15:14:01 ubuntu kernel: [17976.140503] PGREPL: node[2] populated with 1100000  tables
+May 21 15:14:01 ubuntu kernel: [17976.140506] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 21 15:14:03 ubuntu kernel: [17977.633431] PGREPL: node[3] populated with 1100000  tables
+May 21 15:17:14 ubuntu kernel: [18169.455141] Page table allocation set to fixed on node 0
+May 21 15:17:14 ubuntu kernel: [18169.461985] PROCFS: Command ot drain the pgtable cache
+May 21 15:17:15 ubuntu kernel: [18170.240458] PROCFS: Command ot populate the pgtable cache
+May 21 15:17:15 ubuntu kernel: [18170.240460] PGREPL: populating pgtable cache with 1100000 tables per node
+May 21 15:17:15 ubuntu kernel: [18170.240462] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 21 15:17:16 ubuntu kernel: [18170.910539] PGREPL: node[0] populated with 1100000  tables
+May 21 15:17:16 ubuntu kernel: [18170.910542] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 21 15:17:17 ubuntu kernel: [18171.869997] PGREPL: node[1] populated with 1100000  tables
+May 21 15:17:17 ubuntu kernel: [18171.869999] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 21 15:17:18 ubuntu kernel: [18173.114953] PGREPL: node[2] populated with 1100000  tables
+May 21 15:17:18 ubuntu kernel: [18173.114956] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 21 15:17:19 ubuntu kernel: [18174.538000] PGREPL: node[3] populated with 1100000  tables
+May 21 15:18:46 ubuntu kernel: [18261.281779] Page table allocation set to fixed on node 0
+May 21 15:18:46 ubuntu kernel: [18261.288542] PROCFS: Command ot drain the pgtable cache
+May 21 15:18:47 ubuntu kernel: [18262.065365] PROCFS: Command ot populate the pgtable cache
+May 21 15:18:47 ubuntu kernel: [18262.065367] PGREPL: populating pgtable cache with 1100000 tables per node
+May 21 15:18:47 ubuntu kernel: [18262.065368] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 21 15:18:48 ubuntu kernel: [18262.766645] PGREPL: node[0] populated with 1100000  tables
+May 21 15:18:48 ubuntu kernel: [18262.766648] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 21 15:18:48 ubuntu kernel: [18263.548685] PGREPL: node[1] populated with 1100000  tables
+May 21 15:18:48 ubuntu kernel: [18263.548686] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 21 15:18:50 ubuntu kernel: [18264.774758] PGREPL: node[2] populated with 1100000  tables
+May 21 15:18:50 ubuntu kernel: [18264.774760] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 21 15:18:51 ubuntu kernel: [18265.932419] PGREPL: node[3] populated with 1100000  tables
+May 21 15:18:51 ubuntu kernel: [18265.986939] TCP: request_sock_TCP: Possible SYN flooding on port 11212. Sending cookies.  Check SNMP counters.
+May 21 15:42:58 ubuntu kernel: [19713.054770] Page table allocation set to normal behavior
+May 21 15:42:58 ubuntu kernel: [19713.061610] PROCFS: Command ot drain the pgtable cache
+May 21 15:43:07 ubuntu kernel: [19722.278115] [mitosis] PTREPL: free pgd start 
+May 21 15:43:07 ubuntu kernel: [19722.278123] [mitosis] pgtable_repl_pgd_free freed pgd=ffff002ea6cd5000 and mm->pgd=ffff002ea6cd5000.
+May 21 15:43:07 ubuntu kernel: [19722.278124] [mitosis]------PTREPL: free pgd done------
+May 21 17:03:27 ubuntu kernel: [24541.778389] Page table allocation set to normal behavior
+May 21 17:03:27 ubuntu kernel: [24541.786293] PROCFS: Command ot drain the pgtable cache
+May 21 17:06:54 ubuntu kernel: [24748.722662] Page table allocation set to normal behavior
+May 21 17:06:54 ubuntu kernel: [24748.730653] PROCFS: Command ot drain the pgtable cache
+May 21 17:10:14 ubuntu kernel: [24948.719629] Page table allocation set to normal behavior
+May 21 17:10:14 ubuntu kernel: [24948.726579] PROCFS: Command ot drain the pgtable cache
+May 21 17:13:30 ubuntu kernel: [25144.654049] Page table allocation set to normal behavior
+May 21 17:13:30 ubuntu kernel: [25144.663665] PROCFS: Command ot drain the pgtable cache
+May 21 17:16:43 ubuntu kernel: [25337.572650] Page table allocation set to normal behavior
+May 21 17:16:43 ubuntu kernel: [25337.581148] PROCFS: Command ot drain the pgtable cache
+May 21 17:20:02 ubuntu kernel: [25537.492260] Page table allocation set to normal behavior
+May 21 17:20:02 ubuntu kernel: [25537.500507] PROCFS: Command ot drain the pgtable cache
+May 21 17:23:22 ubuntu kernel: [25737.516669] Page table allocation set to normal behavior
+May 21 17:23:22 ubuntu kernel: [25737.524800] PROCFS: Command ot drain the pgtable cache
+May 21 17:26:50 ubuntu kernel: [25944.559811] Page table allocation set to normal behavior
+May 21 17:26:50 ubuntu kernel: [25944.567882] PROCFS: Command ot drain the pgtable cache
+May 21 17:30:06 ubuntu kernel: [26140.585754] Page table allocation set to normal behavior
+May 21 17:30:06 ubuntu kernel: [26140.594281] PROCFS: Command ot drain the pgtable cache
+May 21 17:33:15 ubuntu kernel: [26330.356780] Page table allocation set to normal behavior
+May 21 17:33:15 ubuntu kernel: [26330.365263] PROCFS: Command ot drain the pgtable cache
+May 21 17:36:32 ubuntu kernel: [26527.391355] Page table allocation set to normal behavior
+May 21 17:36:32 ubuntu kernel: [26527.399552] PROCFS: Command ot drain the pgtable cache
+May 21 17:39:45 ubuntu kernel: [26720.313347] Page table allocation set to normal behavior
+May 21 17:39:45 ubuntu kernel: [26720.321599] PROCFS: Command ot drain the pgtable cache
+May 21 17:43:13 ubuntu kernel: [26928.346148] Page table allocation set to normal behavior
+May 21 17:43:13 ubuntu kernel: [26928.354415] PROCFS: Command ot drain the pgtable cache
+May 21 17:46:27 ubuntu kernel: [27122.141287] Page table allocation set to normal behavior
+May 21 17:46:27 ubuntu kernel: [27122.149618] PROCFS: Command ot drain the pgtable cache
+May 21 17:49:44 ubuntu kernel: [27319.115985] Page table allocation set to normal behavior
+May 21 17:49:44 ubuntu kernel: [27319.124389] PROCFS: Command ot drain the pgtable cache
+May 21 17:53:02 ubuntu kernel: [27517.048811] Page table allocation set to normal behavior
+May 21 17:53:02 ubuntu kernel: [27517.056822] PROCFS: Command ot drain the pgtable cache
+May 21 17:56:19 ubuntu kernel: [27714.058525] Page table allocation set to normal behavior
+May 21 17:56:19 ubuntu kernel: [27714.067911] PROCFS: Command ot drain the pgtable cache
+May 21 17:59:33 ubuntu kernel: [27907.815020] Page table allocation set to normal behavior
+May 21 17:59:33 ubuntu kernel: [27907.822922] PROCFS: Command ot drain the pgtable cache
+May 21 18:02:53 ubuntu kernel: [28107.811361] Page table allocation set to normal behavior
+May 21 18:02:53 ubuntu kernel: [28107.820542] PROCFS: Command ot drain the pgtable cache
+May 21 18:06:07 ubuntu kernel: [28301.551347] Page table allocation set to normal behavior
+May 21 18:06:07 ubuntu kernel: [28301.559249] PROCFS: Command ot drain the pgtable cache
