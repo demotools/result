@@ -125,3 +125,46 @@ Execution Time (seconds): 200
 ****success****
 memcached : F completed.
 current = 2021-05-22 14:20:16
+Start test round: 1
+May 22 14:26:44 ubuntu kernel: [101537.765483] Page table allocation set to normal behavior
+May 22 14:26:44 ubuntu kernel: [101537.774302] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-22 14:26:44
+Execution Time (seconds): 187
+****success****
+memcached : F completed.
+current = 2021-05-22 14:29:51
+Start test round: 1
+May 22 14:30:24 ubuntu kernel: [101757.930410] Page table allocation set to normal behavior
+May 22 14:30:24 ubuntu kernel: [101757.938854] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-22 14:30:24
+Execution Time (seconds): 197
+****success****
+memcached : F completed.
+current = 2021-05-22 14:33:41
+Start test round: 1
+May 22 14:35:44 ubuntu kernel: [102077.904664] Page table allocation set to normal behavior
+May 22 14:35:44 ubuntu kernel: [102077.913133] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-22 14:35:44
+Execution Time (seconds): 196
+****success****
+memcached : F completed.
+current = 2021-05-22 14:39:00
+Start test round: 1
+May 22 14:43:10 ubuntu kernel: [102524.005382] Page table allocation set to normal behavior
+May 22 14:43:10 ubuntu kernel: [102524.013206] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-22 14:43:10
+Execution Time (seconds): 192
+****success****
+memcached : F completed.
+current = 2021-05-22 14:46:23
+Start test round: 1
+May 22 14:53:59 ubuntu kernel: [103173.066812] Page table allocation set to normal behavior
+May 22 14:53:59 ubuntu kernel: [103173.075145] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-22 14:53:59
+Execution Time (seconds): 193
+****success****
+memcached : F completed.
+current = 2021-05-22 14:57:12
+May 22 15:00:20 ubuntu systemd[1]: Started Run anacron jobs.
+May 22 15:00:21 ubuntu anacron[51364]: Anacron 2.3 started on 2021-05-22
+May 22 15:00:21 ubuntu anacron[51364]: Normal exit (0 jobs run)
