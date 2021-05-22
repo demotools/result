@@ -79,3 +79,49 @@ May 22 13:01:13 ubuntu anacron[30779]: Anacron 2.3 started on 2021-05-22
 May 22 13:01:13 ubuntu anacron[30779]: Normal exit (0 jobs run)
 May 22 13:10:23 ubuntu systemd[1]: Started Session 38 of user huawei.
 May 22 13:10:49 ubuntu systemd[1]: Started Session 39 of user huawei.
+May 22 13:17:01 ubuntu CRON[31084]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 22 13:44:58 ubuntu systemd[1]: Started Session 41 of user huawei.
+Start test round: 1
+May 22 13:45:45 ubuntu kernel: [99079.563270] Page table allocation set to normal behavior
+May 22 13:45:45 ubuntu kernel: [99079.571782] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-22 13:45:45
+Execution Time (seconds): 193
+****success****
+memcached : F completed.
+current = 2021-05-22 13:48:58
+Start test round: 1
+May 22 13:58:37 ubuntu kernel: [99850.879260] Page table allocation set to normal behavior
+May 22 13:58:37 ubuntu kernel: [99850.887505] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-22 13:58:37
+Execution Time (seconds): 192
+****success****
+memcached : F completed.
+current = 2021-05-22 14:01:49
+May 22 14:03:41 ubuntu systemd[1]: Started Run anacron jobs.
+May 22 14:03:41 ubuntu anacron[35181]: Anacron 2.3 started on 2021-05-22
+May 22 14:03:41 ubuntu anacron[35181]: Normal exit (0 jobs run)
+Start test round: 1
+May 22 14:08:26 ubuntu kernel: [100440.233954] Page table allocation set to normal behavior
+May 22 14:08:26 ubuntu kernel: [100440.241763] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-22 14:08:26
+Execution Time (seconds): 195
+****success****
+memcached : F completed.
+current = 2021-05-22 14:11:41
+Start test round: 1
+May 22 14:12:57 ubuntu kernel: [100711.265113] Page table allocation set to normal behavior
+May 22 14:12:57 ubuntu kernel: [100711.273538] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-22 14:12:57
+Execution Time (seconds): 199
+****success****
+memcached : F completed.
+current = 2021-05-22 14:16:16
+Start test round: 1
+May 22 14:16:56 ubuntu kernel: [100950.226723] Page table allocation set to normal behavior
+May 22 14:16:56 ubuntu kernel: [100950.235339] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-22 14:16:56
+May 22 14:17:01 ubuntu CRON[39376]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Execution Time (seconds): 200
+****success****
+memcached : F completed.
+current = 2021-05-22 14:20:16

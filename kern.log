@@ -13202,3 +13202,13 @@ May 21 18:02:53 ubuntu kernel: [28107.811361] Page table allocation set to norma
 May 21 18:02:53 ubuntu kernel: [28107.820542] PROCFS: Command ot drain the pgtable cache
 May 21 18:06:07 ubuntu kernel: [28301.551347] Page table allocation set to normal behavior
 May 21 18:06:07 ubuntu kernel: [28301.559249] PROCFS: Command ot drain the pgtable cache
+May 22 13:45:45 ubuntu kernel: [99079.563270] Page table allocation set to normal behavior
+May 22 13:45:45 ubuntu kernel: [99079.571782] PROCFS: Command ot drain the pgtable cache
+May 22 13:58:37 ubuntu kernel: [99850.879260] Page table allocation set to normal behavior
+May 22 13:58:37 ubuntu kernel: [99850.887505] PROCFS: Command ot drain the pgtable cache
+May 22 14:08:26 ubuntu kernel: [100440.233954] Page table allocation set to normal behavior
+May 22 14:08:26 ubuntu kernel: [100440.241763] PROCFS: Command ot drain the pgtable cache
+May 22 14:12:57 ubuntu kernel: [100711.265113] Page table allocation set to normal behavior
+May 22 14:12:57 ubuntu kernel: [100711.273538] PROCFS: Command ot drain the pgtable cache
+May 22 14:16:56 ubuntu kernel: [100950.226723] Page table allocation set to normal behavior
+May 22 14:16:56 ubuntu kernel: [100950.235339] PROCFS: Command ot drain the pgtable cache
