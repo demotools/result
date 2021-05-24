@@ -131,3 +131,81 @@ Execution Time (seconds): 192
 memcached : I completed.
 current = 2021-05-24 09:29:48
 May 24 09:39:16 ubuntu systemd[1]: Started Session 96 of user huawei.
+Start test round: 1
+May 24 09:46:42 ubuntu kernel: [257534.517465] Page table allocation set to normal behavior
+May 24 09:46:42 ubuntu kernel: [257534.531746] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:46:42
+Execution Time (seconds): 197
+****success****
+memcached : I completed.
+current = 2021-05-24 09:49:59
+May 24 09:59:19 ubuntu systemd[1]: Started Session 97 of user huawei.
+Start test round: 1
+May 24 09:59:30 ubuntu kernel: [258302.161654] Page table allocation set to normal behavior
+May 24 09:59:30 ubuntu kernel: [258302.168582] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:59:30
+Execution Time (seconds): 195
+****success****
+memcached : I completed.
+current = 2021-05-24 10:02:45
+May 24 10:04:41 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 10:04:41 ubuntu anacron[23867]: Anacron 2.3 started on 2021-05-24
+May 24 10:04:41 ubuntu anacron[23867]: Normal exit (0 jobs run)
+May 24 10:17:01 ubuntu CRON[23896]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 10:30:41 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+May 24 10:30:41 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+May 24 11:01:05 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 11:01:06 ubuntu anacron[23943]: Anacron 2.3 started on 2021-05-24
+May 24 11:01:06 ubuntu anacron[23943]: Normal exit (0 jobs run)
+May 24 11:17:02 ubuntu CRON[23974]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 11:20:06 ubuntu systemd[1]: Starting Message of the Day...
+May 24 11:20:07 ubuntu 50-motd-news[23977]:  * Super-optimized for small spaces - read how we shrank the memory
+May 24 11:20:07 ubuntu 50-motd-news[23977]:    footprint of MicroK8s to make it the smallest full K8s around.
+May 24 11:20:07 ubuntu 50-motd-news[23977]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+May 24 11:20:07 ubuntu systemd[1]: Started Message of the Day.
+May 24 12:05:06 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 12:05:06 ubuntu anacron[24058]: Anacron 2.3 started on 2021-05-24
+May 24 12:05:06 ubuntu anacron[24058]: Normal exit (0 jobs run)
+May 24 12:17:01 ubuntu CRON[24083]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 12:53:41 ubuntu systemd[1]: Starting Message of the Day...
+May 24 12:53:42 ubuntu 50-motd-news[24103]:  * Super-optimized for small spaces - read how we shrank the memory
+May 24 12:53:42 ubuntu 50-motd-news[24103]:    footprint of MicroK8s to make it the smallest full K8s around.
+May 24 12:53:42 ubuntu 50-motd-news[24103]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+May 24 12:53:42 ubuntu systemd[1]: Started Message of the Day.
+May 24 13:04:41 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 13:04:41 ubuntu anacron[24172]: Anacron 2.3 started on 2021-05-24
+May 24 13:04:41 ubuntu anacron[24172]: Normal exit (0 jobs run)
+May 24 13:17:01 ubuntu CRON[24199]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 14:05:08 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 14:05:09 ubuntu anacron[24222]: Anacron 2.3 started on 2021-05-24
+May 24 14:05:09 ubuntu anacron[24222]: Normal exit (0 jobs run)
+May 24 14:17:01 ubuntu CRON[24243]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 15:03:41 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 15:03:41 ubuntu anacron[24264]: Anacron 2.3 started on 2021-05-24
+May 24 15:03:41 ubuntu anacron[24264]: Normal exit (0 jobs run)
+May 24 15:17:01 ubuntu CRON[24295]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 15:29:31 ubuntu systemd[1]: Started Session 104 of user huawei.
+Start test round: 1
+May 24 15:30:41 ubuntu kernel: [278172.797873] Page table allocation set to normal behavior
+May 24 15:30:41 ubuntu kernel: [278172.806693] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 15:30:41
+Execution Time (seconds): 198
+****success****
+memcached : I completed.
+current = 2021-05-24 15:33:58
+Start test round: 1
+May 24 15:34:11 ubuntu kernel: [278383.671991] Page table allocation set to normal behavior
+May 24 15:34:11 ubuntu kernel: [278383.681289] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 15:34:11
+Execution Time (seconds): 192
+****success****
+memcached : I completed.
+current = 2021-05-24 15:37:23
+Start test round: 1
+May 24 15:38:46 ubuntu kernel: [278658.613502] Page table allocation set to normal behavior
+May 24 15:38:46 ubuntu kernel: [278658.621865] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 15:38:46
+Execution Time (seconds): 200
+****success****
+memcached : I completed.
+current = 2021-05-24 15:42:06
