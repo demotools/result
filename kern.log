@@ -58,3 +58,147 @@ May 24 17:25:13 ubuntu kernel: [285044.999442] Page table allocation set to norm
 May 24 17:25:13 ubuntu kernel: [285045.006039] PROCFS: Command ot drain the pgtable cache
 May 24 17:30:26 ubuntu kernel: [285358.555066] Page table allocation set to normal behavior
 May 24 17:30:26 ubuntu kernel: [285358.563569] PROCFS: Command ot drain the pgtable cache
+May 24 17:57:44 ubuntu kernel: [286996.069844] Page table allocation set to fixed on node 0
+May 24 17:57:44 ubuntu kernel: [286996.076178] PROCFS: Command ot drain the pgtable cache
+May 24 17:57:44 ubuntu kernel: [286996.083904] PROCFS: Command ot populate the pgtable cache
+May 24 17:57:44 ubuntu kernel: [286996.083906] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 17:57:44 ubuntu kernel: [286996.083908] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 17:57:45 ubuntu kernel: [286996.749370] PGREPL: node[0] populated with 1100000  tables
+May 24 17:57:45 ubuntu kernel: [286996.749373] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 17:57:46 ubuntu kernel: [286997.686718] PGREPL: node[1] populated with 1100000  tables
+May 24 17:57:46 ubuntu kernel: [286997.686720] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 17:57:47 ubuntu kernel: [286998.931889] PGREPL: node[2] populated with 1100000  tables
+May 24 17:57:47 ubuntu kernel: [286998.931890] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 17:57:48 ubuntu kernel: [287000.354486] PGREPL: node[3] populated with 1100000  tables
+May 24 17:57:48 ubuntu kernel: [287000.381628] [mitosis] NOTE: version = 6
+May 24 17:57:48 ubuntu kernel: [287000.381629] [mitosis] kernel_set_pgtlbreplpolicy: pid = 61353
+May 24 17:57:48 ubuntu kernel: [287000.381630] PTREP: Called pgtbl_repl_prepare_replication version 2
+May 24 17:57:48 ubuntu kernel: [287000.381631] [mitosis] pgtbl_repl_prepare_replication  for mm=ffff000050869800.
+May 24 17:57:48 ubuntu kernel: [287000.381632] [mitosis]------PTREPL: alloc pgd start------
+May 24 17:57:48 ubuntu kernel: [287000.381633] [mitosis] nr_node_ids=4.
+May 24 17:57:48 ubuntu kernel: [287000.381633] [mitosis] pgd_alloc origin mm->pgd =ffff0027ceacd000.
+May 24 17:57:48 ubuntu kernel: [287000.381635] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff002353255000.
+May 24 17:57:48 ubuntu kernel: [287000.381637] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff0029a37c0000.
+May 24 17:57:48 ubuntu kernel: [287000.381640] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff2026ebd8f000.
+May 24 17:57:48 ubuntu kernel: [287000.381641] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202ec56c7000.
+May 24 17:57:48 ubuntu kernel: [287000.381642] ------PTREPL: alloc pgd success------
+May 24 17:57:48 ubuntu kernel: [287000.381643] pgtbl_repl_prepare_replication:1156 pgd=ffff0027ceacd000..ffff0027ceacdfff
+May 24 17:57:48 ubuntu kernel: [287000.381645] PTREP: pgd_idx = 341，and pgd=ffff0027ceacdaa8  and pgd[341]=27d366a003
+May 24 17:57:48 ubuntu kernel: [287000.381647] pgtbl_repl_prepare_replication:1164 pgd[341]'s pud=ffff0027d366a000..ffff0027d366afff
+May 24 17:57:48 ubuntu kernel: [287000.381648] pgtbl_repl_prepare_replication:1168 another func __va pud=ffff0027d366a000..ffff0027d366afff
+May 24 17:57:48 ubuntu kernel: [287000.381649] pgtbl_repl_prepare_replication:1169 1 pfn=27d366a   2 pfn=27d366a
+May 24 17:57:48 ubuntu kernel: [287000.381654] [mitosis] start search pud .......
+May 24 17:57:48 ubuntu kernel: [287000.381656] PTREP: pud_idx = 171，and pud=ffff0027d366a558  and pud[171]=26b943a003
+May 24 17:57:48 ubuntu kernel: [287000.381657] pgtbl_repl_prepare_replication:1188 pud[171]'s pmd=ffff0026b943a000..ffff0026b943afff
+May 24 17:57:48 ubuntu kernel: [287000.381658] pgtbl_repl_prepare_replication:1189 1 pfn=26b943a   2 pfn=26b943a
+May 24 17:57:48 ubuntu kernel: [287000.381664] PTREP: pmd_idx = 77，and pmd=ffff0026b943a268  and pmd[77]=20a03bc003
+May 24 17:57:48 ubuntu kernel: [287000.381665] pgtbl_repl_prepare_replication:1208 pmd[77]'s pte=ffff0020a03bc000..ffff0020a03bcfff
+May 24 17:57:48 ubuntu kernel: [287000.381665] pgtbl_repl_prepare_replication:1209 1 pfn=20a03bc   2 pfn=20a03bc
+May 24 17:57:48 ubuntu kernel: [287000.381672] PTREP: pmd_idx = 372，and pmd=ffff0026b943aba0  and pmd[372]=26c1f63003
+May 24 17:57:48 ubuntu kernel: [287000.381673] pgtbl_repl_prepare_replication:1208 pmd[372]'s pte=ffff0026c1f63000..ffff0026c1f63fff
+May 24 17:57:48 ubuntu kernel: [287000.381674] pgtbl_repl_prepare_replication:1209 1 pfn=26c1f63   2 pfn=26c1f63
+May 24 17:57:48 ubuntu kernel: [287000.381681] ===================================== end of a page
+May 24 17:57:48 ubuntu kernel: [287000.381682] PTREP: pgd_idx = 511，and pgd=ffff0027ceacdff8  and pgd[511]=27d1958003
+May 24 17:57:48 ubuntu kernel: [287000.381683] pgtbl_repl_prepare_replication:1164 pgd[511]'s pud=ffff0027d1958000..ffff0027d1958fff
+May 24 17:57:48 ubuntu kernel: [287000.381684] pgtbl_repl_prepare_replication:1168 another func __va pud=ffff0027d1958000..ffff0027d1958fff
+May 24 17:57:48 ubuntu kernel: [287000.381685] pgtbl_repl_prepare_replication:1169 1 pfn=27d1958   2 pfn=27d1958
+May 24 17:57:48 ubuntu kernel: [287000.381690] [mitosis] start search pud .......
+May 24 17:57:48 ubuntu kernel: [287000.381691] PTREP: pud_idx = 510，and pud=ffff0027d1958ff0  and pud[510]=2169c6c003
+May 24 17:57:48 ubuntu kernel: [287000.381692] pgtbl_repl_prepare_replication:1188 pud[510]'s pmd=ffff002169c6c000..ffff002169c6cfff
+May 24 17:57:48 ubuntu kernel: [287000.381693] pgtbl_repl_prepare_replication:1189 1 pfn=2169c6c   2 pfn=2169c6c
+May 24 17:57:48 ubuntu kernel: [287000.381699] PTREP: pmd_idx = 465，and pmd=ffff002169c6ce88  and pmd[465]=27b4b87003
+May 24 17:57:48 ubuntu kernel: [287000.381700] pgtbl_repl_prepare_replication:1208 pmd[465]'s pte=ffff0027b4b87000..ffff0027b4b87fff
+May 24 17:57:48 ubuntu kernel: [287000.381701] pgtbl_repl_prepare_replication:1209 1 pfn=27b4b87   2 pfn=27b4b87
+May 24 17:57:48 ubuntu kernel: [287000.381711] PTREP: pud_idx = 511，and pud=ffff0027d1958ff8  and pud[511]=23a5419003
+May 24 17:57:48 ubuntu kernel: [287000.381712] pgtbl_repl_prepare_replication:1188 pud[511]'s pmd=ffff0023a5419000..ffff0023a5419fff
+May 24 17:57:48 ubuntu kernel: [287000.381713] pgtbl_repl_prepare_replication:1189 1 pfn=23a5419   2 pfn=23a5419
+May 24 17:57:48 ubuntu kernel: [287000.381718] PTREP: pmd_idx = 430，and pmd=ffff0023a5419d70  and pmd[430]=27d374e003
+May 24 17:57:48 ubuntu kernel: [287000.381719] pgtbl_repl_prepare_replication:1208 pmd[430]'s pte=ffff0027d374e000..ffff0027d374efff
+May 24 17:57:48 ubuntu kernel: [287000.381720] pgtbl_repl_prepare_replication:1209 1 pfn=27d374e   2 pfn=27d374e
+May 24 17:57:48 ubuntu kernel: [287000.381726] ===================================== end of a page
+May 24 17:57:48 ubuntu kernel: [287000.381727] pgtbl_repl_prepare_replication:1235 all: pud_num=3, pmd_num=4, pte_num=344
+May 24 17:57:48 ubuntu kernel: [287000.381728] PTREP: Called pgtbl_repl_prepare_replication  done
+May 24 17:57:48 ubuntu kernel: [287000.381728] [mitosis] pgtable replication enabled for mm=ffff000050869800.
+May 24 17:57:48 ubuntu kernel: [287000.381729] [mitosis] pgtable replication err=0.
+May 24 17:57:48 ubuntu kernel: [287000.381745] [mitosis]------PTREPL: alloc pgd start------
+May 24 17:57:48 ubuntu kernel: [287000.381746] [mitosis] nr_node_ids=4.
+May 24 17:57:48 ubuntu kernel: [287000.381747] [mitosis] pgd_alloc origin mm->pgd =ffff0027b7b52000.
+May 24 17:57:48 ubuntu kernel: [287000.381748] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff00235324b000.
+May 24 17:57:48 ubuntu kernel: [287000.381749] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff0029a37b6000.
+May 24 17:57:48 ubuntu kernel: [287000.381751] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff2026ebd85000.
+May 24 17:57:48 ubuntu kernel: [287000.381752] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202ec56bd000.
+May 24 17:57:48 ubuntu kernel: [287000.381753] ------PTREPL: alloc pgd success------
+May 24 17:57:48 ubuntu kernel: [287000.382010] [mitosis] PTREPL: free pgd start 
+May 24 17:57:48 ubuntu kernel: [287000.382012] [mitosis] pgtable_repl_pgd_free freed pgd=ffff0027ceacd000 and mm->pgd=ffff0027ceacd000.
+May 24 17:57:48 ubuntu kernel: [287000.382013] [mitosis]------PTREPL: free pgd done------
+May 24 17:57:48 ubuntu kernel: [287000.383115] [mitosis]------PTREPL: alloc pgd start------
+May 24 17:57:48 ubuntu kernel: [287000.383116] [mitosis] nr_node_ids=4.
+May 24 17:57:48 ubuntu kernel: [287000.383117] [mitosis] pgd_alloc origin mm->pgd =ffff00211200b000.
+May 24 17:57:48 ubuntu kernel: [287000.383118] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff00235323e000.
+May 24 17:57:48 ubuntu kernel: [287000.383120] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff0029a37a9000.
+May 24 17:57:48 ubuntu kernel: [287000.383122] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff2026ebd78000.
+May 24 17:57:48 ubuntu kernel: [287000.383123] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202ec56b0000.
+May 24 17:57:48 ubuntu kernel: [287000.383124] ------PTREPL: alloc pgd success------
+May 24 17:57:49 ubuntu kernel: [287000.925217] [mitosis] PTREPL: free pgd start 
+May 24 17:57:49 ubuntu kernel: [287000.925222] [mitosis] pgtable_repl_pgd_free freed pgd=ffff0027b7b52000 and mm->pgd=ffff0027b7b52000.
+May 24 17:57:49 ubuntu kernel: [287000.925223] [mitosis]------PTREPL: free pgd done------
+May 24 19:54:47 ubuntu kernel: [294019.389807] Page table allocation set to fixed on node 0
+May 24 19:54:47 ubuntu kernel: [294019.398067] PROCFS: Command ot drain the pgtable cache
+May 24 19:54:48 ubuntu kernel: [294020.296003] PROCFS: Command ot populate the pgtable cache
+May 24 19:54:48 ubuntu kernel: [294020.296005] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 19:54:48 ubuntu kernel: [294020.296006] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 19:54:49 ubuntu kernel: [294020.967695] PGREPL: node[0] populated with 1100000  tables
+May 24 19:54:49 ubuntu kernel: [294020.967698] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 19:54:50 ubuntu kernel: [294021.917117] PGREPL: node[1] populated with 1100000  tables
+May 24 19:54:50 ubuntu kernel: [294021.917119] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 19:54:51 ubuntu kernel: [294023.167353] PGREPL: node[2] populated with 1100000  tables
+May 24 19:54:51 ubuntu kernel: [294023.167354] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 19:54:52 ubuntu kernel: [294024.461251] PGREPL: node[3] populated with 1100000  tables
+May 24 20:04:37 ubuntu kernel: [294608.842681] Page table allocation set to fixed on node 0
+May 24 20:04:37 ubuntu kernel: [294608.852563] PROCFS: Command ot drain the pgtable cache
+May 24 20:04:39 ubuntu kernel: [294610.831187] PROCFS: Command ot populate the pgtable cache
+May 24 20:04:39 ubuntu kernel: [294610.831190] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 20:04:39 ubuntu kernel: [294610.831191] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 20:04:39 ubuntu kernel: [294611.493469] PGREPL: node[0] populated with 1100000  tables
+May 24 20:04:39 ubuntu kernel: [294611.493472] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 20:04:40 ubuntu kernel: [294612.431396] PGREPL: node[1] populated with 1100000  tables
+May 24 20:04:40 ubuntu kernel: [294612.431398] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 20:04:42 ubuntu kernel: [294613.675783] PGREPL: node[2] populated with 1100000  tables
+May 24 20:04:42 ubuntu kernel: [294613.675785] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 20:04:43 ubuntu kernel: [294615.098036] PGREPL: node[3] populated with 1100000  tables
+May 24 20:32:37 ubuntu kernel: [296289.106883] Page table allocation set to fixed on node 0
+May 24 20:32:37 ubuntu kernel: [296289.115772] PROCFS: Command ot drain the pgtable cache
+May 24 20:32:38 ubuntu kernel: [296290.096819] PROCFS: Command ot populate the pgtable cache
+May 24 20:32:38 ubuntu kernel: [296290.096823] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 20:32:38 ubuntu kernel: [296290.096825] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 20:32:39 ubuntu kernel: [296291.024170] PGREPL: node[0] populated with 1100000  tables
+May 24 20:32:39 ubuntu kernel: [296291.024173] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 20:32:40 ubuntu kernel: [296291.690813] PGREPL: node[1] populated with 1100000  tables
+May 24 20:32:40 ubuntu kernel: [296291.690816] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 20:32:41 ubuntu kernel: [296293.160524] PGREPL: node[2] populated with 1100000  tables
+May 24 20:32:41 ubuntu kernel: [296293.160527] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 20:32:43 ubuntu kernel: [296294.650887] PGREPL: node[3] populated with 1100000  tables
+May 24 20:37:58 ubuntu kernel: [296610.421243] Page table allocation set to fixed on node 0
+May 24 20:37:58 ubuntu kernel: [296610.429924] PROCFS: Command ot drain the pgtable cache
+May 24 20:37:59 ubuntu kernel: [296611.210443] PROCFS: Command ot populate the pgtable cache
+May 24 20:37:59 ubuntu kernel: [296611.210446] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 20:37:59 ubuntu kernel: [296611.210447] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 20:38:00 ubuntu kernel: [296611.874349] PGREPL: node[0] populated with 1100000  tables
+May 24 20:38:00 ubuntu kernel: [296611.874352] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 20:38:01 ubuntu kernel: [296612.814276] PGREPL: node[1] populated with 1100000  tables
+May 24 20:38:01 ubuntu kernel: [296612.814278] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 20:38:02 ubuntu kernel: [296614.064655] PGREPL: node[2] populated with 1100000  tables
+May 24 20:38:02 ubuntu kernel: [296614.064656] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 20:38:03 ubuntu kernel: [296615.485899] PGREPL: node[3] populated with 1100000  tables
+May 24 20:46:10 ubuntu kernel: [297102.159979] Page table allocation set to fixed on node 0
+May 24 20:46:10 ubuntu kernel: [297102.168270] PROCFS: Command ot drain the pgtable cache
+May 24 20:46:11 ubuntu kernel: [297103.103038] PROCFS: Command ot populate the pgtable cache
+May 24 20:46:11 ubuntu kernel: [297103.103040] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 20:46:11 ubuntu kernel: [297103.103042] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 20:46:12 ubuntu kernel: [297103.766667] PGREPL: node[0] populated with 1100000  tables
+May 24 20:46:12 ubuntu kernel: [297103.766669] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 20:46:13 ubuntu kernel: [297104.705953] PGREPL: node[1] populated with 1100000  tables
+May 24 20:46:13 ubuntu kernel: [297104.705955] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 20:46:14 ubuntu kernel: [297105.950595] PGREPL: node[2] populated with 1100000  tables
+May 24 20:46:14 ubuntu kernel: [297105.950597] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 20:46:15 ubuntu kernel: [297107.290963] PGREPL: node[3] populated with 1100000  tables
