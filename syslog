@@ -209,3 +209,47 @@ Execution Time (seconds): 200
 ****success****
 memcached : I completed.
 current = 2021-05-24 15:42:06
+Start test round: 1
+May 24 15:49:05 ubuntu kernel: [279276.891143] Page table allocation set to normal behavior
+May 24 15:49:05 ubuntu kernel: [279276.899974] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 15:49:05
+Execution Time (seconds): 201
+****success****
+memcached : I completed.
+current = 2021-05-24 15:52:26
+Start test round: 1
+May 24 15:56:24 ubuntu kernel: [279716.560458] Page table allocation set to normal behavior
+May 24 15:56:24 ubuntu kernel: [279716.569062] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 15:56:24
+Execution Time (seconds): 198
+****success****
+memcached : I completed.
+current = 2021-05-24 15:59:42
+May 24 16:04:10 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 16:04:11 ubuntu anacron[34669]: Anacron 2.3 started on 2021-05-24
+May 24 16:04:11 ubuntu anacron[34669]: Normal exit (0 jobs run)
+Start test round: 1
+May 24 16:06:10 ubuntu kernel: [280302.188998] Page table allocation set to normal behavior
+May 24 16:06:10 ubuntu kernel: [280302.196958] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 16:06:10
+Execution Time (seconds): 191
+****success****
+memcached : I completed.
+current = 2021-05-24 16:09:21
+Start test round: 1
+May 24 16:11:25 ubuntu kernel: [280617.513804] Page table allocation set to normal behavior
+May 24 16:11:25 ubuntu kernel: [280617.521075] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 16:11:25
+Execution Time (seconds): 199
+****success****
+memcached : I completed.
+current = 2021-05-24 16:14:44
+May 24 16:17:01 ubuntu CRON[38706]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+May 24 16:17:16 ubuntu kernel: [280968.045470] Page table allocation set to normal behavior
+May 24 16:17:16 ubuntu kernel: [280968.053637] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 16:17:16
+Execution Time (seconds): 200
+****success****
+memcached : I completed.
+current = 2021-05-24 16:20:36
