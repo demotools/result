@@ -687,3 +687,263 @@ Execution Time (seconds): 200
 ****success****
 memcached : IM completed.
 current = 2021-05-24 22:21:04
+Start test round: 1
+May 24 22:33:02 ubuntu kernel: [303513.902700] Page table allocation set to fixed on node 0
+May 24 22:33:02 ubuntu kernel: [303513.912323] PROCFS: Command ot drain the pgtable cache
+May 24 22:33:04 ubuntu kernel: [303515.892215] PROCFS: Command ot populate the pgtable cache
+May 24 22:33:04 ubuntu kernel: [303515.892218] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 22:33:04 ubuntu kernel: [303515.892220] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 22:33:05 ubuntu kernel: [303516.562817] PGREPL: node[0] populated with 1100000  tables
+May 24 22:33:05 ubuntu kernel: [303516.562819] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 22:33:06 ubuntu kernel: [303517.506141] PGREPL: node[1] populated with 1100000  tables
+May 24 22:33:06 ubuntu kernel: [303517.506143] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 22:33:07 ubuntu kernel: [303518.729590] PGREPL: node[2] populated with 1100000  tables
+May 24 22:33:07 ubuntu kernel: [303518.729592] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 22:33:08 ubuntu kernel: [303520.105154] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 22:33:08
+Execution Time (seconds): 204
+****success****
+memcached : IM completed.
+current = 2021-05-24 22:36:26
+Start test round: 1
+May 24 22:37:17 ubuntu kernel: [303768.778965] Page table allocation set to fixed on node 0
+May 24 22:37:17 ubuntu kernel: [303768.787723] PROCFS: Command ot drain the pgtable cache
+May 24 22:37:18 ubuntu kernel: [303769.683689] PROCFS: Command ot populate the pgtable cache
+May 24 22:37:18 ubuntu kernel: [303769.683692] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 22:37:18 ubuntu kernel: [303769.683693] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 22:37:18 ubuntu kernel: [303770.353134] PGREPL: node[0] populated with 1100000  tables
+May 24 22:37:18 ubuntu kernel: [303770.353137] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 22:37:19 ubuntu kernel: [303771.267775] PGREPL: node[1] populated with 1100000  tables
+May 24 22:37:19 ubuntu kernel: [303771.267777] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 22:37:21 ubuntu kernel: [303772.517790] PGREPL: node[2] populated with 1100000  tables
+May 24 22:37:21 ubuntu kernel: [303772.517792] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 22:37:22 ubuntu kernel: [303773.942834] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 22:37:22
+Execution Time (seconds): 197
+****success****
+memcached : IM completed.
+current = 2021-05-24 22:40:34
+Start test round: 1
+May 24 22:48:15 ubuntu kernel: [304427.221983] Page table allocation set to fixed on node 0
+May 24 22:48:15 ubuntu kernel: [304427.230280] PROCFS: Command ot drain the pgtable cache
+May 24 22:48:16 ubuntu kernel: [304428.170516] PROCFS: Command ot populate the pgtable cache
+May 24 22:48:16 ubuntu kernel: [304428.170520] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 22:48:16 ubuntu kernel: [304428.170522] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 22:48:17 ubuntu kernel: [304429.109449] PGREPL: node[0] populated with 1100000  tables
+May 24 22:48:17 ubuntu kernel: [304429.109453] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 22:48:18 ubuntu kernel: [304429.777971] PGREPL: node[1] populated with 1100000  tables
+May 24 22:48:18 ubuntu kernel: [304429.777974] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 22:48:19 ubuntu kernel: [304431.249023] PGREPL: node[2] populated with 1100000  tables
+May 24 22:48:19 ubuntu kernel: [304431.249027] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 22:48:21 ubuntu kernel: [304432.741475] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 22:48:21
+Execution Time (seconds): 202
+****success****
+memcached : IM completed.
+current = 2021-05-24 22:51:37
+Start test round: 1
+May 24 22:59:19 ubuntu kernel: [305090.781141] Page table allocation set to fixed on node 0
+May 24 22:59:19 ubuntu kernel: [305090.789200] PROCFS: Command ot drain the pgtable cache
+May 24 22:59:20 ubuntu kernel: [305091.773326] PROCFS: Command ot populate the pgtable cache
+May 24 22:59:20 ubuntu kernel: [305091.773330] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 22:59:20 ubuntu kernel: [305091.773332] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 22:59:21 ubuntu kernel: [305092.710791] PGREPL: node[0] populated with 1100000  tables
+May 24 22:59:21 ubuntu kernel: [305092.710795] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 22:59:21 ubuntu kernel: [305093.373158] PGREPL: node[1] populated with 1100000  tables
+May 24 22:59:21 ubuntu kernel: [305093.373161] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 22:59:23 ubuntu kernel: [305094.837728] PGREPL: node[2] populated with 1100000  tables
+May 24 22:59:23 ubuntu kernel: [305094.837730] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 22:59:24 ubuntu kernel: [305096.447253] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 22:59:24
+May 24 23:02:13 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 23:02:13 ubuntu anacron[96988]: Anacron 2.3 started on 2021-05-24
+May 24 23:02:13 ubuntu anacron[96988]: Normal exit (0 jobs run)
+Execution Time (seconds): 204
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:02:43
+Start test round: 1
+May 24 23:03:22 ubuntu kernel: [305333.597015] Page table allocation set to fixed on node 0
+May 24 23:03:22 ubuntu kernel: [305333.609327] PROCFS: Command ot drain the pgtable cache
+May 24 23:03:23 ubuntu kernel: [305334.896631] PROCFS: Command ot populate the pgtable cache
+May 24 23:03:23 ubuntu kernel: [305334.896635] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 23:03:23 ubuntu kernel: [305334.896636] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 23:03:24 ubuntu kernel: [305335.835022] PGREPL: node[0] populated with 1100000  tables
+May 24 23:03:24 ubuntu kernel: [305335.835026] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 23:03:25 ubuntu kernel: [305336.500319] PGREPL: node[1] populated with 1100000  tables
+May 24 23:03:25 ubuntu kernel: [305336.500321] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 23:03:26 ubuntu kernel: [305337.964033] PGREPL: node[2] populated with 1100000  tables
+May 24 23:03:26 ubuntu kernel: [305337.964036] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 23:03:28 ubuntu kernel: [305339.572682] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 23:03:28
+Execution Time (seconds): 207
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:06:49
+Start test round: 1
+May 24 23:08:38 ubuntu kernel: [305650.021814] Page table allocation set to fixed on node 0
+May 24 23:08:38 ubuntu kernel: [305650.035757] PROCFS: Command ot drain the pgtable cache
+May 24 23:08:39 ubuntu kernel: [305650.936351] PROCFS: Command ot populate the pgtable cache
+May 24 23:08:39 ubuntu kernel: [305650.936354] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 23:08:39 ubuntu kernel: [305650.936356] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 23:08:40 ubuntu kernel: [305651.609732] PGREPL: node[0] populated with 1100000  tables
+May 24 23:08:40 ubuntu kernel: [305651.609734] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 23:08:41 ubuntu kernel: [305652.560686] PGREPL: node[1] populated with 1100000  tables
+May 24 23:08:41 ubuntu kernel: [305652.560688] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 23:08:42 ubuntu kernel: [305653.812463] PGREPL: node[2] populated with 1100000  tables
+May 24 23:08:42 ubuntu kernel: [305653.812464] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 23:08:43 ubuntu kernel: [305655.107558] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 23:08:43
+Execution Time (seconds): 205
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:12:03
+Start test round: 1
+May 24 23:13:16 ubuntu kernel: [305927.792283] Page table allocation set to fixed on node 0
+May 24 23:13:16 ubuntu kernel: [305927.799837] PROCFS: Command ot drain the pgtable cache
+May 24 23:13:17 ubuntu kernel: [305928.582405] PROCFS: Command ot populate the pgtable cache
+May 24 23:13:17 ubuntu kernel: [305928.582407] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 23:13:17 ubuntu kernel: [305928.582409] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 23:13:17 ubuntu kernel: [305929.244869] PGREPL: node[0] populated with 1100000  tables
+May 24 23:13:17 ubuntu kernel: [305929.244871] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 23:13:18 ubuntu kernel: [305930.100120] PGREPL: node[1] populated with 1100000  tables
+May 24 23:13:18 ubuntu kernel: [305930.100122] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 23:13:19 ubuntu kernel: [305931.350877] PGREPL: node[2] populated with 1100000  tables
+May 24 23:13:19 ubuntu kernel: [305931.350879] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 23:13:21 ubuntu kernel: [305932.643608] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 23:13:21
+Execution Time (seconds): 197
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:16:33
+May 24 23:17:01 ubuntu CRON[6019]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+May 24 23:20:17 ubuntu kernel: [306349.208294] Page table allocation set to fixed on node 0
+May 24 23:20:17 ubuntu kernel: [306349.214647] PROCFS: Command ot drain the pgtable cache
+May 24 23:20:18 ubuntu kernel: [306349.996737] PROCFS: Command ot populate the pgtable cache
+May 24 23:20:18 ubuntu kernel: [306349.996741] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 23:20:18 ubuntu kernel: [306349.996742] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 23:20:19 ubuntu kernel: [306350.940463] PGREPL: node[0] populated with 1100000  tables
+May 24 23:20:19 ubuntu kernel: [306350.940467] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 23:20:20 ubuntu kernel: [306351.608827] PGREPL: node[1] populated with 1100000  tables
+May 24 23:20:20 ubuntu kernel: [306351.608830] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 23:20:21 ubuntu kernel: [306353.079177] PGREPL: node[2] populated with 1100000  tables
+May 24 23:20:21 ubuntu kernel: [306353.079180] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 23:20:23 ubuntu kernel: [306354.568555] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 23:20:23
+Execution Time (seconds): 203
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:23:41
+Start test round: 1
+May 24 23:25:52 ubuntu kernel: [306683.603744] Page table allocation set to fixed on node 0
+May 24 23:25:52 ubuntu kernel: [306683.611431] PROCFS: Command ot drain the pgtable cache
+May 24 23:25:52 ubuntu kernel: [306684.393192] PROCFS: Command ot populate the pgtable cache
+May 24 23:25:52 ubuntu kernel: [306684.393195] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 23:25:52 ubuntu kernel: [306684.393196] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 23:25:53 ubuntu kernel: [306685.061375] PGREPL: node[0] populated with 1100000  tables
+May 24 23:25:53 ubuntu kernel: [306685.061377] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 23:25:54 ubuntu kernel: [306686.006907] PGREPL: node[1] populated with 1100000  tables
+May 24 23:25:54 ubuntu kernel: [306686.006909] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 23:25:55 ubuntu kernel: [306687.264661] PGREPL: node[2] populated with 1100000  tables
+May 24 23:25:55 ubuntu kernel: [306687.264663] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 23:25:57 ubuntu kernel: [306688.688627] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 23:25:57
+Execution Time (seconds): 203
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:29:15
+Start test round: 1
+May 24 23:30:46 ubuntu kernel: [306977.973260] Page table allocation set to fixed on node 0
+May 24 23:30:46 ubuntu kernel: [306977.981621] PROCFS: Command ot drain the pgtable cache
+May 24 23:30:47 ubuntu kernel: [306978.917671] PROCFS: Command ot populate the pgtable cache
+May 24 23:30:47 ubuntu kernel: [306978.917674] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 23:30:47 ubuntu kernel: [306978.917675] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 23:30:48 ubuntu kernel: [306979.579491] PGREPL: node[0] populated with 1100000  tables
+May 24 23:30:48 ubuntu kernel: [306979.579493] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 23:30:49 ubuntu kernel: [306980.518742] PGREPL: node[1] populated with 1100000  tables
+May 24 23:30:49 ubuntu kernel: [306980.518743] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 23:30:50 ubuntu kernel: [306981.764864] PGREPL: node[2] populated with 1100000  tables
+May 24 23:30:50 ubuntu kernel: [306981.764866] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 23:30:51 ubuntu kernel: [306983.186856] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 23:30:51
+Execution Time (seconds): 195
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:34:01
+Start test round: 1
+May 24 23:38:16 ubuntu kernel: [307428.200685] Page table allocation set to fixed on node 0
+May 24 23:38:16 ubuntu kernel: [307428.207104] PROCFS: Command ot drain the pgtable cache
+May 24 23:38:17 ubuntu kernel: [307428.990313] PROCFS: Command ot populate the pgtable cache
+May 24 23:38:17 ubuntu kernel: [307428.990315] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 23:38:17 ubuntu kernel: [307428.990317] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 23:38:18 ubuntu kernel: [307429.653018] PGREPL: node[0] populated with 1100000  tables
+May 24 23:38:18 ubuntu kernel: [307429.653020] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 23:38:19 ubuntu kernel: [307430.598328] PGREPL: node[1] populated with 1100000  tables
+May 24 23:38:19 ubuntu kernel: [307430.598330] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 23:38:20 ubuntu kernel: [307431.850037] PGREPL: node[2] populated with 1100000  tables
+May 24 23:38:20 ubuntu kernel: [307431.850038] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 23:38:21 ubuntu kernel: [307433.143546] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 23:38:21
+Execution Time (seconds): 202
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:41:38
+Start test round: 1
+May 24 23:42:50 ubuntu kernel: [307702.176098] Page table allocation set to fixed on node 0
+May 24 23:42:50 ubuntu kernel: [307702.184591] PROCFS: Command ot drain the pgtable cache
+May 24 23:42:51 ubuntu kernel: [307703.120229] PROCFS: Command ot populate the pgtable cache
+May 24 23:42:51 ubuntu kernel: [307703.120232] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 23:42:51 ubuntu kernel: [307703.120233] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 23:42:52 ubuntu kernel: [307703.786761] PGREPL: node[0] populated with 1100000  tables
+May 24 23:42:52 ubuntu kernel: [307703.786763] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 23:42:53 ubuntu kernel: [307704.729103] PGREPL: node[1] populated with 1100000  tables
+May 24 23:42:53 ubuntu kernel: [307704.729106] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 23:42:54 ubuntu kernel: [307705.975351] PGREPL: node[2] populated with 1100000  tables
+May 24 23:42:54 ubuntu kernel: [307705.975353] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 23:42:55 ubuntu kernel: [307707.397955] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 23:42:55
+Execution Time (seconds): 205
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:46:15
+Start test round: 1
+May 24 23:49:10 ubuntu kernel: [308082.263587] Page table allocation set to fixed on node 0
+May 24 23:49:10 ubuntu kernel: [308082.271896] PROCFS: Command ot drain the pgtable cache
+May 24 23:49:11 ubuntu kernel: [308083.255368] PROCFS: Command ot populate the pgtable cache
+May 24 23:49:11 ubuntu kernel: [308083.255370] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 23:49:11 ubuntu kernel: [308083.255371] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 23:49:12 ubuntu kernel: [308083.920420] PGREPL: node[0] populated with 1100000  tables
+May 24 23:49:12 ubuntu kernel: [308083.920422] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 23:49:13 ubuntu kernel: [308084.862950] PGREPL: node[1] populated with 1100000  tables
+May 24 23:49:13 ubuntu kernel: [308084.862952] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 23:49:14 ubuntu kernel: [308086.109014] PGREPL: node[2] populated with 1100000  tables
+May 24 23:49:14 ubuntu kernel: [308086.109016] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 23:49:16 ubuntu kernel: [308087.532101] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 23:49:16
+Execution Time (seconds): 207
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:52:37
+Start test round: 1
+May 24 23:56:17 ubuntu kernel: [308509.322320] Page table allocation set to fixed on node 0
+May 24 23:56:17 ubuntu kernel: [308509.330816] PROCFS: Command ot drain the pgtable cache
+May 24 23:56:18 ubuntu kernel: [308510.270686] PROCFS: Command ot populate the pgtable cache
+May 24 23:56:18 ubuntu kernel: [308510.270690] PGREPL: populating pgtable cache with 1100000 tables per node
+May 24 23:56:18 ubuntu kernel: [308510.270693] PGREPL: populating pgtable cache node[0] with 1100000 tables
+May 24 23:56:19 ubuntu kernel: [308510.943068] PGREPL: node[0] populated with 1100000  tables
+May 24 23:56:19 ubuntu kernel: [308510.943071] PGREPL: populating pgtable cache node[1] with 1100000 tables
+May 24 23:56:20 ubuntu kernel: [308511.868617] PGREPL: node[1] populated with 1100000  tables
+May 24 23:56:20 ubuntu kernel: [308511.868619] PGREPL: populating pgtable cache node[2] with 1100000 tables
+May 24 23:56:21 ubuntu kernel: [308513.115106] PGREPL: node[2] populated with 1100000  tables
+May 24 23:56:21 ubuntu kernel: [308513.115108] PGREPL: populating pgtable cache node[3] with 1100000 tables
+May 24 23:56:23 ubuntu kernel: [308514.539330] PGREPL: node[3] populated with 1100000  tables
+[0mWaiting for benchmark to be done current :2021-05-24 23:56:23
+Execution Time (seconds): 208
+****success****
+memcached : IM completed.
+current = 2021-05-24 23:59:45
+May 25 00:00:19 ubuntu systemd[1]: Started Run anacron jobs.
+May 25 00:00:19 ubuntu anacron[20370]: Anacron 2.3 started on 2021-05-25
+May 25 00:00:19 ubuntu anacron[20370]: Will run job `cron.daily' in 5 min.
+May 25 00:00:19 ubuntu anacron[20370]: Jobs will be executed sequentially
