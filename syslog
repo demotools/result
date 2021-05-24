@@ -253,3 +253,93 @@ Execution Time (seconds): 200
 ****success****
 memcached : I completed.
 current = 2021-05-24 16:20:36
+Start test round: 1
+May 24 16:31:48 ubuntu kernel: [281840.310547] Page table allocation set to normal behavior
+May 24 16:31:48 ubuntu kernel: [281840.318705] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 16:31:48
+Execution Time (seconds): 187
+****success****
+memcached : I completed.
+current = 2021-05-24 16:34:55
+Start test round: 1
+May 24 16:39:52 ubuntu kernel: [282323.839580] Page table allocation set to normal behavior
+May 24 16:39:52 ubuntu kernel: [282323.845804] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 16:39:52
+Execution Time (seconds): 199
+****success****
+memcached : I completed.
+current = 2021-05-24 16:43:11
+Start test round: 1
+May 24 16:48:28 ubuntu kernel: [282840.069425] Page table allocation set to normal behavior
+May 24 16:48:28 ubuntu kernel: [282840.075544] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 16:48:28
+Execution Time (seconds): 195
+****success****
+memcached : I completed.
+current = 2021-05-24 16:51:43
+May 24 16:54:27 ubuntu systemd[1]: Started Session 106 of user huawei.
+Start test round: 1
+May 24 16:54:44 ubuntu kernel: [283216.391731] Page table allocation set to normal behavior
+May 24 16:54:44 ubuntu kernel: [283216.400955] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 16:54:44
+Execution Time (seconds): 192
+****success****
+memcached : I completed.
+current = 2021-05-24 16:57:56
+Start test round: 1
+May 24 16:58:28 ubuntu kernel: [283440.151104] Page table allocation set to normal behavior
+May 24 16:58:28 ubuntu kernel: [283440.159750] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 16:58:28
+May 24 17:00:41 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 17:00:41 ubuntu anacron[50308]: Anacron 2.3 started on 2021-05-24
+May 24 17:00:41 ubuntu anacron[50308]: Normal exit (0 jobs run)
+Execution Time (seconds): 205
+****success****
+memcached : I completed.
+current = 2021-05-24 17:01:53
+Start test round: 1
+May 24 17:02:29 ubuntu kernel: [283680.907497] Page table allocation set to normal behavior
+May 24 17:02:29 ubuntu kernel: [283680.915693] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 17:02:29
+Execution Time (seconds): 196
+****success****
+memcached : I completed.
+current = 2021-05-24 17:05:45
+Start test round: 1
+May 24 17:08:27 ubuntu kernel: [284039.522506] Page table allocation set to normal behavior
+May 24 17:08:27 ubuntu kernel: [284039.530987] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 17:08:27
+Execution Time (seconds): 197
+****success****
+memcached : I completed.
+current = 2021-05-24 17:11:44
+Start test round: 1
+May 24 17:12:43 ubuntu kernel: [284295.542951] Page table allocation set to normal behavior
+May 24 17:12:43 ubuntu kernel: [284295.551425] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 17:12:43
+Execution Time (seconds): 193
+****success****
+memcached : I completed.
+current = 2021-05-24 17:15:56
+May 24 17:17:01 ubuntu CRON[57095]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+May 24 17:25:13 ubuntu kernel: [285044.999442] Page table allocation set to normal behavior
+May 24 17:25:13 ubuntu kernel: [285045.006039] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 17:25:13
+Execution Time (seconds): 196
+****success****
+memcached : I completed.
+current = 2021-05-24 17:28:29
+Start test round: 1
+May 24 17:30:26 ubuntu kernel: [285358.555066] Page table allocation set to normal behavior
+May 24 17:30:26 ubuntu kernel: [285358.563569] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 17:30:26
+Execution Time (seconds): 200
+****success****
+memcached : I completed.
+current = 2021-05-24 17:33:46
+May 24 17:35:12 ubuntu systemd[1]: Starting Daily apt download activities...
+May 24 17:35:42 ubuntu systemd-networkd-wait-online[61200]: Event loop failed: Connection timed out
+May 24 17:36:12 ubuntu apt-helper[61185]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+May 24 17:36:12 ubuntu apt-helper[61185]: E: Sub-process nm-online returned an error code (1)
+May 24 17:36:13 ubuntu systemd[1]: Started Daily apt download activities.
