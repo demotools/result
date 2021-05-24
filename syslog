@@ -1,340 +1,133 @@
-May 22 00:06:07 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="2486" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
-May 22 00:06:22 ubuntu anacron[29177]: Job `cron.daily' terminated
-May 22 00:06:22 ubuntu anacron[29177]: Normal exit (1 job run)
-May 22 00:17:01 ubuntu CRON[29430]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 00:54:01 ubuntu CRON[29450]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
-May 22 01:01:06 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 01:01:06 ubuntu anacron[29458]: Anacron 2.3 started on 2021-05-22
-May 22 01:01:06 ubuntu anacron[29458]: Normal exit (0 jobs run)
-May 22 01:17:01 ubuntu CRON[29488]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 02:02:41 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 02:02:41 ubuntu anacron[29512]: Anacron 2.3 started on 2021-05-22
-May 22 02:02:41 ubuntu anacron[29512]: Normal exit (0 jobs run)
-May 22 02:17:01 ubuntu CRON[29546]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 03:04:41 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 03:04:41 ubuntu anacron[29571]: Anacron 2.3 started on 2021-05-22
-May 22 03:04:41 ubuntu anacron[29571]: Normal exit (0 jobs run)
-May 22 03:17:01 ubuntu CRON[29598]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 04:02:09 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 04:02:10 ubuntu anacron[29626]: Anacron 2.3 started on 2021-05-22
-May 22 04:02:10 ubuntu anacron[29626]: Normal exit (0 jobs run)
-May 22 04:17:01 ubuntu CRON[29656]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 05:01:10 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 05:01:11 ubuntu anacron[29679]: Anacron 2.3 started on 2021-05-22
-May 22 05:01:11 ubuntu anacron[29679]: Normal exit (0 jobs run)
-May 22 05:17:01 ubuntu CRON[29702]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 06:04:11 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 06:04:12 ubuntu anacron[29720]: Anacron 2.3 started on 2021-05-22
-May 22 06:04:12 ubuntu anacron[29720]: Normal exit (0 jobs run)
-May 22 06:17:01 ubuntu CRON[29746]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 06:25:01 ubuntu CRON[29755]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
-May 22 06:31:12 ubuntu systemd[1]: Starting Message of the Day...
-May 22 06:31:13 ubuntu 50-motd-news[29760]:  * Super-optimized for small spaces - read how we shrank the memory
-May 22 06:31:13 ubuntu 50-motd-news[29760]:    footprint of MicroK8s to make it the smallest full K8s around.
-May 22 06:31:13 ubuntu 50-motd-news[29760]:    https://ubuntu.com/blog/microk8s-memory-optimisation
-May 22 06:31:13 ubuntu systemd[1]: Started Message of the Day.
-May 22 06:56:12 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
-May 22 06:56:13 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
-May 22 07:03:13 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 07:03:13 ubuntu anacron[29904]: Anacron 2.3 started on 2021-05-22
-May 22 07:03:13 ubuntu anacron[29904]: Normal exit (0 jobs run)
-May 22 07:17:01 ubuntu CRON[29928]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 07:30:02 ubuntu CRON[29934]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
-May 22 08:04:13 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 08:04:13 ubuntu anacron[29948]: Anacron 2.3 started on 2021-05-22
-May 22 08:04:13 ubuntu anacron[29948]: Normal exit (0 jobs run)
-May 22 08:17:01 ubuntu CRON[29971]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 08:44:13 ubuntu systemd[1]: Starting Daily apt download activities...
-May 22 08:44:43 ubuntu systemd-networkd-wait-online[29996]: Event loop failed: Connection timed out
-May 22 08:45:13 ubuntu apt-helper[29981]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
-May 22 08:45:13 ubuntu apt-helper[29981]: E: Sub-process nm-online returned an error code (1)
-May 22 08:45:14 ubuntu systemd-resolved[2273]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
-May 22 08:45:15 ubuntu systemd-resolved[2273]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
-May 22 08:45:19 ubuntu dbus-daemon[2379]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.52' (uid=0 pid=30475 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
-May 22 08:45:19 ubuntu systemd[1]: Starting PackageKit Daemon...
-May 22 08:45:19 ubuntu PackageKit: daemon start
-May 22 08:45:19 ubuntu dbus-daemon[2379]: [system] Successfully activated service 'org.freedesktop.PackageKit'
-May 22 08:45:19 ubuntu systemd[1]: Started PackageKit Daemon.
-May 22 08:45:27 ubuntu systemd[1]: Started Daily apt download activities.
-May 22 09:03:41 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 09:03:41 ubuntu anacron[30599]: Anacron 2.3 started on 2021-05-22
-May 22 09:03:41 ubuntu anacron[30599]: Normal exit (0 jobs run)
-May 22 09:17:01 ubuntu CRON[30621]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 10:03:41 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 10:03:41 ubuntu anacron[30639]: Anacron 2.3 started on 2021-05-22
-May 22 10:03:41 ubuntu anacron[30639]: Normal exit (0 jobs run)
-May 22 10:17:01 ubuntu CRON[30664]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 10:30:16 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
-May 22 10:30:16 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
-May 22 11:00:13 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 11:00:13 ubuntu anacron[30697]: Anacron 2.3 started on 2021-05-22
-May 22 11:00:13 ubuntu anacron[30697]: Normal exit (0 jobs run)
-May 22 11:17:01 ubuntu CRON[30726]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 12:01:13 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 12:01:13 ubuntu anacron[30740]: Anacron 2.3 started on 2021-05-22
-May 22 12:01:13 ubuntu anacron[30740]: Normal exit (0 jobs run)
-May 22 12:17:01 ubuntu CRON[30765]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 13:01:13 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 13:01:13 ubuntu anacron[30779]: Anacron 2.3 started on 2021-05-22
-May 22 13:01:13 ubuntu anacron[30779]: Normal exit (0 jobs run)
-May 22 13:10:23 ubuntu systemd[1]: Started Session 38 of user huawei.
-May 22 13:10:49 ubuntu systemd[1]: Started Session 39 of user huawei.
-May 22 13:17:01 ubuntu CRON[31084]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 13:44:58 ubuntu systemd[1]: Started Session 41 of user huawei.
+May 24 00:05:57 ubuntu anacron[95294]: Job `cron.daily' terminated
+May 24 00:05:57 ubuntu anacron[95294]: Normal exit (1 job run)
+May 24 00:17:01 ubuntu CRON[95527]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 00:54:01 ubuntu CRON[95565]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+May 24 01:03:41 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 01:03:41 ubuntu anacron[95575]: Anacron 2.3 started on 2021-05-24
+May 24 01:03:41 ubuntu anacron[95575]: Normal exit (0 jobs run)
+May 24 01:17:01 ubuntu CRON[95601]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 02:01:41 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 02:01:41 ubuntu anacron[95639]: Anacron 2.3 started on 2021-05-24
+May 24 02:01:41 ubuntu anacron[95639]: Normal exit (0 jobs run)
+May 24 02:17:02 ubuntu CRON[95669]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 03:04:41 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 03:04:41 ubuntu anacron[95697]: Anacron 2.3 started on 2021-05-24
+May 24 03:04:41 ubuntu anacron[95697]: Normal exit (0 jobs run)
+May 24 03:17:01 ubuntu CRON[95726]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 04:02:41 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 04:02:41 ubuntu anacron[95758]: Anacron 2.3 started on 2021-05-24
+May 24 04:02:41 ubuntu anacron[95758]: Normal exit (0 jobs run)
+May 24 04:17:01 ubuntu CRON[95785]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 04:26:41 ubuntu systemd[1]: Starting Daily apt download activities...
+May 24 04:27:11 ubuntu systemd-networkd-wait-online[95810]: Event loop failed: Connection timed out
+May 24 04:27:41 ubuntu apt-helper[95795]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+May 24 04:27:41 ubuntu apt-helper[95795]: E: Sub-process nm-online returned an error code (1)
+May 24 04:27:42 ubuntu systemd-resolved[2273]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+May 24 04:27:43 ubuntu systemd-resolved[2273]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+May 24 04:27:54 ubuntu systemd[1]: Started Daily apt download activities.
+May 24 05:01:13 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 05:01:13 ubuntu anacron[96399]: Anacron 2.3 started on 2021-05-24
+May 24 05:01:13 ubuntu anacron[96399]: Normal exit (0 jobs run)
+May 24 05:17:01 ubuntu CRON[96428]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 06:00:41 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 06:00:41 ubuntu anacron[96458]: Anacron 2.3 started on 2021-05-24
+May 24 06:00:41 ubuntu anacron[96458]: Normal exit (0 jobs run)
+May 24 06:17:02 ubuntu CRON[96490]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 06:25:01 ubuntu CRON[96499]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+May 24 06:32:41 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+May 24 06:32:42 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+May 24 07:03:02 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 07:03:02 ubuntu anacron[96597]: Anacron 2.3 started on 2021-05-24
+May 24 07:03:02 ubuntu anacron[96597]: Normal exit (0 jobs run)
+May 24 07:17:01 ubuntu CRON[96634]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 07:30:01 ubuntu CRON[96647]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 24 08:04:03 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 08:04:03 ubuntu anacron[96666]: Anacron 2.3 started on 2021-05-24
+May 24 08:04:03 ubuntu anacron[96666]: Normal exit (0 jobs run)
+May 24 08:17:01 ubuntu CRON[96697]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 24 08:55:12 ubuntu systemd[1]: Started Session 94 of user huawei.
 Start test round: 1
-May 22 13:45:45 ubuntu kernel: [99079.563270] Page table allocation set to normal behavior
-May 22 13:45:45 ubuntu kernel: [99079.571782] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 13:45:45
-Execution Time (seconds): 193
-****success****
-memcached : F completed.
-current = 2021-05-22 13:48:58
-Start test round: 1
-May 22 13:58:37 ubuntu kernel: [99850.879260] Page table allocation set to normal behavior
-May 22 13:58:37 ubuntu kernel: [99850.887505] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 13:58:37
+May 24 08:57:12 ubuntu kernel: [254565.028232] Page table allocation set to normal behavior
+May 24 08:57:13 ubuntu kernel: [254565.036577] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 08:57:13
 Execution Time (seconds): 192
 ****success****
-memcached : F completed.
-current = 2021-05-22 14:01:49
-May 22 14:03:41 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 14:03:41 ubuntu anacron[35181]: Anacron 2.3 started on 2021-05-22
-May 22 14:03:41 ubuntu anacron[35181]: Normal exit (0 jobs run)
-Start test round: 1
-May 22 14:08:26 ubuntu kernel: [100440.233954] Page table allocation set to normal behavior
-May 22 14:08:26 ubuntu kernel: [100440.241763] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 14:08:26
-Execution Time (seconds): 195
-****success****
-memcached : F completed.
-current = 2021-05-22 14:11:41
-Start test round: 1
-May 22 14:12:57 ubuntu kernel: [100711.265113] Page table allocation set to normal behavior
-May 22 14:12:57 ubuntu kernel: [100711.273538] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 14:12:57
-Execution Time (seconds): 199
-****success****
-memcached : F completed.
-current = 2021-05-22 14:16:16
-Start test round: 1
-May 22 14:16:56 ubuntu kernel: [100950.226723] Page table allocation set to normal behavior
-May 22 14:16:56 ubuntu kernel: [100950.235339] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 14:16:56
-May 22 14:17:01 ubuntu CRON[39376]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Execution Time (seconds): 200
-****success****
-memcached : F completed.
-current = 2021-05-22 14:20:16
-Start test round: 1
-May 22 14:26:44 ubuntu kernel: [101537.765483] Page table allocation set to normal behavior
-May 22 14:26:44 ubuntu kernel: [101537.774302] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 14:26:44
-Execution Time (seconds): 187
-****success****
-memcached : F completed.
-current = 2021-05-22 14:29:51
-Start test round: 1
-May 22 14:30:24 ubuntu kernel: [101757.930410] Page table allocation set to normal behavior
-May 22 14:30:24 ubuntu kernel: [101757.938854] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 14:30:24
-Execution Time (seconds): 197
-****success****
-memcached : F completed.
-current = 2021-05-22 14:33:41
-Start test round: 1
-May 22 14:35:44 ubuntu kernel: [102077.904664] Page table allocation set to normal behavior
-May 22 14:35:44 ubuntu kernel: [102077.913133] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 14:35:44
-Execution Time (seconds): 196
-****success****
-memcached : F completed.
-current = 2021-05-22 14:39:00
-Start test round: 1
-May 22 14:43:10 ubuntu kernel: [102524.005382] Page table allocation set to normal behavior
-May 22 14:43:10 ubuntu kernel: [102524.013206] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 14:43:10
-Execution Time (seconds): 192
-****success****
-memcached : F completed.
-current = 2021-05-22 14:46:23
-Start test round: 1
-May 22 14:53:59 ubuntu kernel: [103173.066812] Page table allocation set to normal behavior
-May 22 14:53:59 ubuntu kernel: [103173.075145] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 14:53:59
-Execution Time (seconds): 193
-****success****
-memcached : F completed.
-current = 2021-05-22 14:57:12
-May 22 15:00:20 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 15:00:21 ubuntu anacron[51364]: Anacron 2.3 started on 2021-05-22
-May 22 15:00:21 ubuntu anacron[51364]: Normal exit (0 jobs run)
-May 22 15:17:01 ubuntu CRON[51425]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 22 16:02:41 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 16:02:41 ubuntu anacron[51490]: Anacron 2.3 started on 2021-05-22
-May 22 16:02:41 ubuntu anacron[51490]: Normal exit (0 jobs run)
-May 22 16:15:17 ubuntu systemd[1]: Started Session 44 of user huawei.
-Start test round: 1
-May 22 16:16:18 ubuntu kernel: [108111.672721] Page table allocation set to normal behavior
-May 22 16:16:18 ubuntu kernel: [108111.679272] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:16:18
-May 22 16:17:01 ubuntu CRON[52127]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Execution Time (seconds): 193
-****success****
-memcached : F completed.
-current = 2021-05-22 16:19:30
+memcached : I completed.
+current = 2021-05-24 09:00:24
 Start test round: 2
-May 22 16:19:31 ubuntu kernel: [108304.628095] Page table allocation set to normal behavior
-May 22 16:19:31 ubuntu kernel: [108304.635832] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:19:31
-Execution Time (seconds): 194
-****success****
-memcached : F completed.
-current = 2021-05-22 16:22:44
-Start test round: 3
-May 22 16:22:44 ubuntu kernel: [108498.527435] Page table allocation set to normal behavior
-May 22 16:22:44 ubuntu kernel: [108498.534780] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:22:44
-Execution Time (seconds): 197
-****success****
-memcached : F completed.
-current = 2021-05-22 16:26:01
-Start test round: 4
-May 22 16:26:01 ubuntu kernel: [108695.308579] Page table allocation set to normal behavior
-May 22 16:26:01 ubuntu kernel: [108695.316575] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:26:01
-Execution Time (seconds): 196
-****success****
-memcached : F completed.
-current = 2021-05-22 16:29:17
-Start test round: 5
-May 22 16:29:17 ubuntu kernel: [108891.298861] Page table allocation set to normal behavior
-May 22 16:29:17 ubuntu kernel: [108891.305331] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:29:17
-Execution Time (seconds): 197
-****success****
-memcached : F completed.
-current = 2021-05-22 16:32:34
-Start test round: 1
-May 22 16:35:27 ubuntu kernel: [109261.433301] Page table allocation set to normal behavior
-May 22 16:35:27 ubuntu kernel: [109261.441579] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:35:27
-Execution Time (seconds): 198
-****success****
-memcached : F completed.
-current = 2021-05-22 16:38:45
-Start test round: 2
-May 22 16:38:45 ubuntu kernel: [109459.412576] Page table allocation set to normal behavior
-May 22 16:38:45 ubuntu kernel: [109459.420630] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:38:45
+May 24 09:00:24 ubuntu kernel: [254756.741073] Page table allocation set to normal behavior
+May 24 09:00:24 ubuntu kernel: [254756.747225] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:00:24
+May 24 09:03:04 ubuntu systemd[1]: Started Run anacron jobs.
+May 24 09:03:04 ubuntu anacron[3019]: Anacron 2.3 started on 2021-05-24
+May 24 09:03:04 ubuntu anacron[3019]: Normal exit (0 jobs run)
 Execution Time (seconds): 191
 ****success****
-memcached : F completed.
-current = 2021-05-22 16:41:56
+memcached : I completed.
+current = 2021-05-24 09:03:35
 Start test round: 3
-May 22 16:41:56 ubuntu kernel: [109650.304532] Page table allocation set to normal behavior
-May 22 16:41:56 ubuntu kernel: [109650.314278] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:41:56
-Execution Time (seconds): 195
-****success****
-memcached : F completed.
-current = 2021-05-22 16:45:11
-Start test round: 4
-May 22 16:45:11 ubuntu kernel: [109845.278830] Page table allocation set to normal behavior
-May 22 16:45:11 ubuntu kernel: [109845.289926] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:45:11
+May 24 09:03:35 ubuntu kernel: [254947.747570] Page table allocation set to normal behavior
+May 24 09:03:35 ubuntu kernel: [254947.756528] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:03:35
 Execution Time (seconds): 191
 ****success****
-memcached : F completed.
-current = 2021-05-22 16:48:22
-Start test round: 5
-May 22 16:48:22 ubuntu kernel: [110036.269631] Page table allocation set to normal behavior
-May 22 16:48:22 ubuntu kernel: [110036.277811] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:48:22
-Execution Time (seconds): 199
-****success****
-memcached : F completed.
-current = 2021-05-22 16:51:41
-Start test round: 1
-May 22 16:56:32 ubuntu kernel: [110526.350176] Page table allocation set to normal behavior
-May 22 16:56:32 ubuntu kernel: [110526.363040] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:56:32
-Execution Time (seconds): 191
-****success****
-memcached : F completed.
-current = 2021-05-22 16:59:43
-Start test round: 2
-May 22 16:59:43 ubuntu kernel: [110717.135622] Page table allocation set to normal behavior
-May 22 16:59:43 ubuntu kernel: [110717.142608] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 16:59:43
-May 22 17:00:41 ubuntu systemd[1]: Started Run anacron jobs.
-May 22 17:00:41 ubuntu anacron[74286]: Anacron 2.3 started on 2021-05-22
-May 22 17:00:41 ubuntu anacron[74286]: Normal exit (0 jobs run)
-Execution Time (seconds): 200
-****success****
-memcached : F completed.
-current = 2021-05-22 17:03:03
-Start test round: 3
-May 22 17:03:03 ubuntu kernel: [110917.143628] Page table allocation set to normal behavior
-May 22 17:03:03 ubuntu kernel: [110917.153053] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 17:03:03
-Execution Time (seconds): 194
-****success****
-memcached : F completed.
-current = 2021-05-22 17:06:17
+memcached : I completed.
+current = 2021-05-24 09:06:46
 Start test round: 4
-May 22 17:06:17 ubuntu kernel: [111111.135446] Page table allocation set to normal behavior
-May 22 17:06:17 ubuntu kernel: [111111.144499] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 17:06:17
-Execution Time (seconds): 198
+May 24 09:06:46 ubuntu kernel: [255138.663082] Page table allocation set to normal behavior
+May 24 09:06:46 ubuntu kernel: [255138.671239] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:06:46
+Execution Time (seconds): 197
 ****success****
-memcached : F completed.
-current = 2021-05-22 17:09:35
+memcached : I completed.
+current = 2021-05-24 09:10:03
 Start test round: 5
-May 22 17:09:35 ubuntu kernel: [111308.912602] Page table allocation set to normal behavior
-May 22 17:09:35 ubuntu kernel: [111308.919540] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 17:09:35
-Execution Time (seconds): 190
+May 24 09:10:03 ubuntu kernel: [255335.562185] Page table allocation set to normal behavior
+May 24 09:10:03 ubuntu kernel: [255335.570532] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:10:03
+Execution Time (seconds): 212
 ****success****
-memcached : F completed.
-current = 2021-05-22 17:12:45
+memcached : I completed.
+current = 2021-05-24 09:13:35
 Start test round: 6
-May 22 17:12:45 ubuntu kernel: [111498.806212] Page table allocation set to normal behavior
-May 22 17:12:45 ubuntu kernel: [111498.813326] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 17:12:45
-Execution Time (seconds): 198
+May 24 09:13:35 ubuntu kernel: [255547.518636] Page table allocation set to normal behavior
+May 24 09:13:35 ubuntu kernel: [255547.526890] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:13:35
+Execution Time (seconds): 191
 ****success****
-memcached : F completed.
-current = 2021-05-22 17:16:03
+memcached : I completed.
+current = 2021-05-24 09:16:46
 Start test round: 7
-May 22 17:16:03 ubuntu kernel: [111696.839870] Page table allocation set to normal behavior
-May 22 17:16:03 ubuntu kernel: [111696.848240] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 17:16:03
-May 22 17:17:01 ubuntu CRON[84329]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Execution Time (seconds): 196
+May 24 09:16:46 ubuntu kernel: [255738.390317] Page table allocation set to normal behavior
+May 24 09:16:46 ubuntu kernel: [255738.397953] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:16:46
+May 24 09:17:01 ubuntu CRON[11727]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Execution Time (seconds): 191
 ****success****
-memcached : F completed.
-current = 2021-05-22 17:19:19
+memcached : I completed.
+current = 2021-05-24 09:19:57
 Start test round: 8
-May 22 17:19:19 ubuntu kernel: [111892.824793] Page table allocation set to normal behavior
-May 22 17:19:19 ubuntu kernel: [111892.831246] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 17:19:19
-Execution Time (seconds): 198
+May 24 09:19:57 ubuntu kernel: [255929.248052] Page table allocation set to normal behavior
+May 24 09:19:57 ubuntu kernel: [255929.256283] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:19:57
+Execution Time (seconds): 199
 ****success****
-memcached : F completed.
-current = 2021-05-22 17:22:37
+memcached : I completed.
+current = 2021-05-24 09:23:16
 Start test round: 9
-May 22 17:22:37 ubuntu kernel: [112090.831420] Page table allocation set to normal behavior
-May 22 17:22:37 ubuntu kernel: [112090.839724] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 17:22:37
+May 24 09:23:16 ubuntu kernel: [256128.196204] Page table allocation set to normal behavior
+May 24 09:23:16 ubuntu kernel: [256128.204635] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:23:16
+Execution Time (seconds): 200
+****success****
+memcached : I completed.
+current = 2021-05-24 09:26:36
+Start test round: 10
+May 24 09:26:36 ubuntu kernel: [256328.191833] Page table allocation set to normal behavior
+May 24 09:26:36 ubuntu kernel: [256328.198788] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark to be done current :2021-05-24 09:26:36
 Execution Time (seconds): 192
 ****success****
-memcached : F completed.
-current = 2021-05-22 17:25:49
-Start test round: 10
-May 22 17:25:49 ubuntu kernel: [112282.688513] Page table allocation set to normal behavior
-May 22 17:25:49 ubuntu kernel: [112282.696337] PROCFS: Command ot drain the pgtable cache
-[0mWaiting for benchmark to be done current :2021-05-22 17:25:49
-Execution Time (seconds): 190
-****success****
-memcached : F completed.
-current = 2021-05-22 17:28:59
+memcached : I completed.
+current = 2021-05-24 09:29:48
+May 24 09:39:16 ubuntu systemd[1]: Started Session 96 of user huawei.

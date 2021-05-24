@@ -1,4 +1,4 @@
 Workload	Configuration	Walk Cycles	Non-Walk Cycles	 Norm. Perf.
 Memcached	F	0.000000	1.000000	1.000000
 Memcached	F+M	0.000000	0.235850	0.235850
-Memcached	I	0.000000	1.165573	1.165573
+Memcached	I	0.000000	1.338807	1.338807
