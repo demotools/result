@@ -1,5 +1,6 @@
 Workload	Configuration	Walk Cycles	Non-Walk Cycles	 Norm. Perf.
+XSBench	F	0.000000	1.000000	1.000000
 Memcached	F	0.000000	1.000000	1.000000
-Memcached	F+M	0.000000	0.235850	0.235850
-Memcached	I	0.000000	0.596024	0.596024
-Memcached	I+M	0.000000	0.290466	0.290466
+Memcached	F+M	0.000000	0.218672	0.218672
+Memcached	I	0.000000	0.528150	0.528150
+Memcached	I+M	0.000000	0.242675	0.242675
