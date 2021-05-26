@@ -7960,3 +7960,133 @@ May 26 22:02:40 ubuntu systemd[1]: Started Run anacron jobs.
 May 26 22:02:40 ubuntu anacron[87619]: Anacron 2.3 started on 2021-05-26
 May 26 22:02:40 ubuntu anacron[87619]: Normal exit (0 jobs run)
 May 26 22:05:10 ubuntu systemd[1]: Started Session 7 of user huawei.
+May 26 22:17:02 ubuntu CRON[87807]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+May 26 22:48:25 ubuntu kernel: [13574.466048] Page table allocation set to normal behavior
+May 26 22:48:25 ubuntu kernel: [13574.473642] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 88100 to be ready
+[0mWaiting for benchmark to be done current :2021-05-26 22:48:26
+/home/huawei/result/bin/bench_graph500_mt -- -s 10 -e 10 
+<benchmark exec="/home/huawei/result/bin/bench_graph500_mt">
+<config>
+  <openmp>on</openmp>  <memsize>1G <memsize>  <hugetlb>0</hugetlb>
+  <data>-1</data>  <interference>0</interference>
+</config>
+<run>
+Graph500 with scale 0
+allocate edges
+Allocating 0 MB
+Allocate Graph: xoff
+Allocating 0 MB
+Allocate Graph: vlist
+Allocating 0 MB
+Allocating 0 MB
+Allocating 0 MB
+alloc: xadjstore
+Allocating 0 MB
+Allocate bfs_tree
+Allocating 0 MB
+Allocate has_adj
+Allocating 0 MB
+==============================================
+Allocating 0 MB
+Execution Time (seconds): 0
+****success****
+graph500 : F completed.
+current = 2021-05-26 22:48:26
+May 26 23:02:27 ubuntu systemd[1]: Started Run anacron jobs.
+May 26 23:02:27 ubuntu anacron[88236]: Anacron 2.3 started on 2021-05-26
+May 26 23:02:27 ubuntu anacron[88236]: Normal exit (0 jobs run)
+Start test round: 1
+May 26 23:06:59 ubuntu kernel: [14688.036994] Page table allocation set to normal behavior
+May 26 23:06:59 ubuntu kernel: [14688.048823] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 88316 to be ready
+May 26 23:07:00 ubuntu kernel: [14689.153539] [mitosis] PTREPL: free pgd start 
+May 26 23:07:00 ubuntu kernel: [14689.153543] [mitosis] pgtable_repl_pgd_free freed pgd=ffff202872f9b000 and mm->pgd=ffff202872f9b000.
+May 26 23:07:00 ubuntu kernel: [14689.153545] [mitosis]------PTREPL: free pgd done------
+[0mWaiting for benchmark to be done current :2021-05-26 23:07:04
+/home/huawei/result/bin/bench_graph500_mt -- -s 22 -e 16 
+<benchmark exec="/home/huawei/result/bin/bench_graph500_mt">
+<config>
+  <openmp>on</openmp>  <memsize>1G <memsize>  <hugetlb>0</hugetlb>
+  <data>-1</data>  <interference>0</interference>
+</config>
+<run>
+Graph500 with scale 0
+allocate edges
+Allocating 512 MB
+Allocate Graph: xoff
+Allocating 64 MB
+Allocate Graph: vlist
+Allocating 31 MB
+Allocating 0 MB
+Allocating 0 MB
+alloc: xadjstore
+Allocating 1055 MB
+Allocate bfs_tree
+Allocating 32 MB
+Allocate has_adj
+Allocating 16 MB
+==============================================
+Allocating 63 MB
+Execution Time (seconds): 1
+****success****
+graph500 : F completed.
+current = 2021-05-26 23:07:05
+Start test round: 1
+May 26 23:08:26 ubuntu kernel: [14775.156930] Page table allocation set to normal behavior
+May 26 23:08:26 ubuntu kernel: [14775.166831] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 88563 to be ready
+/home/huawei/result/bin/bench_graph500_mt -- -s 29 -e 21 
+<benchmark exec="/home/huawei/result/bin/bench_graph500_mt">
+<config>
+  <openmp>on</openmp>  <memsize>1G <memsize>  <hugetlb>0</hugetlb>
+  <data>-1</data>  <interference>0</interference>
+</config>
+<run>
+Graph500 with scale 0
+allocate edges
+Allocating 86016 MB
+Allocate Graph: xoff
+Allocating 8191 MB
+Allocate Graph: vlist
+Allocating 4095 MB
+Allocating 64 MB
+Allocating 64 MB
+alloc: xadjstore
+Allocating 176890 MB
+ENOMEM
+May 26 23:17:01 ubuntu CRON[93322]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+May 26 23:17:54 ubuntu kernel: [15343.430344] Page table allocation set to normal behavior
+May 26 23:17:54 ubuntu kernel: [15343.440982] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 93433 to be ready
+[0mWaiting for benchmark to be done current :2021-05-26 23:18:58
+/home/huawei/result/bin/bench_graph500_mt -- -s 25 -e 20 
+<benchmark exec="/home/huawei/result/bin/bench_graph500_mt">
+<config>
+  <openmp>on</openmp>  <memsize>1G <memsize>  <hugetlb>0</hugetlb>
+  <data>-1</data>  <interference>0</interference>
+</config>
+<run>
+Graph500 with scale 0
+allocate edges
+Allocating 5120 MB
+Allocate Graph: xoff
+Allocating 512 MB
+Allocate Graph: vlist
+Allocating 256 MB
+Allocating 4 MB
+Allocating 4 MB
+alloc: xadjstore
+Allocating 10509 MB
+Allocate bfs_tree
+Allocating 256 MB
+Allocate has_adj
+Allocating 128 MB
+==============================================
+Allocating 512 MB
+Execution Time (seconds): 24
+****success****
+graph500 : F completed.
+current = 2021-05-26 23:19:23

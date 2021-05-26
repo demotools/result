@@ -1,0 +1,5 @@
+/home/huawei/result/bin/numactl /home/huawei/result/bin/bench_graph500_mt -- -s 10 -e 10
+# started on Wed May 26 22:48:26 2021
+
+Execution Time (seconds): 0
+****success****
