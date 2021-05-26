@@ -1,0 +1,16 @@
+# started on Mon May 24 21:21:46 2021
+
+4299364358,,cycles,1664169000,100.00,,
+2875390658,,dTLB-loads,1664169000,100.00,,
+7564865,,dTLB-load-misses,1664169000,100.00,0.26,of all dTLB cache hits
+1945697405,,iTLB-loads,1664169000,100.00,,
+17670,,iTLB-load-misses,1664169000,100.00,0.00,of all iTLB cache hits
+2583713,,dtlb_walk,1664169000,100.00,,
+32899,,itlb_walk,1664169000,100.00,,
+367,,context-switches,1662342370,100.00,,
+21,,cpu-migrations,1662342370,100.00,,
+2170,,page-faults,1662342370,100.00,,
+2761688305,,mem_access,1664169000,100.00,,
+5185407,,remote_access,1664169000,100.00,,
+Execution Time (seconds): 208
+****success****
