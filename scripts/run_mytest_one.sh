@@ -24,7 +24,7 @@ NR_PTCACHE_PAGES=1100000 # --- 2GB per socket
 # XSBENCH_ARGS=" -- -p 15000000 -g 180000 "
 XSBENCH_ARGS=" -- -p 15000000 -g 180000 "
 # GRAPH500_ARGS=" -- -s 29 -e 21"
-GRAPH500_ARGS=" -- -s 10 -e 10"
+GRAPH500_ARGS=" -- -s 22 -e 16"
 BENCH_ARGS=""
 SYSBENCH_ARGS=" --threads=96 --memory-block-size=1k --memory-total-size=128G memory run"
 #CANNEAL_ARGS=" -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_small 500 "
