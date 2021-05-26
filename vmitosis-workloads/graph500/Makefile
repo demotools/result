@@ -35,10 +35,10 @@ all: seq-csr/seq-csr.a seq-list/seq-list.a omp-csr/omp-csr.a
 CPPFLAGS += -I./generator
 
 %.o: %.c Makefile
-	${CC} ${CFLAGS} -O3 -msse3 -c $< -o $@
+	${CC} ${CFLAGS} -O3 -c $< -o $@
 
 %.o-omp: %.c Makefile
-	${CC} ${CFLAGS} -O3 -msse3 -fopenmp -c $< -o $@
+	${CC} ${CFLAGS} -O3 -fopenmp -c $< -o $@
 
 make-edgelist: CFLAGS:=$(CFLAGS) $(CFLAGS_OPENMP)
 make-edgelist:	make-edgelist.c options.c rmat.c kronecker.c prng.c \
@@ -60,7 +60,7 @@ OMP_SRCS := omp-csr/omp-csr.c omp-csr/bitmap.h $(GRAPH500_SOURCES) $(addprefix g
 OMP_OBJS := ${OMP_SRCS:c=o-omp}
 
 omp-csr/omp-csr.o-omp : omp-csr/omp-csr.c Makefile graph500.h
-	${CC} ${CFLAGS} -O3 -fopenmp -msse3 -c $< -o $@
+	${CC} ${CFLAGS} -O3 -fopenmp -c $< -o $@
 
 omp-csr/omp-csr.a : ${OMP_OBJS}
 	ar rcs $@ $^
