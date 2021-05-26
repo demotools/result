@@ -22,7 +22,7 @@ PERF_EVENTS=cycles,dTLB-loads,dTLB-load-misses,iTLB-loads,iTLB-load-misses,dtlb_
 NR_PTCACHE_PAGES=1100000 # --- 2GB per socket
 # XSBENCH_ARGS=" -- -p 25000000 -g 920000 "
 # XSBENCH_ARGS=" -- -p 15000000 -g 180000 "
-XSBENCH_ARGS=" -- -p 1500000 -g 18000 "
+XSBENCH_ARGS=" -- -p 15000000 -g 180000 "
 GRAPH500_ARGS=" -- -s 29 -e 21"
 BENCH_ARGS=""
 SYSBENCH_ARGS=" --threads=96 --memory-block-size=1k --memory-total-size=128G memory run"

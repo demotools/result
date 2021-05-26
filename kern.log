@@ -2151,3 +2151,6 @@ May 26 14:14:27 ubuntu kernel: [15606.048941] Page table allocation set to norma
 May 26 14:14:27 ubuntu kernel: [15606.057080] PROCFS: Command ot drain the pgtable cache
 May 26 14:15:02 ubuntu kernel: [15641.086674] perf: interrupt took too long (2516 > 2500), lowering kernel.perf_event_max_sample_rate to 79250
 May 26 14:15:16 ubuntu kernel: [15655.753991] perf: interrupt took too long (3149 > 3145), lowering kernel.perf_event_max_sample_rate to 63500
+May 26 14:22:12 ubuntu kernel: [16071.510760] Page table allocation set to normal behavior
+May 26 14:22:12 ubuntu kernel: [16071.518569] PROCFS: Command ot drain the pgtable cache
+May 26 14:31:03 ubuntu kernel: [16601.989652] perf: interrupt took too long (3941 > 3936), lowering kernel.perf_event_max_sample_rate to 50750
