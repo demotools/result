@@ -1,0 +1,17 @@
+/home/huawei/result/bin/numactl --interleave=3 --pgtablerepl=3 /home/huawei/result/bin/bench_xsbench_mt -- -p 15000000 -g 180000
+# started on Wed May 26 16:19:10 2021
+
+147203917821768,,cycles,56618444851080,100.00,,
+1330724740907,,dTLB-loads,56618320852740,100.00,,
+46093912417,,dTLB-load-misses,56618218329120,100.00,3.46,of all dTLB cache hits
+269326759583,,iTLB-loads,56618075005350,100.00,,
+19303633,,iTLB-load-misses,56617633631830,100.00,0.01,of all iTLB cache hits
+37164796169,,dtlb_walk,56617500811710,100.00,,
+34440312,,itlb_walk,56617372827950,100.00,,
+389464,,context-switches,56621712679480,100.00,,
+35,,cpu-migrations,56621613512960,100.00,,
+0,,page-faults,56621531379580,100.00,,
+708887741520,,mem_access,56616973729690,100.00,,
+59768805436,,remote_access,56616826374940,100.00,,
+Execution Time (seconds): 604
+****success****
