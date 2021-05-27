@@ -1,1 +1,0 @@
-/home/huawei/result/bin/numactl /home/huawei/result/bin/bench_graph500_mt -- -s 29 -e 21

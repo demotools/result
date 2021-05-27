@@ -1,0 +1,17 @@
+/home/huawei/result/bin/numactl --pgtablerepl=3 /home/huawei/result/bin/bench_graph500_mt -- -s 25 -e 20
+# started on Thu May 27 15:49:50 2021
+
+4326041220696,,cycles,1665326808160,100.00,,
+24725693535,,dTLB-loads,1665279575190,100.00,,
+2966282548,,dTLB-load-misses,1665246268040,100.00,12.00,of all dTLB cache hits
+7737930412,,iTLB-loads,1665212796250,100.00,,
+585193,,iTLB-load-misses,1665179456870,100.00,0.01,of all iTLB cache hits
+2740811220,,dtlb_walk,1665147299340,100.00,,
+1044105,,itlb_walk,1665112519020,100.00,,
+11983,,context-switches,1665444254750,100.00,,
+130,,cpu-migrations,1665415829440,100.00,,
+131074,,page-faults,1665389767820,100.00,,
+10059143981,,mem_access,1664985787500,100.00,,
+1842533801,,remote_access,1664906122500,100.00,,
+Execution Time (seconds): 21
+****success****
