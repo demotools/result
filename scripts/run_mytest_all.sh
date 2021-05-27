@@ -30,12 +30,12 @@ BENCHMARKS="graph500"
 #CONFIGS="F"
 #CONFIGS="FM"
 #CONFIGS="I"
-#CONFIGS="IM"
-CONFIGS="F FM I IM"
+CONFIGS="IM"
+#CONFIGS="F FM I IM"
 #CONFIGS="F FM"
 #CONFIGS="I IM"
 
-for RUNTIMES in $(seq 3) 
+for RUNTIMES in $(seq 1) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
