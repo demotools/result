@@ -22,7 +22,7 @@ PERF_EVENTS=cycles,dTLB-loads,dTLB-load-misses,iTLB-loads,iTLB-load-misses,dtlb_
 NR_PTCACHE_PAGES=1100000 # --- 2GB per socket
 # XSBENCH_ARGS=" -- -p 25000000 -g 920000 "
 # XSBENCH_ARGS=" -- -p 15000000 -g 180000 "
-XSBENCH_ARGS=" -- -p 15000000 -g 180000 "
+XSBENCH_ARGS=" -- -p 15000000 -g 170000 "
 # GRAPH500_ARGS=" -- -s 29 -e 21"
 GRAPH500_ARGS=" -- -s 27 -e 21"
 BENCH_ARGS=""
@@ -152,7 +152,7 @@ test_and_set_configs()
 
         # --- check interleaving
         if [ $CURR_CONFIG == "I" ] || [ $CURR_CONFIG == "IM" ] || [ $CURR_CONFIG == "TI" ] || [ $CURR_CONFIG == "TIM" ]; then
-                CMD_PREFIX+=" --interleave=$NODE_MAX"
+                CMD_PREFIX+=" --interleave=all"
         fi
 
         # --- check page table replication
