@@ -150,7 +150,7 @@ test_and_set_configs()
 
         # --- check interleaving
         if [ $CURR_CONFIG == "I" ] || [ $CURR_CONFIG == "IM" ] || [ $CURR_CONFIG == "TI" ] || [ $CURR_CONFIG == "TIM" ]; then
-                CMD_PREFIX+=" --interleave=$NODE_MAX"
+                CMD_PREFIX+=" --interleave=all"
         fi
 
         # --- check page table replication
