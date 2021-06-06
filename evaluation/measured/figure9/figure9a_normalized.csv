@@ -1,5 +1,0 @@
-Workload	Configuration	Walk Cycles	Non-Walk Cycles	 Norm. Perf.
-Graph500	F	0.000000	1.000000	1.000000
-Graph500	F+M	0.000000	0.682421	0.682421
-Graph500	I	0.000000	0.434953	0.434953
-Graph500	I+M	0.000000	0.404328	0.404328
