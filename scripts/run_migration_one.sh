@@ -22,7 +22,7 @@ XSBENCH_ARGS=" -- -t 16 -g 180000 -p 15000000"
 LIBLINEAR_ARGS=" -- -s 6 -n 28 $MAIN/datasets/kdd12 "
 CANNEAL_ARGS=" -- 1 150000 2000 $MAIN/datasets/canneal_small 500 "
 BENCH_ARGS=""
-
+BTREE_ARGS=" -- -n 350000000 -l 100000000 -o 4"  #140 能吃满80多G  35能吃满21G
 
 #***********************Script-Arguments***********************
 if [ $# -ne 2 ]; then
@@ -150,6 +150,8 @@ prepare_basic_config_params()
                 BENCH_ARGS=$XSBENCH_ARGS
         elif [ $BENCHMARK == "liblinear" ]; then
                 BENCH_ARGS=$LIBLINEAR_ARGS
+        elif [ $BENCHMARK == "btree" ]; then
+                BENCH_ARGS=$BTREE_ARGS
         elif [ $BENCHMARK == "canneal" ]; then
                 BENCH_ARGS=$CANNEAL_ARGS
         fi
