@@ -16,8 +16,8 @@
 ROOT=$(dirname `readlink -f "$0"`)
 MAIN="$(dirname "$ROOT")"
 #source $ROOT/site_config.sh
-
-PERF_EVENTS=cycles,dTLB-loads,dTLB-load-misses,dTLB-stores,dTLB-store-misses,dtlb_load_misses.walk_duration,dtlb_store_misses.walk_duration,page_walker_loads.dtlb_l1,page_walker_loads.dtlb_l2,page_walker_loads.dtlb_l3,page_walker_loads.dtlb_memory,page_walker_loads.dtlb_l1,page_walker_loads.dtlb_l2,page_walker_loads.dtlb_l3,page_walker_loads.dtlb_memory,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses
+PERF_EVENTS=cycles,dTLB-loads,dTLB-load-misses,iTLB-loads,iTLB-load-misses,dtlb_walk,itlb_walk,context-switches,cpu-migrations,page-faults,mem_access,remote_access
+# PERF_EVENTS=cycles,dTLB-loads,dTLB-load-misses,dTLB-stores,dTLB-store-misses,dtlb_load_misses.walk_duration,dtlb_store_misses.walk_duration,page_walker_loads.dtlb_l1,page_walker_loads.dtlb_l2,page_walker_loads.dtlb_l3,page_walker_loads.dtlb_memory,page_walker_loads.dtlb_l1,page_walker_loads.dtlb_l2,page_walker_loads.dtlb_l3,page_walker_loads.dtlb_memory,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses
 XSBENCH_ARGS=" -- -t 16 -g 180000 -p 15000000"
 LIBLINEAR_ARGS=" -- -s 6 -n 28 $MAIN/datasets/kdd12 "
 CANNEAL_ARGS=" -- 1 150000 2000 $MAIN/datasets/canneal_small 500 "
