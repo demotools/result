@@ -123,27 +123,27 @@ prepare_basic_config_params()
 
         PT_NODE=0
 	# --- setup data node
-        DATA_NODE=1
+        DATA_NODE=3
 	if [ $CURR_CONFIG == "LPLD" ] || [ $CURR_CONFIG == "RPRD" ] || [ $CURR_CONFIG == "RPIRDI" ]; then
 		DATA_NODE=0
 	fi
 
 	# --- setup cpu node
-        CPU_NODE=1
+        CPU_NODE=3
 	if [ $CURR_CONFIG == "LPLD" ] || [ $CURR_CONFIG == "LPRD" ] || [ $CURR_CONFIG == "LPRDI" ]; then
                 CPU_NODE=0
         fi
 	# --- setup mitosis
 	if [ $LAST_CHAR == "M" ]; then
-		MITOSIS=1
-                CPU_NODE=1
-                DATA_NODE=1
+		MITOSIS=3
+                CPU_NODE=3
+                DATA_NODE=3
 	fi
 
 	# --- setup interference node
 	INT_NODE=0
         if [ $CURR_CONFIG == "LPRDI" ]; then
-                INT_NODE=1
+                INT_NODE=3
         fi
 
         if [ $BENCHMARK == "xsbench" ]; then
