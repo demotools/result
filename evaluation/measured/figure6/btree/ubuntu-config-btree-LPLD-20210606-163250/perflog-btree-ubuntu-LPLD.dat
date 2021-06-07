@@ -1,5 +1,0 @@
-/home/huawei/result/bin/numactl -m 0 -c 0 /home/huawei/result/bin/bench_btree_st
-# started on Sun Jun  6 16:32:51 2021
-
-Execution Time (seconds): 0
-****success****
