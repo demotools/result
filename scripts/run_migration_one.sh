@@ -249,7 +249,7 @@ set_system_configs()
                         echo "ERROR setting pgtable_replication_cache to $NR_PTCACHE_PAGES"
                         exit
                 fi
-        else
+	fi
 }
 
 launch_interference()

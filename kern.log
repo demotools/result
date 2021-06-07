@@ -30648,3 +30648,4 @@ Jun  7 11:11:16 ubuntu kernel: [   24.642411] hns3 0000:7d:00.0 enp125s0f0: link
 Jun  7 11:11:16 ubuntu kernel: [   24.642419] br0: port 1(enp125s0f0) entered blocking state
 Jun  7 11:11:16 ubuntu kernel: [   24.642422] br0: port 1(enp125s0f0) entered forwarding state
 Jun  7 11:11:16 ubuntu kernel: [   24.642588] IPv6: ADDRCONF(NETDEV_CHANGE): br0: link becomes ready
+Jun  7 11:55:57 ubuntu kernel: [ 2706.550028] Page table allocation set to normal behavior

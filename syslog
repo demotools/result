@@ -32032,3 +32032,7 @@ Jun  7 11:15:20 ubuntu systemd[3221]: Reached target Default.
 Jun  7 11:15:20 ubuntu systemd[3221]: Startup finished in 235ms.
 Jun  7 11:15:20 ubuntu systemd[1]: Started User Manager for UID 1000.
 Jun  7 11:16:19 ubuntu systemd[1]: Started Session 3 of user huawei.
+Jun  7 11:17:01 ubuntu CRON[3483]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  7 11:26:16 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Jun  7 11:26:16 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Jun  7 11:55:57 ubuntu kernel: [ 2706.550028] Page table allocation set to normal behavior
