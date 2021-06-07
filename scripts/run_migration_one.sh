@@ -140,6 +140,12 @@ prepare_basic_config_params()
                 DATA_NODE=3
 	fi
 
+        if [ $CURR_CONFIG == "LPLD" ]; then
+                CPU_NODE=3
+                DATA_NODE=3
+                PT_NODE=3
+        fi
+
 	# --- setup interference node
 	INT_NODE=0
         if [ $CURR_CONFIG == "LPRDI" ]; then
