@@ -23,7 +23,7 @@ LIBLINEAR_ARGS=" -- -s 6 -n 28 $MAIN/datasets/kdd12 "
 CANNEAL_ARGS=" -- 1 150000 2000 $MAIN/datasets/canneal_small 500 "
 BENCH_ARGS=""
 BTREE_ARGS=" -- -n 500000000 -l 100000000 -o 4"  #140 能吃满80多G  35能吃满21G
-
+NR_PTCACHE_PAGES=1100000 # --- 2GB per socket
 #***********************Script-Arguments***********************
 if [ $# -ne 2 ]; then
 	echo "Run as: $0 benchmark config"
@@ -143,7 +143,7 @@ prepare_basic_config_params()
         if [ $CURR_CONFIG == "LPLD" ]; then
                 CPU_NODE=3
                 DATA_NODE=3
-                PT_NODE=3
+                PT_NODE=-1
         fi
 
 	# --- setup interference node
@@ -234,6 +234,22 @@ set_system_configs()
                 echo "ERROR setting pgtable allocation to node: $PT_NODE"
                 exit
         fi
+
+        # --- check page table replication
+        LAST_CHAR="${CURR_CONFIG: -1}"
+        if [ $LAST_CHAR == "M" ]; then
+                # --- drain first then reserve
+                echo -1 | sudo tee /proc/sys/kernel/pgtable_replication_cache > /dev/null
+                if [ $? -ne 0 ]; then
+                        echo "ERROR setting pgtable_replication_cache to $0"
+                        exit
+                fi
+                echo $NR_PTCACHE_PAGES | sudo tee /proc/sys/kernel/pgtable_replication_cache > /dev/null
+                if [ $? -ne 0 ]; then
+                        echo "ERROR setting pgtable_replication_cache to $NR_PTCACHE_PAGES"
+                        exit
+                fi
+        else
 }
 
 launch_interference()
