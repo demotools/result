@@ -143,7 +143,22 @@ prepare_basic_config_params()
         if [ $CURR_CONFIG == "LPLD" ]; then
                 CPU_NODE=3
                 DATA_NODE=3
-                PT_NODE=-1
+                PT_NODE=-6
+		echo "qu : config is RPLD"
+        fi
+
+	if [ $1 == "RPILD" ]; then
+                CPU_NODE=3
+                DATA_NODE=3
+                PT_NODE=-3
+		echo "qu : config is RPILD"
+        fi
+	
+	if [ $1 == "RPILDM" ]; then
+                CPU_NODE=3
+                DATA_NODE=3
+                PT_NODE=0
+                echo "qu : config is RPILDM"
         fi
 
 	# --- setup interference node

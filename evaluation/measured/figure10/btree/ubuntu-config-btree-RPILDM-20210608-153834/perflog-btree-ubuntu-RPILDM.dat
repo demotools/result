@@ -1,0 +1,1 @@
+/home/huawei/result/bin/numactl -m 3 -c 3 --pgtablerepl=3 /home/huawei/result/bin/bench_btree_st -- -n 500000000 -l 100000000 -o 4
