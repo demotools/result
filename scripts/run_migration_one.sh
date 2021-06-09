@@ -22,7 +22,7 @@ XSBENCH_ARGS=" -- -t 16 -g 180000 -p 15000000"
 LIBLINEAR_ARGS=" -- -s 6 -n 28 $MAIN/datasets/kdd12 "
 CANNEAL_ARGS=" -- 1 150000 2000 $MAIN/datasets/canneal_small 500 "
 BENCH_ARGS=""
-BTREE_ARGS=" -- -n 500000000 -l 1000000000 -o 4"  #140 能吃满80多G  35能吃满21G
+BTREE_ARGS=" -- -n 500000000 -l 50000000000 -o 4"  #140 能吃满80多G  35能吃满21G
 NR_PTCACHE_PAGES=1100000 # --- 2GB per socket
 #***********************Script-Arguments***********************
 if [ $# -ne 2 ]; then
