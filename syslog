@@ -76,3 +76,103 @@ Jun  9 11:20:55 ubuntu kernel: [68976.522908] Page table allocation set to norma
 Jun  9 11:23:58 ubuntu kernel: [69159.843328] Page table CONFIG_Migration_test
 Jun  9 11:23:58 ubuntu kernel: [69159.843336] Page table CONFIG_Migration_test
 Jun  9 11:23:58 ubuntu kernel: [69159.843339] Page table allocation set to normal behavior -3
+Jun  9 12:02:06 ubuntu systemd[1]: Started Run anacron jobs.
+Jun  9 12:02:07 ubuntu anacron[15954]: Anacron 2.3 started on 2021-06-09
+Jun  9 12:02:07 ubuntu anacron[15954]: Normal exit (0 jobs run)
+Jun  9 12:17:01 ubuntu CRON[15988]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  9 12:43:16 ubuntu systemd-timesyncd[2230]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Jun  9 12:43:26 ubuntu systemd-timesyncd[2230]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Jun  9 12:43:36 ubuntu systemd-timesyncd[2230]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Jun  9 12:43:46 ubuntu systemd-timesyncd[2230]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Jun  9 13:04:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun  9 13:04:38 ubuntu anacron[16019]: Anacron 2.3 started on 2021-06-09
+Jun  9 13:04:38 ubuntu anacron[16019]: Normal exit (0 jobs run)
+Jun  9 13:17:01 ubuntu CRON[16045]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  9 13:17:56 ubuntu systemd-resolved[2282]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
+Jun  9 13:18:09 ubuntu systemd-resolved[2282]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
+Jun  9 13:18:33 ubuntu systemd-resolved[2282]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
+Jun  9 13:19:04 ubuntu systemd-resolved[2282]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
+Jun  9 13:19:46 ubuntu systemd-resolved[2282]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
+Jun  9 13:37:35 ubuntu systemd[1]: Stopping User Manager for UID 1000...
+Jun  9 13:37:35 ubuntu systemd[3378]: Stopped target Default.
+Jun  9 13:37:35 ubuntu systemd[3378]: Stopped target Basic System.
+Jun  9 13:37:35 ubuntu systemd[3378]: Stopped target Paths.
+Jun  9 13:37:35 ubuntu systemd[3378]: Stopped Pending report trigger for Ubuntu Report.
+Jun  9 13:37:35 ubuntu systemd[3378]: Stopped target Sockets.
+Jun  9 13:37:35 ubuntu systemd[3378]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun  9 13:37:35 ubuntu systemd[3378]: Closed GnuPG network certificate management daemon.
+Jun  9 13:37:35 ubuntu systemd[3378]: Closed D-Bus User Message Bus Socket.
+Jun  9 13:37:35 ubuntu systemd[3378]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jun  9 13:37:35 ubuntu systemd[3378]: Closed GnuPG cryptographic agent and passphrase cache.
+Jun  9 13:37:35 ubuntu systemd[3378]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jun  9 13:37:35 ubuntu systemd[3378]: Closed REST API socket for snapd user session agent.
+Jun  9 13:37:35 ubuntu systemd[3378]: Reached target Shutdown.
+Jun  9 13:37:35 ubuntu systemd[3378]: Starting Exit the Session...
+Jun  9 13:37:35 ubuntu systemd[3378]: Stopped target Timers.
+Jun  9 13:37:35 ubuntu systemd[3378]: Received SIGRTMIN+24 from PID 16057 (kill).
+Jun  9 13:37:35 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Jun  9 13:37:35 ubuntu systemd[1]: Removed slice User Slice of huawei.
+Jun  9 13:52:34 ubuntu systemd-resolved[2282]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
+Jun  9 13:53:00 ubuntu systemd-resolved[2282]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
+Jun  9 13:53:31 ubuntu systemd-resolved[2282]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
+Jun  9 13:54:12 ubuntu systemd-resolved[2282]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
+Jun  9 14:03:08 ubuntu systemd[1]: Started Run anacron jobs.
+Jun  9 14:03:09 ubuntu anacron[16076]: Anacron 2.3 started on 2021-06-09
+Jun  9 14:03:09 ubuntu anacron[16076]: Normal exit (0 jobs run)
+Jun  9 14:17:02 ubuntu CRON[16107]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  9 14:26:52 ubuntu systemd-resolved[2282]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
+Jun  9 14:27:18 ubuntu systemd-resolved[2282]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
+Jun  9 14:27:49 ubuntu systemd-resolved[2282]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
+Jun  9 14:28:30 ubuntu systemd-resolved[2282]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
+Jun  9 14:38:38 ubuntu systemd[1]: Starting Message of the Day...
+Jun  9 14:38:49 ubuntu systemd[1]: Started Message of the Day.
+Jun  9 14:38:54 ubuntu systemd-resolved[2282]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
+Jun  9 14:39:04 ubuntu systemd-resolved[2282]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
+Jun  9 14:39:20 ubuntu systemd-resolved[2282]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
+Jun  9 14:40:27 ubuntu systemd-resolved[2282]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
+Jun  9 14:40:32 ubuntu systemd-resolved[2282]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
+Jun  9 15:01:21 ubuntu systemd-resolved[2282]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
+Jun  9 15:01:31 ubuntu systemd-resolved[2282]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
+Jun  9 15:02:02 ubuntu systemd[1]: Created slice User Slice of huawei.
+Jun  9 15:02:02 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Jun  9 15:02:02 ubuntu systemd[1]: Started Session 33 of user huawei.
+Jun  9 15:02:03 ubuntu systemd[16182]: Reached target Timers.
+Jun  9 15:02:03 ubuntu systemd[16182]: Started Pending report trigger for Ubuntu Report.
+Jun  9 15:02:03 ubuntu systemd[16182]: Reached target Paths.
+Jun  9 15:02:03 ubuntu systemd[16182]: Listening on GnuPG network certificate management daemon.
+Jun  9 15:02:03 ubuntu systemd[16182]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun  9 15:02:03 ubuntu systemd[16182]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jun  9 15:02:03 ubuntu systemd[16182]: Starting D-Bus User Message Bus Socket.
+Jun  9 15:02:03 ubuntu systemd[16182]: Listening on REST API socket for snapd user session agent.
+Jun  9 15:02:03 ubuntu systemd[16182]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jun  9 15:02:03 ubuntu systemd[16182]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jun  9 15:02:03 ubuntu systemd[16182]: Listening on D-Bus User Message Bus Socket.
+Jun  9 15:02:03 ubuntu systemd[16182]: Reached target Sockets.
+Jun  9 15:02:03 ubuntu systemd[16182]: Reached target Basic System.
+Jun  9 15:02:03 ubuntu systemd[16182]: Reached target Default.
+Jun  9 15:02:03 ubuntu systemd[16182]: Startup finished in 43ms.
+Jun  9 15:02:03 ubuntu systemd[1]: Started User Manager for UID 1000.
+Jun  9 15:04:17 ubuntu systemd[1]: Started Run anacron jobs.
+Jun  9 15:04:17 ubuntu anacron[16328]: Anacron 2.3 started on 2021-06-09
+Jun  9 15:04:17 ubuntu anacron[16328]: Normal exit (0 jobs run)
+Jun  9 15:04:22 ubuntu kernel: [82383.038643] Page table CONFIG_Migration_test
+Jun  9 15:04:22 ubuntu kernel: [82383.038650] Page table CONFIG_Migration_test
+Jun  9 15:04:22 ubuntu kernel: [82383.038653] Page table allocation set to normal behavior -3
+Jun  9 15:05:39 ubuntu systemd[1]: Started Session 35 of user huawei.
+Jun  9 15:07:58 ubuntu kernel: [82599.739366] Page table CONFIG_Migration_test
+Jun  9 15:07:58 ubuntu kernel: [82599.739374] Page table CONFIG_Migration_test
+Jun  9 15:07:58 ubuntu kernel: [82599.739377] Page table allocation set to normal behavior -3
+Jun  9 15:11:58 ubuntu kernel: [82839.415321] Page table CONFIG_Migration_test
+Jun  9 15:11:58 ubuntu kernel: [82839.415329] Page table CONFIG_Migration_test
+Jun  9 15:11:58 ubuntu kernel: [82839.415332] Page table allocation set to normal behavior -3
+Jun  9 15:16:13 ubuntu kernel: [83094.164199] Page table CONFIG_Migration_test
+Jun  9 15:16:13 ubuntu kernel: [83094.164207] Page table CONFIG_Migration_test
+Jun  9 15:16:13 ubuntu kernel: [83094.164210] Page table allocation set to normal behavior -3
+Jun  9 15:17:01 ubuntu CRON[23133]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  9 15:19:52 ubuntu kernel: [83313.952945] perf: interrupt took too long (2505 > 2500), lowering kernel.perf_event_max_sample_rate to 79750
+Jun  9 15:20:50 ubuntu kernel: [83371.597121] Page table CONFIG_Migration_test
+Jun  9 15:20:50 ubuntu kernel: [83371.597128] Page table CONFIG_Migration_test
+Jun  9 15:20:50 ubuntu kernel: [83371.597131] Page table allocation set to normal behavior -3
+Jun  9 15:26:17 ubuntu kernel: [83698.633845] Page table CONFIG_Migration_test
+Jun  9 15:26:17 ubuntu kernel: [83698.633852] Page table CONFIG_Migration_test
+Jun  9 15:26:17 ubuntu kernel: [83698.633855] Page table allocation set to normal behavior -3
