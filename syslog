@@ -2457,3 +2457,12 @@ Jun  9 22:23:13 ubuntu kernel: [ 6389.165522] Page table allocation set to norma
 Jun  9 22:26:19 ubuntu kernel: [ 6575.125764] perf: interrupt took too long (2521 > 2500), lowering kernel.perf_event_max_sample_rate to 79250
 Jun  9 22:26:39 ubuntu kernel: [ 6594.911743] perf: interrupt took too long (3161 > 3151), lowering kernel.perf_event_max_sample_rate to 63250
 Jun  9 22:27:21 ubuntu kernel: [ 6636.421615] perf: interrupt took too long (3967 > 3951), lowering kernel.perf_event_max_sample_rate to 50250
+Jun  9 23:02:50 ubuntu systemd[1]: Started Run anacron jobs.
+Jun  9 23:02:50 ubuntu anacron[25184]: Anacron 2.3 started on 2021-06-09
+Jun  9 23:02:50 ubuntu anacron[25184]: Normal exit (0 jobs run)
+Jun  9 23:07:04 ubuntu kernel: [ 9019.229165] Page table CONFIG_Migration_test
+Jun  9 23:07:04 ubuntu kernel: [ 9019.229169] Page table allocation set to normal behavior -3
+Jun  9 23:15:40 ubuntu kernel: [ 9535.554757] perf: interrupt took too long (4970 > 4958), lowering kernel.perf_event_max_sample_rate to 40000
+Jun  9 23:17:01 ubuntu CRON[31057]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  9 23:29:12 ubuntu kernel: [10348.117720] Page table CONFIG_Migration_test
+Jun  9 23:29:12 ubuntu kernel: [10348.117725] Page table allocation set to normal behavior -6
