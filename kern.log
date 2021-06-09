@@ -5482,3 +5482,21 @@ Jun  9 15:20:50 ubuntu kernel: [83371.597131] Page table allocation set to norma
 Jun  9 15:26:17 ubuntu kernel: [83698.633845] Page table CONFIG_Migration_test
 Jun  9 15:26:17 ubuntu kernel: [83698.633852] Page table CONFIG_Migration_test
 Jun  9 15:26:17 ubuntu kernel: [83698.633855] Page table allocation set to normal behavior -3
+Jun  9 15:52:36 ubuntu kernel: [85277.300146] Page table CONFIG_Migration_test
+Jun  9 15:52:36 ubuntu kernel: [85277.300153] Page table CONFIG_Migration_test
+Jun  9 15:52:36 ubuntu kernel: [85277.300156] Page table allocation set to normal behavior -3
+Jun  9 15:55:48 ubuntu kernel: [85469.054920] Page table CONFIG_Migration_test
+Jun  9 15:55:48 ubuntu kernel: [85469.054927] Page table CONFIG_Migration_test
+Jun  9 15:55:48 ubuntu kernel: [85469.054930] Page table allocation set to normal behavior -3
+Jun  9 15:59:49 ubuntu kernel: [85710.785622] Page table CONFIG_Migration_test
+Jun  9 15:59:49 ubuntu kernel: [85710.785630] Page table CONFIG_Migration_test
+Jun  9 15:59:49 ubuntu kernel: [85710.785633] Page table allocation set to normal behavior -3
+Jun  9 16:02:42 ubuntu kernel: [85883.681512] Page table CONFIG_Migration_test
+Jun  9 16:02:42 ubuntu kernel: [85883.681520] Page table CONFIG_Migration_test
+Jun  9 16:02:42 ubuntu kernel: [85883.681523] Page table allocation set to normal behavior -3
+Jun  9 16:08:55 ubuntu kernel: [86256.168095] Page table CONFIG_Migration_test
+Jun  9 16:08:55 ubuntu kernel: [86256.168102] Page table CONFIG_Migration_test
+Jun  9 16:08:55 ubuntu kernel: [86256.168105] Page table allocation set to normal behavior -3
+Jun  9 16:16:18 ubuntu kernel: [86699.369265] Page table CONFIG_Migration_test
+Jun  9 16:16:18 ubuntu kernel: [86699.369271] Page table CONFIG_Migration_test
+Jun  9 16:16:18 ubuntu kernel: [86699.369274] Page table allocation set to normal behavior -3
