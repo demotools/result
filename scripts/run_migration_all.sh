@@ -24,8 +24,8 @@ BENCHMARKS="gups"
 # List of all configs to run
 #CONFIGS="LPLD RPILD RPILDM"
 #CONFIGS="LPLD"
-CONFIGS="RPILD"
-#CONFIGS="RPILDM"
+#CONFIGS="RPILD"
+CONFIGS="RPILDM"
 
 for bench in $BENCHMARKS; do
 	for config in $CONFIGS; do
