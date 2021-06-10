@@ -1689,3 +1689,15 @@ Jun  9 23:07:04 ubuntu kernel: [ 9019.229169] Page table allocation set to norma
 Jun  9 23:15:40 ubuntu kernel: [ 9535.554757] perf: interrupt took too long (4970 > 4958), lowering kernel.perf_event_max_sample_rate to 40000
 Jun  9 23:29:12 ubuntu kernel: [10348.117720] Page table CONFIG_Migration_test
 Jun  9 23:29:12 ubuntu kernel: [10348.117725] Page table allocation set to normal behavior -6
+Jun 10 10:55:57 ubuntu kernel: [51552.508826] Page table CONFIG_Migration_test
+Jun 10 10:55:57 ubuntu kernel: [51552.508828] Page table allocation set to normal behavior -6
+Jun 10 10:57:54 ubuntu kernel: [51669.492664] Page table CONFIG_Migration_test
+Jun 10 10:57:54 ubuntu kernel: [51669.492666] Page table allocation set to normal behavior -6
+Jun 10 11:00:32 ubuntu kernel: [51826.803575] Page table CONFIG_Migration_test
+Jun 10 11:00:32 ubuntu kernel: [51826.803578] Page table allocation set to normal behavior -6
+Jun 10 11:02:37 ubuntu kernel: [51952.131153] Page table CONFIG_Migration_test
+Jun 10 11:02:37 ubuntu kernel: [51952.131156] Page table allocation set to normal behavior -3
+Jun 10 11:05:18 ubuntu kernel: [52113.360189] Page table CONFIG_Migration_test
+Jun 10 11:05:18 ubuntu kernel: [52113.360193] Page table allocation set to normal behavior -3
+Jun 10 11:10:13 ubuntu kernel: [52408.321548] Page table CONFIG_Migration_test
+Jun 10 11:10:13 ubuntu kernel: [52408.321551] Page table allocation set to normal behavior -3

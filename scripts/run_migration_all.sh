@@ -21,8 +21,8 @@ ROOT=$(dirname `readlink -f "$0"`)
 BENCHMARKS="btree"
 # List of all configs to run
 #CONFIGS="LPLD RPILD RPILDM"
-CONFIGS="LPLD"
-#CONFIGS="RPILD"
+#CONFIGS="LPLD"
+CONFIGS="RPILD"
 #CONFIGS="RPILDM"
 
 for bench in $BENCHMARKS; do
