@@ -24,14 +24,21 @@ BENCHMARKS="gups"
 # List of all configs to run
 #CONFIGS="LPLD RPILD RPILDM"
 #CONFIGS="LPLD"
-CONFIGS="RPILD"
-#CONFIGS="RPILDM"
+#CONFIGS="RPILD"
+CONFIGS="RPILDM"
 
-for bench in $BENCHMARKS; do
-	for config in $CONFIGS; do
-		echo "******************$bench : $config***********************"
-		bash $ROOT/run_migration_one.sh $bench $config
+for RUNTIMES in $(seq 3) 
+do
+	echo "Start test round: $RUNTIMES"
+	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
+    for bench in $BENCHMARKS; do
+		for config in $CONFIGS; do
+			echo "******************$bench : $config***********************"
+			bash $ROOT/run_migration_one.sh $bench $config
+		done
+		sleep 10s
 	done
 done
+
 # --- process the output logs
 $ROOT/process_logs_core.py --quiet
