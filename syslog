@@ -350,3 +350,29 @@ Jun 10 20:09:37 ubuntu kernel: [84772.123094] ------PTREPL: alloc pgd success---
 Jun 10 20:09:37 ubuntu kernel: [84772.123766] [mitosis] PTREPL: free pgd start 
 Jun 10 20:09:37 ubuntu kernel: [84772.123769] [mitosis] pgtable_repl_pgd_free freed pgd=ffff0026dd449000 and mm->pgd=ffff0026dd449000.
 Jun 10 20:09:37 ubuntu kernel: [84772.123773] [mitosis]------PTREPL: free pgd done------
+Jun 10 20:16:36 ubuntu systemd[1]: Starting Daily apt download activities...
+Jun 10 20:16:36 ubuntu kernel: [85191.381620] [mitosis] PTREPL: free pgd start 
+Jun 10 20:16:36 ubuntu kernel: [85191.381626] [mitosis] pgtable_repl_pgd_free freed pgd=ffff002742519000 and mm->pgd=ffff002742519000.
+Jun 10 20:16:36 ubuntu kernel: [85191.381629] [mitosis]------PTREPL: free pgd done------
+Jun 10 20:17:01 ubuntu CRON[26159]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 20:17:07 ubuntu systemd-networkd-wait-online[26156]: Event loop failed: Connection timed out
+Jun 10 20:17:37 ubuntu apt-helper[26137]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Jun 10 20:17:37 ubuntu apt-helper[26137]: E: Sub-process nm-online returned an error code (1)
+Jun 10 20:17:38 ubuntu systemd[1]: Started Daily apt download activities.
+Jun 10 20:18:54 ubuntu kernel: [85328.883904] Page table CONFIG_Migration_test
+Jun 10 20:18:54 ubuntu kernel: [85328.883907] Page table allocation set to normal behavior -6
+Jun 10 20:24:56 ubuntu kernel: [85690.681468] Page table CONFIG_Migration_test
+Jun 10 20:24:56 ubuntu kernel: [85690.681472] Page table allocation set to normal behavior -6
+Jun 10 20:29:50 ubuntu kernel: [85984.977055] Page table CONFIG_Migration_test
+Jun 10 20:29:50 ubuntu kernel: [85984.977058] Page table allocation set to normal behavior -6
+Jun 10 20:36:07 ubuntu kernel: [86362.027026] Page table CONFIG_Migration_test
+Jun 10 20:36:07 ubuntu kernel: [86362.027029] Page table allocation set to normal behavior -6
+Jun 10 20:45:51 ubuntu kernel: [86946.210824] Page table CONFIG_Migration_test
+Jun 10 20:45:51 ubuntu kernel: [86946.210827] Page table allocation set to normal behavior -3
+Jun 10 20:52:37 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Jun 10 20:52:37 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Jun 10 21:02:37 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 10 21:02:38 ubuntu anacron[46942]: Anacron 2.3 started on 2021-06-10
+Jun 10 21:02:38 ubuntu anacron[46942]: Normal exit (0 jobs run)
+Jun 10 21:17:02 ubuntu CRON[55224]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 21:19:52 ubuntu systemd[1]: Started Session 38 of user huawei.

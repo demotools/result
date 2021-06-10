@@ -1918,3 +1918,16 @@ Jun 10 20:09:37 ubuntu kernel: [84772.123094] ------PTREPL: alloc pgd success---
 Jun 10 20:09:37 ubuntu kernel: [84772.123766] [mitosis] PTREPL: free pgd start 
 Jun 10 20:09:37 ubuntu kernel: [84772.123769] [mitosis] pgtable_repl_pgd_free freed pgd=ffff0026dd449000 and mm->pgd=ffff0026dd449000.
 Jun 10 20:09:37 ubuntu kernel: [84772.123773] [mitosis]------PTREPL: free pgd done------
+Jun 10 20:16:36 ubuntu kernel: [85191.381620] [mitosis] PTREPL: free pgd start 
+Jun 10 20:16:36 ubuntu kernel: [85191.381626] [mitosis] pgtable_repl_pgd_free freed pgd=ffff002742519000 and mm->pgd=ffff002742519000.
+Jun 10 20:16:36 ubuntu kernel: [85191.381629] [mitosis]------PTREPL: free pgd done------
+Jun 10 20:18:54 ubuntu kernel: [85328.883904] Page table CONFIG_Migration_test
+Jun 10 20:18:54 ubuntu kernel: [85328.883907] Page table allocation set to normal behavior -6
+Jun 10 20:24:56 ubuntu kernel: [85690.681468] Page table CONFIG_Migration_test
+Jun 10 20:24:56 ubuntu kernel: [85690.681472] Page table allocation set to normal behavior -6
+Jun 10 20:29:50 ubuntu kernel: [85984.977055] Page table CONFIG_Migration_test
+Jun 10 20:29:50 ubuntu kernel: [85984.977058] Page table allocation set to normal behavior -6
+Jun 10 20:36:07 ubuntu kernel: [86362.027026] Page table CONFIG_Migration_test
+Jun 10 20:36:07 ubuntu kernel: [86362.027029] Page table allocation set to normal behavior -6
+Jun 10 20:45:51 ubuntu kernel: [86946.210824] Page table CONFIG_Migration_test
+Jun 10 20:45:51 ubuntu kernel: [86946.210827] Page table allocation set to normal behavior -3
