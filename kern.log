@@ -1717,3 +1717,124 @@ Jun 10 15:39:11 ubuntu kernel: [68546.366563] Page table CONFIG_Migration_test
 Jun 10 15:39:11 ubuntu kernel: [68546.366566] Page table allocation set to normal behavior -3
 Jun 10 15:43:26 ubuntu kernel: [68801.086897] Page table CONFIG_Migration_test
 Jun 10 15:43:26 ubuntu kernel: [68801.086899] Page table allocation set to normal behavior -6
+Jun 10 16:02:18 ubuntu kernel: [69933.473843] Page table CONFIG_Migration_test
+Jun 10 16:02:18 ubuntu kernel: [69933.473846] Page table allocation set to normal behavior -6
+Jun 10 16:02:41 ubuntu kernel: [69955.564673] bench_gups_st invoked oom-killer: gfp_mask=0x100dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO), order=0, oom_score_adj=0
+Jun 10 16:02:41 ubuntu kernel: [69955.564682] CPU: 72 PID: 75785 Comm: bench_gups_st Not tainted 5.7.1 #1
+Jun 10 16:02:41 ubuntu kernel: [69955.564682] Hardware name: Huawei TaiShan 200 (Model 2280)/BC82AMDDA, BIOS 1.06 10/29/2019
+Jun 10 16:02:41 ubuntu kernel: [69955.564685] Call trace:
+Jun 10 16:02:41 ubuntu kernel: [69955.564696]  dump_backtrace+0x0/0x1f0
+Jun 10 16:02:41 ubuntu kernel: [69955.564698]  show_stack+0x24/0x30
+Jun 10 16:02:41 ubuntu kernel: [69955.564705]  dump_stack+0xb8/0x100
+Jun 10 16:02:41 ubuntu kernel: [69955.564713]  dump_header+0x48/0x1f0
+Jun 10 16:02:41 ubuntu kernel: [69955.564715]  oom_kill_process+0x19c/0x240
+Jun 10 16:02:41 ubuntu kernel: [69955.564716]  out_of_memory+0xe8/0x510
+Jun 10 16:02:41 ubuntu kernel: [69955.564721]  __alloc_pages_slowpath.constprop.104+0x924/0xc58
+Jun 10 16:02:41 ubuntu kernel: [69955.564722]  __alloc_pages_nodemask+0x2d8/0x380
+Jun 10 16:02:41 ubuntu kernel: [69955.564730]  alloc_pages_vma+0x90/0x200
+Jun 10 16:02:41 ubuntu kernel: [69955.564737]  __handle_mm_fault+0xac8/0xfe0
+Jun 10 16:02:41 ubuntu kernel: [69955.564739]  handle_mm_fault+0xbc/0x198
+Jun 10 16:02:41 ubuntu kernel: [69955.564747]  do_page_fault+0x1a0/0x460
+Jun 10 16:02:41 ubuntu kernel: [69955.564748]  do_translation_fault+0xb0/0xc0
+Jun 10 16:02:41 ubuntu kernel: [69955.564751]  do_mem_abort+0x50/0xb0
+Jun 10 16:02:41 ubuntu kernel: [69955.564756]  el0_da+0x28/0x70
+Jun 10 16:02:41 ubuntu kernel: [69955.564758]  el0_sync_handler+0x84/0x288
+Jun 10 16:02:41 ubuntu kernel: [69955.564759]  el0_sync+0x164/0x180
+Jun 10 16:02:41 ubuntu kernel: [69955.564761] Mem-Info:
+Jun 10 16:02:41 ubuntu kernel: [69955.564770] active_anon:7665952 inactive_anon:450715 isolated_anon:32
+Jun 10 16:02:41 ubuntu kernel: [69955.564770]  active_file:152254 inactive_file:50753 isolated_file:0
+Jun 10 16:02:41 ubuntu kernel: [69955.564770]  unevictable:0 dirty:17 writeback:8 unstable:0
+Jun 10 16:02:41 ubuntu kernel: [69955.564770]  slab_reclaimable:61100 slab_unreclaimable:91941
+Jun 10 16:02:41 ubuntu kernel: [69955.564770]  mapped:12630 shmem:596 pagetables:17390 bounce:0
+Jun 10 16:02:41 ubuntu kernel: [69955.564770]  free:24141901 free_pcp:0 free_cma:1940
+Jun 10 16:02:41 ubuntu kernel: [69955.564774] Node 3 active_anon:30608044kB inactive_anon:1800892kB active_file:620kB inactive_file:0kB unevictable:0kB isolated(anon):128kB isolated(file):0kB mapped:40kB dirty:0kB writeback:32kB shmem:0kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes
+Jun 10 16:02:41 ubuntu kernel: [69955.564777] Node 3 Normal free:33632kB min:33700kB low:66332kB high:98964kB reserved_highatomic:0KB active_anon:30607856kB inactive_anon:1800992kB active_file:388kB inactive_file:100kB unevictable:0kB writepending:32kB present:33554432kB managed:32632320kB mlocked:0kB kernel_stack:3748kB pagetables:68028kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564782] lowmem_reserve[]: 0 0 0 0
+Jun 10 16:02:41 ubuntu kernel: [69955.564784] Node 3 Normal: 319*4kB (UME) 1035*8kB (UME) 417*16kB (UME) 171*32kB (UE) 55*64kB (UME) 20*128kB (UE) 6*256kB (UME) 3*512kB (UM) 1*1024kB (E) 1*2048kB (M) 0*4096kB = 33924kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564793] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564794] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564795] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564796] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564797] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564798] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564799] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564800] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564801] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564801] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564802] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564803] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564804] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564805] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564806] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564807] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564807] 204108 total pagecache pages
+Jun 10 16:02:41 ubuntu kernel: [69955.564810] 428 pages in swap cache
+Jun 10 16:02:41 ubuntu kernel: [69955.564811] Swap cache stats: add 524751, delete 524333, find 193/271
+Jun 10 16:02:41 ubuntu kernel: [69955.564812] Free swap  = 0kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564812] Total swap = 2097148kB
+Jun 10 16:02:41 ubuntu kernel: [69955.564813] 33553360 pages RAM
+Jun 10 16:02:41 ubuntu kernel: [69955.564814] 0 pages HighMem/MovableOnly
+Jun 10 16:02:41 ubuntu kernel: [69955.564815] 816593 pages reserved
+Jun 10 16:02:41 ubuntu kernel: [69955.564815] 8192 pages cma reserved
+Jun 10 16:02:41 ubuntu kernel: [69955.564816] 0 pages hwpoisoned
+Jun 10 16:02:41 ubuntu kernel: [69955.564817] Tasks state (memory values in pages):
+Jun 10 16:02:41 ubuntu kernel: [69955.564818] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+Jun 10 16:02:41 ubuntu kernel: [69955.564869] [   1495]     0  1495    10711     3628   102400        0             0 systemd-journal
+Jun 10 16:02:41 ubuntu kernel: [69955.564872] [   1508]     0  1508     4964     1470    65536       16         -1000 systemd-udevd
+Jun 10 16:02:41 ubuntu kernel: [69955.564874] [   1511]     0  1511    19486      251    49152        0             0 lvmetad
+Jun 10 16:02:41 ubuntu kernel: [69955.564880] [   2173]   100  2173     2916     1130    57344        0             0 systemd-network
+Jun 10 16:02:41 ubuntu kernel: [69955.564881] [   2246]   101  2246     2646     1102    61440        0             0 systemd-resolve
+Jun 10 16:02:41 ubuntu kernel: [69955.564883] [   2249] 62583  2249    20961      658    65536        0             0 systemd-timesyn
+Jun 10 16:02:41 ubuntu kernel: [69955.564884] [   2370]     0  2370    24718     4107    90112        0             0 networkd-dispat
+Jun 10 16:02:41 ubuntu kernel: [69955.564886] [   2382]     0  2382     2607     1174    61440      154             0 systemd-logind
+Jun 10 16:02:41 ubuntu kernel: [69955.564887] [   2401]     0  2401    96584     1992   118784      135             0 udisksd
+Jun 10 16:02:41 ubuntu kernel: [69955.564889] [   2428]     0  2428      915      510    40960        0             0 atd
+Jun 10 16:02:41 ubuntu kernel: [69955.564891] [   2433]   119  2433     1545      776    53248        0             0 avahi-daemon
+Jun 10 16:02:41 ubuntu kernel: [69955.564892] [   2438]     0  2438    58233     1598    94208        6             0 accounts-daemon
+Jun 10 16:02:41 ubuntu kernel: [69955.564894] [   2450]     0  2450    20272      804    61440       95             0 irqbalance
+Jun 10 16:02:41 ubuntu kernel: [69955.564895] [   2469]     0  2469     1338      661    49152        0             0 cron
+Jun 10 16:02:41 ubuntu kernel: [69955.564897] [   2488]   103  2488     1854     1048    49152        0          -900 dbus-daemon
+Jun 10 16:02:41 ubuntu kernel: [69955.564899] [   2504]   119  2504     1492       84    53248        0             0 avahi-daemon
+Jun 10 16:02:41 ubuntu kernel: [69955.564900] [   2533]     0  2533    81535     2571   135168      430             0 NetworkManager
+Jun 10 16:02:41 ubuntu kernel: [69955.564902] [   2538]     0  2538    78224     2224   114688        0             0 ModemManager
+Jun 10 16:02:41 ubuntu kernel: [69955.564904] [   2544]   102  2544    54994     1082    73728      137             0 rsyslogd
+Jun 10 16:02:41 ubuntu kernel: [69955.564905] [   2551]     0  2551     2354      559    57344        0             0 wpa_supplicant
+Jun 10 16:02:41 ubuntu kernel: [69955.564907] [   2584]     0  2584    56066      330    69632       37             0 lxcfs
+Jun 10 16:02:41 ubuntu kernel: [69955.564909] [   2611]     0  2611    57872     1508    81920       28             0 polkitd
+Jun 10 16:02:41 ubuntu kernel: [69955.564912] [   2827]   127  2827   101533      627   102400        0             0 memcached
+Jun 10 16:02:41 ubuntu kernel: [69955.564913] [   2836]     0  2836    25878     4759    98304        0             0 unattended-upgr
+Jun 10 16:02:41 ubuntu kernel: [69955.564917] [   3084]   115  3084    61881     1914   118784      327             0 whoopsie
+Jun 10 16:02:41 ubuntu kernel: [69955.564919] [   3130]     0  3130     2604     1348    57344        0         -1000 sshd
+Jun 10 16:02:41 ubuntu kernel: [69955.564920] [   3135]   116  3135     2373      106    53248        0             0 kerneloops
+Jun 10 16:02:41 ubuntu kernel: [69955.564922] [   3141]   116  3141     2373      107    61440        0             0 kerneloops
+Jun 10 16:02:41 ubuntu kernel: [69955.564924] [   3149]     0  3149     1052      365    40960        0             0 agetty
+Jun 10 16:02:41 ubuntu kernel: [69955.564926] [   3332]     0  3332     3106     1461    61440        0             0 sshd
+Jun 10 16:02:41 ubuntu kernel: [69955.564928] [   3340]  1000  3340     3128     1748    65536        0             0 systemd
+Jun 10 16:02:41 ubuntu kernel: [69955.564929] [   3347]  1000  3347    40864      650    86016       23             0 (sd-pam)
+Jun 10 16:02:41 ubuntu kernel: [69955.564931] [   3481]  1000  3481     3106      788    61440        0             0 sshd
+Jun 10 16:02:41 ubuntu kernel: [69955.564933] [   3482]  1000  3482     1703     1204    53248        0             0 bash
+Jun 10 16:02:41 ubuntu kernel: [69955.564935] [  50137]     0 50137     4212     1370    77824        0             0 cupsd
+Jun 10 16:02:41 ubuntu kernel: [69955.564937] [  50140]     0 50140    43078     1775   102400        0             0 cups-browsed
+Jun 10 16:02:41 ubuntu kernel: [69955.564940] [  51078]     0 51078    68138     3140   122880        0             0 packagekitd
+Jun 10 16:02:41 ubuntu kernel: [69955.564944] [  51877]  1000 51877     2193     1135    57344        0             0 top
+Jun 10 16:02:41 ubuntu kernel: [69955.564946] [  59937]     0 59937     3106     1501    57344        0             0 sshd
+Jun 10 16:02:41 ubuntu kernel: [69955.564947] [  60044]  1000 60044     3106      791    57344        0             0 sshd
+Jun 10 16:02:41 ubuntu kernel: [69955.564949] [  60045]  1000 60045     1736     1239    45056        0             0 bash
+Jun 10 16:02:41 ubuntu kernel: [69955.564952] [  75732]     0 75732     1926      889    53248        0             0 sudo
+Jun 10 16:02:41 ubuntu kernel: [69955.564954] [  75733]     0 75733     1211      690    49152        0             0 run_migration_a
+Jun 10 16:02:41 ubuntu kernel: [69955.564956] [  75737]     0 75737     1277      764    45056        0             0 bash
+Jun 10 16:02:41 ubuntu kernel: [69955.564957] [  75785]     0 75785 16777467  8101905 69177344   522748             0 bench_gups_st
+Jun 10 16:02:41 ubuntu kernel: [69955.564960] [  76030]     0 76030      868      110    45056        0             0 sleep
+Jun 10 16:02:41 ubuntu kernel: [69955.564962] oom-kill:constraint=CONSTRAINT_MEMORY_POLICY,nodemask=3,cpuset=/,mems_allowed=0-3,global_oom,task_memcg=/user.slice,task=bench_gups_st,pid=75785,uid=0
+Jun 10 16:02:41 ubuntu kernel: [69955.564979] Out of memory: Killed process 75785 (bench_gups_st) total-vm:67109868kB, anon-rss:32407616kB, file-rss:4kB, shmem-rss:0kB, UID:0 pgtables:67556kB oom_score_adj:0
+Jun 10 16:02:42 ubuntu kernel: [69957.180834] oom_reaper: reaped process 75785 (bench_gups_st), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+Jun 10 16:16:25 ubuntu kernel: [70780.202362] Page table CONFIG_Migration_test
+Jun 10 16:16:25 ubuntu kernel: [70780.202364] Page table allocation set to normal behavior -6
+Jun 10 16:18:50 ubuntu kernel: [70925.084507] Page table CONFIG_Migration_test
+Jun 10 16:18:50 ubuntu kernel: [70925.084512] Page table allocation set to normal behavior -6
+Jun 10 16:24:03 ubuntu kernel: [71238.018529] Page table CONFIG_Migration_test
+Jun 10 16:24:03 ubuntu kernel: [71238.018534] Page table allocation set to normal behavior -6
+Jun 10 16:30:06 ubuntu kernel: [71600.582695] Page table CONFIG_Migration_test
+Jun 10 16:30:06 ubuntu kernel: [71600.582702] Page table allocation set to normal behavior -3
+Jun 10 17:15:10 ubuntu kernel: [74305.386118] Page table CONFIG_Migration_test
+Jun 10 17:15:10 ubuntu kernel: [74305.386122] Page table allocation set to normal behavior -3
