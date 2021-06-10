@@ -18,7 +18,8 @@ ROOT=$(dirname `readlink -f "$0"`)
 
 # List of all benchmarks to run
 # BENCHMARKS="gups btree hashjoin redis xsbench pagerank liblinear canneal"
-BENCHMARKS="btree"
+#BENCHMARKS="btree"
+BENCHMARKS="hashjoin"
 # List of all configs to run
 #CONFIGS="LPLD RPILD RPILDM"
 CONFIGS="LPLD"

@@ -22,8 +22,12 @@ XSBENCH_ARGS=" -- -t 16 -g 180000 -p 15000000"
 LIBLINEAR_ARGS=" -- -s 6 -n 28 $MAIN/datasets/kdd12 "
 CANNEAL_ARGS=" -- 1 150000 2000 $MAIN/datasets/canneal_small 500 "
 BENCH_ARGS=""
+
 BTREE_ARGS=" -- -n 500000000 -l 10000000000 -o 4"  #140 能吃满80多G  35能吃满21G
+HASH_ARGS=" -- -o 10000000 -i 1000000 -s 1000000"
+
 NR_PTCACHE_PAGES=1100000 # --- 2GB per socket
+
 #***********************Script-Arguments***********************
 if [ $# -ne 2 ]; then
 	echo "Run as: $0 benchmark config"
@@ -173,6 +177,8 @@ prepare_basic_config_params()
                 BENCH_ARGS=$LIBLINEAR_ARGS
         elif [ $BENCHMARK == "btree" ]; then
                 BENCH_ARGS=$BTREE_ARGS
+        elif [ $BENCHMARK == "hashjoin" ]; then
+                BENCH_ARGS=$HASH_ARGS
         elif [ $BENCHMARK == "canneal" ]; then
                 BENCH_ARGS=$CANNEAL_ARGS
         fi
