@@ -88,3 +88,25 @@ Jun 10 11:05:18 ubuntu kernel: [52113.360189] Page table CONFIG_Migration_test
 Jun 10 11:05:18 ubuntu kernel: [52113.360193] Page table allocation set to normal behavior -3
 Jun 10 11:10:13 ubuntu kernel: [52408.321548] Page table CONFIG_Migration_test
 Jun 10 11:10:13 ubuntu kernel: [52408.321551] Page table allocation set to normal behavior -3
+Jun 10 11:17:01 ubuntu CRON[59800]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 12:03:28 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 10 12:03:28 ubuntu anacron[59820]: Anacron 2.3 started on 2021-06-10
+Jun 10 12:03:28 ubuntu anacron[59820]: Normal exit (0 jobs run)
+Jun 10 12:17:01 ubuntu CRON[59845]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 13:04:29 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 10 13:04:29 ubuntu anacron[59862]: Anacron 2.3 started on 2021-06-10
+Jun 10 13:04:29 ubuntu anacron[59862]: Normal exit (0 jobs run)
+Jun 10 13:17:01 ubuntu CRON[59888]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 14:01:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 10 14:01:38 ubuntu anacron[59906]: Anacron 2.3 started on 2021-06-10
+Jun 10 14:01:38 ubuntu anacron[59906]: Normal exit (0 jobs run)
+Jun 10 14:17:01 ubuntu CRON[59929]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 14:33:44 ubuntu systemd[1]: Started Session 27 of user huawei.
+Jun 10 14:34:37 ubuntu kernel: [64672.528773] Page table CONFIG_Migration_test
+Jun 10 14:34:37 ubuntu kernel: [64672.528777] Page table allocation set to normal behavior -3
+Jun 10 14:45:47 ubuntu kernel: [65341.854085] Page table CONFIG_Migration_test
+Jun 10 14:45:47 ubuntu kernel: [65341.854088] Page table allocation set to normal behavior -3
+Jun 10 14:50:21 ubuntu kernel: [65616.063007] Page table CONFIG_Migration_test
+Jun 10 14:50:21 ubuntu kernel: [65616.063009] Page table allocation set to normal behavior -6
+Jun 10 14:53:49 ubuntu kernel: [65824.205055] Page table CONFIG_Migration_test
+Jun 10 14:53:49 ubuntu kernel: [65824.205057] Page table allocation set to normal behavior -6
