@@ -110,3 +110,11 @@ Jun 10 14:50:21 ubuntu kernel: [65616.063007] Page table CONFIG_Migration_test
 Jun 10 14:50:21 ubuntu kernel: [65616.063009] Page table allocation set to normal behavior -6
 Jun 10 14:53:49 ubuntu kernel: [65824.205055] Page table CONFIG_Migration_test
 Jun 10 14:53:49 ubuntu kernel: [65824.205057] Page table allocation set to normal behavior -6
+Jun 10 15:04:31 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 10 15:04:31 ubuntu anacron[69356]: Anacron 2.3 started on 2021-06-10
+Jun 10 15:04:31 ubuntu anacron[69356]: Normal exit (0 jobs run)
+Jun 10 15:17:01 ubuntu CRON[69386]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 15:31:36 ubuntu kernel: [68091.090044] Page table CONFIG_Migration_test
+Jun 10 15:31:36 ubuntu kernel: [68091.090046] Page table allocation set to normal behavior -6
+Jun 10 15:33:25 ubuntu kernel: [68200.342541] Page table CONFIG_Migration_test
+Jun 10 15:33:25 ubuntu kernel: [68200.342543] Page table allocation set to normal behavior -3

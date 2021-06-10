@@ -1,3 +1,5 @@
 Workload	Configuration	Walk Cycles	Non-Walk Cycles	 Norm. Perf.
 BTree	LP-LD	0.000000	1.000000	1.000000
 BTree	RPI-LD	0.000000	1.007586	1.007586
+HashJoin	LP-LD	0.000000	1.000000	1.000000
+HashJoin	RPI-LD	0.000000	1.044514	1.044514
