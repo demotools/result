@@ -87,7 +87,7 @@ HPCC_starts(int64_t n)
 int real_main(int argc, char *argv[]);
 int real_main(int argc, char *argv[])
 {
-    size_t mem = ((size_t)64UL << 30);
+    size_t mem = ((size_t)64UL << 20);
     if (argc == 2) {
         mem = strtoull(argv[1], NULL, 10) << 30;    
     }
