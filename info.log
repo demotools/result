@@ -2,16 +2,7 @@
 ASPLOS'20 - Artifact Evaluation - Mitosis - Figure 10A
 ************************************************************************
 Start test round: 1
-******************gups : RPILD***********************
+******************btree : RPILD***********************
 qu : config is RPILD
-[0mWaiting for benchmark: 67561 to be ready
-[0mWaiting for benchmark to be done
-gups : RPILD completed.
-
-Start test round: 2
-******************gups : RPILD***********************
-qu : config is RPILD
-[0mWaiting for benchmark: 86158 to be ready
-[0mWaiting for benchmark to be done
-gups : RPILD completed.
-
+[0mWaiting for benchmark: 15086 to be ready
+/home/huawei/result/scripts/run_migration_one.sh: line 309: 15086 Killed                  $LAUNCH_CMD > /dev/null 2>&1

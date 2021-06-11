@@ -23,7 +23,7 @@ LIBLINEAR_ARGS=" -- -s 6 -n 28 $MAIN/datasets/kdd12 "
 CANNEAL_ARGS=" -- 1 150000 2000 $MAIN/datasets/canneal_small 500 "
 BENCH_ARGS=""
 
-BTREE_ARGS=" -- -n 500000000 -l 10000000000 -o 4"  #140 能吃满80多G  35能吃满21G
+BTREE_ARGS=" -- -n 500000000 -l 100000000000 -o 4"  #140 能吃满80多G  35能吃满21G
 HASH_ARGS=" -- -o 20000000 -i 2000000 -s 2000000"
 
 NR_PTCACHE_PAGES=1100000 # --- 2GB per socket
