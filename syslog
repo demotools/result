@@ -417,3 +417,9 @@ Jun 11 10:40:28 ubuntu kernel: [137022.577145] oom_reaper: reaped process 35885 
 Start test round: 1
 Jun 11 10:43:18 ubuntu kernel: [137192.797430] Page table CONFIG_Migration_test
 Jun 11 10:43:18 ubuntu kernel: [137192.797433] Page table allocation set to normal behavior -6
+Start test round: 1
+Jun 11 10:56:54 ubuntu kernel: [138008.578336] Page table CONFIG_Migration_test
+Jun 11 10:56:54 ubuntu kernel: [138008.578339] Page table allocation set to normal behavior -6
+Jun 11 11:02:50 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 11 11:02:50 ubuntu anacron[45798]: Anacron 2.3 started on 2021-06-11
+Jun 11 11:02:50 ubuntu anacron[45798]: Normal exit (0 jobs run)
