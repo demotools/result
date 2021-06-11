@@ -423,3 +423,20 @@ Jun 11 10:56:54 ubuntu kernel: [138008.578339] Page table allocation set to norm
 Jun 11 11:02:50 ubuntu systemd[1]: Started Run anacron jobs.
 Jun 11 11:02:50 ubuntu anacron[45798]: Anacron 2.3 started on 2021-06-11
 Jun 11 11:02:50 ubuntu anacron[45798]: Normal exit (0 jobs run)
+Start test round: 1
+Jun 11 11:09:23 ubuntu kernel: [138757.076007] Page table CONFIG_Migration_test
+Jun 11 11:09:23 ubuntu kernel: [138757.076010] Page table allocation set to normal behavior -6
+Jun 11 11:17:01 ubuntu CRON[49806]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 12:00:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 11 12:00:38 ubuntu anacron[49823]: Anacron 2.3 started on 2021-06-11
+Jun 11 12:00:38 ubuntu anacron[49823]: Normal exit (0 jobs run)
+Jun 11 12:17:01 ubuntu CRON[49850]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 13:02:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 11 13:02:38 ubuntu anacron[49861]: Anacron 2.3 started on 2021-06-11
+Jun 11 13:02:38 ubuntu anacron[49861]: Normal exit (0 jobs run)
+Jun 11 13:17:01 ubuntu CRON[49888]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 14:04:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 11 14:04:38 ubuntu anacron[49903]: Anacron 2.3 started on 2021-06-11
+Jun 11 14:04:38 ubuntu anacron[49903]: Normal exit (0 jobs run)
+Jun 11 14:17:02 ubuntu CRON[49928]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 14:37:11 ubuntu systemd[1]: Started Session 60 of user huawei.
