@@ -414,3 +414,6 @@ Jun 11 10:40:27 ubuntu kernel: [137021.227591] [  36478]     0 36478      868   
 Jun 11 10:40:27 ubuntu kernel: [137021.227595] oom-kill:constraint=CONSTRAINT_MEMORY_POLICY,nodemask=3,cpuset=/,mems_allowed=0-3,global_oom,task_memcg=/user.slice,task=bench_btree_st,pid=35885,uid=0
 Jun 11 10:40:27 ubuntu kernel: [137021.227622] Out of memory: Killed process 35885 (bench_btree_st) total-vm:31254188kB, anon-rss:27853060kB, file-rss:1276kB, shmem-rss:0kB, UID:0 pgtables:58644kB oom_score_adj:0
 Jun 11 10:40:28 ubuntu kernel: [137022.577145] oom_reaper: reaped process 35885 (bench_btree_st), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+Start test round: 1
+Jun 11 10:43:18 ubuntu kernel: [137192.797430] Page table CONFIG_Migration_test
+Jun 11 10:43:18 ubuntu kernel: [137192.797433] Page table allocation set to normal behavior -6
