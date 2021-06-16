@@ -22,12 +22,12 @@ BENCHMARKS="btree"
 #BENCHMARKS="hashjoin"
 #BENCHMARKS="gups"
 # List of all configs to run
-#CONFIGS="LPLD RPILD RPILDM"
-CONFIGS="LPLD"
+CONFIGS="LPLD RPILD RPILDM"
+#CONFIGS="LPLD"
 #CONFIGS="RPILD"
 #CONFIGS="RPILDM"
 
-for RUNTIMES in $(seq 1) 
+for RUNTIMES in $(seq 5) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
@@ -36,7 +36,7 @@ do
 			echo "******************$bench : $config***********************"
 			bash $ROOT/run_migration_one.sh $bench $config
 		done
-		sleep 10s
+		sleep 20s
 	done
 done
 
