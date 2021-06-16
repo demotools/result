@@ -65,3 +65,6 @@ Jun 16 09:01:38 ubuntu anacron[54407]: Anacron 2.3 started on 2021-06-16
 Jun 16 09:01:38 ubuntu anacron[54407]: Normal exit (0 jobs run)
 Jun 16 09:17:01 ubuntu CRON[54434]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
 Jun 16 09:33:18 ubuntu systemd[1]: Started Session 204 of user huawei.
+Start test round: 1
+Jun 16 09:46:24 ubuntu kernel: [565774.250867] Page table CONFIG_Migration_test
+Jun 16 09:46:24 ubuntu kernel: [565774.250871] Page table allocation set to normal behavior -6
