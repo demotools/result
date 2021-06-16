@@ -68,3 +68,72 @@ Jun 16 09:33:18 ubuntu systemd[1]: Started Session 204 of user huawei.
 Start test round: 1
 Jun 16 09:46:24 ubuntu kernel: [565774.250867] Page table CONFIG_Migration_test
 Jun 16 09:46:24 ubuntu kernel: [565774.250871] Page table allocation set to normal behavior -6
+Jun 16 10:04:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 10:04:38 ubuntu anacron[56958]: Anacron 2.3 started on 2021-06-16
+Jun 16 10:04:38 ubuntu anacron[56958]: Normal exit (0 jobs run)
+Start test round: 1
+Jun 16 10:05:36 ubuntu kernel: [566926.150995] Page table CONFIG_Migration_test
+Jun 16 10:05:36 ubuntu kernel: [566926.151000] Page table allocation set to normal behavior -6
+Jun 16 10:17:01 ubuntu CRON[63769]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 11:03:50 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 11:03:50 ubuntu anacron[77051]: Anacron 2.3 started on 2021-06-16
+Jun 16 11:03:50 ubuntu anacron[77051]: Normal exit (0 jobs run)
+Jun 16 11:17:01 ubuntu CRON[77075]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 12:01:50 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 12:01:50 ubuntu anacron[77095]: Anacron 2.3 started on 2021-06-16
+Jun 16 12:01:50 ubuntu anacron[77095]: Normal exit (0 jobs run)
+Jun 16 12:17:02 ubuntu CRON[77123]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 13:02:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 13:02:38 ubuntu anacron[77145]: Anacron 2.3 started on 2021-06-16
+Jun 16 13:02:38 ubuntu anacron[77145]: Normal exit (0 jobs run)
+Jun 16 13:17:01 ubuntu CRON[77169]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 14:01:59 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 14:01:59 ubuntu anacron[77193]: Anacron 2.3 started on 2021-06-16
+Jun 16 14:01:59 ubuntu anacron[77193]: Normal exit (0 jobs run)
+Jun 16 14:17:01 ubuntu CRON[77216]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 15:00:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 15:00:38 ubuntu anacron[77230]: Anacron 2.3 started on 2021-06-16
+Jun 16 15:00:38 ubuntu anacron[77230]: Normal exit (0 jobs run)
+Jun 16 15:17:02 ubuntu CRON[77256]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 16:00:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 16:00:38 ubuntu anacron[77268]: Anacron 2.3 started on 2021-06-16
+Jun 16 16:00:38 ubuntu anacron[77268]: Normal exit (0 jobs run)
+Jun 16 16:04:34 ubuntu systemd[1]: Started Session 211 of user huawei.
+Jun 16 16:17:01 ubuntu CRON[77408]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 17:01:02 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 17:01:02 ubuntu anacron[77425]: Anacron 2.3 started on 2021-06-16
+Jun 16 17:01:02 ubuntu anacron[77425]: Normal exit (0 jobs run)
+Jun 16 17:17:01 ubuntu CRON[77447]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 18:04:37 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 18:04:37 ubuntu anacron[77460]: Anacron 2.3 started on 2021-06-16
+Jun 16 18:04:37 ubuntu anacron[77460]: Normal exit (0 jobs run)
+Jun 16 18:17:01 ubuntu CRON[77487]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 19:03:50 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 19:03:50 ubuntu anacron[77505]: Anacron 2.3 started on 2021-06-16
+Jun 16 19:03:50 ubuntu anacron[77505]: Normal exit (0 jobs run)
+Jun 16 19:14:38 ubuntu systemd[1]: Starting Message of the Day...
+Jun 16 19:14:48 ubuntu 50-motd-news[77526]:  * Super-optimized for small spaces - read how we shrank the memory
+Jun 16 19:14:48 ubuntu 50-motd-news[77526]:    footprint of MicroK8s to make it the smallest full K8s around.
+Jun 16 19:14:48 ubuntu 50-motd-news[77526]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+Jun 16 19:14:48 ubuntu systemd[1]: Started Message of the Day.
+Jun 16 19:17:01 ubuntu CRON[77585]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 20:00:06 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 20:00:06 ubuntu anacron[77601]: Anacron 2.3 started on 2021-06-16
+Jun 16 20:00:06 ubuntu anacron[77601]: Normal exit (0 jobs run)
+Jun 16 20:17:01 ubuntu CRON[77625]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 20:30:55 ubuntu systemd[1]: Started Session 217 of user huawei.
+Start test round: 1
+Jun 16 20:35:15 ubuntu kernel: [604704.660076] Page table CONFIG_Migration_test
+Jun 16 20:35:15 ubuntu kernel: [604704.660081] Page table allocation set to normal behavior -3
+Jun 16 20:55:06 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Jun 16 20:55:07 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Jun 16 21:00:06 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 16 21:00:07 ubuntu anacron[92198]: Anacron 2.3 started on 2021-06-16
+Jun 16 21:00:07 ubuntu anacron[92198]: Normal exit (0 jobs run)
+Jun 16 21:08:38 ubuntu systemd[1]: Starting Daily apt download activities...
+Jun 16 21:09:08 ubuntu systemd-networkd-wait-online[97127]: Event loop failed: Connection timed out
+Jun 16 21:09:38 ubuntu apt-helper[97114]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Jun 16 21:09:38 ubuntu apt-helper[97114]: E: Sub-process nm-online returned an error code (1)
+Jun 16 21:09:39 ubuntu systemd[1]: Started Daily apt download activities.
+Jun 16 21:17:01 ubuntu CRON[2590]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 16 21:19:34 ubuntu systemd[1]: Started Session 219 of user huawei.
