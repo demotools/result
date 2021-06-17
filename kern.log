@@ -730,3 +730,10 @@ Jun 16 22:04:14 ubuntu kernel: [610043.190693] ------PTREPL: alloc pgd success--
 Jun 16 22:04:14 ubuntu kernel: [610043.190884] [mitosis] PTREPL: free pgd start 
 Jun 16 22:04:14 ubuntu kernel: [610043.190886] [mitosis] pgtable_repl_pgd_free freed pgd=ffff0021eaa47000 and mm->pgd=ffff0021eaa47000.
 Jun 16 22:04:14 ubuntu kernel: [610043.190887] [mitosis]------PTREPL: free pgd done------
+Jun 16 22:37:57 ubuntu kernel: [612066.660922] [mitosis] PTREPL: free pgd start 
+Jun 16 22:37:57 ubuntu kernel: [612066.660930] [mitosis] pgtable_repl_pgd_free freed pgd=ffff0027a4518000 and mm->pgd=ffff0027a4518000.
+Jun 16 22:37:57 ubuntu kernel: [612066.660934] [mitosis]------PTREPL: free pgd done------
+Jun 16 22:37:57 ubuntu kernel: [612066.730872] Page table CONFIG_Migration_test
+Jun 16 22:37:57 ubuntu kernel: [612066.730874] Page table allocation set to normal behavior -6
+Jun 17 10:27:46 ubuntu kernel: [654655.617307] Page table CONFIG_Migration_test
+Jun 17 10:27:46 ubuntu kernel: [654655.617313] Page table allocation set to normal behavior -3

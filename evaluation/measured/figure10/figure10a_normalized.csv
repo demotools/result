@@ -1,4 +1,0 @@
-Workload	Configuration	Walk Cycles	Non-Walk Cycles	 Norm. Perf.
-HashJoin	LP-LD	0.000000	1.000000	1.000000
-HashJoin	RPI-LD	0.000000	1.104872	1.104872
-HashJoin	RPI-LD+M	0.000000	1.085485	1.085485

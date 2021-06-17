@@ -22,9 +22,9 @@ ROOT=$(dirname `readlink -f "$0"`)
 BENCHMARKS="hashjoin"
 #BENCHMARKS="gups"
 # List of all configs to run
-CONFIGS="LPLD RPILD RPILDM"
+#CONFIGS="LPLD RPILD RPILDM"
 #CONFIGS="LPLD"
-#CONFIGS="RPILD"
+CONFIGS="RPILD"
 #CONFIGS="RPILDM"
 
 for RUNTIMES in $(seq 1) 
