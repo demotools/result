@@ -72,3 +72,146 @@ Jun 21 09:16:01 ubuntu systemd[11856]: Reached target Basic System.
 Jun 21 09:16:01 ubuntu systemd[11856]: Reached target Default.
 Jun 21 09:16:01 ubuntu systemd[11856]: Startup finished in 40ms.
 Jun 21 09:16:01 ubuntu systemd[1]: Started User Manager for UID 1000.
+Jun 21 09:17:01 ubuntu CRON[12008]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 10:01:18 ubuntu systemd[1]: Started Session 351 of user huawei.
+Start test round: 1
+Jun 21 10:01:47 ubuntu kernel: [998693.023262] Page table CONFIG_Migration_test
+Jun 21 10:01:47 ubuntu kernel: [998693.023267] Page table allocation set to normal behavior -6
+Jun 21 10:02:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 10:02:38 ubuntu anacron[13399]: Anacron 2.3 started on 2021-06-21
+Jun 21 10:02:38 ubuntu anacron[13399]: Normal exit (0 jobs run)
+Jun 21 10:17:01 ubuntu CRON[21927]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 10:44:51 ubuntu kernel: [1001276.659931] bench_redis_st invoked oom-killer: gfp_mask=0x100dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO), order=0, oom_score_adj=0
+Jun 21 10:44:51 ubuntu kernel: [1001276.659941] CPU: 89 PID: 12897 Comm: bench_redis_st Not tainted 5.7.1 #1
+Jun 21 10:44:51 ubuntu kernel: [1001276.659942] Hardware name: Huawei TaiShan 200 (Model 2280)/BC82AMDDA, BIOS 1.06 10/29/2019
+Jun 21 10:44:51 ubuntu kernel: [1001276.659944] Call trace:
+Jun 21 10:44:51 ubuntu kernel: [1001276.659955]  dump_backtrace+0x0/0x1f0
+Jun 21 10:44:51 ubuntu kernel: [1001276.659957]  show_stack+0x24/0x30
+Jun 21 10:44:51 ubuntu kernel: [1001276.659965]  dump_stack+0xb8/0x100
+Jun 21 10:44:51 ubuntu kernel: [1001276.659973]  dump_header+0x48/0x1f0
+Jun 21 10:44:51 ubuntu kernel: [1001276.659974]  oom_kill_process+0x19c/0x240
+Jun 21 10:44:51 ubuntu kernel: [1001276.659975]  out_of_memory+0xe8/0x510
+Jun 21 10:44:51 ubuntu kernel: [1001276.659980]  __alloc_pages_slowpath.constprop.104+0x924/0xc58
+Jun 21 10:44:51 ubuntu kernel: [1001276.659982]  __alloc_pages_nodemask+0x2d8/0x380
+Jun 21 10:44:51 ubuntu kernel: [1001276.659990]  alloc_pages_vma+0x90/0x200
+Jun 21 10:44:51 ubuntu kernel: [1001276.659998]  __handle_mm_fault+0xac8/0xfe0
+Jun 21 10:44:51 ubuntu kernel: [1001276.659999]  handle_mm_fault+0xbc/0x198
+Jun 21 10:44:51 ubuntu kernel: [1001276.660006]  do_page_fault+0x1a0/0x460
+Jun 21 10:44:51 ubuntu kernel: [1001276.660007]  do_translation_fault+0xb0/0xc0
+Jun 21 10:44:51 ubuntu kernel: [1001276.660010]  do_mem_abort+0x50/0xb0
+Jun 21 10:44:51 ubuntu kernel: [1001276.660016]  el0_da+0x28/0x70
+Jun 21 10:44:51 ubuntu kernel: [1001276.660017]  el0_sync_handler+0x84/0x288
+Jun 21 10:44:51 ubuntu kernel: [1001276.660018]  el0_sync+0x164/0x180
+Jun 21 10:44:51 ubuntu kernel: [1001276.660020] Mem-Info:
+Jun 21 10:44:51 ubuntu kernel: [1001276.660030] active_anon:6583664 inactive_anon:267030 isolated_anon:0
+Jun 21 10:44:51 ubuntu kernel: [1001276.660030]  active_file:177568 inactive_file:58808 isolated_file:0
+Jun 21 10:44:51 ubuntu kernel: [1001276.660030]  unevictable:0 dirty:1 writeback:10 unstable:0
+Jun 21 10:44:51 ubuntu kernel: [1001276.660030]  slab_reclaimable:86186 slab_unreclaimable:122962
+Jun 21 10:44:51 ubuntu kernel: [1001276.660030]  mapped:13968 shmem:610 pagetables:631119 bounce:0
+Jun 21 10:44:51 ubuntu kernel: [1001276.660030]  free:20324311 free_pcp:317 free_cma:1940
+Jun 21 10:44:51 ubuntu kernel: [1001276.660033] Node 3 active_anon:26277828kB inactive_anon:1064772kB active_file:112kB inactive_file:128kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:0kB dirty:0kB writeback:40kB shmem:0kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+Jun 21 10:44:51 ubuntu kernel: [1001276.660037] Node 3 Normal free:33600kB min:33700kB low:66332kB high:98964kB reserved_highatomic:0KB active_anon:26277772kB inactive_anon:1065184kB active_file:112kB inactive_file:128kB unevictable:0kB writepending:40kB present:33554432kB managed:32632320kB mlocked:0kB kernel_stack:3860kB pagetables:674156kB bounce:0kB free_pcp:1268kB local_pcp:96kB free_cma:0kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660041] lowmem_reserve[]: 0 0 0 0
+Jun 21 10:44:51 ubuntu kernel: [1001276.660044] Node 3 Normal: 627*4kB (UE) 485*8kB (UME) 180*16kB (UE) 146*32kB (UME) 90*64kB (UME) 35*128kB (UME) 18*256kB (UME) 2*512kB (UM) 4*1024kB (UME) 0*2048kB 0*4096kB = 33908kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660052] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660054] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660055] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660056] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660057] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660058] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660059] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660060] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660061] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660062] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660063] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660064] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660064] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660065] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660066] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660067] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660068] 237176 total pagecache pages
+Jun 21 10:44:51 ubuntu kernel: [1001276.660070] 155 pages in swap cache
+Jun 21 10:44:51 ubuntu kernel: [1001276.660071] Swap cache stats: add 21093901, delete 21104672, find 7072389/8547855
+Jun 21 10:44:51 ubuntu kernel: [1001276.660072] Free swap  = 0kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660073] Total swap = 2097148kB
+Jun 21 10:44:51 ubuntu kernel: [1001276.660073] 33553360 pages RAM
+Jun 21 10:44:51 ubuntu kernel: [1001276.660074] 0 pages HighMem/MovableOnly
+Jun 21 10:44:51 ubuntu kernel: [1001276.660075] 816593 pages reserved
+Jun 21 10:44:51 ubuntu kernel: [1001276.660076] 8192 pages cma reserved
+Jun 21 10:44:51 ubuntu kernel: [1001276.660076] 0 pages hwpoisoned
+Jun 21 10:44:51 ubuntu kernel: [1001276.660078] Tasks state (memory values in pages):
+Jun 21 10:44:51 ubuntu kernel: [1001276.660079] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+Jun 21 10:44:51 ubuntu kernel: [1001276.660131] [   1495]     0  1495    10919     3846   102400       40             0 systemd-journal
+Jun 21 10:44:51 ubuntu kernel: [1001276.660134] [   1508]     0  1508     4964     1478    65536        8         -1000 systemd-udevd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660136] [   1511]     0  1511    19486      251    49152        0             0 lvmetad
+Jun 21 10:44:51 ubuntu kernel: [1001276.660141] [   2173]   100  2173     2916     1130    57344        0             0 systemd-network
+Jun 21 10:44:51 ubuntu kernel: [1001276.660144] [   2246]   101  2246     2646     1102    61440        0             0 systemd-resolve
+Jun 21 10:44:51 ubuntu kernel: [1001276.660146] [   2249] 62583  2249    20961      658    65536        0             0 systemd-timesyn
+Jun 21 10:44:51 ubuntu kernel: [1001276.660148] [   2370]     0  2370    24718     4107    90112        0             0 networkd-dispat
+Jun 21 10:44:51 ubuntu kernel: [1001276.660150] [   2382]     0  2382     2607     1225    61440      112             0 systemd-logind
+Jun 21 10:44:51 ubuntu kernel: [1001276.660151] [   2401]     0  2401    96584     2048   118784      113             0 udisksd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660153] [   2428]     0  2428      915      510    40960        0             0 atd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660155] [   2433]   119  2433     1545      776    53248        0             0 avahi-daemon
+Jun 21 10:44:51 ubuntu kernel: [1001276.660157] [   2438]     0  2438    58251     1607    94208       11             0 accounts-daemon
+Jun 21 10:44:51 ubuntu kernel: [1001276.660159] [   2450]     0  2450    20272      786    61440      113             0 irqbalance
+Jun 21 10:44:51 ubuntu kernel: [1001276.660161] [   2469]     0  2469     1338      661    49152        0             0 cron
+Jun 21 10:44:51 ubuntu kernel: [1001276.660162] [   2488]   103  2488     1879     1074    49152        2          -900 dbus-daemon
+Jun 21 10:44:51 ubuntu kernel: [1001276.660164] [   2504]   119  2504     1492       84    53248        0             0 avahi-daemon
+Jun 21 10:44:51 ubuntu kernel: [1001276.660166] [   2533]     0  2533    81562     2828   135168      262             0 NetworkManager
+Jun 21 10:44:51 ubuntu kernel: [1001276.660168] [   2538]     0  2538    78224     2221   114688        3             0 ModemManager
+Jun 21 10:44:51 ubuntu kernel: [1001276.660169] [   2544]   102  2544    54994     1086    73728      140             0 rsyslogd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660171] [   2551]     0  2551     2354      559    57344        0             0 wpa_supplicant
+Jun 21 10:44:51 ubuntu kernel: [1001276.660173] [   2584]     0  2584    74682      450    77824       72             0 lxcfs
+Jun 21 10:44:51 ubuntu kernel: [1001276.660174] [   2611]     0  2611    57872     1551    81920        8             0 polkitd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660176] [   2827]   127  2827   101533      627   102400        0             0 memcached
+Jun 21 10:44:51 ubuntu kernel: [1001276.660178] [   2836]     0  2836    25878     4759    98304        0             0 unattended-upgr
+Jun 21 10:44:51 ubuntu kernel: [1001276.660182] [   3084]   115  3084    61881     1955   118784      303             0 whoopsie
+Jun 21 10:44:51 ubuntu kernel: [1001276.660183] [   3130]     0  3130     2604     1348    57344        0         -1000 sshd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660185] [   3135]   116  3135     2373      106    53248        0             0 kerneloops
+Jun 21 10:44:51 ubuntu kernel: [1001276.660187] [   3141]   116  3141     2373      107    61440        0             0 kerneloops
+Jun 21 10:44:51 ubuntu kernel: [1001276.660190] [   3149]     0  3149     1052      365    40960        0             0 agetty
+Jun 21 10:44:51 ubuntu kernel: [1001276.660193] [  51078]     0 51078    68138     3140   122880        0             0 packagekitd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660202] [  10716]     0 10716     4212     1778    69632       24             0 cupsd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660204] [  10718]     0 10718    43078     2457    98304       68             0 cups-browsed
+Jun 21 10:44:51 ubuntu kernel: [1001276.660207] [  11854]     0 11854     3106     1552    73728        0             0 sshd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660208] [  11856]  1000 11856     3129     1741    61440        0             0 systemd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660210] [  11857]  1000 11857    40861      593    86016       80             0 (sd-pam)
+Jun 21 10:44:51 ubuntu kernel: [1001276.660211] [  11977]  1000 11977     3106      784    73728        0             0 sshd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660213] [  11978]  1000 11978     1790     1309    53248        0             0 bash
+Jun 21 10:44:51 ubuntu kernel: [1001276.660215] [  12746]     0 12746     3106     1572    65536        0             0 sshd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660217] [  12830]  1000 12830     3106      820    65536        0             0 sshd
+Jun 21 10:44:51 ubuntu kernel: [1001276.660218] [  12831]  1000 12831     1703     1092    57344       70             0 bash
+Jun 21 10:44:51 ubuntu kernel: [1001276.660220] [  12841]  1000 12841     2168     1055    57344       90             0 top
+Jun 21 10:44:51 ubuntu kernel: [1001276.660221] [  12843]     0 12843     1926      900    57344        0             0 sudo
+Jun 21 10:44:51 ubuntu kernel: [1001276.660223] [  12844]     0 12844     1211      682    45056        4             0 run_migration_a
+Jun 21 10:44:51 ubuntu kernel: [1001276.660225] [  12849]     0 12849     1277      690    45056       73             0 bash
+Jun 21 10:44:51 ubuntu kernel: [1001276.660226] [  12897]     0 12897  7463934  6836217 59060224   522795             0 bench_redis_st
+Jun 21 10:44:51 ubuntu kernel: [1001276.660229] [  38303]     0 38303      868      107    40960        0             0 sleep
+Jun 21 10:44:51 ubuntu kernel: [1001276.660231] oom-kill:constraint=CONSTRAINT_MEMORY_POLICY,nodemask=3,cpuset=/,mems_allowed=0-3,global_oom,task_memcg=/user.slice,task=bench_redis_st,pid=12897,uid=0
+Jun 21 10:44:51 ubuntu kernel: [1001276.660271] Out of memory: Killed process 12897 (bench_redis_st) total-vm:29855736kB, anon-rss:27342792kB, file-rss:2076kB, shmem-rss:0kB, UID:0 pgtables:57676kB oom_score_adj:0
+Jun 21 10:44:53 ubuntu kernel: [1001278.488822] oom_reaper: reaped process 12897 (bench_redis_st), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+Jun 21 11:03:50 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 11:03:50 ubuntu anacron[49424]: Anacron 2.3 started on 2021-06-21
+Jun 21 11:03:50 ubuntu anacron[49424]: Normal exit (0 jobs run)
+Jun 21 11:17:01 ubuntu CRON[57158]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 12:00:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 12:00:38 ubuntu anacron[82624]: Anacron 2.3 started on 2021-06-21
+Jun 21 12:00:38 ubuntu anacron[82624]: Normal exit (0 jobs run)
+Jun 21 12:17:02 ubuntu CRON[92217]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 12:37:50 ubuntu systemd[1]: Starting Daily apt download activities...
+Jun 21 12:38:20 ubuntu systemd-networkd-wait-online[6997]: Event loop failed: Connection timed out
+Jun 21 12:38:51 ubuntu apt-helper[6975]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Jun 21 12:38:51 ubuntu apt-helper[6975]: E: Sub-process nm-online returned an error code (1)
+Jun 21 12:38:51 ubuntu systemd[1]: Started Daily apt download activities.
+Jun 21 13:03:50 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 13:03:50 ubuntu anacron[22321]: Anacron 2.3 started on 2021-06-21
+Jun 21 13:03:50 ubuntu anacron[22321]: Normal exit (0 jobs run)
+Jun 21 13:17:01 ubuntu CRON[30041]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 14:02:50 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 14:02:50 ubuntu anacron[56832]: Anacron 2.3 started on 2021-06-21
+Jun 21 14:02:50 ubuntu anacron[56832]: Normal exit (0 jobs run)
+Jun 21 14:17:01 ubuntu CRON[65133]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 15:02:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 15:02:38 ubuntu anacron[91794]: Anacron 2.3 started on 2021-06-21
+Jun 21 15:02:38 ubuntu anacron[91794]: Normal exit (0 jobs run)
+Jun 21 15:15:52 ubuntu systemd[1]: Started Session 357 of user huawei.

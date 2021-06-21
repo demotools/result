@@ -19,15 +19,16 @@ ROOT=$(dirname `readlink -f "$0"`)
 # List of all benchmarks to run
 # BENCHMARKS="gups btree hashjoin redis xsbench pagerank liblinear canneal"
 #BENCHMARKS="btree"
-BENCHMARKS="hashjoin"
+#BENCHMARKS="hashjoin"
+BENCHMARKS="redis"
 #BENCHMARKS="gups"
 # List of all configs to run
-CONFIGS="LPLD RPILD RPILDM"
-#CONFIGS="LPLD"
+#CONFIGS="LPLD RPILD RPILDM"
+CONFIGS="LPLD"
 #CONFIGS="RPILD"
 #CONFIGS="RPILDM"
 
-for RUNTIMES in $(seq 4) 
+for RUNTIMES in $(seq 1) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
