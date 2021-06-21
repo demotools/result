@@ -1,3 +1,4 @@
 Workload	Configuration	Walk Cycles	Non-Walk Cycles	 Norm. Perf.
 HashJoin	LP-LD	0.000000	1.000000	1.000000
 HashJoin	RPI-LD	0.000000	3.217834	3.217834
+Redis	LP-LD	0.000000	1.000000	1.000000

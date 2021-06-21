@@ -4,5 +4,7 @@ ASPLOS'20 - Artifact Evaluation - Mitosis - Figure 10A
 Start test round: 1
 ******************redis : LPLD***********************
 qu : config is RPLD
-[0mWaiting for benchmark: 12897 to be ready
-/home/huawei/result/scripts/run_migration_one.sh: line 309: 12897 Killed                  $LAUNCH_CMD > /dev/null 2>&1
+[0mWaiting for benchmark: 22767 to be ready
+[0mWaiting for benchmark to be done
+redis : LPLD completed.
+
