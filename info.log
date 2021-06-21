@@ -2,9 +2,78 @@
 ASPLOS'20 - Artifact Evaluation - Mitosis - Figure 10A
 ************************************************************************
 Start test round: 1
+******************hashjoin : LPLD***********************
+qu : config is RPLD
+[0mWaiting for benchmark: 35795 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : LPLD completed.
+
+******************hashjoin : RPILD***********************
+qu : config is RPILD
+[0mWaiting for benchmark: 53891 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : RPILD completed.
+
 ******************hashjoin : RPILDM***********************
 qu : config is RPILDM
-[0mWaiting for benchmark: 10675 to be ready
+[0mWaiting for benchmark: 11527 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : RPILDM completed.
+
+Start test round: 2
+******************hashjoin : LPLD***********************
+qu : config is RPLD
+[0mWaiting for benchmark: 29268 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : LPLD completed.
+
+******************hashjoin : RPILD***********************
+qu : config is RPILD
+[0mWaiting for benchmark: 47128 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : RPILD completed.
+
+******************hashjoin : RPILDM***********************
+qu : config is RPILDM
+[0mWaiting for benchmark: 4251 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : RPILDM completed.
+
+Start test round: 3
+******************hashjoin : LPLD***********************
+qu : config is RPLD
+[0mWaiting for benchmark: 21312 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : LPLD completed.
+
+******************hashjoin : RPILD***********************
+qu : config is RPILD
+[0mWaiting for benchmark: 38558 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : RPILD completed.
+
+******************hashjoin : RPILDM***********************
+qu : config is RPILDM
+[0mWaiting for benchmark: 93048 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : RPILDM completed.
+
+Start test round: 4
+******************hashjoin : LPLD***********************
+qu : config is RPLD
+[0mWaiting for benchmark: 13175 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : LPLD completed.
+
+******************hashjoin : RPILD***********************
+qu : config is RPILD
+[0mWaiting for benchmark: 30656 to be ready
+[0mWaiting for benchmark to be done
+hashjoin : RPILD completed.
+
+******************hashjoin : RPILDM***********************
+qu : config is RPILDM
+[0mWaiting for benchmark: 85277 to be ready
 [0mWaiting for benchmark to be done
 hashjoin : RPILDM completed.
 

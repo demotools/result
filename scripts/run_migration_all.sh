@@ -22,12 +22,12 @@ ROOT=$(dirname `readlink -f "$0"`)
 BENCHMARKS="hashjoin"
 #BENCHMARKS="gups"
 # List of all configs to run
-#CONFIGS="LPLD RPILD RPILDM"
+CONFIGS="LPLD RPILD RPILDM"
 #CONFIGS="LPLD"
 #CONFIGS="RPILD"
-CONFIGS="RPILDM"
+#CONFIGS="RPILDM"
 
-for RUNTIMES in $(seq 1) 
+for RUNTIMES in $(seq 4) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 

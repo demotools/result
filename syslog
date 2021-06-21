@@ -1,160 +1,74 @@
-Jun 17 00:09:12 ubuntu anacron[52381]: Job `cron.daily' terminated
-Jun 17 00:09:12 ubuntu anacron[52381]: Normal exit (1 job run)
-Jun 17 00:17:01 ubuntu CRON[52612]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 00:54:01 ubuntu CRON[52633]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
-Jun 17 01:01:38 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 01:01:38 ubuntu anacron[52638]: Anacron 2.3 started on 2021-06-17
-Jun 17 01:01:38 ubuntu anacron[52638]: Normal exit (0 jobs run)
-Jun 17 01:17:01 ubuntu CRON[52663]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 02:00:50 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 02:00:50 ubuntu anacron[52684]: Anacron 2.3 started on 2021-06-17
-Jun 17 02:00:50 ubuntu anacron[52684]: Normal exit (0 jobs run)
-Jun 17 02:17:02 ubuntu CRON[52709]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 03:01:13 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 03:01:13 ubuntu anacron[52730]: Anacron 2.3 started on 2021-06-17
-Jun 17 03:01:13 ubuntu anacron[52730]: Normal exit (0 jobs run)
-Jun 17 03:17:01 ubuntu CRON[52757]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 04:01:50 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 04:01:50 ubuntu anacron[52774]: Anacron 2.3 started on 2021-06-17
-Jun 17 04:01:50 ubuntu anacron[52774]: Normal exit (0 jobs run)
-Jun 17 04:17:01 ubuntu CRON[52800]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 05:04:50 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 05:04:50 ubuntu anacron[52825]: Anacron 2.3 started on 2021-06-17
-Jun 17 05:04:50 ubuntu anacron[52825]: Normal exit (0 jobs run)
-Jun 17 05:17:02 ubuntu CRON[52854]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 05:18:50 ubuntu systemd[1]: Starting Message of the Day...
-Jun 17 05:18:52 ubuntu 50-motd-news[52857]:  * Super-optimized for small spaces - read how we shrank the memory
-Jun 17 05:18:52 ubuntu 50-motd-news[52857]:    footprint of MicroK8s to make it the smallest full K8s around.
-Jun 17 05:18:52 ubuntu 50-motd-news[52857]:    https://ubuntu.com/blog/microk8s-memory-optimisation
-Jun 17 05:18:52 ubuntu systemd[1]: Started Message of the Day.
-Jun 17 06:00:38 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 06:00:38 ubuntu anacron[52939]: Anacron 2.3 started on 2021-06-17
-Jun 17 06:00:38 ubuntu anacron[52939]: Normal exit (0 jobs run)
-Jun 17 06:17:01 ubuntu CRON[52967]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 06:25:01 ubuntu CRON[52975]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
-Jun 17 06:31:50 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
-Jun 17 06:31:51 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
-Jun 17 07:01:17 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 07:01:17 ubuntu anacron[53074]: Anacron 2.3 started on 2021-06-17
-Jun 17 07:01:17 ubuntu anacron[53074]: Normal exit (0 jobs run)
-Jun 17 07:17:01 ubuntu CRON[53098]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 07:30:02 ubuntu CRON[53107]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
-Jun 17 08:04:18 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 08:04:18 ubuntu anacron[53122]: Anacron 2.3 started on 2021-06-17
-Jun 17 08:04:18 ubuntu anacron[53122]: Normal exit (0 jobs run)
-Jun 17 08:17:01 ubuntu CRON[53147]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 09:05:19 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 09:05:19 ubuntu anacron[53173]: Anacron 2.3 started on 2021-06-17
-Jun 17 09:05:19 ubuntu anacron[53173]: Normal exit (0 jobs run)
-Jun 17 09:17:01 ubuntu CRON[53199]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 10:03:20 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 10:03:20 ubuntu anacron[53221]: Anacron 2.3 started on 2021-06-17
-Jun 17 10:03:20 ubuntu anacron[53221]: Normal exit (0 jobs run)
-Jun 17 10:17:02 ubuntu CRON[53248]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 10:25:16 ubuntu systemd[1]: Started Session 237 of user huawei.
-Start test round: 1
-Jun 17 10:27:46 ubuntu kernel: [654655.617307] Page table CONFIG_Migration_test
-Jun 17 10:27:46 ubuntu kernel: [654655.617313] Page table allocation set to normal behavior -3
-Jun 17 11:04:21 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 11:04:21 ubuntu anacron[74484]: Anacron 2.3 started on 2021-06-17
-Jun 17 11:04:21 ubuntu anacron[74484]: Normal exit (0 jobs run)
-Jun 17 11:17:01 ubuntu CRON[81797]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 12:03:50 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 12:03:50 ubuntu anacron[10354]: Anacron 2.3 started on 2021-06-17
-Jun 17 12:03:50 ubuntu anacron[10354]: Normal exit (0 jobs run)
-Jun 17 12:17:01 ubuntu CRON[10378]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 13:02:23 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 13:02:23 ubuntu anacron[10400]: Anacron 2.3 started on 2021-06-17
-Jun 17 13:02:23 ubuntu anacron[10400]: Normal exit (0 jobs run)
-Jun 17 13:17:01 ubuntu CRON[10422]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 14:02:24 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 14:02:24 ubuntu anacron[10439]: Anacron 2.3 started on 2021-06-17
-Jun 17 14:02:24 ubuntu anacron[10439]: Normal exit (0 jobs run)
-Jun 17 14:15:30 ubuntu systemd[1]: Started Session 241 of user huawei.
-Jun 17 14:17:01 ubuntu CRON[10585]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Start test round: 1
-Jun 17 14:23:53 ubuntu kernel: [668822.438307] Page table CONFIG_Migration_test
-Jun 17 14:23:53 ubuntu kernel: [668822.438313] Page table allocation set to fixed on node 0
-Jun 17 14:23:53 ubuntu kernel: [668822.445976] PROCFS: Command ot drain the pgtable cache
-Jun 17 14:23:54 ubuntu kernel: [668823.408587] PROCFS: Command ot populate the pgtable cache
-Jun 17 14:23:54 ubuntu kernel: [668823.408593] PGREPL: populating pgtable cache with 1100000 tables per node
-Jun 17 14:23:54 ubuntu kernel: [668823.408595] PGREPL: populating pgtable cache node[0] with 1100000 tables
-Jun 17 14:23:56 ubuntu kernel: [668825.091358] PGREPL: node[0] populated with 1100000  tables
-Jun 17 14:23:56 ubuntu kernel: [668825.091364] PGREPL: populating pgtable cache node[1] with 1100000 tables
-Jun 17 14:23:58 ubuntu kernel: [668826.989985] PGREPL: node[1] populated with 1100000  tables
-Jun 17 14:23:58 ubuntu kernel: [668826.989990] PGREPL: populating pgtable cache node[2] with 1100000 tables
-Jun 17 14:23:59 ubuntu kernel: [668828.048733] PGREPL: node[2] populated with 1100000  tables
-Jun 17 14:23:59 ubuntu kernel: [668828.048738] PGREPL: populating pgtable cache node[3] with 1100000 tables
-Jun 17 14:24:00 ubuntu kernel: [668828.771385] PGREPL: node[3] populated with 1100000  tables
-Jun 17 14:24:00 ubuntu kernel: [668828.812251] [mitosis] NOTE: version = 6
-Jun 17 14:24:00 ubuntu kernel: [668828.812254] [mitosis] kernel_set_pgtlbreplpolicy: pid = 10675
-Jun 17 14:24:00 ubuntu kernel: [668828.812255] PTREP: Called pgtbl_repl_prepare_replication version 2
-Jun 17 14:24:00 ubuntu kernel: [668828.812256] [mitosis] pgtbl_repl_prepare_replication  for mm=ffff202b66511000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812256] [mitosis]------PTREPL: alloc pgd start------
-Jun 17 14:24:00 ubuntu kernel: [668828.812257] [mitosis] nr_node_ids=4.
-Jun 17 14:24:00 ubuntu kernel: [668828.812258] [mitosis] pgd_alloc origin mm->pgd =ffff00237b9f3000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812260] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff002438a2c000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812263] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff002e7c1bb000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812265] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff20267e9bd000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812266] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202881f0f000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812267] ------PTREPL: alloc pgd success------
-Jun 17 14:24:00 ubuntu kernel: [668828.812268] pgtbl_repl_prepare_replication:1216 pgd=ffff00237b9f3000..ffff00237b9f3fff
-Jun 17 14:24:00 ubuntu kernel: [668828.812270] PTREP: pgd_idx = 341，and pgd=ffff00237b9f3aa8  and pgd[341]=255c84a003
-Jun 17 14:24:00 ubuntu kernel: [668828.812271] pgtbl_repl_prepare_replication:1224 pgd[341]'s pud=ffff00255c84a000..ffff00255c84afff
-Jun 17 14:24:00 ubuntu kernel: [668828.812273] pgtbl_repl_prepare_replication:1228 another func __va pud=ffff00255c84a000..ffff00255c84afff
-Jun 17 14:24:00 ubuntu kernel: [668828.812273] pgtbl_repl_prepare_replication:1229 1 pfn=255c84a   2 pfn=255c84a
-Jun 17 14:24:00 ubuntu kernel: [668828.812280] [mitosis] start search pud .......
-Jun 17 14:24:00 ubuntu kernel: [668828.812282] PTREP: pud_idx = 170，and pud=ffff00255c84a550  and pud[170]=251a56c003
-Jun 17 14:24:00 ubuntu kernel: [668828.812283] pgtbl_repl_prepare_replication:1248 pud[170]'s pmd=ffff00251a56c000..ffff00251a56cfff
-Jun 17 14:24:00 ubuntu kernel: [668828.812283] pgtbl_repl_prepare_replication:1249 1 pfn=251a56c   2 pfn=251a56c
-Jun 17 14:24:00 ubuntu kernel: [668828.812292] PTREP: pmd_idx = 460，and pmd=ffff00251a56ce60  and pmd[460]=20ece23003
-Jun 17 14:24:00 ubuntu kernel: [668828.812293] pgtbl_repl_prepare_replication:1268 pmd[460]'s pte=ffff0020ece23000..ffff0020ece23fff
-Jun 17 14:24:00 ubuntu kernel: [668828.812293] pgtbl_repl_prepare_replication:1269 1 pfn=20ece23   2 pfn=20ece23
-Jun 17 14:24:00 ubuntu kernel: [668828.812301] PTREP: pud_idx = 171，and pud=ffff00255c84a558  and pud[171]=2794b5a003
-Jun 17 14:24:00 ubuntu kernel: [668828.812302] pgtbl_repl_prepare_replication:1248 pud[171]'s pmd=ffff002794b5a000..ffff002794b5afff
-Jun 17 14:24:00 ubuntu kernel: [668828.812303] pgtbl_repl_prepare_replication:1249 1 pfn=2794b5a   2 pfn=2794b5a
-Jun 17 14:24:00 ubuntu kernel: [668828.812309] PTREP: pmd_idx = 403，and pmd=ffff002794b5ac98  and pmd[403]=2275694003
-Jun 17 14:24:00 ubuntu kernel: [668828.812310] pgtbl_repl_prepare_replication:1268 pmd[403]'s pte=ffff002275694000..ffff002275694fff
-Jun 17 14:24:00 ubuntu kernel: [668828.812311] pgtbl_repl_prepare_replication:1269 1 pfn=2275694   2 pfn=2275694
-Jun 17 14:24:00 ubuntu kernel: [668828.812320] ===================================== end of a page
-Jun 17 14:24:00 ubuntu kernel: [668828.812322] PTREP: pgd_idx = 511，and pgd=ffff00237b9f3ff8  and pgd[511]=255ca07003
-Jun 17 14:24:00 ubuntu kernel: [668828.812322] pgtbl_repl_prepare_replication:1224 pgd[511]'s pud=ffff00255ca07000..ffff00255ca07fff
-Jun 17 14:24:00 ubuntu kernel: [668828.812323] pgtbl_repl_prepare_replication:1228 another func __va pud=ffff00255ca07000..ffff00255ca07fff
-Jun 17 14:24:00 ubuntu kernel: [668828.812324] pgtbl_repl_prepare_replication:1229 1 pfn=255ca07   2 pfn=255ca07
-Jun 17 14:24:00 ubuntu kernel: [668828.812330] [mitosis] start search pud .......
-Jun 17 14:24:00 ubuntu kernel: [668828.812333] PTREP: pud_idx = 510，and pud=ffff00255ca07ff0  and pud[510]=273b072003
-Jun 17 14:24:00 ubuntu kernel: [668828.812333] pgtbl_repl_prepare_replication:1248 pud[510]'s pmd=ffff00273b072000..ffff00273b072fff
-Jun 17 14:24:00 ubuntu kernel: [668828.812334] pgtbl_repl_prepare_replication:1249 1 pfn=273b072   2 pfn=273b072
-Jun 17 14:24:00 ubuntu kernel: [668828.812341] PTREP: pmd_idx = 24，and pmd=ffff00273b0720c0  and pmd[24]=2560223003
-Jun 17 14:24:00 ubuntu kernel: [668828.812341] pgtbl_repl_prepare_replication:1268 pmd[24]'s pte=ffff002560223000..ffff002560223fff
-Jun 17 14:24:00 ubuntu kernel: [668828.812342] pgtbl_repl_prepare_replication:1269 1 pfn=2560223   2 pfn=2560223
-Jun 17 14:24:00 ubuntu kernel: [668828.812352] PTREP: pmd_idx = 25，and pmd=ffff00273b0720c8  and pmd[25]=243c61d003
-Jun 17 14:24:00 ubuntu kernel: [668828.812353] pgtbl_repl_prepare_replication:1268 pmd[25]'s pte=ffff00243c61d000..ffff00243c61dfff
-Jun 17 14:24:00 ubuntu kernel: [668828.812354] pgtbl_repl_prepare_replication:1269 1 pfn=243c61d   2 pfn=243c61d
-Jun 17 14:24:00 ubuntu kernel: [668828.812365] PTREP: pud_idx = 511，and pud=ffff00255ca07ff8  and pud[511]=2794a5e003
-Jun 17 14:24:00 ubuntu kernel: [668828.812366] pgtbl_repl_prepare_replication:1248 pud[511]'s pmd=ffff002794a5e000..ffff002794a5efff
-Jun 17 14:24:00 ubuntu kernel: [668828.812367] pgtbl_repl_prepare_replication:1249 1 pfn=2794a5e   2 pfn=2794a5e
-Jun 17 14:24:00 ubuntu kernel: [668828.812374] PTREP: pmd_idx = 437，and pmd=ffff002794a5eda8  and pmd[437]=2275710003
-Jun 17 14:24:00 ubuntu kernel: [668828.812375] pgtbl_repl_prepare_replication:1268 pmd[437]'s pte=ffff002275710000..ffff002275710fff
-Jun 17 14:24:00 ubuntu kernel: [668828.812376] pgtbl_repl_prepare_replication:1269 1 pfn=2275710   2 pfn=2275710
-Jun 17 14:24:00 ubuntu kernel: [668828.812383] ===================================== end of a page
-Jun 17 14:24:00 ubuntu kernel: [668828.812384] pgtbl_repl_prepare_replication:1295 all: pud_num=4, pmd_num=5, pte_num=319
-Jun 17 14:24:00 ubuntu kernel: [668828.812385] PTREP: Called pgtbl_repl_prepare_replication  done
-Jun 17 14:24:00 ubuntu kernel: [668828.812386] [mitosis] pgtable replication enabled for mm=ffff202b66511000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812387] [mitosis] pgtable replication err=0.
-Jun 17 14:24:00 ubuntu kernel: [668828.812404] [mitosis]------PTREPL: alloc pgd start------
-Jun 17 14:24:00 ubuntu kernel: [668828.812405] [mitosis] nr_node_ids=4.
-Jun 17 14:24:00 ubuntu kernel: [668828.812405] [mitosis] pgd_alloc origin mm->pgd =ffff002794b5b000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812407] [mitosis] pgd_alloc mm->repl_pgd[0]=ffff002438a20000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812410] [mitosis] pgd_alloc mm->repl_pgd[1]=ffff002e7c1af000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812412] [mitosis] pgd_alloc mm->repl_pgd[2]=ffff20267e9b1000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812413] [mitosis] pgd_alloc mm->repl_pgd[3]=ffff202881f03000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812414] ------PTREPL: alloc pgd success------
-Jun 17 14:24:00 ubuntu kernel: [668828.812596] [mitosis] PTREPL: free pgd start 
-Jun 17 14:24:00 ubuntu kernel: [668828.812597] [mitosis] pgtable_repl_pgd_free freed pgd=ffff00237b9f3000 and mm->pgd=ffff00237b9f3000.
-Jun 17 14:24:00 ubuntu kernel: [668828.812598] [mitosis]------PTREPL: free pgd done------
-Jun 17 15:04:50 ubuntu systemd[1]: Started Run anacron jobs.
-Jun 17 15:04:50 ubuntu anacron[34200]: Anacron 2.3 started on 2021-06-17
-Jun 17 15:04:50 ubuntu anacron[34200]: Normal exit (0 jobs run)
-Jun 17 15:17:02 ubuntu CRON[35542]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jun 17 15:33:29 ubuntu systemd[1]: Started Session 244 of user huawei.
+Jun 21 00:09:52 ubuntu anacron[10590]: Job `cron.daily' terminated
+Jun 21 00:09:52 ubuntu anacron[10590]: Normal exit (1 job run)
+Jun 21 00:17:01 ubuntu CRON[10817]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 00:54:01 ubuntu CRON[10827]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Jun 21 00:56:38 ubuntu systemd[1]: Starting Daily apt download activities...
+Jun 21 00:57:08 ubuntu systemd-networkd-wait-online[10848]: Event loop failed: Connection timed out
+Jun 21 00:57:38 ubuntu apt-helper[10829]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Jun 21 00:57:38 ubuntu apt-helper[10829]: E: Sub-process nm-online returned an error code (1)
+Jun 21 00:57:39 ubuntu systemd-resolved[2246]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jun 21 00:57:40 ubuntu systemd-resolved[2246]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jun 21 00:57:50 ubuntu systemd[1]: Started Daily apt download activities.
+Jun 21 01:04:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 01:04:38 ubuntu anacron[11413]: Anacron 2.3 started on 2021-06-21
+Jun 21 01:04:38 ubuntu anacron[11413]: Normal exit (0 jobs run)
+Jun 21 01:17:01 ubuntu CRON[11434]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 02:04:52 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 02:04:52 ubuntu anacron[11443]: Anacron 2.3 started on 2021-06-21
+Jun 21 02:04:52 ubuntu anacron[11443]: Normal exit (0 jobs run)
+Jun 21 02:17:02 ubuntu CRON[11465]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 03:00:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 03:00:38 ubuntu anacron[11473]: Anacron 2.3 started on 2021-06-21
+Jun 21 03:00:38 ubuntu anacron[11473]: Normal exit (0 jobs run)
+Jun 21 03:17:01 ubuntu CRON[11496]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 04:04:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 04:04:38 ubuntu anacron[11507]: Anacron 2.3 started on 2021-06-21
+Jun 21 04:04:38 ubuntu anacron[11507]: Normal exit (0 jobs run)
+Jun 21 04:17:01 ubuntu CRON[11530]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 04:36:38 ubuntu systemd[1]: Starting Message of the Day...
+Jun 21 04:36:39 ubuntu 50-motd-news[11536]:  * Super-optimized for small spaces - read how we shrank the memory
+Jun 21 04:36:39 ubuntu 50-motd-news[11536]:    footprint of MicroK8s to make it the smallest full K8s around.
+Jun 21 04:36:39 ubuntu 50-motd-news[11536]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+Jun 21 04:36:39 ubuntu systemd[1]: Started Message of the Day.
+Jun 21 05:02:32 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 05:02:32 ubuntu anacron[11604]: Anacron 2.3 started on 2021-06-21
+Jun 21 05:02:32 ubuntu anacron[11604]: Normal exit (0 jobs run)
+Jun 21 05:17:02 ubuntu CRON[11628]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 06:01:50 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 06:01:50 ubuntu anacron[11638]: Anacron 2.3 started on 2021-06-21
+Jun 21 06:01:50 ubuntu anacron[11638]: Normal exit (0 jobs run)
+Jun 21 06:17:01 ubuntu CRON[11661]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 06:25:01 ubuntu CRON[11668]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun 21 06:41:38 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+Jun 21 06:41:38 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Jun 21 07:04:50 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 07:04:50 ubuntu anacron[11758]: Anacron 2.3 started on 2021-06-21
+Jun 21 07:04:50 ubuntu anacron[11758]: Normal exit (0 jobs run)
+Jun 21 07:17:01 ubuntu CRON[11784]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 07:30:02 ubuntu CRON[11791]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 21 08:02:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 08:02:38 ubuntu anacron[11800]: Anacron 2.3 started on 2021-06-21
+Jun 21 08:02:38 ubuntu anacron[11800]: Normal exit (0 jobs run)
+Jun 21 08:17:01 ubuntu CRON[11823]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 21 09:00:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 21 09:00:38 ubuntu anacron[11832]: Anacron 2.3 started on 2021-06-21
+Jun 21 09:00:38 ubuntu anacron[11832]: Normal exit (0 jobs run)
+Jun 21 09:16:01 ubuntu systemd[1]: Created slice User Slice of huawei.
+Jun 21 09:16:01 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Jun 21 09:16:01 ubuntu systemd[1]: Started Session 348 of user huawei.
+Jun 21 09:16:01 ubuntu systemd[11856]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jun 21 09:16:01 ubuntu systemd[11856]: Listening on GnuPG network certificate management daemon.
+Jun 21 09:16:01 ubuntu systemd[11856]: Reached target Timers.
+Jun 21 09:16:01 ubuntu systemd[11856]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jun 21 09:16:01 ubuntu systemd[11856]: Starting D-Bus User Message Bus Socket.
+Jun 21 09:16:01 ubuntu systemd[11856]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jun 21 09:16:01 ubuntu systemd[11856]: Listening on REST API socket for snapd user session agent.
+Jun 21 09:16:01 ubuntu systemd[11856]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun 21 09:16:01 ubuntu systemd[11856]: Started Pending report trigger for Ubuntu Report.
+Jun 21 09:16:01 ubuntu systemd[11856]: Reached target Paths.
+Jun 21 09:16:01 ubuntu systemd[11856]: Listening on D-Bus User Message Bus Socket.
+Jun 21 09:16:01 ubuntu systemd[11856]: Reached target Sockets.
+Jun 21 09:16:01 ubuntu systemd[11856]: Reached target Basic System.
+Jun 21 09:16:01 ubuntu systemd[11856]: Reached target Default.
+Jun 21 09:16:01 ubuntu systemd[11856]: Startup finished in 40ms.
+Jun 21 09:16:01 ubuntu systemd[1]: Started User Manager for UID 1000.
