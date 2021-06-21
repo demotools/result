@@ -335,3 +335,5 @@ Jun 21 22:05:21 ubuntu kernel: [1042106.432942] Out of memory: Killed process 19
 Jun 21 22:05:23 ubuntu kernel: [1042108.225917] oom_reaper: reaped process 19581 (bench_redis_st), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
 Jun 21 22:14:28 ubuntu kernel: [1042653.585392] Page table CONFIG_Migration_test
 Jun 21 22:14:28 ubuntu kernel: [1042653.585396] Page table allocation set to normal behavior -6
+Jun 21 22:26:04 ubuntu kernel: [1043349.037746] Page table CONFIG_Migration_test
+Jun 21 22:26:04 ubuntu kernel: [1043349.037751] Page table allocation set to normal behavior -3
