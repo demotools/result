@@ -671,3 +671,18 @@ Jun 22 15:28:17 ubuntu kernel: [1104681.572397] Page table allocation set to nor
 Start test round: 1
 Jun 22 15:45:14 ubuntu kernel: [1105698.558612] Page table CONFIG_Migration_test
 Jun 22 15:45:14 ubuntu kernel: [1105698.558618] Page table allocation set to normal behavior -3
+Jun 22 16:04:33 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 22 16:04:33 ubuntu anacron[97186]: Anacron 2.3 started on 2021-06-22
+Jun 22 16:04:33 ubuntu anacron[97186]: Normal exit (0 jobs run)
+Jun 22 16:17:01 ubuntu CRON[97211]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+Jun 22 16:41:09 ubuntu kernel: [1109053.348885] Page table CONFIG_Migration_test
+Jun 22 16:41:09 ubuntu kernel: [1109053.348890] Page table allocation set to normal behavior -6
+Start test round: 1
+Jun 22 16:53:30 ubuntu kernel: [1109794.192540] Page table CONFIG_Migration_test
+Jun 22 16:53:30 ubuntu kernel: [1109794.192546] Page table allocation set to normal behavior -3
+Jun 22 17:03:34 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 22 17:03:34 ubuntu anacron[12419]: Anacron 2.3 started on 2021-06-22
+Jun 22 17:03:34 ubuntu anacron[12419]: Normal exit (0 jobs run)
+Jun 22 17:17:01 ubuntu CRON[20230]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 22 17:31:15 ubuntu systemd[1]: Started Session 395 of user huawei.
