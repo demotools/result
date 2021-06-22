@@ -1,0 +1,5 @@
+/home/huawei/result/bin/numactl -m 3 -c 3 --pgtablerepl=3 /home/huawei/result/bin/bench_xsbench_mt -- -t 16 -g 180000 -p 1500000
+# started on Tue Jun 22 14:59:35 2021
+
+Execution Time (seconds): 121
+****success****

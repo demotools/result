@@ -2,9 +2,9 @@
 ASPLOS'20 - Artifact Evaluation - Mitosis - Figure 10A
 ************************************************************************
 Start test round: 1
-******************xsbench : RPILDM***********************
-qu : config is RPILDM
-[0mWaiting for benchmark: 75523 to be ready
+******************xsbench : RPILD***********************
+qu : config is RPILD
+[0mWaiting for benchmark: 89450 to be ready
 [0mWaiting for benchmark to be done
-xsbench : RPILDM completed.
+xsbench : RPILD completed.
 
