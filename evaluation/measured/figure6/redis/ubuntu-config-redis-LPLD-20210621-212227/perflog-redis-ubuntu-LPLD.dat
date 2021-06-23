@@ -1,1 +1,0 @@
-/home/huawei/result/bin/numactl -m 3 -c 3 /home/huawei/result/bin/bench_redis_st
