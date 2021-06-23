@@ -21,7 +21,9 @@ PERF_EVENTS=cycles,dTLB-loads,dTLB-load-misses,iTLB-loads,iTLB-load-misses,dtlb_
 #XSBENCH_ARGS=" -- -t 16 -g 180000 -p 15000000" #原始配置
 XSBENCH_ARGS=" -- -t 1 -g 40000 -p 1500000"
 LIBLINEAR_ARGS=" -- -s 6 -n 28 $MAIN/datasets/kdd12 "
-CANNEAL_ARGS=" -- 1 150000 2000 $MAIN/datasets/canneal_small 500 "
+#CANNEAL_ARGS=" -- 1 150000 2000 $MAIN/datasets/canneal_small 500 "
+CANNEAL_ARGS=" -- 1 150000 2000 /home/huawei/gitclone/datasets/canneal_20G 500 "
+#CANNEAL_ARGS=" -- 1 150000 2000 /home/huawei/gitclone/datasets/400000.nets 500 "
 BENCH_ARGS=""
 
 BTREE_ARGS=" -- -n 410000000 -l 20000000000 -o 4"  #140 能吃满80多G  35能吃满21G
@@ -355,7 +357,7 @@ validate_benchmark_config $BENCHMARK $CONFIG
 prepare_benchmark_name $BENCHMARK
 prepare_basic_config_params $CONFIG
 prepare_all_pathnames
-prepare_datasets $BENCHMARK
+#prepare_datasets $BENCHMARK
 set_system_configs $CONFIG
 
 # --- finally, launch the job

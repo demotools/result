@@ -1,0 +1,1 @@
+/home/huawei/result/bin/numactl -m 3 -c 3 /home/huawei/result/bin/bench_canneal_mt -- 1 150000 2000 /home/huawei/gitclone/datasets/canneal_20G 500
