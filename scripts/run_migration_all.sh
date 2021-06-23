@@ -27,8 +27,8 @@ BENCHMARKS="canneal"
 # List of all configs to run
 #CONFIGS="LPLD RPILD RPILDM"
 #CONFIGS="LPLD"
-CONFIGS="RPILD"
-#CONFIGS="RPILDM"
+#CONFIGS="RPILD"
+CONFIGS="RPILDM"
 
 for RUNTIMES in $(seq 1) 
 do
