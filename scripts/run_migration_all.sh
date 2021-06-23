@@ -26,8 +26,8 @@ BENCHMARKS="canneal"
 #BENCHMARKS="gups"
 # List of all configs to run
 #CONFIGS="LPLD RPILD RPILDM"
-CONFIGS="LPLD"
-#CONFIGS="RPILD"
+#CONFIGS="LPLD"
+CONFIGS="RPILD"
 #CONFIGS="RPILDM"
 
 for RUNTIMES in $(seq 1) 

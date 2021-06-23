@@ -24,6 +24,7 @@ LIBLINEAR_ARGS=" -- -s 6 -n 28 $MAIN/datasets/kdd12 "
 #CANNEAL_ARGS=" -- 1 150000 2000 $MAIN/datasets/canneal_small 500 "
 CANNEAL_ARGS=" -- 1 150000 2000 /home/huawei/gitclone/datasets/canneal_20G 500 "
 #CANNEAL_ARGS=" -- 1 150000 2000 /home/huawei/gitclone/datasets/400000.nets 500 "
+#CANNEAL_ARGS=" -- 1 150000 2000 /home/huawei/gitclone/datasets/2500000.nets 500 "
 BENCH_ARGS=""
 
 BTREE_ARGS=" -- -n 410000000 -l 20000000000 -o 4"  #140 能吃满80多G  35能吃满21G
