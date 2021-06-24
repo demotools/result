@@ -2,9 +2,78 @@
 ASPLOS'20 - Artifact Evaluation - Mitosis - Figure 10A
 ************************************************************************
 Start test round: 1
+******************canneal : LPLD***********************
+qu : config is RPLD
+[0mWaiting for benchmark: 42331 to be ready
+[0mWaiting for benchmark to be done
+canneal : LPLD completed.
+
+******************canneal : RPILD***********************
+qu : config is RPILD
+[0mWaiting for benchmark: 49313 to be ready
+[0mWaiting for benchmark to be done
+canneal : RPILD completed.
+
 ******************canneal : RPILDM***********************
 qu : config is RPILDM
-[0mWaiting for benchmark: 34965 to be ready
+[0mWaiting for benchmark: 65295 to be ready
+[0mWaiting for benchmark to be done
+canneal : RPILDM completed.
+
+Start test round: 2
+******************canneal : LPLD***********************
+qu : config is RPLD
+[0mWaiting for benchmark: 72476 to be ready
+[0mWaiting for benchmark to be done
+canneal : LPLD completed.
+
+******************canneal : RPILD***********************
+qu : config is RPILD
+[0mWaiting for benchmark: 79661 to be ready
+[0mWaiting for benchmark to be done
+canneal : RPILD completed.
+
+******************canneal : RPILDM***********************
+qu : config is RPILDM
+[0mWaiting for benchmark: 95682 to be ready
+[0mWaiting for benchmark to be done
+canneal : RPILDM completed.
+
+Start test round: 3
+******************canneal : LPLD***********************
+qu : config is RPLD
+[0mWaiting for benchmark: 5475 to be ready
+[0mWaiting for benchmark to be done
+canneal : LPLD completed.
+
+******************canneal : RPILD***********************
+qu : config is RPILD
+[0mWaiting for benchmark: 12651 to be ready
+[0mWaiting for benchmark to be done
+canneal : RPILD completed.
+
+******************canneal : RPILDM***********************
+qu : config is RPILDM
+[0mWaiting for benchmark: 28720 to be ready
+[0mWaiting for benchmark to be done
+canneal : RPILDM completed.
+
+Start test round: 4
+******************canneal : LPLD***********************
+qu : config is RPLD
+[0mWaiting for benchmark: 35899 to be ready
+[0mWaiting for benchmark to be done
+canneal : LPLD completed.
+
+******************canneal : RPILD***********************
+qu : config is RPILD
+[0mWaiting for benchmark: 43069 to be ready
+[0mWaiting for benchmark to be done
+canneal : RPILD completed.
+
+******************canneal : RPILDM***********************
+qu : config is RPILDM
+[0mWaiting for benchmark: 59135 to be ready
 [0mWaiting for benchmark to be done
 canneal : RPILDM completed.
 
