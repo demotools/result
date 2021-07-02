@@ -31,7 +31,7 @@ CONFIGS="LPLD RPILD RPILDM"
 #CONFIGS="RPILD"
 #CONFIGS="RPILDM"
 
-for RUNTIMES in $(seq 1) 
+for RUNTIMES in $(seq 5) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
