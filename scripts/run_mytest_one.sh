@@ -30,13 +30,13 @@ SYSBENCH_ARGS=" --threads=96 --memory-block-size=1k --memory-total-size=128G mem
 #CANNEAL_ARGS=" -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_small 500 "
 CANNEAL_ARGS=" -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_80G 500 "
 #CANNEAL_ARGS=" -- 96 15000 2000 /home/huawei/gitclone/datasets/400000.nets 128 "
-BENCH_size="small"
-#BENCH_size="large"
+#BENCH_size="small"
+BENCH_size="large"
 if [ $BENCH_size == "small" ]; then
         BTREE_ARGS=""
         HASH_ARGS=""
 else 
-        BTREE_ARGS=" -- -n 1700000000 -l 1800000000 -o 4"
+        BTREE_ARGS=" -- -n 1600000000 -l 1800000000 -o 4"
         #BTREE_ARGS=" -- -n 1400000000 -l 100000000 -o 4"  #140 能吃满80多G  35能吃满21G
         HASH_ARGS=" -- -o 100000000 -i 10000000 -s 10000000"       
 fi
