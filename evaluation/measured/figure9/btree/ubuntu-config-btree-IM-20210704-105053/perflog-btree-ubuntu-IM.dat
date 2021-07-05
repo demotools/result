@@ -1,0 +1,17 @@
+/home/huawei/result/bin/numactl --interleave=all --pgtablerepl=3 /home/huawei/result/bin/bench_btree_mt
+# started on Sun Jul  4 10:50:58 2021
+
+239721144612,,cycles,92267008430,100.00,,
+268650666,,dTLB-loads,92051693740,100.00,,
+1355565,,dTLB-load-misses,91850964180,100.00,0.50,of all dTLB cache hits
+380883827,,iTLB-loads,91666470780,100.00,,
+36554,,iTLB-load-misses,91476534330,100.00,0.01,of all iTLB cache hits
+129883,,dtlb_walk,91289222780,100.00,,
+47733,,itlb_walk,91092752980,100.00,,
+783,,context-switches,90897137300,100.00,,
+46,,cpu-migrations,90708759820,100.00,,
+1,,page-faults,90534799260,100.00,,
+239135936,,mem_access,90315751770,100.00,,
+11276700,,remote_access,90091592730,100.00,,
+Execution Time (seconds): 1
+****success****

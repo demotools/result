@@ -1,53 +1,59 @@
-Jul  2 00:08:25 ubuntu anacron[41969]: Job `cron.daily' terminated
-Jul  2 00:08:25 ubuntu anacron[41969]: Normal exit (1 job run)
-Jul  2 00:17:02 ubuntu CRON[42203]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul  2 00:54:01 ubuntu CRON[42226]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
-Jul  2 01:03:24 ubuntu systemd[1]: Started Run anacron jobs.
-Jul  2 01:03:24 ubuntu anacron[42231]: Anacron 2.3 started on 2021-07-02
-Jul  2 01:03:24 ubuntu anacron[42231]: Normal exit (0 jobs run)
-Jul  2 01:15:38 ubuntu systemd[1]: Starting Message of the Day...
-Jul  2 01:15:39 ubuntu 50-motd-news[42254]:  * Super-optimized for small spaces - read how we shrank the memory
-Jul  2 01:15:39 ubuntu 50-motd-news[42254]:    footprint of MicroK8s to make it the smallest full K8s around.
-Jul  2 01:15:39 ubuntu 50-motd-news[42254]:    https://ubuntu.com/blog/microk8s-memory-optimisation
-Jul  2 01:15:39 ubuntu systemd[1]: Started Message of the Day.
-Jul  2 01:17:01 ubuntu CRON[42315]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul  2 02:00:50 ubuntu systemd[1]: Started Run anacron jobs.
-Jul  2 02:00:51 ubuntu anacron[42333]: Anacron 2.3 started on 2021-07-02
-Jul  2 02:00:51 ubuntu anacron[42333]: Normal exit (0 jobs run)
-Jul  2 02:17:01 ubuntu CRON[42361]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul  2 03:03:38 ubuntu systemd[1]: Started Run anacron jobs.
-Jul  2 03:03:38 ubuntu anacron[42379]: Anacron 2.3 started on 2021-07-02
-Jul  2 03:03:38 ubuntu anacron[42379]: Normal exit (0 jobs run)
-Jul  2 03:17:02 ubuntu CRON[42402]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul  2 04:02:27 ubuntu systemd[1]: Started Run anacron jobs.
-Jul  2 04:02:27 ubuntu anacron[42418]: Anacron 2.3 started on 2021-07-02
-Jul  2 04:02:27 ubuntu anacron[42418]: Normal exit (0 jobs run)
-Jul  2 04:17:01 ubuntu CRON[42442]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul  2 05:01:28 ubuntu systemd[1]: Started Run anacron jobs.
-Jul  2 05:01:29 ubuntu anacron[42459]: Anacron 2.3 started on 2021-07-02
-Jul  2 05:01:29 ubuntu anacron[42459]: Normal exit (0 jobs run)
-Jul  2 05:17:01 ubuntu CRON[42485]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul  2 06:03:29 ubuntu systemd[1]: Started Run anacron jobs.
-Jul  2 06:03:29 ubuntu anacron[42502]: Anacron 2.3 started on 2021-07-02
-Jul  2 06:03:29 ubuntu anacron[42502]: Normal exit (0 jobs run)
-Jul  2 06:17:01 ubuntu CRON[42530]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul  2 06:25:02 ubuntu CRON[42537]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
-Jul  2 06:53:19 ubuntu kernel: [1937776.111526] [mitosis] PTREPL: free pgd start 
-Jul  2 06:53:19 ubuntu kernel: [1937776.111533] [mitosis] pgtable_repl_pgd_free freed pgd=ffff0022074ca000 and mm->pgd=ffff0022074ca000.
-Jul  2 06:53:19 ubuntu kernel: [1937776.111537] [mitosis]------PTREPL: free pgd done------
-Jul  2 06:57:24 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
-Jul  2 06:57:24 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
-Jul  2 07:04:50 ubuntu systemd[1]: Started Run anacron jobs.
-Jul  2 07:04:50 ubuntu anacron[42631]: Anacron 2.3 started on 2021-07-02
-Jul  2 07:04:50 ubuntu anacron[42631]: Normal exit (0 jobs run)
-Jul  2 07:17:01 ubuntu CRON[42656]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul  2 07:30:01 ubuntu CRON[42666]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
-Jul  2 08:01:38 ubuntu systemd[1]: Started Run anacron jobs.
-Jul  2 08:01:38 ubuntu anacron[42675]: Anacron 2.3 started on 2021-07-02
-Jul  2 08:01:38 ubuntu anacron[42675]: Normal exit (0 jobs run)
-Jul  2 08:17:02 ubuntu CRON[42699]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul  2 09:04:50 ubuntu systemd[1]: Started Run anacron jobs.
-Jul  2 09:04:50 ubuntu anacron[42716]: Anacron 2.3 started on 2021-07-02
-Jul  2 09:04:50 ubuntu anacron[42716]: Normal exit (0 jobs run)
-Jul  2 09:17:01 ubuntu CRON[42741]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul  2 09:59:50 ubuntu systemd[1]: Started Session 677 of user huawei.
+Jul  5 00:09:19 ubuntu anacron[83995]: Job `cron.daily' terminated
+Jul  5 00:09:19 ubuntu anacron[83995]: Normal exit (1 job run)
+Jul  5 00:17:02 ubuntu CRON[84228]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  5 00:54:01 ubuntu CRON[84240]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Jul  5 01:04:35 ubuntu systemd[1]: Started Run anacron jobs.
+Jul  5 01:04:36 ubuntu anacron[84248]: Anacron 2.3 started on 2021-07-05
+Jul  5 01:04:36 ubuntu anacron[84248]: Normal exit (0 jobs run)
+Jul  5 01:17:01 ubuntu CRON[84270]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  5 02:01:04 ubuntu systemd[1]: Started Run anacron jobs.
+Jul  5 02:01:04 ubuntu anacron[84296]: Anacron 2.3 started on 2021-07-05
+Jul  5 02:01:04 ubuntu anacron[84296]: Normal exit (0 jobs run)
+Jul  5 02:17:02 ubuntu CRON[84327]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  5 03:02:37 ubuntu systemd[1]: Started Run anacron jobs.
+Jul  5 03:02:38 ubuntu anacron[84346]: Anacron 2.3 started on 2021-07-05
+Jul  5 03:02:38 ubuntu anacron[84346]: Normal exit (0 jobs run)
+Jul  5 03:17:01 ubuntu CRON[84374]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  5 04:00:38 ubuntu systemd[1]: Started Run anacron jobs.
+Jul  5 04:00:39 ubuntu anacron[84396]: Anacron 2.3 started on 2021-07-05
+Jul  5 04:00:39 ubuntu anacron[84396]: Normal exit (0 jobs run)
+Jul  5 04:17:01 ubuntu CRON[84423]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  5 05:00:40 ubuntu systemd[1]: Started Run anacron jobs.
+Jul  5 05:00:40 ubuntu anacron[84444]: Anacron 2.3 started on 2021-07-05
+Jul  5 05:00:40 ubuntu anacron[84444]: Normal exit (0 jobs run)
+Jul  5 05:17:01 ubuntu CRON[84472]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  5 06:01:41 ubuntu systemd[1]: Started Run anacron jobs.
+Jul  5 06:01:41 ubuntu anacron[84491]: Anacron 2.3 started on 2021-07-05
+Jul  5 06:01:41 ubuntu anacron[84491]: Normal exit (0 jobs run)
+Jul  5 06:17:02 ubuntu CRON[84517]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  5 06:25:01 ubuntu CRON[84525]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jul  5 06:30:41 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+Jul  5 06:30:42 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Jul  5 07:04:51 ubuntu systemd[1]: Started Run anacron jobs.
+Jul  5 07:04:51 ubuntu anacron[84621]: Anacron 2.3 started on 2021-07-05
+Jul  5 07:04:51 ubuntu anacron[84621]: Normal exit (0 jobs run)
+Jul  5 07:17:01 ubuntu CRON[84646]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  5 07:30:01 ubuntu CRON[84657]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jul  5 08:03:43 ubuntu systemd[1]: Started Run anacron jobs.
+Jul  5 08:03:43 ubuntu anacron[84672]: Anacron 2.3 started on 2021-07-05
+Jul  5 08:03:43 ubuntu anacron[84672]: Normal exit (0 jobs run)
+Jul  5 08:17:02 ubuntu CRON[84697]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  5 08:56:20 ubuntu systemd[1]: Created slice User Slice of huawei.
+Jul  5 08:56:20 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Jul  5 08:56:20 ubuntu systemd[1]: Started Session 80 of user huawei.
+Jul  5 08:56:21 ubuntu systemd[84722]: Reached target Timers.
+Jul  5 08:56:21 ubuntu systemd[84722]: Starting D-Bus User Message Bus Socket.
+Jul  5 08:56:21 ubuntu systemd[84722]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jul  5 08:56:21 ubuntu systemd[84722]: Listening on REST API socket for snapd user session agent.
+Jul  5 08:56:21 ubuntu systemd[84722]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul  5 08:56:21 ubuntu systemd[84722]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jul  5 08:56:21 ubuntu systemd[84722]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jul  5 08:56:21 ubuntu systemd[84722]: Listening on GnuPG network certificate management daemon.
+Jul  5 08:56:21 ubuntu systemd[84722]: Started Pending report trigger for Ubuntu Report.
+Jul  5 08:56:21 ubuntu systemd[84722]: Reached target Paths.
+Jul  5 08:56:21 ubuntu systemd[84722]: Listening on D-Bus User Message Bus Socket.
+Jul  5 08:56:21 ubuntu systemd[84722]: Reached target Sockets.
+Jul  5 08:56:21 ubuntu systemd[84722]: Reached target Basic System.
+Jul  5 08:56:21 ubuntu systemd[84722]: Reached target Default.
+Jul  5 08:56:21 ubuntu systemd[84722]: Startup finished in 156ms.
+Jul  5 08:56:21 ubuntu systemd[1]: Started User Manager for UID 1000.
