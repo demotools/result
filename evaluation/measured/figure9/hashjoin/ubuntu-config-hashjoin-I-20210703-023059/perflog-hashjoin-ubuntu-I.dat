@@ -1,3 +1,0 @@
-/home/huawei/result/bin/numactl --interleave=all /home/huawei/result/bin/bench_hashjoin_mt
-Execution Time (seconds): 0
-****success****

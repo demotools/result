@@ -2,15 +2,48 @@
 ASPLOS'20 - Artifact Evaluation - Mitosis - Figure 9A
 ************************************************************************
 Start test round: 1
-******************btree : FM***********************
+******************hashjoin : F***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 92264 to be ready
+[0mWaiting for benchmark: 98078 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-05 11:34:00
+[0mWaiting for benchmark to be done current :2021-07-05 11:47:42
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 218
-btree : FM completed.
+Execution Time (seconds): 146
+hashjoin : F completed.
+
+******************hashjoin : FM***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 2220 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-05 11:50:20
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 153
+hashjoin : FM completed.
+
+******************hashjoin : I***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 4013 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-05 11:53:05
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 53
+hashjoin : I completed.
+
+******************hashjoin : IM***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 4772 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-05 11:54:13
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 47
+hashjoin : IM completed.
 
 ******************ALL done : suncess!***********************
