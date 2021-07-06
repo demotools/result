@@ -18,9 +18,9 @@ ROOT=$(dirname `readlink -f "$0"`)
 
 # List of all benchmarks to run
 #BENCHMARKS="memcached xsbench graph500 hashjoin btree canneal"
-BENCHMARKS="btree hashjoin"
+#BENCHMARKS="btree hashjoin"
 #BENCHMARKS="hashjoin btree canneal"
-#BENCHMARKS="hashjoin"
+BENCHMARKS="hashjoin"
 #BENCHMARKS="canneal"
 #BENCHMARKS="xsbench"
 #BENCHMARKS="graph500"
