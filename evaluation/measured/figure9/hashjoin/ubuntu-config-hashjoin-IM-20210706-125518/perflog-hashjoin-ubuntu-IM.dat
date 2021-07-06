@@ -1,1 +1,0 @@
-/home/huawei/result/bin/numactl --interleave=all --pgtablerepl=3 /home/huawei/result/bin/bench_hashjoin_mt -- -o 800000000 -i 20000000 -s 20000000

@@ -6,44 +6,44 @@ Start test round: 1
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 45525 to be ready
+[0mWaiting for benchmark: 3643 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 09:53:07
+[0mWaiting for benchmark to be done current :2021-07-06 14:46:01
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 1497
+Execution Time (seconds): 1228
 hashjoin : F completed.
 
 ******************hashjoin : FM***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 61070 to be ready
+[0mWaiting for benchmark: 16287 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 10:19:21
+[0mWaiting for benchmark to be done current :2021-07-06 15:07:36
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 1185
+Execution Time (seconds): 986
 hashjoin : FM completed.
 
 ******************hashjoin : I***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 73246 to be ready
+[0mWaiting for benchmark: 26577 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 10:40:22
+[0mWaiting for benchmark to be done current :2021-07-06 15:25:13
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 450
+Execution Time (seconds): 385
 hashjoin : I completed.
 
 ******************hashjoin : IM***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 78410 to be ready
+[0mWaiting for benchmark: 31066 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 10:49:05
+[0mWaiting for benchmark to be done current :2021-07-06 15:32:49
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 436
+Execution Time (seconds): 423
 hashjoin : IM completed.
 
 Start test round: 2
@@ -51,44 +51,44 @@ Start test round: 2
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 83447 to be ready
+[0mWaiting for benchmark: 35967 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 10:57:42
+[0mWaiting for benchmark to be done current :2021-07-06 15:41:01
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 1519
+Execution Time (seconds): 1342
 hashjoin : F completed.
 
 ******************hashjoin : FM***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 1415 to be ready
+[0mWaiting for benchmark: 49708 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 11:24:19
+[0mWaiting for benchmark to be done current :2021-07-06 16:04:30
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 1163
+Execution Time (seconds): 918
 hashjoin : FM completed.
 
 ******************hashjoin : I***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 13637 to be ready
+[0mWaiting for benchmark: 59383 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 11:45:07
+[0mWaiting for benchmark to be done current :2021-07-06 16:20:55
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 472
+Execution Time (seconds): 419
 hashjoin : I completed.
 
 ******************hashjoin : IM***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 19120 to be ready
+[0mWaiting for benchmark: 64168 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 11:54:13
+[0mWaiting for benchmark to be done current :2021-07-06 16:29:02
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 663
+Execution Time (seconds): 384
 hashjoin : IM completed.
 
 Start test round: 3
@@ -96,40 +96,134 @@ Start test round: 3
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 26437 to be ready
+[0mWaiting for benchmark: 68656 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 12:06:38
+[0mWaiting for benchmark to be done current :2021-07-06 16:36:35
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 1496
+Execution Time (seconds): 1349
 hashjoin : F completed.
 
 ******************hashjoin : FM***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 41610 to be ready
+[0mWaiting for benchmark: 82472 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 12:33:22
+[0mWaiting for benchmark to be done current :2021-07-06 17:00:11
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 749
+Execution Time (seconds): 1100
 hashjoin : FM completed.
 
 ******************hashjoin : I***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 50103 to be ready
+[0mWaiting for benchmark: 93869 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 12:47:08
+[0mWaiting for benchmark to be done current :2021-07-06 17:19:44
 signalling done to /tmp/alloctest-bench.done
-Execution Time (seconds): 482
+Execution Time (seconds): 387
 hashjoin : I completed.
 
 ******************hashjoin : IM***********************
 available: 4 nodes (0-3)
 4
 3
-[0mWaiting for benchmark: 55581 to be ready
+[0mWaiting for benchmark: 681 to be ready
 signalling readyness to /tmp/alloctest-bench.ready
-[0mWaiting for benchmark to be done current :2021-07-06 13:17:47
-/home/huawei/result/scripts/run_mytest_one.sh: line 220: 55581 Segmentation fault      (core dumped) $LAUNCH_CMD >> /var/log/syslog
+[0mWaiting for benchmark to be done current :2021-07-06 17:27:19
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 375
+hashjoin : IM completed.
+
+Start test round: 4
+******************hashjoin : F***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 5524 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-06 17:34:43
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 1251
+hashjoin : F completed.
+
+******************hashjoin : FM***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 18490 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-06 17:56:42
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 1024
+hashjoin : FM completed.
+
+******************hashjoin : I***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 29223 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-06 18:14:57
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 389
+hashjoin : I completed.
+
+******************hashjoin : IM***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 33762 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-06 18:22:34
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 413
+hashjoin : IM completed.
+
+Start test round: 5
+******************hashjoin : F***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 38530 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-06 18:30:40
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 1322
+hashjoin : F completed.
+
+******************hashjoin : FM***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 52180 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-06 18:53:49
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 1121
+hashjoin : FM completed.
+
+******************hashjoin : I***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 63770 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-06 19:13:40
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 393
+hashjoin : I completed.
+
+******************hashjoin : IM***********************
+available: 4 nodes (0-3)
+4
+3
+[0mWaiting for benchmark: 68332 to be ready
+signalling readyness to /tmp/alloctest-bench.ready
+[0mWaiting for benchmark to be done current :2021-07-06 19:21:25
+signalling done to /tmp/alloctest-bench.done
+Execution Time (seconds): 400
+hashjoin : IM completed.
+
+******************ALL done : suncess!***********************
