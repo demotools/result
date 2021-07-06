@@ -36,9 +36,10 @@ if [ $BENCH_size == "small" ]; then
         BTREE_ARGS=""
         HASH_ARGS=""
 else 
-        BTREE_ARGS=" -- -n 1600000000 -l 1800000000 -o 4"
+        BTREE_ARGS=" -- -n 1600000000 -l 18000000000 -o 4"
         #BTREE_ARGS=" -- -n 1400000000 -l 100000000 -o 4"  #140 能吃满80多G  35能吃满21G
-        HASH_ARGS=" -- -o 100000000 -i 10000000 -s 10000000"       
+        #HASH_ARGS=" -- -o 100000000 -i 10000000 -s 10000000"
+ 	HASH_ARGS=" -- -o 100000000 -i 20000000 -s 20000000" 	
 fi
 
 
