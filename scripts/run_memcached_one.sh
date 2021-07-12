@@ -231,7 +231,7 @@ launch_benchmark_config()
 	# 	sleep 0.1
 	# done
         SECONDS=0
-	for RUNTIMES in $(seq 8)
+	for RUNTIMES in $(seq 1)  
 do
 	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --ratio=10:0 --key-maximum=1000000000 --distinct-client-seed --randomize  --expiry-range=360000-360001 --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog
 done
@@ -243,7 +243,10 @@ done
 	rm /tmp/alloctest-bench.ready &>/dev/null
         rm /tmp/alloctest-bench.done &> /dev/null
 	#高斯读#
-	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --random-data --ratio=0:10 --key-maximum=1000000000 --key-pattern=G:G --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
+        LAUNCH_CMD2="$CMD_PREFIX memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --random-data --ratio=0:10 --key-maximum=1000000000 --key-pattern=G:G --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log"
+	echo $LAUNCH_CMD2 >> $OUTFILE
+	$LAUNCH_CMD2 >> /var/log/syslog & 
+        #memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --random-data --ratio=0:10 --key-maximum=1000000000 --key-pattern=G:G --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
 	#随机#memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --random-data --ratio=0:10 --key-maximum=1000000000 --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
 	#原始#	memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --ratio=0:10 --key-maximum=1000000000 --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log >> /var/log/syslog &
         memtierPID=$!
