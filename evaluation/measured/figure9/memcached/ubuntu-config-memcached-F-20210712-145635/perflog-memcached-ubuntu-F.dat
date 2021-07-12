@@ -1,0 +1,18 @@
+/home/huawei/result/bin/numactl /home/huawei/result/bin/bench_memcached_mt -d -m 81920m -p 11212 -u huawei -t 8
+/home/huawei/result/bin/numactl memtier_benchmark -s 127.0.0.1 -p 11212 -P memcache_text -c 100 -t 8 -n 100000 --random-data --ratio=0:10 --key-maximum=1000000000 --key-pattern=G:G --distinct-client-seed --randomize --out-file=/home/huawei/memcachedTest/result.log
+# started on Mon Jul 12 15:01:35 2021
+
+7056911313,,cycles,2728300600,100.00,,
+3601939026,,dTLB-loads,2728303900,100.00,,
+7621424,,dTLB-load-misses,2728306470,100.00,0.21,of all dTLB cache hits
+2422588807,,iTLB-loads,2728308950,100.00,,
+19557,,iTLB-load-misses,2728311050,100.00,0.00,of all iTLB cache hits
+2838447,,dtlb_walk,2728313250,100.00,,
+37916,,itlb_walk,2728315460,100.00,,
+458,,context-switches,2726294440,100.00,,
+13,,cpu-migrations,2726296750,100.00,,
+2169,,page-faults,2726298610,100.00,,
+3482011270,,mem_access,2728324010,100.00,,
+22216016,,remote_access,2728325970,100.00,,
+Execution Time (seconds): 538
+****success****

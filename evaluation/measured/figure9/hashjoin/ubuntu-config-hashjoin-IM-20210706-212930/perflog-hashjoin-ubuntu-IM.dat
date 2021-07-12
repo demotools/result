@@ -1,0 +1,17 @@
+/home/huawei/result/bin/numactl --interleave=all --pgtablerepl=3 /home/huawei/result/bin/bench_hashjoin_mt -- -o 700000000 -i 20000000 -s 20000000
+# started on Tue Jul  6 21:30:29 2021
+
+50110857517592,,cycles,19274471629120,100.00,,
+2612138881245,,dTLB-loads,19274437407330,100.00,,
+154408516072,,dTLB-load-misses,19274411474290,100.00,5.91,of all dTLB cache hits
+2485917598337,,iTLB-loads,19274385337990,100.00,,
+4839286,,iTLB-load-misses,19274358501350,100.00,0.00,of all iTLB cache hits
+148448522074,,dtlb_walk,19274330541910,100.00,,
+8251589,,itlb_walk,19274300965140,100.00,,
+155112,,context-switches,19274977245260,100.00,,
+2288,,cpu-migrations,19274953272430,100.00,,
+1,,page-faults,19274931598220,100.00,,
+1877250771090,,mem_access,19274200197020,100.00,,
+133647504873,,remote_access,19274166113440,100.00,,
+Execution Time (seconds): 393
+****success****
