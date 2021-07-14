@@ -1,5 +1,0 @@
-Workload	Configuration	Runtime Cycles	Walk Cycles	Non-Walk Cycles
-Memcached	F	7366624471	0	7366624471
-Memcached	F+M	8790844347	0	8790844347
-Memcached	I	36471285	0	36471285
-Memcached	I+M	10464340817	0	10464340817
