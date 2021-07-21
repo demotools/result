@@ -265,12 +265,11 @@ static void iTLB_Miss(struct perf_read_ev *last, struct perf_read_ev *prev, doub
 
       rr_nodes[node] = 100;
       if(all) {
-         printf("%d : %lu - %lu\n", node, modified, all);
          rr_nodes[node] = (1. - (double) modified / (double) all) * 100.;
+         printf("%d : %lu - %lu.  percentage =  %lu\n", node, modified, all,rr_nodes[node]);
       }
    }
-
-printf("all_global %d : %lu - %lu\n", node, modified_global, all_global);
+// printf("all_global %d : %lu - %lu\n", node, modified_global, all_global);
    // *rr_global = 100;
    // if(all_global) {
    //    *rr_global = (1 - (double) modified_global / (double) all_global) * 100.;
