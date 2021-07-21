@@ -19,6 +19,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "carrefour.h"
 #include <gsl/gsl_statistics.h>
 #include <sys/sysinfo.h>
+#include <stdlib.h>
 
 static int sleep_time = 1*TIME_SECOND;     /* Profile by sleep_time useconds chunks */
 
@@ -788,7 +789,7 @@ int main(int argc, char**argv) {
        return;
     }
     
-   obj_pid = argv[1];
+   obj_pid = atoi(argv[1]);
    printf(" pid  = %d \n",obj_pid);
 
    int i;
