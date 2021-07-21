@@ -80,80 +80,92 @@ static long sys_perf_counter_open(struct perf_event_attr *hw_event, pid_t pid, i
  *   leader = x!=-1 : the event is only scheduled when its group leader is scheduled
  */
 static event_t default_events[] = {
-#if USE_MRR
-   /** MRR **/
    {
-      .name    = "MRR_READ",
-      .type    = PERF_TYPE_RAW,
-      .config  = 0x1004062F0,
+      .name    = "ITLB_access",
+      .type    = PERF_TYPE_HW_CACHE,
+      .config  = 0x00000004,
       .leader  = -1,
    },
    {
-      .name    = "MRR_READ_WRITE",
-      .type    = PERF_TYPE_RAW,
-      .config  = 0x100407BF0,
-      .leader  = 0
-   },
-#else
-   /** DCMR */
-   {
-      .name    = "DCR_ALL",
-      .type    = PERF_TYPE_RAW,
-      .config  = 0x000401F43,
-      .leader  = -1,
-   },
-   {
-      .name    = "DCR_MODIFIED",
-      .type    = PERF_TYPE_RAW,
-      .config  = 0x000401043,
+      .name    = "ITLB_miss",
+      .type    = PERF_TYPE_HW_CACHE,
+      .config  = 0x00010004,
       .leader  = 0,
    },
-#endif
+// #if USE_MRR
+//    /** MRR **/
+//    {
+//       .name    = "MRR_READ",
+//       .type    = PERF_TYPE_RAW,
+//       .config  = 0x1004062F0,
+//       .leader  = -1,
+//    },
+//    {
+//       .name    = "MRR_READ_WRITE",
+//       .type    = PERF_TYPE_RAW,
+//       .config  = 0x100407BF0,
+//       .leader  = 0
+//    },
+// #else
+//    /** DCMR */
+//    {
+//       .name    = "DCR_ALL",
+//       .type    = PERF_TYPE_RAW,
+//       .config  = 0x000401F43,
+//       .leader  = -1,
+//    },
+//    {
+//       .name    = "DCR_MODIFIED",
+//       .type    = PERF_TYPE_RAW,
+//       .config  = 0x000401043,
+//       .leader  = 0,
+//    },
+// #endif
 
-   /** LAR & DRAM imbalance **/
-   {
-      .name    = "CPU_DRAM_NODE0",
-      .type    = PERF_TYPE_RAW,
-      .config  = 0x1004001E0,
-      .leader  = -1
-   },
-   {
-      .name    = "CPU_DRAM_NODE1",
-      .type    = PERF_TYPE_RAW,
-      .config  = 0x1004002E0,
-      .leader  = -1
-      //.leader  = 2
-   },
-   {
-      .name    = "CPU_DRAM_NODE2",
-      .type    = PERF_TYPE_RAW,
-      .config  = 0x1004004E0,
-      .leader  = -1
-      //.leader  = 2
-   },
-   {
-      .name    = "CPU_DRAM_NODE3",
-      .type    = PERF_TYPE_RAW,
-      .config  = 0x1004008E0,
-      .leader  = -1
-      //.leader  = 2
-   },
+//    /** LAR & DRAM imbalance **/
+//    {
+//       .name    = "CPU_DRAM_NODE0",
+//       .type    = PERF_TYPE_RAW,
+//       .config  = 0x1004001E0,
+//       .leader  = -1
+//    },
+//    {
+//       .name    = "CPU_DRAM_NODE1",
+//       .type    = PERF_TYPE_RAW,
+//       .config  = 0x1004002E0,
+//       .leader  = -1
+//       //.leader  = 2
+//    },
+//    {
+//       .name    = "CPU_DRAM_NODE2",
+//       .type    = PERF_TYPE_RAW,
+//       .config  = 0x1004004E0,
+//       .leader  = -1
+//       //.leader  = 2
+//    },
+//    {
+//       .name    = "CPU_DRAM_NODE3",
+//       .type    = PERF_TYPE_RAW,
+//       .config  = 0x1004008E0,
+//       .leader  = -1
+//       //.leader  = 2
+//    },
 
-#if ENABLE_IPC
-   /** IPC **/
-   {
-      .name    = "CPU_CLK_UNHALTED",
-      .type    = PERF_TYPE_RAW,
-      .config  = 0x00400076,
-      .leader  = -1
-   },
-   {
-      .name    = "RETIRED_INSTRUCTIONS",
-      .type    = PERF_TYPE_RAW,
-      .config  = 0x004000C0,
-      .leader  = 6
-   },
-#endif
+// #if ENABLE_IPC
+//    /** IPC **/
+//    {
+//       .name    = "CPU_CLK_UNHALTED",
+//       .type    = PERF_TYPE_RAW,
+//       .config  = 0x00400076,
+//       .leader  = -1
+//    },
+//    {
+//       .name    = "RETIRED_INSTRUCTIONS",
+//       .type    = PERF_TYPE_RAW,
+//       .config  = 0x004000C0,
+//       .leader  = 6
+//    },
+// #endif
 };
 
 static int nb_events = sizeof(default_events)/sizeof(*default_events);
@@ -233,6 +245,36 @@ static long percent_running(struct perf_read_ev *last, struct perf_read_ev *prev
    long percent_running = (last->time_enabled-prev->time_enabled)?100*(last->time_running-prev->time_running)/(last->time_enabled-prev->time_enabled):0;
    return percent_running;
 }
+
+static void iTLB_Miss(struct perf_read_ev *last, struct perf_read_ev *prev, double * rr_global, double * rr_nodes) {
+   int node;
+   unsigned long all_global = 0;
+   unsigned long modified_global = 0;
+
+   for(node = 0; node < nb_nodes; node++) {
+      long all_idx = node*nb_events;
+
+      //printf("Read = %lu , RW = %lu\n", last[all_idx].value - prev[all_idx].value, last[all_idx + 1].value - prev[all_idx + 1].value);
+      unsigned long all = last[all_idx].value - prev[all_idx].value;
+      unsigned long modified = last[all_idx + 1].value - prev[all_idx + 1].value;
+
+      all_global += all;
+      modified_global += modified;
+
+      rr_nodes[node] = 100;
+      if(all) {
+         printf("%d : %lu - %lu\n", node, modified, all);
+         rr_nodes[node] = (1. - (double) modified / (double) all) * 100.;
+      }
+   }
+
+printf("all_global %d : %lu - %lu\n", node, modified_global, all_global);
+   // *rr_global = 100;
+   // if(all_global) {
+   //    *rr_global = (1 - (double) modified_global / (double) all_global) * 100.;
+   // }
+}
+
 
 #if USE_MRR
 static void mrr(struct perf_read_ev *last, struct perf_read_ev *prev, double * rr_global, double * maptu_global, double * rr_nodes, double * maptu_nodes) {
@@ -591,7 +633,7 @@ static void thread_loop() {
          events_attr[i*nb_events + j].exclude_kernel = events[j].exclude_kernel;
          events_attr[i*nb_events + j].exclude_user = events[j].exclude_user;
          events_attr[i*nb_events + j].read_format = PERF_FORMAT_TOTAL_TIME_ENABLED | PERF_FORMAT_TOTAL_TIME_RUNNING;
-         fd[i*nb_events + j] = sys_perf_counter_open(&events_attr[i*nb_events + j], -1, core, (events[j].leader==-1)?-1:fd[i*nb_events + events[j].leader], 0);
+         fd[i*nb_events + j] = sys_perf_counter_open(&events_attr[i*nb_events + j], pid, -1, (events[j].leader==-1)?-1:fd[i*nb_events + events[j].leader], 0);
          if (fd[i*nb_events + j] < 0) {
             fprintf(stdout, "#[%d] sys_perf_counter_open failed: %s\n", core, strerror(errno));
             return;
@@ -613,7 +655,7 @@ static void thread_loop() {
    lar_node = (double *) malloc(nb_nodes*sizeof(double));
    ipc_node = (double *) malloc(nb_nodes*sizeof(double));
 
-   change_carrefour_state('b'); // Make sure that the profiling is started
+   // change_carrefour_state('b'); // Make sure that the profiling is started
 
    while (1) {
       usleep(sleep_time);
@@ -638,18 +680,19 @@ static void thread_loop() {
       memset(lar_node, 0, nb_nodes*sizeof(double));
       memset(ipc_node, 0, nb_nodes*sizeof(double));
 
-#if USE_MRR
-      mrr(last_counts, last_counts_prev, &rr_global, &maptu_global, rr_nodes, maptu_nodes);
-      dram_accesses(last_counts, last_counts_prev, &lar, &load_imbalance, aggregate_dram_accesses_to_node, lar_node, NULL, NULL);
-#else
-      dcmr(last_counts, last_counts_prev, &rr_global, rr_nodes);
-      dram_accesses(last_counts, last_counts_prev, &lar, &load_imbalance, aggregate_dram_accesses_to_node, lar_node, &maptu_global, maptu_nodes);
-#endif
+      iTLB_Miss(last_counts, last_counts_prev, &rr_global, rr_nodes);
+// #if USE_MRR
+//       mrr(last_counts, last_counts_prev, &rr_global, &maptu_global, rr_nodes, maptu_nodes);
+//       dram_accesses(last_counts, last_counts_prev, &lar, &load_imbalance, aggregate_dram_accesses_to_node, lar_node, NULL, NULL);
+// #else
+//       dcmr(last_counts, last_counts_prev, &rr_global, rr_nodes);
+//       dram_accesses(last_counts, last_counts_prev, &lar, &load_imbalance, aggregate_dram_accesses_to_node, lar_node, &maptu_global, maptu_nodes);
+// #endif
 
 
-#if ENABLE_IPC
-      ipc(last_counts, last_counts_prev, &ipc_global, ipc_node);
-#endif
+// #if ENABLE_IPC
+//       ipc(last_counts, last_counts_prev, &ipc_global, ipc_node);
+// #endif
 
       struct sysinfo info;
       double global_mem_usage = 0;
@@ -662,14 +705,14 @@ static void thread_loop() {
       }
 
 
-      for(i = 0; i < nb_nodes; i++) {
-         printf("[ Node %d ] %.1f %% read accesses - MAPTU = %.1f - # of accesses = %.1f - LAR = %.1f - IPC = %.2f\n",
-                  i, rr_nodes[i], maptu_nodes[i] * 1000., aggregate_dram_accesses_to_node[i], lar_node[i] * 100., ipc_node[i]);
-      }
-      printf("[ GLOBAL ] %.1f %% read accesses - MAPTU = %.1f - LAR = %.1f - Imbalance = %.1f %% - IPC = %.2f - Mem usage = %.1f %%\n",
-                  rr_global, maptu_global * 1000., lar * 100., load_imbalance * 100., ipc_global, global_mem_usage);
+      // for(i = 0; i < nb_nodes; i++) {
+      //    printf("[ Node %d ] %.1f %% read accesses - MAPTU = %.1f - # of accesses = %.1f - LAR = %.1f - IPC = %.2f\n",
+      //             i, rr_nodes[i], maptu_nodes[i] * 1000., aggregate_dram_accesses_to_node[i], lar_node[i] * 100., ipc_node[i]);
+      // }
+      // printf("[ GLOBAL ] %.1f %% read accesses - MAPTU = %.1f - LAR = %.1f - Imbalance = %.1f %% - IPC = %.2f - Mem usage = %.1f %%\n",
+      //             rr_global, maptu_global * 1000., lar * 100., load_imbalance * 100., ipc_global, global_mem_usage);
 
-      carrefour(rr_global, maptu_global * 1000., lar * 100., load_imbalance * 100., aggregate_dram_accesses_to_node, ipc_global, global_mem_usage);
+      // carrefour(rr_global, maptu_global * 1000., lar * 100., load_imbalance * 100., aggregate_dram_accesses_to_node, ipc_global, global_mem_usage);
 
       for(i = 0; i < nb_nodes; i++) {
          for (j = 0; j < nb_events; j++) {
@@ -733,6 +776,12 @@ int main(int argc, char**argv) {
    signal(SIGTERM, sig_handler);
    signal(SIGINT, sig_handler);
 
+   for (int i = 0; i < argc; i++) {
+        printf("%s ", argv[i]);
+    }
+    printf("\n");
+
+    
    int i;
    uint64_t clk_speed = get_cpu_freq();
 
@@ -742,24 +791,26 @@ int main(int argc, char**argv) {
    }
 
    printf("Parameters :\n");
-   printf("\tMIN_ACTIVE_PERCENTAGE = %d\n", MIN_ACTIVE_PERCENTAGE);
-   printf("\tMAPTU_MIN = %d accesses / usec\n", MAPTU_MIN);
-   printf("\tMEMORY_USAGE_MAX = %d %%\n", MEMORY_USAGE_MAX);
-#if USE_MRR
-   printf("\tMRR_MIN = %d %%\n", MRR_MIN);
-#else
-   printf("\tDCRM_MAX = %d %%\n", DCRM_MAX);
-#endif
-   printf("\tMIN_IMBALANCE = %d %%\n", MIN_IMBALANCE);
-   printf("\tMAX_LOCALITY = %d %%\n", MAX_LOCALITY);
-   printf("\tMAX_LOCALITY_MIGRATION = %d %%\n", MAX_LOCALITY_MIGRATION);
-#if ENABLE_IPC
-   printf("\tIPC_MAX = %f\n", IPC_MAX);
-#endif
+//    printf("\tMIN_ACTIVE_PERCENTAGE = %d\n", MIN_ACTIVE_PERCENTAGE);
+//    printf("\tMAPTU_MIN = %d accesses / usec\n", MAPTU_MIN);
+//    printf("\tMEMORY_USAGE_MAX = %d %%\n", MEMORY_USAGE_MAX);
+// #if USE_MRR
+//    printf("\tMRR_MIN = %d %%\n", MRR_MIN);
+// #else
+//    printf("\tDCRM_MAX = %d %%\n", DCRM_MAX);
+// #endif
+//    printf("\tMIN_IMBALANCE = %d %%\n", MIN_IMBALANCE);
+//    printf("\tMAX_LOCALITY = %d %%\n", MAX_LOCALITY);
+//    printf("\tMAX_LOCALITY_MIGRATION = %d %%\n", MAX_LOCALITY_MIGRATION);
+// #if ENABLE_IPC
+//    printf("\tIPC_MAX = %f\n", IPC_MAX);
+// #endif
 
    nb_nodes = numa_num_configured_nodes();
-  // thread_loop();
-printf("\tnuma nodes = %d \n", nb_nodes);
+   printf("\tnuma nodes = %d \n", nb_nodes);
+   nb_nodes = 1;
+  thread_loop();
+
    return 0;
 }
 
