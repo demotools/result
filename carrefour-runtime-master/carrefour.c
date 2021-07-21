@@ -735,6 +735,7 @@ static void thread_loop() {
 
 
 static long sys_perf_counter_open(struct perf_event_attr *hw_event, pid_t pid, int cpu, int group_fd, unsigned long flags) {
+   printf("\n we got here !!!\n");
    int ret = syscall(__NR_perf_counter_open, hw_event, pid, cpu, group_fd, flags);
 #  if defined(__x86_64__) || defined(__i386__)
    if (ret < 0 && ret > -4096) {
