@@ -819,7 +819,7 @@ int main(int argc, char**argv) {
    nb_nodes = numa_num_configured_nodes();
    printf("\tnuma nodes = %d \n", nb_nodes);
    nb_nodes = 1;
-//   thread_loop();
+  thread_loop();
 
    return 0;
 }
