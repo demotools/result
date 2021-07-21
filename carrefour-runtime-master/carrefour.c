@@ -758,8 +758,8 @@ int main(int argc, char**argv) {
 #endif
 
    nb_nodes = numa_num_configured_nodes();
-   thread_loop();
-
+  // thread_loop();
+printf("\tnuma nodes = %d \n", nb_nodes);
    return 0;
 }
 

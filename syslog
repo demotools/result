@@ -1,221 +1,101 @@
-Jul 14 00:08:20 ubuntu anacron[89094]: Job `cron.daily' terminated
-Jul 14 00:13:18 ubuntu anacron[89094]: Job `cron.weekly' started
-Jul 14 00:13:18 ubuntu anacron[95286]: Updated timestamp for job `cron.weekly' to 2021-07-14
-Jul 14 00:13:18 ubuntu anacron[89094]: Job `cron.weekly' terminated (mailing output)
-Jul 14 00:13:18 ubuntu anacron[89094]: Can't find sendmail at /usr/sbin/sendmail, not mailing output
-Jul 14 00:13:18 ubuntu anacron[89094]: anacron: Can't find sendmail at /usr/sbin/sendmail, not mailing output
-Jul 14 00:13:18 ubuntu anacron[89094]: Normal exit (2 jobs run)
-Jul 14 00:17:01 ubuntu CRON[97592]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 14 00:19:26 ubuntu kernel: [614064.662536] bench_memcached invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0
-Jul 14 00:19:26 ubuntu kernel: [614064.662542] CPU: 11 PID: 61072 Comm: bench_memcached Not tainted 5.7.1 #1
-Jul 14 00:19:26 ubuntu kernel: [614064.662543] Hardware name: Huawei TaiShan 200 (Model 2280)/BC82AMDDA, BIOS 1.06 10/29/2019
-Jul 14 00:19:26 ubuntu kernel: [614064.662544] Call trace:
-Jul 14 00:19:26 ubuntu kernel: [614064.662548]  dump_backtrace+0x0/0x1f8
-Jul 14 00:19:26 ubuntu kernel: [614064.662550]  show_stack+0x24/0x30
-Jul 14 00:19:26 ubuntu kernel: [614064.662553]  dump_stack+0xbc/0x100
-Jul 14 00:19:26 ubuntu kernel: [614064.662556]  dump_header+0x48/0x200
-Jul 14 00:19:26 ubuntu kernel: [614064.662557]  oom_kill_process+0x19c/0x238
-Jul 14 00:19:26 ubuntu kernel: [614064.662558]  out_of_memory+0xe4/0x548
-Jul 14 00:19:26 ubuntu kernel: [614064.662560]  __alloc_pages_slowpath.constprop.105+0x854/0xb88
-Jul 14 00:19:26 ubuntu kernel: [614064.662562]  __alloc_pages_nodemask+0x2b4/0x330
-Jul 14 00:19:26 ubuntu kernel: [614064.662564]  alloc_pages_current+0x88/0xe8
-Jul 14 00:19:26 ubuntu kernel: [614064.662565]  __page_cache_alloc+0x84/0xc8
-Jul 14 00:19:26 ubuntu kernel: [614064.662566]  pagecache_get_page+0x98/0x2c0
-Jul 14 00:19:26 ubuntu kernel: [614064.662567]  filemap_fault+0x514/0x748
-Jul 14 00:19:26 ubuntu kernel: [614064.662570]  ext4_filemap_fault+0x38/0x4f0
-Jul 14 00:19:26 ubuntu kernel: [614064.662573]  __do_fault+0x50/0x208
-Jul 14 00:19:26 ubuntu kernel: [614064.662575]  __handle_mm_fault+0xacc/0x1018
-Jul 14 00:19:26 ubuntu kernel: [614064.662576]  handle_mm_fault+0xc4/0x178
-Jul 14 00:19:26 ubuntu kernel: [614064.662578]  do_page_fault+0x1b8/0x500
-Jul 14 00:19:26 ubuntu kernel: [614064.662579]  do_translation_fault+0xb0/0xc0
-Jul 14 00:19:26 ubuntu kernel: [614064.662581]  do_mem_abort+0x50/0xb0
-Jul 14 00:19:26 ubuntu kernel: [614064.662584]  el0_ia+0x54/0xe0
-Jul 14 00:19:26 ubuntu kernel: [614064.662585]  el0_sync_handler+0xb8/0x29c
-Jul 14 00:19:26 ubuntu kernel: [614064.662586]  el0_sync+0x164/0x180
-Jul 14 00:19:26 ubuntu kernel: [614064.662587] Mem-Info:
-Jul 14 00:19:26 ubuntu kernel: [614064.662605] active_anon:30244173 inactive_anon:1792933 isolated_anon:0
-Jul 14 00:19:26 ubuntu kernel: [614064.662605]  active_file:778 inactive_file:177 isolated_file:0
-Jul 14 00:19:26 ubuntu kernel: [614064.662605]  unevictable:0 dirty:0 writeback:0 unstable:0
-Jul 14 00:19:26 ubuntu kernel: [614064.662605]  slab_reclaimable:39838 slab_unreclaimable:117806
-Jul 14 00:19:26 ubuntu kernel: [614064.662605]  mapped:169 shmem:385 pagetables:337330 bounce:0
-Jul 14 00:19:26 ubuntu kernel: [614064.662605]  free:94628 free_pcp:0 free_cma:1940
-Jul 14 00:19:26 ubuntu kernel: [614064.662608] Node 0 active_anon:29780612kB inactive_anon:1759788kB active_file:0kB inactive_file:408kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:28kB dirty:0kB writeback:0kB shmem:464kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes
-Jul 14 00:19:26 ubuntu kernel: [614064.662610] Node 1 active_anon:30486004kB inactive_anon:1801640kB active_file:3552kB inactive_file:312kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:128kB dirty:0kB writeback:0kB shmem:116kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes
-Jul 14 00:19:26 ubuntu kernel: [614064.662613] Node 2 active_anon:30438656kB inactive_anon:1812500kB active_file:0kB inactive_file:328kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:104kB dirty:0kB writeback:0kB shmem:552kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes
-Jul 14 00:19:26 ubuntu kernel: [614064.662615] Node 3 active_anon:30271420kB inactive_anon:1797804kB active_file:524kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:416kB dirty:0kB writeback:0kB shmem:408kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
-Jul 14 00:19:26 ubuntu kernel: [614064.662616] Node 0 DMA free:124140kB min:892kB low:1756kB high:2620kB reserved_highatomic:0KB active_anon:810324kB inactive_anon:208kB active_file:0kB inactive_file:144kB unevictable:0kB writepending:0kB present:1044480kB managed:937816kB mlocked:0kB kernel_stack:16kB pagetables:2156kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662620] lowmem_reserve[]: 0 736 30812 30812
-Jul 14 00:19:26 ubuntu kernel: [614064.662623] Node 0 DMA32 free:121116kB min:812kB low:1596kB high:2380kB reserved_highatomic:0KB active_anon:638240kB inactive_anon:360kB active_file:144kB inactive_file:0kB unevictable:0kB writepending:0kB present:1048384kB managed:786432kB mlocked:0kB kernel_stack:0kB pagetables:1628kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:7760kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662626] lowmem_reserve[]: 0 0 30076 30076
-Jul 14 00:19:26 ubuntu kernel: [614064.662629] Node 0 Normal free:31792kB min:31808kB low:62604kB high:93400kB reserved_highatomic:0KB active_anon:28332048kB inactive_anon:1759220kB active_file:0kB inactive_file:20kB unevictable:0kB writepending:0kB present:31457280kB managed:30798704kB mlocked:0kB kernel_stack:6264kB pagetables:334448kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662631] lowmem_reserve[]: 0 0 0 0
-Jul 14 00:19:26 ubuntu kernel: [614064.662634] Node 1 Normal free:33940kB min:33972kB low:66864kB high:99756kB reserved_highatomic:0KB active_anon:30486004kB inactive_anon:1801640kB active_file:1828kB inactive_file:428kB unevictable:0kB writepending:0kB present:33554432kB managed:32895876kB mlocked:0kB kernel_stack:4328kB pagetables:339468kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662636] lowmem_reserve[]: 0 0 0 0
-Jul 14 00:19:26 ubuntu kernel: [614064.662639] Node 2 Normal free:33936kB min:33972kB low:66864kB high:99756kB reserved_highatomic:0KB active_anon:30438656kB inactive_anon:1812500kB active_file:204kB inactive_file:600kB unevictable:0kB writepending:0kB present:33554432kB managed:32895860kB mlocked:0kB kernel_stack:4152kB pagetables:331116kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662641] lowmem_reserve[]: 0 0 0 0
-Jul 14 00:19:26 ubuntu kernel: [614064.662643] Node 3 Normal free:33588kB min:33700kB low:66332kB high:98964kB reserved_highatomic:0KB active_anon:30271420kB inactive_anon:1797804kB active_file:672kB inactive_file:64kB unevictable:0kB writepending:0kB present:33554432kB managed:32632324kB mlocked:0kB kernel_stack:4504kB pagetables:340504kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662645] lowmem_reserve[]: 0 0 0 0
-Jul 14 00:19:26 ubuntu kernel: [614064.662647] Node 0 DMA: 31*4kB (UM) 30*8kB (UME) 40*16kB (UME) 26*32kB (UM) 13*64kB (UME) 13*128kB (UM) 2*256kB (ME) 1*512kB (U) 2*1024kB (ME) 3*2048kB (UME) 27*4096kB (UM) = 124140kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662653] Node 0 DMA32: 27*4kB (U) 25*8kB (UM) 49*16kB (UMC) 39*32kB (UM) 34*64kB (UMC) 7*128kB (UM) 2*256kB (UM) 3*512kB (UMC) 3*1024kB (UMC) 2*2048kB (MC) 26*4096kB (MC) = 121124kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662659] Node 0 Normal: 732*4kB (UME) 496*8kB (UME) 222*16kB (UME) 175*32kB (UME) 116*64kB (UME) 33*128kB (UME) 4*256kB (UE) 0*512kB 3*1024kB (UME) 0*2048kB 0*4096kB = 31792kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662665] Node 1 Normal: 933*4kB (UME) 408*8kB (UME) 267*16kB (UME) 133*32kB (UME) 117*64kB (UME) 32*128kB (UME) 3*256kB (ME) 3*512kB (UME) 5*1024kB (UM) 0*2048kB 0*4096kB = 34532kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662670] Node 2 Normal: 1690*4kB (UME) 704*8kB (UME) 451*16kB (UME) 255*32kB (UME) 80*64kB (UME) 12*128kB (UME) 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 34424kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662675] Node 3 Normal: 2569*4kB (UME) 1072*8kB (UME) 427*16kB (UME) 153*32kB (UME) 37*64kB (UME) 8*128kB (UM) 1*256kB (E) 0*512kB 0*1024kB 0*2048kB 0*4096kB = 34228kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662681] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662682] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662683] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662684] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662685] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662686] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662687] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662688] Node 1 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662689] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662690] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662691] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662692] Node 2 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662693] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662694] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=32768kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662694] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662695] Node 3 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=64kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662696] 13751 total pagecache pages
-Jul 14 00:19:26 ubuntu kernel: [614064.662698] 11911 pages in swap cache
-Jul 14 00:19:26 ubuntu kernel: [614064.662698] Swap cache stats: add 659540, delete 647549, find 8408/70778
-Jul 14 00:19:26 ubuntu kernel: [614064.662699] Free swap  = 0kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662700] Total swap = 2097148kB
-Jul 14 00:19:26 ubuntu kernel: [614064.662701] 33553360 pages RAM
-Jul 14 00:19:26 ubuntu kernel: [614064.662701] 0 pages HighMem/MovableOnly
-Jul 14 00:19:26 ubuntu kernel: [614064.662702] 816607 pages reserved
-Jul 14 00:19:26 ubuntu kernel: [614064.662703] 8192 pages cma reserved
-Jul 14 00:19:26 ubuntu kernel: [614064.662703] 0 pages hwpoisoned
-Jul 14 00:19:26 ubuntu kernel: [614064.662704] Tasks state (memory values in pages):
-Jul 14 00:19:26 ubuntu kernel: [614064.662705] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
-Jul 14 00:19:26 ubuntu kernel: [614064.662753] [   1508]     0  1508    28222      127   233472      150             0 systemd-journal
-Jul 14 00:19:26 ubuntu kernel: [614064.662755] [   1519]     0  1519     5068      824    61440      146         -1000 systemd-udevd
-Jul 14 00:19:26 ubuntu kernel: [614064.662757] [   1520]     0  1520    19486       16    53248       26             0 lvmetad
-Jul 14 00:19:26 ubuntu kernel: [614064.662761] [   2058]   100  2058     2916       72    61440      120             0 systemd-network
-Jul 14 00:19:26 ubuntu kernel: [614064.662763] [   2230] 62583  2230    20993       96    65536       67             0 systemd-timesyn
-Jul 14 00:19:26 ubuntu kernel: [614064.662764] [   2231]   101  2231     2678       90    61440      116             0 systemd-resolve
-Jul 14 00:19:26 ubuntu kernel: [614064.662766] [   2272]   102  2272    54994      202    69632      233             0 rsyslogd
-Jul 14 00:19:26 ubuntu kernel: [614064.662768] [   2274]   103  2274     1877       74    53248      202          -900 dbus-daemon
-Jul 14 00:19:26 ubuntu kernel: [614064.662770] [   2300]     0  2300     2624       91    61440      104             0 systemd-logind
-Jul 14 00:19:26 ubuntu kernel: [614064.662771] [   2305]     0  2305    58231      139    90112      113             0 accounts-daemon
-Jul 14 00:19:26 ubuntu kernel: [614064.662773] [   2315]     0  2315    81564      513   131072      207             0 NetworkManager
-Jul 14 00:19:26 ubuntu kernel: [614064.662775] [   2318]     0  2318     1338       39    49152       32             0 cron
-Jul 14 00:19:26 ubuntu kernel: [614064.662777] [   2325]     0  2325    74533       64    77824       24             0 lxcfs
-Jul 14 00:19:26 ubuntu kernel: [614064.662778] [   2328]     0  2328     2354      114    61440       22             0 wpa_supplicant
-Jul 14 00:19:26 ubuntu kernel: [614064.662780] [   2331]     0  2331      915       15    45056       36             0 atd
-Jul 14 00:19:26 ubuntu kernel: [614064.662782] [   2339]     0  2339    24718      956    86016     1036             0 networkd-dispat
-Jul 14 00:19:26 ubuntu kernel: [614064.662784] [   2354]   119  2354     1545       60    57344       47             0 avahi-daemon
-Jul 14 00:19:26 ubuntu kernel: [614064.662785] [   2361]     0  2361    20272      242    61440       48             0 irqbalance
-Jul 14 00:19:26 ubuntu kernel: [614064.662788] [   2368]     0  2368    96584      137   114688      284             0 udisksd
-Jul 14 00:19:26 ubuntu kernel: [614064.662789] [   2396]     0  2396    78224      273   106496       79             0 ModemManager
-Jul 14 00:19:26 ubuntu kernel: [614064.662791] [   2422]   119  2422     1492       42    49152       43             0 avahi-daemon
-Jul 14 00:19:26 ubuntu kernel: [614064.662793] [   2511]     0  2511    57872       58    81920      138             0 polkitd
-Jul 14 00:19:26 ubuntu kernel: [614064.662795] [   2678]     0  2678    25878     1622    98304      356             0 unattended-upgr
-Jul 14 00:19:26 ubuntu kernel: [614064.662797] [   2681]   127  2681   101533      151    98304       30             0 memcached
-Jul 14 00:19:26 ubuntu kernel: [614064.662801] [   2913]   115  2913    61883      104   114688      298             0 whoopsie
-Jul 14 00:19:26 ubuntu kernel: [614064.662803] [   2959]     0  2959     2604       14    57344      169         -1000 sshd
-Jul 14 00:19:26 ubuntu kernel: [614064.662805] [   2969]     0  2969     1052       20    49152       12             0 agetty
-Jul 14 00:19:26 ubuntu kernel: [614064.662807] [   2975]   116  2975     2373       35    61440       79             0 kerneloops
-Jul 14 00:19:26 ubuntu kernel: [614064.662809] [   2978]   116  2978     2373       45    57344       70             0 kerneloops
-Jul 14 00:19:26 ubuntu kernel: [614064.662810] [  17816]     0 17816    68138      250   126976      172             0 packagekitd
-Jul 14 00:19:26 ubuntu kernel: [614064.662816] [  50154]  1000 50154     3130        2    57344      302             0 systemd
-Jul 14 00:19:26 ubuntu kernel: [614064.662817] [  50155]  1000 50155    40837      264    94208      382             0 (sd-pam)
-Jul 14 00:19:26 ubuntu kernel: [614064.662819] [  53323]     0 53323     3106       12    57344      239             0 sshd
-Jul 14 00:19:26 ubuntu kernel: [614064.662821] [  53428]  1000 53428     3106       46    57344      207             0 sshd
-Jul 14 00:19:26 ubuntu kernel: [614064.662822] [  53429]  1000 53429     1720      126    57344      331             0 bash
-Jul 14 00:19:26 ubuntu kernel: [614064.662824] [  53440]  1000 53440     2194      372    49152       59             0 top
-Jul 14 00:19:26 ubuntu kernel: [614064.662827] [  60873]     0 60873     3106      192    61440       59             0 sshd
-Jul 14 00:19:26 ubuntu kernel: [614064.662829] [  60957]  1000 60957     3106      177    61440       71             0 sshd
-Jul 14 00:19:26 ubuntu kernel: [614064.662831] [  60958]  1000 60958     1720      451    49152        8             0 bash
-Jul 14 00:19:26 ubuntu kernel: [614064.662833] [  61016]     0 61016     1926      124    57344        0             0 sudo
-Jul 14 00:19:26 ubuntu kernel: [614064.662835] [  61017]     0 61017     1211       62    45056        1             0 run_memcached_a
-Jul 14 00:19:26 ubuntu kernel: [614064.662837] [  61022]     0 61022     1277      118    45056        1             0 bash
-Jul 14 00:19:26 ubuntu kernel: [614064.662839] [  61061]  1000 61061 10471055  9669756 83013632   517416             0 bench_memcached
-Jul 14 00:19:26 ubuntu kernel: [614064.662842] [  61302]     0 61302 25091941 22346094 200876032       24             0 memtier_benchma
-Jul 14 00:19:26 ubuntu kernel: [614064.662844] [  61303]     0 61303     1964      178    53248        0             0 perf
-Jul 14 00:19:26 ubuntu kernel: [614064.662850] [  92198]     0 92198     4212       57    73728      253             0 cupsd
-Jul 14 00:19:26 ubuntu kernel: [614064.662852] [  92201]     0 92201    43078       44   110592      310             0 cups-browsed
-Jul 14 00:19:26 ubuntu kernel: [614064.662857] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0-3,global_oom,task_memcg=/user.slice,task=memtier_benchma,pid=61302,uid=0
-Jul 14 00:19:26 ubuntu kernel: [614064.662880] Out of memory: Killed process 61302 (memtier_benchma) total-vm:100367764kB, anon-rss:89384376kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:196168kB oom_score_adj:0
-Jul 14 00:19:33 ubuntu kernel: [614071.536496] oom_reaper: reaped process 61302 (memtier_benchma), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
-Jul 14 00:54:01 ubuntu CRON[21500]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
-Jul 14 01:05:20 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 14 01:05:20 ubuntu anacron[28120]: Anacron 2.3 started on 2021-07-14
-Jul 14 01:05:20 ubuntu anacron[28120]: Normal exit (0 jobs run)
-Jul 14 01:17:02 ubuntu CRON[34995]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 14 02:02:48 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 14 02:02:49 ubuntu anacron[61870]: Anacron 2.3 started on 2021-07-14
-Jul 14 02:02:49 ubuntu anacron[61870]: Normal exit (0 jobs run)
-Jul 14 02:17:01 ubuntu CRON[70209]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 14 03:02:47 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 14 03:02:48 ubuntu anacron[97006]: Anacron 2.3 started on 2021-07-14
-Jul 14 03:02:48 ubuntu anacron[97006]: Normal exit (0 jobs run)
-Jul 14 03:17:01 ubuntu CRON[7948]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 14 04:04:47 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 14 04:04:48 ubuntu anacron[35889]: Anacron 2.3 started on 2021-07-14
-Jul 14 04:04:48 ubuntu anacron[35889]: Normal exit (0 jobs run)
-Jul 14 04:17:02 ubuntu CRON[43084]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 14 04:34:47 ubuntu systemd[1]: Starting Message of the Day...
-Jul 14 04:35:04 ubuntu 50-motd-news[53515]:  * Super-optimized for small spaces - read how we shrank the memory
-Jul 14 04:35:04 ubuntu 50-motd-news[53515]:    footprint of MicroK8s to make it the smallest full K8s around.
-Jul 14 04:35:04 ubuntu 50-motd-news[53515]:    https://ubuntu.com/blog/microk8s-memory-optimisation
-Jul 14 04:35:04 ubuntu systemd[1]: Started Message of the Day.
-Jul 14 05:02:47 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 14 05:02:47 ubuntu anacron[70008]: Anacron 2.3 started on 2021-07-14
-Jul 14 05:02:47 ubuntu anacron[70008]: Normal exit (0 jobs run)
-Jul 14 05:17:01 ubuntu CRON[78332]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 14 05:23:24 ubuntu systemd[1]: Starting Daily apt download activities...
-Jul 14 05:23:55 ubuntu systemd-networkd-wait-online[82105]: Event loop failed: Connection timed out
-Jul 14 05:24:25 ubuntu apt-helper[82074]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
-Jul 14 05:24:25 ubuntu apt-helper[82074]: E: Sub-process nm-online returned an error code (1)
-Jul 14 05:24:26 ubuntu systemd-resolved[2231]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
-Jul 14 05:24:27 ubuntu systemd-resolved[2231]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
-Jul 14 05:24:39 ubuntu systemd[1]: Started Daily apt download activities.
-Jul 14 06:00:24 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 14 06:00:25 ubuntu anacron[6923]: Anacron 2.3 started on 2021-07-14
-Jul 14 06:00:25 ubuntu anacron[6923]: Normal exit (0 jobs run)
-Jul 14 06:10:23 ubuntu systemd-timesyncd[2230]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
-Jul 14 06:10:33 ubuntu systemd-timesyncd[2230]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
-Jul 14 06:10:43 ubuntu systemd-timesyncd[2230]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
-Jul 14 06:10:53 ubuntu systemd-timesyncd[2230]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
-Jul 14 06:17:01 ubuntu CRON[16665]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 14 06:25:01 ubuntu CRON[21354]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
-Jul 14 06:26:25 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
-Jul 14 06:26:25 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
-Jul 14 06:45:13 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
-Jul 14 06:45:49 ubuntu systemd-resolved[2231]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
-Jul 14 06:46:15 ubuntu systemd-resolved[2231]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
-Jul 14 06:46:41 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
-Jul 14 07:00:25 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 14 07:00:26 ubuntu anacron[42138]: Anacron 2.3 started on 2021-07-14
-Jul 14 07:00:26 ubuntu anacron[42138]: Normal exit (0 jobs run)
-Jul 14 07:17:02 ubuntu CRON[51890]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 14 07:19:30 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
-Jul 14 07:20:12 ubuntu systemd-resolved[2231]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
-Jul 14 07:20:38 ubuntu systemd-resolved[2231]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
-Jul 14 07:21:04 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
-Jul 14 07:30:01 ubuntu CRON[59480]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
-Jul 14 07:53:49 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
-Jul 14 07:54:30 ubuntu systemd-resolved[2231]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
-Jul 14 07:54:56 ubuntu systemd-resolved[2231]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
-Jul 14 07:55:22 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
-Jul 14 08:02:26 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 14 08:02:27 ubuntu anacron[78491]: Anacron 2.3 started on 2021-07-14
-Jul 14 08:02:27 ubuntu anacron[78491]: Normal exit (0 jobs run)
-Jul 14 08:17:01 ubuntu CRON[87055]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 14 08:28:07 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
-Jul 14 08:28:48 ubuntu systemd-resolved[2231]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
-Jul 14 08:29:14 ubuntu systemd-resolved[2231]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
-Jul 14 08:29:40 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
-Jul 14 09:02:25 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
-Jul 14 09:03:06 ubuntu systemd-resolved[2231]: Using degraded feature set (UDP) for DNS server 172.20.1.4.
-Jul 14 09:03:32 ubuntu systemd-resolved[2231]: Using degraded feature set (UDP) for DNS server 172.20.1.6.
-Jul 14 09:03:59 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.4.
-Jul 14 09:04:28 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 14 09:04:28 ubuntu anacron[17435]: Anacron 2.3 started on 2021-07-14
-Jul 14 09:04:28 ubuntu anacron[17435]: Normal exit (0 jobs run)
-Jul 14 09:17:01 ubuntu CRON[24805]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 14 09:34:32 ubuntu systemd[1]: Started Session 221 of user huawei.
-Jul 14 09:36:36 ubuntu systemd-resolved[2231]: Using degraded feature set (TCP) for DNS server 172.20.1.6.
-Jul 14 09:36:39 ubuntu systemd-timesyncd[2230]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Jul 21 00:06:23 ubuntu anacron[17190]: Job `cron.daily' terminated
+Jul 21 00:11:21 ubuntu anacron[17190]: Job `cron.weekly' started
+Jul 21 00:11:21 ubuntu anacron[17415]: Updated timestamp for job `cron.weekly' to 2021-07-21
+Jul 21 00:11:21 ubuntu anacron[17190]: Job `cron.weekly' terminated (mailing output)
+Jul 21 00:11:21 ubuntu anacron[17190]: Can't find sendmail at /usr/sbin/sendmail, not mailing output
+Jul 21 00:11:21 ubuntu anacron[17190]: anacron: Can't find sendmail at /usr/sbin/sendmail, not mailing output
+Jul 21 00:11:21 ubuntu anacron[17190]: Normal exit (2 jobs run)
+Jul 21 00:17:01 ubuntu CRON[17442]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 00:54:01 ubuntu CRON[17457]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Jul 21 01:03:21 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 01:03:21 ubuntu anacron[17462]: Anacron 2.3 started on 2021-07-21
+Jul 21 01:03:21 ubuntu anacron[17462]: Normal exit (0 jobs run)
+Jul 21 01:17:01 ubuntu CRON[17489]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 02:01:21 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 02:01:21 ubuntu anacron[17503]: Anacron 2.3 started on 2021-07-21
+Jul 21 02:01:21 ubuntu anacron[17503]: Normal exit (0 jobs run)
+Jul 21 02:17:01 ubuntu CRON[17529]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 03:05:21 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 03:05:21 ubuntu anacron[17545]: Anacron 2.3 started on 2021-07-21
+Jul 21 03:05:21 ubuntu anacron[17545]: Normal exit (0 jobs run)
+Jul 21 03:17:01 ubuntu CRON[17569]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 04:01:44 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 04:01:44 ubuntu anacron[17586]: Anacron 2.3 started on 2021-07-21
+Jul 21 04:01:44 ubuntu anacron[17586]: Normal exit (0 jobs run)
+Jul 21 04:17:02 ubuntu CRON[17611]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 05:03:21 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 05:03:21 ubuntu anacron[17628]: Anacron 2.3 started on 2021-07-21
+Jul 21 05:03:21 ubuntu anacron[17628]: Normal exit (0 jobs run)
+Jul 21 05:17:01 ubuntu CRON[17651]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 06:03:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 06:03:46 ubuntu anacron[17666]: Anacron 2.3 started on 2021-07-21
+Jul 21 06:03:46 ubuntu anacron[17666]: Normal exit (0 jobs run)
+Jul 21 06:17:01 ubuntu CRON[17689]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 06:25:02 ubuntu CRON[17697]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jul 21 06:50:46 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+Jul 21 06:50:46 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Jul 21 07:03:47 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 07:03:47 ubuntu anacron[17786]: Anacron 2.3 started on 2021-07-21
+Jul 21 07:03:47 ubuntu anacron[17786]: Normal exit (0 jobs run)
+Jul 21 07:17:01 ubuntu CRON[17807]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 07:30:01 ubuntu CRON[17814]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jul 21 08:04:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 08:04:46 ubuntu anacron[17823]: Anacron 2.3 started on 2021-07-21
+Jul 21 08:04:46 ubuntu anacron[17823]: Normal exit (0 jobs run)
+Jul 21 08:17:01 ubuntu CRON[17844]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 09:01:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 09:01:46 ubuntu anacron[17859]: Anacron 2.3 started on 2021-07-21
+Jul 21 09:01:46 ubuntu anacron[17859]: Normal exit (0 jobs run)
+Jul 21 09:17:02 ubuntu CRON[17881]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 09:23:21 ubuntu systemd[1]: Starting Message of the Day...
+Jul 21 09:23:30 ubuntu 50-motd-news[17885]:  * Super-optimized for small spaces - read how we shrank the memory
+Jul 21 09:23:30 ubuntu 50-motd-news[17885]:    footprint of MicroK8s to make it the smallest full K8s around.
+Jul 21 09:23:30 ubuntu 50-motd-news[17885]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+Jul 21 09:23:30 ubuntu systemd[1]: Started Message of the Day.
+Jul 21 10:02:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 10:02:46 ubuntu anacron[17958]: Anacron 2.3 started on 2021-07-21
+Jul 21 10:02:46 ubuntu anacron[17958]: Normal exit (0 jobs run)
+Jul 21 10:17:01 ubuntu CRON[17986]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 11:04:51 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 11:04:51 ubuntu anacron[18002]: Anacron 2.3 started on 2021-07-21
+Jul 21 11:04:51 ubuntu anacron[18002]: Normal exit (0 jobs run)
+Jul 21 11:17:01 ubuntu CRON[18027]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 11:26:51 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Jul 21 11:26:52 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Jul 21 12:00:52 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 12:00:52 ubuntu anacron[18061]: Anacron 2.3 started on 2021-07-21
+Jul 21 12:00:52 ubuntu anacron[18061]: Normal exit (0 jobs run)
+Jul 21 12:17:02 ubuntu CRON[18083]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 13:03:21 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 13:03:21 ubuntu anacron[18098]: Anacron 2.3 started on 2021-07-21
+Jul 21 13:03:21 ubuntu anacron[18098]: Normal exit (0 jobs run)
+Jul 21 13:17:01 ubuntu CRON[18123]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 14:03:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 14:03:46 ubuntu anacron[18139]: Anacron 2.3 started on 2021-07-21
+Jul 21 14:03:46 ubuntu anacron[18139]: Normal exit (0 jobs run)
+Jul 21 14:17:01 ubuntu CRON[18164]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 15:02:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 15:02:46 ubuntu anacron[18179]: Anacron 2.3 started on 2021-07-21
+Jul 21 15:02:46 ubuntu anacron[18179]: Normal exit (0 jobs run)
+Jul 21 15:17:01 ubuntu CRON[18204]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 15:37:46 ubuntu systemd[1]: Starting Message of the Day...
+Jul 21 15:37:47 ubuntu 50-motd-news[18212]:  * Super-optimized for small spaces - read how we shrank the memory
+Jul 21 15:37:47 ubuntu 50-motd-news[18212]:    footprint of MicroK8s to make it the smallest full K8s around.
+Jul 21 15:37:47 ubuntu 50-motd-news[18212]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+Jul 21 15:37:47 ubuntu systemd[1]: Started Message of the Day.
+Jul 21 15:51:08 ubuntu systemd[1]: Started Session 204 of user huawei.
+Jul 21 16:04:57 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 16:04:57 ubuntu anacron[18415]: Anacron 2.3 started on 2021-07-21
+Jul 21 16:04:57 ubuntu anacron[18415]: Normal exit (0 jobs run)
+Jul 21 16:06:57 ubuntu systemd[1]: Starting Daily apt download activities...
+Jul 21 16:07:27 ubuntu systemd-networkd-wait-online[18447]: Event loop failed: Connection timed out
+Jul 21 16:07:57 ubuntu apt-helper[18433]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Jul 21 16:07:57 ubuntu apt-helper[18433]: E: Sub-process nm-online returned an error code (1)
+Jul 21 16:07:58 ubuntu systemd-resolved[2316]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jul 21 16:07:59 ubuntu systemd-resolved[2316]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jul 21 16:08:11 ubuntu systemd[1]: Started Daily apt download activities.
+Jul 21 16:17:02 ubuntu CRON[19016]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 21 17:00:08 ubuntu systemd[1]: Started Session 206 of user huawei.
+Jul 21 17:00:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 21 17:00:46 ubuntu anacron[19155]: Anacron 2.3 started on 2021-07-21
+Jul 21 17:00:46 ubuntu anacron[19155]: Normal exit (0 jobs run)

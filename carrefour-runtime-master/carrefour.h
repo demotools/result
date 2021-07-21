@@ -56,6 +56,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #define __NR_perf_counter_open  298
 #elif defined(__i386__)
 #define __NR_perf_counter_open  336
+#elif defined(__aarch64__)
+#define __NR_perf_counter_open  364
 #endif
 
 #ifdef __x86_64__
