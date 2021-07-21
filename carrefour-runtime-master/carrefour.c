@@ -782,7 +782,14 @@ int main(int argc, char**argv) {
         printf("\n");
     }
     printf("\n");
-
+    if (argc!=2)
+    {
+       printf(" pid  miss \n");
+       return;
+    }
+    
+   obj_pid = argv[1];
+   printf(" pid  = %d \n",obj_pid);
 
    int i;
    uint64_t clk_speed = get_cpu_freq();
