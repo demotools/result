@@ -634,7 +634,7 @@ static void thread_loop() {
          events_attr[i*nb_events + j].exclude_kernel = events[j].exclude_kernel;
          events_attr[i*nb_events + j].exclude_user = events[j].exclude_user;
          events_attr[i*nb_events + j].read_format = PERF_FORMAT_TOTAL_TIME_ENABLED | PERF_FORMAT_TOTAL_TIME_RUNNING;
-         fd[i*nb_events + j] = sys_perf_counter_open(&events_attr[i*nb_events + j], pid, -1, (events[j].leader==-1)?-1:fd[i*nb_events + events[j].leader], 0);
+         fd[i*nb_events + j] = sys_perf_counter_open(&events_attr[i*nb_events + j], obj_pid, -1, (events[j].leader==-1)?-1:fd[i*nb_events + events[j].leader], 0);
          if (fd[i*nb_events + j] < 0) {
             fprintf(stdout, "#[%d] sys_perf_counter_open failed: %s\n", core, strerror(errno));
             return;
