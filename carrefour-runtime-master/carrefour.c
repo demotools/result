@@ -172,6 +172,7 @@ static int nb_events = sizeof(default_events)/sizeof(*default_events);
 static event_t *events = default_events;
 
 static int nb_nodes;
+static int obj_pid;
 static uint64_t get_cpu_freq(void) {
    FILE *fd;
    uint64_t freq = 0;
@@ -781,7 +782,7 @@ int main(int argc, char**argv) {
     }
     printf("\n");
 
-    
+
    int i;
    uint64_t clk_speed = get_cpu_freq();
 
@@ -809,7 +810,7 @@ int main(int argc, char**argv) {
    nb_nodes = numa_num_configured_nodes();
    printf("\tnuma nodes = %d \n", nb_nodes);
    nb_nodes = 1;
-  thread_loop();
+//   thread_loop();
 
    return 0;
 }
