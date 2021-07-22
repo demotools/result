@@ -1,101 +1,2760 @@
-Jul 21 00:06:23 ubuntu anacron[17190]: Job `cron.daily' terminated
-Jul 21 00:11:21 ubuntu anacron[17190]: Job `cron.weekly' started
-Jul 21 00:11:21 ubuntu anacron[17415]: Updated timestamp for job `cron.weekly' to 2021-07-21
-Jul 21 00:11:21 ubuntu anacron[17190]: Job `cron.weekly' terminated (mailing output)
-Jul 21 00:11:21 ubuntu anacron[17190]: Can't find sendmail at /usr/sbin/sendmail, not mailing output
-Jul 21 00:11:21 ubuntu anacron[17190]: anacron: Can't find sendmail at /usr/sbin/sendmail, not mailing output
-Jul 21 00:11:21 ubuntu anacron[17190]: Normal exit (2 jobs run)
-Jul 21 00:17:01 ubuntu CRON[17442]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 00:54:01 ubuntu CRON[17457]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
-Jul 21 01:03:21 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 01:03:21 ubuntu anacron[17462]: Anacron 2.3 started on 2021-07-21
-Jul 21 01:03:21 ubuntu anacron[17462]: Normal exit (0 jobs run)
-Jul 21 01:17:01 ubuntu CRON[17489]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 02:01:21 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 02:01:21 ubuntu anacron[17503]: Anacron 2.3 started on 2021-07-21
-Jul 21 02:01:21 ubuntu anacron[17503]: Normal exit (0 jobs run)
-Jul 21 02:17:01 ubuntu CRON[17529]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 03:05:21 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 03:05:21 ubuntu anacron[17545]: Anacron 2.3 started on 2021-07-21
-Jul 21 03:05:21 ubuntu anacron[17545]: Normal exit (0 jobs run)
-Jul 21 03:17:01 ubuntu CRON[17569]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 04:01:44 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 04:01:44 ubuntu anacron[17586]: Anacron 2.3 started on 2021-07-21
-Jul 21 04:01:44 ubuntu anacron[17586]: Normal exit (0 jobs run)
-Jul 21 04:17:02 ubuntu CRON[17611]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 05:03:21 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 05:03:21 ubuntu anacron[17628]: Anacron 2.3 started on 2021-07-21
-Jul 21 05:03:21 ubuntu anacron[17628]: Normal exit (0 jobs run)
-Jul 21 05:17:01 ubuntu CRON[17651]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 06:03:46 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 06:03:46 ubuntu anacron[17666]: Anacron 2.3 started on 2021-07-21
-Jul 21 06:03:46 ubuntu anacron[17666]: Normal exit (0 jobs run)
-Jul 21 06:17:01 ubuntu CRON[17689]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 06:25:02 ubuntu CRON[17697]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
-Jul 21 06:50:46 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
-Jul 21 06:50:46 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
-Jul 21 07:03:47 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 07:03:47 ubuntu anacron[17786]: Anacron 2.3 started on 2021-07-21
-Jul 21 07:03:47 ubuntu anacron[17786]: Normal exit (0 jobs run)
-Jul 21 07:17:01 ubuntu CRON[17807]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 07:30:01 ubuntu CRON[17814]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
-Jul 21 08:04:46 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 08:04:46 ubuntu anacron[17823]: Anacron 2.3 started on 2021-07-21
-Jul 21 08:04:46 ubuntu anacron[17823]: Normal exit (0 jobs run)
-Jul 21 08:17:01 ubuntu CRON[17844]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 09:01:46 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 09:01:46 ubuntu anacron[17859]: Anacron 2.3 started on 2021-07-21
-Jul 21 09:01:46 ubuntu anacron[17859]: Normal exit (0 jobs run)
-Jul 21 09:17:02 ubuntu CRON[17881]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 09:23:21 ubuntu systemd[1]: Starting Message of the Day...
-Jul 21 09:23:30 ubuntu 50-motd-news[17885]:  * Super-optimized for small spaces - read how we shrank the memory
-Jul 21 09:23:30 ubuntu 50-motd-news[17885]:    footprint of MicroK8s to make it the smallest full K8s around.
-Jul 21 09:23:30 ubuntu 50-motd-news[17885]:    https://ubuntu.com/blog/microk8s-memory-optimisation
-Jul 21 09:23:30 ubuntu systemd[1]: Started Message of the Day.
-Jul 21 10:02:46 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 10:02:46 ubuntu anacron[17958]: Anacron 2.3 started on 2021-07-21
-Jul 21 10:02:46 ubuntu anacron[17958]: Normal exit (0 jobs run)
-Jul 21 10:17:01 ubuntu CRON[17986]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 11:04:51 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 11:04:51 ubuntu anacron[18002]: Anacron 2.3 started on 2021-07-21
-Jul 21 11:04:51 ubuntu anacron[18002]: Normal exit (0 jobs run)
-Jul 21 11:17:01 ubuntu CRON[18027]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 11:26:51 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
-Jul 21 11:26:52 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
-Jul 21 12:00:52 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 12:00:52 ubuntu anacron[18061]: Anacron 2.3 started on 2021-07-21
-Jul 21 12:00:52 ubuntu anacron[18061]: Normal exit (0 jobs run)
-Jul 21 12:17:02 ubuntu CRON[18083]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 13:03:21 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 13:03:21 ubuntu anacron[18098]: Anacron 2.3 started on 2021-07-21
-Jul 21 13:03:21 ubuntu anacron[18098]: Normal exit (0 jobs run)
-Jul 21 13:17:01 ubuntu CRON[18123]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 14:03:46 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 14:03:46 ubuntu anacron[18139]: Anacron 2.3 started on 2021-07-21
-Jul 21 14:03:46 ubuntu anacron[18139]: Normal exit (0 jobs run)
-Jul 21 14:17:01 ubuntu CRON[18164]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 15:02:46 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 15:02:46 ubuntu anacron[18179]: Anacron 2.3 started on 2021-07-21
-Jul 21 15:02:46 ubuntu anacron[18179]: Normal exit (0 jobs run)
-Jul 21 15:17:01 ubuntu CRON[18204]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 15:37:46 ubuntu systemd[1]: Starting Message of the Day...
-Jul 21 15:37:47 ubuntu 50-motd-news[18212]:  * Super-optimized for small spaces - read how we shrank the memory
-Jul 21 15:37:47 ubuntu 50-motd-news[18212]:    footprint of MicroK8s to make it the smallest full K8s around.
-Jul 21 15:37:47 ubuntu 50-motd-news[18212]:    https://ubuntu.com/blog/microk8s-memory-optimisation
-Jul 21 15:37:47 ubuntu systemd[1]: Started Message of the Day.
-Jul 21 15:51:08 ubuntu systemd[1]: Started Session 204 of user huawei.
-Jul 21 16:04:57 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 16:04:57 ubuntu anacron[18415]: Anacron 2.3 started on 2021-07-21
-Jul 21 16:04:57 ubuntu anacron[18415]: Normal exit (0 jobs run)
-Jul 21 16:06:57 ubuntu systemd[1]: Starting Daily apt download activities...
-Jul 21 16:07:27 ubuntu systemd-networkd-wait-online[18447]: Event loop failed: Connection timed out
-Jul 21 16:07:57 ubuntu apt-helper[18433]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
-Jul 21 16:07:57 ubuntu apt-helper[18433]: E: Sub-process nm-online returned an error code (1)
-Jul 21 16:07:58 ubuntu systemd-resolved[2316]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
-Jul 21 16:07:59 ubuntu systemd-resolved[2316]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
-Jul 21 16:08:11 ubuntu systemd[1]: Started Daily apt download activities.
-Jul 21 16:17:02 ubuntu CRON[19016]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jul 21 17:00:08 ubuntu systemd[1]: Started Session 206 of user huawei.
-Jul 21 17:00:46 ubuntu systemd[1]: Started Run anacron jobs.
-Jul 21 17:00:46 ubuntu anacron[19155]: Anacron 2.3 started on 2021-07-21
-Jul 21 17:00:46 ubuntu anacron[19155]: Normal exit (0 jobs run)
+Jul 22 00:05:48 ubuntu anacron[20272]: Job `cron.daily' terminated
+Jul 22 00:05:48 ubuntu anacron[20272]: Normal exit (1 job run)
+Jul 22 00:17:02 ubuntu CRON[20504]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 00:20:29 ubuntu systemd[1]: Started Session 219 of user huawei.
+Jul 22 00:44:24 ubuntu systemd[1]: Started Session 220 of user huawei.
+Jul 22 00:54:01 ubuntu CRON[20888]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Jul 22 01:02:06 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 01:02:06 ubuntu anacron[20895]: Anacron 2.3 started on 2021-07-22
+Jul 22 01:02:06 ubuntu anacron[20895]: Normal exit (0 jobs run)
+Jul 22 01:17:01 ubuntu CRON[20923]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 02:03:07 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 02:03:07 ubuntu anacron[20951]: Anacron 2.3 started on 2021-07-22
+Jul 22 02:03:07 ubuntu anacron[20951]: Normal exit (0 jobs run)
+Jul 22 02:17:01 ubuntu CRON[20975]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 03:05:08 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 03:05:09 ubuntu anacron[20998]: Anacron 2.3 started on 2021-07-22
+Jul 22 03:05:09 ubuntu anacron[20998]: Normal exit (0 jobs run)
+Jul 22 03:17:01 ubuntu CRON[21025]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 04:05:09 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 04:05:10 ubuntu anacron[21047]: Anacron 2.3 started on 2021-07-22
+Jul 22 04:05:10 ubuntu anacron[21047]: Normal exit (0 jobs run)
+Jul 22 04:17:01 ubuntu CRON[21074]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 05:04:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 05:04:46 ubuntu anacron[21100]: Anacron 2.3 started on 2021-07-22
+Jul 22 05:04:46 ubuntu anacron[21100]: Normal exit (0 jobs run)
+Jul 22 05:12:10 ubuntu systemd[1]: Starting Message of the Day...
+Jul 22 05:12:18 ubuntu 50-motd-news[21123]:  * Super-optimized for small spaces - read how we shrank the memory
+Jul 22 05:12:18 ubuntu 50-motd-news[21123]:    footprint of MicroK8s to make it the smallest full K8s around.
+Jul 22 05:12:18 ubuntu 50-motd-news[21123]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+Jul 22 05:12:18 ubuntu systemd[1]: Started Message of the Day.
+Jul 22 05:17:01 ubuntu CRON[21185]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 05:18:46 ubuntu systemd[1]: Starting Daily apt download activities...
+Jul 22 05:19:16 ubuntu systemd-networkd-wait-online[21204]: Event loop failed: Connection timed out
+Jul 22 05:19:46 ubuntu apt-helper[21189]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Jul 22 05:19:46 ubuntu apt-helper[21189]: E: Sub-process nm-online returned an error code (1)
+Jul 22 05:19:47 ubuntu systemd-resolved[2316]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jul 22 05:19:48 ubuntu systemd-resolved[2316]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jul 22 05:19:58 ubuntu systemd[1]: Started Daily apt download activities.
+Jul 22 06:02:11 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 06:02:12 ubuntu anacron[21718]: Anacron 2.3 started on 2021-07-22
+Jul 22 06:02:12 ubuntu anacron[21718]: Normal exit (0 jobs run)
+Jul 22 06:17:02 ubuntu CRON[21746]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 06:25:01 ubuntu CRON[21754]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jul 22 06:52:21 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+Jul 22 06:52:21 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Jul 22 06:56:12 ubuntu systemd[1]: Starting Daily apt download activities...
+Jul 22 06:56:42 ubuntu systemd-networkd-wait-online[21861]: Event loop failed: Connection timed out
+Jul 22 06:57:12 ubuntu apt-helper[21843]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Jul 22 06:57:12 ubuntu apt-helper[21843]: E: Sub-process nm-online returned an error code (1)
+Jul 22 06:57:13 ubuntu systemd-resolved[2316]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jul 22 06:57:14 ubuntu systemd-resolved[2316]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jul 22 06:57:18 ubuntu systemd[1]: Started Daily apt download activities.
+Jul 22 07:03:12 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 07:03:12 ubuntu anacron[22381]: Anacron 2.3 started on 2021-07-22
+Jul 22 07:03:12 ubuntu anacron[22381]: Normal exit (0 jobs run)
+Jul 22 07:17:01 ubuntu CRON[22409]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 07:30:02 ubuntu CRON[22419]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jul 22 08:03:13 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 08:03:14 ubuntu anacron[22434]: Anacron 2.3 started on 2021-07-22
+Jul 22 08:03:14 ubuntu anacron[22434]: Normal exit (0 jobs run)
+Jul 22 08:17:01 ubuntu CRON[22460]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 09:01:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 09:01:46 ubuntu anacron[22482]: Anacron 2.3 started on 2021-07-22
+Jul 22 09:01:46 ubuntu anacron[22482]: Normal exit (0 jobs run)
+Jul 22 09:17:01 ubuntu CRON[22508]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 10:01:15 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 10:01:16 ubuntu anacron[22531]: Anacron 2.3 started on 2021-07-22
+Jul 22 10:01:16 ubuntu anacron[22531]: Normal exit (0 jobs run)
+Jul 22 10:17:01 ubuntu CRON[22558]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 11:02:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 11:02:46 ubuntu anacron[22583]: Anacron 2.3 started on 2021-07-22
+Jul 22 11:02:46 ubuntu anacron[22583]: Normal exit (0 jobs run)
+Jul 22 11:17:01 ubuntu CRON[22612]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 11:27:17 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Jul 22 11:27:17 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Jul 22 12:00:18 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 12:00:18 ubuntu anacron[22656]: Anacron 2.3 started on 2021-07-22
+Jul 22 12:00:18 ubuntu anacron[22656]: Normal exit (0 jobs run)
+Jul 22 12:17:02 ubuntu CRON[22686]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 13:03:21 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 13:03:21 ubuntu anacron[22706]: Anacron 2.3 started on 2021-07-22
+Jul 22 13:03:21 ubuntu anacron[22706]: Normal exit (0 jobs run)
+Jul 22 13:15:19 ubuntu systemd[1]: Starting Message of the Day...
+Jul 22 13:15:20 ubuntu 50-motd-news[22729]:  * Super-optimized for small spaces - read how we shrank the memory
+Jul 22 13:15:20 ubuntu 50-motd-news[22729]:    footprint of MicroK8s to make it the smallest full K8s around.
+Jul 22 13:15:20 ubuntu 50-motd-news[22729]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+Jul 22 13:15:20 ubuntu systemd[1]: Started Message of the Day.
+Jul 22 13:17:01 ubuntu CRON[22792]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 13:31:26 ubuntu systemd[1]: Started Session 237 of user huawei.
+Jul 22 13:36:27 ubuntu systemd[1]: Started Session 238 of user huawei.
+Jul 22 13:42:35 ubuntu systemd[1]: Started Session 239 of user huawei.
+Jul 22 13:49:17 ubuntu systemd[1]: Started Session 240 of user huawei.
+Jul 22 14:04:20 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 14:04:20 ubuntu anacron[23355]: Anacron 2.3 started on 2021-07-22
+Jul 22 14:04:20 ubuntu anacron[23355]: Normal exit (0 jobs run)
+Jul 22 14:10:24 ubuntu systemd[1]: Started Session 241 of user huawei.
+Jul 22 14:17:01 ubuntu CRON[23519]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+Jul 22 14:19:05 ubuntu kernel: [702625.715516] Page table allocation set to normal behavior
+Jul 22 14:19:05 ubuntu kernel: [702625.722799] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 23575 to be ready
+/home/huawei/result/bin/bench_canneal_mt -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_80G 500 
+<benchmark exec="/home/huawei/result/bin/bench_canneal_mt">
+<config>
+  <openmp>off</openmp></config>
+<run>
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 96
+150000 swaps per temperature step
+start temperature: 2000
+netlist filename: /home/huawei/gitclone/datasets/canneal_80G
+number of temperature steps: 500
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+Just saw element: 500000
+Just saw element: 600000
+Just saw element: 700000
+Just saw element: 800000
+Just saw element: 900000
+Just saw element: 1000000
+Just saw element: 1100000
+Just saw element: 1200000
+Just saw element: 1300000
+Just saw element: 1400000
+Just saw element: 1500000
+Just saw element: 1600000
+Just saw element: 1700000
+Just saw element: 1800000
+Just saw element: 1900000
+Just saw element: 2000000
+Just saw element: 2100000
+Just saw element: 2200000
+Just saw element: 2300000
+Just saw element: 2400000
+Just saw element: 2500000
+Just saw element: 2600000
+Just saw element: 2700000
+Just saw element: 2800000
+Just saw element: 2900000
+Just saw element: 3000000
+Just saw element: 3100000
+Just saw element: 3200000
+Just saw element: 3300000
+Just saw element: 3400000
+Just saw element: 3500000
+Just saw element: 3600000
+Just saw element: 3700000
+Just saw element: 3800000
+Just saw element: 3900000
+Just saw element: 4000000
+Just saw element: 4100000
+Just saw element: 4200000
+Just saw element: 4300000
+Just saw element: 4400000
+Just saw element: 4500000
+Just saw element: 4600000
+Just saw element: 4700000
+Just saw element: 4800000
+Just saw element: 4900000
+Just saw element: 5000000
+Just saw element: 5100000
+Just saw element: 5200000
+Just saw element: 5300000
+Just saw element: 5400000
+Just saw element: 5500000
+Just saw element: 5600000
+Just saw element: 5700000
+Just saw element: 5800000
+Just saw element: 5900000
+Just saw element: 6000000
+Just saw element: 6100000
+Just saw element: 6200000
+Just saw element: 6300000
+Just saw element: 6400000
+Just saw element: 6500000
+Just saw element: 6600000
+Just saw element: 6700000
+Just saw element: 6800000
+Just saw element: 6900000
+Just saw element: 7000000
+Just saw element: 7100000
+Just saw element: 7200000
+Just saw element: 7300000
+Just saw element: 7400000
+Just saw element: 7500000
+Just saw element: 7600000
+Just saw element: 7700000
+Just saw element: 7800000
+Just saw element: 7900000
+Just saw element: 8000000
+Just saw element: 8100000
+Just saw element: 8200000
+Just saw element: 8300000
+Just saw element: 8400000
+Just saw element: 8500000
+Just saw element: 8600000
+Just saw element: 8700000
+Just saw element: 8800000
+Just saw element: 8900000
+Just saw element: 9000000
+Just saw element: 9100000
+Just saw element: 9200000
+Just saw element: 9300000
+Just saw element: 9400000
+Just saw element: 9500000
+Just saw element: 9600000
+Just saw element: 9700000
+Just saw element: 9800000
+Just saw element: 9900000
+Just saw element: 10000000
+Just saw element: 10100000
+Just saw element: 10200000
+Just saw element: 10300000
+Just saw element: 10400000
+Just saw element: 10500000
+Just saw element: 10600000
+Just saw element: 10700000
+Just saw element: 10800000
+Just saw element: 10900000
+Just saw element: 11000000
+Just saw element: 11100000
+Just saw element: 11200000
+Just saw element: 11300000
+Just saw element: 11400000
+Just saw element: 11500000
+Just saw element: 11600000
+Just saw element: 11700000
+Just saw element: 11800000
+Just saw element: 11900000
+Just saw element: 12000000
+Just saw element: 12100000
+Just saw element: 12200000
+Just saw element: 12300000
+Just saw element: 12400000
+Just saw element: 12500000
+Just saw element: 12600000
+Just saw element: 12700000
+Just saw element: 12800000
+Just saw element: 12900000
+Just saw element: 13000000
+Just saw element: 13100000
+Just saw element: 13200000
+Just saw element: 13300000
+Just saw element: 13400000
+Just saw element: 13500000
+Just saw element: 13600000
+Just saw element: 13700000
+Just saw element: 13800000
+Just saw element: 13900000
+Just saw element: 14000000
+Just saw element: 14100000
+Just saw element: 14200000
+Just saw element: 14300000
+Just saw element: 14400000
+Just saw element: 14500000
+Just saw element: 14600000
+Just saw element: 14700000
+Just saw element: 14800000
+Just saw element: 14900000
+Just saw element: 15000000
+Just saw element: 15100000
+Just saw element: 15200000
+Just saw element: 15300000
+Just saw element: 15400000
+Just saw element: 15500000
+Just saw element: 15600000
+Just saw element: 15700000
+Just saw element: 15800000
+Just saw element: 15900000
+Just saw element: 16000000
+Just saw element: 16100000
+Just saw element: 16200000
+Just saw element: 16300000
+Just saw element: 16400000
+Just saw element: 16500000
+Just saw element: 16600000
+Just saw element: 16700000
+Just saw element: 16800000
+Just saw element: 16900000
+Just saw element: 17000000
+Just saw element: 17100000
+Just saw element: 17200000
+Just saw element: 17300000
+Just saw element: 17400000
+Just saw element: 17500000
+Just saw element: 17600000
+Just saw element: 17700000
+Just saw element: 17800000
+Just saw element: 17900000
+Just saw element: 18000000
+Just saw element: 18100000
+Just saw element: 18200000
+Just saw element: 18300000
+Just saw element: 18400000
+Just saw element: 18500000
+Just saw element: 18600000
+Just saw element: 18700000
+Just saw element: 18800000
+Just saw element: 18900000
+Just saw element: 19000000
+Just saw element: 19100000
+Just saw element: 19200000
+Just saw element: 19300000
+Just saw element: 19400000
+Just saw element: 19500000
+Just saw element: 19600000
+Just saw element: 19700000
+Just saw element: 19800000
+Just saw element: 19900000
+Just saw element: 20000000
+Just saw element: 20100000
+Just saw element: 20200000
+Just saw element: 20300000
+Just saw element: 20400000
+Just saw element: 20500000
+Just saw element: 20600000
+Just saw element: 20700000
+Just saw element: 20800000
+Just saw element: 20900000
+Just saw element: 21000000
+Just saw element: 21100000
+Just saw element: 21200000
+Just saw element: 21300000
+Just saw element: 21400000
+Just saw element: 21500000
+Just saw element: 21600000
+Just saw element: 21700000
+Just saw element: 21800000
+Just saw element: 21900000
+Just saw element: 22000000
+Just saw element: 22100000
+Just saw element: 22200000
+Just saw element: 22300000
+Just saw element: 22400000
+Just saw element: 22500000
+Just saw element: 22600000
+Just saw element: 22700000
+Just saw element: 22800000
+Just saw element: 22900000
+Just saw element: 23000000
+Just saw element: 23100000
+Just saw element: 23200000
+Just saw element: 23300000
+Just saw element: 23400000
+Just saw element: 23500000
+Just saw element: 23600000
+Just saw element: 23700000
+Just saw element: 23800000
+Just saw element: 23900000
+Just saw element: 24000000
+Just saw element: 24100000
+Just saw element: 24200000
+Just saw element: 24300000
+Just saw element: 24400000
+Just saw element: 24500000
+Just saw element: 24600000
+Just saw element: 24700000
+Just saw element: 24800000
+Just saw element: 24900000
+Just saw element: 25000000
+Just saw element: 25100000
+Just saw element: 25200000
+Just saw element: 25300000
+Just saw element: 25400000
+Just saw element: 25500000
+Just saw element: 25600000
+Just saw element: 25700000
+Just saw element: 25800000
+Just saw element: 25900000
+Just saw element: 26000000
+Just saw element: 26100000
+Just saw element: 26200000
+Just saw element: 26300000
+Just saw element: 26400000
+Just saw element: 26500000
+Just saw element: 26600000
+Just saw element: 26700000
+Just saw element: 26800000
+Just saw element: 26900000
+Just saw element: 27000000
+Just saw element: 27100000
+Just saw element: 27200000
+Just saw element: 27300000
+Just saw element: 27400000
+Just saw element: 27500000
+Just saw element: 27600000
+Just saw element: 27700000
+Just saw element: 27800000
+Just saw element: 27900000
+Just saw element: 28000000
+Just saw element: 28100000
+Just saw element: 28200000
+Just saw element: 28300000
+Just saw element: 28400000
+Just saw element: 28500000
+Just saw element: 28600000
+Just saw element: 28700000
+Just saw element: 28800000
+Just saw element: 28900000
+Just saw element: 29000000
+Just saw element: 29100000
+Just saw element: 29200000
+Just saw element: 29300000
+Just saw element: 29400000
+Just saw element: 29500000
+Just saw element: 29600000
+Just saw element: 29700000
+Just saw element: 29800000
+Just saw element: 29900000
+Just saw element: 30000000
+Just saw element: 30100000
+Just saw element: 30200000
+Just saw element: 30300000
+Just saw element: 30400000
+Just saw element: 30500000
+Just saw element: 30600000
+Just saw element: 30700000
+Just saw element: 30800000
+Just saw element: 30900000
+Just saw element: 31000000
+Just saw element: 31100000
+Just saw element: 31200000
+Just saw element: 31300000
+Just saw element: 31400000
+Just saw element: 31500000
+Just saw element: 31600000
+Just saw element: 31700000
+Just saw element: 31800000
+Just saw element: 31900000
+Just saw element: 32000000
+Just saw element: 32100000
+Just saw element: 32200000
+Just saw element: 32300000
+Just saw element: 32400000
+Just saw element: 32500000
+Just saw element: 32600000
+Just saw element: 32700000
+Just saw element: 32800000
+Just saw element: 32900000
+Just saw element: 33000000
+Just saw element: 33100000
+Just saw element: 33200000
+Just saw element: 33300000
+Just saw element: 33400000
+Just saw element: 33500000
+Just saw element: 33600000
+Just saw element: 33700000
+Just saw element: 33800000
+Just saw element: 33900000
+Just saw element: 34000000
+Just saw element: 34100000
+Just saw element: 34200000
+Just saw element: 34300000
+Just saw element: 34400000
+Just saw element: 34500000
+Just saw element: 34600000
+Just saw element: 34700000
+Just saw element: 34800000
+Just saw element: 34900000
+Just saw element: 35000000
+Just saw element: 35100000
+Just saw element: 35200000
+Just saw element: 35300000
+Just saw element: 35400000
+Just saw element: 35500000
+Just saw element: 35600000
+Just saw element: 35700000
+Just saw element: 35800000
+Just saw element: 35900000
+Just saw element: 36000000
+Just saw element: 36100000
+Just saw element: 36200000
+Just saw element: 36300000
+Just saw element: 36400000
+Just saw element: 36500000
+Just saw element: 36600000
+Just saw element: 36700000
+Just saw element: 36800000
+Just saw element: 36900000
+Just saw element: 37000000
+Just saw element: 37100000
+Just saw element: 37200000
+Just saw element: 37300000
+Just saw element: 37400000
+Just saw element: 37500000
+Just saw element: 37600000
+Just saw element: 37700000
+Just saw element: 37800000
+Just saw element: 37900000
+Just saw element: 38000000
+Just saw element: 38100000
+Just saw element: 38200000
+Just saw element: 38300000
+Just saw element: 38400000
+Just saw element: 38500000
+Just saw element: 38600000
+Just saw element: 38700000
+Just saw element: 38800000
+Just saw element: 38900000
+Just saw element: 39000000
+Just saw element: 39100000
+Just saw element: 39200000
+Just saw element: 39300000
+Just saw element: 39400000
+Just saw element: 39500000
+Just saw element: 39600000
+Just saw element: 39700000
+Just saw element: 39800000
+Just saw element: 39900000
+Just saw element: 40000000
+Just saw element: 40100000
+Just saw element: 40200000
+Just saw element: 40300000
+Just saw element: 40400000
+Just saw element: 40500000
+Just saw element: 40600000
+Just saw element: 40700000
+Just saw element: 40800000
+Just saw element: 40900000
+Just saw element: 41000000
+Just saw element: 41100000
+Just saw element: 41200000
+Just saw element: 41300000
+Just saw element: 41400000
+Just saw element: 41500000
+Just saw element: 41600000
+Just saw element: 41700000
+Just saw element: 41800000
+Just saw element: 41900000
+Just saw element: 42000000
+Just saw element: 42100000
+Just saw element: 42200000
+Just saw element: 42300000
+Just saw element: 42400000
+Just saw element: 42500000
+Just saw element: 42600000
+Just saw element: 42700000
+Just saw element: 42800000
+Just saw element: 42900000
+Just saw element: 43000000
+Just saw element: 43100000
+Just saw element: 43200000
+Just saw element: 43300000
+Just saw element: 43400000
+Just saw element: 43500000
+Just saw element: 43600000
+Just saw element: 43700000
+Just saw element: 43800000
+Just saw element: 43900000
+Just saw element: 44000000
+Just saw element: 44100000
+Just saw element: 44200000
+Just saw element: 44300000
+Just saw element: 44400000
+Just saw element: 44500000
+Just saw element: 44600000
+Just saw element: 44700000
+Just saw element: 44800000
+Just saw element: 44900000
+Just saw element: 45000000
+Just saw element: 45100000
+Just saw element: 45200000
+Just saw element: 45300000
+Just saw element: 45400000
+Just saw element: 45500000
+Just saw element: 45600000
+Just saw element: 45700000
+Just saw element: 45800000
+Just saw element: 45900000
+Just saw element: 46000000
+Just saw element: 46100000
+Just saw element: 46200000
+Just saw element: 46300000
+Just saw element: 46400000
+Just saw element: 46500000
+Just saw element: 46600000
+Just saw element: 46700000
+Just saw element: 46800000
+Just saw element: 46900000
+Just saw element: 47000000
+Just saw element: 47100000
+Just saw element: 47200000
+Just saw element: 47300000
+Just saw element: 47400000
+Just saw element: 47500000
+Just saw element: 47600000
+Just saw element: 47700000
+Just saw element: 47800000
+Just saw element: 47900000
+Just saw element: 48000000
+Just saw element: 48100000
+Just saw element: 48200000
+Just saw element: 48300000
+Just saw element: 48400000
+Just saw element: 48500000
+Just saw element: 48600000
+Just saw element: 48700000
+Just saw element: 48800000
+Just saw element: 48900000
+Just saw element: 49000000
+Just saw element: 49100000
+Just saw element: 49200000
+Just saw element: 49300000
+Just saw element: 49400000
+Just saw element: 49500000
+Just saw element: 49600000
+Just saw element: 49700000
+Just saw element: 49800000
+Just saw element: 49900000
+Just saw element: 50000000
+Just saw element: 50100000
+Just saw element: 50200000
+Just saw element: 50300000
+Just saw element: 50400000
+Just saw element: 50500000
+Just saw element: 50600000
+Just saw element: 50700000
+Just saw element: 50800000
+Just saw element: 50900000
+Just saw element: 51000000
+Just saw element: 51100000
+Just saw element: 51200000
+Just saw element: 51300000
+Just saw element: 51400000
+Just saw element: 51500000
+Just saw element: 51600000
+Just saw element: 51700000
+Just saw element: 51800000
+Just saw element: 51900000
+Just saw element: 52000000
+Just saw element: 52100000
+Just saw element: 52200000
+Just saw element: 52300000
+Just saw element: 52400000
+Just saw element: 52500000
+Just saw element: 52600000
+Just saw element: 52700000
+Just saw element: 52800000
+Just saw element: 52900000
+Just saw element: 53000000
+Just saw element: 53100000
+Just saw element: 53200000
+Just saw element: 53300000
+Just saw element: 53400000
+Just saw element: 53500000
+Just saw element: 53600000
+Just saw element: 53700000
+Just saw element: 53800000
+Just saw element: 53900000
+Just saw element: 54000000
+Just saw element: 54100000
+Just saw element: 54200000
+Just saw element: 54300000
+Just saw element: 54400000
+Just saw element: 54500000
+Just saw element: 54600000
+Just saw element: 54700000
+Just saw element: 54800000
+Just saw element: 54900000
+Just saw element: 55000000
+Just saw element: 55100000
+Just saw element: 55200000
+Just saw element: 55300000
+Just saw element: 55400000
+Just saw element: 55500000
+Just saw element: 55600000
+Just saw element: 55700000
+Just saw element: 55800000
+Just saw element: 55900000
+Just saw element: 56000000
+Just saw element: 56100000
+Just saw element: 56200000
+Just saw element: 56300000
+Just saw element: 56400000
+Just saw element: 56500000
+Just saw element: 56600000
+Just saw element: 56700000
+Just saw element: 56800000
+Just saw element: 56900000
+Just saw element: 57000000
+Just saw element: 57100000
+Just saw element: 57200000
+Just saw element: 57300000
+Just saw element: 57400000
+Just saw element: 57500000
+Just saw element: 57600000
+Just saw element: 57700000
+Just saw element: 57800000
+Just saw element: 57900000
+Just saw element: 58000000
+Just saw element: 58100000
+Just saw element: 58200000
+Just saw element: 58300000
+Just saw element: 58400000
+Just saw element: 58500000
+Just saw element: 58600000
+Just saw element: 58700000
+Just saw element: 58800000
+Just saw element: 58900000
+Just saw element: 59000000
+Just saw element: 59100000
+Just saw element: 59200000
+Just saw element: 59300000
+Just saw element: 59400000
+Just saw element: 59500000
+Just saw element: 59600000
+Just saw element: 59700000
+Just saw element: 59800000
+Just saw element: 59900000
+Just saw element: 60000000
+Just saw element: 60100000
+Just saw element: 60200000
+Just saw element: 60300000
+Just saw element: 60400000
+Just saw element: 60500000
+Just saw element: 60600000
+Just saw element: 60700000
+Just saw element: 60800000
+Just saw element: 60900000
+Just saw element: 61000000
+Just saw element: 61100000
+Just saw element: 61200000
+Just saw element: 61300000
+Just saw element: 61400000
+Just saw element: 61500000
+Just saw element: 61600000
+Just saw element: 61700000
+Just saw element: 61800000
+Just saw element: 61900000
+Just saw element: 62000000
+Just saw element: 62100000
+Just saw element: 62200000
+Just saw element: 62300000
+Just saw element: 62400000
+Just saw element: 62500000
+Just saw element: 62600000
+Just saw element: 62700000
+Just saw element: 62800000
+Just saw element: 62900000
+Just saw element: 63000000
+Just saw element: 63100000
+Just saw element: 63200000
+Just saw element: 63300000
+Just saw element: 63400000
+Just saw element: 63500000
+Just saw element: 63600000
+Just saw element: 63700000
+Just saw element: 63800000
+Just saw element: 63900000
+Just saw element: 64000000
+Just saw element: 64100000
+Just saw element: 64200000
+Just saw element: 64300000
+Just saw element: 64400000
+Just saw element: 64500000
+Just saw element: 64600000
+Just saw element: 64700000
+Just saw element: 64800000
+Just saw element: 64900000
+Just saw element: 65000000
+Just saw element: 65100000
+Just saw element: 65200000
+Just saw element: 65300000
+Just saw element: 65400000
+Just saw element: 65500000
+Just saw element: 65600000
+Just saw element: 65700000
+Just saw element: 65800000
+Just saw element: 65900000
+Just saw element: 66000000
+Just saw element: 66100000
+Just saw element: 66200000
+Just saw element: 66300000
+Just saw element: 66400000
+Just saw element: 66500000
+Just saw element: 66600000
+Just saw element: 66700000
+Just saw element: 66800000
+Just saw element: 66900000
+Just saw element: 67000000
+Just saw element: 67100000
+Just saw element: 67200000
+Just saw element: 67300000
+Just saw element: 67400000
+Just saw element: 67500000
+Just saw element: 67600000
+Just saw element: 67700000
+Just saw element: 67800000
+Just saw element: 67900000
+Just saw element: 68000000
+Just saw element: 68100000
+Just saw element: 68200000
+Just saw element: 68300000
+Just saw element: 68400000
+Just saw element: 68500000
+Just saw element: 68600000
+Just saw element: 68700000
+Just saw element: 68800000
+Just saw element: 68900000
+Just saw element: 69000000
+Just saw element: 69100000
+Just saw element: 69200000
+Just saw element: 69300000
+Just saw element: 69400000
+Just saw element: 69500000
+Just saw element: 69600000
+Just saw element: 69700000
+Just saw element: 69800000
+Just saw element: 69900000
+Just saw element: 70000000
+Just saw element: 70100000
+Just saw element: 70200000
+Just saw element: 70300000
+Just saw element: 70400000
+Just saw element: 70500000
+Just saw element: 70600000
+Just saw element: 70700000
+Just saw element: 70800000
+Just saw element: 70900000
+Just saw element: 71000000
+Just saw element: 71100000
+Just saw element: 71200000
+Just saw element: 71300000
+Just saw element: 71400000
+Just saw element: 71500000
+Just saw element: 71600000
+Just saw element: 71700000
+Just saw element: 71800000
+Just saw element: 71900000
+Just saw element: 72000000
+Just saw element: 72100000
+Just saw element: 72200000
+Just saw element: 72300000
+Just saw element: 72400000
+Just saw element: 72500000
+Just saw element: 72600000
+Just saw element: 72700000
+Just saw element: 72800000
+Just saw element: 72900000
+Just saw element: 73000000
+Just saw element: 73100000
+Just saw element: 73200000
+Just saw element: 73300000
+Just saw element: 73400000
+Just saw element: 73500000
+Just saw element: 73600000
+Just saw element: 73700000
+Just saw element: 73800000
+Just saw element: 73900000
+Just saw element: 74000000
+Just saw element: 74100000
+Just saw element: 74200000
+Just saw element: 74300000
+Just saw element: 74400000
+Just saw element: 74500000
+Just saw element: 74600000
+Just saw element: 74700000
+Just saw element: 74800000
+Just saw element: 74900000
+Just saw element: 75000000
+Just saw element: 75100000
+Just saw element: 75200000
+Just saw element: 75300000
+Just saw element: 75400000
+Just saw element: 75500000
+Just saw element: 75600000
+Just saw element: 75700000
+Just saw element: 75800000
+Just saw element: 75900000
+Just saw element: 76000000
+Just saw element: 76100000
+Just saw element: 76200000
+Just saw element: 76300000
+Just saw element: 76400000
+Just saw element: 76500000
+Just saw element: 76600000
+Just saw element: 76700000
+Just saw element: 76800000
+Just saw element: 76900000
+Just saw element: 77000000
+Just saw element: 77100000
+Just saw element: 77200000
+Just saw element: 77300000
+Just saw element: 77400000
+Just saw element: 77500000
+Just saw element: 77600000
+Just saw element: 77700000
+Just saw element: 77800000
+Just saw element: 77900000
+Just saw element: 78000000
+Just saw element: 78100000
+Just saw element: 78200000
+Just saw element: 78300000
+Just saw element: 78400000
+Just saw element: 78500000
+Just saw element: 78600000
+Just saw element: 78700000
+Just saw element: 78800000
+Just saw element: 78900000
+Just saw element: 79000000
+Just saw element: 79100000
+Just saw element: 79200000
+Just saw element: 79300000
+Just saw element: 79400000
+Just saw element: 79500000
+Just saw element: 79600000
+Just saw element: 79700000
+Just saw element: 79800000
+Just saw element: 79900000
+Just saw element: 80000000
+Just saw element: 80100000
+Just saw element: 80200000
+Just saw element: 80300000
+Just saw element: 80400000
+Just saw element: 80500000
+Just saw element: 80600000
+Just saw element: 80700000
+Just saw element: 80800000
+Just saw element: 80900000
+Just saw element: 81000000
+Just saw element: 81100000
+Just saw element: 81200000
+Just saw element: 81300000
+Just saw element: 81400000
+Just saw element: 81500000
+Just saw element: 81600000
+Just saw element: 81700000
+Just saw element: 81800000
+Just saw element: 81900000
+Just saw element: 82000000
+Just saw element: 82100000
+Just saw element: 82200000
+Just saw element: 82300000
+Just saw element: 82400000
+Just saw element: 82500000
+Just saw element: 82600000
+Just saw element: 82700000
+Just saw element: 82800000
+Just saw element: 82900000
+Just saw element: 83000000
+Just saw element: 83100000
+Just saw element: 83200000
+Just saw element: 83300000
+Just saw element: 83400000
+Just saw element: 83500000
+Just saw element: 83600000
+Just saw element: 83700000
+Just saw element: 83800000
+Just saw element: 83900000
+Just saw element: 84000000
+Just saw element: 84100000
+Just saw element: 84200000
+Just saw element: 84300000
+Just saw element: 84400000
+Just saw element: 84500000
+Just saw element: 84600000
+Just saw element: 84700000
+Just saw element: 84800000
+Just saw element: 84900000
+Just saw element: 85000000
+Just saw element: 85100000
+Just saw element: 85200000
+Just saw element: 85300000
+Just saw element: 85400000
+Just saw element: 85500000
+Just saw element: 85600000
+Just saw element: 85700000
+Just saw element: 85800000
+Just saw element: 85900000
+Just saw element: 86000000
+Just saw element: 86100000
+Just saw element: 86200000
+Just saw element: 86300000
+Just saw element: 86400000
+Just saw element: 86500000
+Just saw element: 86600000
+Just saw element: 86700000
+Just saw element: 86800000
+Just saw element: 86900000
+Just saw element: 87000000
+Just saw element: 87100000
+Just saw element: 87200000
+Just saw element: 87300000
+Just saw element: 87400000
+Just saw element: 87500000
+Just saw element: 87600000
+Just saw element: 87700000
+Just saw element: 87800000
+Just saw element: 87900000
+Just saw element: 88000000
+Just saw element: 88100000
+Just saw element: 88200000
+Just saw element: 88300000
+Just saw element: 88400000
+Just saw element: 88500000
+Just saw element: 88600000
+Just saw element: 88700000
+Just saw element: 88800000
+Just saw element: 88900000
+Just saw element: 89000000
+Just saw element: 89100000
+Just saw element: 89200000
+Just saw element: 89300000
+Just saw element: 89400000
+Just saw element: 89500000
+Just saw element: 89600000
+Just saw element: 89700000
+Just saw element: 89800000
+Just saw element: 89900000
+Just saw element: 90000000
+Just saw element: 90100000
+Just saw element: 90200000
+Just saw element: 90300000
+Just saw element: 90400000
+Just saw element: 90500000
+Just saw element: 90600000
+Just saw element: 90700000
+Just saw element: 90800000
+Just saw element: 90900000
+Just saw element: 91000000
+Just saw element: 91100000
+Just saw element: 91200000
+Just saw element: 91300000
+Just saw element: 91400000
+Just saw element: 91500000
+Just saw element: 91600000
+Just saw element: 91700000
+Just saw element: 91800000
+Just saw element: 91900000
+Just saw element: 92000000
+Just saw element: 92100000
+Just saw element: 92200000
+Just saw element: 92300000
+Just saw element: 92400000
+Just saw element: 92500000
+Just saw element: 92600000
+Just saw element: 92700000
+Just saw element: 92800000
+Just saw element: 92900000
+Just saw element: 93000000
+Just saw element: 93100000
+Just saw element: 93200000
+Just saw element: 93300000
+Just saw element: 93400000
+Just saw element: 93500000
+Just saw element: 93600000
+Just saw element: 93700000
+Just saw element: 93800000
+Just saw element: 93900000
+Just saw element: 94000000
+Just saw element: 94100000
+Just saw element: 94200000
+Just saw element: 94300000
+Just saw element: 94400000
+Just saw element: 94500000
+Just saw element: 94600000
+Just saw element: 94700000
+Just saw element: 94800000
+Just saw element: 94900000
+Just saw element: 95000000
+Just saw element: 95100000
+Just saw element: 95200000
+Just saw element: 95300000
+Just saw element: 95400000
+Just saw element: 95500000
+Just saw element: 95600000
+Just saw element: 95700000
+Just saw element: 95800000
+Just saw element: 95900000
+Just saw element: 96000000
+Just saw element: 96100000
+Just saw element: 96200000
+Just saw element: 96300000
+Just saw element: 96400000
+Just saw element: 96500000
+Just saw element: 96600000
+Just saw element: 96700000
+Just saw element: 96800000
+Just saw element: 96900000
+Just saw element: 97000000
+Just saw element: 97100000
+Just saw element: 97200000
+Just saw element: 97300000
+Just saw element: 97400000
+Just saw element: 97500000
+Just saw element: 97600000
+Just saw element: 97700000
+Just saw element: 97800000
+Just saw element: 97900000
+Just saw element: 98000000
+Just saw element: 98100000
+Just saw element: 98200000
+Just saw element: 98300000
+Just saw element: 98400000
+Just saw element: 98500000
+Just saw element: 98600000
+Just saw element: 98700000
+Just saw element: 98800000
+Just saw element: 98900000
+Jul 22 15:03:21 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 15:03:21 ubuntu anacron[49728]: Anacron 2.3 started on 2021-07-22
+Jul 22 15:03:21 ubuntu anacron[49728]: Normal exit (0 jobs run)
+Just saw element: 99000000
+Just saw element: 99100000
+Just saw element: 99200000
+Just saw element: 99300000
+Just saw element: 99400000
+Just saw element: 99500000
+Just saw element: 99600000
+Just saw element: 99700000
+Just saw element: 99800000
+Just saw element: 99900000
+Just saw element: 100000000
+Just saw element: 100100000
+Just saw element: 100200000
+Just saw element: 100300000
+Just saw element: 100400000
+Just saw element: 100500000
+Just saw element: 100600000
+Just saw element: 100700000
+Just saw element: 100800000
+Just saw element: 100900000
+Just saw element: 101000000
+Just saw element: 101100000
+Just saw element: 101200000
+Just saw element: 101300000
+Just saw element: 101400000
+Just saw element: 101500000
+Just saw element: 101600000
+Just saw element: 101700000
+Just saw element: 101800000
+Just saw element: 101900000
+Just saw element: 102000000
+Just saw element: 102100000
+Just saw element: 102200000
+Just saw element: 102300000
+Just saw element: 102400000
+Just saw element: 102500000
+Just saw element: 102600000
+Just saw element: 102700000
+Just saw element: 102800000
+Just saw element: 102900000
+Just saw element: 103000000
+Just saw element: 103100000
+Just saw element: 103200000
+Just saw element: 103300000
+Just saw element: 103400000
+Just saw element: 103500000
+Just saw element: 103600000
+Just saw element: 103700000
+Just saw element: 103800000
+Just saw element: 103900000
+Just saw element: 104000000
+Just saw element: 104100000
+Just saw element: 104200000
+Just saw element: 104300000
+Just saw element: 104400000
+Just saw element: 104500000
+Just saw element: 104600000
+Just saw element: 104700000
+Just saw element: 104800000
+Just saw element: 104900000
+Just saw element: 105000000
+Just saw element: 105100000
+Just saw element: 105200000
+Just saw element: 105300000
+Just saw element: 105400000
+Just saw element: 105500000
+Just saw element: 105600000
+Just saw element: 105700000
+Just saw element: 105800000
+Just saw element: 105900000
+Just saw element: 106000000
+Just saw element: 106100000
+Just saw element: 106200000
+Just saw element: 106300000
+Just saw element: 106400000
+Just saw element: 106500000
+Just saw element: 106600000
+Just saw element: 106700000
+Just saw element: 106800000
+Just saw element: 106900000
+Just saw element: 107000000
+Just saw element: 107100000
+Just saw element: 107200000
+Just saw element: 107300000
+Just saw element: 107400000
+Just saw element: 107500000
+Just saw element: 107600000
+Just saw element: 107700000
+Just saw element: 107800000
+Just saw element: 107900000
+Just saw element: 108000000
+Just saw element: 108100000
+Just saw element: 108200000
+Just saw element: 108300000
+Just saw element: 108400000
+Just saw element: 108500000
+Just saw element: 108600000
+Just saw element: 108700000
+Just saw element: 108800000
+Just saw element: 108900000
+Just saw element: 109000000
+Just saw element: 109100000
+Just saw element: 109200000
+Just saw element: 109300000
+Just saw element: 109400000
+Just saw element: 109500000
+Just saw element: 109600000
+Just saw element: 109700000
+Just saw element: 109800000
+Just saw element: 109900000
+Just saw element: 110000000
+Just saw element: 110100000
+Just saw element: 110200000
+Just saw element: 110300000
+Just saw element: 110400000
+Just saw element: 110500000
+Just saw element: 110600000
+Just saw element: 110700000
+Just saw element: 110800000
+Just saw element: 110900000
+Just saw element: 111000000
+Just saw element: 111100000
+Just saw element: 111200000
+Just saw element: 111300000
+Just saw element: 111400000
+Just saw element: 111500000
+Just saw element: 111600000
+Just saw element: 111700000
+Just saw element: 111800000
+Just saw element: 111900000
+Just saw element: 112000000
+Just saw element: 112100000
+Just saw element: 112200000
+Just saw element: 112300000
+Just saw element: 112400000
+Just saw element: 112500000
+Just saw element: 112600000
+Just saw element: 112700000
+Just saw element: 112800000
+Just saw element: 112900000
+Just saw element: 113000000
+Just saw element: 113100000
+Just saw element: 113200000
+Just saw element: 113300000
+Just saw element: 113400000
+Just saw element: 113500000
+Just saw element: 113600000
+Just saw element: 113700000
+Just saw element: 113800000
+Just saw element: 113900000
+Just saw element: 114000000
+Just saw element: 114100000
+Just saw element: 114200000
+Just saw element: 114300000
+Just saw element: 114400000
+Just saw element: 114500000
+Just saw element: 114600000
+Just saw element: 114700000
+Just saw element: 114800000
+Just saw element: 114900000
+Just saw element: 115000000
+Just saw element: 115100000
+Just saw element: 115200000
+Just saw element: 115300000
+Just saw element: 115400000
+Just saw element: 115500000
+Just saw element: 115600000
+Just saw element: 115700000
+Just saw element: 115800000
+Just saw element: 115900000
+Just saw element: 116000000
+Just saw element: 116100000
+Just saw element: 116200000
+Just saw element: 116300000
+Just saw element: 116400000
+Just saw element: 116500000
+Just saw element: 116600000
+Just saw element: 116700000
+Just saw element: 116800000
+Just saw element: 116900000
+Just saw element: 117000000
+Just saw element: 117100000
+Just saw element: 117200000
+Just saw element: 117300000
+Just saw element: 117400000
+Just saw element: 117500000
+Just saw element: 117600000
+Just saw element: 117700000
+Just saw element: 117800000
+Just saw element: 117900000
+Just saw element: 118000000
+Just saw element: 118100000
+Just saw element: 118200000
+Just saw element: 118300000
+Just saw element: 118400000
+Just saw element: 118500000
+Just saw element: 118600000
+Just saw element: 118700000
+Just saw element: 118800000
+Just saw element: 118900000
+Just saw element: 119000000
+Just saw element: 119100000
+Just saw element: 119200000
+Just saw element: 119300000
+Just saw element: 119400000
+Just saw element: 119500000
+Just saw element: 119600000
+Just saw element: 119700000
+Just saw element: 119800000
+Just saw element: 119900000
+Just saw element: 120000000
+Just saw element: 120100000
+Just saw element: 120200000
+Just saw element: 120300000
+Just saw element: 120400000
+Just saw element: 120500000
+Just saw element: 120600000
+Just saw element: 120700000
+Just saw element: 120800000
+Just saw element: 120900000
+Just saw element: 121000000
+Just saw element: 121100000
+Just saw element: 121200000
+Just saw element: 121300000
+Just saw element: 121400000
+Just saw element: 121500000
+Just saw element: 121600000
+Just saw element: 121700000
+Just saw element: 121800000
+Just saw element: 121900000
+Just saw element: 122000000
+Just saw element: 122100000
+Just saw element: 122200000
+Just saw element: 122300000
+Just saw element: 122400000
+Just saw element: 122500000
+Just saw element: 122600000
+Just saw element: 122700000
+Just saw element: 122800000
+Just saw element: 122900000
+Jul 22 15:17:01 ubuntu CRON[57793]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Just saw element: 123000000
+Just saw element: 123100000
+Just saw element: 123200000
+Just saw element: 123300000
+Just saw element: 123400000
+Just saw element: 123500000
+Just saw element: 123600000
+Just saw element: 123700000
+Just saw element: 123800000
+Just saw element: 123900000
+Just saw element: 124000000
+Just saw element: 124100000
+Just saw element: 124200000
+Just saw element: 124300000
+Just saw element: 124400000
+Just saw element: 124500000
+Just saw element: 124600000
+Just saw element: 124700000
+Just saw element: 124800000
+Just saw element: 124900000
+Just saw element: 125000000
+Just saw element: 125100000
+Just saw element: 125200000
+Just saw element: 125300000
+Just saw element: 125400000
+Just saw element: 125500000
+Just saw element: 125600000
+Just saw element: 125700000
+Just saw element: 125800000
+Just saw element: 125900000
+Just saw element: 126000000
+Just saw element: 126100000
+Just saw element: 126200000
+Just saw element: 126300000
+Just saw element: 126400000
+Just saw element: 126500000
+Just saw element: 126600000
+Just saw element: 126700000
+Just saw element: 126800000
+Just saw element: 126900000
+Just saw element: 127000000
+Just saw element: 127100000
+Just saw element: 127200000
+Just saw element: 127300000
+Just saw element: 127400000
+Just saw element: 127500000
+Just saw element: 127600000
+Just saw element: 127700000
+Just saw element: 127800000
+Just saw element: 127900000
+Just saw element: 128000000
+Just saw element: 128100000
+Just saw element: 128200000
+Just saw element: 128300000
+Just saw element: 128400000
+Just saw element: 128500000
+Just saw element: 128600000
+Just saw element: 128700000
+Just saw element: 128800000
+Just saw element: 128900000
+Just saw element: 129000000
+Just saw element: 129100000
+Just saw element: 129200000
+Just saw element: 129300000
+Just saw element: 129400000
+Just saw element: 129500000
+Just saw element: 129600000
+Just saw element: 129700000
+Just saw element: 129800000
+Just saw element: 129900000
+Just saw element: 130000000
+Just saw element: 130100000
+Just saw element: 130200000
+Just saw element: 130300000
+Just saw element: 130400000
+Just saw element: 130500000
+Just saw element: 130600000
+Just saw element: 130700000
+Just saw element: 130800000
+Just saw element: 130900000
+Just saw element: 131000000
+Just saw element: 131100000
+Just saw element: 131200000
+Just saw element: 131300000
+Just saw element: 131400000
+Just saw element: 131500000
+Just saw element: 131600000
+Just saw element: 131700000
+Just saw element: 131800000
+Jul 22 15:22:08 ubuntu systemd[1]: Started Session 244 of user huawei.
+Just saw element: 131900000
+Just saw element: 132000000
+Just saw element: 132100000
+Just saw element: 132200000
+Just saw element: 132300000
+Just saw element: 132400000
+Just saw element: 132500000
+Just saw element: 132600000
+Just saw element: 132700000
+Just saw element: 132800000
+Just saw element: 132900000
+Just saw element: 133000000
+Just saw element: 133100000
+Just saw element: 133200000
+Just saw element: 133300000
+Just saw element: 133400000
+Just saw element: 133500000
+Just saw element: 133600000
+Just saw element: 133700000
+Just saw element: 133800000
+Just saw element: 133900000
+Just saw element: 134000000
+Just saw element: 134100000
+Just saw element: 134200000
+Just saw element: 134300000
+Just saw element: 134400000
+Just saw element: 134500000
+Just saw element: 134600000
+Just saw element: 134700000
+Just saw element: 134800000
+Just saw element: 134900000
+Just saw element: 135000000
+Just saw element: 135100000
+Just saw element: 135200000
+Just saw element: 135300000
+Just saw element: 135400000
+Just saw element: 135500000
+Just saw element: 135600000
+Just saw element: 135700000
+Just saw element: 135800000
+Just saw element: 135900000
+Just saw element: 136000000
+Just saw element: 136100000
+Just saw element: 136200000
+Just saw element: 136300000
+Just saw element: 136400000
+Just saw element: 136500000
+Just saw element: 136600000
+Just saw element: 136700000
+Just saw element: 136800000
+Just saw element: 136900000
+Just saw element: 137000000
+Just saw element: 137100000
+Just saw element: 137200000
+Just saw element: 137300000
+Just saw element: 137400000
+Just saw element: 137500000
+Just saw element: 137600000
+Just saw element: 137700000
+Just saw element: 137800000
+Just saw element: 137900000
+Just saw element: 138000000
+Just saw element: 138100000
+Just saw element: 138200000
+Just saw element: 138300000
+Just saw element: 138400000
+Just saw element: 138500000
+Just saw element: 138600000
+Just saw element: 138700000
+Just saw element: 138800000
+Just saw element: 138900000
+Just saw element: 139000000
+Just saw element: 139100000
+Just saw element: 139200000
+Just saw element: 139300000
+Just saw element: 139400000
+Just saw element: 139500000
+Just saw element: 139600000
+Just saw element: 139700000
+Just saw element: 139800000
+Just saw element: 139900000
+Just saw element: 140000000
+Just saw element: 140100000
+Just saw element: 140200000
+Just saw element: 140300000
+Just saw element: 140400000
+Just saw element: 140500000
+Just saw element: 140600000
+Just saw element: 140700000
+Just saw element: 140800000
+Just saw element: 140900000
+Just saw element: 141000000
+Just saw element: 141100000
+Just saw element: 141200000
+Just saw element: 141300000
+Just saw element: 141400000
+Just saw element: 141500000
+Just saw element: 141600000
+Just saw element: 141700000
+Just saw element: 141800000
+Just saw element: 141900000
+Just saw element: 142000000
+Just saw element: 142100000
+Just saw element: 142200000
+Just saw element: 142300000
+Just saw element: 142400000
+Just saw element: 142500000
+Just saw element: 142600000
+Just saw element: 142700000
+Just saw element: 142800000
+Just saw element: 142900000
+Just saw element: 143000000
+Just saw element: 143100000
+Just saw element: 143200000
+Just saw element: 143300000
+Just saw element: 143400000
+Just saw element: 143500000
+Just saw element: 143600000
+Just saw element: 143700000
+Just saw element: 143800000
+Just saw element: 143900000
+Just saw element: 144000000
+Just saw element: 144100000
+Just saw element: 144200000
+Just saw element: 144300000
+Just saw element: 144400000
+Just saw element: 144500000
+Just saw element: 144600000
+Just saw element: 144700000
+Just saw element: 144800000
+Just saw element: 144900000
+Just saw element: 145000000
+Just saw element: 145100000
+Just saw element: 145200000
+Just saw element: 145300000
+Just saw element: 145400000
+Just saw element: 145500000
+Just saw element: 145600000
+Just saw element: 145700000
+Just saw element: 145800000
+Just saw element: 145900000
+Just saw element: 146000000
+Just saw element: 146100000
+Just saw element: 146200000
+Just saw element: 146300000
+Just saw element: 146400000
+Just saw element: 146500000
+Just saw element: 146600000
+Just saw element: 146700000
+Just saw element: 146800000
+Just saw element: 146900000
+Just saw element: 147000000
+Just saw element: 147100000
+Just saw element: 147200000
+Just saw element: 147300000
+Just saw element: 147400000
+Just saw element: 147500000
+Just saw element: 147600000
+Just saw element: 147700000
+Just saw element: 147800000
+Just saw element: 147900000
+Just saw element: 148000000
+Just saw element: 148100000
+Just saw element: 148200000
+Just saw element: 148300000
+Just saw element: 148400000
+Just saw element: 148500000
+Just saw element: 148600000
+Just saw element: 148700000
+Just saw element: 148800000
+Just saw element: 148900000
+Just saw element: 149000000
+Just saw element: 149100000
+Just saw element: 149200000
+Just saw element: 149300000
+Just saw element: 149400000
+Just saw element: 149500000
+Just saw element: 149600000
+Just saw element: 149700000
+Just saw element: 149800000
+Just saw element: 149900000
+Just saw element: 150000000
+Just saw element: 150100000
+Just saw element: 150200000
+Just saw element: 150300000
+Just saw element: 150400000
+Just saw element: 150500000
+Just saw element: 150600000
+Just saw element: 150700000
+Just saw element: 150800000
+Just saw element: 150900000
+Just saw element: 151000000
+Just saw element: 151100000
+Just saw element: 151200000
+Just saw element: 151300000
+Just saw element: 151400000
+Just saw element: 151500000
+Just saw element: 151600000
+Just saw element: 151700000
+Just saw element: 151800000
+Just saw element: 151900000
+Just saw element: 152000000
+Just saw element: 152100000
+Just saw element: 152200000
+Just saw element: 152300000
+Just saw element: 152400000
+Just saw element: 152500000
+Just saw element: 152600000
+Just saw element: 152700000
+Just saw element: 152800000
+Just saw element: 152900000
+Just saw element: 153000000
+Just saw element: 153100000
+Just saw element: 153200000
+Just saw element: 153300000
+Just saw element: 153400000
+Just saw element: 153500000
+Just saw element: 153600000
+Just saw element: 153700000
+Just saw element: 153800000
+Just saw element: 153900000
+Just saw element: 154000000
+Just saw element: 154100000
+Just saw element: 154200000
+Just saw element: 154300000
+Just saw element: 154400000
+Just saw element: 154500000
+Just saw element: 154600000
+Just saw element: 154700000
+Just saw element: 154800000
+Just saw element: 154900000
+Just saw element: 155000000
+Just saw element: 155100000
+Just saw element: 155200000
+Just saw element: 155300000
+Just saw element: 155400000
+Just saw element: 155500000
+Just saw element: 155600000
+Just saw element: 155700000
+Just saw element: 155800000
+Just saw element: 155900000
+Just saw element: 156000000
+Just saw element: 156100000
+Just saw element: 156200000
+Just saw element: 156300000
+Just saw element: 156400000
+Just saw element: 156500000
+Just saw element: 156600000
+Just saw element: 156700000
+Just saw element: 156800000
+Just saw element: 156900000
+Just saw element: 157000000
+Just saw element: 157100000
+Just saw element: 157200000
+Just saw element: 157300000
+Just saw element: 157400000
+Just saw element: 157500000
+Just saw element: 157600000
+Just saw element: 157700000
+Just saw element: 157800000
+Just saw element: 157900000
+Just saw element: 158000000
+Just saw element: 158100000
+Just saw element: 158200000
+Just saw element: 158300000
+Just saw element: 158400000
+Just saw element: 158500000
+Just saw element: 158600000
+Just saw element: 158700000
+Just saw element: 158800000
+Just saw element: 158900000
+Just saw element: 159000000
+Just saw element: 159100000
+Just saw element: 159200000
+Just saw element: 159300000
+Just saw element: 159400000
+Just saw element: 159500000
+Just saw element: 159600000
+Just saw element: 159700000
+Just saw element: 159800000
+Just saw element: 159900000
+Just saw element: 160000000
+Just saw element: 160100000
+Just saw element: 160200000
+Just saw element: 160300000
+Just saw element: 160400000
+Just saw element: 160500000
+Just saw element: 160600000
+Just saw element: 160700000
+Just saw element: 160800000
+Just saw element: 160900000
+Just saw element: 161000000
+Just saw element: 161100000
+Just saw element: 161200000
+Just saw element: 161300000
+Just saw element: 161400000
+Just saw element: 161500000
+Just saw element: 161600000
+Just saw element: 161700000
+Just saw element: 161800000
+Just saw element: 161900000
+Just saw element: 162000000
+Just saw element: 162100000
+Just saw element: 162200000
+Just saw element: 162300000
+Just saw element: 162400000
+Just saw element: 162500000
+Just saw element: 162600000
+Just saw element: 162700000
+Just saw element: 162800000
+Just saw element: 162900000
+Just saw element: 163000000
+Just saw element: 163100000
+Just saw element: 163200000
+Just saw element: 163300000
+Just saw element: 163400000
+Just saw element: 163500000
+Just saw element: 163600000
+Just saw element: 163700000
+Just saw element: 163800000
+Just saw element: 163900000
+Just saw element: 164000000
+Just saw element: 164100000
+Just saw element: 164200000
+Just saw element: 164300000
+Just saw element: 164400000
+Just saw element: 164500000
+Just saw element: 164600000
+Just saw element: 164700000
+Just saw element: 164800000
+Just saw element: 164900000
+Just saw element: 165000000
+Just saw element: 165100000
+Just saw element: 165200000
+Just saw element: 165300000
+Just saw element: 165400000
+Just saw element: 165500000
+Just saw element: 165600000
+Just saw element: 165700000
+Just saw element: 165800000
+Just saw element: 165900000
+Just saw element: 166000000
+Just saw element: 166100000
+Just saw element: 166200000
+Just saw element: 166300000
+Just saw element: 166400000
+Just saw element: 166500000
+Just saw element: 166600000
+Just saw element: 166700000
+Just saw element: 166800000
+Just saw element: 166900000
+Just saw element: 167000000
+Just saw element: 167100000
+Just saw element: 167200000
+Just saw element: 167300000
+Just saw element: 167400000
+Just saw element: 167500000
+Just saw element: 167600000
+Just saw element: 167700000
+Just saw element: 167800000
+Just saw element: 167900000
+Just saw element: 168000000
+Just saw element: 168100000
+Just saw element: 168200000
+Just saw element: 168300000
+Just saw element: 168400000
+Just saw element: 168500000
+Just saw element: 168600000
+Just saw element: 168700000
+Just saw element: 168800000
+Just saw element: 168900000
+Just saw element: 169000000
+Just saw element: 169100000
+Just saw element: 169200000
+Just saw element: 169300000
+Just saw element: 169400000
+Just saw element: 169500000
+Just saw element: 169600000
+Just saw element: 169700000
+Just saw element: 169800000
+Just saw element: 169900000
+Just saw element: 170000000
+Just saw element: 170100000
+Just saw element: 170200000
+Just saw element: 170300000
+Just saw element: 170400000
+Just saw element: 170500000
+Just saw element: 170600000
+Just saw element: 170700000
+Just saw element: 170800000
+Just saw element: 170900000
+Just saw element: 171000000
+Just saw element: 171100000
+Just saw element: 171200000
+Just saw element: 171300000
+Just saw element: 171400000
+Just saw element: 171500000
+Just saw element: 171600000
+Just saw element: 171700000
+Just saw element: 171800000
+Just saw element: 171900000
+Just saw element: 172000000
+Just saw element: 172100000
+Just saw element: 172200000
+Just saw element: 172300000
+Just saw element: 172400000
+Just saw element: 172500000
+Just saw element: 172600000
+Just saw element: 172700000
+Just saw element: 172800000
+Just saw element: 172900000
+Just saw element: 173000000
+Just saw element: 173100000
+Just saw element: 173200000
+Just saw element: 173300000
+Just saw element: 173400000
+Just saw element: 173500000
+Just saw element: 173600000
+Just saw element: 173700000
+Just saw element: 173800000
+Just saw element: 173900000
+Just saw element: 174000000
+Just saw element: 174100000
+Just saw element: 174200000
+Just saw element: 174300000
+Just saw element: 174400000
+Just saw element: 174500000
+Just saw element: 174600000
+Just saw element: 174700000
+Just saw element: 174800000
+Just saw element: 174900000
+Just saw element: 175000000
+Just saw element: 175100000
+Just saw element: 175200000
+Just saw element: 175300000
+Just saw element: 175400000
+Just saw element: 175500000
+Just saw element: 175600000
+Just saw element: 175700000
+Just saw element: 175800000
+Just saw element: 175900000
+Just saw element: 176000000
+Just saw element: 176100000
+Just saw element: 176200000
+Just saw element: 176300000
+Just saw element: 176400000
+Just saw element: 176500000
+Just saw element: 176600000
+Just saw element: 176700000
+Just saw element: 176800000
+Just saw element: 176900000
+Just saw element: 177000000
+Just saw element: 177100000
+Just saw element: 177200000
+Just saw element: 177300000
+Just saw element: 177400000
+Just saw element: 177500000
+Just saw element: 177600000
+Just saw element: 177700000
+Just saw element: 177800000
+Just saw element: 177900000
+Just saw element: 178000000
+Just saw element: 178100000
+Just saw element: 178200000
+Just saw element: 178300000
+Just saw element: 178400000
+Just saw element: 178500000
+Just saw element: 178600000
+Just saw element: 178700000
+Just saw element: 178800000
+Just saw element: 178900000
+Just saw element: 179000000
+Just saw element: 179100000
+Just saw element: 179200000
+Just saw element: 179300000
+Just saw element: 179400000
+Just saw element: 179500000
+Just saw element: 179600000
+Just saw element: 179700000
+Just saw element: 179800000
+Just saw element: 179900000
+Just saw element: 180000000
+Just saw element: 180100000
+Just saw element: 180200000
+Just saw element: 180300000
+Just saw element: 180400000
+Just saw element: 180500000
+Just saw element: 180600000
+Just saw element: 180700000
+Just saw element: 180800000
+Just saw element: 180900000
+Just saw element: 181000000
+Just saw element: 181100000
+Just saw element: 181200000
+Just saw element: 181300000
+Just saw element: 181400000
+Just saw element: 181500000
+Just saw element: 181600000
+Just saw element: 181700000
+Just saw element: 181800000
+Just saw element: 181900000
+Just saw element: 182000000
+Just saw element: 182100000
+Just saw element: 182200000
+Just saw element: 182300000
+Just saw element: 182400000
+Just saw element: 182500000
+Just saw element: 182600000
+Just saw element: 182700000
+Just saw element: 182800000
+Just saw element: 182900000
+Just saw element: 183000000
+Just saw element: 183100000
+Just saw element: 183200000
+Just saw element: 183300000
+Just saw element: 183400000
+Just saw element: 183500000
+Just saw element: 183600000
+Just saw element: 183700000
+Just saw element: 183800000
+Just saw element: 183900000
+Just saw element: 184000000
+Just saw element: 184100000
+Just saw element: 184200000
+Just saw element: 184300000
+Just saw element: 184400000
+Just saw element: 184500000
+Just saw element: 184600000
+Just saw element: 184700000
+Just saw element: 184800000
+Just saw element: 184900000
+Just saw element: 185000000
+Just saw element: 185100000
+Just saw element: 185200000
+Just saw element: 185300000
+Just saw element: 185400000
+Just saw element: 185500000
+Just saw element: 185600000
+Just saw element: 185700000
+Just saw element: 185800000
+Just saw element: 185900000
+Just saw element: 186000000
+Just saw element: 186100000
+Just saw element: 186200000
+Just saw element: 186300000
+Just saw element: 186400000
+Just saw element: 186500000
+Just saw element: 186600000
+Just saw element: 186700000
+Just saw element: 186800000
+Just saw element: 186900000
+Just saw element: 187000000
+Just saw element: 187100000
+Just saw element: 187200000
+Just saw element: 187300000
+Just saw element: 187400000
+Just saw element: 187500000
+Just saw element: 187600000
+Just saw element: 187700000
+Just saw element: 187800000
+Just saw element: 187900000
+Just saw element: 188000000
+Just saw element: 188100000
+Just saw element: 188200000
+Just saw element: 188300000
+Just saw element: 188400000
+Just saw element: 188500000
+Just saw element: 188600000
+Just saw element: 188700000
+Just saw element: 188800000
+Just saw element: 188900000
+Just saw element: 189000000
+Just saw element: 189100000
+Just saw element: 189200000
+Just saw element: 189300000
+Just saw element: 189400000
+Just saw element: 189500000
+Just saw element: 189600000
+Just saw element: 189700000
+Just saw element: 189800000
+Just saw element: 189900000
+Just saw element: 190000000
+Just saw element: 190100000
+Just saw element: 190200000
+Just saw element: 190300000
+Just saw element: 190400000
+Just saw element: 190500000
+Just saw element: 190600000
+Just saw element: 190700000
+Just saw element: 190800000
+Just saw element: 190900000
+Just saw element: 191000000
+Just saw element: 191100000
+Just saw element: 191200000
+Just saw element: 191300000
+Just saw element: 191400000
+Just saw element: 191500000
+Just saw element: 191600000
+Just saw element: 191700000
+Just saw element: 191800000
+Just saw element: 191900000
+Just saw element: 192000000
+Just saw element: 192100000
+Just saw element: 192200000
+Just saw element: 192300000
+Just saw element: 192400000
+Just saw element: 192500000
+Just saw element: 192600000
+Just saw element: 192700000
+Just saw element: 192800000
+Just saw element: 192900000
+Just saw element: 193000000
+Just saw element: 193100000
+Just saw element: 193200000
+Just saw element: 193300000
+Just saw element: 193400000
+Just saw element: 193500000
+Just saw element: 193600000
+Just saw element: 193700000
+Just saw element: 193800000
+Just saw element: 193900000
+Just saw element: 194000000
+Just saw element: 194100000
+Just saw element: 194200000
+Just saw element: 194300000
+Just saw element: 194400000
+Just saw element: 194500000
+Just saw element: 194600000
+Just saw element: 194700000
+Just saw element: 194800000
+Just saw element: 194900000
+Just saw element: 195000000
+Just saw element: 195100000
+Just saw element: 195200000
+Just saw element: 195300000
+Just saw element: 195400000
+Just saw element: 195500000
+Just saw element: 195600000
+Just saw element: 195700000
+Just saw element: 195800000
+Just saw element: 195900000
+Just saw element: 196000000
+Just saw element: 196100000
+Just saw element: 196200000
+Just saw element: 196300000
+Just saw element: 196400000
+Just saw element: 196500000
+Just saw element: 196600000
+Just saw element: 196700000
+Just saw element: 196800000
+Just saw element: 196900000
+Just saw element: 197000000
+Just saw element: 197100000
+Just saw element: 197200000
+Just saw element: 197300000
+Just saw element: 197400000
+Just saw element: 197500000
+Just saw element: 197600000
+Just saw element: 197700000
+Just saw element: 197800000
+Just saw element: 197900000
+Just saw element: 198000000
+Just saw element: 198100000
+Just saw element: 198200000
+Just saw element: 198300000
+Just saw element: 198400000
+Just saw element: 198500000
+Just saw element: 198600000
+Just saw element: 198700000
+Just saw element: 198800000
+Just saw element: 198900000
+Just saw element: 199000000
+Just saw element: 199100000
+Just saw element: 199200000
+Just saw element: 199300000
+Just saw element: 199400000
+Just saw element: 199500000
+Just saw element: 199600000
+Just saw element: 199700000
+Just saw element: 199800000
+Just saw element: 199900000
+Jul 22 16:01:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 16:01:46 ubuntu anacron[84294]: Anacron 2.3 started on 2021-07-22
+Jul 22 16:01:46 ubuntu anacron[84294]: Normal exit (0 jobs run)
+Just saw element: 200000000
+Just saw element: 200100000
+Just saw element: 200200000
+Just saw element: 200300000
+Just saw element: 200400000
+Just saw element: 200500000
+Just saw element: 200600000
+Just saw element: 200700000
+Just saw element: 200800000
+Just saw element: 200900000
+Just saw element: 201000000
+Just saw element: 201100000
+Just saw element: 201200000
+Just saw element: 201300000
+Just saw element: 201400000
+Just saw element: 201500000
+Just saw element: 201600000
+Just saw element: 201700000
+Just saw element: 201800000
+Just saw element: 201900000
+Just saw element: 202000000
+Just saw element: 202100000
+Just saw element: 202200000
+Just saw element: 202300000
+Just saw element: 202400000
+Just saw element: 202500000
+Just saw element: 202600000
+Just saw element: 202700000
+Just saw element: 202800000
+Just saw element: 202900000
+Just saw element: 203000000
+Just saw element: 203100000
+Just saw element: 203200000
+Just saw element: 203300000
+Just saw element: 203400000
+Just saw element: 203500000
+Just saw element: 203600000
+Just saw element: 203700000
+Just saw element: 203800000
+Just saw element: 203900000
+Just saw element: 204000000
+Just saw element: 204100000
+Just saw element: 204200000
+Just saw element: 204300000
+Just saw element: 204400000
+Just saw element: 204500000
+Just saw element: 204600000
+Just saw element: 204700000
+Just saw element: 204800000
+Just saw element: 204900000
+Just saw element: 205000000
+Just saw element: 205100000
+Just saw element: 205200000
+Just saw element: 205300000
+Just saw element: 205400000
+Just saw element: 205500000
+Just saw element: 205600000
+Just saw element: 205700000
+Just saw element: 205800000
+Just saw element: 205900000
+Just saw element: 206000000
+Just saw element: 206100000
+Just saw element: 206200000
+Just saw element: 206300000
+Just saw element: 206400000
+Just saw element: 206500000
+Just saw element: 206600000
+Just saw element: 206700000
+Just saw element: 206800000
+Just saw element: 206900000
+Just saw element: 207000000
+Just saw element: 207100000
+Just saw element: 207200000
+Just saw element: 207300000
+Just saw element: 207400000
+Just saw element: 207500000
+Just saw element: 207600000
+Just saw element: 207700000
+Just saw element: 207800000
+Just saw element: 207900000
+Just saw element: 208000000
+Just saw element: 208100000
+Just saw element: 208200000
+Just saw element: 208300000
+Just saw element: 208400000
+Just saw element: 208500000
+Just saw element: 208600000
+Just saw element: 208700000
+Just saw element: 208800000
+Just saw element: 208900000
+Just saw element: 209000000
+Just saw element: 209100000
+Just saw element: 209200000
+Just saw element: 209300000
+Just saw element: 209400000
+Just saw element: 209500000
+Just saw element: 209600000
+Just saw element: 209700000
+Just saw element: 209800000
+Just saw element: 209900000
+Just saw element: 210000000
+Just saw element: 210100000
+Just saw element: 210200000
+Just saw element: 210300000
+Just saw element: 210400000
+Just saw element: 210500000
+Just saw element: 210600000
+Just saw element: 210700000
+Just saw element: 210800000
+Just saw element: 210900000
+Just saw element: 211000000
+Just saw element: 211100000
+Just saw element: 211200000
+Just saw element: 211300000
+Just saw element: 211400000
+Just saw element: 211500000
+Just saw element: 211600000
+Just saw element: 211700000
+Just saw element: 211800000
+Just saw element: 211900000
+Just saw element: 212000000
+Just saw element: 212100000
+Just saw element: 212200000
+Just saw element: 212300000
+Just saw element: 212400000
+Just saw element: 212500000
+Just saw element: 212600000
+Just saw element: 212700000
+Just saw element: 212800000
+Just saw element: 212900000
+Just saw element: 213000000
+Just saw element: 213100000
+Just saw element: 213200000
+Just saw element: 213300000
+Just saw element: 213400000
+Just saw element: 213500000
+Just saw element: 213600000
+Just saw element: 213700000
+Just saw element: 213800000
+Just saw element: 213900000
+Just saw element: 214000000
+Just saw element: 214100000
+Just saw element: 214200000
+Just saw element: 214300000
+Just saw element: 214400000
+Just saw element: 214500000
+Just saw element: 214600000
+Just saw element: 214700000
+Just saw element: 214800000
+Just saw element: 214900000
+Just saw element: 215000000
+Just saw element: 215100000
+Just saw element: 215200000
+Just saw element: 215300000
+Just saw element: 215400000
+Just saw element: 215500000
+Just saw element: 215600000
+Just saw element: 215700000
+Just saw element: 215800000
+Just saw element: 215900000
+Just saw element: 216000000
+Just saw element: 216100000
+Just saw element: 216200000
+Just saw element: 216300000
+Just saw element: 216400000
+Just saw element: 216500000
+Just saw element: 216600000
+Just saw element: 216700000
+Just saw element: 216800000
+Just saw element: 216900000
+Just saw element: 217000000
+Just saw element: 217100000
+Just saw element: 217200000
+Just saw element: 217300000
+Just saw element: 217400000
+Just saw element: 217500000
+Just saw element: 217600000
+Just saw element: 217700000
+Just saw element: 217800000
+Just saw element: 217900000
+Just saw element: 218000000
+Just saw element: 218100000
+Just saw element: 218200000
+Just saw element: 218300000
+Just saw element: 218400000
+Just saw element: 218500000
+Just saw element: 218600000
+Just saw element: 218700000
+Just saw element: 218800000
+Just saw element: 218900000
+Just saw element: 219000000
+Just saw element: 219100000
+Just saw element: 219200000
+Just saw element: 219300000
+Just saw element: 219400000
+Just saw element: 219500000
+Just saw element: 219600000
+Just saw element: 219700000
+Just saw element: 219800000
+Just saw element: 219900000
+Just saw element: 220000000
+Just saw element: 220100000
+Just saw element: 220200000
+Just saw element: 220300000
+Just saw element: 220400000
+Just saw element: 220500000
+Just saw element: 220600000
+Just saw element: 220700000
+Just saw element: 220800000
+Just saw element: 220900000
+Just saw element: 221000000
+Just saw element: 221100000
+Just saw element: 221200000
+Just saw element: 221300000
+Just saw element: 221400000
+Just saw element: 221500000
+Just saw element: 221600000
+Just saw element: 221700000
+Just saw element: 221800000
+Just saw element: 221900000
+Just saw element: 222000000
+Just saw element: 222100000
+Just saw element: 222200000
+Just saw element: 222300000
+Just saw element: 222400000
+Just saw element: 222500000
+Just saw element: 222600000
+Just saw element: 222700000
+Just saw element: 222800000
+Just saw element: 222900000
+Just saw element: 223000000
+Just saw element: 223100000
+Just saw element: 223200000
+Just saw element: 223300000
+Just saw element: 223400000
+Just saw element: 223500000
+Just saw element: 223600000
+Just saw element: 223700000
+Just saw element: 223800000
+Just saw element: 223900000
+Just saw element: 224000000
+Just saw element: 224100000
+Just saw element: 224200000
+Just saw element: 224300000
+Just saw element: 224400000
+Just saw element: 224500000
+Just saw element: 224600000
+Just saw element: 224700000
+Just saw element: 224800000
+Just saw element: 224900000
+Just saw element: 225000000
+Just saw element: 225100000
+Just saw element: 225200000
+Just saw element: 225300000
+Just saw element: 225400000
+Just saw element: 225500000
+Just saw element: 225600000
+Just saw element: 225700000
+Just saw element: 225800000
+Just saw element: 225900000
+Just saw element: 226000000
+Jul 22 16:17:01 ubuntu CRON[93302]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Just saw element: 226100000
+Just saw element: 226200000
+Just saw element: 226300000
+Just saw element: 226400000
+Just saw element: 226500000
+Just saw element: 226600000
+Just saw element: 226700000
+Just saw element: 226800000
+Just saw element: 226900000
+Just saw element: 227000000
+Just saw element: 227100000
+Just saw element: 227200000
+Just saw element: 227300000
+Just saw element: 227400000
+Just saw element: 227500000
+Just saw element: 227600000
+Just saw element: 227700000
+Just saw element: 227800000
+Just saw element: 227900000
+Just saw element: 228000000
+Just saw element: 228100000
+Just saw element: 228200000
+Just saw element: 228300000
+Just saw element: 228400000
+Just saw element: 228500000
+Just saw element: 228600000
+Just saw element: 228700000
+Just saw element: 228800000
+Just saw element: 228900000
+Just saw element: 229000000
+Just saw element: 229100000
+Just saw element: 229200000
+Just saw element: 229300000
+Just saw element: 229400000
+Just saw element: 229500000
+Just saw element: 229600000
+Just saw element: 229700000
+Just saw element: 229800000
+Just saw element: 229900000
+Just saw element: 230000000
+Just saw element: 230100000
+Just saw element: 230200000
+Just saw element: 230300000
+Just saw element: 230400000
+Just saw element: 230500000
+Just saw element: 230600000
+Just saw element: 230700000
+Just saw element: 230800000
+Just saw element: 230900000
+Just saw element: 231000000
+Just saw element: 231100000
+Just saw element: 231200000
+Just saw element: 231300000
+Just saw element: 231400000
+Just saw element: 231500000
+Just saw element: 231600000
+Just saw element: 231700000
+Just saw element: 231800000
+Just saw element: 231900000
+Just saw element: 232000000
+Just saw element: 232100000
+Just saw element: 232200000
+Just saw element: 232300000
+Just saw element: 232400000
+Just saw element: 232500000
+Just saw element: 232600000
+Just saw element: 232700000
+Just saw element: 232800000
+Just saw element: 232900000
+Just saw element: 233000000
+Just saw element: 233100000
+Just saw element: 233200000
+Just saw element: 233300000
+Just saw element: 233400000
+Just saw element: 233500000
+Just saw element: 233600000
+Just saw element: 233700000
+Just saw element: 233800000
+Just saw element: 233900000
+Just saw element: 234000000
+Just saw element: 234100000
+Just saw element: 234200000
+Just saw element: 234300000
+Just saw element: 234400000
+Just saw element: 234500000
+Just saw element: 234600000
+Just saw element: 234700000
+Just saw element: 234800000
+Just saw element: 234900000
+Just saw element: 235000000
+Just saw element: 235100000
+Just saw element: 235200000
+Just saw element: 235300000
+Just saw element: 235400000
+Just saw element: 235500000
+Just saw element: 235600000
+Just saw element: 235700000
+Just saw element: 235800000
+Just saw element: 235900000
+Just saw element: 236000000
+Just saw element: 236100000
+Just saw element: 236200000
+Just saw element: 236300000
+Just saw element: 236400000
+Just saw element: 236500000
+Just saw element: 236600000
+Just saw element: 236700000
+Just saw element: 236800000
+Just saw element: 236900000
+Just saw element: 237000000
+Just saw element: 237100000
+Just saw element: 237200000
+Just saw element: 237300000
+Just saw element: 237400000
+Just saw element: 237500000
+Just saw element: 237600000
+Just saw element: 237700000
+Just saw element: 237800000
+Just saw element: 237900000
+Just saw element: 238000000
+Just saw element: 238100000
+Just saw element: 238200000
+Just saw element: 238300000
+Just saw element: 238400000
+Just saw element: 238500000
+Just saw element: 238600000
+Just saw element: 238700000
+Just saw element: 238800000
+Just saw element: 238900000
+Just saw element: 239000000
+Just saw element: 239100000
+Just saw element: 239200000
+Just saw element: 239300000
+Just saw element: 239400000
+Just saw element: 239500000
+Just saw element: 239600000
+Just saw element: 239700000
+Just saw element: 239800000
+Just saw element: 239900000
+Just saw element: 240000000
+Just saw element: 240100000
+Just saw element: 240200000
+Just saw element: 240300000
+Just saw element: 240400000
+Just saw element: 240500000
+Just saw element: 240600000
+Just saw element: 240700000
+Just saw element: 240800000
+Just saw element: 240900000
+Just saw element: 241000000
+Just saw element: 241100000
+Just saw element: 241200000
+Just saw element: 241300000
+Just saw element: 241400000
+Just saw element: 241500000
+Just saw element: 241600000
+Just saw element: 241700000
+Just saw element: 241800000
+Just saw element: 241900000
+Just saw element: 242000000
+Just saw element: 242100000
+Just saw element: 242200000
+Just saw element: 242300000
+Just saw element: 242400000
+Just saw element: 242500000
+Just saw element: 242600000
+Just saw element: 242700000
+Just saw element: 242800000
+Just saw element: 242900000
+Just saw element: 243000000
+Just saw element: 243100000
+Just saw element: 243200000
+Just saw element: 243300000
+Just saw element: 243400000
+Just saw element: 243500000
+Just saw element: 243600000
+Just saw element: 243700000
+Just saw element: 243800000
+Just saw element: 243900000
+Just saw element: 244000000
+Just saw element: 244100000
+Just saw element: 244200000
+Just saw element: 244300000
+Just saw element: 244400000
+Just saw element: 244500000
+Just saw element: 244600000
+Just saw element: 244700000
+Just saw element: 244800000
+Just saw element: 244900000
+Just saw element: 245000000
+Just saw element: 245100000
+Just saw element: 245200000
+Just saw element: 245300000
+Just saw element: 245400000
+Just saw element: 245500000
+Just saw element: 245600000
+Just saw element: 245700000
+Just saw element: 245800000
+Just saw element: 245900000
+Just saw element: 246000000
+Just saw element: 246100000
+Just saw element: 246200000
+Just saw element: 246300000
+Just saw element: 246400000
+Just saw element: 246500000
+Just saw element: 246600000
+Just saw element: 246700000
+Just saw element: 246800000
+Just saw element: 246900000
+Just saw element: 247000000
+Just saw element: 247100000
+Just saw element: 247200000
+Just saw element: 247300000
+Just saw element: 247400000
+Just saw element: 247500000
+Just saw element: 247600000
+Just saw element: 247700000
+Just saw element: 247800000
+Just saw element: 247900000
+Just saw element: 248000000
+Just saw element: 248100000
+Just saw element: 248200000
+Just saw element: 248300000
+Just saw element: 248400000
+Just saw element: 248500000
+Just saw element: 248600000
+Just saw element: 248700000
+Just saw element: 248800000
+Just saw element: 248900000
+Just saw element: 249000000
+Just saw element: 249100000
+Just saw element: 249200000
+Just saw element: 249300000
+Just saw element: 249400000
+Just saw element: 249500000
+Just saw element: 249600000
+Just saw element: 249700000
+Just saw element: 249800000
+Just saw element: 249900000
+Just saw element: 250000000
+netlist created. 250000000 elements.
+[0mWaiting for benchmark to be done current :2021-07-22 16:31:46
+Final routing is: 1.2249e+13
+</run>
+Total time: 9215.019
+</benchmark>
+Execution Time (seconds): 24
+****success****
+canneal : F completed.
+current = 2021-07-22 16:52:44
+Jul 22 16:57:32 ubuntu systemd[1]: Started Session 246 of user huawei.
+Jul 22 17:02:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 17:02:46 ubuntu anacron[5228]: Anacron 2.3 started on 2021-07-22
+Jul 22 17:02:46 ubuntu anacron[5228]: Normal exit (0 jobs run)
+Jul 22 17:17:01 ubuntu CRON[5263]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 18:04:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 18:04:46 ubuntu anacron[5284]: Anacron 2.3 started on 2021-07-22
+Jul 22 18:04:46 ubuntu anacron[5284]: Normal exit (0 jobs run)
+Jul 22 18:17:01 ubuntu CRON[5309]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 19:04:21 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 19:04:21 ubuntu anacron[5330]: Anacron 2.3 started on 2021-07-22
+Jul 22 19:04:21 ubuntu anacron[5330]: Normal exit (0 jobs run)
+Jul 22 19:17:02 ubuntu CRON[5360]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 20:01:21 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 20:01:21 ubuntu anacron[5379]: Anacron 2.3 started on 2021-07-22
+Jul 22 20:01:21 ubuntu anacron[5379]: Normal exit (0 jobs run)
+Jul 22 20:17:01 ubuntu CRON[5402]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 20:43:45 ubuntu systemd[1]: Started Session 251 of user huawei.
+Jul 22 20:46:22 ubuntu systemd[1]: Started Session 252 of user huawei.
+Start test round: 1
+Jul 22 20:49:59 ubuntu kernel: [726079.160728] Page table allocation set to normal behavior
+Jul 22 20:49:59 ubuntu kernel: [726079.169719] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 5732 to be ready
+[0mWaiting for benchmark to be done current :2021-07-22 20:54:57
+Jul 22 20:55:10 ubuntu kernel: [726390.389454] perf: interrupt took too long (2521 > 2500), lowering kernel.perf_event_max_sample_rate to 79250
+Jul 22 20:55:17 ubuntu kernel: [726397.164781] perf: interrupt took too long (3277 > 3151), lowering kernel.perf_event_max_sample_rate to 61000
+Jul 22 20:55:26 ubuntu kernel: [726406.297202] perf: interrupt took too long (4172 > 4096), lowering kernel.perf_event_max_sample_rate to 47750
+Jul 22 20:55:41 ubuntu kernel: [726421.198167] perf: interrupt took too long (5314 > 5215), lowering kernel.perf_event_max_sample_rate to 37500
+Jul 22 20:55:57 ubuntu kernel: [726437.537647] perf: interrupt took too long (6660 > 6642), lowering kernel.perf_event_max_sample_rate to 30000
+Jul 22 20:56:21 ubuntu kernel: [726461.869671] perf: interrupt took too long (8367 > 8325), lowering kernel.perf_event_max_sample_rate to 23750
+/home/huawei/result/bin/bench_graph500_mt -- -s 27 -e 21 
+<benchmark exec="/home/huawei/result/bin/bench_graph500_mt">
+<config>
+  <openmp>on</openmp>  <memsize>1G <memsize>  <hugetlb>0</hugetlb>
+  <data>-1</data>  <interference>0</interference>
+</config>
+<run>
+Graph500 with scale 0
+allocate edges
+Allocating 21504 MB
+Allocate Graph: xoff
+Allocating 2048 MB
+Allocate Graph: vlist
+Allocating 1023 MB
+Allocating 16 MB
+Allocating 16 MB
+alloc: xadjstore
+Allocating 44150 MB
+Allocate bfs_tree
+Allocating 1024 MB
+Allocate has_adj
+Allocating 512 MB
+==============================================
+Allocating 2047 MB
+Execution Time (seconds): 126
+****success****
+graph500 : F completed.
+current = 2021-07-22 20:57:08
+Jul 22 21:01:46 ubuntu systemd[1]: Started Run anacron jobs.
+Jul 22 21:01:46 ubuntu anacron[9518]: Anacron 2.3 started on 2021-07-22
+Jul 22 21:01:46 ubuntu anacron[9518]: Normal exit (0 jobs run)
+Jul 22 21:11:21 ubuntu systemd[1]: Starting Daily apt download activities...
+Jul 22 21:11:51 ubuntu systemd-networkd-wait-online[9578]: Event loop failed: Connection timed out
+Jul 22 21:12:21 ubuntu apt-helper[9561]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Jul 22 21:12:21 ubuntu apt-helper[9561]: E: Sub-process nm-online returned an error code (1)
+Jul 22 21:12:22 ubuntu systemd[1]: Started Daily apt download activities.
+Jul 22 21:17:01 ubuntu CRON[9650]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Start test round: 1
+Jul 22 21:30:03 ubuntu kernel: [728483.176149] Page table allocation set to normal behavior
+Jul 22 21:30:03 ubuntu kernel: [728483.184951] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 9757 to be ready
+[0mWaiting for benchmark to be done current :2021-07-22 21:31:00
+/home/huawei/result/bin/bench_hashjoin_mt -- -o 700000000 -i 20000000 -s 20000000 
+<benchmark exec="/home/huawei/result/bin/bench_hashjoin_mt">
+<config>
+  <openmp>on</openmp></config>
+<run>
+Hashtable Size: 152MB
+Datatable Size Size: 85449MB
+Element Size: 305 MB
+Total: 88348 MB
+allocating 152 MB memory with alignment 64 
+allocating 305 MB memory with alignment 2097152 
+allocating 85449 MB memory with alignment 2097152 
+got 1000000000 matches / 20000000 matches per iteration of 1400000000 
+hashtable conflicts = 7357683
+Lookup time: 418.18446744073709550690
+</run>
+Total time: 474.18446744073709551446
+</benchmark>
+Execution Time (seconds): 417
+****success****
+hashjoin : I completed.
+current = 2021-07-22 21:38:04
+Start test round: 1
+Jul 22 21:44:54 ubuntu kernel: [729374.611895] Page table allocation set to normal behavior
+Jul 22 21:44:54 ubuntu kernel: [729374.620431] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 14718 to be ready
+[0mWaiting for benchmark to be done current :2021-07-22 21:49:43
+/home/huawei/result/bin/bench_graph500_mt -- -s 27 -e 21 
+<benchmark exec="/home/huawei/result/bin/bench_graph500_mt">
+<config>
+  <openmp>on</openmp>  <memsize>1G <memsize>  <hugetlb>0</hugetlb>
+  <data>-1</data>  <interference>0</interference>
+</config>
+<run>
+Graph500 with scale 0
+allocate edges
+Allocating 21504 MB
+Allocate Graph: xoff
+Allocating 2048 MB
+Allocate Graph: vlist
+Allocating 1023 MB
+Allocating 16 MB
+Allocating 16 MB
+alloc: xadjstore
+Allocating 44150 MB
+Allocate bfs_tree
+Allocating 1024 MB
+Allocate has_adj
+Allocating 512 MB
+==============================================
+Allocating 2047 MB
+Execution Time (seconds): 59
+****success****
+graph500 : F completed.
+current = 2021-07-22 21:50:47

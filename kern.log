@@ -1,0 +1,14 @@
+Jul 22 14:19:05 ubuntu kernel: [702625.715516] Page table allocation set to normal behavior
+Jul 22 14:19:05 ubuntu kernel: [702625.722799] PROCFS: Command ot drain the pgtable cache
+Jul 22 20:49:59 ubuntu kernel: [726079.160728] Page table allocation set to normal behavior
+Jul 22 20:49:59 ubuntu kernel: [726079.169719] PROCFS: Command ot drain the pgtable cache
+Jul 22 20:55:10 ubuntu kernel: [726390.389454] perf: interrupt took too long (2521 > 2500), lowering kernel.perf_event_max_sample_rate to 79250
+Jul 22 20:55:17 ubuntu kernel: [726397.164781] perf: interrupt took too long (3277 > 3151), lowering kernel.perf_event_max_sample_rate to 61000
+Jul 22 20:55:26 ubuntu kernel: [726406.297202] perf: interrupt took too long (4172 > 4096), lowering kernel.perf_event_max_sample_rate to 47750
+Jul 22 20:55:41 ubuntu kernel: [726421.198167] perf: interrupt took too long (5314 > 5215), lowering kernel.perf_event_max_sample_rate to 37500
+Jul 22 20:55:57 ubuntu kernel: [726437.537647] perf: interrupt took too long (6660 > 6642), lowering kernel.perf_event_max_sample_rate to 30000
+Jul 22 20:56:21 ubuntu kernel: [726461.869671] perf: interrupt took too long (8367 > 8325), lowering kernel.perf_event_max_sample_rate to 23750
+Jul 22 21:30:03 ubuntu kernel: [728483.176149] Page table allocation set to normal behavior
+Jul 22 21:30:03 ubuntu kernel: [728483.184951] PROCFS: Command ot drain the pgtable cache
+Jul 22 21:44:54 ubuntu kernel: [729374.611895] Page table allocation set to normal behavior
+Jul 22 21:44:54 ubuntu kernel: [729374.620431] PROCFS: Command ot drain the pgtable cache

@@ -227,7 +227,7 @@ launch_benchmark_config()
 	echo $LAUNCH_CMD >> $OUTFILE
 	$LAUNCH_CMD >> /var/log/syslog & #> /dev/null 2>&1 &
 	BENCHMARK_PID=$!
-        $AUTOCONFIG $BENCHMARK_PID > /home/huawei/gitclone/info.log 2>&1 &
+        $AUTOCONFIG $BENCHMARK_PID > /home/huawei/result/autoconfig.log 2>&1 &
         AUTOCONFIG_PID=$!
         echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready"
 	echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready" >> /var/log/syslog

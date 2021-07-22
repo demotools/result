@@ -1,0 +1,54 @@
+Cannot open the carrefour file. Is carrefour loaded?
+/home/huawei/result/bin/carrefour 
+14718 
+
+ pid  = 14718 
+#Clock speed: 0
+#Event 0: ITLB_access (4) (Exclude Kernel: no; Exclude User: no)
+#Event 1: ITLB_miss (10004) (Exclude Kernel: no; Exclude User: no)
+#Event 2: DTLB_access (3) (Exclude Kernel: no; Exclude User: no)
+#Event 3: DTLB_miss (10003) (Exclude Kernel: no; Exclude User: no)
+Parameters :
+	numa nodes = 4 
+
+ we got here !!!
+
+ we got here !!!
+
+ we got here !!!
+
+ we got here !!!
+iTlb : 4390 - 8888357781.  percentage =  0.000000 ======= dTlb : 212707783 - 11508703618.  percentage =  0.018482
+iTlb : 3609 - 11852854722.  percentage =  0.000000 ======= dTlb : 223972 - 1319753942.  percentage =  0.000170
+iTlb : 3449 - 8015847509.  percentage =  0.000000 ======= dTlb : 31365547 - 2552252430.  percentage =  0.012289
+iTlb : 3755 - 22803489.  percentage =  0.000165 ======= dTlb : 8496954 - 93065724.  percentage =  0.091301
+iTlb : 4655 - 23026698.  percentage =  0.000202 ======= dTlb : 8812031 - 95904980.  percentage =  0.091883
+iTlb : 4631 - 23338187.  percentage =  0.000198 ======= dTlb : 8812700 - 96039035.  percentage =  0.091762
+iTlb : 4153 - 23425873.  percentage =  0.000177 ======= dTlb : 8784843 - 95926446.  percentage =  0.091579
+iTlb : 4548 - 23196980.  percentage =  0.000196 ======= dTlb : 8806558 - 95947744.  percentage =  0.091785
+iTlb : 4114 - 22928432.  percentage =  0.000179 ======= dTlb : 8779633 - 95645644.  percentage =  0.091793
+iTlb : 4551 - 23193594.  percentage =  0.000196 ======= dTlb : 8804203 - 95921753.  percentage =  0.091785
+iTlb : 2140 - 12175708.  percentage =  0.000176 ======= dTlb : 4350463 - 47827072.  percentage =  0.090962
+iTlb : 270 - 24043010.  percentage =  0.000011 ======= dTlb : 31476 - 22117578.  percentage =  0.001423
+iTlb : 2380 - 17087618.  percentage =  0.000139 ======= dTlb : 8040911 - 67724961.  percentage =  0.118729
+iTlb : 4651 - 31770737.  percentage =  0.000146 ======= dTlb : 15376937 - 128730626.  percentage =  0.119450
+iTlb : 4484 - 31905201.  percentage =  0.000141 ======= dTlb : 15311195 - 128579972.  percentage =  0.119079
+iTlb : 4544 - 31918278.  percentage =  0.000142 ======= dTlb : 15337358 - 128739906.  percentage =  0.119134
+iTlb : 4571 - 31752517.  percentage =  0.000144 ======= dTlb : 15378184 - 128639397.  percentage =  0.119545
+iTlb : 4572 - 31707195.  percentage =  0.000144 ======= dTlb : 15349734 - 128644393.  percentage =  0.119319
+iTlb : 4731 - 31861996.  percentage =  0.000148 ======= dTlb : 15344157 - 128852109.  percentage =  0.119083
+iTlb : 4928 - 32184418.  percentage =  0.000153 ======= dTlb : 15277425 - 129112037.  percentage =  0.118327
+iTlb : 4514 - 160100851.  percentage =  0.000028 ======= dTlb : 14979920 - 218444177.  percentage =  0.068576
+iTlb : 4365 - 7536600462.  percentage =  0.000001 ======= dTlb : 16956338 - 5868468322.  percentage =  0.002889
+iTlb : 4335 - 10071178.  percentage =  0.000430 ======= dTlb : 4584301 - 83764659.  percentage =  0.054728
+iTlb : 4380 - 9912338.  percentage =  0.000442 ======= dTlb : 4580058 - 83624997.  percentage =  0.054769
+iTlb : 4325 - 9995226.  percentage =  0.000433 ======= dTlb : 4589055 - 83798009.  percentage =  0.054763
+iTlb : 3989 - 14779813.  percentage =  0.000270 ======= dTlb : 9393484 - 167624964.  percentage =  0.056039
+iTlb : 3718 - 40139435.  percentage =  0.000093 ======= dTlb : 34876389 - 486745226.  percentage =  0.071652
+iTlb : 1446 - 118783791.  percentage =  0.000012 ======= dTlb : 4795654 - 177383716.  percentage =  0.027035
+iTlb : 3526 - 747824239.  percentage =  0.000005 ======= dTlb : 39995559 - 1349517683.  percentage =  0.029637
+iTlb : 3405 - 33016720.  percentage =  0.000103 ======= dTlb : 18050209 - 221705463.  percentage =  0.081415
+iTlb : 3372 - 32996084.  percentage =  0.000102 ======= dTlb : 18055236 - 221711077.  percentage =  0.081436
+iTlb : 3322 - 32987959.  percentage =  0.000101 ======= dTlb : 18048491 - 221665735.  percentage =  0.081422
+iTlb : 3068 - 36245832.  percentage =  0.000085 ======= dTlb : 19801020 - 243485073.  percentage =  0.081323
+#signal caught: 2

@@ -1,0 +1,12 @@
+./result/carrefour-runtime-master/carrefour 
+19900 
+
+ pid  = 19900 
+#Clock speed: 0
+#Event 0: ITLB_access (4) (Exclude Kernel: no; Exclude User: no)
+#Event 1: ITLB_miss (10004) (Exclude Kernel: no; Exclude User: no)
+Parameters :
+	numa nodes = 4 
+
+ we got here !!!
+#[0] sys_perf_counter_open failed: No such process
