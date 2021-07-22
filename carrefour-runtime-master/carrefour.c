@@ -21,7 +21,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include <sys/sysinfo.h>
 #include <stdlib.h>
 
-static int sleep_time = 1*TIME_SECOND;     /* Profile by sleep_time useconds chunks */
+static int sleep_time = 10*TIME_SECOND;     /* Profile by sleep_time useconds chunks */
 
 #define MIN_ACTIVE_PERCENTAGE       15
 
@@ -91,6 +91,18 @@ static event_t default_events[] = {
       .name    = "ITLB_miss",
       .type    = PERF_TYPE_HW_CACHE,
       .config  = 0x00010004,
+      .leader  = 0,
+   },
+   {
+      .name    = "DTLB_access",
+      .type    = PERF_TYPE_HW_CACHE,
+      .config  = 0x00000003,
+      .leader  = -1,
+   },
+   {
+      .name    = "DTLB_miss",
+      .type    = PERF_TYPE_HW_CACHE,
+      .config  = 0x00010003,
       .leader  = 0,
    },
 // #if USE_MRR
@@ -248,25 +260,25 @@ static long percent_running(struct perf_read_ev *last, struct perf_read_ev *prev
    return percent_running;
 }
 
-static void iTLB_Miss(struct perf_read_ev *last, struct perf_read_ev *prev, double * rr_global, double * rr_nodes) {
+static void TLB_Miss(struct perf_read_ev *last, struct perf_read_ev *prev, double * rr_global, double * rr_nodes) {
    int node;
-   unsigned long all_global = 0;
-   unsigned long modified_global = 0;
+   // unsigned long all_global = 0;
+   // unsigned long modified_global = 0;
 
    for(node = 0; node < nb_nodes; node++) {
       long all_idx = node*nb_events;
 
       //printf("Read = %lu , RW = %lu\n", last[all_idx].value - prev[all_idx].value, last[all_idx + 1].value - prev[all_idx + 1].value);
-      unsigned long all = last[all_idx].value - prev[all_idx].value;
-      unsigned long modified = last[all_idx + 1].value - prev[all_idx + 1].value;
+      unsigned long iTlb_miss = last[all_idx].value - prev[all_idx].value;
+      unsigned long iTlb_all = last[all_idx + 1].value - prev[all_idx + 1].value;
 
-      all_global += all;
-      modified_global += modified;
+      unsigned long dTlb_miss = last[all_idx + 2].value - prev[all_idx + 2].value;
+      unsigned long dTlb_all = last[all_idx + 3].value - prev[all_idx + 3].value;
 
-      rr_nodes[node] = 100;
-      if(all) {
-         rr_nodes[node] = (1. - (double) modified / (double) all) * 100.;
-         printf("%d : %lu - %lu.  percentage =  %lf\n", node, modified, all,(double) modified / (double) all);
+
+      if(iTlb_all) {
+         // rr_nodes[node] = (1. - (double) modified / (double) all) * 100.;
+         printf("iTlb : %lu - %lu.  percentage =  %lf ; dTlb : %lu - %lu.  percentage =  %lf\n", iTlb_miss, iTlb_all,(double) iTlb_miss / (double) iTlb_all, dTlb_miss, dTlb_all,(double) dTlb_miss / (double) dTlb_all);
       }
    }
 // printf("all_global %d : %lu - %lu\n", node, modified_global, all_global);
@@ -681,7 +693,7 @@ static void thread_loop() {
       memset(lar_node, 0, nb_nodes*sizeof(double));
       memset(ipc_node, 0, nb_nodes*sizeof(double));
 
-      iTLB_Miss(last_counts, last_counts_prev, &rr_global, rr_nodes);
+      TLB_Miss(last_counts, last_counts_prev, &rr_global, rr_nodes);
 // #if USE_MRR
 //       mrr(last_counts, last_counts_prev, &rr_global, &maptu_global, rr_nodes, maptu_nodes);
 //       dram_accesses(last_counts, last_counts_prev, &lar, &load_imbalance, aggregate_dram_accesses_to_node, lar_node, NULL, NULL);
