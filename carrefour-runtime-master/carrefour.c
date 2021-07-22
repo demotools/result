@@ -269,16 +269,16 @@ static void TLB_Miss(struct perf_read_ev *last, struct perf_read_ev *prev, doubl
       long all_idx = node*nb_events;
 
       //printf("Read = %lu , RW = %lu\n", last[all_idx].value - prev[all_idx].value, last[all_idx + 1].value - prev[all_idx + 1].value);
-      unsigned long iTlb_miss = last[all_idx].value - prev[all_idx].value;
-      unsigned long iTlb_all = last[all_idx + 1].value - prev[all_idx + 1].value;
+      unsigned long iTlb_all = last[all_idx].value - prev[all_idx].value;
+      unsigned long iTlb_miss = last[all_idx + 1].value - prev[all_idx + 1].value;
 
-      unsigned long dTlb_miss = last[all_idx + 2].value - prev[all_idx + 2].value;
-      unsigned long dTlb_all = last[all_idx + 3].value - prev[all_idx + 3].value;
+      unsigned long dTlb_all = last[all_idx + 2].value - prev[all_idx + 2].value;
+      unsigned long dTlb_miss = last[all_idx + 3].value - prev[all_idx + 3].value;
 
 
       if(iTlb_all) {
          // rr_nodes[node] = (1. - (double) modified / (double) all) * 100.;
-         printf("iTlb : %lu - %lu.  percentage =  %lf ; dTlb : %lu - %lu.  percentage =  %lf\n", iTlb_miss, iTlb_all,(double) iTlb_miss / (double) iTlb_all, dTlb_miss, dTlb_all,(double) dTlb_miss / (double) dTlb_all);
+         printf("iTlb : %lu - %lu.  percentage =  %lf ======= dTlb : %lu - %lu.  percentage =  %lf\n", iTlb_miss, iTlb_all,(double) iTlb_miss / (double) iTlb_all, dTlb_miss, dTlb_all,(double) dTlb_miss / (double) dTlb_all);
       }
    }
 // printf("all_global %d : %lu - %lu\n", node, modified_global, all_global);
