@@ -63,7 +63,7 @@ static int sleep_time = 10*TIME_SECOND;     /* Profile by sleep_time useconds ch
 
 static void sig_handler(int signal);
 static long sys_perf_counter_open(struct perf_event_attr *hw_event, pid_t pid, int cpu, int group_fd, unsigned long flags);
-
+static long sys_set_ptr_start(pid_t pid);
 /*
  * Events :
  * - PERF_TYPE_RAW: raw counters. The value must be 0xz0040yyzz.
@@ -717,6 +717,8 @@ static void thread_loop() {
          global_mem_usage =  (double) (info.totalram-info.freeram) / (double) info.totalram * 100.;
       }
 
+      sys_set_ptr_start(obj_pid);
+      break;
 
       // for(i = 0; i < nb_nodes; i++) {
       //    printf("[ Node %d ] %.1f %% read accesses - MAPTU = %.1f - # of accesses = %.1f - LAR = %.1f - IPC = %.2f\n",
@@ -744,6 +746,17 @@ static void thread_loop() {
    return;
 }
 
+static long sys_set_ptr_start(pid_t pid) {
+   printf("\n we got sys_set_ptr_start !!!\n");
+   int ret = syscall(441, pid, 0, 0);
+#  if defined(__x86_64__) || defined(__i386__)
+   if (ret < 0 && ret > -4096) {
+      errno = -ret;
+      ret = -1;
+   }
+#  endif
+   return ret;
+}
 
 static long sys_perf_counter_open(struct perf_event_attr *hw_event, pid_t pid, int cpu, int group_fd, unsigned long flags) {
    printf("\n we got here !!!\n");
