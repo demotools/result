@@ -23,8 +23,8 @@ ROOT=$(dirname `readlink -f "$0"`)
 #BENCHMARKS="hashjoin"
 #BENCHMARKS="canneal"
 #BENCHMARKS="xsbench"
-BENCHMARKS="graph500"
-#BENCHMARKS="btree"
+#BENCHMARKS="graph500"
+BENCHMARKS="btree"
 #BENCHMARKS="sysbench"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
