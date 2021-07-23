@@ -279,6 +279,7 @@ static void TLB_Miss(struct perf_read_ev *last, struct perf_read_ev *prev, doubl
       if(iTlb_all) {
          // rr_nodes[node] = (1. - (double) modified / (double) all) * 100.;
          printf("iTlb : %lu - %lu.  percentage =  %lf ======= dTlb : %lu - %lu.  percentage =  %lf\n", iTlb_miss, iTlb_all,(double) iTlb_miss / (double) iTlb_all, dTlb_miss, dTlb_all,(double) dTlb_miss / (double) dTlb_all);
+         *rr_global = (double) dTlb_miss / (double) dTlb_all;
       }
    }
 // printf("all_global %d : %lu - %lu\n", node, modified_global, all_global);
@@ -717,8 +718,14 @@ static void thread_loop() {
          global_mem_usage =  (double) (info.totalram-info.freeram) / (double) info.totalram * 100.;
       }
 
-      sys_set_ptr_start(obj_pid);
-      break;
+      if (rr_global>0.01)
+      {
+         printf("we should start pgtrpl !!");
+         sys_set_ptr_start(obj_pid);
+         break;
+      }
+      
+      
 
       // for(i = 0; i < nb_nodes; i++) {
       //    printf("[ Node %d ] %.1f %% read accesses - MAPTU = %.1f - # of accesses = %.1f - LAR = %.1f - IPC = %.2f\n",
