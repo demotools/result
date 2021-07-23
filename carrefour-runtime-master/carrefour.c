@@ -851,7 +851,9 @@ int main(int argc, char**argv) {
    nb_nodes = numa_num_configured_nodes();
    printf("\tnuma nodes = %d \n", nb_nodes);
    nb_nodes = 1;
-  thread_loop();
+   printf("we should start pgtrpl !!");
+         sys_set_ptr_start(obj_pid);
+  //thread_loop();
 
    return 0;
 }

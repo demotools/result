@@ -5003,3 +5003,1670 @@ Jul 23 11:57:17 ubuntu kernel: [   25.123432] hns3 0000:7d:00.0 enp125s0f0: link
 Jul 23 11:57:17 ubuntu kernel: [   25.123441] br0: port 1(enp125s0f0) entered blocking state
 Jul 23 11:57:17 ubuntu kernel: [   25.123443] br0: port 1(enp125s0f0) entered forwarding state
 Jul 23 11:57:17 ubuntu kernel: [   25.123620] IPv6: ADDRCONF(NETDEV_CHANGE): br0: link becomes ready
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Booting Linux on physical CPU 0x0000080000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Linux version 5.7.1 (root@ubuntu) (gcc version 5.5.0 20171010 (Ubuntu/Linaro 5.5.0-12ubuntu1), GNU ld (GNU Binutils for Ubuntu) 2.30) #1 SMP Fri Jul 23 00:32:12 CST 2021
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] efi: EFI v2.70 by EDK II
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] efi:  ACPI 2.0=0x2fc50000  SMBIOS 3.0=0x2fbf0000  MEMATTR=0x35e93018  ESRT=0x36117b18  MEMRESERVE=0x2fb93018 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] esrt: Reserving ESRT space from 0x0000000036117b18 to 0x0000000036117b50.
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] cma: Reserved 32 MiB at 0x000000007e000000
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: RSDP 0x000000002FC50000 000024 (v02 HISI  )
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: XSDT 0x000000002FC40000 0000A4 (v01 HISI   HIP08    00000000      01000013)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: FACP 0x000000002F790000 000114 (v06 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: DSDT 0x000000002F530000 00C441 (v02 HISI   HIP08    00000000 INTL 20181213)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: PCCT 0x000000002FC30000 00008A (v01 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: SSDT 0x000000002FC20000 00E64A (v02 HISI   HIP07    00000000 INTL 20181213)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: BERT 0x000000002FBC0000 000030 (v01 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: HEST 0x000000002FBA0000 00058C (v01 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: ERST 0x000000002FB60000 000230 (v01 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: EINJ 0x000000002FB50000 000170 (v01 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: GTDT 0x000000002F590000 00007C (v02 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: MCFG 0x000000002F580000 00003C (v01 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: SLIT 0x000000002F570000 00003C (v01 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: SRAT 0x000000002F560000 0007D0 (v03 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: SDEI 0x000000002F550000 000030 (v01 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: APIC 0x000000002F540000 001E6C (v04 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: IORT 0x000000002F520000 001678 (v00 HISI   HIP08    00000000 INTL 20181213)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: PPTT 0x000000002ECE0000 0031B0 (v01 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: SPMI 0x000000002ECD0000 000041 (v05 HISI   HIP08    00000000 HISI 20151124)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: SRAT: Node 0 PXM 0 [mem 0x2080000000-0x27ffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: SRAT: Node 1 PXM 1 [mem 0x2800000000-0x2fffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x7fffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: SRAT: Node 2 PXM 2 [mem 0x202000000000-0x2027ffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: SRAT: Node 3 PXM 3 [mem 0x202800000000-0x202fffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] NUMA: NODE_DATA [mem 0x27ffffc300-0x27ffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] NUMA: NODE_DATA [mem 0x2fffffc300-0x2fffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] NUMA: NODE_DATA [mem 0x2027ffffc300-0x2027ffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] NUMA: NODE_DATA [mem 0x202feffff300-0x202ff0002fff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Zone ranges:
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   DMA      [mem 0x0000000000000000-0x000000003fffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   DMA32    [mem 0x0000000040000000-0x00000000ffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   Normal   [mem 0x0000000100000000-0x0000202fffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Movable zone start for each node
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Early memory node ranges
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x0000000000000000-0x000000000000ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x0000000000010000-0x000000002e501fff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002e502000-0x000000002eccffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002ecd0000-0x000000002f59ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002f5a0000-0x000000002f78ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002f790000-0x000000002f79ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002f7a0000-0x000000002f87ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002f880000-0x000000002f8bffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002f8c0000-0x000000002f95ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002f960000-0x000000002f97ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002f980000-0x000000002fabffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fac0000-0x000000002fb6ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fb70000-0x000000002fb71fff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fb72000-0x000000002fb7ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fb80000-0x000000002fb80fff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fb81000-0x000000002fb8ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fb90000-0x000000002fb91fff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fb92000-0x000000002fbaffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fbb0000-0x000000002fbb1fff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fbb2000-0x000000002fbcffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fbd0000-0x000000002fbd0fff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fbd1000-0x000000002fbdffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fbe0000-0x000000002fbfffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fc00000-0x000000002fc5ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fc60000-0x000000002fe5ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fe60000-0x000000002fe60fff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fe61000-0x000000002fe64fff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fe65000-0x000000002fe6afff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fe6b000-0x000000002fe6bfff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000002fe6c000-0x000000003f02ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000003f030000-0x000000003f05ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x000000003f060000-0x000000003fbfffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x0000000040000000-0x0000000043ffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x0000000044030000-0x000000004fffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x0000000050000000-0x000000007fffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   0: [mem 0x0000002080000000-0x00000027ffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   1: [mem 0x0000002800000000-0x0000002fffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   2: [mem 0x0000202000000000-0x00002027ffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   node   3: [mem 0x0000202800000000-0x0000202fffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Zeroed struct page in unavailable ranges: 814 pages
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000000000-0x00000027ffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] On node 0 totalpages: 8387536
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   DMA zone: 5120 pages used for memmap
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   DMA zone: 0 pages reserved
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   DMA zone: 261120 pages, LIFO batch:63
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   DMA32 zone: 5120 pages used for memmap
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   DMA32 zone: 262096 pages, LIFO batch:63
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   Normal zone: 153600 pages used for memmap
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   Normal zone: 7864320 pages, LIFO batch:63
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Initmem setup node 1 [mem 0x0000002800000000-0x0000002fffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] On node 1 totalpages: 8388608
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   Normal zone: 163840 pages used for memmap
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   Normal zone: 8388608 pages, LIFO batch:63
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Initmem setup node 2 [mem 0x0000202000000000-0x00002027ffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] On node 2 totalpages: 8388608
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   Normal zone: 163840 pages used for memmap
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   Normal zone: 8388608 pages, LIFO batch:63
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Initmem setup node 3 [mem 0x0000202800000000-0x0000202fffffffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] On node 3 totalpages: 8388608
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   Normal zone: 163840 pages used for memmap
+Jul 23 14:14:48 ubuntu kernel: [    0.000000]   Normal zone: 8388608 pages, LIFO batch:63
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] psci: probing for conduit method from ACPI.
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] psci: PSCIv1.1 detected in firmware.
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] psci: Using standard PSCI v0.2 function IDs
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] psci: MIGRATE_INFO_TYPE not supported.
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] psci: SMC Calling Convention v1.1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0x80000 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0x80100 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0x80200 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0x80300 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0x90000 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0x90100 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0x90200 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0x90300 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xa0000 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xa0100 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xa0200 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xa0300 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xb0000 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xb0100 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xb0200 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xb0300 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xc0000 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xc0100 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xc0200 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xc0300 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xd0000 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xd0100 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xd0200 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 0 -> MPIDR 0xd0300 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x180000 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x180100 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x180200 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x180300 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x190000 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x190100 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x190200 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x190300 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1a0000 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1a0100 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1a0200 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1a0300 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1b0000 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1b0100 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1b0200 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1b0300 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1c0000 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1c0100 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1c0200 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1c0300 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1d0000 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1d0100 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1d0200 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 1 -> MPIDR 0x1d0300 -> Node 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x280000 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x280100 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x280200 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x280300 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x290000 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x290100 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x290200 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x290300 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2a0000 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2a0100 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2a0200 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2a0300 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2b0000 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2b0100 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2b0200 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2b0300 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2c0000 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2c0100 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2c0200 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2c0300 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2d0000 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2d0100 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2d0200 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 2 -> MPIDR 0x2d0300 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x380000 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x380100 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x380200 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x380300 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x390000 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x390100 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x390200 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x390300 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3a0000 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3a0100 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3a0200 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3a0300 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3b0000 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3b0100 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3b0200 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3b0300 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3c0000 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3c0100 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3c0200 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3c0300 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3d0000 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3d0100 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3d0200 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ACPI: NUMA: SRAT: PXM 3 -> MPIDR 0x3d0300 -> Node 3
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] percpu: Embedded 33 pages/cpu s94616 r8192 d32360 u135168
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: s94616 r8192 d32360 u135168 alloc=33*4096
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 00 [0] 01 [0] 02 [0] 03 [0] 04 [0] 05 [0] 06 [0] 07 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 08 [0] 09 [0] 10 [0] 11 [0] 12 [0] 13 [0] 14 [0] 15 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 16 [0] 17 [0] 18 [0] 19 [0] 20 [0] 21 [0] 22 [0] 23 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [1] 24 [1] 25 [1] 26 [1] 27 [1] 28 [1] 29 [1] 30 [1] 31 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [1] 32 [1] 33 [1] 34 [1] 35 [1] 36 [1] 37 [1] 38 [1] 39 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [1] 40 [1] 41 [1] 42 [1] 43 [1] 44 [1] 45 [1] 46 [1] 47 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [2] 48 [2] 49 [2] 50 [2] 51 [2] 52 [2] 53 [2] 54 [2] 55 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [2] 56 [2] 57 [2] 58 [2] 59 [2] 60 [2] 61 [2] 62 [2] 63 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [2] 64 [2] 65 [2] 66 [2] 67 [2] 68 [2] 69 [2] 70 [2] 71 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [3] 72 [3] 73 [3] 74 [3] 75 [3] 76 [3] 77 [3] 78 [3] 79 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [3] 80 [3] 81 [3] 82 [3] 83 [3] 84 [3] 85 [3] 86 [3] 87 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] pcpu-alloc: [3] 88 [3] 89 [3] 90 [3] 91 [3] 92 [3] 93 [3] 94 [3] 95 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Detected VIPT I-cache on CPU0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] CPU features: detected: GIC system register CPU interface
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] CPU features: detected: Virtualization Host Extensions
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] CPU features: detected: Hardware dirty bit management
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] alternatives: patching kernel code
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Built 4 zonelists, mobility grouping on.  Total pages: 32898000
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Policy zone: Normal
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.7.1 root=UUID=87f15ea3-75f7-4c9d-add6-30cc3fc19001 ro text
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] printk: log_buf_len individual max cpu contribution: 4096 bytes
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] printk: log_buf_len total cpu_extra contributions: 389120 bytes
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] printk: log_buf_len min size: 262144 bytes
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] printk: log_buf_len: 1048576 bytes
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] printk: early log buf free: 245788(93%)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] mem auto-init: stack:off, heap alloc:on, heap free:off
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] software IO TLB: mapped [mem 0x3b030000-0x3f030000] (64MB)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] Memory: 130842212K/134213440K available (14140K kernel code, 2356K rwdata, 6884K rodata, 7040K init, 1134K bss, 3338460K reserved, 32768K cma-reserved)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] random: get_random_u64 called from __kmem_cache_create+0x5c/0x5d8 with crng_init=0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=96, Nodes=4
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ftrace: allocating 46052 entries in 180 pages
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ftrace: allocated 180 pages with 4 groups
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] rcu: Hierarchical RCU implementation.
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=96.
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] 	Tasks RCU enabled.
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=96
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] GICv3: GIC: Using split EOI/Deactivate mode
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] GICv3: 640 SPIs implemented
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] GICv3: 0 Extended SPIs implemented
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] GICv3: Distributor has no Range Selector support
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] GICv3: 16 PPIs implemented
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] GICv3: GICv4 features: DirectLPI 
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] GICv3: CPU0: found redistributor 80000 region 0:0x00000000ae100000
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] SRAT: PXM 0 -> ITS 0 -> Node 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] SRAT: PXM 2 -> ITS 1 -> Node 2
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS [mem 0x202100000-0x20211ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS@0x0000000202100000: Using ITS number 0
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS@0x0000000202100000: allocated 65536 Devices @27ffb80000 (flat, esz 8, psz 16K, shr 1)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS@0x0000000202100000: allocated 65536 Virtual CPUs @27ff000000 (flat, esz 16, psz 4K, shr 1)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS@0x0000000202100000: allocated 256 Interrupt Collections @27ffb10000 (flat, esz 16, psz 4K, shr 1)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS [mem 0x200202100000-0x20020211ffff]
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS@0x0000200202100000: Using ITS number 1
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS@0x0000200202100000: allocated 65536 Devices @2027ff880000 (flat, esz 8, psz 16K, shr 1)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS@0x0000200202100000: allocated 65536 Virtual CPUs @2027ff900000 (flat, esz 16, psz 4K, shr 1)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS@0x0000200202100000: allocated 256 Interrupt Collections @2027ff801000 (flat, esz 16, psz 4K, shr 1)
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] GICv3: using LPI property table @0x00000027ffb20000
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS: Using DirectLPI for VPE invalidation
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] ITS: Enabling GICv4 support
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] GICv3: CPU0: using allocated LPI pending table @0x00000027ffb30000
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] arch_timer: cp15 timer(s) running at 100.00MHz (phys).
+Jul 23 14:14:48 ubuntu kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x171024e7e0, max_idle_ns: 440795205315 ns
+Jul 23 14:14:48 ubuntu kernel: [    0.000001] sched_clock: 56 bits at 100MHz, resolution 10ns, wraps every 4398046511100ns
+Jul 23 14:14:48 ubuntu kernel: [    0.000113] Console: colour dummy device 80x25
+Jul 23 14:14:48 ubuntu kernel: [    0.000442] printk: console [tty0] enabled
+Jul 23 14:14:48 ubuntu kernel: [    0.000510] mempolicy: Enabling automatic NUMA balancing. Configure with numa_balancing= or the kernel.numa_balancing sysctl
+Jul 23 14:14:48 ubuntu kernel: [    0.000525] ACPI: Core revision 20200326
+Jul 23 14:14:48 ubuntu kernel: [    0.000721] Calibrating delay loop (skipped), value calculated using timer frequency.. 200.00 BogoMIPS (lpj=400000)
+Jul 23 14:14:48 ubuntu kernel: [    0.000727] pid_max: default: 98304 minimum: 768
+Jul 23 14:14:48 ubuntu kernel: [    0.000805] LSM: Security Framework initializing
+Jul 23 14:14:48 ubuntu kernel: [    0.000811] Yama: becoming mindful.
+Jul 23 14:14:48 ubuntu kernel: [    0.000845] AppArmor: AppArmor initialized
+Jul 23 14:14:48 ubuntu kernel: [    0.013177] Dentry cache hash table entries: 8388608 (order: 14, 67108864 bytes, vmalloc)
+Jul 23 14:14:48 ubuntu kernel: [    0.019347] Inode-cache hash table entries: 4194304 (order: 13, 33554432 bytes, vmalloc)
+Jul 23 14:14:48 ubuntu kernel: [    0.019605] Mount-cache hash table entries: 131072 (order: 8, 1048576 bytes, vmalloc)
+Jul 23 14:14:48 ubuntu kernel: [    0.019807] Mountpoint-cache hash table entries: 131072 (order: 8, 1048576 bytes, vmalloc)
+Jul 23 14:14:48 ubuntu kernel: [    0.022226] rcu: Hierarchical SRCU implementation.
+Jul 23 14:14:48 ubuntu kernel: [    0.022690] Platform MSI: ITS@0x202100000 domain created
+Jul 23 14:14:48 ubuntu kernel: [    0.022695] Platform MSI: ITS@0x200202100000 domain created
+Jul 23 14:14:48 ubuntu kernel: [    0.022701] PCI/MSI: ITS@0x202100000 domain created
+Jul 23 14:14:48 ubuntu kernel: [    0.022704] PCI/MSI: ITS@0x200202100000 domain created
+Jul 23 14:14:48 ubuntu kernel: [    0.022718] Remapping and enabling EFI services.
+Jul 23 14:14:48 ubuntu kernel: [    0.022920] efi: memattr: Entry attributes invalid: RO and XP bits both cleared
+Jul 23 14:14:48 ubuntu kernel: [    0.022926] efi: memattr: ! 0x000000000000-0x00000000ffff [Runtime Code       |RUN|  |  |  |  |  |  |  |   |  |  |  |  ]
+Jul 23 14:14:48 ubuntu kernel: [    0.024107] smp: Bringing up secondary CPUs ...
+Jul 23 14:14:48 ubuntu kernel: [    0.053948] Detected VIPT I-cache on CPU1
+Jul 23 14:14:48 ubuntu kernel: [    0.053955] GICv3: CPU1: found redistributor 80100 region 1:0x00000000ae140000
+Jul 23 14:14:48 ubuntu kernel: [    0.053969] GICv3: CPU1: using allocated LPI pending table @0x00000027ffb40000
+Jul 23 14:14:48 ubuntu kernel: [    0.054005] CPU1: Booted secondary processor 0x0000080100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.086492] Detected VIPT I-cache on CPU2
+Jul 23 14:14:48 ubuntu kernel: [    0.086497] GICv3: CPU2: found redistributor 80200 region 2:0x00000000ae180000
+Jul 23 14:14:48 ubuntu kernel: [    0.086510] GICv3: CPU2: using allocated LPI pending table @0x00000027ffb50000
+Jul 23 14:14:48 ubuntu kernel: [    0.086541] CPU2: Booted secondary processor 0x0000080200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.119042] Detected VIPT I-cache on CPU3
+Jul 23 14:14:48 ubuntu kernel: [    0.119047] GICv3: CPU3: found redistributor 80300 region 3:0x00000000ae1c0000
+Jul 23 14:14:48 ubuntu kernel: [    0.119059] GICv3: CPU3: using allocated LPI pending table @0x00000027ffb60000
+Jul 23 14:14:48 ubuntu kernel: [    0.119090] CPU3: Booted secondary processor 0x0000080300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.151772] Detected VIPT I-cache on CPU4
+Jul 23 14:14:48 ubuntu kernel: [    0.151780] GICv3: CPU4: found redistributor 90000 region 4:0x00000000ae200000
+Jul 23 14:14:48 ubuntu kernel: [    0.151802] GICv3: CPU4: using allocated LPI pending table @0x00000027ffb70000
+Jul 23 14:14:48 ubuntu kernel: [    0.151840] CPU4: Booted secondary processor 0x0000090000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.184490] Detected VIPT I-cache on CPU5
+Jul 23 14:14:48 ubuntu kernel: [    0.184495] GICv3: CPU5: found redistributor 90100 region 5:0x00000000ae240000
+Jul 23 14:14:48 ubuntu kernel: [    0.184507] GICv3: CPU5: using allocated LPI pending table @0x00000027ff100000
+Jul 23 14:14:48 ubuntu kernel: [    0.184539] CPU5: Booted secondary processor 0x0000090100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.217213] Detected VIPT I-cache on CPU6
+Jul 23 14:14:48 ubuntu kernel: [    0.217218] GICv3: CPU6: found redistributor 90200 region 6:0x00000000ae280000
+Jul 23 14:14:48 ubuntu kernel: [    0.217231] GICv3: CPU6: using allocated LPI pending table @0x00000027ff110000
+Jul 23 14:14:48 ubuntu kernel: [    0.217263] CPU6: Booted secondary processor 0x0000090200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.249937] Detected VIPT I-cache on CPU7
+Jul 23 14:14:48 ubuntu kernel: [    0.249942] GICv3: CPU7: found redistributor 90300 region 7:0x00000000ae2c0000
+Jul 23 14:14:48 ubuntu kernel: [    0.249956] GICv3: CPU7: using allocated LPI pending table @0x00000027ff120000
+Jul 23 14:14:48 ubuntu kernel: [    0.249987] CPU7: Booted secondary processor 0x0000090300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.282838] Detected VIPT I-cache on CPU8
+Jul 23 14:14:48 ubuntu kernel: [    0.282845] GICv3: CPU8: found redistributor a0000 region 8:0x00000000ae300000
+Jul 23 14:14:48 ubuntu kernel: [    0.282863] GICv3: CPU8: using allocated LPI pending table @0x00000027ff130000
+Jul 23 14:14:48 ubuntu kernel: [    0.282899] CPU8: Booted secondary processor 0x00000a0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.315732] Detected VIPT I-cache on CPU9
+Jul 23 14:14:48 ubuntu kernel: [    0.315738] GICv3: CPU9: found redistributor a0100 region 9:0x00000000ae340000
+Jul 23 14:14:48 ubuntu kernel: [    0.315751] GICv3: CPU9: using allocated LPI pending table @0x00000027ff140000
+Jul 23 14:14:48 ubuntu kernel: [    0.315782] CPU9: Booted secondary processor 0x00000a0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.348628] Detected VIPT I-cache on CPU10
+Jul 23 14:14:48 ubuntu kernel: [    0.348634] GICv3: CPU10: found redistributor a0200 region 10:0x00000000ae380000
+Jul 23 14:14:48 ubuntu kernel: [    0.348648] GICv3: CPU10: using allocated LPI pending table @0x00000027ff150000
+Jul 23 14:14:48 ubuntu kernel: [    0.348680] CPU10: Booted secondary processor 0x00000a0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.381526] Detected VIPT I-cache on CPU11
+Jul 23 14:14:48 ubuntu kernel: [    0.381532] GICv3: CPU11: found redistributor a0300 region 11:0x00000000ae3c0000
+Jul 23 14:14:48 ubuntu kernel: [    0.381545] GICv3: CPU11: using allocated LPI pending table @0x00000027ff160000
+Jul 23 14:14:48 ubuntu kernel: [    0.381577] CPU11: Booted secondary processor 0x00000a0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.414600] Detected VIPT I-cache on CPU12
+Jul 23 14:14:48 ubuntu kernel: [    0.414608] GICv3: CPU12: found redistributor b0000 region 12:0x00000000ae400000
+Jul 23 14:14:48 ubuntu kernel: [    0.414628] GICv3: CPU12: using allocated LPI pending table @0x00000027ff170000
+Jul 23 14:14:48 ubuntu kernel: [    0.414662] CPU12: Booted secondary processor 0x00000b0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.447668] Detected VIPT I-cache on CPU13
+Jul 23 14:14:48 ubuntu kernel: [    0.447674] GICv3: CPU13: found redistributor b0100 region 13:0x00000000ae440000
+Jul 23 14:14:48 ubuntu kernel: [    0.447689] GICv3: CPU13: using allocated LPI pending table @0x00000027ff180000
+Jul 23 14:14:48 ubuntu kernel: [    0.447721] CPU13: Booted secondary processor 0x00000b0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.480738] Detected VIPT I-cache on CPU14
+Jul 23 14:14:48 ubuntu kernel: [    0.480745] GICv3: CPU14: found redistributor b0200 region 14:0x00000000ae480000
+Jul 23 14:14:48 ubuntu kernel: [    0.480759] GICv3: CPU14: using allocated LPI pending table @0x00000027ff190000
+Jul 23 14:14:48 ubuntu kernel: [    0.480791] CPU14: Booted secondary processor 0x00000b0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.513809] Detected VIPT I-cache on CPU15
+Jul 23 14:14:48 ubuntu kernel: [    0.513816] GICv3: CPU15: found redistributor b0300 region 15:0x00000000ae4c0000
+Jul 23 14:14:48 ubuntu kernel: [    0.513830] GICv3: CPU15: using allocated LPI pending table @0x00000027ff1a0000
+Jul 23 14:14:48 ubuntu kernel: [    0.513862] CPU15: Booted secondary processor 0x00000b0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.546363] Detected VIPT I-cache on CPU16
+Jul 23 14:14:48 ubuntu kernel: [    0.546372] GICv3: CPU16: found redistributor c0000 region 16:0x00000000ae500000
+Jul 23 14:14:48 ubuntu kernel: [    0.546392] GICv3: CPU16: using allocated LPI pending table @0x00000027ff1b0000
+Jul 23 14:14:48 ubuntu kernel: [    0.546428] CPU16: Booted secondary processor 0x00000c0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.578909] Detected VIPT I-cache on CPU17
+Jul 23 14:14:48 ubuntu kernel: [    0.578916] GICv3: CPU17: found redistributor c0100 region 17:0x00000000ae540000
+Jul 23 14:14:48 ubuntu kernel: [    0.578932] GICv3: CPU17: using allocated LPI pending table @0x00000027ff1c0000
+Jul 23 14:14:48 ubuntu kernel: [    0.578964] CPU17: Booted secondary processor 0x00000c0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.611459] Detected VIPT I-cache on CPU18
+Jul 23 14:14:48 ubuntu kernel: [    0.611466] GICv3: CPU18: found redistributor c0200 region 18:0x00000000ae580000
+Jul 23 14:14:48 ubuntu kernel: [    0.611480] GICv3: CPU18: using allocated LPI pending table @0x00000027ff1d0000
+Jul 23 14:14:48 ubuntu kernel: [    0.611512] CPU18: Booted secondary processor 0x00000c0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.644009] Detected VIPT I-cache on CPU19
+Jul 23 14:14:48 ubuntu kernel: [    0.644016] GICv3: CPU19: found redistributor c0300 region 19:0x00000000ae5c0000
+Jul 23 14:14:48 ubuntu kernel: [    0.644030] GICv3: CPU19: using allocated LPI pending table @0x00000027ff1e0000
+Jul 23 14:14:48 ubuntu kernel: [    0.644062] CPU19: Booted secondary processor 0x00000c0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.676737] Detected VIPT I-cache on CPU20
+Jul 23 14:14:48 ubuntu kernel: [    0.676746] GICv3: CPU20: found redistributor d0000 region 20:0x00000000ae600000
+Jul 23 14:14:48 ubuntu kernel: [    0.676766] GICv3: CPU20: using allocated LPI pending table @0x00000027ff1f0000
+Jul 23 14:14:48 ubuntu kernel: [    0.676803] CPU20: Booted secondary processor 0x00000d0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.709456] Detected VIPT I-cache on CPU21
+Jul 23 14:14:48 ubuntu kernel: [    0.709463] GICv3: CPU21: found redistributor d0100 region 21:0x00000000ae640000
+Jul 23 14:14:48 ubuntu kernel: [    0.709480] GICv3: CPU21: using allocated LPI pending table @0x00000027ff200000
+Jul 23 14:14:48 ubuntu kernel: [    0.709511] CPU21: Booted secondary processor 0x00000d0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.742180] Detected VIPT I-cache on CPU22
+Jul 23 14:14:48 ubuntu kernel: [    0.742187] GICv3: CPU22: found redistributor d0200 region 22:0x00000000ae680000
+Jul 23 14:14:48 ubuntu kernel: [    0.742201] GICv3: CPU22: using allocated LPI pending table @0x00000027ff210000
+Jul 23 14:14:48 ubuntu kernel: [    0.742234] CPU22: Booted secondary processor 0x00000d0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.774903] Detected VIPT I-cache on CPU23
+Jul 23 14:14:48 ubuntu kernel: [    0.774910] GICv3: CPU23: found redistributor d0300 region 23:0x00000000ae6c0000
+Jul 23 14:14:48 ubuntu kernel: [    0.774926] GICv3: CPU23: using allocated LPI pending table @0x00000027ff220000
+Jul 23 14:14:48 ubuntu kernel: [    0.774958] CPU23: Booted secondary processor 0x00000d0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.807470] Detected VIPT I-cache on CPU24
+Jul 23 14:14:48 ubuntu kernel: [    0.807486] GICv3: CPU24: found redistributor 180000 region 24:0x00000000aa100000
+Jul 23 14:14:48 ubuntu kernel: [    0.807525] GICv3: CPU24: using allocated LPI pending table @0x00000027ff230000
+Jul 23 14:14:48 ubuntu kernel: [    0.807573] CPU24: Booted secondary processor 0x0000180000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.840006] Detected VIPT I-cache on CPU25
+Jul 23 14:14:48 ubuntu kernel: [    0.840015] GICv3: CPU25: found redistributor 180100 region 25:0x00000000aa140000
+Jul 23 14:14:48 ubuntu kernel: [    0.840037] GICv3: CPU25: using allocated LPI pending table @0x00000027ff240000
+Jul 23 14:14:48 ubuntu kernel: [    0.840075] CPU25: Booted secondary processor 0x0000180100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.872555] Detected VIPT I-cache on CPU26
+Jul 23 14:14:48 ubuntu kernel: [    0.872565] GICv3: CPU26: found redistributor 180200 region 26:0x00000000aa180000
+Jul 23 14:14:48 ubuntu kernel: [    0.872582] GICv3: CPU26: using allocated LPI pending table @0x00000027ff250000
+Jul 23 14:14:48 ubuntu kernel: [    0.872620] CPU26: Booted secondary processor 0x0000180200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.905105] Detected VIPT I-cache on CPU27
+Jul 23 14:14:48 ubuntu kernel: [    0.905115] GICv3: CPU27: found redistributor 180300 region 27:0x00000000aa1c0000
+Jul 23 14:14:48 ubuntu kernel: [    0.905133] GICv3: CPU27: using allocated LPI pending table @0x00000027ff260000
+Jul 23 14:14:48 ubuntu kernel: [    0.905171] CPU27: Booted secondary processor 0x0000180300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.937837] Detected VIPT I-cache on CPU28
+Jul 23 14:14:48 ubuntu kernel: [    0.937851] GICv3: CPU28: found redistributor 190000 region 28:0x00000000aa200000
+Jul 23 14:14:48 ubuntu kernel: [    0.937880] GICv3: CPU28: using allocated LPI pending table @0x00000027ff270000
+Jul 23 14:14:48 ubuntu kernel: [    0.937926] CPU28: Booted secondary processor 0x0000190000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    0.970553] Detected VIPT I-cache on CPU29
+Jul 23 14:14:48 ubuntu kernel: [    0.970563] GICv3: CPU29: found redistributor 190100 region 29:0x00000000aa240000
+Jul 23 14:14:48 ubuntu kernel: [    0.970581] GICv3: CPU29: using allocated LPI pending table @0x00000027ff280000
+Jul 23 14:14:48 ubuntu kernel: [    0.970618] CPU29: Booted secondary processor 0x0000190100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.003276] Detected VIPT I-cache on CPU30
+Jul 23 14:14:48 ubuntu kernel: [    1.003286] GICv3: CPU30: found redistributor 190200 region 30:0x00000000aa280000
+Jul 23 14:14:48 ubuntu kernel: [    1.003301] GICv3: CPU30: using allocated LPI pending table @0x00000027ff290000
+Jul 23 14:14:48 ubuntu kernel: [    1.003340] CPU30: Booted secondary processor 0x0000190200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.035999] Detected VIPT I-cache on CPU31
+Jul 23 14:14:48 ubuntu kernel: [    1.036010] GICv3: CPU31: found redistributor 190300 region 31:0x00000000aa2c0000
+Jul 23 14:14:48 ubuntu kernel: [    1.036025] GICv3: CPU31: using allocated LPI pending table @0x00000027ff2a0000
+Jul 23 14:14:48 ubuntu kernel: [    1.036062] CPU31: Booted secondary processor 0x0000190300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.068903] Detected VIPT I-cache on CPU32
+Jul 23 14:14:48 ubuntu kernel: [    1.068916] GICv3: CPU32: found redistributor 1a0000 region 32:0x00000000aa300000
+Jul 23 14:14:48 ubuntu kernel: [    1.068939] GICv3: CPU32: using allocated LPI pending table @0x00000027ff2b0000
+Jul 23 14:14:48 ubuntu kernel: [    1.068982] CPU32: Booted secondary processor 0x00001a0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.101795] Detected VIPT I-cache on CPU33
+Jul 23 14:14:48 ubuntu kernel: [    1.101806] GICv3: CPU33: found redistributor 1a0100 region 33:0x00000000aa340000
+Jul 23 14:14:48 ubuntu kernel: [    1.101825] GICv3: CPU33: using allocated LPI pending table @0x00000027ff2c0000
+Jul 23 14:14:48 ubuntu kernel: [    1.101864] CPU33: Booted secondary processor 0x00001a0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.134692] Detected VIPT I-cache on CPU34
+Jul 23 14:14:48 ubuntu kernel: [    1.134703] GICv3: CPU34: found redistributor 1a0200 region 34:0x00000000aa380000
+Jul 23 14:14:48 ubuntu kernel: [    1.134720] GICv3: CPU34: using allocated LPI pending table @0x00000027ff2d0000
+Jul 23 14:14:48 ubuntu kernel: [    1.134759] CPU34: Booted secondary processor 0x00001a0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.167589] Detected VIPT I-cache on CPU35
+Jul 23 14:14:48 ubuntu kernel: [    1.167600] GICv3: CPU35: found redistributor 1a0300 region 35:0x00000000aa3c0000
+Jul 23 14:14:48 ubuntu kernel: [    1.167617] GICv3: CPU35: using allocated LPI pending table @0x00000027ff2e0000
+Jul 23 14:14:48 ubuntu kernel: [    1.167655] CPU35: Booted secondary processor 0x00001a0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.200665] Detected VIPT I-cache on CPU36
+Jul 23 14:14:48 ubuntu kernel: [    1.200680] GICv3: CPU36: found redistributor 1b0000 region 36:0x00000000aa400000
+Jul 23 14:14:48 ubuntu kernel: [    1.200707] GICv3: CPU36: using allocated LPI pending table @0x00000027ff2f0000
+Jul 23 14:14:48 ubuntu kernel: [    1.200751] CPU36: Booted secondary processor 0x00001b0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.233730] Detected VIPT I-cache on CPU37
+Jul 23 14:14:48 ubuntu kernel: [    1.233742] GICv3: CPU37: found redistributor 1b0100 region 37:0x00000000aa440000
+Jul 23 14:14:48 ubuntu kernel: [    1.233761] GICv3: CPU37: using allocated LPI pending table @0x00000027ff300000
+Jul 23 14:14:48 ubuntu kernel: [    1.233799] CPU37: Booted secondary processor 0x00001b0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.266801] Detected VIPT I-cache on CPU38
+Jul 23 14:14:48 ubuntu kernel: [    1.266813] GICv3: CPU38: found redistributor 1b0200 region 38:0x00000000aa480000
+Jul 23 14:14:48 ubuntu kernel: [    1.266832] GICv3: CPU38: using allocated LPI pending table @0x00000027ff310000
+Jul 23 14:14:48 ubuntu kernel: [    1.266869] CPU38: Booted secondary processor 0x00001b0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.299872] Detected VIPT I-cache on CPU39
+Jul 23 14:14:48 ubuntu kernel: [    1.299884] GICv3: CPU39: found redistributor 1b0300 region 39:0x00000000aa4c0000
+Jul 23 14:14:48 ubuntu kernel: [    1.299900] GICv3: CPU39: using allocated LPI pending table @0x00000027ff320000
+Jul 23 14:14:48 ubuntu kernel: [    1.299939] CPU39: Booted secondary processor 0x00001b0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.332428] Detected VIPT I-cache on CPU40
+Jul 23 14:14:48 ubuntu kernel: [    1.332442] GICv3: CPU40: found redistributor 1c0000 region 40:0x00000000aa500000
+Jul 23 14:14:48 ubuntu kernel: [    1.332467] GICv3: CPU40: using allocated LPI pending table @0x00000027ff330000
+Jul 23 14:14:48 ubuntu kernel: [    1.332511] CPU40: Booted secondary processor 0x00001c0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.364972] Detected VIPT I-cache on CPU41
+Jul 23 14:14:48 ubuntu kernel: [    1.364984] GICv3: CPU41: found redistributor 1c0100 region 41:0x00000000aa540000
+Jul 23 14:14:48 ubuntu kernel: [    1.365001] GICv3: CPU41: using allocated LPI pending table @0x00000027ff340000
+Jul 23 14:14:48 ubuntu kernel: [    1.365040] CPU41: Booted secondary processor 0x00001c0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.397522] Detected VIPT I-cache on CPU42
+Jul 23 14:14:48 ubuntu kernel: [    1.397534] GICv3: CPU42: found redistributor 1c0200 region 42:0x00000000aa580000
+Jul 23 14:14:48 ubuntu kernel: [    1.397550] GICv3: CPU42: using allocated LPI pending table @0x00000027ff350000
+Jul 23 14:14:48 ubuntu kernel: [    1.397589] CPU42: Booted secondary processor 0x00001c0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.430072] Detected VIPT I-cache on CPU43
+Jul 23 14:14:48 ubuntu kernel: [    1.430084] GICv3: CPU43: found redistributor 1c0300 region 43:0x00000000aa5c0000
+Jul 23 14:14:48 ubuntu kernel: [    1.430100] GICv3: CPU43: using allocated LPI pending table @0x00000027ff360000
+Jul 23 14:14:48 ubuntu kernel: [    1.430139] CPU43: Booted secondary processor 0x00001c0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.462801] Detected VIPT I-cache on CPU44
+Jul 23 14:14:48 ubuntu kernel: [    1.462817] GICv3: CPU44: found redistributor 1d0000 region 44:0x00000000aa600000
+Jul 23 14:14:48 ubuntu kernel: [    1.462842] GICv3: CPU44: using allocated LPI pending table @0x00000027ff370000
+Jul 23 14:14:48 ubuntu kernel: [    1.462888] CPU44: Booted secondary processor 0x00001d0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.495519] Detected VIPT I-cache on CPU45
+Jul 23 14:14:48 ubuntu kernel: [    1.495532] GICv3: CPU45: found redistributor 1d0100 region 45:0x00000000aa640000
+Jul 23 14:14:48 ubuntu kernel: [    1.495549] GICv3: CPU45: using allocated LPI pending table @0x00000027ff380000
+Jul 23 14:14:48 ubuntu kernel: [    1.495587] CPU45: Booted secondary processor 0x00001d0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.528242] Detected VIPT I-cache on CPU46
+Jul 23 14:14:48 ubuntu kernel: [    1.528255] GICv3: CPU46: found redistributor 1d0200 region 46:0x00000000aa680000
+Jul 23 14:14:48 ubuntu kernel: [    1.528271] GICv3: CPU46: using allocated LPI pending table @0x00000027ff390000
+Jul 23 14:14:48 ubuntu kernel: [    1.528309] CPU46: Booted secondary processor 0x00001d0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.560966] Detected VIPT I-cache on CPU47
+Jul 23 14:14:48 ubuntu kernel: [    1.560978] GICv3: CPU47: found redistributor 1d0300 region 47:0x00000000aa6c0000
+Jul 23 14:14:48 ubuntu kernel: [    1.560997] GICv3: CPU47: using allocated LPI pending table @0x00000027ff3a0000
+Jul 23 14:14:48 ubuntu kernel: [    1.561035] CPU47: Booted secondary processor 0x00001d0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.593806] Detected VIPT I-cache on CPU48
+Jul 23 14:14:48 ubuntu kernel: [    1.593846] GICv3: CPU48: found redistributor 280000 region 48:0x00002000ae100000
+Jul 23 14:14:48 ubuntu kernel: [    1.593905] GICv3: CPU48: using allocated LPI pending table @0x00000027ff3b0000
+Jul 23 14:14:48 ubuntu kernel: [    1.593976] CPU48: Booted secondary processor 0x0000280000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.626594] Detected VIPT I-cache on CPU49
+Jul 23 14:14:48 ubuntu kernel: [    1.626622] GICv3: CPU49: found redistributor 280100 region 49:0x00002000ae140000
+Jul 23 14:14:48 ubuntu kernel: [    1.626643] GICv3: CPU49: using allocated LPI pending table @0x00000027ff3c0000
+Jul 23 14:14:48 ubuntu kernel: [    1.626695] CPU49: Booted secondary processor 0x0000280100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.659405] Detected VIPT I-cache on CPU50
+Jul 23 14:14:48 ubuntu kernel: [    1.659433] GICv3: CPU50: found redistributor 280200 region 50:0x00002000ae180000
+Jul 23 14:14:48 ubuntu kernel: [    1.659454] GICv3: CPU50: using allocated LPI pending table @0x00000027ff3d0000
+Jul 23 14:14:48 ubuntu kernel: [    1.659506] CPU50: Booted secondary processor 0x0000280200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.692215] Detected VIPT I-cache on CPU51
+Jul 23 14:14:48 ubuntu kernel: [    1.692243] GICv3: CPU51: found redistributor 280300 region 51:0x00002000ae1c0000
+Jul 23 14:14:48 ubuntu kernel: [    1.692263] GICv3: CPU51: using allocated LPI pending table @0x00000027ff3e0000
+Jul 23 14:14:48 ubuntu kernel: [    1.692315] CPU51: Booted secondary processor 0x0000280300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.725204] Detected VIPT I-cache on CPU52
+Jul 23 14:14:48 ubuntu kernel: [    1.725234] GICv3: CPU52: found redistributor 290000 region 52:0x00002000ae200000
+Jul 23 14:14:48 ubuntu kernel: [    1.725271] GICv3: CPU52: using allocated LPI pending table @0x00000027ff3f0000
+Jul 23 14:14:48 ubuntu kernel: [    1.725326] CPU52: Booted secondary processor 0x0000290000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.758183] Detected VIPT I-cache on CPU53
+Jul 23 14:14:48 ubuntu kernel: [    1.758212] GICv3: CPU53: found redistributor 290100 region 53:0x00002000ae240000
+Jul 23 14:14:48 ubuntu kernel: [    1.758230] GICv3: CPU53: using allocated LPI pending table @0x00000027fec00000
+Jul 23 14:14:48 ubuntu kernel: [    1.758282] CPU53: Booted secondary processor 0x0000290100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.791167] Detected VIPT I-cache on CPU54
+Jul 23 14:14:48 ubuntu kernel: [    1.791196] GICv3: CPU54: found redistributor 290200 region 54:0x00002000ae280000
+Jul 23 14:14:48 ubuntu kernel: [    1.791214] GICv3: CPU54: using allocated LPI pending table @0x00000027fec10000
+Jul 23 14:14:48 ubuntu kernel: [    1.791266] CPU54: Booted secondary processor 0x0000290200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.824152] Detected VIPT I-cache on CPU55
+Jul 23 14:14:48 ubuntu kernel: [    1.824180] GICv3: CPU55: found redistributor 290300 region 55:0x00002000ae2c0000
+Jul 23 14:14:48 ubuntu kernel: [    1.824200] GICv3: CPU55: using allocated LPI pending table @0x00000027fec20000
+Jul 23 14:14:48 ubuntu kernel: [    1.824253] CPU55: Booted secondary processor 0x0000290300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.857313] Detected VIPT I-cache on CPU56
+Jul 23 14:14:48 ubuntu kernel: [    1.857343] GICv3: CPU56: found redistributor 2a0000 region 56:0x00002000ae300000
+Jul 23 14:14:48 ubuntu kernel: [    1.857368] GICv3: CPU56: using allocated LPI pending table @0x00000027fec30000
+Jul 23 14:14:48 ubuntu kernel: [    1.857424] CPU56: Booted secondary processor 0x00002a0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.890466] Detected VIPT I-cache on CPU57
+Jul 23 14:14:48 ubuntu kernel: [    1.890495] GICv3: CPU57: found redistributor 2a0100 region 57:0x00002000ae340000
+Jul 23 14:14:48 ubuntu kernel: [    1.890514] GICv3: CPU57: using allocated LPI pending table @0x00000027fec40000
+Jul 23 14:14:48 ubuntu kernel: [    1.890566] CPU57: Booted secondary processor 0x00002a0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.923624] Detected VIPT I-cache on CPU58
+Jul 23 14:14:48 ubuntu kernel: [    1.923654] GICv3: CPU58: found redistributor 2a0200 region 58:0x00002000ae380000
+Jul 23 14:14:48 ubuntu kernel: [    1.923672] GICv3: CPU58: using allocated LPI pending table @0x00000027fec50000
+Jul 23 14:14:48 ubuntu kernel: [    1.923725] CPU58: Booted secondary processor 0x00002a0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.956782] Detected VIPT I-cache on CPU59
+Jul 23 14:14:48 ubuntu kernel: [    1.956811] GICv3: CPU59: found redistributor 2a0300 region 59:0x00002000ae3c0000
+Jul 23 14:14:48 ubuntu kernel: [    1.956829] GICv3: CPU59: using allocated LPI pending table @0x00000027fec60000
+Jul 23 14:14:48 ubuntu kernel: [    1.956881] CPU59: Booted secondary processor 0x00002a0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    1.990117] Detected VIPT I-cache on CPU60
+Jul 23 14:14:48 ubuntu kernel: [    1.990148] GICv3: CPU60: found redistributor 2b0000 region 60:0x00002000ae400000
+Jul 23 14:14:48 ubuntu kernel: [    1.990174] GICv3: CPU60: using allocated LPI pending table @0x00000027fec70000
+Jul 23 14:14:48 ubuntu kernel: [    1.990230] CPU60: Booted secondary processor 0x00002b0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.023444] Detected VIPT I-cache on CPU61
+Jul 23 14:14:48 ubuntu kernel: [    2.023474] GICv3: CPU61: found redistributor 2b0100 region 61:0x00002000ae440000
+Jul 23 14:14:48 ubuntu kernel: [    2.023492] GICv3: CPU61: using allocated LPI pending table @0x00000027fec80000
+Jul 23 14:14:48 ubuntu kernel: [    2.023545] CPU61: Booted secondary processor 0x00002b0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.056776] Detected VIPT I-cache on CPU62
+Jul 23 14:14:48 ubuntu kernel: [    2.056805] GICv3: CPU62: found redistributor 2b0200 region 62:0x00002000ae480000
+Jul 23 14:14:48 ubuntu kernel: [    2.056823] GICv3: CPU62: using allocated LPI pending table @0x00000027fec90000
+Jul 23 14:14:48 ubuntu kernel: [    2.056876] CPU62: Booted secondary processor 0x00002b0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.090107] Detected VIPT I-cache on CPU63
+Jul 23 14:14:48 ubuntu kernel: [    2.090136] GICv3: CPU63: found redistributor 2b0300 region 63:0x00002000ae4c0000
+Jul 23 14:14:48 ubuntu kernel: [    2.090156] GICv3: CPU63: using allocated LPI pending table @0x00000027feca0000
+Jul 23 14:14:48 ubuntu kernel: [    2.090209] CPU63: Booted secondary processor 0x00002b0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.122920] Detected VIPT I-cache on CPU64
+Jul 23 14:14:48 ubuntu kernel: [    2.122951] GICv3: CPU64: found redistributor 2c0000 region 64:0x00002000ae500000
+Jul 23 14:14:48 ubuntu kernel: [    2.122980] GICv3: CPU64: using allocated LPI pending table @0x00000027fecb0000
+Jul 23 14:14:48 ubuntu kernel: [    2.123036] CPU64: Booted secondary processor 0x00002c0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.155726] Detected VIPT I-cache on CPU65
+Jul 23 14:14:48 ubuntu kernel: [    2.155756] GICv3: CPU65: found redistributor 2c0100 region 65:0x00002000ae540000
+Jul 23 14:14:48 ubuntu kernel: [    2.155775] GICv3: CPU65: using allocated LPI pending table @0x00000027fecc0000
+Jul 23 14:14:48 ubuntu kernel: [    2.155828] CPU65: Booted secondary processor 0x00002c0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.188538] Detected VIPT I-cache on CPU66
+Jul 23 14:14:48 ubuntu kernel: [    2.188567] GICv3: CPU66: found redistributor 2c0200 region 66:0x00002000ae580000
+Jul 23 14:14:48 ubuntu kernel: [    2.188586] GICv3: CPU66: using allocated LPI pending table @0x00000027fecd0000
+Jul 23 14:14:48 ubuntu kernel: [    2.188639] CPU66: Booted secondary processor 0x00002c0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.221348] Detected VIPT I-cache on CPU67
+Jul 23 14:14:48 ubuntu kernel: [    2.221377] GICv3: CPU67: found redistributor 2c0300 region 67:0x00002000ae5c0000
+Jul 23 14:14:48 ubuntu kernel: [    2.221397] GICv3: CPU67: using allocated LPI pending table @0x00000027fece0000
+Jul 23 14:14:48 ubuntu kernel: [    2.221449] CPU67: Booted secondary processor 0x00002c0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.254336] Detected VIPT I-cache on CPU68
+Jul 23 14:14:48 ubuntu kernel: [    2.254367] GICv3: CPU68: found redistributor 2d0000 region 68:0x00002000ae600000
+Jul 23 14:14:48 ubuntu kernel: [    2.254398] GICv3: CPU68: using allocated LPI pending table @0x00000027fecf0000
+Jul 23 14:14:48 ubuntu kernel: [    2.254455] CPU68: Booted secondary processor 0x00002d0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.287316] Detected VIPT I-cache on CPU69
+Jul 23 14:14:48 ubuntu kernel: [    2.287346] GICv3: CPU69: found redistributor 2d0100 region 69:0x00002000ae640000
+Jul 23 14:14:48 ubuntu kernel: [    2.287366] GICv3: CPU69: using allocated LPI pending table @0x00000027fed00000
+Jul 23 14:14:48 ubuntu kernel: [    2.287418] CPU69: Booted secondary processor 0x00002d0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.320300] Detected VIPT I-cache on CPU70
+Jul 23 14:14:48 ubuntu kernel: [    2.320330] GICv3: CPU70: found redistributor 2d0200 region 70:0x00002000ae680000
+Jul 23 14:14:48 ubuntu kernel: [    2.320349] GICv3: CPU70: using allocated LPI pending table @0x00000027fed10000
+Jul 23 14:14:48 ubuntu kernel: [    2.320402] CPU70: Booted secondary processor 0x00002d0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.353284] Detected VIPT I-cache on CPU71
+Jul 23 14:14:48 ubuntu kernel: [    2.353314] GICv3: CPU71: found redistributor 2d0300 region 71:0x00002000ae6c0000
+Jul 23 14:14:48 ubuntu kernel: [    2.353333] GICv3: CPU71: using allocated LPI pending table @0x00000027fed20000
+Jul 23 14:14:48 ubuntu kernel: [    2.353386] CPU71: Booted secondary processor 0x00002d0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.393413] Detected VIPT I-cache on CPU72
+Jul 23 14:14:48 ubuntu kernel: [    2.393466] GICv3: CPU72: found redistributor 380000 region 72:0x00002000aa100000
+Jul 23 14:14:48 ubuntu kernel: [    2.393521] GICv3: CPU72: using allocated LPI pending table @0x00000027fed30000
+Jul 23 14:14:48 ubuntu kernel: [    2.393607] CPU72: Booted secondary processor 0x0000380000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.433490] Detected VIPT I-cache on CPU73
+Jul 23 14:14:48 ubuntu kernel: [    2.433525] GICv3: CPU73: found redistributor 380100 region 73:0x00002000aa140000
+Jul 23 14:14:48 ubuntu kernel: [    2.433547] GICv3: CPU73: using allocated LPI pending table @0x00000027fed40000
+Jul 23 14:14:48 ubuntu kernel: [    2.433605] CPU73: Booted secondary processor 0x0000380100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.473591] Detected VIPT I-cache on CPU74
+Jul 23 14:14:48 ubuntu kernel: [    2.473626] GICv3: CPU74: found redistributor 380200 region 74:0x00002000aa180000
+Jul 23 14:14:48 ubuntu kernel: [    2.473648] GICv3: CPU74: using allocated LPI pending table @0x00000027fed50000
+Jul 23 14:14:48 ubuntu kernel: [    2.473705] CPU74: Booted secondary processor 0x0000380200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.513693] Detected VIPT I-cache on CPU75
+Jul 23 14:14:48 ubuntu kernel: [    2.513729] GICv3: CPU75: found redistributor 380300 region 75:0x00002000aa1c0000
+Jul 23 14:14:48 ubuntu kernel: [    2.513749] GICv3: CPU75: using allocated LPI pending table @0x00000027fed60000
+Jul 23 14:14:48 ubuntu kernel: [    2.513807] CPU75: Booted secondary processor 0x0000380300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.553970] Detected VIPT I-cache on CPU76
+Jul 23 14:14:48 ubuntu kernel: [    2.554008] GICv3: CPU76: found redistributor 390000 region 76:0x00002000aa200000
+Jul 23 14:14:48 ubuntu kernel: [    2.554041] GICv3: CPU76: using allocated LPI pending table @0x00000027fed70000
+Jul 23 14:14:48 ubuntu kernel: [    2.554103] CPU76: Booted secondary processor 0x0000390000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.594243] Detected VIPT I-cache on CPU77
+Jul 23 14:14:48 ubuntu kernel: [    2.594280] GICv3: CPU77: found redistributor 390100 region 77:0x00002000aa240000
+Jul 23 14:14:48 ubuntu kernel: [    2.594301] GICv3: CPU77: using allocated LPI pending table @0x00000027fed80000
+Jul 23 14:14:48 ubuntu kernel: [    2.594359] CPU77: Booted secondary processor 0x0000390100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.634518] Detected VIPT I-cache on CPU78
+Jul 23 14:14:48 ubuntu kernel: [    2.634554] GICv3: CPU78: found redistributor 390200 region 78:0x00002000aa280000
+Jul 23 14:14:48 ubuntu kernel: [    2.634577] GICv3: CPU78: using allocated LPI pending table @0x00000027fed90000
+Jul 23 14:14:48 ubuntu kernel: [    2.634634] CPU78: Booted secondary processor 0x0000390200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.674793] Detected VIPT I-cache on CPU79
+Jul 23 14:14:48 ubuntu kernel: [    2.674830] GICv3: CPU79: found redistributor 390300 region 79:0x00002000aa2c0000
+Jul 23 14:14:48 ubuntu kernel: [    2.674852] GICv3: CPU79: using allocated LPI pending table @0x00000027feda0000
+Jul 23 14:14:48 ubuntu kernel: [    2.674910] CPU79: Booted secondary processor 0x0000390300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.715245] Detected VIPT I-cache on CPU80
+Jul 23 14:14:48 ubuntu kernel: [    2.715284] GICv3: CPU80: found redistributor 3a0000 region 80:0x00002000aa300000
+Jul 23 14:14:48 ubuntu kernel: [    2.715316] GICv3: CPU80: using allocated LPI pending table @0x00000027fedb0000
+Jul 23 14:14:48 ubuntu kernel: [    2.715378] CPU80: Booted secondary processor 0x00003a0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.755691] Detected VIPT I-cache on CPU81
+Jul 23 14:14:48 ubuntu kernel: [    2.755728] GICv3: CPU81: found redistributor 3a0100 region 81:0x00002000aa340000
+Jul 23 14:14:48 ubuntu kernel: [    2.755750] GICv3: CPU81: using allocated LPI pending table @0x00000027fedc0000
+Jul 23 14:14:48 ubuntu kernel: [    2.755808] CPU81: Booted secondary processor 0x00003a0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.796139] Detected VIPT I-cache on CPU82
+Jul 23 14:14:48 ubuntu kernel: [    2.796176] GICv3: CPU82: found redistributor 3a0200 region 82:0x00002000aa380000
+Jul 23 14:14:48 ubuntu kernel: [    2.796198] GICv3: CPU82: using allocated LPI pending table @0x00000027fedd0000
+Jul 23 14:14:48 ubuntu kernel: [    2.796257] CPU82: Booted secondary processor 0x00003a0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.836588] Detected VIPT I-cache on CPU83
+Jul 23 14:14:48 ubuntu kernel: [    2.836625] GICv3: CPU83: found redistributor 3a0300 region 83:0x00002000aa3c0000
+Jul 23 14:14:48 ubuntu kernel: [    2.836647] GICv3: CPU83: using allocated LPI pending table @0x00000027fede0000
+Jul 23 14:14:48 ubuntu kernel: [    2.836705] CPU83: Booted secondary processor 0x00003a0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.877214] Detected VIPT I-cache on CPU84
+Jul 23 14:14:48 ubuntu kernel: [    2.877253] GICv3: CPU84: found redistributor 3b0000 region 84:0x00002000aa400000
+Jul 23 14:14:48 ubuntu kernel: [    2.877286] GICv3: CPU84: using allocated LPI pending table @0x00000027fedf0000
+Jul 23 14:14:48 ubuntu kernel: [    2.877349] CPU84: Booted secondary processor 0x00003b0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.917833] Detected VIPT I-cache on CPU85
+Jul 23 14:14:48 ubuntu kernel: [    2.917871] GICv3: CPU85: found redistributor 3b0100 region 85:0x00002000aa440000
+Jul 23 14:14:48 ubuntu kernel: [    2.917894] GICv3: CPU85: using allocated LPI pending table @0x00000027fee00000
+Jul 23 14:14:48 ubuntu kernel: [    2.917953] CPU85: Booted secondary processor 0x00003b0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.958456] Detected VIPT I-cache on CPU86
+Jul 23 14:14:48 ubuntu kernel: [    2.958493] GICv3: CPU86: found redistributor 3b0200 region 86:0x00002000aa480000
+Jul 23 14:14:48 ubuntu kernel: [    2.958515] GICv3: CPU86: using allocated LPI pending table @0x00000027fee10000
+Jul 23 14:14:48 ubuntu kernel: [    2.958574] CPU86: Booted secondary processor 0x00003b0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    2.999078] Detected VIPT I-cache on CPU87
+Jul 23 14:14:48 ubuntu kernel: [    2.999116] GICv3: CPU87: found redistributor 3b0300 region 87:0x00002000aa4c0000
+Jul 23 14:14:48 ubuntu kernel: [    2.999140] GICv3: CPU87: using allocated LPI pending table @0x00000027fee20000
+Jul 23 14:14:48 ubuntu kernel: [    2.999198] CPU87: Booted secondary processor 0x00003b0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    3.039183] Detected VIPT I-cache on CPU88
+Jul 23 14:14:48 ubuntu kernel: [    3.039221] GICv3: CPU88: found redistributor 3c0000 region 88:0x00002000aa500000
+Jul 23 14:14:48 ubuntu kernel: [    3.039257] GICv3: CPU88: using allocated LPI pending table @0x00000027fee30000
+Jul 23 14:14:48 ubuntu kernel: [    3.039319] CPU88: Booted secondary processor 0x00003c0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    3.079281] Detected VIPT I-cache on CPU89
+Jul 23 14:14:48 ubuntu kernel: [    3.079318] GICv3: CPU89: found redistributor 3c0100 region 89:0x00002000aa540000
+Jul 23 14:14:48 ubuntu kernel: [    3.079344] GICv3: CPU89: using allocated LPI pending table @0x00000027fee40000
+Jul 23 14:14:48 ubuntu kernel: [    3.079402] CPU89: Booted secondary processor 0x00003c0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    3.119383] Detected VIPT I-cache on CPU90
+Jul 23 14:14:48 ubuntu kernel: [    3.119420] GICv3: CPU90: found redistributor 3c0200 region 90:0x00002000aa580000
+Jul 23 14:14:48 ubuntu kernel: [    3.119444] GICv3: CPU90: using allocated LPI pending table @0x00000027fee50000
+Jul 23 14:14:48 ubuntu kernel: [    3.119502] CPU90: Booted secondary processor 0x00003c0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    3.159484] Detected VIPT I-cache on CPU91
+Jul 23 14:14:48 ubuntu kernel: [    3.159521] GICv3: CPU91: found redistributor 3c0300 region 91:0x00002000aa5c0000
+Jul 23 14:14:48 ubuntu kernel: [    3.159546] GICv3: CPU91: using allocated LPI pending table @0x00000027fee60000
+Jul 23 14:14:48 ubuntu kernel: [    3.159603] CPU91: Booted secondary processor 0x00003c0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    3.199763] Detected VIPT I-cache on CPU92
+Jul 23 14:14:48 ubuntu kernel: [    3.199802] GICv3: CPU92: found redistributor 3d0000 region 92:0x00002000aa600000
+Jul 23 14:14:48 ubuntu kernel: [    3.199838] GICv3: CPU92: using allocated LPI pending table @0x00000027fee70000
+Jul 23 14:14:48 ubuntu kernel: [    3.199901] CPU92: Booted secondary processor 0x00003d0000 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    3.240034] Detected VIPT I-cache on CPU93
+Jul 23 14:14:48 ubuntu kernel: [    3.240072] GICv3: CPU93: found redistributor 3d0100 region 93:0x00002000aa640000
+Jul 23 14:14:48 ubuntu kernel: [    3.240096] GICv3: CPU93: using allocated LPI pending table @0x00000027fee80000
+Jul 23 14:14:48 ubuntu kernel: [    3.240154] CPU93: Booted secondary processor 0x00003d0100 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    3.280310] Detected VIPT I-cache on CPU94
+Jul 23 14:14:48 ubuntu kernel: [    3.280348] GICv3: CPU94: found redistributor 3d0200 region 94:0x00002000aa680000
+Jul 23 14:14:48 ubuntu kernel: [    3.280371] GICv3: CPU94: using allocated LPI pending table @0x00000027fee90000
+Jul 23 14:14:48 ubuntu kernel: [    3.280430] CPU94: Booted secondary processor 0x00003d0200 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    3.320586] Detected VIPT I-cache on CPU95
+Jul 23 14:14:48 ubuntu kernel: [    3.320623] GICv3: CPU95: found redistributor 3d0300 region 95:0x00002000aa6c0000
+Jul 23 14:14:48 ubuntu kernel: [    3.320648] GICv3: CPU95: using allocated LPI pending table @0x00000027feea0000
+Jul 23 14:14:48 ubuntu kernel: [    3.320707] CPU95: Booted secondary processor 0x00003d0300 [0x481fd010]
+Jul 23 14:14:48 ubuntu kernel: [    3.321554] smp: Brought up 4 nodes, 96 CPUs
+Jul 23 14:14:48 ubuntu kernel: [    3.322122] SMP: Total of 96 processors activated.
+Jul 23 14:14:48 ubuntu kernel: [    3.322125] CPU features: detected: Privileged Access Never
+Jul 23 14:14:48 ubuntu kernel: [    3.322127] CPU features: detected: LSE atomic instructions
+Jul 23 14:14:48 ubuntu kernel: [    3.322129] CPU features: detected: User Access Override
+Jul 23 14:14:48 ubuntu kernel: [    3.322131] CPU features: detected: Common not Private translations
+Jul 23 14:14:48 ubuntu kernel: [    3.322133] CPU features: detected: Data cache clean to Point of Persistence
+Jul 23 14:14:48 ubuntu kernel: [    3.322135] CPU features: detected: RAS Extension Support
+Jul 23 14:14:48 ubuntu kernel: [    3.322138] CPU features: detected: CRC32 instructions
+Jul 23 14:14:48 ubuntu kernel: [    3.386172] CPU: All CPU(s) started at EL2
+Jul 23 14:14:48 ubuntu kernel: [    3.402444] devtmpfs: initialized
+Jul 23 14:14:48 ubuntu kernel: [    3.405054] Registered cp15_barrier emulation handler
+Jul 23 14:14:48 ubuntu kernel: [    3.405094] Registered setend emulation handler
+Jul 23 14:14:48 ubuntu kernel: [    3.405097] KASLR disabled due to lack of seed
+Jul 23 14:14:48 ubuntu kernel: [    3.405510] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jul 23 14:14:48 ubuntu kernel: [    3.405915] futex hash table entries: 32768 (order: 9, 2097152 bytes, vmalloc)
+Jul 23 14:14:48 ubuntu kernel: [    3.406735] pinctrl core: initialized pinctrl subsystem
+Jul 23 14:14:48 ubuntu kernel: [    3.406891] thermal_sys: Registered thermal governor 'fair_share'
+Jul 23 14:14:48 ubuntu kernel: [    3.406892] thermal_sys: Registered thermal governor 'bang_bang'
+Jul 23 14:14:48 ubuntu kernel: [    3.406896] thermal_sys: Registered thermal governor 'step_wise'
+Jul 23 14:14:48 ubuntu kernel: [    3.406898] thermal_sys: Registered thermal governor 'user_space'
+Jul 23 14:14:48 ubuntu kernel: [    3.407007] SMBIOS 3.1.1 present.
+Jul 23 14:14:48 ubuntu kernel: [    3.407014] DMI: Huawei TaiShan 200 (Model 2280)/BC82AMDDA, BIOS 1.06 10/29/2019
+Jul 23 14:14:48 ubuntu kernel: [    3.407423] NET: Registered protocol family 16
+Jul 23 14:14:48 ubuntu kernel: [    3.408536] DMA: preallocated 256 KiB pool for atomic allocations
+Jul 23 14:14:48 ubuntu kernel: [    3.408541] audit: initializing netlink subsys (disabled)
+Jul 23 14:14:48 ubuntu kernel: [    3.408586] audit: type=2000 audit(0.488:1): state=initialized audit_enabled=0 res=1
+Jul 23 14:14:48 ubuntu kernel: [    3.408846] cpuidle: using governor ladder
+Jul 23 14:14:48 ubuntu kernel: [    3.408936] cpuidle: using governor menu
+Jul 23 14:14:48 ubuntu kernel: [    3.408946] Detected 1 PCC Subspaces
+Jul 23 14:14:48 ubuntu kernel: [    3.408989] Registering PCC driver as Mailbox controller
+Jul 23 14:14:48 ubuntu kernel: [    3.409085] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+Jul 23 14:14:48 ubuntu kernel: [    3.410017] ASID allocator initialised with 65536 entries
+Jul 23 14:14:48 ubuntu kernel: [    3.410158] ACPI: bus type PCI registered
+Jul 23 14:14:48 ubuntu kernel: [    3.410163] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jul 23 14:14:48 ubuntu kernel: [    3.410324] Serial: AMBA PL011 UART driver
+Jul 23 14:14:48 ubuntu kernel: [    3.416712] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Jul 23 14:14:48 ubuntu kernel: [    3.416716] HugeTLB registered 32.0 MiB page size, pre-allocated 0 pages
+Jul 23 14:14:48 ubuntu kernel: [    3.416719] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Jul 23 14:14:48 ubuntu kernel: [    3.416721] HugeTLB registered 64.0 KiB page size, pre-allocated 0 pages
+Jul 23 14:14:48 ubuntu kernel: [    3.420352] fbcon: Taking over console
+Jul 23 14:14:48 ubuntu kernel: [    3.420750] ACPI: Added _OSI(Module Device)
+Jul 23 14:14:48 ubuntu kernel: [    3.420753] ACPI: Added _OSI(Processor Device)
+Jul 23 14:14:48 ubuntu kernel: [    3.420755] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jul 23 14:14:48 ubuntu kernel: [    3.420757] ACPI: Added _OSI(Processor Aggregator Device)
+Jul 23 14:14:48 ubuntu kernel: [    3.420760] ACPI: Added _OSI(Linux-Dell-Video)
+Jul 23 14:14:48 ubuntu kernel: [    3.420768] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Jul 23 14:14:48 ubuntu kernel: [    3.420770] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Jul 23 14:14:48 ubuntu kernel: [    3.430206] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Jul 23 14:14:48 ubuntu kernel: [    3.433783] ACPI: Interpreter enabled
+Jul 23 14:14:48 ubuntu kernel: [    3.433787] ACPI: Using GIC for interrupt routing
+Jul 23 14:14:48 ubuntu kernel: [    3.433802] ACPI: MCFG table detected, 1 entries
+Jul 23 14:14:48 ubuntu kernel: [    3.433805] ACPI: IORT: [Firmware Bug]: ID count for ID mapping entry is wrong, applying workaround
+Jul 23 14:14:48 ubuntu kernel: [    3.433810] ACPI: IORT: SMMU-v3[148000000] Mapped to Proximity domain 0
+Jul 23 14:14:48 ubuntu kernel: [    3.433863] ACPI: IORT: SMMU-v3[201000000] Mapped to Proximity domain 0
+Jul 23 14:14:48 ubuntu kernel: [    3.433887] ACPI: IORT: SMMU-v3[100000000] Mapped to Proximity domain 0
+Jul 23 14:14:48 ubuntu kernel: [    3.433912] ACPI: IORT: SMMU-v3[140000000] Mapped to Proximity domain 0
+Jul 23 14:14:48 ubuntu kernel: [    3.433934] ACPI: IORT: SMMU-v3[200148000000] Mapped to Proximity domain 2
+Jul 23 14:14:48 ubuntu kernel: [    3.433958] ACPI: IORT: SMMU-v3[200201000000] Mapped to Proximity domain 2
+Jul 23 14:14:48 ubuntu kernel: [    3.433980] ACPI: IORT: SMMU-v3[200100000000] Mapped to Proximity domain 2
+Jul 23 14:14:48 ubuntu kernel: [    3.434003] ACPI: IORT: SMMU-v3[200140000000] Mapped to Proximity domain 2
+Jul 23 14:14:48 ubuntu kernel: [    3.434636] HEST: Table parsing has been initialized.
+Jul 23 14:14:48 ubuntu kernel: [    3.463592] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-3f])
+Jul 23 14:14:48 ubuntu kernel: [    3.463599] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.463705] acpi PNP0A08:00: _OSC: platform does not support [SHPCHotplug LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.463795] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug PME AER PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.464395] acpi PNP0A08:00: ECAM area [mem 0xd0000000-0xd3ffffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.464407] acpi PNP0A08:00: ECAM at [mem 0xd0000000-0xd3ffffff] for [bus 00-3f]
+Jul 23 14:14:48 ubuntu kernel: [    3.464430] Remapped I/O 0x00000000f7ff0000 to [io  0x0000-0xffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.464494] PCI host bridge to bus 0000:00
+Jul 23 14:14:48 ubuntu kernel: [    3.464497] pci_bus 0000:00: root bus resource [mem 0x80000000000-0x82fffffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.464501] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xf7feffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.464504] pci_bus 0000:00: root bus resource [io  0x0000-0xffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.464507] pci_bus 0000:00: root bus resource [bus 00-3f]
+Jul 23 14:14:48 ubuntu kernel: [    3.464540] pci 0000:00:00.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.464607] pci 0000:00:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.464678] pci 0000:00:04.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.464735] pci 0000:00:04.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.464797] pci 0000:00:08.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.464851] pci 0000:00:08.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.464908] pci 0000:00:0c.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.464965] pci 0000:00:0c.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.465023] pci 0000:00:10.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.465078] pci 0000:00:10.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.465135] pci 0000:00:11.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.465189] pci 0000:00:11.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.465246] pci 0000:00:12.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.465305] pci 0000:00:12.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.465435] pci 0000:03:00.0: [1000:0016] type 00 class 0x010400
+Jul 23 14:14:48 ubuntu kernel: [    3.465458] pci 0000:03:00.0: reg 0x10: [mem 0x80000100000-0x800001fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.465468] pci 0000:03:00.0: reg 0x18: [mem 0x80000000000-0x800000fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.465476] pci 0000:03:00.0: reg 0x20: [mem 0xe6400000-0xe64fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.465484] pci 0000:03:00.0: reg 0x24: [io  0x0000-0x00ff]
+Jul 23 14:14:48 ubuntu kernel: [    3.465492] pci 0000:03:00.0: reg 0x30: [mem 0xe6300000-0xe63fffff pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.465562] pci 0000:03:00.0: supports D1 D2
+Jul 23 14:14:48 ubuntu kernel: [    3.465704] pci 0000:05:00.0: [19e5:1710] type 00 class 0x118000
+Jul 23 14:14:48 ubuntu kernel: [    3.465729] pci 0000:05:00.0: reg 0x10: [mem 0xe0000000-0xe3ffffff pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.465739] pci 0000:05:00.0: reg 0x14: [mem 0xe6200000-0xe62fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.465892] pci 0000:05:00.0: supports D1
+Jul 23 14:14:48 ubuntu kernel: [    3.465895] pci 0000:05:00.0: PME# supported from D0 D1 D3hot
+Jul 23 14:14:48 ubuntu kernel: [    3.466032] pci 0000:06:00.0: [19e5:1711] type 00 class 0x030000
+Jul 23 14:14:48 ubuntu kernel: [    3.466064] pci 0000:06:00.0: reg 0x10: [mem 0xe4000000-0xe5ffffff pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.466077] pci 0000:06:00.0: reg 0x14: [mem 0xe6000000-0xe61fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466204] pci 0000:06:00.0: BAR 0: assigned to efifb
+Jul 23 14:14:48 ubuntu kernel: [    3.466264] pci 0000:06:00.0: supports D1
+Jul 23 14:14:48 ubuntu kernel: [    3.466266] pci 0000:06:00.0: PME# supported from D0 D1 D3hot
+Jul 23 14:14:48 ubuntu kernel: [    3.466405] pci_bus 0000:00: on NUMA node 0
+Jul 23 14:14:48 ubuntu kernel: [    3.466407] pci 0000:00:00.0: PCI bridge to [bus 01]
+Jul 23 14:14:48 ubuntu kernel: [    3.466412] pci 0000:00:04.0: PCI bridge to [bus 02]
+Jul 23 14:14:48 ubuntu kernel: [    3.466416] pci 0000:00:08.0: PCI bridge to [bus 03]
+Jul 23 14:14:48 ubuntu kernel: [    3.466419] pci 0000:00:08.0:   bridge window [io  0x0000-0x0fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466423] pci 0000:00:08.0:   bridge window [mem 0xe6300000-0xe64fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466426] pci 0000:00:08.0:   bridge window [mem 0x80000000000-0x800001fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.466430] pci 0000:00:0c.0: PCI bridge to [bus 04]
+Jul 23 14:14:48 ubuntu kernel: [    3.466434] pci 0000:00:10.0: PCI bridge to [bus 05]
+Jul 23 14:14:48 ubuntu kernel: [    3.466438] pci 0000:00:10.0:   bridge window [mem 0xe6200000-0xe62fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466442] pci 0000:00:10.0:   bridge window [mem 0xe0000000-0xe3ffffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.466445] pci 0000:00:11.0: PCI bridge to [bus 06]
+Jul 23 14:14:48 ubuntu kernel: [    3.466448] pci 0000:00:11.0:   bridge window [mem 0xe6000000-0xe61fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466452] pci 0000:00:11.0:   bridge window [mem 0xe4000000-0xe5ffffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.466455] pci 0000:00:12.0: PCI bridge to [bus 07]
+Jul 23 14:14:48 ubuntu kernel: [    3.466465] pci 0000:00:00.0: PCI bridge to [bus 01]
+Jul 23 14:14:48 ubuntu kernel: [    3.466470] pci 0000:00:04.0: PCI bridge to [bus 02]
+Jul 23 14:14:48 ubuntu kernel: [    3.466474] pci 0000:00:08.0: PCI bridge to [bus 03]
+Jul 23 14:14:48 ubuntu kernel: [    3.466477] pci 0000:00:08.0:   bridge window [io  0x0000-0x0fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466480] pci 0000:00:08.0:   bridge window [mem 0xe6300000-0xe64fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466484] pci 0000:00:08.0:   bridge window [mem 0x80000000000-0x800001fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.466488] pci 0000:00:0c.0: PCI bridge to [bus 04]
+Jul 23 14:14:48 ubuntu kernel: [    3.466492] pci 0000:00:10.0: PCI bridge to [bus 05]
+Jul 23 14:14:48 ubuntu kernel: [    3.466496] pci 0000:00:10.0:   bridge window [mem 0xe6200000-0xe62fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466499] pci 0000:00:10.0:   bridge window [mem 0xe0000000-0xe3ffffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.466503] pci 0000:00:11.0: PCI bridge to [bus 06]
+Jul 23 14:14:48 ubuntu kernel: [    3.466506] pci 0000:00:11.0:   bridge window [mem 0xe6000000-0xe61fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466509] pci 0000:00:11.0:   bridge window [mem 0xe4000000-0xe5ffffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.466514] pci 0000:00:12.0: PCI bridge to [bus 07]
+Jul 23 14:14:48 ubuntu kernel: [    3.466519] pci_bus 0000:00: resource 4 [mem 0x80000000000-0x82fffffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.466522] pci_bus 0000:00: resource 5 [mem 0xe0000000-0xf7feffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.466525] pci_bus 0000:00: resource 6 [io  0x0000-0xffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.466528] pci_bus 0000:03: resource 0 [io  0x0000-0x0fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466530] pci_bus 0000:03: resource 1 [mem 0xe6300000-0xe64fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466533] pci_bus 0000:03: resource 2 [mem 0x80000000000-0x800001fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.466536] pci_bus 0000:05: resource 1 [mem 0xe6200000-0xe62fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466539] pci_bus 0000:05: resource 2 [mem 0xe0000000-0xe3ffffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.466542] pci_bus 0000:06: resource 1 [mem 0xe6000000-0xe61fffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.466544] pci_bus 0000:06: resource 2 [mem 0xe4000000-0xe5ffffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.466599] ACPI: PCI Root Bridge [PCI1] (domain 0000 [bus 7b])
+Jul 23 14:14:48 ubuntu kernel: [    3.466604] acpi PNP0A08:01: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.466702] acpi PNP0A08:01: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME AER LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.466791] acpi PNP0A08:01: _OSC: OS now controls [PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.467383] acpi PNP0A08:01: ECAM area [mem 0xd7b00000-0xd7bfffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.467398] acpi PNP0A08:01: ECAM at [mem 0xd7b00000-0xd7bfffff] for [bus 7b]
+Jul 23 14:14:48 ubuntu kernel: [    3.467451] PCI host bridge to bus 0000:7b
+Jul 23 14:14:48 ubuntu kernel: [    3.467454] pci_bus 0000:7b: root bus resource [mem 0x148800000-0x148ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.467458] pci_bus 0000:7b: root bus resource [bus 7b]
+Jul 23 14:14:48 ubuntu kernel: [    3.467465] pci 0000:7b:00.0: [19e5:a122] type 00 class 0x088000
+Jul 23 14:14:48 ubuntu kernel: [    3.467474] pci 0000:7b:00.0: reg 0x18: [mem 0x00000000-0x00003fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.467524] pci_bus 0000:7b: on NUMA node 0
+Jul 23 14:14:48 ubuntu kernel: [    3.467528] pci 0000:7b:00.0: BAR 2: assigned [mem 0x148800000-0x148803fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.467534] pci_bus 0000:7b: resource 4 [mem 0x148800000-0x148ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.467575] ACPI: PCI Root Bridge [PCI2] (domain 0000 [bus 7a])
+Jul 23 14:14:48 ubuntu kernel: [    3.467580] acpi PNP0A08:02: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.467677] acpi PNP0A08:02: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME AER LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.467765] acpi PNP0A08:02: _OSC: OS now controls [PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.468348] acpi PNP0A08:02: ECAM area [mem 0xd7a00000-0xd7afffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.468363] acpi PNP0A08:02: ECAM at [mem 0xd7a00000-0xd7afffff] for [bus 7a]
+Jul 23 14:14:48 ubuntu kernel: [    3.468416] PCI host bridge to bus 0000:7a
+Jul 23 14:14:48 ubuntu kernel: [    3.468420] pci_bus 0000:7a: root bus resource [mem 0x20c000000-0x20c1fffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.468423] pci_bus 0000:7a: root bus resource [bus 7a]
+Jul 23 14:14:48 ubuntu kernel: [    3.468430] pci 0000:7a:00.0: [19e5:a23b] type 00 class 0x0c0310
+Jul 23 14:14:48 ubuntu kernel: [    3.468437] pci 0000:7a:00.0: reg 0x10: [mem 0x20c100000-0x20c100fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.468488] pci 0000:7a:01.0: [19e5:a239] type 00 class 0x0c0320
+Jul 23 14:14:48 ubuntu kernel: [    3.468495] pci 0000:7a:01.0: reg 0x10: [mem 0x20c101000-0x20c101fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.468546] pci 0000:7a:02.0: [19e5:a238] type 00 class 0x0c0330
+Jul 23 14:14:48 ubuntu kernel: [    3.468553] pci 0000:7a:02.0: reg 0x10: [mem 0x20c000000-0x20c0fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.468609] pci_bus 0000:7a: on NUMA node 0
+Jul 23 14:14:48 ubuntu kernel: [    3.468612] pci 0000:7a:02.0: BAR 0: assigned [mem 0x20c000000-0x20c0fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.468617] pci 0000:7a:00.0: BAR 0: assigned [mem 0x20c100000-0x20c100fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.468622] pci 0000:7a:01.0: BAR 0: assigned [mem 0x20c101000-0x20c101fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.468627] pci_bus 0000:7a: resource 4 [mem 0x20c000000-0x20c1fffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.468670] ACPI: PCI Root Bridge [PCI3] (domain 0000 [bus 78-79])
+Jul 23 14:14:48 ubuntu kernel: [    3.468675] acpi PNP0A08:03: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.468771] acpi PNP0A08:03: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME AER LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.468860] acpi PNP0A08:03: _OSC: OS now controls [PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.469449] acpi PNP0A08:03: ECAM area [mem 0xd7800000-0xd79fffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.469457] acpi PNP0A08:03: ECAM at [mem 0xd7800000-0xd79fffff] for [bus 78-79]
+Jul 23 14:14:48 ubuntu kernel: [    3.469523] PCI host bridge to bus 0000:78
+Jul 23 14:14:48 ubuntu kernel: [    3.469527] pci_bus 0000:78: root bus resource [mem 0x208000000-0x208bfffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.469530] pci_bus 0000:78: root bus resource [bus 78-79]
+Jul 23 14:14:48 ubuntu kernel: [    3.469542] pci_bus 0000:78: on NUMA node 0
+Jul 23 14:14:48 ubuntu kernel: [    3.469544] pci_bus 0000:78: resource 4 [mem 0x208000000-0x208bfffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.469590] ACPI: PCI Root Bridge [PCI4] (domain 0000 [bus 7c-7d])
+Jul 23 14:14:48 ubuntu kernel: [    3.469595] acpi PNP0A08:04: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.469690] acpi PNP0A08:04: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME AER LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.469778] acpi PNP0A08:04: _OSC: OS now controls [PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.470355] acpi PNP0A08:04: ECAM area [mem 0xd7c00000-0xd7dfffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.470361] acpi PNP0A08:04: ECAM at [mem 0xd7c00000-0xd7dfffff] for [bus 7c-7d]
+Jul 23 14:14:48 ubuntu kernel: [    3.470413] PCI host bridge to bus 0000:7c
+Jul 23 14:14:48 ubuntu kernel: [    3.470416] pci_bus 0000:7c: root bus resource [mem 0x120000000-0x13fffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.470419] pci_bus 0000:7c: root bus resource [bus 7c-7d]
+Jul 23 14:14:48 ubuntu kernel: [    3.470427] pci 0000:7c:00.0: [19e5:a121] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.470437] pci 0000:7c:00.0: enabling Extended Tags
+Jul 23 14:14:48 ubuntu kernel: [    3.470512] pci 0000:7d:00.0: [19e5:a222] type 00 class 0x020000
+Jul 23 14:14:48 ubuntu kernel: [    3.470519] pci 0000:7d:00.0: reg 0x10: [mem 0x1210f0000-0x1210fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470524] pci 0000:7d:00.0: reg 0x18: [mem 0x120f00000-0x120ffffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470547] pci 0000:7d:00.0: reg 0x224: [mem 0x1210c0000-0x1210cffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470551] pci 0000:7d:00.0: VF(n) BAR0 space: [mem 0x1210c0000-0x1210effff 64bit pref] (contains BAR0 for 3 VFs)
+Jul 23 14:14:48 ubuntu kernel: [    3.470556] pci 0000:7d:00.0: reg 0x22c: [mem 0x120c00000-0x120cfffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470560] pci 0000:7d:00.0: VF(n) BAR2 space: [mem 0x120c00000-0x120efffff 64bit pref] (contains BAR2 for 3 VFs)
+Jul 23 14:14:48 ubuntu kernel: [    3.470613] pci 0000:7d:00.1: [19e5:a221] type 00 class 0x020000
+Jul 23 14:14:48 ubuntu kernel: [    3.470620] pci 0000:7d:00.1: reg 0x10: [mem 0x1210b0000-0x1210bffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470625] pci 0000:7d:00.1: reg 0x18: [mem 0x120b00000-0x120bfffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470647] pci 0000:7d:00.1: reg 0x224: [mem 0x121080000-0x12108ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470651] pci 0000:7d:00.1: VF(n) BAR0 space: [mem 0x121080000-0x1210affff 64bit pref] (contains BAR0 for 3 VFs)
+Jul 23 14:14:48 ubuntu kernel: [    3.470656] pci 0000:7d:00.1: reg 0x22c: [mem 0x120800000-0x1208fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470659] pci 0000:7d:00.1: VF(n) BAR2 space: [mem 0x120800000-0x120afffff 64bit pref] (contains BAR2 for 3 VFs)
+Jul 23 14:14:48 ubuntu kernel: [    3.470708] pci 0000:7d:00.2: [19e5:a222] type 00 class 0x020000
+Jul 23 14:14:48 ubuntu kernel: [    3.470715] pci 0000:7d:00.2: reg 0x10: [mem 0x121070000-0x12107ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470720] pci 0000:7d:00.2: reg 0x18: [mem 0x120700000-0x1207fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470742] pci 0000:7d:00.2: reg 0x224: [mem 0x121040000-0x12104ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470745] pci 0000:7d:00.2: VF(n) BAR0 space: [mem 0x121040000-0x12106ffff 64bit pref] (contains BAR0 for 3 VFs)
+Jul 23 14:14:48 ubuntu kernel: [    3.470750] pci 0000:7d:00.2: reg 0x22c: [mem 0x120400000-0x1204fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470754] pci 0000:7d:00.2: VF(n) BAR2 space: [mem 0x120400000-0x1206fffff 64bit pref] (contains BAR2 for 3 VFs)
+Jul 23 14:14:48 ubuntu kernel: [    3.470801] pci 0000:7d:00.3: [19e5:a221] type 00 class 0x020000
+Jul 23 14:14:48 ubuntu kernel: [    3.470808] pci 0000:7d:00.3: reg 0x10: [mem 0x121030000-0x12103ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470813] pci 0000:7d:00.3: reg 0x18: [mem 0x120300000-0x1203fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470834] pci 0000:7d:00.3: reg 0x224: [mem 0x121000000-0x12100ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470838] pci 0000:7d:00.3: VF(n) BAR0 space: [mem 0x121000000-0x12102ffff 64bit pref] (contains BAR0 for 3 VFs)
+Jul 23 14:14:48 ubuntu kernel: [    3.470843] pci 0000:7d:00.3: reg 0x22c: [mem 0x120000000-0x1200fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470846] pci 0000:7d:00.3: VF(n) BAR2 space: [mem 0x120000000-0x1202fffff 64bit pref] (contains BAR2 for 3 VFs)
+Jul 23 14:14:48 ubuntu kernel: [    3.470901] pci_bus 0000:7c: on NUMA node 0
+Jul 23 14:14:48 ubuntu kernel: [    3.470906] pci 0000:7c:00.0: bridge window [mem 0x00100000-0x005fffff 64bit pref] to [bus 7d] add_size c00000 add_align 100000
+Jul 23 14:14:48 ubuntu kernel: [    3.470912] pci 0000:7c:00.0: BAR 15: assigned [mem 0x120000000-0x1210fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470921] pci 0000:7d:00.0: BAR 2: assigned [mem 0x120000000-0x1200fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470925] pci 0000:7d:00.0: BAR 9: assigned [mem 0x120100000-0x1203fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470929] pci 0000:7d:00.1: BAR 2: assigned [mem 0x120400000-0x1204fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470934] pci 0000:7d:00.1: BAR 9: assigned [mem 0x120500000-0x1207fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470938] pci 0000:7d:00.2: BAR 2: assigned [mem 0x120800000-0x1208fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470942] pci 0000:7d:00.2: BAR 9: assigned [mem 0x120900000-0x120bfffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470946] pci 0000:7d:00.3: BAR 2: assigned [mem 0x120c00000-0x120cfffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470951] pci 0000:7d:00.3: BAR 9: assigned [mem 0x120d00000-0x120ffffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470955] pci 0000:7d:00.0: BAR 0: assigned [mem 0x121000000-0x12100ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470959] pci 0000:7d:00.0: BAR 7: assigned [mem 0x121010000-0x12103ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470963] pci 0000:7d:00.1: BAR 0: assigned [mem 0x121040000-0x12104ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470968] pci 0000:7d:00.1: BAR 7: assigned [mem 0x121050000-0x12107ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470972] pci 0000:7d:00.2: BAR 0: assigned [mem 0x121080000-0x12108ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470976] pci 0000:7d:00.2: BAR 7: assigned [mem 0x121090000-0x1210bffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470980] pci 0000:7d:00.3: BAR 0: assigned [mem 0x1210c0000-0x1210cffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470985] pci 0000:7d:00.3: BAR 7: assigned [mem 0x1210d0000-0x1210fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470991] pci 0000:7c:00.0: PCI bridge to [bus 7d]
+Jul 23 14:14:48 ubuntu kernel: [    3.470994] pci 0000:7c:00.0:   bridge window [mem 0x120000000-0x1210fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.470999] pci_bus 0000:7c: resource 4 [mem 0x120000000-0x13fffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.471002] pci_bus 0000:7d: resource 2 [mem 0x120000000-0x1210fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.471046] ACPI: PCI Root Bridge [PCI5] (domain 0000 [bus 74-76])
+Jul 23 14:14:48 ubuntu kernel: [    3.471050] acpi PNP0A08:05: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.471147] acpi PNP0A08:05: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME AER LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.471235] acpi PNP0A08:05: _OSC: OS now controls [PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.471820] acpi PNP0A08:05: ECAM area [mem 0xd7400000-0xd76fffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.471835] acpi PNP0A08:05: ECAM at [mem 0xd7400000-0xd76fffff] for [bus 74-76]
+Jul 23 14:14:48 ubuntu kernel: [    3.471919] PCI host bridge to bus 0000:74
+Jul 23 14:14:48 ubuntu kernel: [    3.471922] pci_bus 0000:74: root bus resource [mem 0x141000000-0x141ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.471926] pci_bus 0000:74: root bus resource [mem 0x144000000-0x145ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.471929] pci_bus 0000:74: root bus resource [mem 0xa2000000-0xa2ffffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.471932] pci_bus 0000:74: root bus resource [bus 74-76]
+Jul 23 14:14:48 ubuntu kernel: [    3.471939] pci 0000:74:01.0: [19e5:a121] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.471950] pci 0000:74:01.0: enabling Extended Tags
+Jul 23 14:14:48 ubuntu kernel: [    3.472015] pci 0000:74:02.0: [19e5:a230] type 00 class 0x010700
+Jul 23 14:14:48 ubuntu kernel: [    3.472025] pci 0000:74:02.0: reg 0x24: [mem 0xa2008000-0xa200ffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.472105] pci 0000:74:03.0: [19e5:a235] type 00 class 0x010601
+Jul 23 14:14:48 ubuntu kernel: [    3.472118] pci 0000:74:03.0: reg 0x24: [mem 0xa2010000-0xa2010fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.472162] pci 0000:74:04.0: [19e5:a230] type 00 class 0x010700
+Jul 23 14:14:48 ubuntu kernel: [    3.472172] pci 0000:74:04.0: reg 0x24: [mem 0xa2000000-0xa2007fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.472272] pci 0000:75:00.0: [19e5:a255] type 00 class 0x100000
+Jul 23 14:14:48 ubuntu kernel: [    3.472281] pci 0000:75:00.0: reg 0x18: [mem 0x144000000-0x1443fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.472306] pci 0000:75:00.0: reg 0x22c: [mem 0x144400000-0x14440ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.472310] pci 0000:75:00.0: VF(n) BAR2 space: [mem 0x144400000-0x1447effff 64bit pref] (contains BAR2 for 63 VFs)
+Jul 23 14:14:48 ubuntu kernel: [    3.472405] pci_bus 0000:74: on NUMA node 0
+Jul 23 14:14:48 ubuntu kernel: [    3.472408] pci 0000:74:01.0: bridge window [mem 0x00400000-0x007fffff 64bit pref] to [bus 75] add_size 400000 add_align 400000
+Jul 23 14:14:48 ubuntu kernel: [    3.472415] pci 0000:74:01.0: BAR 15: assigned [mem 0x141000000-0x1417fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.472418] pci 0000:74:02.0: BAR 5: assigned [mem 0xa2000000-0xa2007fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.472422] pci 0000:74:04.0: BAR 5: assigned [mem 0xa2008000-0xa200ffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.472425] pci 0000:74:03.0: BAR 5: assigned [mem 0xa2010000-0xa2010fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.472429] pci 0000:75:00.0: BAR 2: assigned [mem 0x141000000-0x1413fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.472434] pci 0000:75:00.0: BAR 9: assigned [mem 0x141400000-0x1417effff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.472438] pci 0000:74:01.0: PCI bridge to [bus 75]
+Jul 23 14:14:48 ubuntu kernel: [    3.472442] pci 0000:74:01.0:   bridge window [mem 0x141000000-0x1417fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.472446] pci_bus 0000:74: resource 4 [mem 0x141000000-0x141ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.472450] pci_bus 0000:74: resource 5 [mem 0x144000000-0x145ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.472453] pci_bus 0000:74: resource 6 [mem 0xa2000000-0xa2ffffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.472456] pci_bus 0000:75: resource 2 [mem 0x141000000-0x1417fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.472517] ACPI: PCI Root Bridge [PCI6] (domain 0000 [bus 80-9f])
+Jul 23 14:14:48 ubuntu kernel: [    3.472522] acpi PNP0A08:06: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.472618] acpi PNP0A08:06: _OSC: platform does not support [SHPCHotplug LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.472707] acpi PNP0A08:06: _OSC: OS now controls [PCIeHotplug PME AER PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.473294] acpi PNP0A08:06: ECAM area [mem 0xd8000000-0xd9ffffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.473303] acpi PNP0A08:06: ECAM at [mem 0xd8000000-0xd9ffffff] for [bus 80-9f]
+Jul 23 14:14:48 ubuntu kernel: [    3.473331] Remapped I/O 0x00000000cfff0000 to [io  0x10000-0x1ffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.473392] PCI host bridge to bus 0000:80
+Jul 23 14:14:48 ubuntu kernel: [    3.473396] pci_bus 0000:80: root bus resource [mem 0x280000000000-0x282fffffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.473399] pci_bus 0000:80: root bus resource [mem 0xb0000000-0xcffeffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.473403] pci_bus 0000:80: root bus resource [io  0x10000-0x1ffff window] (bus address [0x0000-0xffff])
+Jul 23 14:14:48 ubuntu kernel: [    3.473407] pci_bus 0000:80: root bus resource [bus 80-9f]
+Jul 23 14:14:48 ubuntu kernel: [    3.473436] pci 0000:80:00.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.473507] pci 0000:80:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.473567] pci 0000:80:04.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.473633] pci 0000:80:04.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.473700] pci 0000:80:08.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.473762] pci 0000:80:08.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.473825] pci 0000:80:0c.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.473886] pci 0000:80:0c.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.473949] pci 0000:80:10.0: [19e5:a120] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.474014] pci 0000:80:10.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 23 14:14:48 ubuntu kernel: [    3.474219] pci_bus 0000:80: on NUMA node 2
+Jul 23 14:14:48 ubuntu kernel: [    3.474221] pci 0000:80:00.0: PCI bridge to [bus 81]
+Jul 23 14:14:48 ubuntu kernel: [    3.474226] pci 0000:80:04.0: PCI bridge to [bus 82]
+Jul 23 14:14:48 ubuntu kernel: [    3.474231] pci 0000:80:08.0: PCI bridge to [bus 83]
+Jul 23 14:14:48 ubuntu kernel: [    3.474236] pci 0000:80:0c.0: PCI bridge to [bus 84]
+Jul 23 14:14:48 ubuntu kernel: [    3.474240] pci 0000:80:10.0: PCI bridge to [bus 85]
+Jul 23 14:14:48 ubuntu kernel: [    3.474248] pci 0000:80:00.0: PCI bridge to [bus 81]
+Jul 23 14:14:48 ubuntu kernel: [    3.474253] pci 0000:80:04.0: PCI bridge to [bus 82]
+Jul 23 14:14:48 ubuntu kernel: [    3.474258] pci 0000:80:08.0: PCI bridge to [bus 83]
+Jul 23 14:14:48 ubuntu kernel: [    3.474263] pci 0000:80:0c.0: PCI bridge to [bus 84]
+Jul 23 14:14:48 ubuntu kernel: [    3.474268] pci 0000:80:10.0: PCI bridge to [bus 85]
+Jul 23 14:14:48 ubuntu kernel: [    3.474273] pci_bus 0000:80: resource 4 [mem 0x280000000000-0x282fffffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.474276] pci_bus 0000:80: resource 5 [mem 0xb0000000-0xcffeffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.474279] pci_bus 0000:80: resource 6 [io  0x10000-0x1ffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.474332] ACPI: PCI Root Bridge [PCI7] (domain 0000 [bus bb])
+Jul 23 14:14:48 ubuntu kernel: [    3.474336] acpi PNP0A08:07: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.474433] acpi PNP0A08:07: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME AER LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.474521] acpi PNP0A08:07: _OSC: OS now controls [PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.475106] acpi PNP0A08:07: ECAM area [mem 0xdbb00000-0xdbbfffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.475122] acpi PNP0A08:07: ECAM at [mem 0xdbb00000-0xdbbfffff] for [bus bb]
+Jul 23 14:14:48 ubuntu kernel: [    3.475191] PCI host bridge to bus 0000:bb
+Jul 23 14:14:48 ubuntu kernel: [    3.475195] pci_bus 0000:bb: root bus resource [mem 0x200148800000-0x200148ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.475198] pci_bus 0000:bb: root bus resource [bus bb]
+Jul 23 14:14:48 ubuntu kernel: [    3.475206] pci 0000:bb:00.0: [19e5:a122] type 00 class 0x088000
+Jul 23 14:14:48 ubuntu kernel: [    3.475216] pci 0000:bb:00.0: reg 0x18: [mem 0x00000000-0x00003fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.475279] pci_bus 0000:bb: on NUMA node 2
+Jul 23 14:14:48 ubuntu kernel: [    3.475282] pci 0000:bb:00.0: BAR 2: assigned [mem 0x200148800000-0x200148803fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.475288] pci_bus 0000:bb: resource 4 [mem 0x200148800000-0x200148ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.475336] ACPI: PCI Root Bridge [PCI8] (domain 0000 [bus ba])
+Jul 23 14:14:48 ubuntu kernel: [    3.475341] acpi PNP0A08:08: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.475436] acpi PNP0A08:08: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME AER LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.475524] acpi PNP0A08:08: _OSC: OS now controls [PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.476107] acpi PNP0A08:08: ECAM area [mem 0xdba00000-0xdbafffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.476123] acpi PNP0A08:08: ECAM at [mem 0xdba00000-0xdbafffff] for [bus ba]
+Jul 23 14:14:48 ubuntu kernel: [    3.476191] PCI host bridge to bus 0000:ba
+Jul 23 14:14:48 ubuntu kernel: [    3.476194] pci_bus 0000:ba: root bus resource [mem 0x20020c000000-0x20020c1fffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.476198] pci_bus 0000:ba: root bus resource [bus ba]
+Jul 23 14:14:48 ubuntu kernel: [    3.476205] pci 0000:ba:00.0: [19e5:a23b] type 00 class 0x0c0310
+Jul 23 14:14:48 ubuntu kernel: [    3.476213] pci 0000:ba:00.0: reg 0x10: [mem 0x20020c100000-0x20020c100fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.476269] pci 0000:ba:01.0: [19e5:a239] type 00 class 0x0c0320
+Jul 23 14:14:48 ubuntu kernel: [    3.476278] pci 0000:ba:01.0: reg 0x10: [mem 0x20020c101000-0x20020c101fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.476341] pci 0000:ba:02.0: [19e5:a238] type 00 class 0x0c0330
+Jul 23 14:14:48 ubuntu kernel: [    3.476349] pci 0000:ba:02.0: reg 0x10: [mem 0x20020c000000-0x20020c0fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.476409] pci_bus 0000:ba: on NUMA node 2
+Jul 23 14:14:48 ubuntu kernel: [    3.476412] pci 0000:ba:02.0: BAR 0: assigned [mem 0x20020c000000-0x20020c0fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.476418] pci 0000:ba:00.0: BAR 0: assigned [mem 0x20020c100000-0x20020c100fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.476424] pci 0000:ba:01.0: BAR 0: assigned [mem 0x20020c101000-0x20020c101fff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.476429] pci_bus 0000:ba: resource 4 [mem 0x20020c000000-0x20020c1fffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.476481] ACPI: PCI Root Bridge [PCI9] (domain 0000 [bus b8-b9])
+Jul 23 14:14:48 ubuntu kernel: [    3.476485] acpi PNP0A08:09: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.476580] acpi PNP0A08:09: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME AER LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.476668] acpi PNP0A08:09: _OSC: OS now controls [PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.477253] acpi PNP0A08:09: ECAM area [mem 0xdb800000-0xdb9fffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.477260] acpi PNP0A08:09: ECAM at [mem 0xdb800000-0xdb9fffff] for [bus b8-b9]
+Jul 23 14:14:48 ubuntu kernel: [    3.477350] PCI host bridge to bus 0000:b8
+Jul 23 14:14:48 ubuntu kernel: [    3.477353] pci_bus 0000:b8: root bus resource [mem 0x200208000000-0x200208bfffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.477356] pci_bus 0000:b8: root bus resource [bus b8-b9]
+Jul 23 14:14:48 ubuntu kernel: [    3.477371] pci_bus 0000:b8: on NUMA node 2
+Jul 23 14:14:48 ubuntu kernel: [    3.477373] pci_bus 0000:b8: resource 4 [mem 0x200208000000-0x200208bfffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.477424] ACPI: PCI Root Bridge [PCIA] (domain 0000 [bus bc-bd])
+Jul 23 14:14:48 ubuntu kernel: [    3.477428] acpi PNP0A08:0a: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.477522] acpi PNP0A08:0a: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME AER LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.477610] acpi PNP0A08:0a: _OSC: OS now controls [PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.478188] acpi PNP0A08:0a: ECAM area [mem 0xdbc00000-0xdbdfffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.478195] acpi PNP0A08:0a: ECAM at [mem 0xdbc00000-0xdbdfffff] for [bus bc-bd]
+Jul 23 14:14:48 ubuntu kernel: [    3.478262] PCI host bridge to bus 0000:bc
+Jul 23 14:14:48 ubuntu kernel: [    3.478266] pci_bus 0000:bc: root bus resource [mem 0x200120000000-0x20013fffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.478269] pci_bus 0000:bc: root bus resource [bus bc-bd]
+Jul 23 14:14:48 ubuntu kernel: [    3.478277] pci 0000:bc:00.0: [19e5:a121] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.478290] pci 0000:bc:00.0: enabling Extended Tags
+Jul 23 14:14:48 ubuntu kernel: [    3.478372] pci_bus 0000:bc: on NUMA node 2
+Jul 23 14:14:48 ubuntu kernel: [    3.478375] pci 0000:bc:00.0: PCI bridge to [bus bd]
+Jul 23 14:14:48 ubuntu kernel: [    3.478380] pci_bus 0000:bc: resource 4 [mem 0x200120000000-0x20013fffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.478433] ACPI: PCI Root Bridge [PCIB] (domain 0000 [bus b4-b6])
+Jul 23 14:14:48 ubuntu kernel: [    3.478438] acpi PNP0A08:0b: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 23 14:14:48 ubuntu kernel: [    3.478533] acpi PNP0A08:0b: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME AER LTR]
+Jul 23 14:14:48 ubuntu kernel: [    3.478621] acpi PNP0A08:0b: _OSC: OS now controls [PCIeCapability]
+Jul 23 14:14:48 ubuntu kernel: [    3.479201] acpi PNP0A08:0b: ECAM area [mem 0xdb400000-0xdb6fffff] reserved by PNP0C02:00
+Jul 23 14:14:48 ubuntu kernel: [    3.479217] acpi PNP0A08:0b: ECAM at [mem 0xdb400000-0xdb6fffff] for [bus b4-b6]
+Jul 23 14:14:48 ubuntu kernel: [    3.479316] PCI host bridge to bus 0000:b4
+Jul 23 14:14:48 ubuntu kernel: [    3.479320] pci_bus 0000:b4: root bus resource [mem 0x200141000000-0x200141ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.479323] pci_bus 0000:b4: root bus resource [mem 0x200144000000-0x200145ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.479326] pci_bus 0000:b4: root bus resource [mem 0xa3000000-0xa3ffffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.479329] pci_bus 0000:b4: root bus resource [bus b4-b6]
+Jul 23 14:14:48 ubuntu kernel: [    3.479337] pci 0000:b4:01.0: [19e5:a121] type 01 class 0x060400
+Jul 23 14:14:48 ubuntu kernel: [    3.479350] pci 0000:b4:01.0: enabling Extended Tags
+Jul 23 14:14:48 ubuntu kernel: [    3.479426] pci 0000:b4:02.0: [19e5:a230] type 00 class 0x010700
+Jul 23 14:14:48 ubuntu kernel: [    3.479438] pci 0000:b4:02.0: reg 0x24: [mem 0xa3008000-0xa300ffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.479521] pci 0000:b4:03.0: [19e5:a235] type 00 class 0x010601
+Jul 23 14:14:48 ubuntu kernel: [    3.479537] pci 0000:b4:03.0: reg 0x24: [mem 0xa3010000-0xa3010fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.479593] pci 0000:b4:04.0: [19e5:a230] type 00 class 0x010700
+Jul 23 14:14:48 ubuntu kernel: [    3.479605] pci 0000:b4:04.0: reg 0x24: [mem 0xa3000000-0xa3007fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.479724] pci 0000:b5:00.0: [19e5:a255] type 00 class 0x100000
+Jul 23 14:14:48 ubuntu kernel: [    3.479734] pci 0000:b5:00.0: reg 0x18: [mem 0x200144000000-0x2001443fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.479767] pci 0000:b5:00.0: reg 0x22c: [mem 0x200144400000-0x20014440ffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.479770] pci 0000:b5:00.0: VF(n) BAR2 space: [mem 0x200144400000-0x2001447effff 64bit pref] (contains BAR2 for 63 VFs)
+Jul 23 14:14:48 ubuntu kernel: [    3.479889] pci_bus 0000:b4: on NUMA node 2
+Jul 23 14:14:48 ubuntu kernel: [    3.479893] pci 0000:b4:01.0: bridge window [mem 0x00400000-0x007fffff 64bit pref] to [bus b5] add_size 400000 add_align 400000
+Jul 23 14:14:48 ubuntu kernel: [    3.479899] pci 0000:b4:01.0: BAR 15: assigned [mem 0x200141000000-0x2001417fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.479903] pci 0000:b4:02.0: BAR 5: assigned [mem 0xa3000000-0xa3007fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.479906] pci 0000:b4:04.0: BAR 5: assigned [mem 0xa3008000-0xa300ffff]
+Jul 23 14:14:48 ubuntu kernel: [    3.479909] pci 0000:b4:03.0: BAR 5: assigned [mem 0xa3010000-0xa3010fff]
+Jul 23 14:14:48 ubuntu kernel: [    3.479914] pci 0000:b5:00.0: BAR 2: assigned [mem 0x200141000000-0x2001413fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.479919] pci 0000:b5:00.0: BAR 9: assigned [mem 0x200141400000-0x2001417effff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.479923] pci 0000:b4:01.0: PCI bridge to [bus b5]
+Jul 23 14:14:48 ubuntu kernel: [    3.479927] pci 0000:b4:01.0:   bridge window [mem 0x200141000000-0x2001417fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.479932] pci_bus 0000:b4: resource 4 [mem 0x200141000000-0x200141ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.479935] pci_bus 0000:b4: resource 5 [mem 0x200144000000-0x200145ffffff pref window]
+Jul 23 14:14:48 ubuntu kernel: [    3.479938] pci_bus 0000:b4: resource 6 [mem 0xa3000000-0xa3ffffff window]
+Jul 23 14:14:48 ubuntu kernel: [    3.479941] pci_bus 0000:b5: resource 2 [mem 0x200141000000-0x2001417fffff 64bit pref]
+Jul 23 14:14:48 ubuntu kernel: [    3.486882] iommu: Default domain type: Translated 
+Jul 23 14:14:48 ubuntu kernel: [    3.487023] pci 0000:06:00.0: vgaarb: VGA device added: decodes=io+mem,owns=none,locks=none
+Jul 23 14:14:48 ubuntu kernel: [    3.487053] pci 0000:06:00.0: vgaarb: bridge control possible
+Jul 23 14:14:48 ubuntu kernel: [    3.487057] pci 0000:06:00.0: vgaarb: setting as boot device (VGA legacy resources not available)
+Jul 23 14:14:48 ubuntu kernel: [    3.487060] vgaarb: loaded
+Jul 23 14:14:48 ubuntu kernel: [    3.487653] SCSI subsystem initialized
+Jul 23 14:14:48 ubuntu kernel: [    3.487898] libata version 3.00 loaded.
+Jul 23 14:14:48 ubuntu kernel: [    3.487920] ACPI: bus type USB registered
+Jul 23 14:14:48 ubuntu kernel: [    3.487944] usbcore: registered new interface driver usbfs
+Jul 23 14:14:48 ubuntu kernel: [    3.487952] usbcore: registered new interface driver hub
+Jul 23 14:14:48 ubuntu kernel: [    3.488253] usbcore: registered new device driver usb
+Jul 23 14:14:48 ubuntu kernel: [    3.491442] pps_core: LinuxPPS API ver. 1 registered
+Jul 23 14:14:48 ubuntu kernel: [    3.491445] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jul 23 14:14:48 ubuntu kernel: [    3.491451] PTP clock support registered
+Jul 23 14:14:48 ubuntu kernel: [    3.491840] EDAC MC: Ver: 3.0.0
+Jul 23 14:14:48 ubuntu kernel: [    3.492213] Registered efivars operations
+Jul 23 14:14:48 ubuntu kernel: [    3.492716] ACPI: SPE must be homogeneous
+Jul 23 14:14:48 ubuntu kernel: [    3.494067] NetLabel: Initializing
+Jul 23 14:14:48 ubuntu kernel: [    3.494072] NetLabel:  domain hash size = 128
+Jul 23 14:14:48 ubuntu kernel: [    3.494073] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jul 23 14:14:48 ubuntu kernel: [    3.494090] NetLabel:  unlabeled traffic allowed by default
+Jul 23 14:14:48 ubuntu kernel: [    3.494439] sdei: SDEIv1.0 (0x0) detected in firmware.
+Jul 23 14:14:48 ubuntu kernel: [    3.497037] clocksource: Switched to clocksource arch_sys_counter
+Jul 23 14:14:48 ubuntu kernel: [    3.514769] VFS: Disk quotas dquot_6.6.0
+Jul 23 14:14:48 ubuntu kernel: [    3.514804] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jul 23 14:14:48 ubuntu kernel: [    3.515036] AppArmor: AppArmor Filesystem Enabled
+Jul 23 14:14:48 ubuntu kernel: [    3.515197] pnp: PnP ACPI init
+Jul 23 14:14:48 ubuntu kernel: [    3.515858] system 00:00: [mem 0xd0000000-0xdfffffff] could not be reserved
+Jul 23 14:14:48 ubuntu kernel: [    3.515867] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 23 14:14:48 ubuntu kernel: [    3.516153] pnp 00:01: Plug and Play ACPI device, IDs PNP0501 (active)
+Jul 23 14:14:48 ubuntu kernel: [    3.516595] pnp: PnP ACPI: found 2 devices
+Jul 23 14:14:48 ubuntu kernel: [    3.518467] NET: Registered protocol family 2
+Jul 23 14:14:48 ubuntu kernel: [    3.519349] tcp_listen_portaddr_hash hash table entries: 65536 (order: 8, 1048576 bytes, vmalloc)
+Jul 23 14:14:48 ubuntu kernel: [    3.520348] TCP established hash table entries: 524288 (order: 10, 4194304 bytes, vmalloc)
+Jul 23 14:14:48 ubuntu kernel: [    3.521192] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, vmalloc)
+Jul 23 14:14:48 ubuntu kernel: [    3.521314] TCP: Hash tables configured (established 524288 bind 65536)
+Jul 23 14:14:48 ubuntu kernel: [    3.522001] UDP hash table entries: 65536 (order: 9, 2097152 bytes, vmalloc)
+Jul 23 14:14:48 ubuntu kernel: [    3.522655] UDP-Lite hash table entries: 65536 (order: 9, 2097152 bytes, vmalloc)
+Jul 23 14:14:48 ubuntu kernel: [    3.523173] NET: Registered protocol family 1
+Jul 23 14:14:48 ubuntu kernel: [    3.523183] NET: Registered protocol family 44
+Jul 23 14:14:48 ubuntu kernel: [    3.523214] pci 0000:7a:00.0: enabling device (0000 -> 0002)
+Jul 23 14:14:48 ubuntu kernel: [    3.523233] pci 0000:7a:02.0: enabling device (0000 -> 0002)
+Jul 23 14:14:48 ubuntu kernel: [    3.523273] pci 0000:ba:00.0: enabling device (0000 -> 0002)
+Jul 23 14:14:48 ubuntu kernel: [    3.523288] pci 0000:ba:02.0: enabling device (0000 -> 0002)
+Jul 23 14:14:48 ubuntu kernel: [    3.523315] PCI: CLS 32 bytes, default 64
+Jul 23 14:14:48 ubuntu kernel: [    3.523364] Trying to unpack rootfs image as initramfs...
+Jul 23 14:14:48 ubuntu kernel: [    4.451425] Freeing initrd memory: 65048K
+Jul 23 14:14:48 ubuntu kernel: [    4.455409] hw perfevents: enabled with armv8_pmuv3_0 PMU driver, 13 counters available
+Jul 23 14:14:48 ubuntu kernel: [    4.455639] kvm [1]: IPA Size Limit: 48bits
+Jul 23 14:14:48 ubuntu kernel: [    4.455679] kvm [1]: GICv4 support disabled
+Jul 23 14:14:48 ubuntu kernel: [    4.455681] kvm [1]: vgic-v2@9b020000
+Jul 23 14:14:48 ubuntu kernel: [    4.455700] kvm [1]: GIC system register CPU interface enabled
+Jul 23 14:14:48 ubuntu kernel: [    4.456528] kvm [1]: vgic interrupt IRQ1
+Jul 23 14:14:48 ubuntu kernel: [    4.457421] kvm [1]: VHE mode initialized successfully
+Jul 23 14:14:48 ubuntu kernel: [    4.459581] Initialise system trusted keyrings
+Jul 23 14:14:48 ubuntu kernel: [    4.459594] Key type blacklist registered
+Jul 23 14:14:48 ubuntu kernel: [    4.459745] workingset: timestamp_bits=40 max_order=25 bucket_order=0
+Jul 23 14:14:48 ubuntu kernel: [    4.461071] zbud: loaded
+Jul 23 14:14:48 ubuntu kernel: [    4.461547] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jul 23 14:14:48 ubuntu kernel: [    4.461759] fuse: init (API version 7.31)
+Jul 23 14:14:48 ubuntu kernel: [    4.461943] integrity: Platform Keyring initialized
+Jul 23 14:14:48 ubuntu kernel: [    4.467678] Key type asymmetric registered
+Jul 23 14:14:48 ubuntu kernel: [    4.467682] Asymmetric key parser 'x509' registered
+Jul 23 14:14:48 ubuntu kernel: [    4.467696] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
+Jul 23 14:14:48 ubuntu kernel: [    4.467964] io scheduler mq-deadline registered
+Jul 23 14:14:48 ubuntu kernel: [    4.474344] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jul 23 14:14:48 ubuntu kernel: [    4.475465] efifb: probing for efifb
+Jul 23 14:14:48 ubuntu kernel: [    4.475497] efifb: No BGRT, not showing boot graphics
+Jul 23 14:14:48 ubuntu kernel: [    4.475500] efifb: framebuffer at 0xe4000000, using 1200k, total 1200k
+Jul 23 14:14:48 ubuntu kernel: [    4.475502] efifb: mode is 640x480x32, linelength=2560, pages=1
+Jul 23 14:14:48 ubuntu kernel: [    4.475504] efifb: scrolling: redraw
+Jul 23 14:14:48 ubuntu kernel: [    4.475506] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Jul 23 14:14:48 ubuntu kernel: [    4.475622] Console: switching to colour frame buffer device 80x30
+Jul 23 14:14:48 ubuntu kernel: [    4.485276] fb0: EFI VGA frame buffer device
+Jul 23 14:14:48 ubuntu kernel: [    4.486226] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+Jul 23 14:14:48 ubuntu kernel: [    4.486599] ACPI: Power Button [PWRB]
+Jul 23 14:14:48 ubuntu kernel: [    4.490347] [Firmware Bug]: APEI: Invalid physical address in GAR [0x0/64/0/4/0]
+Jul 23 14:14:48 ubuntu kernel: [    4.502758] EDAC MC0: Giving out device to module ghes_edac.c controller ghes_edac: DEV ghes (INTERRUPT)
+Jul 23 14:14:48 ubuntu kernel: [    4.515918] GHES: APEI firmware first mode is enabled by APEI bit and WHEA _OSC.
+Jul 23 14:14:48 ubuntu kernel: [    4.529361] ACPI GTDT: found 1 SBSA generic Watchdog(s).
+Jul 23 14:14:48 ubuntu kernel: [    4.540256] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Jul 23 14:14:48 ubuntu kernel: [    4.547270] 00:01: ttyS0 at MMIO 0x3f00002f8 (irq = 15, base_baud = 115200) is a 16550A
+Jul 23 14:14:48 ubuntu kernel: [    4.564050] msm_serial: driver initialized
+Jul 23 14:14:48 ubuntu kernel: [    4.571308] arm-smmu-v3 arm-smmu-v3.0.auto: option mask 0x0
+Jul 23 14:14:48 ubuntu kernel: [    4.578237] arm-smmu-v3 arm-smmu-v3.0.auto: ias 48-bit, oas 48-bit (features 0x00001fff)
+Jul 23 14:14:48 ubuntu kernel: [    4.592155] arm-smmu-v3 arm-smmu-v3.0.auto: allocated 65536 entries for cmdq
+Jul 23 14:14:48 ubuntu kernel: [    4.599392] arm-smmu-v3 arm-smmu-v3.0.auto: allocated 32768 entries for evtq
+Jul 23 14:14:48 ubuntu kernel: [    4.606366] arm-smmu-v3 arm-smmu-v3.0.auto: allocated 65536 entries for priq
+Jul 23 14:14:48 ubuntu kernel: [    4.613466] arm-smmu-v3 arm-smmu-v3.1.auto: option mask 0x0
+Jul 23 14:14:48 ubuntu kernel: [    4.620090] arm-smmu-v3 arm-smmu-v3.1.auto: ias 48-bit, oas 48-bit (features 0x00001fff)
+Jul 23 14:14:48 ubuntu kernel: [    4.633406] arm-smmu-v3 arm-smmu-v3.1.auto: allocated 65536 entries for cmdq
+Jul 23 14:14:48 ubuntu kernel: [    4.640286] arm-smmu-v3 arm-smmu-v3.1.auto: allocated 32768 entries for evtq
+Jul 23 14:14:48 ubuntu kernel: [    4.647172] arm-smmu-v3 arm-smmu-v3.1.auto: allocated 65536 entries for priq
+Jul 23 14:14:48 ubuntu kernel: [    4.653874] arm-smmu-v3 arm-smmu-v3.2.auto: option mask 0x0
+Jul 23 14:14:48 ubuntu kernel: [    4.660350] arm-smmu-v3 arm-smmu-v3.2.auto: ias 48-bit, oas 48-bit (features 0x00001fff)
+Jul 23 14:14:48 ubuntu kernel: [    4.673185] arm-smmu-v3 arm-smmu-v3.2.auto: allocated 65536 entries for cmdq
+Jul 23 14:14:48 ubuntu kernel: [    4.679944] arm-smmu-v3 arm-smmu-v3.2.auto: allocated 32768 entries for evtq
+Jul 23 14:14:48 ubuntu kernel: [    4.686308] arm-smmu-v3 arm-smmu-v3.2.auto: allocated 65536 entries for priq
+Jul 23 14:14:48 ubuntu kernel: [    4.692730] arm-smmu-v3 arm-smmu-v3.3.auto: option mask 0x0
+Jul 23 14:14:48 ubuntu kernel: [    4.698763] arm-smmu-v3 arm-smmu-v3.3.auto: ias 48-bit, oas 48-bit (features 0x00001fff)
+Jul 23 14:14:48 ubuntu kernel: [    4.710561] arm-smmu-v3 arm-smmu-v3.3.auto: allocated 65536 entries for cmdq
+Jul 23 14:14:48 ubuntu kernel: [    4.716603] arm-smmu-v3 arm-smmu-v3.3.auto: allocated 32768 entries for evtq
+Jul 23 14:14:48 ubuntu kernel: [    4.722530] arm-smmu-v3 arm-smmu-v3.3.auto: allocated 65536 entries for priq
+Jul 23 14:14:48 ubuntu kernel: [    4.728287] arm-smmu-v3 arm-smmu-v3.4.auto: option mask 0x0
+Jul 23 14:14:48 ubuntu kernel: [    4.733687] arm-smmu-v3 arm-smmu-v3.4.auto: ias 48-bit, oas 48-bit (features 0x00001fff)
+Jul 23 14:14:48 ubuntu kernel: [    4.744326] arm-smmu-v3 arm-smmu-v3.4.auto: allocated 65536 entries for cmdq
+Jul 23 14:14:48 ubuntu kernel: [    4.749840] arm-smmu-v3 arm-smmu-v3.4.auto: allocated 32768 entries for evtq
+Jul 23 14:14:48 ubuntu kernel: [    4.755216] arm-smmu-v3 arm-smmu-v3.4.auto: allocated 65536 entries for priq
+Jul 23 14:14:48 ubuntu kernel: [    4.760612] arm-smmu-v3 arm-smmu-v3.5.auto: option mask 0x0
+Jul 23 14:14:48 ubuntu kernel: [    4.765712] arm-smmu-v3 arm-smmu-v3.5.auto: ias 48-bit, oas 48-bit (features 0x00001fff)
+Jul 23 14:14:48 ubuntu kernel: [    4.775700] arm-smmu-v3 arm-smmu-v3.5.auto: allocated 65536 entries for cmdq
+Jul 23 14:14:48 ubuntu kernel: [    4.781012] arm-smmu-v3 arm-smmu-v3.5.auto: allocated 32768 entries for evtq
+Jul 23 14:14:48 ubuntu kernel: [    4.786358] arm-smmu-v3 arm-smmu-v3.5.auto: allocated 65536 entries for priq
+Jul 23 14:14:48 ubuntu kernel: [    4.791755] arm-smmu-v3 arm-smmu-v3.6.auto: option mask 0x0
+Jul 23 14:14:48 ubuntu kernel: [    4.796851] arm-smmu-v3 arm-smmu-v3.6.auto: ias 48-bit, oas 48-bit (features 0x00001fff)
+Jul 23 14:14:48 ubuntu kernel: [    4.806707] arm-smmu-v3 arm-smmu-v3.6.auto: allocated 65536 entries for cmdq
+Jul 23 14:14:48 ubuntu kernel: [    4.812253] arm-smmu-v3 arm-smmu-v3.6.auto: allocated 32768 entries for evtq
+Jul 23 14:14:48 ubuntu kernel: [    4.817557] arm-smmu-v3 arm-smmu-v3.6.auto: allocated 65536 entries for priq
+Jul 23 14:14:48 ubuntu kernel: [    4.822949] arm-smmu-v3 arm-smmu-v3.7.auto: option mask 0x0
+Jul 23 14:14:48 ubuntu kernel: [    4.828055] arm-smmu-v3 arm-smmu-v3.7.auto: ias 48-bit, oas 48-bit (features 0x00001fff)
+Jul 23 14:14:48 ubuntu kernel: [    4.837950] arm-smmu-v3 arm-smmu-v3.7.auto: allocated 65536 entries for cmdq
+Jul 23 14:14:48 ubuntu kernel: [    4.843267] arm-smmu-v3 arm-smmu-v3.7.auto: allocated 32768 entries for evtq
+Jul 23 14:14:48 ubuntu kernel: [    4.848705] arm-smmu-v3 arm-smmu-v3.7.auto: allocated 65536 entries for priq
+Jul 23 14:14:48 ubuntu kernel: [    4.873488] loop: module loaded
+Jul 23 14:14:48 ubuntu kernel: [    4.879637] libphy: Fixed MDIO Bus: probed
+Jul 23 14:14:48 ubuntu kernel: [    4.884619] tun: Universal TUN/TAP device driver, 1.6
+Jul 23 14:14:48 ubuntu kernel: [    4.890032] PPP generic driver version 2.4.2
+Jul 23 14:14:48 ubuntu kernel: [    4.895108] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul 23 14:14:48 ubuntu kernel: [    4.900381] ehci-pci: EHCI PCI platform driver
+Jul 23 14:14:48 ubuntu kernel: [    4.905819] ehci-pci 0000:7a:01.0: Adding to iommu group 0
+Jul 23 14:14:48 ubuntu kernel: [    4.911971] ehci-pci 0000:7a:01.0: EHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    4.917124] ehci-pci 0000:7a:01.0: new USB bus registered, assigned bus number 1
+Jul 23 14:14:48 ubuntu kernel: [    4.927351] ehci-pci 0000:7a:01.0: irq 43, io mem 0x20c101000
+Jul 23 14:14:48 ubuntu kernel: [    4.944977] ehci-pci 0000:7a:01.0: USB 0.0 started, EHCI 1.00
+Jul 23 14:14:48 ubuntu kernel: [    4.950418] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.07
+Jul 23 14:14:48 ubuntu kernel: [    4.961365] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 23 14:14:48 ubuntu kernel: [    4.972508] usb usb1: Product: EHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    4.978506] usb usb1: Manufacturer: Linux 5.7.1 ehci_hcd
+Jul 23 14:14:48 ubuntu kernel: [    4.984393] usb usb1: SerialNumber: 0000:7a:01.0
+Jul 23 14:14:48 ubuntu kernel: [    4.990384] hub 1-0:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    4.996049] hub 1-0:1.0: 2 ports detected
+Jul 23 14:14:48 ubuntu kernel: [    5.001764] ehci-pci 0000:ba:01.0: Adding to iommu group 1
+Jul 23 14:14:48 ubuntu kernel: [    5.008100] ehci-pci 0000:ba:01.0: EHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    5.013927] ehci-pci 0000:ba:01.0: new USB bus registered, assigned bus number 2
+Jul 23 14:14:48 ubuntu kernel: [    5.025491] ehci-pci 0000:ba:01.0: irq 43, io mem 0x20020c101000
+Jul 23 14:14:48 ubuntu kernel: [    5.044990] ehci-pci 0000:ba:01.0: USB 0.0 started, EHCI 1.00
+Jul 23 14:14:48 ubuntu kernel: [    5.050746] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.07
+Jul 23 14:14:48 ubuntu kernel: [    5.062632] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 23 14:14:48 ubuntu kernel: [    5.074943] usb usb2: Product: EHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    5.081315] usb usb2: Manufacturer: Linux 5.7.1 ehci_hcd
+Jul 23 14:14:48 ubuntu kernel: [    5.087607] usb usb2: SerialNumber: 0000:ba:01.0
+Jul 23 14:14:48 ubuntu kernel: [    5.093923] hub 2-0:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    5.099965] hub 2-0:1.0: 2 ports detected
+Jul 23 14:14:48 ubuntu kernel: [    5.106074] ehci-orion: EHCI orion driver
+Jul 23 14:14:48 ubuntu kernel: [    5.112168] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jul 23 14:14:48 ubuntu kernel: [    5.118411] ohci-pci: OHCI PCI platform driver
+Jul 23 14:14:48 ubuntu kernel: [    5.124475] ohci-pci 0000:7a:00.0: Adding to iommu group 2
+Jul 23 14:14:48 ubuntu kernel: [    5.131014] ohci-pci 0000:7a:00.0: OHCI PCI host controller
+Jul 23 14:14:48 ubuntu kernel: [    5.137004] ohci-pci 0000:7a:00.0: new USB bus registered, assigned bus number 3
+Jul 23 14:14:48 ubuntu kernel: [    5.148780] ohci-pci 0000:7a:00.0: irq 43, io mem 0x20c100000
+Jul 23 14:14:48 ubuntu kernel: [    5.217027] usb usb3: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.07
+Jul 23 14:14:48 ubuntu kernel: [    5.228632] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 23 14:14:48 ubuntu kernel: [    5.240740] usb usb3: Product: OHCI PCI host controller
+Jul 23 14:14:48 ubuntu kernel: [    5.246974] usb usb3: Manufacturer: Linux 5.7.1 ohci_hcd
+Jul 23 14:14:48 ubuntu kernel: [    5.253286] usb usb3: SerialNumber: 0000:7a:00.0
+Jul 23 14:14:48 ubuntu kernel: [    5.259617] hub 3-0:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    5.265819] hub 3-0:1.0: 2 ports detected
+Jul 23 14:14:48 ubuntu kernel: [    5.272157] ohci-pci 0000:ba:00.0: Adding to iommu group 3
+Jul 23 14:14:48 ubuntu kernel: [    5.278863] ohci-pci 0000:ba:00.0: OHCI PCI host controller
+Jul 23 14:14:48 ubuntu kernel: [    5.284868] ohci-pci 0000:ba:00.0: new USB bus registered, assigned bus number 4
+Jul 23 14:14:48 ubuntu kernel: [    5.296857] ohci-pci 0000:ba:00.0: irq 43, io mem 0x20020c100000
+Jul 23 14:14:48 ubuntu kernel: [    5.336979] usb 1-1: new high-speed USB device number 2 using ehci-pci
+Jul 23 14:14:48 ubuntu kernel: [    5.365029] usb usb4: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.07
+Jul 23 14:14:48 ubuntu kernel: [    5.376887] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 23 14:14:48 ubuntu kernel: [    5.389305] usb usb4: Product: OHCI PCI host controller
+Jul 23 14:14:48 ubuntu kernel: [    5.395646] usb usb4: Manufacturer: Linux 5.7.1 ohci_hcd
+Jul 23 14:14:48 ubuntu kernel: [    5.402068] usb usb4: SerialNumber: 0000:ba:00.0
+Jul 23 14:14:48 ubuntu kernel: [    5.408643] hub 4-0:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    5.414923] hub 4-0:1.0: 2 ports detected
+Jul 23 14:14:48 ubuntu kernel: [    5.421248] uhci_hcd: USB Universal Host Controller Interface driver
+Jul 23 14:14:48 ubuntu kernel: [    5.427674] xhci_hcd 0000:7a:02.0: Adding to iommu group 4
+Jul 23 14:14:48 ubuntu kernel: [    5.434687] xhci_hcd 0000:7a:02.0: xHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    5.441008] xhci_hcd 0000:7a:02.0: new USB bus registered, assigned bus number 5
+Jul 23 14:14:48 ubuntu kernel: [    5.453458] xhci_hcd 0000:7a:02.0: hcc params 0x0220f66d hci version 0x100 quirks 0x0000000000000010
+Jul 23 14:14:48 ubuntu kernel: [    5.466110] usb usb5: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.07
+Jul 23 14:14:48 ubuntu kernel: [    5.478598] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 23 14:14:48 ubuntu kernel: [    5.491474] usb usb5: Product: xHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    5.498017] usb usb5: Manufacturer: Linux 5.7.1 xhci-hcd
+Jul 23 14:14:48 ubuntu kernel: [    5.504584] usb usb5: SerialNumber: 0000:7a:02.0
+Jul 23 14:14:48 ubuntu kernel: [    5.511301] hub 5-0:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    5.517798] hub 5-0:1.0: 1 port detected
+Jul 23 14:14:48 ubuntu kernel: [    5.524399] xhci_hcd 0000:7a:02.0: xHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    5.530943] xhci_hcd 0000:7a:02.0: new USB bus registered, assigned bus number 6
+Jul 23 14:14:48 ubuntu kernel: [    5.543791] xhci_hcd 0000:7a:02.0: Host supports USB 3.0 SuperSpeed
+Jul 23 14:14:48 ubuntu kernel: [    5.550358] usb usb6: We don't know the algorithms for LPM for this host, disabling LPM.
+Jul 23 14:14:48 ubuntu kernel: [    5.563289] usb usb6: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.07
+Jul 23 14:14:48 ubuntu kernel: [    5.576226] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 23 14:14:48 ubuntu kernel: [    5.589529] usb usb6: Product: xHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    5.596305] usb usb6: Manufacturer: Linux 5.7.1 xhci-hcd
+Jul 23 14:14:48 ubuntu kernel: [    5.596308] usb 1-1: New USB device found, idVendor=0bda, idProduct=5411, bcdDevice= 1.01
+Jul 23 14:14:48 ubuntu kernel: [    5.603075] usb usb6: SerialNumber: 0000:7a:02.0
+Jul 23 14:14:48 ubuntu kernel: [    5.603169] hub 6-0:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    5.616973] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Jul 23 14:14:48 ubuntu kernel: [    5.616974] usb 1-1: Product: 4-Port USB 2.1 Hub
+Jul 23 14:14:48 ubuntu kernel: [    5.616976] usb 1-1: Manufacturer: Generic
+Jul 23 14:14:48 ubuntu kernel: [    5.623912] hub 6-0:1.0: 1 port detected
+Jul 23 14:14:48 ubuntu kernel: [    5.638053] hub 1-1:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    5.645149] xhci_hcd 0000:ba:02.0: Adding to iommu group 5
+Jul 23 14:14:48 ubuntu kernel: [    5.652778] hub 1-1:1.0: 4 ports detected
+Jul 23 14:14:48 ubuntu kernel: [    5.659062] xhci_hcd 0000:ba:02.0: xHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    5.683715] xhci_hcd 0000:ba:02.0: new USB bus registered, assigned bus number 7
+Jul 23 14:14:48 ubuntu kernel: [    5.696172] xhci_hcd 0000:ba:02.0: hcc params 0x0220f66d hci version 0x100 quirks 0x0000000000000010
+Jul 23 14:14:48 ubuntu kernel: [    5.709292] usb usb7: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.07
+Jul 23 14:14:48 ubuntu kernel: [    5.722835] usb usb7: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 23 14:14:48 ubuntu kernel: [    5.736676] usb usb7: Product: xHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    5.743593] usb usb7: Manufacturer: Linux 5.7.1 xhci-hcd
+Jul 23 14:14:48 ubuntu kernel: [    5.750415] usb usb7: SerialNumber: 0000:ba:02.0
+Jul 23 14:14:48 ubuntu kernel: [    5.757296] hub 7-0:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    5.763763] hub 7-0:1.0: 1 port detected
+Jul 23 14:14:48 ubuntu kernel: [    5.770160] xhci_hcd 0000:ba:02.0: xHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    5.776380] xhci_hcd 0000:ba:02.0: new USB bus registered, assigned bus number 8
+Jul 23 14:14:48 ubuntu kernel: [    5.788642] xhci_hcd 0000:ba:02.0: Host supports USB 3.0 SuperSpeed
+Jul 23 14:14:48 ubuntu kernel: [    5.795034] usb usb8: We don't know the algorithms for LPM for this host, disabling LPM.
+Jul 23 14:14:48 ubuntu kernel: [    5.807665] usb usb8: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.07
+Jul 23 14:14:48 ubuntu kernel: [    5.820571] usb usb8: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 23 14:14:48 ubuntu kernel: [    5.833775] usb usb8: Product: xHCI Host Controller
+Jul 23 14:14:48 ubuntu kernel: [    5.840520] usb usb8: Manufacturer: Linux 5.7.1 xhci-hcd
+Jul 23 14:14:48 ubuntu kernel: [    5.847327] usb usb8: SerialNumber: 0000:ba:02.0
+Jul 23 14:14:48 ubuntu kernel: [    5.854407] hub 8-0:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    5.861112] hub 8-0:1.0: 1 port detected
+Jul 23 14:14:48 ubuntu kernel: [    5.864975] usb 5-1: new high-speed USB device number 2 using xhci_hcd
+Jul 23 14:14:48 ubuntu kernel: [    5.867914] mousedev: PS/2 mouse device common for all mice
+Jul 23 14:14:48 ubuntu kernel: [    5.898062] rtc-efi rtc-efi.0: registered as rtc0
+Jul 23 14:14:48 ubuntu kernel: [    5.912998] rtc-efi rtc-efi.0: setting system clock to 2021-07-23T06:14:11 UTC (1627020851)
+Jul 23 14:14:48 ubuntu kernel: [    5.926377] i2c /dev entries driver
+Jul 23 14:14:48 ubuntu kernel: [    5.933553] device-mapper: uevent: version 1.0.3
+Jul 23 14:14:48 ubuntu kernel: [    5.939919] device-mapper: ioctl: 4.42.0-ioctl (2020-02-27) initialised: dm-devel@redhat.com
+Jul 23 14:14:48 ubuntu kernel: [    5.952973] usb 1-1.1: new full-speed USB device number 3 using ehci-pci
+Jul 23 14:14:48 ubuntu kernel: [    5.953864] ledtrig-cpu: registered to indicate activity on CPUs
+Jul 23 14:14:48 ubuntu kernel: [    5.966144] EFI Variables Facility v0.08 2004-May-17
+Jul 23 14:14:48 ubuntu kernel: [    6.027777] NET: Registered protocol family 10
+Jul 23 14:14:48 ubuntu kernel: [    6.028961] usb 5-1: New USB device found, idVendor=0bda, idProduct=5411, bcdDevice= 1.01
+Jul 23 14:14:48 ubuntu kernel: [    6.040125] Segment Routing with IPv6
+Jul 23 14:14:48 ubuntu kernel: [    6.047864] usb 5-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Jul 23 14:14:48 ubuntu kernel: [    6.054666] NET: Registered protocol family 17
+Jul 23 14:14:48 ubuntu kernel: [    6.061574] usb 5-1: Product: 4-Port USB 2.1 Hub
+Jul 23 14:14:48 ubuntu kernel: [    6.061576] usb 5-1: Manufacturer: Generic
+Jul 23 14:14:48 ubuntu kernel: [    6.068465] Key type dns_resolver registered
+Jul 23 14:14:48 ubuntu kernel: [    6.088186] registered taskstats version 1
+Jul 23 14:14:48 ubuntu kernel: [    6.094410] Loading compiled-in X.509 certificates
+Jul 23 14:14:48 ubuntu kernel: [    6.101996] Loaded X.509 cert 'Build time autogenerated kernel key: 5fc9bbbf10d23f3f9dda6c889ba5358a20950e89'
+Jul 23 14:14:48 ubuntu kernel: [    6.114680] zswap: loaded using pool lzo/zbud
+Jul 23 14:14:48 ubuntu kernel: [    6.121446] Key type ._fscrypt registered
+Jul 23 14:14:48 ubuntu kernel: [    6.126512] hub 5-1:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    6.127685] Key type .fscrypt registered
+Jul 23 14:14:48 ubuntu kernel: [    6.134480] hub 5-1:1.0: 4 ports detected
+Jul 23 14:14:48 ubuntu kernel: [    6.140193] Key type fscrypt-provisioning registered
+Jul 23 14:14:48 ubuntu kernel: [    6.158189] cryptd: max_cpu_qlen set to 1000
+Jul 23 14:14:48 ubuntu kernel: [    6.158458] usb 6-1: new SuperSpeed Gen 1 USB device number 2 using xhci_hcd
+Jul 23 14:14:48 ubuntu kernel: [    6.180405] usb 1-1.1: New USB device found, idVendor=12d1, idProduct=0003, bcdDevice= 1.00
+Jul 23 14:14:48 ubuntu kernel: [    6.192867] usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Jul 23 14:14:48 ubuntu kernel: [    6.205666] usb 1-1.1: Product: Keyboard/Mouse KVM 1.1.0
+Jul 23 14:14:48 ubuntu kernel: [    6.220675] usb 6-1: New USB device found, idVendor=0bda, idProduct=0411, bcdDevice= 1.01
+Jul 23 14:14:48 ubuntu kernel: [    6.233436] usb 6-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Jul 23 14:14:48 ubuntu kernel: [    6.240017] usb 6-1: Product: 4-Port USB 3.1 Hub
+Jul 23 14:14:48 ubuntu kernel: [    6.246534] usb 6-1: Manufacturer: Generic
+Jul 23 14:14:48 ubuntu kernel: [    6.249711] Key type big_key registered
+Jul 23 14:14:48 ubuntu kernel: [    6.269701] Key type encrypted registered
+Jul 23 14:14:48 ubuntu kernel: [    6.273128] hub 6-1:1.0: USB hub found
+Jul 23 14:14:48 ubuntu kernel: [    6.275819] AppArmor: AppArmor sha1 policy hashing enabled
+Jul 23 14:14:48 ubuntu kernel: [    6.282511] hub 6-1:1.0: 4 ports detected
+Jul 23 14:14:48 ubuntu kernel: [    6.287889] ima: No TPM chip found, activating TPM-bypass!
+Jul 23 14:14:48 ubuntu kernel: [    6.299834] ima: Allocated hash algorithm: sha1
+Jul 23 14:14:48 ubuntu kernel: [    6.305935] ima: No architecture policies found
+Jul 23 14:14:48 ubuntu kernel: [    6.312044] evm: Initialising EVM extended attributes:
+Jul 23 14:14:48 ubuntu kernel: [    6.318172] evm: security.selinux
+Jul 23 14:14:48 ubuntu kernel: [    6.324245] evm: security.SMACK64
+Jul 23 14:14:48 ubuntu kernel: [    6.329964] evm: security.SMACK64EXEC
+Jul 23 14:14:48 ubuntu kernel: [    6.335551] evm: security.SMACK64TRANSMUTE
+Jul 23 14:14:48 ubuntu kernel: [    6.341074] evm: security.SMACK64MMAP
+Jul 23 14:14:48 ubuntu kernel: [    6.346489] evm: security.apparmor
+Jul 23 14:14:48 ubuntu kernel: [    6.351840] evm: security.ima
+Jul 23 14:14:48 ubuntu kernel: [    6.357214] evm: security.capability
+Jul 23 14:14:48 ubuntu kernel: [    6.362395] evm: HMAC attrs: 0x1
+Jul 23 14:14:48 ubuntu kernel: [    6.368184] pcieport 0000:00:00.0: Adding to iommu group 6
+Jul 23 14:14:48 ubuntu kernel: [    6.374401] pcieport 0000:00:00.0: PME: Signaling with IRQ 94
+Jul 23 14:14:48 ubuntu kernel: [    6.379505] pcieport 0000:00:00.0: AER: enabled with IRQ 95
+Jul 23 14:14:48 ubuntu kernel: [    6.384430] pcieport 0000:00:04.0: Adding to iommu group 7
+Jul 23 14:14:48 ubuntu kernel: [    6.390155] pcieport 0000:00:04.0: PME: Signaling with IRQ 96
+Jul 23 14:14:48 ubuntu kernel: [    6.394728] pcieport 0000:00:04.0: AER: enabled with IRQ 97
+Jul 23 14:14:48 ubuntu kernel: [    6.399251] pcieport 0000:00:08.0: Adding to iommu group 8
+Jul 23 14:14:48 ubuntu kernel: [    6.404471] pcieport 0000:00:08.0: PME: Signaling with IRQ 98
+Jul 23 14:14:48 ubuntu kernel: [    6.408648] pcieport 0000:00:08.0: AER: enabled with IRQ 99
+Jul 23 14:14:48 ubuntu kernel: [    6.412662] pcieport 0000:00:0c.0: Adding to iommu group 9
+Jul 23 14:14:48 ubuntu kernel: [    6.417524] pcieport 0000:00:0c.0: PME: Signaling with IRQ 100
+Jul 23 14:14:48 ubuntu kernel: [    6.421432] pcieport 0000:00:0c.0: AER: enabled with IRQ 101
+Jul 23 14:14:48 ubuntu kernel: [    6.425449] pcieport 0000:00:10.0: Adding to iommu group 10
+Jul 23 14:14:48 ubuntu kernel: [    6.430573] pcieport 0000:00:10.0: PME: Signaling with IRQ 102
+Jul 23 14:14:48 ubuntu kernel: [    6.434449] pcieport 0000:00:10.0: AER: enabled with IRQ 103
+Jul 23 14:14:48 ubuntu kernel: [    6.438278] pcieport 0000:00:11.0: Adding to iommu group 11
+Jul 23 14:14:48 ubuntu kernel: [    6.442953] pcieport 0000:00:11.0: PME: Signaling with IRQ 104
+Jul 23 14:14:48 ubuntu kernel: [    6.446665] pcieport 0000:00:11.0: AER: enabled with IRQ 105
+Jul 23 14:14:48 ubuntu kernel: [    6.450311] pcieport 0000:00:12.0: Adding to iommu group 12
+Jul 23 14:14:48 ubuntu kernel: [    6.454883] pcieport 0000:00:12.0: PME: Signaling with IRQ 106
+Jul 23 14:14:48 ubuntu kernel: [    6.458551] pcieport 0000:00:12.0: AER: enabled with IRQ 107
+Jul 23 14:14:48 ubuntu kernel: [    6.462153] pcieport 0000:7c:00.0: Adding to iommu group 13
+Jul 23 14:14:48 ubuntu kernel: [    6.466262] pcieport 0000:74:01.0: Adding to iommu group 14
+Jul 23 14:14:48 ubuntu kernel: [    6.470373] pcieport 0000:80:00.0: Adding to iommu group 15
+Jul 23 14:14:48 ubuntu kernel: [    6.475079] pcieport 0000:80:00.0: PME: Signaling with IRQ 108
+Jul 23 14:14:48 ubuntu kernel: [    6.478754] pcieport 0000:80:00.0: AER: enabled with IRQ 109
+Jul 23 14:14:48 ubuntu kernel: [    6.482489] pcieport 0000:80:04.0: Adding to iommu group 16
+Jul 23 14:14:48 ubuntu kernel: [    6.487241] pcieport 0000:80:04.0: PME: Signaling with IRQ 110
+Jul 23 14:14:48 ubuntu kernel: [    6.491155] pcieport 0000:80:04.0: AER: enabled with IRQ 111
+Jul 23 14:14:48 ubuntu kernel: [    6.495037] pcieport 0000:80:08.0: Adding to iommu group 17
+Jul 23 14:14:48 ubuntu kernel: [    6.499812] pcieport 0000:80:08.0: PME: Signaling with IRQ 112
+Jul 23 14:14:48 ubuntu kernel: [    6.503586] pcieport 0000:80:08.0: AER: enabled with IRQ 113
+Jul 23 14:14:48 ubuntu kernel: [    6.507395] pcieport 0000:80:0c.0: Adding to iommu group 18
+Jul 23 14:14:48 ubuntu kernel: [    6.508976] usb 5-1.2: new low-speed USB device number 3 using xhci_hcd
+Jul 23 14:14:48 ubuntu kernel: [    6.512188] pcieport 0000:80:0c.0: PME: Signaling with IRQ 114
+Jul 23 14:14:48 ubuntu kernel: [    6.519059] pcieport 0000:80:0c.0: AER: enabled with IRQ 115
+Jul 23 14:14:48 ubuntu kernel: [    6.523132] pcieport 0000:80:10.0: Adding to iommu group 19
+Jul 23 14:14:48 ubuntu kernel: [    6.528245] pcieport 0000:80:10.0: PME: Signaling with IRQ 116
+Jul 23 14:14:48 ubuntu kernel: [    6.532289] pcieport 0000:80:10.0: AER: enabled with IRQ 117
+Jul 23 14:14:48 ubuntu kernel: [    6.536455] pcieport 0000:bc:00.0: Adding to iommu group 20
+Jul 23 14:14:48 ubuntu kernel: [    6.541109] pcieport 0000:b4:01.0: Adding to iommu group 21
+Jul 23 14:14:48 ubuntu kernel: [    6.548348] Freeing unused kernel memory: 7040K
+Jul 23 14:14:48 ubuntu kernel: [    6.623054] usb 5-1.2: New USB device found, idVendor=04b3, idProduct=3025, bcdDevice= 1.09
+Jul 23 14:14:48 ubuntu kernel: [    6.631376] usb 5-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Jul 23 14:14:48 ubuntu kernel: [    6.640341] usb 5-1.2: Product: USB NetVista Full Width Keyboard.
+Jul 23 14:14:48 ubuntu kernel: [    6.645122] usb 5-1.2: Manufacturer: LITE-ON Technology
+Jul 23 14:14:48 ubuntu kernel: [    7.001847] Checked W+X mappings: passed, no W+X pages found
+Jul 23 14:14:48 ubuntu kernel: [    7.006740] Run /init as init process
+Jul 23 14:14:48 ubuntu kernel: [    7.011636]   with arguments:
+Jul 23 14:14:48 ubuntu kernel: [    7.011637]     /init
+Jul 23 14:14:48 ubuntu kernel: [    7.011638]     text
+Jul 23 14:14:48 ubuntu kernel: [    7.011639]   with environment:
+Jul 23 14:14:48 ubuntu kernel: [    7.011639]     HOME=/
+Jul 23 14:14:48 ubuntu kernel: [    7.011640]     TERM=linux
+Jul 23 14:14:48 ubuntu kernel: [    7.011641]     BOOT_IMAGE=/boot/vmlinuz-5.7.1
+Jul 23 14:14:48 ubuntu kernel: [    7.200021] gpio-dwapb HISI0181:00: IRQ index 1 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.205236] gpio-dwapb HISI0181:00: IRQ index 2 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.210354] gpio-dwapb HISI0181:00: IRQ index 3 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.215398] gpio-dwapb HISI0181:00: IRQ index 4 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.217295] ahci 0000:74:03.0: Adding to iommu group 22
+Jul 23 14:14:48 ubuntu kernel: [    7.217717] megasas: 07.713.01.00-rc1
+Jul 23 14:14:48 ubuntu kernel: [    7.220356] gpio-dwapb HISI0181:00: IRQ index 5 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.225914] ahci 0000:74:03.0: version 3.0
+Jul 23 14:14:48 ubuntu kernel: [    7.226341] hid: raw HID events driver (C) Jiri Kosina
+Jul 23 14:14:48 ubuntu kernel: [    7.230334] gpio-dwapb HISI0181:00: IRQ index 6 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.230337] gpio-dwapb HISI0181:00: IRQ index 7 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.235557] ahci 0000:74:03.0: SSS flag set, parallel bus scan disabled
+Jul 23 14:14:48 ubuntu kernel: [    7.237352] hclge is initializing
+Jul 23 14:14:48 ubuntu kernel: [    7.240623] gpio-dwapb HISI0181:00: IRQ index 8 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.240625] gpio-dwapb HISI0181:00: IRQ index 9 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.240628] gpio-dwapb HISI0181:00: IRQ index 10 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.245895] ahci 0000:74:03.0: AHCI 0001.0300 32 slots 2 ports 6 Gbps 0x3 impl SATA mode
+Jul 23 14:14:48 ubuntu kernel: [    7.251031] gpio-dwapb HISI0181:00: IRQ index 11 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.251033] gpio-dwapb HISI0181:00: IRQ index 12 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.251034] gpio-dwapb HISI0181:00: IRQ index 13 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.251035] gpio-dwapb HISI0181:00: IRQ index 14 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.251036] gpio-dwapb HISI0181:00: IRQ index 15 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.251037] gpio-dwapb HISI0181:00: IRQ index 16 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.251038] gpio-dwapb HISI0181:00: IRQ index 17 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.251039] gpio-dwapb HISI0181:00: IRQ index 18 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.251041] gpio-dwapb HISI0181:00: IRQ index 19 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.253642] hns3: Hisilicon Ethernet Network Driver for Hip08 Family - version
+Jul 23 14:14:48 ubuntu kernel: [    7.253644] hns3: Copyright (c) 2017 Huawei Corporation.
+Jul 23 14:14:48 ubuntu kernel: [    7.256229] ahci 0000:74:03.0: flags: 64bit ncq sntf stag pm led clo only pmp fbs slum part ccc ems sxs boh 
+Jul 23 14:14:48 ubuntu kernel: [    7.261252] gpio-dwapb HISI0181:00: IRQ index 20 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261254] gpio-dwapb HISI0181:00: IRQ index 21 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261255] gpio-dwapb HISI0181:00: IRQ index 22 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261256] gpio-dwapb HISI0181:00: IRQ index 23 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261257] gpio-dwapb HISI0181:00: IRQ index 24 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261258] gpio-dwapb HISI0181:00: IRQ index 25 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261259] gpio-dwapb HISI0181:00: IRQ index 26 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261260] gpio-dwapb HISI0181:00: IRQ index 27 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261261] gpio-dwapb HISI0181:00: IRQ index 28 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261262] gpio-dwapb HISI0181:00: IRQ index 29 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261264] gpio-dwapb HISI0181:00: IRQ index 30 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.261266] gpio-dwapb HISI0181:00: IRQ index 31 not found
+Jul 23 14:14:48 ubuntu kernel: [    7.262426] hisi_sas_v3_hw 0000:74:02.0: Adding to iommu group 23
+Jul 23 14:14:48 ubuntu kernel: [    7.266780] hisi_sas_v3_hw 0000:74:02.0: enabling device (0000 -> 0002)
+Jul 23 14:14:48 ubuntu kernel: [    7.276676] megaraid_sas 0000:03:00.0: Adding to iommu group 24
+Jul 23 14:14:48 ubuntu kernel: [    7.276827] hns3 0000:7d:00.0: Adding to iommu group 25
+Jul 23 14:14:48 ubuntu kernel: [    7.286989] hns3 0000:7d:00.0: The firmware version is 1.8.12.3
+Jul 23 14:14:48 ubuntu kernel: [    7.292465] usbcore: registered new interface driver usbhid
+Jul 23 14:14:48 ubuntu kernel: [    7.297743] scsi host0: ahci
+Jul 23 14:14:48 ubuntu kernel: [    7.302740] usbhid: USB HID core driver
+Jul 23 14:14:48 ubuntu kernel: [    7.319848] scsi host2: ahci
+Jul 23 14:14:48 ubuntu kernel: [    7.420537] megaraid_sas 0000:03:00.0: BAR:0x0  BAR's base_addr(phys):0x0000080000100000  mapped virt_addr:0x(____ptrval____)
+Jul 23 14:14:48 ubuntu kernel: [    7.420540] megaraid_sas 0000:03:00.0: FW now in Ready state
+Jul 23 14:14:48 ubuntu kernel: [    7.424354] megaraid_sas 0000:03:00.0: 63 bit DMA mask and 63 bit consistent mask
+Jul 23 14:14:48 ubuntu kernel: [    7.432789] megaraid_sas 0000:03:00.0: firmware supports msix	: (128)
+Jul 23 14:14:48 ubuntu kernel: [    7.437339] scsi host1: hisi_sas_v3_hw
+Jul 23 14:14:48 ubuntu kernel: [    7.443387] megaraid_sas 0000:03:00.0: requested/available msix 97/97
+Jul 23 14:14:48 ubuntu kernel: [    7.443784] input: Keyboard/Mouse KVM 1.1.0 as /devices/pci0000:7a/0000:7a:01.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:12D1:0003.0001/input/input1
+Jul 23 14:14:48 ubuntu kernel: [    7.447622] megaraid_sas 0000:03:00.0: current msix/online cpus	: (97/96)
+Jul 23 14:14:48 ubuntu kernel: [    7.460501] megaraid_sas 0000:03:00.0: RDPQ mode	: (enabled)
+Jul 23 14:14:48 ubuntu kernel: [    7.464952] megaraid_sas 0000:03:00.0: Current firmware supports maximum commands: 4077	 LDIO threshold: 0
+Jul 23 14:14:48 ubuntu kernel: [    7.474468] libphy: hisilicon MII bus: probed
+Jul 23 14:14:48 ubuntu kernel: [    7.479835] hibmc-drm 0000:06:00.0: Adding to iommu group 26
+Jul 23 14:14:48 ubuntu kernel: [    7.517200] hid-generic 0003:12D1:0003.0001: input,hidraw0: USB HID v1.10 Keyboard [Keyboard/Mouse KVM 1.1.0] on usb-0000:7a:01.0-1.1/input0
+Jul 23 14:14:48 ubuntu kernel: [    7.528603] input: Keyboard/Mouse KVM 1.1.0 as /devices/pci0000:7a/0000:7a:01.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:12D1:0003.0002/input/input2
+Jul 23 14:14:48 ubuntu kernel: [    7.541088] hid-generic 0003:12D1:0003.0002: input,hidraw1: USB HID v1.10 Mouse [Keyboard/Mouse KVM 1.1.0] on usb-0000:7a:01.0-1.1/input1
+Jul 23 14:14:48 ubuntu kernel: [    7.554695] input: LITE-ON Technology USB NetVista Full Width Keyboard. as /devices/pci0000:7a/0000:7a:02.0/usb5/5-1/5-1.2/5-1.2:1.0/0003:04B3:3025.0003/input/input3
+Jul 23 14:14:48 ubuntu kernel: [    7.633170] hid-generic 0003:04B3:3025.0003: input,hidraw2: USB HID v1.10 Keyboard [LITE-ON Technology USB NetVista Full Width Keyboard.] on usb-0000:7a:02.0-1.2/input0
+Jul 23 14:14:48 ubuntu kernel: [    7.902693] megaraid_sas 0000:03:00.0: Configured max firmware commands: 4076
+Jul 23 14:14:48 ubuntu kernel: [    7.941854] hns3 0000:7d:00.0: hclge driver initialization finished.
+Jul 23 14:14:48 ubuntu kernel: [    7.950698] RTL8211F Gigabit Ethernet mii-0000:7d:00.0:01: attached PHY driver [RTL8211F Gigabit Ethernet] (mii_bus:phy_addr=mii-0000:7d:00.0:01, irq=POLL)
+Jul 23 14:14:48 ubuntu kernel: [    7.981118] ata1: SATA max UDMA/133 abar m4096@0xa2010000 port 0xa2010100 irq 118
+Jul 23 14:14:48 ubuntu kernel: [    7.997257] ata2: SATA max UDMA/133 abar m4096@0xa2010000 port 0xa2010180 irq 119
+Jul 23 14:14:48 ubuntu kernel: [    8.014104] hns3 0000:7d:00.1: Adding to iommu group 27
+Jul 23 14:14:48 ubuntu kernel: [    8.049137] ahci 0000:b4:03.0: Adding to iommu group 28
+Jul 23 14:14:48 ubuntu kernel: [    8.053236] megaraid_sas 0000:03:00.0: Performance mode :Latency
+Jul 23 14:14:48 ubuntu kernel: [    8.057767] ahci 0000:b4:03.0: SSS flag set, parallel bus scan disabled
+Jul 23 14:14:48 ubuntu kernel: [    8.065067] megaraid_sas 0000:03:00.0: FW supports sync cache	: Yes
+Jul 23 14:14:48 ubuntu kernel: [    8.065078] megaraid_sas 0000:03:00.0: megasas_disable_intr_fusion is called outbound_intr_mask:0x40000009
+Jul 23 14:14:48 ubuntu kernel: [    8.073115] ahci 0000:b4:03.0: AHCI 0001.0300 32 slots 2 ports 6 Gbps 0x3 impl SATA mode
+Jul 23 14:14:48 ubuntu kernel: [    8.081168] checking generic (e4000000 12c000) vs hw (e4000000 2000000)
+Jul 23 14:14:48 ubuntu kernel: [    8.096946] ahci 0000:b4:03.0: flags: 64bit ncq sntf stag pm led clo only pmp fbs slum part ccc ems sxs boh 
+Jul 23 14:14:48 ubuntu kernel: [    8.097487] scsi host4: ahci
+Jul 23 14:14:48 ubuntu kernel: [    8.113035] fb0: switching to hibmcdrmfb from EFI VGA
+Jul 23 14:14:48 ubuntu kernel: [    8.129511] scsi host5: ahci
+Jul 23 14:14:48 ubuntu kernel: [    8.137378] hns3 0000:7d:00.1: The firmware version is 1.8.12.3
+Jul 23 14:14:48 ubuntu kernel: [    8.145081] ata3: SATA max UDMA/133 abar m4096@0xa3010000 port 0xa3010100 irq 379
+Jul 23 14:14:48 ubuntu kernel: [    8.154936] libphy: hisilicon MII bus: probed
+Jul 23 14:14:48 ubuntu kernel: [    8.160259] ata4: SATA max UDMA/133 abar m4096@0xa3010000 port 0xa3010180 irq 380
+Jul 23 14:14:48 ubuntu kernel: [    8.185275] megaraid_sas 0000:03:00.0: FW provided supportMaxExtLDs: 1	max_lds: 64
+Jul 23 14:14:48 ubuntu kernel: [    8.212244] megaraid_sas 0000:03:00.0: controller type	: MR(2048MB)
+Jul 23 14:14:48 ubuntu kernel: [    8.212245] megaraid_sas 0000:03:00.0: Online Controller Reset(OCR)	: Enabled
+Jul 23 14:14:48 ubuntu kernel: [    8.212246] megaraid_sas 0000:03:00.0: Secure JBOD support	: Yes
+Jul 23 14:14:48 ubuntu kernel: [    8.212247] megaraid_sas 0000:03:00.0: NVMe passthru support	: Yes
+Jul 23 14:14:48 ubuntu kernel: [    8.212248] megaraid_sas 0000:03:00.0: FW provided TM TaskAbort/Reset timeout	: 6 secs/60 secs
+Jul 23 14:14:48 ubuntu kernel: [    8.212249] megaraid_sas 0000:03:00.0: JBOD sequence map support	: Yes
+Jul 23 14:14:48 ubuntu kernel: [    8.212250] megaraid_sas 0000:03:00.0: PCI Lane Margining support	: No
+Jul 23 14:14:48 ubuntu kernel: [    8.212285] Console: switching to colour dummy device 80x25
+Jul 23 14:14:48 ubuntu kernel: [    8.217743] [TTM] Zone  kernel: Available graphics memory: 65473534 KiB
+Jul 23 14:14:48 ubuntu kernel: [    8.217746] [TTM] Zone   dma32: Available graphics memory: 2097152 KiB
+Jul 23 14:14:48 ubuntu kernel: [    8.217748] [TTM] Initializing pool allocator
+Jul 23 14:14:48 ubuntu kernel: [    8.217754] [TTM] Initializing DMA pool allocator
+Jul 23 14:14:48 ubuntu kernel: [    8.217793] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Jul 23 14:14:48 ubuntu kernel: [    8.235628] Console: switching to colour frame buffer device 128x48
+Jul 23 14:14:48 ubuntu kernel: [    8.237619] hns3 0000:7d:00.1: hclge driver initialization finished.
+Jul 23 14:14:48 ubuntu kernel: [    8.238709] RTL8211F Gigabit Ethernet mii-0000:7d:00.1:03: attached PHY driver [RTL8211F Gigabit Ethernet] (mii_bus:phy_addr=mii-0000:7d:00.1:03, irq=POLL)
+Jul 23 14:14:48 ubuntu kernel: [    8.239121] hns3 0000:7d:00.2: Adding to iommu group 29
+Jul 23 14:14:48 ubuntu kernel: [    8.239687] hns3 0000:7d:00.2: The firmware version is 1.8.12.3
+Jul 23 14:14:48 ubuntu kernel: [    8.242290] libphy: hisilicon MII bus: probed
+Jul 23 14:14:48 ubuntu kernel: [    8.253439] hibmc-drm 0000:06:00.0: fb0: hibmcdrmfb frame buffer device
+Jul 23 14:14:48 ubuntu kernel: [    8.264803] megaraid_sas 0000:03:00.0: NVME page size	: (4096)
+Jul 23 14:14:48 ubuntu kernel: [    8.265588] megaraid_sas 0000:03:00.0: megasas_enable_intr_fusion is called outbound_intr_mask:0x40000000
+Jul 23 14:14:48 ubuntu kernel: [    8.265609] megaraid_sas 0000:03:00.0: INIT adapter done
+Jul 23 14:14:48 ubuntu kernel: [    8.277080] [drm] Initialized hibmc 1.0.0 20160828 for 0000:06:00.0 on minor 0
+Jul 23 14:14:48 ubuntu kernel: [    8.282157] megaraid_sas 0000:03:00.0: pci id		: (0x1000)/(0x0016)/(0x19e5)/(0xd215)
+Jul 23 14:14:48 ubuntu kernel: [    8.282174] megaraid_sas 0000:03:00.0: unevenspan support	: no
+Jul 23 14:14:48 ubuntu kernel: [    8.282187] megaraid_sas 0000:03:00.0: firmware crash dump	: no
+Jul 23 14:14:48 ubuntu kernel: [    8.282199] megaraid_sas 0000:03:00.0: JBOD sequence map	: enabled
+Jul 23 14:14:48 ubuntu kernel: [    8.282994] scsi host3: Avago SAS based MegaRAID driver
+Jul 23 14:14:48 ubuntu kernel: [    8.293865] hns3 0000:7d:00.2: hclge driver initialization finished.
+Jul 23 14:14:48 ubuntu kernel: [    8.294958] RTL8211F Gigabit Ethernet mii-0000:7d:00.2:05: attached PHY driver [RTL8211F Gigabit Ethernet] (mii_bus:phy_addr=mii-0000:7d:00.2:05, irq=POLL)
+Jul 23 14:14:48 ubuntu kernel: [    8.295409] hns3 0000:7d:00.3: Adding to iommu group 30
+Jul 23 14:14:48 ubuntu kernel: [    8.296515] hns3 0000:7d:00.3: The firmware version is 1.8.12.3
+Jul 23 14:14:48 ubuntu kernel: [    8.298690] libphy: hisilicon MII bus: probed
+Jul 23 14:14:48 ubuntu kernel: [    8.300119] scsi 3:0:65:0: Enclosure         HUAWEI   Expander 12Gx16  131  PQ: 0 ANSI: 6
+Jul 23 14:14:48 ubuntu kernel: [    8.321730] scsi 3:2:0:0: Direct-Access     AVAGO    HW-SAS3508       5.06 PQ: 0 ANSI: 5
+Jul 23 14:14:48 ubuntu kernel: [    8.327086] ata1: SATA link down (SStatus 0 SControl 300)
+Jul 23 14:14:48 ubuntu kernel: [    8.330807] scsi 3:2:1:0: Direct-Access     AVAGO    HW-SAS3508       5.06 PQ: 0 ANSI: 5
+Jul 23 14:14:48 ubuntu kernel: [    8.332554] random: fast init done
+Jul 23 14:14:48 ubuntu kernel: [    8.353648] hns3 0000:7d:00.3: hclge driver initialization finished.
+Jul 23 14:14:48 ubuntu kernel: [    8.355224] RTL8211F Gigabit Ethernet mii-0000:7d:00.3:07: attached PHY driver [RTL8211F Gigabit Ethernet] (mii_bus:phy_addr=mii-0000:7d:00.3:07, irq=POLL)
+Jul 23 14:14:48 ubuntu kernel: [    8.358966] hns3 0000:7d:00.0 enp125s0f0: renamed from eth0
+Jul 23 14:14:48 ubuntu kernel: [    8.380324] scsi 3:0:65:0: Attached scsi generic sg0 type 13
+Jul 23 14:14:48 ubuntu kernel: [    8.382760] sd 3:2:0:0: Attached scsi generic sg1 type 0
+Jul 23 14:14:48 ubuntu kernel: [    8.382994] sd 3:2:0:0: [sda] 7812499456 512-byte logical blocks: (4.00 TB/3.64 TiB)
+Jul 23 14:14:48 ubuntu kernel: [    8.383388] sd 3:2:1:0: Attached scsi generic sg2 type 0
+Jul 23 14:14:48 ubuntu kernel: [    8.383558] sd 3:2:1:0: [sdb] 46874996736 512-byte logical blocks: (24.0 TB/21.8 TiB)
+Jul 23 14:14:48 ubuntu kernel: [    8.383596] sd 3:2:1:0: [sdb] Write Protect is off
+Jul 23 14:14:48 ubuntu kernel: [    8.383598] sd 3:2:1:0: [sdb] Mode Sense: 1f 00 00 08
+Jul 23 14:14:48 ubuntu kernel: [    8.383664] sd 3:2:1:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Jul 23 14:14:48 ubuntu kernel: [    8.383676] sd 3:2:0:0: [sda] Write Protect is off
+Jul 23 14:14:48 ubuntu kernel: [    8.383678] sd 3:2:0:0: [sda] Mode Sense: 1f 00 00 08
+Jul 23 14:14:48 ubuntu kernel: [    8.383744] sd 3:2:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Jul 23 14:14:48 ubuntu kernel: [    8.400051] sd 3:2:0:0: [sda] Optimal transfer size 262144 bytes
+Jul 23 14:14:48 ubuntu kernel: [    8.402348] sd 3:2:1:0: [sdb] Optimal transfer size 1048576 bytes
+Jul 23 14:14:48 ubuntu kernel: [    8.420764] ses 3:0:65:0: Attached Enclosure device
+Jul 23 14:14:48 ubuntu kernel: [    8.469250] hns3 0000:7d:00.3 enp125s0f3: renamed from eth3
+Jul 23 14:14:48 ubuntu kernel: [    8.500707]  sda: sda1 sda2
+Jul 23 14:14:48 ubuntu kernel: [    8.502935] sd 3:2:0:0: [sda] Attached SCSI disk
+Jul 23 14:14:48 ubuntu kernel: [    8.505270] hns3 0000:7d:00.1 enp125s0f1: renamed from eth1
+Jul 23 14:14:48 ubuntu kernel: [    8.507630] sd 3:2:1:0: [sdb] Attached SCSI disk
+Jul 23 14:14:48 ubuntu kernel: [    8.511088] ata3: SATA link down (SStatus 0 SControl 300)
+Jul 23 14:14:48 ubuntu kernel: [    8.537206] hns3 0000:7d:00.2 enp125s0f2: renamed from eth2
+Jul 23 14:14:48 ubuntu kernel: [    8.639088] ata2: SATA link down (SStatus 0 SControl 300)
+Jul 23 14:14:48 ubuntu kernel: [    8.955124] ata4: SATA link down (SStatus 0 SControl 300)
+Jul 23 14:14:48 ubuntu kernel: [    9.050113] hisi_sas_v3_hw 0000:74:04.0: Adding to iommu group 31
+Jul 23 14:14:48 ubuntu kernel: [    9.053493] hisi_sas_v3_hw 0000:74:04.0: enabling device (0000 -> 0002)
+Jul 23 14:14:48 ubuntu kernel: [    9.064449] scsi host6: hisi_sas_v3_hw
+Jul 23 14:14:48 ubuntu kernel: [   10.298068] hisi_sas_v3_hw 0000:b4:02.0: Adding to iommu group 32
+Jul 23 14:14:48 ubuntu kernel: [   10.301506] hisi_sas_v3_hw 0000:b4:02.0: enabling device (0000 -> 0002)
+Jul 23 14:14:48 ubuntu kernel: [   10.312919] scsi host7: hisi_sas_v3_hw
+Jul 23 14:14:48 ubuntu kernel: [   11.546227] hisi_sas_v3_hw 0000:b4:04.0: Adding to iommu group 33
+Jul 23 14:14:48 ubuntu kernel: [   11.549494] hisi_sas_v3_hw 0000:b4:04.0: enabling device (0000 -> 0002)
+Jul 23 14:14:48 ubuntu kernel: [   11.561003] scsi host8: hisi_sas_v3_hw
+Jul 23 14:14:48 ubuntu kernel: [   12.964974] raid6: neonx8   gen() 11845 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.032971] raid6: neonx8   xor()  8630 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.100973] raid6: neonx4   gen() 11245 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.168971] raid6: neonx4   xor()  7844 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.236971] raid6: neonx2   gen()  9506 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.304972] raid6: neonx2   xor()  6854 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.372973] raid6: neonx1   gen()  7014 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.440973] raid6: neonx1   xor()  2880 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.508974] raid6: int64x8  gen()  6384 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.576975] raid6: int64x8  xor()  3643 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.644971] raid6: int64x4  gen()  7007 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.712972] raid6: int64x4  xor()  3785 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.780974] raid6: int64x2  gen()  5687 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.848975] raid6: int64x2  xor()  1745 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.916974] raid6: int64x1  gen()  4494 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.984977] raid6: int64x1  xor()  1291 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.985270] raid6: using algorithm neonx8 gen() 11845 MB/s
+Jul 23 14:14:48 ubuntu kernel: [   13.985562] raid6: .... xor() 8630 MB/s, rmw enabled
+Jul 23 14:14:48 ubuntu kernel: [   13.985852] raid6: using neon recovery algorithm
+Jul 23 14:14:48 ubuntu kernel: [   13.990723] xor: measuring software checksum speed
+Jul 23 14:14:48 ubuntu kernel: [   14.028970]    8regs     : 12524.000 MB/sec
+Jul 23 14:14:48 ubuntu kernel: [   14.068971]    32regs    : 16039.000 MB/sec
+Jul 23 14:14:48 ubuntu kernel: [   14.108970]    arm64_neon: 19323.000 MB/sec
+Jul 23 14:14:48 ubuntu kernel: [   14.109249] xor: using function: arm64_neon (19323.000 MB/sec)
+Jul 23 14:14:48 ubuntu kernel: [   14.111263] async_tx: api initialized (async)
+Jul 23 14:14:48 ubuntu kernel: [   14.206034] Btrfs loaded, crc32c=crc32c-generic
+Jul 23 14:14:48 ubuntu kernel: [   15.915323] random: crng init done
+Jul 23 14:14:48 ubuntu kernel: [   34.866416] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+Jul 23 14:14:48 ubuntu kernel: [   37.093853] EXT4-fs (sda2): re-mounted. Opts: errors=remount-ro
+Jul 23 14:14:48 ubuntu kernel: [   37.524977] Adding 2097148k swap on /swapfile.  Priority:-2 extents:6 across:2260988k FS
+Jul 23 14:14:48 ubuntu kernel: [   37.650775] lp: driver loaded but no devices found
+Jul 23 14:14:48 ubuntu kernel: [   37.657477] ppdev: user-space parallel port driver
+Jul 23 14:14:48 ubuntu kernel: [   37.741198] Loading iSCSI transport class v2.0-870.
+Jul 23 14:14:48 ubuntu kernel: [   37.818780] iscsi: registered transport (tcp)
+Jul 23 14:14:48 ubuntu kernel: [   38.048013] iscsi: registered transport (iser)
+Jul 23 14:14:48 ubuntu kernel: [   40.622811] IPMI message handler: version 39.2
+Jul 23 14:14:48 ubuntu kernel: [   40.653828] ipmi device interface
+Jul 23 14:14:48 ubuntu kernel: [   40.676720] ipmi_si: IPMI System Interface driver
+Jul 23 14:14:48 ubuntu kernel: [   40.682114] ipmi_si IPI0001:00: ipmi_platform: probing via ACPI
+Jul 23 14:14:48 ubuntu kernel: [   40.682152] ipmi_si IPI0001:00: ipmi_platform: [mem 0x3f00000e4-0x3f00000e7] regsize 1 spacing 1 irq 15
+Jul 23 14:14:48 ubuntu kernel: [   40.682154] ipmi_si: Adding ACPI-specified bt state machine
+Jul 23 14:14:48 ubuntu kernel: [   40.685377] ipmi_si: Trying ACPI-specified bt state machine at mem address 0x3f00000e4, slave address 0x0, irq 15
+Jul 23 14:14:48 ubuntu kernel: [   40.697005] ipmi_si IPI0001:00: bt cap response too short: 3
+Jul 23 14:14:48 ubuntu kernel: [   40.697011] ipmi_si IPI0001:00: using default values
+Jul 23 14:14:48 ubuntu kernel: [   40.697012] ipmi_si IPI0001:00: req2rsp=5 secs retries=2
+Jul 23 14:14:48 ubuntu kernel: [   40.777014] ipmi_si IPI0001:00: The BMC does not support setting the recv irq bit, compensating, but the BMC needs to be fixed.
+Jul 23 14:14:48 ubuntu kernel: [   40.787280] ipmi_si IPI0001:00: Using irq 15
+Jul 23 14:14:48 ubuntu kernel: [   40.837822] ipmi_si IPI0001:00: IPMI message handler: Found new BMC (man_id: 0x0007db, prod_id: 0x0001, dev_id: 0x01)
+Jul 23 14:14:48 ubuntu kernel: [   40.855433] pstore: Using crash dump compression: deflate
+Jul 23 14:14:48 ubuntu kernel: [   40.903493] pstore: Registered efi as persistent store backend
+Jul 23 14:14:48 ubuntu kernel: [   41.076275] ipmi_si IPI0001:00: IPMI bt interface initialized
+Jul 23 14:14:48 ubuntu kernel: [   41.086971] ipmi_ssif: IPMI SSIF Interface driver
+Jul 23 14:14:48 ubuntu kernel: [   41.946054] audit: type=1400 audit(1627020887.532:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=2130 comm="apparmor_parser"
+Jul 23 14:14:48 ubuntu kernel: [   41.948867] audit: type=1400 audit(1627020887.532:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oopslash" pid=2132 comm="apparmor_parser"
+Jul 23 14:14:48 ubuntu kernel: [   41.949352] audit: type=1400 audit(1627020887.536:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=2131 comm="apparmor_parser"
+Jul 23 14:14:48 ubuntu kernel: [   41.949357] audit: type=1400 audit(1627020887.536:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=2131 comm="apparmor_parser"
+Jul 23 14:14:48 ubuntu kernel: [   41.949360] audit: type=1400 audit(1627020887.536:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=2131 comm="apparmor_parser"
+Jul 23 14:14:48 ubuntu kernel: [   41.952092] audit: type=1400 audit(1627020887.536:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=2133 comm="apparmor_parser"
+Jul 23 14:14:48 ubuntu kernel: [   41.952876] audit: type=1400 audit(1627020887.536:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=2135 comm="apparmor_parser"
+Jul 23 14:14:48 ubuntu kernel: [   41.955731] audit: type=1400 audit(1627020887.540:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cups-browsed" pid=2138 comm="apparmor_parser"
+Jul 23 14:14:48 ubuntu kernel: [   41.956469] audit: type=1400 audit(1627020887.540:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="virt-aa-helper" pid=2136 comm="apparmor_parser"
+Jul 23 14:14:48 ubuntu kernel: [   41.958103] audit: type=1400 audit(1627020887.544:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=2144 comm="apparmor_parser"
+Jul 23 14:14:48 ubuntu kernel: [   42.153088] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Jul 23 14:14:48 ubuntu kernel: [   42.172686] br0: port 1(enp125s0f0) entered blocking state
+Jul 23 14:14:48 ubuntu kernel: [   42.172689] br0: port 1(enp125s0f0) entered disabled state
+Jul 23 14:14:48 ubuntu kernel: [   42.172799] device enp125s0f0 entered promiscuous mode
+Jul 23 14:14:48 ubuntu kernel: [   42.241692] hns3 0000:7d:00.0 enp125s0f0: disable vlan filter
+Jul 23 14:14:48 ubuntu kernel: [   42.747999] new mount options do not match the existing superblock, will be ignored
+Jul 23 14:14:50 ubuntu kernel: [   45.317172] IPv6: ADDRCONF(NETDEV_CHANGE): enp125s0f0: link becomes ready
+Jul 23 14:14:50 ubuntu kernel: [   45.317306] hns3 0000:7d:00.0 enp125s0f0: link up
+Jul 23 14:14:50 ubuntu kernel: [   45.317315] br0: port 1(enp125s0f0) entered blocking state
+Jul 23 14:14:50 ubuntu kernel: [   45.317317] br0: port 1(enp125s0f0) entered forwarding state
+Jul 23 14:14:50 ubuntu kernel: [   45.317545] IPv6: ADDRCONF(NETDEV_CHANGE): br0: link becomes ready
