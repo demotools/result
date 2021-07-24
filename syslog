@@ -2430,3 +2430,5 @@ Start test round: 1
 Jul 24 10:57:35 ubuntu kernel: [  751.127916] Page table CONFIG_Migration_test
 Jul 24 10:57:35 ubuntu kernel: [  751.127920] Page table allocation set to normal behavior -6
 Jul 24 10:58:33 ubuntu kernel: [  809.638717] [mitosis] we got in qhl !!!!!!!!
+Jul 24 11:00:31 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Jul 24 11:00:32 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
