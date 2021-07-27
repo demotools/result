@@ -23,6 +23,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 static int sleep_time = 10*TIME_SECOND;     /* Profile by sleep_time useconds chunks */
 
+#define ACTIVE_PERCENTAGE       0.01
+
+
 #define MIN_ACTIVE_PERCENTAGE       15
 
 /* Only triggers carrefour if the rate of memory accesses is above the threshold and the IPC is below the other one */
@@ -718,7 +721,7 @@ static void thread_loop() {
          global_mem_usage =  (double) (info.totalram-info.freeram) / (double) info.totalram * 100.;
       }
 
-      if (rr_global>0.01)
+      if (rr_global > ACTIVE_PERCENTAGE)
       {
          printf("we should start pgtrpl !!");
          sys_set_ptr_start(obj_pid);
@@ -851,9 +854,9 @@ int main(int argc, char**argv) {
    nb_nodes = numa_num_configured_nodes();
    printf("\tnuma nodes = %d \n", nb_nodes);
    nb_nodes = 1;
-   printf("we should start pgtrpl !!");
-         sys_set_ptr_start(obj_pid);
-  //thread_loop();
+   // printf("we should start pgtrpl !!");
+         // sys_set_ptr_start(obj_pid);
+  thread_loop();
 
    return 0;
 }
