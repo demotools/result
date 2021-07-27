@@ -263,7 +263,7 @@ set_system_configs()
 
         # --- check page table replication
         LAST_CHAR="${CURR_CONFIG: -1}"
-        LAST_CHAR = "M"
+        # LAST_CHAR = "M"
         if [ $LAST_CHAR == "M" ]; then
                 # --- drain first then reserve
                 echo -1 | sudo tee /proc/sys/kernel/pgtable_replication_cache > /dev/null
@@ -325,15 +325,17 @@ launch_benchmark_config()
         NODESTR=$(numactl --hardware | grep available)
         NODE_MAX=$(echo ${NODESTR##*: } | cut -d " " -f 1)
         NODE_MAX=`expr $NODE_MAX - 1`
-        if [ $LAST_CHAR == "M" ]; then
-                CMD_PREFIX+=" --pgtablerepl=$NODE_MAX"
-        fi
+        # if [ $LAST_CHAR == "M" ]; then
+        #         CMD_PREFIX+=" --pgtablerepl=$NODE_MAX"
+        # fi
 	LAUNCH_CMD="$CMD_PREFIX $BENCHPATH $BENCH_ARGS"
 	echo $LAUNCH_CMD >> $OUTFILE
 	$LAUNCH_CMD > /dev/null 2>&1 &
 	BENCHMARK_PID=$!
-        $AUTOCONFIG $BENCHMARK_PID > /home/huawei/result/autoconfig.log 2>&1 &
-        AUTOCONFIG_PID=$!
+        if [ $LAST_CHAR == "M" ]; then
+                $AUTOCONFIG $BENCHMARK_PID > /home/huawei/result/autoconfig.log 2>&1 &
+                AUTOCONFIG_PID=$!
+        fi
 	echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready"
 	while [ ! -f /tmp/alloctest-bench.ready ]; do
 		sleep 0.1
@@ -348,7 +350,9 @@ launch_benchmark_config()
 	done
 	DURATION=$SECONDS
 	kill -INT $PERF_PID &> /dev/null
-        kill -INT $AUTOCONFIG_PID &> /dev/null
+        if [ $LAST_CHAR == "M" ]; then
+                kill -INT $AUTOCONFIG_PID &> /dev/null
+        fi
 	wait $PERF_PID
 	wait $BENCHMARK_PID 2>/dev/null
 	echo "Execution Time (seconds): $DURATION" >> $OUTFILE
