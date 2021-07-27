@@ -1,2 +1,3 @@
 Workload	Configuration	Runtime Cycles	Walk Cycles	Non-Walk Cycles
 GUPS	LP-LD	686412072704	0	686412072704
+GUPS	RPI-LD	922464569647	0	922464569647

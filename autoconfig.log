@@ -1,7 +1,7 @@
-./result/carrefour-runtime-master/carrefour 
-6511 
+/home/huawei/result/bin/carrefour 
+3839 
 
- pid  = 6511 
+ pid  = 3839 
 #Clock speed: 0
 #Event 0: ITLB_access (4) (Exclude Kernel: no; Exclude User: no)
 #Event 1: ITLB_miss (10004) (Exclude Kernel: no; Exclude User: no)
@@ -9,5 +9,14 @@
 #Event 3: DTLB_miss (10003) (Exclude Kernel: no; Exclude User: no)
 Parameters :
 	numa nodes = 4 
+
+ we got here !!!
+
+ we got here !!!
+
+ we got here !!!
+
+ we got here !!!
+iTlb : 3843 - 6723657528.  percentage =  0.000001 ======= dTlb : 171392686 - 8587061884.  percentage =  0.019959
 we should start pgtrpl !!
  we got sys_set_ptr_start !!!

@@ -1,0 +1,11 @@
+************************************************************************
+ASPLOS'20 - Artifact Evaluation - Mitosis - Figure 10A
+************************************************************************
+Start test round: 1
+******************gups : RPILD***********************
+qu : config is RPILD
+/home/huawei/result/scripts/run_autoconfig_migration_one.sh: line 266: LAST_CHAR: command not found
+[0mWaiting for benchmark: 3839 to be ready
+[0mWaiting for benchmark to be done
+gups : RPILD completed.
+
