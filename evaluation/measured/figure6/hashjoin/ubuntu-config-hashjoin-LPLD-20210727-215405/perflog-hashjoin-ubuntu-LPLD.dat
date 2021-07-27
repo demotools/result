@@ -1,0 +1,1 @@
+/home/huawei/result/bin/numactl -m 3 -c 3 /home/huawei/result/bin/bench_hashjoin_st -- -o 100000000 -i 20000000 -s 20000000
