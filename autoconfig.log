@@ -1,7 +1,7 @@
 /home/huawei/result/bin/carrefour 
-3792 
+22561 
 
- pid  = 3792 
+ pid  = 22561 
 #Clock speed: 0
 #Event 0: ITLB_access (4) (Exclude Kernel: no; Exclude User: no)
 #Event 1: ITLB_miss (10004) (Exclude Kernel: no; Exclude User: no)
@@ -17,6 +17,6 @@ Parameters :
  we got here !!!
 
  we got here !!!
-iTlb : 5570 - 6712711510.  percentage =  0.000001 ======= dTlb : 168867179 - 8616704637.  percentage =  0.019598
+iTlb : 254776 - 7821543827.  percentage =  0.000033 ======= dTlb : 204963543 - 9039045073.  percentage =  0.022675
 we should start pgtrpl !!
  we got sys_set_ptr_start !!!

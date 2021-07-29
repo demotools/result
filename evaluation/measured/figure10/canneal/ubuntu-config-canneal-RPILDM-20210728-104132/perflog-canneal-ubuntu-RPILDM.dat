@@ -1,0 +1,36 @@
+/home/huawei/result/bin/numactl -m 3 -c 3 /home/huawei/result/bin/bench_canneal_mt -- 1 150000 2000 /home/huawei/gitclone/datasets/canneal_20G 500
+# started on Wed Jul 28 10:51:53 2021
+
+466188684612,,cycles,97605583240,54.14,,
+21818242560,,dTLB-loads,97613159430,54.15,,
+3226050441,,dTLB-load-misses,97614371060,54.15,14.79,of all dTLB cache hits
+13878706159,,iTLB-loads,97621064020,54.15,,
+77391,,iTLB-load-misses,97622476790,54.15,0.00,of all iTLB cache hits
+1450656739,,dtlb_walk,97647882220,54.17,,
+769386,,itlb_walk,97654499050,54.17,,
+15044,,context-switches,180210654390,100.00,,
+24,,cpu-migrations,180210656920,100.00,,
+6,,page-faults,180210661990,100.00,,
+13070280800,,mem_access,97660092140,54.17,,
+81049579,,remote_access,97654743900,54.17,,
+57694128712,,instructions,97661182020,54.17,0.12,insn per cycle
+,,,,,7.59,stalled cycles per insn
+214203586,,branch-misses,97665568110,54.18,,
+466224860963,,bus-cycles,97669756920,54.18,,
+1528404240,,cache-misses,97674412770,54.18,11.694,of all cache refs
+13070441743,,cache-references,90175114190,50.02,,
+437934818529,,stalled-cycles-backend,90171439110,50.02,93.94,backend cycles idle
+5876902497,,stalled-cycles-frontend,90166613220,50.02,1.26,frontend cycles idle
+0,,alignment-faults,180210652310,100.00,,
+0,,major-faults,180210656390,100.00,,
+6,,minor-faults,180210659370,100.00,,
+6871300619,,branch-loads,90144280550,50.00,,
+214142179,,branch-load-misses,90136282290,50.00,,
+13072759088,,L1-dcache-loads,90130209800,50.00,,
+1528712352,,L1-dcache-load-misses,90122742670,49.99,11.69,of all L1-dcache hits
+13880721162,,L1-icache-loads,90129502380,50.00,,
+10243801,,L1-icache-load-misses,90122022520,49.99,0.07,of all L1-icache hits
+0,,memory_error,90118031370,49.99,,
+80689726,,remote_access_rd,90111796740,49.99,,
+Execution Time (seconds): 181
+****success****

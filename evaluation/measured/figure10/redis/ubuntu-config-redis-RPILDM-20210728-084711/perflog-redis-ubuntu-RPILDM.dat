@@ -1,0 +1,36 @@
+/home/huawei/result/bin/numactl -m 3 -c 3 /home/huawei/result/bin/bench_redis_st
+# started on Wed Jul 28 08:47:18 2021
+
+709329326064,,cycles,223350277210,54.04,,
+254713008770,,dTLB-loads,223259441370,54.01,,
+3780989409,,dTLB-load-misses,223396003090,54.05,1.48,of all dTLB cache hits
+186537770815,,iTLB-loads,223395297840,54.05,,
+636215292,,iTLB-load-misses,223386398960,54.04,0.34,of all iTLB cache hits
+585572592,,dtlb_walk,223112564440,53.98,,
+53707057,,itlb_walk,223089395070,53.97,,
+16781818,,context-switches,376928998260,100.00,,
+96,,cpu-migrations,376928989780,100.00,,
+3514299,,page-faults,376928963240,100.00,,
+216493143975,,mem_access,223128903420,53.98,,
+1076582234,,remote_access,223095855600,53.97,,
+629572798794,,instructions,223349936470,54.04,0.89,insn per cycle
+,,,,,0.50,stalled cycles per insn
+1601133148,,branch-misses,223408528390,54.05,,
+714691670376,,bus-cycles,223459012500,54.06,,
+3505780230,,cache-misses,223456225200,54.06,1.616,of all cache refs
+216994323315,,cache-references,206450915340,49.95,,
+316482749892,,stalled-cycles-backend,206159788220,49.88,44.62,backend cycles idle
+158048979514,,stalled-cycles-frontend,206121362760,49.87,22.28,frontend cycles idle
+0,,alignment-faults,376928790550,100.00,,
+0,,major-faults,376928768010,100.00,,
+3514297,,minor-faults,376928755070,100.00,,
+131396498787,,branch-loads,206396502700,49.93,,
+1596055742,,branch-load-misses,206356306670,49.92,,
+216152241281,,L1-dcache-loads,206574781630,49.98,,
+3502473697,,L1-dcache-load-misses,206526768330,49.97,1.62,of all L1-dcache hits
+186565378938,,L1-icache-loads,206212930560,49.89,,
+4962967375,,L1-icache-load-misses,206329344380,49.92,2.66,of all L1-icache hits
+0,,memory_error,206575107900,49.98,,
+1052904430,,remote_access_rd,206557286150,49.97,,
+Execution Time (seconds): 274
+****success****
