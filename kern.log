@@ -14354,3 +14354,8 @@ Jul 30 16:23:15 ubuntu kernel: [ 1022.699054] perf: interrupt took too long (720
 Jul 30 16:23:21 ubuntu kernel: [ 1029.323365] perf: interrupt took too long (9422 > 9008), lowering kernel.perf_event_max_sample_rate to 21000
 Jul 30 16:23:33 ubuntu kernel: [ 1040.934074] perf: interrupt took too long (11854 > 11777), lowering kernel.perf_event_max_sample_rate to 16750
 Jul 30 16:23:54 ubuntu kernel: [ 1061.586013] perf: interrupt took too long (14885 > 14817), lowering kernel.perf_event_max_sample_rate to 13250
+Jul 30 16:29:21 ubuntu kernel: [ 1388.728132] Page table allocation set to normal behavior
+Jul 30 16:29:21 ubuntu kernel: [ 1388.736815] PROCFS: Command ot drain the pgtable cache
+Jul 30 16:29:31 ubuntu kernel: [ 1399.038414] [mitosis] PTREPL: free pgd start 
+Jul 30 16:29:31 ubuntu kernel: [ 1399.038419] [mitosis] pgtable_repl_pgd_free freed pgd=ffff0026a1974000 and mm->pgd=ffff0026a1974000.
+Jul 30 16:29:31 ubuntu kernel: [ 1399.038421] [mitosis]------PTREPL: free pgd done------

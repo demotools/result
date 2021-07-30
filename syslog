@@ -15160,3 +15160,40 @@ Execution Time (seconds): 102
 ****success****
 graph500 : FM completed.
 current = 2021-07-30 16:24:45
+Jul 30 16:28:27 ubuntu systemd-resolved[2217]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 8.8.8.8.
+Start test round: 1
+Jul 30 16:29:21 ubuntu kernel: [ 1388.728132] Page table allocation set to normal behavior
+Jul 30 16:29:21 ubuntu kernel: [ 1388.736815] PROCFS: Command ot drain the pgtable cache
+[0mWaiting for benchmark: 7366 to be ready
+Jul 30 16:29:31 ubuntu kernel: [ 1399.038414] [mitosis] PTREPL: free pgd start 
+Jul 30 16:29:31 ubuntu kernel: [ 1399.038419] [mitosis] pgtable_repl_pgd_free freed pgd=ffff0026a1974000 and mm->pgd=ffff0026a1974000.
+Jul 30 16:29:31 ubuntu kernel: [ 1399.038421] [mitosis]------PTREPL: free pgd done------
+[0mWaiting for benchmark to be done current :2021-07-30 16:34:17
+/home/huawei/result/bin/bench_graph500_mt -- -s 27 -e 21 
+<benchmark exec="/home/huawei/result/bin/bench_graph500_mt">
+<config>
+  <openmp>on</openmp>  <memsize>1G <memsize>  <hugetlb>0</hugetlb>
+  <data>-1</data>  <interference>0</interference>
+</config>
+<run>
+Graph500 with scale 0
+allocate edges
+Allocating 21504 MB
+Allocate Graph: xoff
+Allocating 2048 MB
+Allocate Graph: vlist
+Allocating 1023 MB
+Allocating 16 MB
+Allocating 16 MB
+alloc: xadjstore
+Allocating 44150 MB
+Allocate bfs_tree
+Allocating 1024 MB
+Allocate has_adj
+Allocating 512 MB
+==============================================
+Allocating 2047 MB
+Execution Time (seconds): 59
+****success****
+graph500 : F completed.
+current = 2021-07-30 16:35:20
