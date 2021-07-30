@@ -160,7 +160,7 @@ test_and_set_configs()
         # --- check page table replication
         LAST_CHAR="${CURR_CONFIG: -1}"
         if [ $LAST_CHAR == "M" ]; then
-                CMD_PREFIX+=" --pgtablerepl=$NODE_MAX "
+                # CMD_PREFIX+=" --pgtablerepl=$NODE_MAX "
                 echo 0 | sudo tee /proc/sys/kernel/pgtable_replication > /dev/null
                 if [ $? -ne 0 ]; then
                         echo "ERROR setting pgtable_replication to $0"
@@ -227,13 +227,19 @@ launch_benchmark_config()
 	echo $LAUNCH_CMD >> $OUTFILE
 	$LAUNCH_CMD >> /var/log/syslog & #> /dev/null 2>&1 &
 	BENCHMARK_PID=$!
-        $AUTOCONFIG $BENCHMARK_PID > /home/huawei/result/autoconfig.log 2>&1 &
-        AUTOCONFIG_PID=$!
+        LAST_CHAR=${CONFIG: -1}
+        if [ $LAST_CHAR == "M" ]; then
+                $AUTOCONFIG $BENCHMARK_PID > /home/huawei/result/autoconfig.log 2>&1 &
+                AUTOCONFIG_PID=$!
+        fi
         echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready"
 	echo -e "\e[0mWaiting for benchmark: $BENCHMARK_PID to be ready" >> /var/log/syslog
 	while [ ! -f /tmp/alloctest-bench.ready ]; do
 		sleep 0.1
 	done
+        if [ $LAST_CHAR == "M" ]; then
+                kill $AUTOCONFIG_PID &> /dev/null
+        fi
 	SECONDS=0
 	$PERF stat -x, -o $OUTFILE --append -e $PERF_EVENTS -p $BENCHMARK_PID &
 	PERF_PID=$!
