@@ -17,11 +17,11 @@ ROOT=$(dirname `readlink -f "$0"`)
 #source $ROOT/site_config.sh
 
 # List of all benchmarks to run
-BENCHMARKS="memcached xsbench graph500 hashjoin btree canneal"
+#BENCHMARKS="memcached xsbench graph500 hashjoin btree canneal"
 #BENCHMARKS="btree hashjoin"
 #BENCHMARKS="hashjoin btree canneal"
 #BENCHMARKS="hashjoin"
-#BENCHMARKS="canneal"
+BENCHMARKS="canneal"
 #BENCHMARKS="xsbench"
 #BENCHMARKS="graph500"
 #BENCHMARKS="btree"
@@ -29,14 +29,14 @@ BENCHMARKS="memcached xsbench graph500 hashjoin btree canneal"
 # List of all configs to run
 #CONFIGS="F FM FA FAM I IM"
 #CONFIGS="F"
-#CONFIGS="FM"
+CONFIGS="FM"
 #CONFIGS="I"
 #CONFIGS="IM"
 #CONFIGS="F FM I IM"
-CONFIGS="F FM"
+#CONFIGS="F FM"
 #CONFIGS="I IM"
 
-for RUNTIMES in $(seq 3) 
+for RUNTIMES in $(seq 1) 
 do
 	echo "Start test round: $RUNTIMES"
 	echo "Start test round: $RUNTIMES" >> /var/log/syslog 
