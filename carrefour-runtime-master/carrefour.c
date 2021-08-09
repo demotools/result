@@ -725,6 +725,16 @@ static void thread_loop() {
       {
          printf("we should start pgtrpl !!");
          sys_set_ptr_start(obj_pid);
+         for(i = 0; i < nb_nodes; i++) {
+           for (j = 0; j < nb_events; j++) {
+              close(fd[i*nb_events + j]); 
+           }  
+         }
+         free(rr_nodes);
+         free(maptu_nodes);
+         free(aggregate_dram_accesses_to_node);
+         free(lar_node);
+         free(ipc_node);
          break;
       }
       
