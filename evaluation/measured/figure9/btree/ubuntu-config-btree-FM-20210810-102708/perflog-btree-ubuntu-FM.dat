@@ -1,0 +1,1 @@
+/home/huawei/result/bin/numactl /home/huawei/result/bin/bench_btree_mt -- -n 1600000000 -l 18000000000 -o 4
