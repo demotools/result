@@ -1,0 +1,17 @@
+/home/huawei/result/bin/numactl --interleave=all /home/huawei/result/bin/bench_graph500_mt -- -s 27 -e 21
+# started on Tue Aug 10 12:37:09 2021
+
+5172033304594,,cycles,1991464681530,100.00,,
+123631545991,,dTLB-loads,1991464408690,100.00,,
+12421824947,,dTLB-load-misses,1991464166400,100.00,10.05,of all dTLB cache hits
+31092914397,,iTLB-loads,1991463925470,100.00,,
+826813,,iTLB-load-misses,1991463682790,100.00,0.00,of all iTLB cache hits
+11658985362,,dtlb_walk,1991463445550,100.00,,
+1684738,,itlb_walk,1991463203050,100.00,,
+15408,,context-switches,1991677528540,100.00,,
+69,,cpu-migrations,1991677266670,100.00,,
+524290,,page-faults,1991677030530,100.00,,
+40738196517,,mem_access,1991462313390,100.00,,
+6376061471,,remote_access,1991461918690,100.00,,
+Execution Time (seconds): 25
+****success****

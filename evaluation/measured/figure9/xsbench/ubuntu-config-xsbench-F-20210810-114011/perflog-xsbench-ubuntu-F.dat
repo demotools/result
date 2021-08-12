@@ -1,0 +1,17 @@
+/home/huawei/result/bin/numactl /home/huawei/result/bin/bench_xsbench_mt -- -p 15000000 -g 170000
+# started on Tue Aug 10 11:42:13 2021
+
+170232284603343,,cycles,65475754122920,100.00,,
+1346365747752,,dTLB-loads,65475675925170,100.00,,
+46238923959,,dTLB-load-misses,65475603992430,100.00,3.43,of all dTLB cache hits
+273012614212,,iTLB-loads,65475534251690,100.00,,
+21211089,,iTLB-load-misses,65475465801820,100.00,0.01,of all iTLB cache hits
+37159870958,,dtlb_walk,65475200702940,100.00,,
+50356449,,itlb_walk,65474114286830,100.00,,
+452527,,context-switches,65474958403110,100.00,,
+59,,cpu-migrations,65474899356790,100.00,,
+0,,page-faults,65474843205660,100.00,,
+713113949264,,mem_access,65473852972240,100.00,,
+49006648201,,remote_access,65473772101640,100.00,,
+Execution Time (seconds): 683
+****success****

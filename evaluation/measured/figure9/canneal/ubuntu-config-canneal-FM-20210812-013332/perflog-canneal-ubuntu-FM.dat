@@ -1,0 +1,17 @@
+/home/huawei/result/bin/numactl /home/huawei/result/bin/bench_canneal_mt -- 96 150000 2000 /home/huawei/gitclone/datasets/canneal_80G 500
+# started on Thu Aug 12 03:38:50 2021
+
+1657179655958,,cycles,751847332170,100.00,,
+23399813661,,dTLB-loads,751847275290,100.00,,
+3377340051,,dTLB-load-misses,751838091710,100.00,14.43,of all dTLB cache hits
+15111947081,,iTLB-loads,751725497790,100.00,,
+354214,,iTLB-load-misses,751562399680,100.00,0.00,of all iTLB cache hits
+1540420096,,dtlb_walk,751400681750,100.00,,
+1329488,,itlb_walk,751232596070,100.00,,
+54051,,context-switches,751054319380,100.00,,
+1320,,cpu-migrations,750927538570,100.00,,
+25,,page-faults,750807823700,100.00,,
+13993104549,,mem_access,750668028060,100.00,,
+1242506855,,remote_access,750561829370,100.00,,
+Execution Time (seconds): 11
+****success****
